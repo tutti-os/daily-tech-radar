@@ -5,7 +5,7 @@ describe("DailyTechRadarClient", () => {
   it("uses the built-in GitHub raw base URL", () => {
     const client = new DailyTechRadarClient();
     expect(DEFAULT_BASE_URL).toBe(
-      "https://raw.githubusercontent.com/nextop-os/daily-tech-radar/main/data"
+      "https://raw.githubusercontent.com/tutti-os/daily-tech-radar/main/data"
     );
     expect(client.baseUrl).toBe(DEFAULT_BASE_URL);
   });

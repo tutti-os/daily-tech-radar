@@ -1,5 +1,5 @@
 {
-  "name": "@nextop-os/daily-tech-radar-generator",
+  "name": "@tutti-os/daily-tech-radar-generator",
   "version": "0.1.0",
   "private": true,
   "type": "module",
@@ -24,4 +24,3 @@
     "tsx": "^4.19.2"
   }
 }
-

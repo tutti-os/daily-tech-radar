@@ -1,6 +1,6 @@
 # Daily Tech Radar 数据契约
 
-`daily-tech-radar` 是 `nextop-os` 下的每日科技趋势数据仓库。当前 v0 已经跑通 Product Hunt 和 GitHub Trending 的每日 JSON 产出，并提供 JS/TS SDK。
+`daily-tech-radar` 是 `tutti-os` 下的每日科技趋势数据仓库。当前 v0 已经跑通 Product Hunt 和 GitHub Trending 的每日 JSON 产出，并提供 JS/TS SDK。
 
 ## 当前输出
 
@@ -82,19 +82,19 @@ Agnes GitHub 封面应根据仓库语义选择合适构图，例如流程图、�
 npm 包名：
 
 ```txt
-@nextop-os/daily-tech-radar
+@tutti-os/daily-tech-radar
 ```
 
 SDK 内置默认数据源：
 
 ```txt
-https://raw.githubusercontent.com/nextop-os/daily-tech-radar/main/data
+https://raw.githubusercontent.com/tutti-os/daily-tech-radar/main/data
 ```
 
 类接口：
 
 ```ts
-import { DailyTechRadarClient } from "@nextop-os/daily-tech-radar";
+import { DailyTechRadarClient } from "@tutti-os/daily-tech-radar";
 
 const client = new DailyTechRadarClient();
 

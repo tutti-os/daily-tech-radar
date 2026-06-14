@@ -6,7 +6,7 @@
   "packageManager": "pnpm@10.33.0",
   "scripts": {
     "build": "pnpm -r build",
-    "generate": "pnpm --filter @nextop-os/daily-tech-radar-generator generate",
+    "generate": "pnpm --filter @tutti-os/daily-tech-radar-generator generate",
     "lint": "pnpm -r typecheck",
     "test": "pnpm -r test",
     "typecheck": "pnpm -r typecheck"
