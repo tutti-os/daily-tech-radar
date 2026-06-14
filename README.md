@@ -1,5 +1,15 @@
 # Daily Tech Radar
 
+<p align="center">
+  <a href="#local-development">Local Development</a>
+  ·
+  <a href="./LICENSE">License</a>
+</p>
+
+<p align="center">
+  <a href="./LICENSE"><img alt="License: Apache-2.0" src="https://img.shields.io/badge/license-Apache--2.0-blue" /></a>
+</p>
+
 Daily Tech Radar publishes render-ready daily trend data for Product Hunt first,
 then GitHub Trending. It writes bilingual JSON files and ships a small JS/TS SDK
 for consumers.
@@ -52,3 +62,7 @@ GitHub avatar fallback for missing visuals so local and CI runs stay stable.
 Do not commit real tokens. Product Hunt commercial usage may require Product
 Hunt approval; check Product Hunt's current API terms before using this data in
 a commercial product.
+
+## License
+
+Daily Tech Radar is licensed under the [Apache License 2.0](./LICENSE).
