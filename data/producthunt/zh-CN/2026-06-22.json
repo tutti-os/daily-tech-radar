@@ -4,24 +4,85 @@
   "locale": "zh-CN",
   "date": "2026-06-22",
   "sourceTimezone": "UTC",
-  "generatedAt": "2026-06-23T04:22:57.574Z",
+  "generatedAt": "2026-06-23T21:50:16.183Z",
   "items": [
     {
       "rank": 1,
-      "id": "1162357",
-      "name": "Skybridge",
-      "tagline": "面向 MCP 应用的开源全栈 React 框架",
-      "description": "MCP 应用是新一代网站：它们是运行在 ChatGPT 和 Claude 等 AI 助手内的真实交互式应用。由于缺乏构建工具，我们开发了 Skybridge。这是一个 React 框架，处理基础设施和开发流程，让你专注于功能开发：MCP 服务器、视图渲染、客户端兼容性、测试隧道等。代码一次编写，随处部署。已获 50 万次以上下载！",
+      "id": "1177141",
+      "name": "AgentX",
+      "tagline": "评估AI智能体，精准定位问题，一键修复",
+      "description": "在AI智能体上线前进行严格评估。创建测试套件，运行评估并提前发现潜在问题。AgentX为AI智能体提供完整的可观测性和追溯能力。其AI分析不仅能识别问题，还能像“AI医生”一样建议修复方案。支持跨多个LLM提供商模拟运行，对比性能、成本和延迟，帮助您做出更优决策。部署前请先进行评估，就像AI智能体的CI/CD流程。",
       "keywords": [
-        "React",
-        "MCP",
-        "开源",
-        "AI应用",
-        "框架"
+        "AI智能体",
+        "评估工具",
+        "可观测性",
+        "大模型测试"
       ],
       "metrics": {
-        "votes": 466,
-        "comments": 117
+        "votes": 553,
+        "comments": 174
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/MAKIXB6C4DMJG6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/agentx?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/3569abf9-5c75-44f2-8b6e-d7af7caaad97.gif?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/3569abf9-5c75-44f2-8b6e-d7af7caaad97.gif?auto=format",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/c0274766-9f1d-41a3-8e28-486a5fd306c5.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/77d4ae3b-e152-4827-92a6-eb0c61852279.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/b9603998-119a-4cb7-8515-8d16a7d96ca2.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/5e5198cc-1cef-493b-9cfb-7da6832c10cd.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/0628a3a3-fd4d-4100-9c1e-7bcc954c0b6a.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/3499f1d3-208c-46b0-a2ac-33fcd3f229f7.jpeg?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "agentx-4",
+        "featuredAt": "2026-06-22T07:01:00Z",
+        "createdAt": "2026-06-22T07:01:00Z"
+      }
+    },
+    {
+      "rank": 2,
+      "id": "1162357",
+      "name": "Skybridge",
+      "tagline": "构建MCP应用的全栈开源React框架",
+      "description": "MCP应用是新一代网站：它们是真实、交互式的App，直接运行在ChatGPT和Claude等AI助手内部。由于缺乏相应的开发工具，我们创造了它。Skybridge是一个React框架，处理基础设施和开发循环，让您专注于功能开发：包括MCP服务器、视图渲染、客户端兼容性、测试隧道等。一次编码，处处部署。下载量已超50万，数十款应用已在商店上线！",
+      "keywords": [
+        "MCP协议",
+        "React框架",
+        "开源项目",
+        "AI应用开发"
+      ],
+      "metrics": {
+        "votes": 533,
+        "comments": 165
       },
       "links": {
         "homepage": "https://www.producthunt.com/r/WYDUMMA2RJODS7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
@@ -75,147 +136,20 @@
       }
     },
     {
-      "rank": 2,
-      "id": "1177141",
-      "name": "AgentX",
-      "tagline": "评估 AI 智能体，定位问题，一键修复",
-      "description": "在 AI 智能体失败前进行评估。创建测试套件，运行评估，在问题进入生产环境前精准定位。AgentX 提供全面的可观测性和可追溯性。AI 分析不仅识别问题，还建议修复方案——就像你智能体的 AI 医生。模拟跨多个 LLM 提供商运行智能体以比较性能、成本和延迟，帮助你做出更好的决策。像 CI/CD 一样为 AI 智能体运行评估。",
-      "keywords": [
-        "AI智能体",
-        "评估",
-        "可观测性",
-        "大语言模型",
-        "测试"
-      ],
-      "metrics": {
-        "votes": 413,
-        "comments": 142
-      },
-      "links": {
-        "homepage": "https://www.producthunt.com/r/MAKIXB6C4DMJG6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
-        "source": "https://www.producthunt.com/products/agentx?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
-      },
-      "assets": {
-        "icon": "https://ph-files.imgix.net/3569abf9-5c75-44f2-8b6e-d7af7caaad97.gif?auto=format",
-        "thumbnail": "https://ph-files.imgix.net/3569abf9-5c75-44f2-8b6e-d7af7caaad97.gif?auto=format",
-        "media": [
-          {
-            "type": "image",
-            "url": "https://ph-files.imgix.net/c0274766-9f1d-41a3-8e28-486a5fd306c5.jpeg?auto=format",
-            "videoUrl": null
-          },
-          {
-            "type": "image",
-            "url": "https://ph-files.imgix.net/77d4ae3b-e152-4827-92a6-eb0c61852279.jpeg?auto=format",
-            "videoUrl": null
-          },
-          {
-            "type": "image",
-            "url": "https://ph-files.imgix.net/b9603998-119a-4cb7-8515-8d16a7d96ca2.jpeg?auto=format",
-            "videoUrl": null
-          },
-          {
-            "type": "image",
-            "url": "https://ph-files.imgix.net/5e5198cc-1cef-493b-9cfb-7da6832c10cd.jpeg?auto=format",
-            "videoUrl": null
-          },
-          {
-            "type": "image",
-            "url": "https://ph-files.imgix.net/0628a3a3-fd4d-4100-9c1e-7bcc954c0b6a.jpeg?auto=format",
-            "videoUrl": null
-          },
-          {
-            "type": "video",
-            "url": "https://ph-files.imgix.net/3499f1d3-208c-46b0-a2ac-33fcd3f229f7.jpeg?auto=format",
-            "videoUrl": null
-          }
-        ]
-      },
-      "raw": {
-        "slug": "agentx-4",
-        "featuredAt": "2026-06-22T07:01:00Z",
-        "createdAt": "2026-06-22T07:01:00Z"
-      }
-    },
-    {
       "rank": 3,
-      "id": "1176880",
-      "name": "Alai 2.0",
-      "tagline": "演示文稿和社交帖子的 AI 设计伙伴",
-      "description": "Alai 将品牌的所有细节捕捉到设计系统中。使用它创建演示文稿、社交媒体素材、广告或任何画布尺寸的内容，所有输出都完美符合品牌调性。可以手动或通过 AI 进行精确编辑。并选择自己的 AI 模型以平衡成本、质量和延迟。",
-      "keywords": [
-        "设计系统",
-        "演示文稿",
-        "社交媒体",
-        "品牌标识",
-        "AI设计"
-      ],
-      "metrics": {
-        "votes": 271,
-        "comments": 51
-      },
-      "links": {
-        "homepage": "https://www.producthunt.com/r/FXYXCM6UIMQ5YE?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
-        "source": "https://www.producthunt.com/products/alai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
-      },
-      "assets": {
-        "icon": "https://ph-files.imgix.net/154efba0-d61f-4be9-a054-a0573d18fadf.png?auto=format",
-        "thumbnail": "https://ph-files.imgix.net/154efba0-d61f-4be9-a054-a0573d18fadf.png?auto=format",
-        "media": [
-          {
-            "type": "image",
-            "url": "https://ph-files.imgix.net/26040a99-e996-4534-9d76-a040da88cacd.png?auto=format",
-            "videoUrl": null
-          },
-          {
-            "type": "image",
-            "url": "https://ph-files.imgix.net/9ec2afdc-1166-4a94-ae8e-3761909e1f8e.png?auto=format",
-            "videoUrl": null
-          },
-          {
-            "type": "image",
-            "url": "https://ph-files.imgix.net/0e37f399-ba4d-413a-baab-ef3929d9a872.png?auto=format",
-            "videoUrl": null
-          },
-          {
-            "type": "image",
-            "url": "https://ph-files.imgix.net/80c393b2-9833-4558-aea0-a6c061253a08.png?auto=format",
-            "videoUrl": null
-          },
-          {
-            "type": "image",
-            "url": "https://ph-files.imgix.net/2a159b69-914e-4464-81c1-2e92fbaff6b1.png?auto=format",
-            "videoUrl": null
-          },
-          {
-            "type": "video",
-            "url": "https://ph-files.imgix.net/1a35980e-2e81-4ec3-941b-a033cb736a83.jpeg?auto=format",
-            "videoUrl": null
-          }
-        ]
-      },
-      "raw": {
-        "slug": "alai-2-0",
-        "featuredAt": "2026-06-22T07:01:00Z",
-        "createdAt": "2026-06-22T07:01:00Z"
-      }
-    },
-    {
-      "rank": 4,
       "id": "1086254",
       "name": "HAQQ Legal AI on Mobile",
-      "tagline": "让法律理解触手可及",
-      "description": "我们构建了 HAQQ，因为理解法律情境不应取决于人脉或支付律师费的能力。今天，HAQQ Legal AI 已登陆移动端。上传合同，提出法律问题，获得结构化、符合司法管辖区的法律工作，带有风险标记和可导出结果。这不是通用聊天，而是由 Justinian® 驱动的法律推理。无论身在何处，都能清楚了解自己的立场。",
+      "tagline": "让每个人都能通过手机获得法律理解",
+      "description": "我们开发HAQQ是因为理解法律处境不应取决于人脉或支付律师费的能力。如今，HAQQ Legal AI已登陆移动端。上传合同，提出法律问题，获取结构化、符合司法管辖区的法律工作成果，包含风险标记和可导出结果。这不是通用聊天，而是由Justinian®驱动的法律推理。无论身在何处，都能清楚了解自己的法律立场。",
       "keywords": [
-        "法律科技",
-        "移动AI",
+        "法律AI",
+        "移动应用",
         "合同分析",
-        "法律",
-        "风险评估"
+        "法律科技"
       ],
       "metrics": {
-        "votes": 252,
-        "comments": 8
+        "votes": 305,
+        "comments": 19
       },
       "links": {
         "homepage": "https://www.producthunt.com/r/ICAKRVUKEN25TG?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
@@ -269,21 +203,82 @@
       }
     },
     {
+      "rank": 4,
+      "id": "1176880",
+      "name": "Alai 2.0",
+      "tagline": "演示文稿、社交媒体帖子的AI设计伙伴",
+      "description": "Alai将您品牌的每一个细节捕捉到设计系统中。利用它创建演示文稿、社交媒体素材、广告或任何尺寸的画布，确保完美符合品牌调性。您可以手动或通过AI进行精确编辑，并自主选择AI模型以平衡成本、质量和延迟。",
+      "keywords": [
+        "AI设计",
+        "品牌管理",
+        "演示工具",
+        "社交媒体素材"
+      ],
+      "metrics": {
+        "votes": 300,
+        "comments": 56
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/FXYXCM6UIMQ5YE?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/alai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/154efba0-d61f-4be9-a054-a0573d18fadf.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/154efba0-d61f-4be9-a054-a0573d18fadf.png?auto=format",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/26040a99-e996-4534-9d76-a040da88cacd.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/9ec2afdc-1166-4a94-ae8e-3761909e1f8e.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/0e37f399-ba4d-413a-baab-ef3929d9a872.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/80c393b2-9833-4558-aea0-a6c061253a08.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/2a159b69-914e-4464-81c1-2e92fbaff6b1.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/1a35980e-2e81-4ec3-941b-a033cb736a83.jpeg?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "alai-2-0",
+        "featuredAt": "2026-06-22T07:01:00Z",
+        "createdAt": "2026-06-22T07:01:00Z"
+      }
+    },
+    {
       "rank": 5,
       "id": "1169990",
       "name": "readywhen",
-      "tagline": "你的 24/7 AI 首席幕僚，负责承诺与跟进",
-      "description": "团队的工作存在于项目管理工具和 CRM 中，而高管的工作则分散各处。readywhen 捕获 Slack、电子邮件、会议和文档中的每一个决策和承诺。无需询问，它会自动起草下一步所需内容：简报、邮件回复、更新。你只需批准。就像拥有自己的首席幕僚，全天候待命。",
+      "tagline": "您的24/7 AI幕僚长，负责承诺与跟进",
+      "description": "团队的工作存在于项目管理工具和CRM中，而高管的工作却分散各处。readywhen能捕获Slack、邮件、会议和文档中的每一个决策和承诺。无需询问，它会自动起草下一步所需的内容：简报、邮件回复、更新报告。您只需审批即可。就像拥有自己的24/7幕僚长。",
       "keywords": [
-        "生产力",
+        "效率工具",
         "行政助理",
         "工作流自动化",
-        "Slack集成",
-        "任务管理"
+        "AI副驾驶"
       ],
       "metrics": {
-        "votes": 215,
-        "comments": 46
+        "votes": 241,
+        "comments": 60
       },
       "links": {
         "homepage": "https://www.producthunt.com/r/STOAZFU5CH6INJ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
@@ -346,16 +341,15 @@
       "id": "1177735",
       "name": "Cloudflare Temporary Accounts",
       "tagline": "让智能体在注册前即可部署",
-      "description": "当智能体需要部署某些内容时，通常会撞上一堵为人类建造的墙。今天，我们在 Cloudflare Workers 上推出临时账户。任何智能体现在都可以运行 wrangler deploy —— 获取临时权限并在几秒钟内获得一个实时 Worker。",
+      "description": "当智能体需要部署某些内容时，往往会撞上一堵为人类设计的墙。今天，我们在Cloudflare Workers上推出临时账户功能。任何智能体现在都可以运行wrangler deploy命令，获取临时凭证，并在几秒钟内获得一个正在运行的Worker。",
       "keywords": [
         "Cloudflare",
         "无服务器",
         "AI智能体",
-        "部署",
-        "开发者工具"
+        "部署工具"
       ],
       "metrics": {
-        "votes": 164,
+        "votes": 181,
         "comments": 8
       },
       "links": {
@@ -408,18 +402,17 @@
       "rank": 7,
       "id": "1173104",
       "name": "uwait",
-      "tagline": "在 AI 思考时赚钱",
-      "description": "每次你使用 ChatGPT 或 Claude 时，都需要等待。通常是 3 到 8 秒。这就是 uwait 的理念。这是一个 Chrome 扩展程序，在加载屏幕期间显示精选广告。用户获得一小部分收益，训练 AI 的出版商也获得一部分。广告商在你真正关注的时候获得注意力。分配比例：50% 给用户，30% 给出版商，20% 给我们。我们对广告主很挑剔，只选择符合该语境的知名品牌。",
+      "tagline": "在AI思考时赚钱",
+      "description": "每次使用ChatGPT或Claude时，您都需要等待，通常3到8秒。这就是uwait的理念。这是一个Chrome扩展程序，在加载屏幕期间展示精选广告。您获得一小部分收益，训练AI的出版商也获得分成。广告商则在这一用户注意力集中的时刻获得曝光。分成比例为：用户50%，出版商30%，我们20%。我们对广告主非常挑剔，只选择符合上下文的知名品牌。",
       "keywords": [
-        "Chrome扩展",
+        "浏览器插件",
         "被动收入",
         "广告技术",
-        "用户奖励",
-        "AI等待时间"
+        "AI变现"
       ],
       "metrics": {
-        "votes": 162,
-        "comments": 34
+        "votes": 174,
+        "comments": 40
       },
       "links": {
         "homepage": "https://www.producthunt.com/r/ET2VD6UMZ3BTIB?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
@@ -454,98 +447,19 @@
     },
     {
       "rank": 8,
-      "id": "1135009",
-      "name": "AirJelly",
-      "tagline": "你主动的、自组织的第二大脑",
-      "description": "AirJelly 是一个始终在线的桌面 AI 智能体，主动捕捉你的意图，组织任务并完成工作。通过观察你的屏幕活动，它知道你是谁以及你在做什么。它不仅发现你的待办事项——还能预见下一步并行动。它还跟踪你的个人互动，这样你就永远不会错过跟进或忘记承诺。AirJelly 管理你生活中的一切——释放你的时间去做 AI 无法做到的事情，或者仅仅是为了享受。",
-      "keywords": [
-        "第二大脑",
-        "桌面AI",
-        "任务自动化",
-        "生产力",
-        "意图识别"
-      ],
-      "metrics": {
-        "votes": 132,
-        "comments": 9
-      },
-      "links": {
-        "homepage": "https://www.producthunt.com/r/PMQKFXXQ5WQB2C?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
-        "source": "https://www.producthunt.com/products/airjelly?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
-      },
-      "assets": {
-        "icon": "https://ph-files.imgix.net/4958e60d-f7c3-4de3-81d0-66e62d85892c.png?auto=format",
-        "thumbnail": "https://ph-files.imgix.net/4958e60d-f7c3-4de3-81d0-66e62d85892c.png?auto=format",
-        "media": [
-          {
-            "type": "video",
-            "url": "https://ph-files.imgix.net/ad21d0ca-98c9-4f34-9604-10fd3925070c.jpeg?auto=format",
-            "videoUrl": null
-          },
-          {
-            "type": "image",
-            "url": "https://ph-files.imgix.net/d6389614-0e06-4bd1-a708-a50a964e4443.png?auto=format",
-            "videoUrl": null
-          },
-          {
-            "type": "image",
-            "url": "https://ph-files.imgix.net/de1072e0-df70-4dbb-aebb-b69425f47dd3.png?auto=format",
-            "videoUrl": null
-          },
-          {
-            "type": "image",
-            "url": "https://ph-files.imgix.net/099feec0-993f-4eb9-879f-516422a96a41.png?auto=format",
-            "videoUrl": null
-          },
-          {
-            "type": "image",
-            "url": "https://ph-files.imgix.net/0c47263d-ca01-4102-98a2-ccd4da59b8ee.png?auto=format",
-            "videoUrl": null
-          },
-          {
-            "type": "image",
-            "url": "https://ph-files.imgix.net/12efae8a-a9c0-4e69-a835-609eb8ae1dd1.png?auto=format",
-            "videoUrl": null
-          },
-          {
-            "type": "image",
-            "url": "https://ph-files.imgix.net/d8529c31-8b20-407a-b925-74a9bf2597cf.png?auto=format",
-            "videoUrl": null
-          },
-          {
-            "type": "image",
-            "url": "https://ph-files.imgix.net/0d98b14e-3c1e-4422-a05f-5ac7170e34e2.png?auto=format",
-            "videoUrl": null
-          },
-          {
-            "type": "image",
-            "url": "https://ph-files.imgix.net/69913f2f-b5d2-48bb-9bd7-0d7dd29d9a0a.png?auto=format",
-            "videoUrl": null
-          }
-        ]
-      },
-      "raw": {
-        "slug": "airjelly",
-        "featuredAt": "2026-06-22T07:01:00Z",
-        "createdAt": "2026-06-22T07:01:00Z"
-      }
-    },
-    {
-      "rank": 9,
       "id": "1177680",
       "name": "MediaSeg",
-      "tagline": "在 macOS 上将大型媒体文件拆分为可上传的块",
-      "description": "MediaSeg 是一个本地 macOS 实用程序，在保持质量的同时将大型媒体文件拆分为可上传的块。它完全由 AI 辅助制作和导演，从想法到公开发布仅用了 2 天。最初是为了简化长录音的上传准备，MediaSeg 对 NotebookLM 和其他有大小限制的上传目的地非常有用。",
+      "tagline": "在macOS上将大型媒体文件拆分为可上传的分块",
+      "description": "MediaSeg是一款本地macOS实用工具，可在保持质量的同时将大型媒体文件拆分为适合上传的分块。它完全由AI辅助制作和导演，从构思到公开发布仅耗时2天。最初旨在简化长录音的上传准备，MediaSeg对于NotebookLM及其他有大小限制的上传目的地非常有用。",
       "keywords": [
         "macOS工具",
         "文件拆分",
         "媒体处理",
-        "上传优化",
-        "本地AI"
+        "AI生成工具"
       ],
       "metrics": {
-        "votes": 123,
-        "comments": 19
+        "votes": 130,
+        "comments": 26
       },
       "links": {
         "homepage": "https://www.producthunt.com/r/CDZ6CXPO4JXUDC?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
@@ -584,21 +498,20 @@
       }
     },
     {
-      "rank": 10,
+      "rank": 9,
       "id": "1174174",
       "name": "Clawd",
-      "tagline": "具有 100% 本地离线 AI 的上下文感知浏览器吉祥物",
-      "description": "认识 Clawd，这个上下文感知的浏览器宠物，真正理解你的氛围。Clawd 爬取你的屏幕，对网站情绪做出反应，并升级以解锁 140 多种动画。他不仅仅是一个吉祥物。使用新的语音启用聊天功能，用自定义人格（如讽刺、Z世代）与他交谈，支持 Markdown 和文本转语音！最重要的是？它是 100% 离线的且注重隐私。你的数据永远不会离开你的机器。Clawd 是你终极的浏览伴侣！",
+      "tagline": "具备上下文感知能力的浏览器吉祥物，100%本地离线AI",
+      "description": "认识Clawd，这个真正懂你风格的上下文感知浏览器宠物。Clawd会浏览你的屏幕，对网站情绪做出反应，并通过解锁140多种动画来升级。它不仅是吉祥物，还支持新的语音聊天功能，可以用自定义人设（如讽刺、Z世代）与他交谈，支持Markdown和文本转语音！最重要的是，它100%离线且注重隐私，数据永不离开您的设备。Clawd是您终极的浏览伴侣！",
       "keywords": [
-        "浏览器扩展",
+        "浏览器插件",
         "隐私优先",
         "离线AI",
-        "聊天机器人",
-        "桌面伴侣"
+        "虚拟宠物"
       ],
       "metrics": {
-        "votes": 116,
-        "comments": 16
+        "votes": 126,
+        "comments": 17
       },
       "links": {
         "homepage": "https://www.producthunt.com/r/YMDF4CNQMIWJYC?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
@@ -637,21 +550,77 @@
       }
     },
     {
+      "rank": 10,
+      "id": "1177821",
+      "name": "MD+HTML Reader",
+      "tagline": "在专注的工作区中审查AI生成的Markdown和HTML",
+      "description": "AI编程工具会产生有用的文档，但审查它们可能会变得混乱。一个任务可能导致计划、API笔记、QA清单、交接文档、图表和HTML预览散落在项目文件夹中，被源代码、构建、日志和依赖项淹没。MD+HTML Reader为您提供了一个专注的macOS工作区，以便在下一次提示、提交或交接之前，以只读模式审查生成的Markdown和HTML。",
+      "keywords": [
+        "开发者工具",
+        "代码审查",
+        "Markdown查看器",
+        "效率工具"
+      ],
+      "metrics": {
+        "votes": 117,
+        "comments": 19
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/KENNVT4AGFQKXV?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/md-html-reader?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/af81e35d-4150-43f0-98f8-10aaad725fda.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/af81e35d-4150-43f0-98f8-10aaad725fda.png?auto=format",
+        "media": [
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/b7d06897-3379-49f0-bc5a-f07879b00111.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/31c9afd9-6806-4a4f-8dcc-4df0624723f6.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/ed4b16e6-d276-4ad1-aa68-5b7c525c5569.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/dacfe577-7693-4b31-9759-6b63bbaa2ccc.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/4ce44aec-2545-47e3-bf92-c2769e27573f.png?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "md-html-reader",
+        "featuredAt": "2026-06-22T07:01:00Z",
+        "createdAt": "2026-06-22T07:01:00Z"
+      }
+    },
+    {
       "rank": 11,
       "id": "1177323",
       "name": "Selector Forge",
-      "tagline": "用于 AI 生成弹性选择器的浏览器扩展",
-      "description": "使用 AI 创建可靠的 CSS 和 XPath 选择器的浏览器扩展。你可以用它为单个元素或元素数组创建选择器。它创建的选择器旨在是“语义化”的，并且更能抵御页面变化！扩展程序也在 GitHub 上开源。",
+      "tagline": "用于AI生成弹性选择器的浏览器扩展",
+      "description": "一款用于使用AI创建可靠CSS和XPath选择器的浏览器扩展。您可以为单个元素或元素数组创建选择器。它生成的选择器旨在具有“语义化”特性，更能抵御页面结构的变化！该扩展也在GitHub上开源：https://github.com/Intuned/selector-forge",
       "keywords": [
         "网页抓取",
+        "浏览器插件",
         "CSS选择器",
-        "浏览器扩展",
-        "自动化",
-        "开源"
+        "自动化测试"
       ],
       "metrics": {
-        "votes": 113,
-        "comments": 13
+        "votes": 116,
+        "comments": 19
       },
       "links": {
         "homepage": "https://www.producthunt.com/r/JB3WOBST7RHX4L?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
@@ -706,78 +675,19 @@
     },
     {
       "rank": 12,
-      "id": "1177821",
-      "name": "MD+HTML Reader",
-      "tagline": "在专注的工作区中审查 AI 生成的 Markdown 和 HTML",
-      "description": "AI 编码工具产生有用的文档，但审查它们可能会变得混乱。一个任务可能会留下计划、API 笔记、QA 清单、交接说明、图表和 HTML 预览，散落在项目文件夹中，并被源代码、构建、日志和依赖项掩盖。MD+HTML Reader 为你提供一个专注的 macOS 工作区，以便在下一个提示、提交或交接之前，以只读模式审查生成的 Markdown 和 HTML。",
-      "keywords": [
-        "代码审查",
-        "Markdown查看器",
-        "开发者工具",
-        "文档",
-        "macOS应用"
-      ],
-      "metrics": {
-        "votes": 112,
-        "comments": 16
-      },
-      "links": {
-        "homepage": "https://www.producthunt.com/r/KENNVT4AGFQKXV?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
-        "source": "https://www.producthunt.com/products/md-html-reader?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
-      },
-      "assets": {
-        "icon": "https://ph-files.imgix.net/af81e35d-4150-43f0-98f8-10aaad725fda.png?auto=format",
-        "thumbnail": "https://ph-files.imgix.net/af81e35d-4150-43f0-98f8-10aaad725fda.png?auto=format",
-        "media": [
-          {
-            "type": "video",
-            "url": "https://ph-files.imgix.net/b7d06897-3379-49f0-bc5a-f07879b00111.jpeg?auto=format",
-            "videoUrl": null
-          },
-          {
-            "type": "image",
-            "url": "https://ph-files.imgix.net/31c9afd9-6806-4a4f-8dcc-4df0624723f6.png?auto=format",
-            "videoUrl": null
-          },
-          {
-            "type": "image",
-            "url": "https://ph-files.imgix.net/ed4b16e6-d276-4ad1-aa68-5b7c525c5569.png?auto=format",
-            "videoUrl": null
-          },
-          {
-            "type": "image",
-            "url": "https://ph-files.imgix.net/dacfe577-7693-4b31-9759-6b63bbaa2ccc.png?auto=format",
-            "videoUrl": null
-          },
-          {
-            "type": "image",
-            "url": "https://ph-files.imgix.net/4ce44aec-2545-47e3-bf92-c2769e27573f.png?auto=format",
-            "videoUrl": null
-          }
-        ]
-      },
-      "raw": {
-        "slug": "md-html-reader",
-        "featuredAt": "2026-06-22T07:01:00Z",
-        "createdAt": "2026-06-22T07:01:00Z"
-      }
-    },
-    {
-      "rank": 13,
       "id": "1175131",
       "name": "OnBrand by SlideSpeak",
-      "tagline": "为 AI 智能体提供设计上下文",
-      "description": "OnBrand 通过 MCP 为 AI 智能体提供设计上下文。添加你的品牌指南、徽标、颜色、图标、图像和幻灯片规则，这样像 Claude、Codex 和 ChatGPT 这样的工具才能创建真正符合你品牌的幻灯片、信息图和設計资产。不再有通用的 AI 输出、随机布局或不符品牌调性的视觉效果。OnBrand 可以从现有网站、现有品牌指南甚至 PowerPoint 模板生成整个品牌指南作为 design.md。",
+      "tagline": "为AI智能体提供设计上下文",
+      "description": "OnBrand通过MCP为AI智能体提供设计上下文。添加您的品牌指南、徽标、颜色、图标、图像和幻灯片规则，使Claude、Codex和ChatGPT等工具能够创建真正符合您品牌的幻灯片、信息图和設計资产。不再出现通用的AI输出、随机布局或不符品牌调性的视觉效果。OnBrand可以从现有网站、品牌指南甚至PowerPoint模板中生成整个品牌指南作为design.md。",
       "keywords": [
-        "品牌指南",
-        "MCP",
-        "AI设计",
-        "演示工具",
-        "视觉标识"
+        "品牌标识",
+        "AI集成",
+        "设计系统",
+        "MCP协议"
       ],
       "metrics": {
-        "votes": 106,
-        "comments": 8
+        "votes": 108,
+        "comments": 10
       },
       "links": {
         "homepage": "https://www.producthunt.com/r/5XUO6E5A7ZZRXC?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
@@ -821,21 +731,20 @@
       }
     },
     {
-      "rank": 14,
+      "rank": 13,
       "id": "1174696",
       "name": "Agentic Document Extraction",
-      "tagline": "让世界的文档可计算",
-      "description": "LandingAI 的使命是让世界的文档可计算。Agentic Document Extraction 帮助企业开发人员大规模构建文档自动化管道。准确、可审计、API 驱动的文档 AI。",
+      "tagline": "让全球文档变得可计算",
+      "description": "LandingAI的使命是让全球文档变得可计算。Agentic Document Extraction帮助企业开发人员大规模构建文档自动化管道。提供准确、可审计、API驱动的文档AI解决方案。",
       "keywords": [
         "文档AI",
         "企业自动化",
-        "光学字符识别",
         "数据提取",
-        "API"
+        "计算机视觉"
       ],
       "metrics": {
-        "votes": 99,
-        "comments": 4
+        "votes": 104,
+        "comments": 5
       },
       "links": {
         "homepage": "https://www.producthunt.com/r/NRV6TH5TKJQAN5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
@@ -879,20 +788,19 @@
       }
     },
     {
-      "rank": 15,
+      "rank": 14,
       "id": "1177354",
       "name": "AlgoFly AI",
-      "tagline": "构建和部署视觉 AI 的一站式平台",
-      "description": "AlgoFly 是一家 AI 咨询公司，帮助企业构建和部署 AI 解决方案。",
+      "tagline": "构建和部署视觉AI的一站式平台",
+      "description": "AlgoFly是一家AI咨询公司，帮助企业构建和部署AI解决方案。它是构建和部署视觉AI的一站式场所。",
       "keywords": [
         "计算机视觉",
         "AI咨询",
-        "模型部署",
-        "商业解决方案",
-        "机器学习"
+        "AI部署",
+        "商业解决方案"
       ],
       "metrics": {
-        "votes": 93,
+        "votes": 96,
         "comments": 7
       },
       "links": {
@@ -927,20 +835,19 @@
       }
     },
     {
-      "rank": 16,
+      "rank": 15,
       "id": "1176136",
       "name": "Photoroom API",
-      "tagline": "通过一个图像编辑 API 大规模转换产品图片",
-      "description": "Photoroom API 为全球领先的市场和品牌提供产品视觉支持，每年处理数十亿张图像——专为商业所需的速度、一致性和规模而构建。从原始上传到精美的、适合市场的主图和捆绑包，在一个 API 流程中生成每个目录资产。几分钟内即可集成，拥有清晰的 REST API 和明确的文档。企业级安全性：你的图像永远不会被存储或用于训练模型。",
+      "tagline": "通过单一图像编辑API大规模转换产品图片",
+      "description": "Photoroom API为全球领先的市场规模和品牌提供产品视觉支持，每年处理数十亿张图像——专为商业所需的速度、一致性和规模而构建。从原始上传到精美的市场就绪主图和组合，在一个API流程中生成所有目录资产。通过清晰的REST API和文档在几分钟内完成集成。企业级安全性：您的图像永远不会被存储或用于训练模型。",
       "keywords": [
-        "图像API",
+        "图像处理",
         "电子商务",
-        "产品摄影",
-        "批量处理",
-        "隐私"
+        "API接口",
+        "产品摄影"
       ],
       "metrics": {
-        "votes": 93,
+        "votes": 96,
         "comments": 0
       },
       "links": {

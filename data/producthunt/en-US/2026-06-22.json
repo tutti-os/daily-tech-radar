@@ -4,24 +4,85 @@
   "locale": "en-US",
   "date": "2026-06-22",
   "sourceTimezone": "UTC",
-  "generatedAt": "2026-06-23T04:22:57.574Z",
+  "generatedAt": "2026-06-23T21:50:16.183Z",
   "items": [
     {
       "rank": 1,
+      "id": "1177141",
+      "name": "AgentX",
+      "tagline": "Evaluate AI agent, pinpoint issues, and fix with one click.",
+      "description": "Evaluate AI agents before they fail. Create test suites, run evaluations, and pinpoint issues before they reach production. AgentX provides full observability and traceability for your AI agents. AI analysis not only identifies problems but also suggests fixes-like an AI doctor for your agents. Simulate run your agents across multiple LLM providers to compare performance, cost, and latency, helping you make better decisions about which LLM to go. Run eval before deploy. Like CI/CD for AI agents.",
+      "keywords": [
+        "AI Agent",
+        "Evaluation",
+        "Observability",
+        "LLM Testing"
+      ],
+      "metrics": {
+        "votes": 553,
+        "comments": 174
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/MAKIXB6C4DMJG6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/agentx?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/3569abf9-5c75-44f2-8b6e-d7af7caaad97.gif?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/3569abf9-5c75-44f2-8b6e-d7af7caaad97.gif?auto=format",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/c0274766-9f1d-41a3-8e28-486a5fd306c5.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/77d4ae3b-e152-4827-92a6-eb0c61852279.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/b9603998-119a-4cb7-8515-8d16a7d96ca2.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/5e5198cc-1cef-493b-9cfb-7da6832c10cd.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/0628a3a3-fd4d-4100-9c1e-7bcc954c0b6a.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/3499f1d3-208c-46b0-a2ac-33fcd3f229f7.jpeg?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "agentx-4",
+        "featuredAt": "2026-06-22T07:01:00Z",
+        "createdAt": "2026-06-22T07:01:00Z"
+      }
+    },
+    {
+      "rank": 2,
       "id": "1162357",
       "name": "Skybridge",
       "tagline": "The full-stack open source React framework for MCP Apps",
       "description": "MCP apps are the new website: they're real, interactive apps that run right inside AI assistants like ChatGPT and Claude. The tooling to build them didn't exist, so we built it. Meet Skybridge, the React framework that handles the infrastructure and the dev loop so you can focus on your features: MCP server, view rendering, client compatibility, testing tunnel, and more. Code once, ship everywhere. Already +500K downloads and dozens of apps in the stores!",
       "keywords": [
-        "React",
         "MCP",
+        "React Framework",
         "Open Source",
-        "AI Apps",
-        "Framework"
+        "AI Apps"
       ],
       "metrics": {
-        "votes": 466,
-        "comments": 117
+        "votes": 533,
+        "comments": 165
       },
       "links": {
         "homepage": "https://www.producthunt.com/r/WYDUMMA2RJODS7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
@@ -75,147 +136,20 @@
       }
     },
     {
-      "rank": 2,
-      "id": "1177141",
-      "name": "AgentX",
-      "tagline": "Evaluate AI agent, pinpoint issues, and fix with one click.",
-      "description": "Evaluate AI agents before they fail. Create test suites, run evaluations, and pinpoint issues before they reach production. AgentX provides full observability and traceability for your AI agents. AI analysis not only identifies problems but also suggests fixes-like an AI doctor for your agents. Simulate run your agents across multiple LLM providers to compare performance, cost, and latency, helping you make better decisions about which LLM to go. Run eval before deploy. Like CI/CD for AI agents.",
-      "keywords": [
-        "AI Agents",
-        "Evaluation",
-        "Observability",
-        "LLM",
-        "Testing"
-      ],
-      "metrics": {
-        "votes": 413,
-        "comments": 142
-      },
-      "links": {
-        "homepage": "https://www.producthunt.com/r/MAKIXB6C4DMJG6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
-        "source": "https://www.producthunt.com/products/agentx?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
-      },
-      "assets": {
-        "icon": "https://ph-files.imgix.net/3569abf9-5c75-44f2-8b6e-d7af7caaad97.gif?auto=format",
-        "thumbnail": "https://ph-files.imgix.net/3569abf9-5c75-44f2-8b6e-d7af7caaad97.gif?auto=format",
-        "media": [
-          {
-            "type": "image",
-            "url": "https://ph-files.imgix.net/c0274766-9f1d-41a3-8e28-486a5fd306c5.jpeg?auto=format",
-            "videoUrl": null
-          },
-          {
-            "type": "image",
-            "url": "https://ph-files.imgix.net/77d4ae3b-e152-4827-92a6-eb0c61852279.jpeg?auto=format",
-            "videoUrl": null
-          },
-          {
-            "type": "image",
-            "url": "https://ph-files.imgix.net/b9603998-119a-4cb7-8515-8d16a7d96ca2.jpeg?auto=format",
-            "videoUrl": null
-          },
-          {
-            "type": "image",
-            "url": "https://ph-files.imgix.net/5e5198cc-1cef-493b-9cfb-7da6832c10cd.jpeg?auto=format",
-            "videoUrl": null
-          },
-          {
-            "type": "image",
-            "url": "https://ph-files.imgix.net/0628a3a3-fd4d-4100-9c1e-7bcc954c0b6a.jpeg?auto=format",
-            "videoUrl": null
-          },
-          {
-            "type": "video",
-            "url": "https://ph-files.imgix.net/3499f1d3-208c-46b0-a2ac-33fcd3f229f7.jpeg?auto=format",
-            "videoUrl": null
-          }
-        ]
-      },
-      "raw": {
-        "slug": "agentx-4",
-        "featuredAt": "2026-06-22T07:01:00Z",
-        "createdAt": "2026-06-22T07:01:00Z"
-      }
-    },
-    {
       "rank": 3,
-      "id": "1176880",
-      "name": "Alai 2.0",
-      "tagline": "AI design partner for presentations, social posts, and more",
-      "description": "Alai captures every little detail about your brand in a design system. Use it to create presentations, social assets, ads, or any canvas size, all perfectly on-brand. Make precise edits manually or with AI. And choose your own AI models to balance cost, quality, and latency.",
-      "keywords": [
-        "Design System",
-        "Presentations",
-        "Social Media",
-        "Brand Identity",
-        "AI Design"
-      ],
-      "metrics": {
-        "votes": 271,
-        "comments": 51
-      },
-      "links": {
-        "homepage": "https://www.producthunt.com/r/FXYXCM6UIMQ5YE?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
-        "source": "https://www.producthunt.com/products/alai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
-      },
-      "assets": {
-        "icon": "https://ph-files.imgix.net/154efba0-d61f-4be9-a054-a0573d18fadf.png?auto=format",
-        "thumbnail": "https://ph-files.imgix.net/154efba0-d61f-4be9-a054-a0573d18fadf.png?auto=format",
-        "media": [
-          {
-            "type": "image",
-            "url": "https://ph-files.imgix.net/26040a99-e996-4534-9d76-a040da88cacd.png?auto=format",
-            "videoUrl": null
-          },
-          {
-            "type": "image",
-            "url": "https://ph-files.imgix.net/9ec2afdc-1166-4a94-ae8e-3761909e1f8e.png?auto=format",
-            "videoUrl": null
-          },
-          {
-            "type": "image",
-            "url": "https://ph-files.imgix.net/0e37f399-ba4d-413a-baab-ef3929d9a872.png?auto=format",
-            "videoUrl": null
-          },
-          {
-            "type": "image",
-            "url": "https://ph-files.imgix.net/80c393b2-9833-4558-aea0-a6c061253a08.png?auto=format",
-            "videoUrl": null
-          },
-          {
-            "type": "image",
-            "url": "https://ph-files.imgix.net/2a159b69-914e-4464-81c1-2e92fbaff6b1.png?auto=format",
-            "videoUrl": null
-          },
-          {
-            "type": "video",
-            "url": "https://ph-files.imgix.net/1a35980e-2e81-4ec3-941b-a033cb736a83.jpeg?auto=format",
-            "videoUrl": null
-          }
-        ]
-      },
-      "raw": {
-        "slug": "alai-2-0",
-        "featuredAt": "2026-06-22T07:01:00Z",
-        "createdAt": "2026-06-22T07:01:00Z"
-      }
-    },
-    {
-      "rank": 4,
       "id": "1086254",
       "name": "HAQQ Legal AI on Mobile",
       "tagline": "Bringing legal understanding to anyone with a phone",
       "description": "We built HAQQ because understanding legal situations shouldn’t depend on who you know or whether you can afford to “just ask a lawyer.” Today, HAQQ Legal AI is available on mobile. Upload a contract. Ask a legal question. Get structured, jurisdiction-aware legal work with risk flags and exportable outputs. Not generic chat. Legal reasoning powered by Justinian®. Know exactly where you stand, wherever you are.",
       "keywords": [
-        "Legal Tech",
-        "Mobile AI",
+        "Legal AI",
+        "Mobile App",
         "Contract Analysis",
-        "Law",
-        "Risk Assessment"
+        "Law Tech"
       ],
       "metrics": {
-        "votes": 252,
-        "comments": 8
+        "votes": 305,
+        "comments": 19
       },
       "links": {
         "homepage": "https://www.producthunt.com/r/ICAKRVUKEN25TG?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
@@ -269,6 +203,68 @@
       }
     },
     {
+      "rank": 4,
+      "id": "1176880",
+      "name": "Alai 2.0",
+      "tagline": "AI design partner for presentations, social posts, and more",
+      "description": "Alai captures every little detail about your brand in a design system. Use it to create presentations, social assets, ads, or any canvas size, all perfectly on-brand. Make precise edits manually or with AI. And choose your own AI models to balance cost, quality, and latency.",
+      "keywords": [
+        "AI Design",
+        "Brand Management",
+        "Presentation Tools",
+        "Social Media"
+      ],
+      "metrics": {
+        "votes": 300,
+        "comments": 56
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/FXYXCM6UIMQ5YE?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/alai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/154efba0-d61f-4be9-a054-a0573d18fadf.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/154efba0-d61f-4be9-a054-a0573d18fadf.png?auto=format",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/26040a99-e996-4534-9d76-a040da88cacd.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/9ec2afdc-1166-4a94-ae8e-3761909e1f8e.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/0e37f399-ba4d-413a-baab-ef3929d9a872.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/80c393b2-9833-4558-aea0-a6c061253a08.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/2a159b69-914e-4464-81c1-2e92fbaff6b1.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/1a35980e-2e81-4ec3-941b-a033cb736a83.jpeg?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "alai-2-0",
+        "featuredAt": "2026-06-22T07:01:00Z",
+        "createdAt": "2026-06-22T07:01:00Z"
+      }
+    },
+    {
       "rank": 5,
       "id": "1169990",
       "name": "readywhen",
@@ -278,12 +274,11 @@
         "Productivity",
         "Executive Assistant",
         "Workflow Automation",
-        "Slack Integration",
-        "Task Management"
+        "AI Copilot"
       ],
       "metrics": {
-        "votes": 215,
-        "comments": 46
+        "votes": 241,
+        "comments": 60
       },
       "links": {
         "homepage": "https://www.producthunt.com/r/STOAZFU5CH6INJ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
@@ -351,11 +346,10 @@
         "Cloudflare",
         "Serverless",
         "AI Agents",
-        "Deployment",
-        "Developer Tools"
+        "Deployment"
       ],
       "metrics": {
-        "votes": 164,
+        "votes": 181,
         "comments": 8
       },
       "links": {
@@ -411,15 +405,14 @@
       "tagline": "Get paid while AI thinks",
       "description": "Every time you use ChatGPT or Claude, you wait. Usually 3 to 8 seconds. That's it. That's the idea. uwait is a Chrome extension that shows a curated ad during that loading screen. You get a small cut. The publishers whose content trained the AI get a cut too. The advertiser gets your attention at a moment when you're actually paying attention. The split: 50% to users, 30% to publishers, 20% to us. We're picky about advertisers. Just brands that make sense in that context.",
       "keywords": [
-        "Chrome Extension",
+        "Browser Extension",
         "Passive Income",
         "Ad Tech",
-        "User Rewards",
-        "AI Wait Time"
+        "AI Monetization"
       ],
       "metrics": {
-        "votes": 162,
-        "comments": 34
+        "votes": 174,
+        "comments": 40
       },
       "links": {
         "homepage": "https://www.producthunt.com/r/ET2VD6UMZ3BTIB?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
@@ -454,84 +447,6 @@
     },
     {
       "rank": 8,
-      "id": "1135009",
-      "name": "AirJelly",
-      "tagline": "Your Proactive, Self-Organizing Second Brain",
-      "description": "AirJelly is an always-on desktop AI agent that proactively captures your intent, organizes your tasks, and gets things done. By observing your on-screen activities, it knows who you are and what you're working on. It doesn't just spot your to-dos — it foresees what's next and acts. It also tracks your personal interactions, so you'll never miss a follow-up or forget a promise. Everything in your life is managed by AirJelly — freeing your time for what AI can't do, or simply for you to enjoy.",
-      "keywords": [
-        "Second Brain",
-        "Desktop AI",
-        "Task Automation",
-        "Productivity",
-        "Intent Recognition"
-      ],
-      "metrics": {
-        "votes": 132,
-        "comments": 9
-      },
-      "links": {
-        "homepage": "https://www.producthunt.com/r/PMQKFXXQ5WQB2C?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
-        "source": "https://www.producthunt.com/products/airjelly?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
-      },
-      "assets": {
-        "icon": "https://ph-files.imgix.net/4958e60d-f7c3-4de3-81d0-66e62d85892c.png?auto=format",
-        "thumbnail": "https://ph-files.imgix.net/4958e60d-f7c3-4de3-81d0-66e62d85892c.png?auto=format",
-        "media": [
-          {
-            "type": "video",
-            "url": "https://ph-files.imgix.net/ad21d0ca-98c9-4f34-9604-10fd3925070c.jpeg?auto=format",
-            "videoUrl": null
-          },
-          {
-            "type": "image",
-            "url": "https://ph-files.imgix.net/d6389614-0e06-4bd1-a708-a50a964e4443.png?auto=format",
-            "videoUrl": null
-          },
-          {
-            "type": "image",
-            "url": "https://ph-files.imgix.net/de1072e0-df70-4dbb-aebb-b69425f47dd3.png?auto=format",
-            "videoUrl": null
-          },
-          {
-            "type": "image",
-            "url": "https://ph-files.imgix.net/099feec0-993f-4eb9-879f-516422a96a41.png?auto=format",
-            "videoUrl": null
-          },
-          {
-            "type": "image",
-            "url": "https://ph-files.imgix.net/0c47263d-ca01-4102-98a2-ccd4da59b8ee.png?auto=format",
-            "videoUrl": null
-          },
-          {
-            "type": "image",
-            "url": "https://ph-files.imgix.net/12efae8a-a9c0-4e69-a835-609eb8ae1dd1.png?auto=format",
-            "videoUrl": null
-          },
-          {
-            "type": "image",
-            "url": "https://ph-files.imgix.net/d8529c31-8b20-407a-b925-74a9bf2597cf.png?auto=format",
-            "videoUrl": null
-          },
-          {
-            "type": "image",
-            "url": "https://ph-files.imgix.net/0d98b14e-3c1e-4422-a05f-5ac7170e34e2.png?auto=format",
-            "videoUrl": null
-          },
-          {
-            "type": "image",
-            "url": "https://ph-files.imgix.net/69913f2f-b5d2-48bb-9bd7-0d7dd29d9a0a.png?auto=format",
-            "videoUrl": null
-          }
-        ]
-      },
-      "raw": {
-        "slug": "airjelly",
-        "featuredAt": "2026-06-22T07:01:00Z",
-        "createdAt": "2026-06-22T07:01:00Z"
-      }
-    },
-    {
-      "rank": 9,
       "id": "1177680",
       "name": "MediaSeg",
       "tagline": "Split large media files into upload-ready chunks on macOS",
@@ -540,12 +455,11 @@
         "macOS Utility",
         "File Splitting",
         "Media Processing",
-        "Upload Optimization",
-        "Local AI"
+        "AI Generated Tool"
       ],
       "metrics": {
-        "votes": 123,
-        "comments": 19
+        "votes": 130,
+        "comments": 26
       },
       "links": {
         "homepage": "https://www.producthunt.com/r/CDZ6CXPO4JXUDC?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
@@ -584,7 +498,7 @@
       }
     },
     {
-      "rank": 10,
+      "rank": 9,
       "id": "1174174",
       "name": "Clawd",
       "tagline": "A context-aware browser mascot with 100% local offline AI",
@@ -593,12 +507,11 @@
         "Browser Extension",
         "Privacy First",
         "Offline AI",
-        "Chatbot",
-        "Desktop Companion"
+        "Virtual Pet"
       ],
       "metrics": {
-        "votes": 116,
-        "comments": 16
+        "votes": 126,
+        "comments": 17
       },
       "links": {
         "homepage": "https://www.producthunt.com/r/YMDF4CNQMIWJYC?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
@@ -637,6 +550,63 @@
       }
     },
     {
+      "rank": 10,
+      "id": "1177821",
+      "name": "MD+HTML Reader",
+      "tagline": "Review AI-generated Markdown and HTML in a focused workspace",
+      "description": "AI coding tools produce useful docs, but reviewing them can get messy. One task can leave plans, API notes, QA checklists, handoffs, diagrams, and HTML previews scattered across project folders and buried under source files, builds, logs, and dependencies. MD+HTML Reader gives you a focused macOS workspace to review generated Markdown and HTML in read-only mode before the next prompt, commit, or handoff.",
+      "keywords": [
+        "Developer Tools",
+        "Code Review",
+        "Markdown Viewer",
+        "Productivity"
+      ],
+      "metrics": {
+        "votes": 117,
+        "comments": 19
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/KENNVT4AGFQKXV?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/md-html-reader?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/af81e35d-4150-43f0-98f8-10aaad725fda.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/af81e35d-4150-43f0-98f8-10aaad725fda.png?auto=format",
+        "media": [
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/b7d06897-3379-49f0-bc5a-f07879b00111.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/31c9afd9-6806-4a4f-8dcc-4df0624723f6.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/ed4b16e6-d276-4ad1-aa68-5b7c525c5569.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/dacfe577-7693-4b31-9759-6b63bbaa2ccc.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/4ce44aec-2545-47e3-bf92-c2769e27573f.png?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "md-html-reader",
+        "featuredAt": "2026-06-22T07:01:00Z",
+        "createdAt": "2026-06-22T07:01:00Z"
+      }
+    },
+    {
       "rank": 11,
       "id": "1177323",
       "name": "Selector Forge",
@@ -644,14 +614,13 @@
       "description": "Browser extension to create reliable CSS and XPath selectors using AI. You can use it to create a selector for a single element or for an array of elements. The selectors it creates are meant to be \"semantic\" and more resilient to page changes! Extension is also open source on GitHub: https://github.com/Intuned/selector-forge",
       "keywords": [
         "Web Scraping",
-        "CSS Selectors",
         "Browser Extension",
-        "Automation",
-        "Open Source"
+        "CSS Selectors",
+        "Automation"
       ],
       "metrics": {
-        "votes": 113,
-        "comments": 13
+        "votes": 116,
+        "comments": 19
       },
       "links": {
         "homepage": "https://www.producthunt.com/r/JB3WOBST7RHX4L?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
@@ -706,78 +675,19 @@
     },
     {
       "rank": 12,
-      "id": "1177821",
-      "name": "MD+HTML Reader",
-      "tagline": "Review AI-generated Markdown and HTML in a focused workspace",
-      "description": "AI coding tools produce useful docs, but reviewing them can get messy. One task can leave plans, API notes, QA checklists, handoffs, diagrams, and HTML previews scattered across project folders and buried under source files, builds, logs, and dependencies. MD+HTML Reader gives you a focused macOS workspace to review generated Markdown and HTML in read-only mode before the next prompt, commit, or handoff.",
-      "keywords": [
-        "Code Review",
-        "Markdown Viewer",
-        "Developer Tools",
-        "Documentation",
-        "macOS App"
-      ],
-      "metrics": {
-        "votes": 112,
-        "comments": 16
-      },
-      "links": {
-        "homepage": "https://www.producthunt.com/r/KENNVT4AGFQKXV?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
-        "source": "https://www.producthunt.com/products/md-html-reader?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
-      },
-      "assets": {
-        "icon": "https://ph-files.imgix.net/af81e35d-4150-43f0-98f8-10aaad725fda.png?auto=format",
-        "thumbnail": "https://ph-files.imgix.net/af81e35d-4150-43f0-98f8-10aaad725fda.png?auto=format",
-        "media": [
-          {
-            "type": "video",
-            "url": "https://ph-files.imgix.net/b7d06897-3379-49f0-bc5a-f07879b00111.jpeg?auto=format",
-            "videoUrl": null
-          },
-          {
-            "type": "image",
-            "url": "https://ph-files.imgix.net/31c9afd9-6806-4a4f-8dcc-4df0624723f6.png?auto=format",
-            "videoUrl": null
-          },
-          {
-            "type": "image",
-            "url": "https://ph-files.imgix.net/ed4b16e6-d276-4ad1-aa68-5b7c525c5569.png?auto=format",
-            "videoUrl": null
-          },
-          {
-            "type": "image",
-            "url": "https://ph-files.imgix.net/dacfe577-7693-4b31-9759-6b63bbaa2ccc.png?auto=format",
-            "videoUrl": null
-          },
-          {
-            "type": "image",
-            "url": "https://ph-files.imgix.net/4ce44aec-2545-47e3-bf92-c2769e27573f.png?auto=format",
-            "videoUrl": null
-          }
-        ]
-      },
-      "raw": {
-        "slug": "md-html-reader",
-        "featuredAt": "2026-06-22T07:01:00Z",
-        "createdAt": "2026-06-22T07:01:00Z"
-      }
-    },
-    {
-      "rank": 13,
       "id": "1175131",
       "name": "OnBrand by SlideSpeak",
       "tagline": "Design context for AI agents",
       "description": "OnBrand gives AI agents design context through MCP. Add your brand guidelines, logos, colors, icons, imagery and slide rules, so tools like Claude, Codex and ChatGPT can create slides, infographics and design assets that actually match your brand. No more generic AI output, random layouts or off-brand visuals. OnBrand can generate your entire brand guidelines as a design.md from your existing website, existing branding guidelines or even PowerPoint templates.",
       "keywords": [
-        "Brand Guidelines",
-        "MCP",
-        "AI Design",
-        "Presentation Tools",
-        "Visual Identity"
+        "Brand Identity",
+        "AI Integration",
+        "Design System",
+        "MCP"
       ],
       "metrics": {
-        "votes": 106,
-        "comments": 8
+        "votes": 108,
+        "comments": 10
       },
       "links": {
         "homepage": "https://www.producthunt.com/r/5XUO6E5A7ZZRXC?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
@@ -821,7 +731,7 @@
       }
     },
     {
-      "rank": 14,
+      "rank": 13,
       "id": "1174696",
       "name": "Agentic Document Extraction",
       "tagline": "Make the world's documents computable ",
@@ -829,13 +739,12 @@
       "keywords": [
         "Document AI",
         "Enterprise Automation",
-        "OCR",
         "Data Extraction",
-        "API"
+        "Computer Vision"
       ],
       "metrics": {
-        "votes": 99,
-        "comments": 4
+        "votes": 104,
+        "comments": 5
       },
       "links": {
         "homepage": "https://www.producthunt.com/r/NRV6TH5TKJQAN5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
@@ -879,7 +788,7 @@
       }
     },
     {
-      "rank": 15,
+      "rank": 14,
       "id": "1177354",
       "name": "AlgoFly AI",
       "tagline": "The all-in-one place to build and deploy vision AI",
@@ -887,12 +796,11 @@
       "keywords": [
         "Computer Vision",
         "AI Consulting",
-        "Model Deployment",
-        "Business Solutions",
-        "Machine Learning"
+        "AI Deployment",
+        "Business Solutions"
       ],
       "metrics": {
-        "votes": 93,
+        "votes": 96,
         "comments": 7
       },
       "links": {
@@ -927,20 +835,19 @@
       }
     },
     {
-      "rank": 16,
+      "rank": 15,
       "id": "1176136",
       "name": "Photoroom API",
       "tagline": "Transform product images at scale with one image editing API",
       "description": "Photoroom API powers product visuals for the world's leading marketplaces and brands, processing billions of images a year — built for the speed, consistency, and scale commerce demands. From raw upload to polished, marketplace-ready hero shots and bundles, generate every catalog asset in one API flow. Integrate in minutes with a clean REST API and clear docs. Enterprise-grade security: your images are never stored or used to train models.",
       "keywords": [
-        "Image API",
+        "Image Processing",
         "E-commerce",
-        "Product Photography",
-        "Batch Processing",
-        "Privacy"
+        "API",
+        "Product Photography"
       ],
       "metrics": {
-        "votes": 93,
+        "votes": 96,
         "comments": 0
       },
       "links": {
