@@ -2,8 +2,8 @@
   "schemaVersion": "trendreader.daily.v1",
   "packageId": "github-daily-All-2026-06-22",
   "locale": "zh-CN",
-  "generatedAt": "2026-06-23T04:26:08.409Z",
-  "expiresAt": "2026-06-24T04:26:08.409Z",
+  "generatedAt": "2026-06-23T04:32:08.854Z",
+  "expiresAt": "2026-06-24T04:32:08.854Z",
   "sourceWindow": {
     "since": "daily",
     "language": "All",
@@ -19,7 +19,7 @@
   ],
   "taxonomy": {
     "version": "2026-06-22",
-    "generatedAt": "2026-06-23T04:26:08.409Z",
+    "generatedAt": "2026-06-23T04:32:08.854Z",
     "categories": [
       {
         "id": "ai",
@@ -75,8 +75,8 @@
         "description": "全球首个开源智能体视频制作系统。拥有12条流水线、52个工具和500多种智能体技能。将你的AI编程助手转变为完整的视频制作工作室。",
         "language": "Python",
         "topics": [],
-        "stars": 12697,
-        "forks": 1596,
+        "stars": 12708,
+        "forks": 1597,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -92,7 +92,7 @@
       },
       "readmeSignals": {
         "title": ".env — every key is optional, add what you have",
-        "summary": "这是全球首个开源的智能体视频制作系统。只需粘贴一个视频链接即可快速开始。你可以用自然语言描述需求，智能体将自动处理研究、脚本编写、素材生成、剪辑和最终合成。OpenMontage不仅能制作基于图像的视频，还能通过免费开源工作流制作真正的视频：智能体会从免费素材库和开放档案中构建语料库，检索真实的动态片段，将其编辑成时间线，并进行重新剪辑。",
+        "summary": "这是全球首个开源的、基于智能体的视频制作系统。只需粘贴一个视频链接或描述需求，即可快速开始。它允许你用自然语言描述想要的视频，智能体会自动处理研究、脚本编写、素材生成、剪辑和最终合成。OpenMontage不仅能制作基于图像的视频，还能通过检索免费库存素材和开放档案中的真实运动片段，将其编辑成时间轴，从而免费生成真正的视频文件。",
         "headings": [
           "Start From A Video You Already Love",
           "Quick Start",
@@ -110,8 +110,8 @@
           "AI视频制作",
           "智能体工作流",
           "开源工具",
-          "视频编辑",
-          "自动化生产"
+          "自动化剪辑",
+          "视频生成"
         ],
         "score": 100
       },
@@ -159,7 +159,7 @@
         "description": "专为AI打造的macOS视频编辑器。",
         "language": "Swift",
         "topics": [],
-        "stars": 7645,
+        "stars": 7651,
         "forks": 516,
         "license": null,
         "defaultBranch": null,
@@ -176,7 +176,7 @@
       },
       "readmeSignals": {
         "title": "Palmier Pro",
-        "summary": "Palmier Pro是一款面向Mac的开源视频编辑器，旨在对标Premiere Pro并融入AI工作流。它基于Swift从头构建，支持在时间线内与智能体共同生成和编辑视频。用户可以直接在编辑器中使用Seedance、Kling等顶尖模型生成视频和图像。此外，它还通过MCP协议连接Claude/Codex/Cursor等工具，或提供内置智能体让用户在同一项目中协作。",
+        "summary": "Palmier Pro是一款专为macOS设计的开源视频编辑器，旨在将AI深度集成到工作流中。其目标是成为Premiere Pro的现代化替代方案。用户可以在时间线内直接使用Seedance、Kling等顶尖模型生成视频和图像。它支持通过MCP连接Claude、Codex或Cursor等AI助手，或者使用内置智能体与用户在同一项目中协作，实现人机共创视频。",
         "headings": [
           "Palmier Pro",
           "Swift-native video editor",
@@ -193,7 +193,7 @@
           "AI集成",
           "Swift原生应用",
           "生成式AI",
-          "MCP协议"
+          "智能体协作"
         ],
         "score": 100
       },
@@ -236,10 +236,10 @@
         "starsGained": 529
       },
       "metadata": {
-        "description": "开源AI语音工作室。克隆声音、语音输入、创作音频。",
+        "description": "开源AI语音工作室。克隆声音、语音输入、创建音频。",
         "language": "TypeScript",
         "topics": [],
-        "stars": 32449,
+        "stars": 32451,
         "forks": 3947,
         "license": null,
         "defaultBranch": null,
@@ -256,7 +256,7 @@
       },
       "readmeSignals": {
         "title": "Generate speech",
-        "summary": "Voicebox是一个本地优先的开源AI语音工作室，作为ElevenLabs和WisprFlow的免费替代方案。它提供完整的语音I/O栈，可在本地机器上运行。主要功能包括：从几秒音频中克隆声音、支持23种语言的7种TTS引擎生成语音、通过全局热键在任何应用中语音输入，以及赋予MCP兼容的AI代理用户自定义的声音。",
+        "summary": "Voicebox是一个本地优先的开源AI语音工作室，旨在替代ElevenLabs等服务。它支持从几秒音频中克隆声音，在23种语言下通过7种TTS引擎生成语音，并通过全局快捷键在任何应用中实现语音输入。此外，它还能为任何支持MCP的AI代理赋予用户自定义的声音，提供完整的本地语音I/O栈。",
         "headings": [
           "What is Voicebox?",
           "Download",
@@ -275,7 +275,7 @@
           "本地语音处理",
           "多语言TTS",
           "语音输入",
-          "智能体交互"
+          "MCP集成"
         ],
         "score": 100
       },
@@ -318,10 +318,10 @@
         "starsGained": 956
       },
       "metadata": {
-        "description": "为AI智能体提供817项结构化网络安全技能，映射至MITRE ATT&CK、NIST CSF 2.0等6大框架，兼容Claude Code、GitHub Copilot等20+平台。",
+        "description": "面向AI智能体的817项结构化网络安全技能库。映射至MITRE ATT&CK、NIST CSF 2.0等6大框架，兼容Claude Code、GitHub Copilot等20+平台。",
         "language": "Python",
         "topics": [],
-        "stars": 18880,
+        "stars": 18882,
         "forks": 2225,
         "license": null,
         "defaultBranch": null,
@@ -338,7 +338,7 @@
       },
       "readmeSignals": {
         "title": "Anthropic Cybersecurity Skills",
-        "summary": "这是最大的开源网络安全智能体技能库，包含817项生产级技能和29个安全领域。它将技能映射到6个主流安全框架，并兼容26种以上的AI平台。该项目旨在让任何AI智能体具备高级分析师的安全技能，例如识别内存转储中的可疑插件、捕获Kerberoasting攻击的规则以及跨云提供商的范围界定方法。注意：此为社区独立项目，与Anthropic PBC无关。",
+        "summary": "这是目前最大的开源网络安全技能库，包含817项生产级技能，覆盖29个安全领域，并映射到6个主流安全框架。该库旨在赋予AI智能体高级分析师的安全技能，使其能够执行内存转储分析、检测Kerberoasting攻击、评估云环境漏洞等。它兼容Claude Code、GitHub Copilot、Cursor等多种AI编程平台，帮助初级分析师或智能体快速掌握复杂的安全操作。",
         "headings": [
           "Anthropic Cybersecurity Skills",
           "The largest open-source cybersecurity skills library for AI agents",
@@ -354,8 +354,8 @@
           "网络安全",
           "AI智能体技能",
           "MITRE框架",
-          "漏洞分析",
-          "安全自动化"
+          "安全分析",
+          "开源库"
         ],
         "score": 100
       },
@@ -403,7 +403,7 @@
         "description": "Penpot：面向设计与代码协作的开源设计工具。",
         "language": "Clojure",
         "topics": [],
-        "stars": 52962,
+        "stars": 52963,
         "forks": 3388,
         "license": null,
         "defaultBranch": null,
@@ -420,7 +420,7 @@
       },
       "readmeSignals": {
         "title": null,
-        "summary": "Penpot是面向大规模数字产品构建团队的开源设计平台。其核心优势在于让用户完全掌控设计基础设施。基于开源标准构建，支持SVG、CSS、HTML和JSON等开放标准，无论是浏览器使用还是私有服务器部署，都能满足严格的合规性和治理要求，赋予团队对设计环境的完全控制权。",
+        "summary": "Penpot是专为大规模构建数字产品的团队设计的开源设计平台。其核心优势在于让用户完全掌控设计基础设施。基于开源标准构建，支持SVG、CSS、HTML等开放格式，适用于浏览器端使用或私有服务器部署。它强调合规性与治理，适合对数据主权有严格要求的企业团队，提供完整的设计到代码协作体验。",
         "headings": [
           "Table of contents ##",
           "Why Penpot ##",
@@ -436,8 +436,8 @@
           "开源设计工具",
           "UI/UX设计",
           "团队协作",
-          "矢量图形",
-          "设计系统"
+          "设计系统",
+          "代码协作"
         ],
         "score": 100
       },
@@ -483,7 +483,7 @@
         "description": "GitHub排名第一的PDF应用程序，可在任何设备、任何地点编辑PDF。",
         "language": "TypeScript",
         "topics": [],
-        "stars": 83144,
+        "stars": 83149,
         "forks": 7248,
         "license": null,
         "defaultBranch": null,
@@ -500,7 +500,7 @@
       },
       "readmeSignals": {
         "title": null,
-        "summary": "Stirling PDF是一个强大的开源PDF编辑平台，可作为个人桌面应用、浏览器应用或私有API服务器部署。它提供50多种PDF工具，包括编辑、合并、拆分、签名、脱敏、转换、OCR和压缩等，且无需将文档发送至外部服务。支持无代码自动化工作流、企业级SSO审计以及针对开发者的REST API，适用于处理海量PDF文件。",
+        "summary": "Stirling PDF是一个功能强大的开源PDF平台，可作为个人桌面应用、浏览器应用或私有API服务器部署。它提供50多种PDF工具，包括编辑、合并、拆分、签名、红acted、转换、OCR和压缩等，且无需将文档发送至外部服务。支持无代码自动化工作流和REST API，具备SSO、审计等企业级功能，适合开发者和企业用户处理大量PDF文档。",
         "headings": [
           "Key Capabilities",
           "Quick Start",
@@ -512,10 +512,10 @@
         "commands": [],
         "keywords": [
           "PDF编辑",
+          "开源工具",
           "文档处理",
           "OCR识别",
-          "私有部署",
-          "自动化工作流"
+          "私有部署"
         ],
         "score": 90
       },
@@ -556,10 +556,10 @@
         "starsGained": 573
       },
       "metadata": {
-        "description": "使用Garry Tan确切的Claude Code设置：23个深思熟虑的工具，充当CEO、设计师、工程经理、发布经理、文档工程师和QA。",
+        "description": "使用Garry Tan确切的Claude Code设置：23个精心挑选的工具，充当CEO、设计师、工程经理、发布经理、文档工程师和QA。",
         "language": "TypeScript",
         "topics": [],
-        "stars": 113320,
+        "stars": 113322,
         "forks": 16813,
         "license": null,
         "defaultBranch": null,
@@ -576,7 +576,7 @@
       },
       "readmeSignals": {
         "title": "gstack",
-        "summary": "Gstack是一套由Garry Tan提供的工具集，旨在让单人开发者像二十人的团队一样高效交付产品。它包含23个经过精心设计的工具，模拟CEO、设计师、工程经理等角色，帮助开发者利用AI智能体加速软件开发生命周期。该工具集证明了在正确的工具支持下，单个构建者可以比传统团队移动得更快。",
+        "summary": "GStack是一套由Garry Tan分享的Claude Code配置方案，包含23个经过深思熟虑的工具和提示词，旨在模拟一个完整的产品团队（如CEO、设计师、工程师等）。通过这套配置，单人开发者可以利用AI智能体高效完成从产品设计、编码、测试到文档撰写的全流程，实现“一人抵一支团队”的高效产出，大幅缩短开发周期。",
         "headings": [
           "gstack",
           "Quick start",
@@ -590,10 +590,10 @@
         "commands": [],
         "keywords": [
           "AI编程辅助",
-          "开发效率",
-          "智能体工具链",
+          "Claude Code",
+          "开发工作流",
           "单人开发",
-          "Claude Code集成"
+          "效率工具"
         ],
         "score": 100
       },
@@ -636,7 +636,7 @@
         "starsGained": 395
       },
       "metadata": {
-        "description": "编写HTML。渲染视频。为智能体构建。",
+        "description": "编写HTML。渲染视频。为智能体打造。",
         "language": "TypeScript",
         "topics": [],
         "stars": 30179,
@@ -656,7 +656,7 @@
       },
       "readmeSignals": {
         "title": "macOS",
-        "summary": "HyperFrames是一个开源框架，用于将HTML、CSS、媒体和可寻址动画转换为确定性的MP4视频。它既可以通过CLI本地使用，也可以作为AI编程智能体的技能核心，或嵌入托管的创作工作流中。智能体通过学习HyperFrames的生产循环（规划视频、编写有效HTML、连接动画、添加媒体、 lint检查、预览和渲染）来生成视频。",
+        "summary": "HyperFrames是一个开源框架，可将HTML、CSS、媒体和可寻址动画转换为确定性的MP4视频。它专为AI智能体设计，智能体可以通过规划、编写HTML、添加动画和媒体、 lint检查、预览和渲染等步骤自动生成视频。用户可以通过CLI本地使用，或通过AI编程智能体调用其技能，实现视频内容的程序化生成。",
         "headings": [
           "Quick Start",
           "With an AI coding agent",
@@ -669,8 +669,8 @@
         ],
         "commands": [],
         "keywords": [
-          "HTML视频渲染",
-          "AI智能体技能",
+          "HTML视频生成",
+          "AI智能体工具",
           "开源框架",
           "程序化视频",
           "Web动画"
@@ -719,7 +719,7 @@
         "description": "Turso是一个与SQLite兼容的进程内SQL数据库。",
         "language": "Rust",
         "topics": [],
-        "stars": 21570,
+        "stars": 21573,
         "forks": 1092,
         "license": null,
         "defaultBranch": null,
@@ -736,7 +736,7 @@
       },
       "readmeSignals": {
         "title": "↑            ↑       ↑                           ↑",
-        "summary": "Turso Database是用Rust编写的进程内SQL数据库，完全兼容SQLite。它支持BEGIN CONCURRENT以通过多版本并发控制(MVCC)提高写入吞吐量，并提供变更数据捕获(CDC)以实时跟踪数据库变化。目前处于Beta阶段，提供Go、JavaScript、Java、.NET、Python和Rust等多种语言的绑定，并支持异步I/O。",
+        "summary": "Turso是用Rust编写的进程内SQL数据库，完全兼容SQLite的SQL方言、文件格式和C API。它引入了BEGIN CONCURRENT以通过多版本并发控制(MVCC)提高写入吞吐量，并支持变更数据捕获(CDC)以实时跟踪数据库变化。Turso提供Go、JavaScript、Java、.NET、Python和Rust等多语言绑定，支持异步I/O，旨在为现代应用提供高性能、低延迟的数据库解决方案。",
         "headings": [
           "About",
           "Features and Roadmap",
@@ -754,8 +754,8 @@
           "SQL数据库",
           "SQLite兼容",
           "Rust开发",
-          "进程内存储",
-          "高并发写入"
+          "高性能存储",
+          "边缘计算"
         ],
         "score": 100
       },
@@ -798,10 +798,10 @@
         "starsGained": 738
       },
       "metadata": {
-        "description": "一个开源的长周期SuperAgent框架，具备研究、编码和创作能力。借助沙箱、记忆、工具、技能、子智能体和消息网关，它能处理耗时从几分钟到几小时不等的各类任务。",
+        "description": "一个开源的长周期SuperAgent框架，负责研究、编码和创作。借助沙箱、记忆、工具、技能、子智能体和消息网关，它能处理从几分钟到几小时不等的各类任务。",
         "language": "Python",
         "topics": [],
-        "stars": 73392,
+        "stars": 73393,
         "forks": 9917,
         "license": null,
         "defaultBranch": null,
@@ -818,7 +818,7 @@
       },
       "readmeSignals": {
         "title": "🦌 DeerFlow - 2.0",
-        "summary": "DeerFlow是一个开源的超级智能体框架，能够编排子智能体、记忆和沙箱环境，几乎可以完成任何复杂任务。它基于可扩展的技能系统构建，推荐结合Doubao-Seed-2.0-Code、DeepSeek v3.2和Kimi 2.5等模型运行。该框架在GitHub上曾登顶趋势榜，展示了其在自动化研究和执行复杂工作流方面的强大能力。",
+        "summary": "DeerFlow是由字节跳动推出的开源超级智能体框架，旨在编排子智能体、记忆模块和沙箱环境，以执行复杂的长期任务。它支持扩展的技能系统，能够进行深度探索和研究。推荐结合Doubao-Seed-2.0-Code、DeepSeek v3.2和Kimi 2.5等大模型运行，以发挥其在代码生成、研究和内容创作方面的强大能力。",
         "headings": [
           "🦌 DeerFlow - 2.0",
           "Official Website",
@@ -833,9 +833,9 @@
         "keywords": [
           "超级智能体",
           "长周期任务",
-          "自动化研究",
-          "字节跳动开源",
-          "多智能体协作"
+          "开源框架",
+          "AI研究",
+          "自动化工作流"
         ],
         "score": 100
       },
@@ -878,11 +878,11 @@
         "starsGained": 1185
       },
       "metadata": {
-        "description": "高性能代码智能MCP服务器。将代码库索引为持久化知识图谱——平均仓库仅需毫秒级。支持158种语言，查询延迟低于1毫秒，Token消耗减少99%。单静态二进制文件，零依赖。",
+        "description": "高性能代码智能MCP服务器。将代码库索引为持久化知识图谱——平均仓库仅需毫秒级索引。支持158种语言，查询延迟低于1毫秒，Token消耗减少99%。单静态二进制文件，零依赖。",
         "language": "C",
         "topics": [],
-        "stars": 11828,
-        "forks": 870,
+        "stars": 11831,
+        "forks": 871,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -898,7 +898,7 @@
       },
       "readmeSignals": {
         "title": "codebase-memory-mcp",
-        "summary": "这是最快且最高效的代码智能引擎，专为AI编程智能体设计。它能在毫秒级时间内完成平均仓库的全量索引，甚至在3分钟内索引包含2800万行代码的Linux内核。通过Tree-sitter AST分析和混合LSP增强，它能生成包含函数、类、调用链、HTTP路由和跨服务链接的持久化知识图谱。提供14个MCP工具，零依赖，单二进制分发，支持macOS、Linux和Windows。",
+        "summary": "Codebase-Memory-MCP是为AI编程智能体设计的最快、最高效的代码智能引擎。它能在毫秒级时间内索引整个代码库（例如Linux内核在3分钟内完成索引），并提供亚毫秒级的结构查询响应。基于Tree-sitter的AST分析和混合LSP技术，它能生成包含函数、类、调用链和跨服务链接的持久化知识图谱。作为单个静态二进制文件分发，无依赖，即插即用。",
         "headings": [
           "codebase-memory-mcp",
           "Why codebase-memory-mcp",
@@ -912,10 +912,10 @@
         "commands": [],
         "keywords": [
           "代码智能",
-          "MCP服务器",
+          "MCP协议",
           "知识图谱",
-          "AST分析",
-          "极速索引"
+          "AI编程辅助",
+          "高性能索引"
         ],
         "score": 100
       },
@@ -961,7 +961,7 @@
         "description": "LLM驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。",
         "language": "Python",
         "topics": [],
-        "stars": 46062,
+        "stars": 46066,
         "forks": 42012,
         "license": null,
         "defaultBranch": null,
@@ -978,7 +978,7 @@
       },
       "readmeSignals": {
         "title": "📈 股票智能分析系统",
-        "summary": "这是一个基于AI大模型的智能股票分析系统，覆盖A股、港股、美股、日股和韩股等多个市场。系统每日自动生成并推送“决策仪表盘”至企业微信、飞书、Telegram等平台。功能包括AI决策报告（核心结论、评分、买卖点）、多市场数据聚合、Web/桌面工作台、Agent策略问股（支持均线、缠论等15种策略）以及智能导入与自动化推送。",
+        "summary": "这是一个基于AI大模型的智能股票分析系统，覆盖A股、港股、美股、日股和韩股等多个市场。系统每日自动聚合多源行情、K线、技术指标、资金流、新闻和公告等数据，生成包含核心结论、评分、趋势、买卖点位和风险警报的决策报告。支持通过企业微信、飞书、Telegram、Discord、Slack和邮箱自动推送。提供Web/桌面工作台，支持手动分析、回测、持仓管理和15种内置交易策略的智能问答。",
         "headings": [
           "📈 股票智能分析系统",
           "💖 赞助商 (Sponsors)",
@@ -994,7 +994,7 @@
         ],
         "keywords": [
           "股票分析",
-          "AI决策",
+          "AI投资",
           "多市场数据",
           "自动化推送",
           "量化策略"
@@ -1045,7 +1045,7 @@
         "description": "大规模搜索、抓取和交互网络的API。",
         "language": "TypeScript",
         "topics": [],
-        "stars": 137508,
+        "stars": 137509,
         "forks": 7966,
         "license": null,
         "defaultBranch": null,
@@ -1062,7 +1062,7 @@
       },
       "readmeSignals": {
         "title": "**🔥 Firecrawl**",
-        "summary": "Firecrawl是一个开源的网络上下文API，旨在大规模搜索、抓取网页并将其转化为干净的Markdown或结构化数据，供AI智能体使用。它覆盖96%的互联网页面，包括重JS页面，无需代理配置即可获得干净数据。具有行业领先的可靠性、极快的速度（P95延迟3.4秒）以及LLM就绪的输出格式（Markdown、JSON、截图），帮助开发者节省Token并构建更好的AI应用。",
+        "summary": "Firecrawl是一个用于大规模网络搜索、抓取和数据提取的API。它能覆盖96%的网络内容，包括重度JS页面，无需代理即可获取干净的数据。其P95延迟仅为3.4秒，专为实时智能体和动态应用设计。输出格式支持干净的Markdown、结构化JSON和截图，帮助开发者节省Token并构建更优质的AI应用。",
         "headings": [
           "**🔥 Firecrawl**",
           "Why Firecrawl?",
@@ -1080,9 +1080,9 @@
         "keywords": [
           "网络爬虫",
           "数据提取",
-          "LLM数据准备",
-          "开源API",
-          "网页结构化"
+          "AI数据源",
+          "API服务",
+          "网页解析"
         ],
         "score": 100
       },
@@ -1125,10 +1125,10 @@
         "starsGained": 100
       },
       "metadata": {
-        "description": "使用AI编程智能体，一条命令克隆任意网站。",
+        "description": "使用AI编程智能体一键克隆任意网站。",
         "language": "TypeScript",
         "topics": [],
-        "stars": 17920,
+        "stars": 17921,
         "forks": 2758,
         "license": null,
         "defaultBranch": null,
@@ -1145,7 +1145,7 @@
       },
       "readmeSignals": {
         "title": "AI Website Cloner Template",
-        "summary": "这是一个可复用的模板，用于将任何网站逆向工程为干净的现代Next.js代码库。推荐使用Anthropic的Opus 4.7模型配合Claude Code以获得最佳效果。用户只需指向URL并运行/clone-website命令，AI智能体就会检查网站、提取设计令牌和资产、编写组件规范，并派遣并行构建器重建每个部分。",
+        "summary": "这是一个可复用的模板，利用AI编程智能体（如Claude Code配合Opus模型）将任意网站逆向工程为干净、现代的Next.js代码库。用户只需提供URL并运行/clone-website命令，AI智能体便会检查网站、提取设计令牌和资源、编写组件规范，并并行构建各个部分，从而快速重建网站前端。",
         "headings": [
           "AI Website Cloner Template",
           "Demo",
@@ -1161,10 +1161,10 @@
         ],
         "keywords": [
           "网站克隆",
-          "Next.js模板",
           "AI逆向工程",
-          "前端重构",
-          "智能体自动化"
+          "Next.js模板",
+          "前端开发",
+          "智能体工具"
         ],
         "score": 100
       },
@@ -1209,10 +1209,10 @@
         "starsGained": 193
       },
       "metadata": {
-        "description": "在单张4GB显存的GPU上运行AirLLM 70B推理。",
+        "description": "AirLLM 70B推理仅需单张4GB显存GPU。",
         "language": "Jupyter Notebook",
         "topics": [],
-        "stars": 21122,
+        "stars": 21124,
         "forks": 2425,
         "license": null,
         "defaultBranch": null,
@@ -1229,7 +1229,7 @@
       },
       "readmeSignals": {
         "title": "could use hugging face model repo id:",
-        "summary": "AirLLM优化了推理内存使用，允许在不进行量化、蒸馏或剪枝的情况下，在单张4GB显存的GPU上运行70B大型语言模型。目前甚至可以在8GB显存上运行405B的Llama3.1模型。支持CPU推理和非分片模型，同时提供8bit/4bit量化选项，大幅降低了运行超大模型的硬件门槛。",
+        "summary": "AirLLM优化了推理内存使用，使得70B参数的大语言模型无需量化、蒸馏或剪枝即可在单张4GB显存的GPU上运行推理。它甚至支持在8GB显存上运行405B参数的Llama3.1模型。此外，它还支持CPU推理和非分片模型，以及8bit/4bit量化选项，极大地降低了运行超大模型的硬件门槛。",
         "headings": [
           "AI Agents Recommendation:",
           "Updates",
@@ -1247,10 +1247,10 @@
         ],
         "keywords": [
           "大模型推理",
-          "低显存优化",
-          "LLM加速",
+          "显存优化",
           "本地部署",
-          "内存管理"
+          "LLM加速",
+          "低资源运行"
         ],
         "score": 100
       },
@@ -1295,10 +1295,10 @@
         "starsGained": 2051
       },
       "metadata": {
-        "description": "真实工程师的技能。直接来自我的.claude目录。",
+        "description": "真实工程师的技能集。源自我的.claude目录。",
         "language": "Shell",
         "topics": [],
-        "stars": 142024,
+        "stars": 142030,
         "forks": 12280,
         "license": null,
         "defaultBranch": null,
@@ -1315,7 +1315,7 @@
       },
       "readmeSignals": {
         "title": "Skills For Real Engineers",
-        "summary": "这是一套由资深工程师Matthias Pocock提供的AI智能体技能集，旨在解决实际工程问题而非“氛围编码”。这些技能小巧、易于适应且可组合，适用于任何模型。它们基于数十年的工程经验设计，旨在保留开发者对过程的控制权，避免复杂方法论带来的Bug难以修复的问题。开发者可以自由修改和使用这些技能。",
+        "summary": "这是一套由资深工程师Matthias Pocock日常使用的AI智能体技能集，旨在解决实际工程问题而非“氛围编码”。这些技能小巧、易于适应且可组合，基于数十年的工程经验设计，适用于任何模型。它们帮助用户保持对开发过程的控制权，避免复杂方法论带来的Bug和失控，让AI真正服务于严谨的工程实践。",
         "headings": [
           "Skills For Real Engineers",
           "Quickstart (30-second setup)",
@@ -1328,11 +1328,11 @@
         ],
         "commands": [],
         "keywords": [
-          "AI编程技能",
-          "工程实践",
-          "智能体配置",
-          "代码质量",
-          "开发者工具"
+          "AI工程技能",
+          "智能体提示词",
+          "软件开发",
+          "最佳实践",
+          "Claude Code"
         ],
         "score": 100
       },
