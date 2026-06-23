@@ -2,8 +2,8 @@
   "schemaVersion": "trendreader.daily.v1",
   "packageId": "github-daily-All-2026-06-22",
   "locale": "en-US",
-  "generatedAt": "2026-06-23T04:32:08.854Z",
-  "expiresAt": "2026-06-24T04:32:08.854Z",
+  "generatedAt": "2026-06-23T21:51:04.254Z",
+  "expiresAt": "2026-06-24T21:51:04.254Z",
   "sourceWindow": {
     "since": "daily",
     "language": "All",
@@ -19,7 +19,7 @@
   ],
   "taxonomy": {
     "version": "2026-06-22",
-    "generatedAt": "2026-06-23T04:32:08.854Z",
+    "generatedAt": "2026-06-23T21:51:04.254Z",
     "categories": [
       {
         "id": "ai",
@@ -69,14 +69,14 @@
       "source": {
         "primary": "github_trending_html",
         "sourceRank": 1,
-        "starsGained": 2938
+        "starsGained": 3590
       },
       "metadata": {
         "description": "World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.",
         "language": "Python",
         "topics": [],
-        "stars": 12708,
-        "forks": 1597,
+        "stars": 15379,
+        "forks": 1837,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -145,808 +145,6 @@
       }
     },
     {
-      "id": "palmier-io-palmier-pro",
-      "owner": "palmier-io",
-      "name": "palmier-pro",
-      "url": "https://github.com/palmier-io/palmier-pro",
-      "avatarUrl": "https://github.com/palmier-io.png",
-      "homepageUrl": null,
-      "source": {
-        "primary": "github_trending_html",
-        "sourceRank": 2,
-        "starsGained": 2463
-      },
-      "metadata": {
-        "description": "macOS video editor built for AI",
-        "language": "Swift",
-        "topics": [],
-        "stars": 7651,
-        "forks": 516,
-        "license": null,
-        "defaultBranch": null,
-        "pushedAt": null,
-        "topLanguages": [
-          "Swift"
-        ]
-      },
-      "readmeRef": {
-        "status": "available",
-        "path": "README.md",
-        "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/palmier-io/palmier-pro/main/README.md"
-      },
-      "readmeSignals": {
-        "title": "Palmier Pro",
-        "summary": "Requires macOS 26 Tahoe on Apple Silicon English · Español · 简体中文 · 繁體中文 · 日本語 · 한국어 · Tiếng Việt · हिन्दी · বাংলা · العربية · Italiano · Português Brasil · Français · Русский Palmier Pro is an open source video editor for Mac. You and your agent can generate and edit videos together inside the timeline. We built Palmier Pro from scratch with Swift. The north star is Premiere Pro, with our take on integrating AI into the workflow. Generate videos and images with SOTA models like Seedance, Kling, Nano Banana Pro inside the timeline editor. Connects your Claude/Codex/Cursor via MCP, or use the in-app agent to work on the same project together.",
-        "headings": [
-          "Palmier Pro",
-          "Swift-native video editor",
-          "Built-in Generative AI",
-          "Integrates with your agents",
-          "MCP server",
-          "FAQ",
-          "Development",
-          "Community &amp; Support"
-        ],
-        "commands": [],
-        "keywords": [
-          "ai",
-          "palmier pro",
-          "swift-native video editor",
-          "built-in generative ai",
-          "integrates with your agents"
-        ],
-        "score": 100
-      },
-      "visual": {
-        "kind": "readme_image",
-        "url": "https://raw.githubusercontent.com/palmier-io/palmier-pro/main/assets/palmier-ui.png",
-        "thumbUrl": "https://raw.githubusercontent.com/palmier-io/palmier-pro/main/assets/palmier-ui.png",
-        "alt": "Palmier Pro UI",
-        "sourceUrl": "https://raw.githubusercontent.com/palmier-io/palmier-pro/main/assets/palmier-ui.png",
-        "promptHash": null
-      },
-      "classification": {
-        "primaryCategoryId": "ai",
-        "secondaryCategoryIds": [],
-        "confidence": 0.7,
-        "method": "rules",
-        "reasons": [
-          "Matched ai"
-        ],
-        "signals": [
-          "ai"
-        ]
-      },
-      "rank": {
-        "globalRank": 2,
-        "categoryRank": 2,
-        "score": 116
-      }
-    },
-    {
-      "id": "jamiepine-voicebox",
-      "owner": "jamiepine",
-      "name": "voicebox",
-      "url": "https://github.com/jamiepine/voicebox",
-      "avatarUrl": "https://github.com/jamiepine.png",
-      "homepageUrl": null,
-      "source": {
-        "primary": "github_trending_html",
-        "sourceRank": 3,
-        "starsGained": 529
-      },
-      "metadata": {
-        "description": "The open-source AI voice studio. Clone, dictate, create.",
-        "language": "TypeScript",
-        "topics": [],
-        "stars": 32451,
-        "forks": 3947,
-        "license": null,
-        "defaultBranch": null,
-        "pushedAt": null,
-        "topLanguages": [
-          "TypeScript"
-        ]
-      },
-      "readmeRef": {
-        "status": "available",
-        "path": "README.md",
-        "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/jamiepine/voicebox/main/README.md"
-      },
-      "readmeSignals": {
-        "title": "Generate speech",
-        "summary": "The open-source AI voice studio. Clone any voice. Generate speech. Dictate into any app. Talk to agents in voices you own. The full voice I/O stack, running locally on your machine. voicebox.sh • Docs • Download • Features • API • Troubleshooting Click the image above to watch the demo video on voicebox.sh Voicebox is a local-first AI voice studio — a free and open-source alternative to ElevenLabs and WisprFlow in one app. Clone voices from a few seconds of audio, generate speech in 23 languages across 7 TTS engines, dictate into any text field with a global hotkey, and give any MCP-aware AI agent a voice of your choosing.",
-        "headings": [
-          "What is Voicebox?",
-          "Download",
-          "Features",
-          "Multi-Engine Voice Cloning",
-          "Emotions & Paralinguistic Tags",
-          "Post-Processing Effects",
-          "Unlimited Generation Length",
-          "Generation Versions"
-        ],
-        "commands": [
-          "cargo install just"
-        ],
-        "keywords": [
-          "ai",
-          "what is voicebox?",
-          "download",
-          "features",
-          "multi-engine voice cloning"
-        ],
-        "score": 100
-      },
-      "visual": {
-        "kind": "readme_image",
-        "url": "https://raw.githubusercontent.com/jamiepine/voicebox/main/.github/assets/icon-dark.webp",
-        "thumbUrl": "https://raw.githubusercontent.com/jamiepine/voicebox/main/.github/assets/icon-dark.webp",
-        "alt": "Voicebox",
-        "sourceUrl": "https://raw.githubusercontent.com/jamiepine/voicebox/main/.github/assets/icon-dark.webp",
-        "promptHash": null
-      },
-      "classification": {
-        "primaryCategoryId": "ai",
-        "secondaryCategoryIds": [],
-        "confidence": 0.7,
-        "method": "rules",
-        "reasons": [
-          "Matched ai"
-        ],
-        "signals": [
-          "ai"
-        ]
-      },
-      "rank": {
-        "globalRank": 3,
-        "categoryRank": 3,
-        "score": 114
-      }
-    },
-    {
-      "id": "mukul975-anthropic-cybersecurity-skills",
-      "owner": "mukul975",
-      "name": "Anthropic-Cybersecurity-Skills",
-      "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
-      "avatarUrl": "https://github.com/mukul975.png",
-      "homepageUrl": null,
-      "source": {
-        "primary": "github_trending_html",
-        "sourceRank": 4,
-        "starsGained": 956
-      },
-      "metadata": {
-        "description": "817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF & MITRE F3 (Fight Fraud) · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms · 29 security domains · Apache 2.0",
-        "language": "Python",
-        "topics": [],
-        "stars": 18882,
-        "forks": 2225,
-        "license": null,
-        "defaultBranch": null,
-        "pushedAt": null,
-        "topLanguages": [
-          "Python"
-        ]
-      },
-      "readmeRef": {
-        "status": "available",
-        "path": "README.md",
-        "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/main/README.md"
-      },
-      "readmeSignals": {
-        "title": "Anthropic Cybersecurity Skills",
-        "summary": "The largest open-source cybersecurity skills library for AI agents 817 production-grade cybersecurity skills · 29 security domains · 6 framework mappings · 26+ AI platforms quick-start · whats-inside--29-security-domains · five-frameworks-one-skill-library · compatible-platforms · contributing ⚠️ Community Project — This is an independent, community-created project. Not affiliated with Anthropic PBC. Give any AI agent the security skills of a senior analyst A junior analyst knows which Volatility3 plugin to run on a suspicious memory dump, which Sigma rules catch Kerberoasting, and how to scope a cloud breach across three providers. Your AI agent doesn't — unless you give it these skills.",
-        "headings": [
-          "Anthropic Cybersecurity Skills",
-          "The largest open-source cybersecurity skills library for AI agents",
-          "Give any AI agent the security skills of a senior analyst",
-          "Six frameworks, one skill library",
-          "🆕 MITRE Fight Fraud Framework (F3) — 94 fraud-relevant skills",
-          "MITRE ATT&CK v19.1 — 754/754 skills mapped",
-          "Quick start",
-          "Option 1: npx (recommended)"
-        ],
-        "commands": [],
-        "keywords": [
-          "ai",
-          "agent",
-          "anthropic cybersecurity skills",
-          "the largest open-source cybersecurity skills library for ai agents",
-          "give any ai agent the security skills of a senior analyst",
-          "six frameworks, one skill library"
-        ],
-        "score": 100
-      },
-      "visual": {
-        "kind": "repository_avatar",
-        "url": "https://github.com/mukul975.png",
-        "thumbUrl": "https://github.com/mukul975.png",
-        "alt": "mukul975/Anthropic-Cybersecurity-Skills",
-        "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
-        "promptHash": "sha256:3617bc4a1a0c"
-      },
-      "classification": {
-        "primaryCategoryId": "ai",
-        "secondaryCategoryIds": [],
-        "confidence": 0.8,
-        "method": "rules",
-        "reasons": [
-          "Matched ai",
-          "Matched agent"
-        ],
-        "signals": [
-          "ai",
-          "agent"
-        ]
-      },
-      "rank": {
-        "globalRank": 4,
-        "categoryRank": 4,
-        "score": 112
-      }
-    },
-    {
-      "id": "penpot-penpot",
-      "owner": "penpot",
-      "name": "penpot",
-      "url": "https://github.com/penpot/penpot",
-      "avatarUrl": "https://github.com/penpot.png",
-      "homepageUrl": null,
-      "source": {
-        "primary": "github_trending_html",
-        "sourceRank": 5,
-        "starsGained": 728
-      },
-      "metadata": {
-        "description": "Penpot: The open-source design tool for design and code collaboration",
-        "language": "Clojure",
-        "topics": [],
-        "stars": 52963,
-        "forks": 3388,
-        "license": null,
-        "defaultBranch": null,
-        "pushedAt": null,
-        "topLanguages": [
-          "Clojure"
-        ]
-      },
-      "readmeRef": {
-        "status": "available",
-        "path": "README.md",
-        "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/penpot/penpot/main/README.md"
-      },
-      "readmeSignals": {
-        "title": null,
-        "summary": "Website • User Guide • Learning Center • Community Youtube • Peertube • Linkedin • Instagram • Mastodon • Bluesky • X Penpot is the open-source design platform for teams that build digital products at scale. Penpot’s key strength lies in giving you full ownership of your design infrastructure. Built on open source and designed for https://help.penpot.app/technical-guide/getting-started/, it puts teams in complete control of their design environment supporting strict compliance and governance requirements. Whether used in the browser or deployed on your own servers, Penpot works with open standards like SVG, CSS, HTML, and JSON.",
-        "headings": [
-          "Table of contents ##",
-          "Why Penpot ##",
-          "Plugin system ###",
-          "Designed for developers ###",
-          "Inspect mode ###",
-          "Integrations ###",
-          "Building Design Systems: design tokens, components and variants ###",
-          "Getting started ##"
-        ],
-        "commands": [],
-        "keywords": [
-          "tool",
-          "table of contents ##",
-          "why penpot ##",
-          "plugin system ###",
-          "designed for developers ###"
-        ],
-        "score": 100
-      },
-      "visual": {
-        "kind": "readme_image",
-        "url": "https://github.com/user-attachments/assets/da17b160-f289-436f-b140-972083a08602",
-        "thumbUrl": "https://github.com/user-attachments/assets/da17b160-f289-436f-b140-972083a08602",
-        "alt": "penpot/penpot",
-        "sourceUrl": "https://github.com/user-attachments/assets/da17b160-f289-436f-b140-972083a08602",
-        "promptHash": null
-      },
-      "classification": {
-        "primaryCategoryId": "tools",
-        "secondaryCategoryIds": [],
-        "confidence": 0.7,
-        "method": "rules",
-        "reasons": [
-          "Matched tool"
-        ],
-        "signals": [
-          "tool"
-        ]
-      },
-      "rank": {
-        "globalRank": 5,
-        "categoryRank": 5,
-        "score": 110
-      }
-    },
-    {
-      "id": "stirling-tools-stirling-pdf",
-      "owner": "Stirling-Tools",
-      "name": "Stirling-PDF",
-      "url": "https://github.com/Stirling-Tools/Stirling-PDF",
-      "avatarUrl": "https://github.com/Stirling-Tools.png",
-      "homepageUrl": null,
-      "source": {
-        "primary": "github_trending_html",
-        "sourceRank": 6,
-        "starsGained": 547
-      },
-      "metadata": {
-        "description": "#1 PDF Application on GitHub that lets you edit PDFs on any device anywhere",
-        "language": "TypeScript",
-        "topics": [],
-        "stars": 83149,
-        "forks": 7248,
-        "license": null,
-        "defaultBranch": null,
-        "pushedAt": null,
-        "topLanguages": [
-          "TypeScript"
-        ]
-      },
-      "readmeRef": {
-        "status": "available",
-        "path": "README.md",
-        "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/Stirling-Tools/Stirling-PDF/main/README.md"
-      },
-      "readmeSignals": {
-        "title": null,
-        "summary": "Stirling PDF - The Open-Source PDF Platform Stirling PDF is a powerful, open-source PDF editing platform. Run it as a personal desktop app, in the browser, or deploy it on your own servers with a private API. Edit, sign, redact, convert, and automate PDFs without sending documents to external services. Everywhere you work - Desktop client, browser UI, and self-hosted server with a private API. 50+ PDF tools - Edit, merge, split, sign, redact, convert, OCR, compress, and more. Automation & workflows - No-code pipelines direct in UI with APIs to process millions of PDFs. Enterprise‑grade - SSO, auditing, and flexible on‑prem deployments. Developer platform - REST APIs available for nearly all ",
-        "headings": [
-          "Key Capabilities",
-          "Quick Start",
-          "Resources",
-          "Support",
-          "Contributing",
-          "License"
-        ],
-        "commands": [],
-        "keywords": [
-          "key capabilities",
-          "quick start",
-          "resources",
-          "support"
-        ],
-        "score": 90
-      },
-      "visual": {
-        "kind": "readme_image",
-        "url": "https://raw.githubusercontent.com/Stirling-Tools/Stirling-PDF/main/images/home-light.png",
-        "thumbUrl": "https://raw.githubusercontent.com/Stirling-Tools/Stirling-PDF/main/images/home-light.png",
-        "alt": "Stirling PDF - Dashboard",
-        "sourceUrl": "https://raw.githubusercontent.com/Stirling-Tools/Stirling-PDF/main/images/home-light.png",
-        "promptHash": null
-      },
-      "classification": {
-        "primaryCategoryId": "unclassified",
-        "secondaryCategoryIds": [],
-        "confidence": 0.4,
-        "method": "rules",
-        "reasons": [
-          "No taxonomy rule matched with enough confidence"
-        ],
-        "signals": []
-      },
-      "rank": {
-        "globalRank": 6,
-        "categoryRank": 6,
-        "score": 108
-      }
-    },
-    {
-      "id": "garrytan-gstack",
-      "owner": "garrytan",
-      "name": "gstack",
-      "url": "https://github.com/garrytan/gstack",
-      "avatarUrl": "https://github.com/garrytan.png",
-      "homepageUrl": null,
-      "source": {
-        "primary": "github_trending_html",
-        "sourceRank": 7,
-        "starsGained": 573
-      },
-      "metadata": {
-        "description": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
-        "language": "TypeScript",
-        "topics": [],
-        "stars": 113322,
-        "forks": 16813,
-        "license": null,
-        "defaultBranch": null,
-        "pushedAt": null,
-        "topLanguages": [
-          "TypeScript"
-        ]
-      },
-      "readmeRef": {
-        "status": "available",
-        "path": "README.md",
-        "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/garrytan/gstack/main/README.md"
-      },
-      "readmeSignals": {
-        "title": "gstack",
-        "summary": "\"I don't think I've typed like a line of code probably since December, basically, which is an extremely large change.\" — https://fortune.com/2026/03/21/andrej-karpathy-openai-cofounder-ai-agents-coding-state-of-psychosis-openclaw/, No Priors podcast, March 2026 When I heard Karpathy say this, I wanted to find out how. How does one person ship like a team of twenty? Peter Steinberger built https://github.com/openclaw/openclaw — 247K GitHub stars — essentially solo with AI agents. The revolution is here. A single builder with the right tooling can move faster than a traditional team.",
-        "headings": [
-          "gstack",
-          "Quick start",
-          "Install — 30 seconds",
-          "Step 1: Install on your machine",
-          "Step 2: Team mode — auto-update for shared repos (recommended)",
-          "OpenClaw",
-          "Native OpenClaw Skills (via ClawHub)",
-          "Other AI Agents"
-        ],
-        "commands": [],
-        "keywords": [
-          "tool",
-          "gstack",
-          "quick start",
-          "install — 30 seconds",
-          "step 1: install on your machine"
-        ],
-        "score": 100
-      },
-      "visual": {
-        "kind": "readme_image",
-        "url": "https://raw.githubusercontent.com/garrytan/gstack/main/docs/images/github-2026.png",
-        "thumbUrl": "https://raw.githubusercontent.com/garrytan/gstack/main/docs/images/github-2026.png",
-        "alt": "GitHub contributions 2026 — 1,237 contributions, massive acceleration in Jan-Mar",
-        "sourceUrl": "https://raw.githubusercontent.com/garrytan/gstack/main/docs/images/github-2026.png",
-        "promptHash": null
-      },
-      "classification": {
-        "primaryCategoryId": "tools",
-        "secondaryCategoryIds": [],
-        "confidence": 0.7,
-        "method": "rules",
-        "reasons": [
-          "Matched tool"
-        ],
-        "signals": [
-          "tool"
-        ]
-      },
-      "rank": {
-        "globalRank": 7,
-        "categoryRank": 7,
-        "score": 106
-      }
-    },
-    {
-      "id": "heygen-com-hyperframes",
-      "owner": "heygen-com",
-      "name": "hyperframes",
-      "url": "https://github.com/heygen-com/hyperframes",
-      "avatarUrl": "https://github.com/heygen-com.png",
-      "homepageUrl": null,
-      "source": {
-        "primary": "github_trending_html",
-        "sourceRank": 8,
-        "starsGained": 395
-      },
-      "metadata": {
-        "description": "Write HTML. Render video. Built for agents.",
-        "language": "TypeScript",
-        "topics": [],
-        "stars": 30179,
-        "forks": 2831,
-        "license": null,
-        "defaultBranch": null,
-        "pushedAt": null,
-        "topLanguages": [
-          "TypeScript"
-        ]
-      },
-      "readmeRef": {
-        "status": "available",
-        "path": "README.md",
-        "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/heygen-com/hyperframes/main/README.md"
-      },
-      "readmeSignals": {
-        "title": "macOS",
-        "summary": "Write HTML. Render video. Built for agents. Quickstart | Showcase | Playground | Catalog | Docs | Discord HyperFrames is an open-source framework for turning HTML, CSS, media, and seekable animations into deterministic MP4 videos. Use it locally with the CLI, from AI coding agents with skills, or as the rendering core behind hosted authoring workflows. Install the HyperFrames skills, then describe the video you want: Using /hyperframes, create a 10-second product intro with a fade-in title, a background video, and subtle background music. The skills teach agents the HyperFrames production loop: plan the video, write valid HTML, wire seekable animations, add media, lint, preview, and render. ",
-        "headings": [
-          "Quick Start",
-          "With an AI coding agent",
-          "Manually with the CLI",
-          "What You Can Build",
-          "Frame.md",
-          "How It Works",
-          "HyperFrames Stack",
-          "Catalog"
-        ],
-        "commands": [],
-        "keywords": [
-          "agent",
-          "quick start",
-          "with an ai coding agent",
-          "manually with the cli",
-          "what you can build"
-        ],
-        "score": 100
-      },
-      "visual": {
-        "kind": "readme_image",
-        "url": "https://static.heygen.ai/hyperframes-oss/docs/images/design-templates/biennale-yellow.png",
-        "thumbUrl": "https://static.heygen.ai/hyperframes-oss/docs/images/design-templates/biennale-yellow.png",
-        "alt": "Biennale Yellow",
-        "sourceUrl": "https://static.heygen.ai/hyperframes-oss/docs/images/design-templates/biennale-yellow.png",
-        "promptHash": null
-      },
-      "classification": {
-        "primaryCategoryId": "ai",
-        "secondaryCategoryIds": [],
-        "confidence": 0.7,
-        "method": "rules",
-        "reasons": [
-          "Matched agent"
-        ],
-        "signals": [
-          "agent"
-        ]
-      },
-      "rank": {
-        "globalRank": 8,
-        "categoryRank": 8,
-        "score": 104
-      }
-    },
-    {
-      "id": "tursodatabase-turso",
-      "owner": "tursodatabase",
-      "name": "turso",
-      "url": "https://github.com/tursodatabase/turso",
-      "avatarUrl": "https://github.com/tursodatabase.png",
-      "homepageUrl": null,
-      "source": {
-        "primary": "github_trending_html",
-        "sourceRank": 9,
-        "starsGained": 540
-      },
-      "metadata": {
-        "description": "Turso is an in-process SQL database, compatible with SQLite.",
-        "language": "Rust",
-        "topics": [],
-        "stars": 21573,
-        "forks": 1092,
-        "license": null,
-        "defaultBranch": null,
-        "pushedAt": null,
-        "topLanguages": [
-          "Rust"
-        ]
-      },
-      "readmeRef": {
-        "status": "available",
-        "path": "README.md",
-        "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/tursodatabase/turso/main/README.md"
-      },
-      "readmeSignals": {
-        "title": "↑            ↑       ↑                           ↑",
-        "summary": "An in-process SQL database, compatible with SQLite. Turso Database is an in-process SQL database written in Rust, compatible with SQLite. ⚠️ Warning: This software is in BETA. It may still contain bugs and unexpected behavior. Use caution with production data and ensure you have backups. SQLite compatibility for SQL dialect, file formats, and the C API COMPAT.md for details BEGIN CONCURRENT for improved write throughput using multi-version concurrency control MVCC. Change data capture CDC for real-time tracking of database changes. Multi-language support for bindings/go bindings/javascript bindings/java bindings/dotnet bindings/python bindings/rust bindings/javascript Asynchronous I/O suppor",
-        "headings": [
-          "About",
-          "Features and Roadmap",
-          "Getting Started",
-          "Configuration",
-          "Available Tools",
-          "MCP Clients",
-          "↑            ↑       ↑                           ↑",
-          "|            |       |                           |"
-        ],
-        "commands": [
-          "pip install pyturso"
-        ],
-        "keywords": [
-          "database",
-          "about",
-          "features and roadmap",
-          "getting started",
-          "configuration"
-        ],
-        "score": 100
-      },
-      "visual": {
-        "kind": "readme_image",
-        "url": "https://raw.githubusercontent.com/tursodatabase/turso/main/assets/turso.png",
-        "thumbUrl": "https://raw.githubusercontent.com/tursodatabase/turso/main/assets/turso.png",
-        "alt": "Turso Database",
-        "sourceUrl": "https://raw.githubusercontent.com/tursodatabase/turso/main/assets/turso.png",
-        "promptHash": null
-      },
-      "classification": {
-        "primaryCategoryId": "backend",
-        "secondaryCategoryIds": [],
-        "confidence": 0.7,
-        "method": "rules",
-        "reasons": [
-          "Matched database"
-        ],
-        "signals": [
-          "database"
-        ]
-      },
-      "rank": {
-        "globalRank": 9,
-        "categoryRank": 9,
-        "score": 102
-      }
-    },
-    {
-      "id": "bytedance-deer-flow",
-      "owner": "bytedance",
-      "name": "deer-flow",
-      "url": "https://github.com/bytedance/deer-flow",
-      "avatarUrl": "https://github.com/bytedance.png",
-      "homepageUrl": null,
-      "source": {
-        "primary": "github_trending_html",
-        "sourceRank": 10,
-        "starsGained": 738
-      },
-      "metadata": {
-        "description": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.",
-        "language": "Python",
-        "topics": [],
-        "stars": 73393,
-        "forks": 9917,
-        "license": null,
-        "defaultBranch": null,
-        "pushedAt": null,
-        "topLanguages": [
-          "Python"
-        ]
-      },
-      "readmeRef": {
-        "status": "available",
-        "path": "README.md",
-        "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/bytedance/deer-flow/main/README.md"
-      },
-      "readmeSignals": {
-        "title": "🦌 DeerFlow - 2.0",
-        "summary": "English | ./READMEzh.md | ./READMEja.md | ./READMEfr.md | ./READMEru.md ./backend/pyproject.toml ./Makefile ./LICENSE On February 28th, 2026, DeerFlow claimed the 🏆 1 spot on GitHub Trending following the launch of version 2. Thanks a million to our incredible community — you made this happen! 💪🔥 DeerFlow Deep Exploration and Efficient Research Flow is an open-source super agent harness that orchestrates sub-agents, memory, and sandboxes to do almost anything — powered by extensible skills. Learn more and see real demos on our https://deerflow.tech. We strongly recommend using Doubao-Seed-2.0-Code, DeepSeek v3.2 and Kimi 2.5 to run DeerFlow https://www.byteplus.com/en/activity/codingplan?",
-        "headings": [
-          "🦌 DeerFlow - 2.0",
-          "Official Website",
-          "Coding Plan from ByteDance Volcengine",
-          "InfoQuest",
-          "Table of Contents",
-          "One-Line Agent Setup",
-          "Quick Start",
-          "Configuration"
-        ],
-        "commands": [],
-        "keywords": [
-          "agent",
-          "🦌 deerflow - 2.0",
-          "official website",
-          "coding plan from bytedance volcengine",
-          "infoquest"
-        ],
-        "score": 100
-      },
-      "visual": {
-        "kind": "repository_avatar",
-        "url": "https://github.com/bytedance.png",
-        "thumbUrl": "https://github.com/bytedance.png",
-        "alt": "bytedance/deer-flow",
-        "sourceUrl": "https://github.com/bytedance/deer-flow",
-        "promptHash": "sha256:66cde6a63bd1"
-      },
-      "classification": {
-        "primaryCategoryId": "ai",
-        "secondaryCategoryIds": [],
-        "confidence": 0.7,
-        "method": "rules",
-        "reasons": [
-          "Matched agent"
-        ],
-        "signals": [
-          "agent"
-        ]
-      },
-      "rank": {
-        "globalRank": 10,
-        "categoryRank": 10,
-        "score": 100
-      }
-    },
-    {
-      "id": "deusdata-codebase-memory-mcp",
-      "owner": "DeusData",
-      "name": "codebase-memory-mcp",
-      "url": "https://github.com/DeusData/codebase-memory-mcp",
-      "avatarUrl": "https://github.com/DeusData.png",
-      "homepageUrl": null,
-      "source": {
-        "primary": "github_trending_html",
-        "sourceRank": 11,
-        "starsGained": 1185
-      },
-      "metadata": {
-        "description": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
-        "language": "C",
-        "topics": [],
-        "stars": 11831,
-        "forks": 871,
-        "license": null,
-        "defaultBranch": null,
-        "pushedAt": null,
-        "topLanguages": [
-          "C"
-        ]
-      },
-      "readmeRef": {
-        "status": "available",
-        "path": "README.md",
-        "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/DeusData/codebase-memory-mcp/main/README.md"
-      },
-      "readmeSignals": {
-        "title": "codebase-memory-mcp",
-        "summary": "The fastest and most efficient code intelligence engine for AI coding agents. Full-indexes an average repository in milliseconds, the Linux kernel 28M LOC, 75K files in 3 minutes. Answers structural queries in under 1ms. Ships as a single static binary for macOS, Linux, and Windows — download, run install, done. High-quality parsing through https://tree-sitter.github.io/tree-sitter/ AST analysis across all 158 languages, enhanced with hybrid-lsp for Python, TypeScript / JavaScript / JSX / TSX, PHP, C, Go, C, C++, Java, Kotlin, and Rust — producing a persistent knowledge graph of functions, classes, call chains, HTTP routes, and cross-service links. 14 MCP tools. Zero dependencies. Plug and p",
-        "headings": [
-          "codebase-memory-mcp",
-          "Why codebase-memory-mcp",
-          "Quick Start",
-          "1. Download the installer",
-          "2. (Optional but recommended) Inspect the script",
-          "3. Run it",
-          "Graph Visualization UI",
-          "Auto-Index"
-        ],
-        "commands": [],
-        "keywords": [
-          "mcp",
-          "codebase-memory-mcp",
-          "why codebase-memory-mcp",
-          "quick start",
-          "1. download the installer"
-        ],
-        "score": 100
-      },
-      "visual": {
-        "kind": "readme_image",
-        "url": "https://raw.githubusercontent.com/DeusData/codebase-memory-mcp/main/docs/graph-ui-screenshot.png",
-        "thumbUrl": "https://raw.githubusercontent.com/DeusData/codebase-memory-mcp/main/docs/graph-ui-screenshot.png",
-        "alt": "Graph visualization UI showing the codebase-memory-mcp knowledge graph",
-        "sourceUrl": "https://raw.githubusercontent.com/DeusData/codebase-memory-mcp/main/docs/graph-ui-screenshot.png",
-        "promptHash": null
-      },
-      "classification": {
-        "primaryCategoryId": "ai",
-        "secondaryCategoryIds": [],
-        "confidence": 0.7,
-        "method": "rules",
-        "reasons": [
-          "Matched mcp"
-        ],
-        "signals": [
-          "mcp"
-        ]
-      },
-      "rank": {
-        "globalRank": 11,
-        "categoryRank": 11,
-        "score": 98
-      }
-    },
-    {
       "id": "zhulinsen-daily-stock-analysis",
       "owner": "ZhuLinsen",
       "name": "daily_stock_analysis",
@@ -955,15 +153,15 @@
       "homepageUrl": null,
       "source": {
         "primary": "github_trending_html",
-        "sourceRank": 12,
-        "starsGained": 1557
+        "sourceRank": 2,
+        "starsGained": 1121
       },
       "metadata": {
         "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
         "language": "Python",
         "topics": [],
-        "stars": 46066,
-        "forks": 42012,
+        "stars": 46953,
+        "forks": 42358,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -1026,29 +224,112 @@
         ]
       },
       "rank": {
-        "globalRank": 12,
-        "categoryRank": 12,
-        "score": 96
+        "globalRank": 2,
+        "categoryRank": 2,
+        "score": 116
       }
     },
     {
-      "id": "firecrawl-firecrawl",
-      "owner": "firecrawl",
-      "name": "firecrawl",
-      "url": "https://github.com/firecrawl/firecrawl",
-      "avatarUrl": "https://github.com/firecrawl.png",
+      "id": "mukul975-anthropic-cybersecurity-skills",
+      "owner": "mukul975",
+      "name": "Anthropic-Cybersecurity-Skills",
+      "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
+      "avatarUrl": "https://github.com/mukul975.png",
       "homepageUrl": null,
       "source": {
         "primary": "github_trending_html",
-        "sourceRank": 13,
-        "starsGained": 615
+        "sourceRank": 3,
+        "starsGained": 1040
       },
       "metadata": {
-        "description": "The API to search, scrape, and interact with the web at scale. 🔥",
+        "description": "817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF & MITRE F3 (Fight Fraud) · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms · 29 security domains · Apache 2.0",
+        "language": "Python",
+        "topics": [],
+        "stars": 19586,
+        "forks": 2276,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Python"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "Anthropic Cybersecurity Skills",
+        "summary": "The largest open-source cybersecurity skills library for AI agents 817 production-grade cybersecurity skills · 29 security domains · 6 framework mappings · 26+ AI platforms quick-start · whats-inside--29-security-domains · five-frameworks-one-skill-library · compatible-platforms · contributing ⚠️ Community Project — This is an independent, community-created project. Not affiliated with Anthropic PBC. Give any AI agent the security skills of a senior analyst A junior analyst knows which Volatility3 plugin to run on a suspicious memory dump, which Sigma rules catch Kerberoasting, and how to scope a cloud breach across three providers. Your AI agent doesn't — unless you give it these skills.",
+        "headings": [
+          "Anthropic Cybersecurity Skills",
+          "The largest open-source cybersecurity skills library for AI agents",
+          "Give any AI agent the security skills of a senior analyst",
+          "Six frameworks, one skill library",
+          "🆕 MITRE Fight Fraud Framework (F3) — 94 fraud-relevant skills",
+          "MITRE ATT&CK v19.1 — 754/754 skills mapped",
+          "Quick start",
+          "Option 1: npx (recommended)"
+        ],
+        "commands": [],
+        "keywords": [
+          "ai",
+          "agent",
+          "anthropic cybersecurity skills",
+          "the largest open-source cybersecurity skills library for ai agents",
+          "give any ai agent the security skills of a senior analyst",
+          "six frameworks, one skill library"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "repository_avatar",
+        "url": "https://github.com/mukul975.png",
+        "thumbUrl": "https://github.com/mukul975.png",
+        "alt": "mukul975/Anthropic-Cybersecurity-Skills",
+        "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
+        "promptHash": "sha256:3617bc4a1a0c"
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.8,
+        "method": "rules",
+        "reasons": [
+          "Matched ai",
+          "Matched agent"
+        ],
+        "signals": [
+          "ai",
+          "agent"
+        ]
+      },
+      "rank": {
+        "globalRank": 3,
+        "categoryRank": 3,
+        "score": 114
+      }
+    },
+    {
+      "id": "garrytan-gstack",
+      "owner": "garrytan",
+      "name": "gstack",
+      "url": "https://github.com/garrytan/gstack",
+      "avatarUrl": "https://github.com/garrytan.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 4,
+        "starsGained": 1012
+      },
+      "metadata": {
+        "description": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
         "language": "TypeScript",
         "topics": [],
-        "stars": 137509,
-        "forks": 7966,
+        "stars": 113998,
+        "forks": 16877,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -1060,58 +341,619 @@
         "status": "available",
         "path": "README.md",
         "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/firecrawl/firecrawl/main/README.md"
+        "rawUrl": "https://raw.githubusercontent.com/garrytan/gstack/main/README.md"
       },
       "readmeSignals": {
-        "title": "**🔥 Firecrawl**",
-        "summary": "The API to search, scrape, and interact with the web at scale. 🔥 The web context API to find sources, extract content, and turn it into clean Markdown or structured data your agents can ship with. Open source and available as a https://firecrawl.dev/?ref=github. Industry-leading reliability: Covers 96% of the web, including JS-heavy pages — no proxy headaches, just clean data https://www.firecrawl.dev/blog/the-worlds-best-web-data-api-v25 Blazingly fast: P95 latency of 3.4s across millions of pages, built for real-time agents and dynamic apps LLM-ready output: Clean markdown, structured JSON, screenshots, and more — spend fewer tokens, build better AI apps We handle the hard stuff: Rotating",
+        "title": "gstack",
+        "summary": "\"I don't think I've typed like a line of code probably since December, basically, which is an extremely large change.\" — https://fortune.com/2026/03/21/andrej-karpathy-openai-cofounder-ai-agents-coding-state-of-psychosis-openclaw/, No Priors podcast, March 2026 When I heard Karpathy say this, I wanted to find out how. How does one person ship like a team of twenty? Peter Steinberger built https://github.com/openclaw/openclaw — 247K GitHub stars — essentially solo with AI agents. The revolution is here. A single builder with the right tooling can move faster than a traditional team.",
         "headings": [
-          "**🔥 Firecrawl**",
-          "Why Firecrawl?",
-          "Feature Overview",
+          "gstack",
+          "Quick start",
+          "Install — 30 seconds",
+          "Step 1: Install on your machine",
+          "Step 2: Team mode — auto-update for shared repos (recommended)",
+          "OpenClaw",
+          "Native OpenClaw Skills (via ClawHub)",
+          "Other AI Agents"
+        ],
+        "commands": [],
+        "keywords": [
+          "tool",
+          "gstack",
+          "quick start",
+          "install — 30 seconds",
+          "step 1: install on your machine"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/garrytan/gstack/main/docs/images/github-2026.png",
+        "thumbUrl": "https://raw.githubusercontent.com/garrytan/gstack/main/docs/images/github-2026.png",
+        "alt": "GitHub contributions 2026 — 1,237 contributions, massive acceleration in Jan-Mar",
+        "sourceUrl": "https://raw.githubusercontent.com/garrytan/gstack/main/docs/images/github-2026.png",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "tools",
+        "secondaryCategoryIds": [],
+        "confidence": 0.7,
+        "method": "rules",
+        "reasons": [
+          "Matched tool"
+        ],
+        "signals": [
+          "tool"
+        ]
+      },
+      "rank": {
+        "globalRank": 4,
+        "categoryRank": 4,
+        "score": 112
+      }
+    },
+    {
+      "id": "bytedance-deer-flow",
+      "owner": "bytedance",
+      "name": "deer-flow",
+      "url": "https://github.com/bytedance/deer-flow",
+      "avatarUrl": "https://github.com/bytedance.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 5,
+        "starsGained": 741
+      },
+      "metadata": {
+        "description": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.",
+        "language": "Python",
+        "topics": [],
+        "stars": 73856,
+        "forks": 9965,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Python"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/bytedance/deer-flow/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "🦌 DeerFlow - 2.0",
+        "summary": "English | ./READMEzh.md | ./READMEja.md | ./READMEfr.md | ./READMEru.md ./backend/pyproject.toml ./Makefile ./LICENSE On February 28th, 2026, DeerFlow claimed the 🏆 1 spot on GitHub Trending following the launch of version 2. Thanks a million to our incredible community — you made this happen! 💪🔥 DeerFlow Deep Exploration and Efficient Research Flow is an open-source super agent harness that orchestrates sub-agents, memory, and sandboxes to do almost anything — powered by extensible skills. Learn more and see real demos on our https://deerflow.tech. We strongly recommend using Doubao-Seed-2.0-Code, DeepSeek v3.2 and Kimi 2.5 to run DeerFlow https://www.byteplus.com/en/activity/codingplan?",
+        "headings": [
+          "🦌 DeerFlow - 2.0",
+          "Official Website",
+          "Coding Plan from ByteDance Volcengine",
+          "InfoQuest",
+          "Table of Contents",
+          "One-Line Agent Setup",
           "Quick Start",
-          "Search",
-          "Scrape",
-          "Firecrawl",
-          "Features"
+          "Configuration"
+        ],
+        "commands": [],
+        "keywords": [
+          "agent",
+          "🦌 deerflow - 2.0",
+          "official website",
+          "coding plan from bytedance volcengine",
+          "infoquest"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "repository_avatar",
+        "url": "https://github.com/bytedance.png",
+        "thumbUrl": "https://github.com/bytedance.png",
+        "alt": "bytedance/deer-flow",
+        "sourceUrl": "https://github.com/bytedance/deer-flow",
+        "promptHash": "sha256:66cde6a63bd1"
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.7,
+        "method": "rules",
+        "reasons": [
+          "Matched agent"
+        ],
+        "signals": [
+          "agent"
+        ]
+      },
+      "rank": {
+        "globalRank": 5,
+        "categoryRank": 5,
+        "score": 110
+      }
+    },
+    {
+      "id": "koala73-worldmonitor",
+      "owner": "koala73",
+      "name": "worldmonitor",
+      "url": "https://github.com/koala73/worldmonitor",
+      "avatarUrl": "https://github.com/koala73.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 6,
+        "starsGained": 279
+      },
+      "metadata": {
+        "description": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
+        "language": "TypeScript",
+        "topics": [],
+        "stars": 59019,
+        "forks": 9279,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "TypeScript"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/koala73/worldmonitor/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "World Monitor",
+        "summary": "Real-time global intelligence dashboard — AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface. Documentation &nbsp;·&nbsp; Releases &nbsp;·&nbsp; Contributing 500+ curated news feeds across 15 categories, AI-synthesized into briefs Dual map engine — 3D globe globe.gl and WebGL flat map deck.gl with 56 map layer types Cross-stream correlation — military, economic, disaster, and escalation signal convergence Country Instability Index CII — server-authoritative CII v8 stress scoring for 31 Tier-1 countries Finance radar — 29 stock exchanges, commodities, crypto, and 7-signal market composite Local AI — run everything wit",
+        "headings": [
+          "World Monitor",
+          "What It Does",
+          "Support Status",
+          "Quick Start",
+          "Tech Stack",
+          "Flight Data",
+          "Data Sources",
+          "Contributing"
         ],
         "commands": [
-          "pip install firecrawl-py",
-          "npm install firecrawl"
+          "npm install\nnpm run dev"
         ],
         "keywords": [
-          "api",
-          "**🔥 firecrawl**",
-          "why firecrawl?",
-          "feature overview",
+          "ai",
+          "world monitor",
+          "what it does",
+          "support status",
           "quick start"
         ],
         "score": 100
       },
       "visual": {
         "kind": "readme_image",
-        "url": "https://raw.githubusercontent.com/firecrawl/firecrawl/main/img/open-source-cloud.png",
-        "thumbUrl": "https://raw.githubusercontent.com/firecrawl/firecrawl/main/img/open-source-cloud.png",
-        "alt": "Open Source vs Cloud",
-        "sourceUrl": "https://raw.githubusercontent.com/firecrawl/firecrawl/main/img/open-source-cloud.png",
+        "url": "https://raw.githubusercontent.com/koala73/worldmonitor/main/docs/images/worldmonitor-7-mar-2026.jpg",
+        "thumbUrl": "https://raw.githubusercontent.com/koala73/worldmonitor/main/docs/images/worldmonitor-7-mar-2026.jpg",
+        "alt": "World Monitor Dashboard",
+        "sourceUrl": "https://raw.githubusercontent.com/koala73/worldmonitor/main/docs/images/worldmonitor-7-mar-2026.jpg",
         "promptHash": null
       },
       "classification": {
-        "primaryCategoryId": "backend",
+        "primaryCategoryId": "ai",
         "secondaryCategoryIds": [],
         "confidence": 0.7,
         "method": "rules",
         "reasons": [
-          "Matched api"
+          "Matched ai"
         ],
         "signals": [
-          "api"
+          "ai"
         ]
       },
       "rank": {
-        "globalRank": 13,
-        "categoryRank": 13,
-        "score": 94
+        "globalRank": 6,
+        "categoryRank": 6,
+        "score": 108
+      }
+    },
+    {
+      "id": "palmier-io-palmier-pro",
+      "owner": "palmier-io",
+      "name": "palmier-pro",
+      "url": "https://github.com/palmier-io/palmier-pro",
+      "avatarUrl": "https://github.com/palmier-io.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 7,
+        "starsGained": 1631
+      },
+      "metadata": {
+        "description": "macOS video editor built for AI",
+        "language": "Swift",
+        "topics": [],
+        "stars": 8369,
+        "forks": 552,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Swift"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/palmier-io/palmier-pro/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "Palmier Pro",
+        "summary": "Requires macOS 26 Tahoe on Apple Silicon English · Español · 简体中文 · 繁體中文 · 日本語 · 한국어 · Tiếng Việt · हिन्दी · বাংলা · العربية · Italiano · Português Brasil · Français · Русский Palmier Pro is an open source video editor for Mac. You and your agent can generate and edit videos together inside the timeline. We built Palmier Pro from scratch with Swift. The north star is Premiere Pro, with our take on integrating AI into the workflow. Generate videos and images with SOTA models like Seedance, Kling, Nano Banana Pro inside the timeline editor. Connects your Claude/Codex/Cursor via MCP, or use the in-app agent to work on the same project together.",
+        "headings": [
+          "Palmier Pro",
+          "Swift-native video editor",
+          "Built-in Generative AI",
+          "Integrates with your agents",
+          "MCP server",
+          "FAQ",
+          "Development",
+          "Community &amp; Support"
+        ],
+        "commands": [],
+        "keywords": [
+          "ai",
+          "palmier pro",
+          "swift-native video editor",
+          "built-in generative ai",
+          "integrates with your agents"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/palmier-io/palmier-pro/main/assets/palmier-ui.png",
+        "thumbUrl": "https://raw.githubusercontent.com/palmier-io/palmier-pro/main/assets/palmier-ui.png",
+        "alt": "Palmier Pro UI",
+        "sourceUrl": "https://raw.githubusercontent.com/palmier-io/palmier-pro/main/assets/palmier-ui.png",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.7,
+        "method": "rules",
+        "reasons": [
+          "Matched ai"
+        ],
+        "signals": [
+          "ai"
+        ]
+      },
+      "rank": {
+        "globalRank": 7,
+        "categoryRank": 7,
+        "score": 106
+      }
+    },
+    {
+      "id": "anthropics-claude-plugins-official",
+      "owner": "anthropics",
+      "name": "claude-plugins-official",
+      "url": "https://github.com/anthropics/claude-plugins-official",
+      "avatarUrl": "https://github.com/anthropics.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 8,
+        "starsGained": 66
+      },
+      "metadata": {
+        "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
+        "language": "Python",
+        "topics": [],
+        "stars": 30810,
+        "forks": 3358,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Python"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/anthropics/claude-plugins-official/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "Claude Code Plugins Directory",
+        "summary": "A curated directory of high-quality plugins for Claude Code. ⚠️ Important: Make sure you trust a plugin before installing, updating, or using it. Anthropic does not control what MCP servers, files, or other software are included in plugins and cannot verify that they will work as intended or that they won't change. See each plugin's homepage for more information. /plugins - Internal plugins developed and maintained by Anthropic /externalplugins - Third-party plugins from partners and the community Plugins can be installed directly from this marketplace via Claude Code's plugin system.",
+        "headings": [
+          "Claude Code Plugins Directory",
+          "Structure",
+          "Installation",
+          "Contributing",
+          "Internal Plugins",
+          "External Plugins",
+          "Plugin Structure",
+          "Skill-bundle plugins"
+        ],
+        "commands": [],
+        "keywords": [
+          "claude code plugins directory",
+          "structure",
+          "installation",
+          "contributing"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "repository_avatar",
+        "url": "https://github.com/anthropics.png",
+        "thumbUrl": "https://github.com/anthropics.png",
+        "alt": "anthropics/claude-plugins-official",
+        "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
+        "promptHash": "sha256:083f36522e2c"
+      },
+      "classification": {
+        "primaryCategoryId": "unclassified",
+        "secondaryCategoryIds": [],
+        "confidence": 0.4,
+        "method": "rules",
+        "reasons": [
+          "No taxonomy rule matched with enough confidence"
+        ],
+        "signals": []
+      },
+      "rank": {
+        "globalRank": 8,
+        "categoryRank": 8,
+        "score": 90.6
+      }
+    },
+    {
+      "id": "shanraisshan-claude-code-best-practice",
+      "owner": "shanraisshan",
+      "name": "claude-code-best-practice",
+      "url": "https://github.com/shanraisshan/claude-code-best-practice",
+      "avatarUrl": "https://github.com/shanraisshan.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 9,
+        "starsGained": 329
+      },
+      "metadata": {
+        "description": "from vibe coding to agentic engineering - practice makes claude perfect",
+        "language": "HTML",
+        "topics": [],
+        "stars": 59363,
+        "forks": 5977,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "HTML"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/shanraisshan/claude-code-best-practice/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "claude-code-best-practice",
+        "summary": "claude-code-best-practice from vibe coding to agentic engineering - practice makes claude perfect best-practice/ implementation/ orchestration-workflow/orchestration-workflow.md https://code.claude.com/docs -tips-and-tricks -subscribe Boris Cherny on X tweet 1 · tweet 2 · tweet 3 | Feature | Location | Description | https://code.claude.com/docs/en/sub-agents | .claude/agents/ .md | best-practice/claude-subagents.md implementation/claude-subagents-implementation.md | https://code.claude.com/docs/en/slash-commands | .claude/commands/ .md | best-practice/claude-commands.md implementation/claude-commands-implementation.md | https://code.claude.com/docs/en/skills | .claude/skills/ /SKILL.md | bes",
+        "headings": [
+          "claude-code-best-practice",
+          "🧠 CONCEPTS",
+          "🔥 Hot",
+          "<a href=\"orchestration-workflow/orchestration-workflow.md\"><img src=\"!/tags/orchestration-workflow-hd.svg\" alt=\"Orchestration Workflow\"></a>",
+          "⚙️ DEVELOPMENT WORKFLOWS",
+          "Others",
+          "🔀 CROSS-MODEL WORKFLOWS",
+          "🧰 SKILL COLLECTIONS"
+        ],
+        "commands": [],
+        "keywords": [
+          "agent",
+          "claude-code-best-practice",
+          "🧠 concepts",
+          "🔥 hot",
+          "<a href=\"orchestration-workflow/orchestration-workflow.md\"><img src=\"!/tags/orchestration-workflow-hd.svg\" alt=\"orchestration workflow\"></a>"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/shanraisshan/claude-code-best-practice/main/!/tags/best-practice.svg",
+        "thumbUrl": "https://raw.githubusercontent.com/shanraisshan/claude-code-best-practice/main/!/tags/best-practice.svg",
+        "alt": "Best Practice",
+        "sourceUrl": "https://raw.githubusercontent.com/shanraisshan/claude-code-best-practice/main/!/tags/best-practice.svg",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.7,
+        "method": "rules",
+        "reasons": [
+          "Matched agent"
+        ],
+        "signals": [
+          "agent"
+        ]
+      },
+      "rank": {
+        "globalRank": 9,
+        "categoryRank": 9,
+        "score": 102
+      }
+    },
+    {
+      "id": "revfactory-harness",
+      "owner": "revfactory",
+      "name": "harness",
+      "url": "https://github.com/revfactory/harness",
+      "avatarUrl": "https://github.com/revfactory.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 10,
+        "starsGained": 123
+      },
+      "metadata": {
+        "description": "A meta-skill that designs domain-specific agent teams, defines specialized agents, and generates the skills they use.",
+        "language": "HTML",
+        "topics": [],
+        "stars": 7418,
+        "forks": 1045,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "HTML"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/revfactory/harness/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "Harness — The Team-Architecture Factory for Claude Code",
+        "summary": "Harness — The Team-Architecture Factory for Claude Code Harness is a team-architecture factory for Claude Code. Say \"build a harness for this project\" English or \"하네스 구성해줘\" 한국어 or \"ハーネスを構成して\" 日本語, and the plugin turns your domain description into an agent team and the skills they use — picked from six pre-defined team-architecture patterns. Harness leverages Claude Code's agent team system to decompose complex tasks into coordinated teams of specialized agents. Say \"build a harness for this project\" and it automatically generates agent definitions .claude/agents/ and skills .claude/skills/ tailored to your domain.",
+        "headings": [
+          "Harness — The Team-Architecture Factory for Claude Code",
+          "Overview",
+          "Category — Where Harness Sits",
+          "Star History",
+          "Key Features",
+          "Workflow",
+          "Installation",
+          "Via Marketplace"
+        ],
+        "commands": [],
+        "keywords": [
+          "ai",
+          "agent",
+          "harness — the team-architecture factory for claude code",
+          "overview",
+          "category — where harness sits",
+          "star history"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/revfactory/harness/main/harness_team.png",
+        "thumbUrl": "https://raw.githubusercontent.com/revfactory/harness/main/harness_team.png",
+        "alt": "Harness Agent Team",
+        "sourceUrl": "https://raw.githubusercontent.com/revfactory/harness/main/harness_team.png",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.8,
+        "method": "rules",
+        "reasons": [
+          "Matched ai",
+          "Matched agent"
+        ],
+        "signals": [
+          "ai",
+          "agent"
+        ]
+      },
+      "rank": {
+        "globalRank": 10,
+        "categoryRank": 10,
+        "score": 92.3
+      }
+    },
+    {
+      "id": "jamiepine-voicebox",
+      "owner": "jamiepine",
+      "name": "voicebox",
+      "url": "https://github.com/jamiepine/voicebox",
+      "avatarUrl": "https://github.com/jamiepine.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 11,
+        "starsGained": 1042
+      },
+      "metadata": {
+        "description": "The open-source AI voice studio. Clone, dictate, create.",
+        "language": "TypeScript",
+        "topics": [],
+        "stars": 33072,
+        "forks": 3993,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "TypeScript"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/jamiepine/voicebox/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "Generate speech",
+        "summary": "The open-source AI voice studio. Clone any voice. Generate speech. Dictate into any app. Talk to agents in voices you own. The full voice I/O stack, running locally on your machine. voicebox.sh • Docs • Download • Features • API • Troubleshooting Click the image above to watch the demo video on voicebox.sh Voicebox is a local-first AI voice studio — a free and open-source alternative to ElevenLabs and WisprFlow in one app. Clone voices from a few seconds of audio, generate speech in 23 languages across 7 TTS engines, dictate into any text field with a global hotkey, and give any MCP-aware AI agent a voice of your choosing.",
+        "headings": [
+          "What is Voicebox?",
+          "Download",
+          "Features",
+          "Multi-Engine Voice Cloning",
+          "Emotions & Paralinguistic Tags",
+          "Post-Processing Effects",
+          "Unlimited Generation Length",
+          "Generation Versions"
+        ],
+        "commands": [
+          "cargo install just"
+        ],
+        "keywords": [
+          "ai",
+          "what is voicebox?",
+          "download",
+          "features",
+          "multi-engine voice cloning"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/jamiepine/voicebox/main/.github/assets/icon-dark.webp",
+        "thumbUrl": "https://raw.githubusercontent.com/jamiepine/voicebox/main/.github/assets/icon-dark.webp",
+        "alt": "Voicebox",
+        "sourceUrl": "https://raw.githubusercontent.com/jamiepine/voicebox/main/.github/assets/icon-dark.webp",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.7,
+        "method": "rules",
+        "reasons": [
+          "Matched ai"
+        ],
+        "signals": [
+          "ai"
+        ]
+      },
+      "rank": {
+        "globalRank": 11,
+        "categoryRank": 11,
+        "score": 98
       }
     },
     {
@@ -1123,15 +965,15 @@
       "homepageUrl": null,
       "source": {
         "primary": "github_trending_html",
-        "sourceRank": 14,
-        "starsGained": 100
+        "sourceRank": 12,
+        "starsGained": 827
       },
       "metadata": {
         "description": "Clone any website with one command using AI coding agents",
         "language": "TypeScript",
         "topics": [],
-        "stars": 17921,
-        "forks": 2758,
+        "stars": 18477,
+        "forks": 2799,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -1194,158 +1036,149 @@
         ]
       },
       "rank": {
-        "globalRank": 14,
-        "categoryRank": 14,
-        "score": 82
+        "globalRank": 12,
+        "categoryRank": 12,
+        "score": 96
       }
     },
     {
-      "id": "lyogavin-airllm",
-      "owner": "lyogavin",
-      "name": "airllm",
-      "url": "https://github.com/lyogavin/airllm",
-      "avatarUrl": "https://github.com/lyogavin.png",
+      "id": "byoungd-english-level-up-tips",
+      "owner": "byoungd",
+      "name": "English-level-up-tips",
+      "url": "https://github.com/byoungd/English-level-up-tips",
+      "avatarUrl": "https://github.com/byoungd.png",
       "homepageUrl": null,
       "source": {
         "primary": "github_trending_html",
-        "sourceRank": 15,
-        "starsGained": 193
+        "sourceRank": 13,
+        "starsGained": 151
       },
       "metadata": {
-        "description": "AirLLM 70B inference with single 4GB GPU",
-        "language": "Jupyter Notebook",
+        "description": "An advanced guide to learn English which might benefit you a lot 🎉 . 人生进阶指南 离谱的人生 离谱的英语学习指南/英语学习教程/英语学习/学英语",
+        "language": "",
         "topics": [],
-        "stars": 21124,
-        "forks": 2425,
+        "stars": 54477,
+        "forks": 5584,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
-        "topLanguages": [
-          "Jupyter Notebook"
-        ]
+        "topLanguages": []
       },
       "readmeRef": {
         "status": "available",
         "path": "README.md",
         "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/lyogavin/airllm/main/README.md"
+        "rawUrl": "https://raw.githubusercontent.com/byoungd/English-level-up-tips/master/README.md"
       },
       "readmeSignals": {
-        "title": "could use hugging face model repo id:",
-        "summary": "quickstart | configurations | macos | example-python-notebook | faq AirLLM optimizes inference memory usage, allowing 70B large language models to run inference on a single 4GB GPU card without quantization, distillation and pruning. And you can run 405B Llama3.1 on 8GB vram now. 2024/08/18 v2.10.1 Support CPU inference. Support non sharded models. Thanks @NavodPeiris for the great work! 2024/07/30 Support Llama3.1 405B https://colab.research.google.com/github/lyogavin/airllm/blob/main/airllm/examples/runllama3.1405B.ipynb. Support 8bit/4bit quantization.",
+        "title": "项目介绍",
+        "summary": "我们每个人都生活在各自的过去中，人们会用一分钟的时间去认识一个人，用一小时的时间去喜欢一个人，再用一天的时间去爱上一个人，到最后呢，却要用一辈子的时间去忘记一个人。 2026 年 6 月 16 日，我以中国词元云计算有限公司董事长的身份，受杭州阿里巴巴邀请，前往阿里云杭州总部参观考察。 这次参访让我更加坚定：AI 不应该只停留在概念里，也不应该只是少数人手里的工具。真正有价值的 AI，一定要走进产业，走进土地，走进千家万户的真实生活。 接下来，我希望继续探索 AI 赋能农、林、牧、渔等实体产业的具体路径，支持实体经济发展。尤其是在农村合作社方向，我也计划开办 AI 免费培训，让更多普通老百姓能真正理解 AI、使用 AI，用技术提高生产效率、拓宽经营思路。 为老百姓谋福利，做实事，这不是一句口号。更多近况可见：docs/threads/part-2/my-story.md。 An advanced guide to learning English that might benefit you a lot. 如果你在实践本指南的 AI 学习方案时，需要更稳定、更可信的 AI 账户与接口资源，可以了解：https://ku0.com。 你好啊，朋友，欢迎来到https://github.com/byoungd/English-level-up-tips。",
         "headings": [
-          "AI Agents Recommendation:",
-          "Updates",
-          "Star History",
-          "Table of Contents",
-          "Quickstart",
-          "1. Install package",
-          "2. Inference",
-          "could use hugging face model repo id:"
-        ],
-        "commands": [
-          "pip install airllm",
-          "pip install -U bitsandbytes",
-          "pip install -U airllm"
-        ],
-        "keywords": [
-          "ai",
-          "llm",
-          "ai agents recommendation:",
-          "updates",
-          "star history",
-          "table of contents"
-        ],
-        "score": 100
-      },
-      "visual": {
-        "kind": "readme_image",
-        "url": "https://raw.githubusercontent.com/lyogavin/airllm/main/assets/airllm2_time_improvement.png",
-        "thumbUrl": "https://raw.githubusercontent.com/lyogavin/airllm/main/assets/airllm2_time_improvement.png",
-        "alt": "speed_improvement",
-        "sourceUrl": "https://raw.githubusercontent.com/lyogavin/airllm/main/assets/airllm2_time_improvement.png",
-        "promptHash": null
-      },
-      "classification": {
-        "primaryCategoryId": "ai",
-        "secondaryCategoryIds": [],
-        "confidence": 0.8,
-        "method": "rules",
-        "reasons": [
-          "Matched ai",
-          "Matched llm"
-        ],
-        "signals": [
-          "ai",
-          "llm"
-        ]
-      },
-      "rank": {
-        "globalRank": 15,
-        "categoryRank": 15,
-        "score": 89.3
-      }
-    },
-    {
-      "id": "mattpocock-skills",
-      "owner": "mattpocock",
-      "name": "skills",
-      "url": "https://github.com/mattpocock/skills",
-      "avatarUrl": "https://github.com/mattpocock.png",
-      "homepageUrl": null,
-      "source": {
-        "primary": "github_trending_html",
-        "sourceRank": 16,
-        "starsGained": 2051
-      },
-      "metadata": {
-        "description": "Skills for Real Engineers. Straight from my .claude directory.",
-        "language": "Shell",
-        "topics": [],
-        "stars": 142030,
-        "forks": 12280,
-        "license": null,
-        "defaultBranch": null,
-        "pushedAt": null,
-        "topLanguages": [
-          "Shell"
-        ]
-      },
-      "readmeRef": {
-        "status": "available",
-        "path": "README.md",
-        "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/mattpocock/skills/main/README.md"
-      },
-      "readmeSignals": {
-        "title": "Skills For Real Engineers",
-        "summary": "My agent skills that I use every day to do real engineering - not vibe coding. Developing real applications is hard. Approaches like GSD, BMAD, and Spec-Kit try to help by owning the process. But while doing so, they take away your control and make bugs in the process hard to resolve. These skills are designed to be small, easy to adapt, and composable. They work with any model. They're based on decades of engineering experience. Hack around with them. Make them your own. Enjoy. If you want to keep up with changes to these skills, and any new ones I create, you can join ~60,000 other devs on my newsletter:",
-        "headings": [
-          "Skills For Real Engineers",
-          "Quickstart (30-second setup)",
-          "Why These Skills Exist",
-          "#1: The Agent Didn't Do What I Want",
-          "#2: The Agent Is Way Too Verbose",
-          "#3: The Code Doesn't Work",
-          "#4: We Built A Ball Of Mud",
-          "Summary"
+          "最新动态：AI 赋能实体经济",
+          "项目介绍",
+          "AI 推荐资源",
+          "重点推荐：[token.love](https://token.love)",
+          "推荐资源：[ku0.com - 库](https://ku0.com)",
+          "背景",
+          "英语水平等级",
+          "特色"
         ],
         "commands": [],
         "keywords": [
-          "ai",
-          "skills for real engineers",
-          "quickstart (30-second setup)",
-          "why these skills exist",
-          "#1: the agent didn't do what i want"
+          "ui",
+          "最新动态：ai 赋能实体经济",
+          "项目介绍",
+          "ai 推荐资源",
+          "重点推荐：[token.love](https://token.love)"
         ],
         "score": 100
       },
       "visual": {
         "kind": "readme_image",
-        "url": "https://skills.sh/b/mattpocock/skills",
-        "thumbUrl": "https://skills.sh/b/mattpocock/skills",
-        "alt": "skills.sh",
-        "sourceUrl": "https://skills.sh/b/mattpocock/skills",
+        "url": "https://raw.githubusercontent.com/byoungd/English-level-up-tips/master/docs/assets/my-love.png",
+        "thumbUrl": "https://raw.githubusercontent.com/byoungd/English-level-up-tips/master/docs/assets/my-love.png",
+        "alt": "byoungd/English-level-up-tips",
+        "sourceUrl": "https://raw.githubusercontent.com/byoungd/English-level-up-tips/master/docs/assets/my-love.png",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "frontend",
+        "secondaryCategoryIds": [],
+        "confidence": 0.7,
+        "method": "rules",
+        "reasons": [
+          "Matched ui"
+        ],
+        "signals": [
+          "ui"
+        ]
+      },
+      "rank": {
+        "globalRank": 13,
+        "categoryRank": 13,
+        "score": 89.1
+      }
+    },
+    {
+      "id": "deusdata-codebase-memory-mcp",
+      "owner": "DeusData",
+      "name": "codebase-memory-mcp",
+      "url": "https://github.com/DeusData/codebase-memory-mcp",
+      "avatarUrl": "https://github.com/DeusData.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 14,
+        "starsGained": 1299
+      },
+      "metadata": {
+        "description": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
+        "language": "C",
+        "topics": [],
+        "stars": 12775,
+        "forks": 927,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "C"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/DeusData/codebase-memory-mcp/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "codebase-memory-mcp",
+        "summary": "The fastest and most efficient code intelligence engine for AI coding agents. Full-indexes an average repository in milliseconds, the Linux kernel 28M LOC, 75K files in 3 minutes. Answers structural queries in under 1ms. Ships as a single static binary for macOS, Linux, and Windows — download, run install, done. High-quality parsing through https://tree-sitter.github.io/tree-sitter/ AST analysis across all 158 languages, enhanced with hybrid-lsp for Python, TypeScript / JavaScript / JSX / TSX, PHP, C, Go, C, C++, Java, Kotlin, and Rust — producing a persistent knowledge graph of functions, classes, call chains, HTTP routes, and cross-service links. 14 MCP tools. Zero dependencies. Plug and p",
+        "headings": [
+          "codebase-memory-mcp",
+          "Why codebase-memory-mcp",
+          "Quick Start",
+          "1. Download the installer",
+          "2. (Optional but recommended) Inspect the script",
+          "3. Run it",
+          "Graph Visualization UI",
+          "Auto-Index"
+        ],
+        "commands": [],
+        "keywords": [
+          "mcp",
+          "codebase-memory-mcp",
+          "why codebase-memory-mcp",
+          "quick start",
+          "1. download the installer"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/DeusData/codebase-memory-mcp/main/docs/graph-ui-screenshot.png",
+        "thumbUrl": "https://raw.githubusercontent.com/DeusData/codebase-memory-mcp/main/docs/graph-ui-screenshot.png",
+        "alt": "Graph visualization UI showing the codebase-memory-mcp knowledge graph",
+        "sourceUrl": "https://raw.githubusercontent.com/DeusData/codebase-memory-mcp/main/docs/graph-ui-screenshot.png",
         "promptHash": null
       },
       "classification": {
@@ -1354,10 +1187,178 @@
         "confidence": 0.7,
         "method": "rules",
         "reasons": [
-          "Matched ai"
+          "Matched mcp"
         ],
         "signals": [
-          "ai"
+          "mcp"
+        ]
+      },
+      "rank": {
+        "globalRank": 14,
+        "categoryRank": 14,
+        "score": 92
+      }
+    },
+    {
+      "id": "nousresearch-hermes-agent",
+      "owner": "NousResearch",
+      "name": "hermes-agent",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "avatarUrl": "https://github.com/NousResearch.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 15,
+        "starsGained": 933
+      },
+      "metadata": {
+        "description": "The agent that grows with you",
+        "language": "Python",
+        "topics": [],
+        "stars": 200852,
+        "forks": 35817,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Python"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/NousResearch/hermes-agent/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "Hermes Agent ☤",
+        "summary": "Hermes Agent ☤ Hermes Agent | Hermes Desktop The self-improving AI agent built by https://nousresearch.com. It's the only agent with a built-in learning loop — it creates skills from experience, improves them during use, nudges itself to persist knowledge, searches its own past conversations, and builds a deepening model of who you are across sessions. Run it on a $5 VPS, a GPU cluster, or serverless infrastructure that costs nearly nothing when idle. It's not tied to your laptop — talk to it from Telegram while it works on a cloud VM. Use any model you want — https://portal.nousresearch.com, https://openrouter.ai 200+ models, https://novita.ai AI-native cloud for Model API, Agent Sandbox, a",
+        "headings": [
+          "Hermes Agent ☤",
+          "Quick Install",
+          "Linux, macOS, WSL2, Termux",
+          "Windows (native, PowerShell)",
+          "Troubleshooting",
+          "Install GitHub CLI if needed",
+          "Login to GitHub",
+          "Run verification"
+        ],
+        "commands": [
+          "pip install -e \".[all,dev]\"",
+          "pip install -e \".[all,dev]\""
+        ],
+        "keywords": [
+          "agent",
+          "hermes agent ☤",
+          "quick install",
+          "linux, macos, wsl2, termux",
+          "windows (native, powershell)"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "repository_avatar",
+        "url": "https://github.com/NousResearch.png",
+        "thumbUrl": "https://github.com/NousResearch.png",
+        "alt": "NousResearch/hermes-agent",
+        "sourceUrl": "https://github.com/NousResearch/hermes-agent",
+        "promptHash": "sha256:cf2cce4a9ff3"
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.7,
+        "method": "rules",
+        "reasons": [
+          "Matched agent"
+        ],
+        "signals": [
+          "agent"
+        ]
+      },
+      "rank": {
+        "globalRank": 15,
+        "categoryRank": 15,
+        "score": 90
+      }
+    },
+    {
+      "id": "affaan-m-ecc",
+      "owner": "affaan-m",
+      "name": "ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "avatarUrl": "https://github.com/affaan-m.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 16,
+        "starsGained": 582
+      },
+      "metadata": {
+        "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+        "language": "JavaScript",
+        "topics": [],
+        "stars": 220450,
+        "forks": 33773,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "JavaScript"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/affaan-m/ECC/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "or",
+        "summary": "211.9K+ stars | 32.5K+ forks | 230+ contributors | 12+ language ecosystems | Cross-harness agent workflows README.md | docs/pt-BR/README.md | README.zh-CN.md | docs/zh-TW/README.md | docs/ja-JP/README.md | docs/ko-KR/README.md | docs/tr/README.md | docs/ru/README.md | docs/vi-VN/README.md | docs/th/README.md | docs/de-DE/README.md | docs/es/README.md The harness-native operator system for agentic work. Built from real-world multi-harness engineering workflows. Not just configs. A complete system: skills, instincts, memory optimization, continuous learning, security scanning, and research-first development. Production-ready agents, skills, hooks, rules, MCP configurations, and legacy command ",
+        "headings": [
+          "The Guides",
+          "What's New",
+          "v2.0.0 — The Agent Harness Operating System (Jun 2026)",
+          "v2.0.0-rc.1 — Surface Refresh, Operator Workflows, and ECC 2.0 Alpha (Apr 2026)",
+          "v1.9.0 — Selective Install & Language Expansion (Mar 2026)",
+          "v1.8.0 — Harness Performance System (Mar 2026)",
+          "v1.7.0 — Cross-Platform Expansion & Presentation Builder (Feb 2026)",
+          "v1.6.0 — Codex CLI, AgentShield & Marketplace (Feb 2026)"
+        ],
+        "commands": [
+          "npm install        # or: pnpm install | yarn install | bun install",
+          "npm install && bash scripts/sync-ecc-to-codex.sh",
+          "npm install -g opencode",
+          "npm install ecc-universal"
+        ],
+        "keywords": [
+          "agent",
+          "the guides",
+          "what's new",
+          "v2.0.0 — the agent harness operating system (jun 2026)",
+          "v2.0.0-rc.1 — surface refresh, operator workflows, and ecc 2.0 alpha (apr 2026)"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/affaan-m/ECC/main/assets/hero.png",
+        "thumbUrl": "https://raw.githubusercontent.com/affaan-m/ECC/main/assets/hero.png",
+        "alt": "ECC — the agent harness operating system",
+        "sourceUrl": "https://raw.githubusercontent.com/affaan-m/ECC/main/assets/hero.png",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.7,
+        "method": "rules",
+        "reasons": [
+          "Matched agent"
+        ],
+        "signals": [
+          "agent"
         ]
       },
       "rank": {
@@ -1375,16 +1376,18 @@
       "categoryId": "ai",
       "repoIds": [
         "calesthio-openmontage",
-        "palmier-io-palmier-pro",
-        "jamiepine-voicebox",
-        "mukul975-anthropic-cybersecurity-skills",
-        "heygen-com-hyperframes",
-        "bytedance-deer-flow",
-        "deusdata-codebase-memory-mcp",
         "zhulinsen-daily-stock-analysis",
-        "lyogavin-airllm",
-        "mattpocock-skills",
-        "jcodesmore-ai-website-cloner-template"
+        "mukul975-anthropic-cybersecurity-skills",
+        "bytedance-deer-flow",
+        "koala73-worldmonitor",
+        "palmier-io-palmier-pro",
+        "shanraisshan-claude-code-best-practice",
+        "jamiepine-voicebox",
+        "jcodesmore-ai-website-cloner-template",
+        "revfactory-harness",
+        "deusdata-codebase-memory-mcp",
+        "nousresearch-hermes-agent",
+        "affaan-m-ecc"
       ],
       "sort": "score"
     },
@@ -1394,19 +1397,17 @@
       "label": "Tools",
       "categoryId": "tools",
       "repoIds": [
-        "penpot-penpot",
         "garrytan-gstack"
       ],
       "sort": "score"
     },
     {
-      "id": "backend",
+      "id": "frontend",
       "type": "category",
-      "label": "Backend",
-      "categoryId": "backend",
+      "label": "Frontend",
+      "categoryId": "frontend",
       "repoIds": [
-        "tursodatabase-turso",
-        "firecrawl-firecrawl"
+        "byoungd-english-level-up-tips"
       ],
       "sort": "score"
     },
@@ -1416,7 +1417,7 @@
       "label": "Needs Review",
       "categoryId": "unclassified",
       "repoIds": [
-        "stirling-tools-stirling-pdf"
+        "anthropics-claude-plugins-official"
       ],
       "sort": "score"
     }
@@ -1427,7 +1428,7 @@
     "enrichedRepoCount": 16,
     "unclassifiedRepoCount": 1,
     "warnings": [
-      "13 repos used README images, 0 used Agnes images, 3 fell back to repository avatars"
+      "11 repos used README images, 0 used Agnes images, 5 fell back to repository avatars"
     ]
   }
 }
