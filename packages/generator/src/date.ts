@@ -1,13 +1,18 @@
 import { DateTime } from "luxon";
 
-export const PRODUCT_HUNT_TIMEZONE = "UTC";
+export const TREND_TIMEZONE = "Asia/Shanghai";
+export const PRODUCT_HUNT_TIMEZONE = TREND_TIMEZONE;
 
-export function lastCompletedProductHuntDate(now = new Date()): string {
+export function defaultTrendDate(now = new Date()): string {
   return requireIso(
-    DateTime.fromJSDate(now, { zone: PRODUCT_HUNT_TIMEZONE })
-    .minus({ days: 1 })
+    DateTime.fromJSDate(now, { zone: TREND_TIMEZONE })
+      .minus({ days: 1 })
       .toISODate()
   );
+}
+
+export function lastCompletedProductHuntDate(now = new Date()): string {
+  return defaultTrendDate(now);
 }
 
 export function productHuntDayWindow(date: string): { postedAfter: string; postedBefore: string } {
