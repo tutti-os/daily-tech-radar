@@ -1,7 +1,7 @@
 import { readFile } from "node:fs/promises";
 import path from "node:path";
 import { Command } from "commander";
-import { lastCompletedProductHuntDate } from "./date.js";
+import { defaultTrendDate } from "./date.js";
 import { localizeGitHubRepos, localizeProductHuntPosts } from "./llm/agnes.js";
 import { buildProductHuntFeeds, fetchProductHuntPosts } from "./sources/producthunt.js";
 import { writeSourcePayload } from "./output/write-json.js";
@@ -30,7 +30,7 @@ const options = program.opts<{
   skipLlm?: boolean;
 }>();
 
-const date = options.date ?? lastCompletedProductHuntDate();
+const date = options.date ?? defaultTrendDate();
 const generatedAt = new Date().toISOString();
 const limit = Number(options.limit);
 const outputDir = resolveUserPath(options.output);
