@@ -4,22 +4,22 @@
   "locale": "zh-CN",
   "date": "2026-07-05",
   "sourceTimezone": "Asia/Shanghai",
-  "generatedAt": "2026-07-05T21:17:19.226Z",
+  "generatedAt": "2026-07-06T07:15:20.266Z",
   "items": [
     {
       "rank": 1,
       "id": "1184211",
       "name": "WorkBuddy",
-      "tagline": "与AI专家团队协作，更快产出精准成果",
-      "description": "腾讯WorkBuddy是一款专为日常办公打造的AI智能体。只需提出请求，引导你的AI专家团队，或引入第二意见，即可获得经过打磨、即拿即用的结果。",
+      "tagline": "与AI专家团队协作，更快产出精炼成果",
+      "description": "腾讯WorkBuddy是一款专为日常办公打造的AI智能体。只需提出请求，引导你的AI专家团队，获取第二意见，即可得到经过打磨、可直接使用的结果。",
       "keywords": [
         "AI智能体",
         "办公效率",
         "腾讯"
       ],
       "metrics": {
-        "votes": 290,
-        "comments": 61
+        "votes": 372,
+        "comments": 85
       },
       "links": {
         "homepage": "https://www.producthunt.com/r/UHHXBJG665CHTW?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
@@ -91,16 +91,16 @@
       "rank": 2,
       "id": "1185912",
       "name": "DocsAlot",
-      "tagline": "为人类和AI系统共同服务的文档平台",
-      "description": "DocsAlot将分散的帮助文档、知识库和开发者文档整合为单一事实来源，供人类和AI智能体使用。它包含托管的MCP、llms.txt和skill.md功能。你的文档能出现在AI回答中，加速新员工入职，并防止智能体读取过时信息。",
+      "tagline": "为人类和AI系统同时服务的文档平台",
+      "description": "DocsAlot将分散的帮助文章、知识库和开发者文档整合为一个统一的事实来源，供人类和AI智能体使用。它包含托管的MCP、llms.txt和skill.md功能。你的文档会出现在AI回答中，加速新员工入职，并防止智能体读取过时信息。",
       "keywords": [
         "技术文档",
-        "知识库",
-        "MCP协议"
+        "模型上下文协议",
+        "知识库"
       ],
       "metrics": {
-        "votes": 249,
-        "comments": 36
+        "votes": 312,
+        "comments": 47
       },
       "links": {
         "homepage": "https://www.producthunt.com/r/37BR3YBSGSO3IL?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
@@ -157,16 +157,16 @@
       "rank": 3,
       "id": "1187380",
       "name": "Endl",
-      "tagline": "支持法币、稳定币和卡片的全球运营账户",
-      "description": "Endl是面向无国界企业的全球运营账户。在一个账户中即可收取付款、持有法币或稳定币资金、向160多个国家支付承包商款项，并使用企业卡片消费。专为快速、合规的全球业务运营而构建。",
+      "tagline": "支持法币、稳定币和银行卡的全球运营账户",
+      "description": "Endl是为无国界企业打造的全球运营账户。在一个账户中完成收款、持有法币或稳定币资金、向160多个国家的承包商付款以及使用企业卡消费。专为快速、合规的全球业务运营而构建。",
       "keywords": [
         "金融科技",
         "全球支付",
         "稳定币"
       ],
       "metrics": {
-        "votes": 248,
-        "comments": 62
+        "votes": 309,
+        "comments": 96
       },
       "links": {
         "homepage": "https://www.producthunt.com/r/3RAULGSQ4UFKXG?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
@@ -218,16 +218,16 @@
       "rank": 4,
       "id": "1166992",
       "name": "TryCase",
-      "tagline": "专为AI编程智能体设计的临时测试环境",
-      "description": "TryCase为AI编程智能体提供临时的Linux环境，用于运行应用、端到端测试更改、捕获截图和录屏，并返回经过验证的代码，从而替代手动测试流程。",
+      "tagline": "为AI编程智能体提供一次性测试环境",
+      "description": "TryCase为AI编程智能体提供临时的Linux环境，用于运行应用、端到端测试更改、捕获截图和录屏，并返回经过验证的代码，从而替代手动测试。",
       "keywords": [
         "AI编程",
         "测试环境",
         "开发者工具"
       ],
       "metrics": {
-        "votes": 154,
-        "comments": 22
+        "votes": 199,
+        "comments": 26
       },
       "links": {
         "homepage": "https://www.producthunt.com/r/HV7ZSLSLVCIH4C?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
@@ -269,16 +269,16 @@
       "rank": 5,
       "id": "1175845",
       "name": "MentionDrop MCP",
-      "tagline": "赋予AI智能体实时市场信号",
-      "description": "MentionDrop MCP将Claude、Cursor、Windsurf等支持MCP的智能体连接到实时品牌监控。智能体从受限的高信号源（如Reddit、Google新闻、搜索和精选公共网络）抓取品牌提及、竞争对手对话和公开客户痛点，进行分类并起草回复供你审核。包含11个工具，仅限账户范围的API密钥，绝不自动发布。",
+      "tagline": "赋予AI智能体现实市场信号",
+      "description": "MentionDrop MCP将Claude、Cursor等支持MCP的智能体连接到实时品牌监控。智能体从受限的高信号源（如Reddit、Google新闻）抓取品牌提及、竞争对手对话和公开客户痛点，进行分类并起草回复供你审核。包含11个工具，无需自动发布，让你获得可立即行动的答案。",
       "keywords": [
         "品牌监控",
-        "MCP协议",
+        "模型上下文协议",
         "市场情报"
       ],
       "metrics": {
-        "votes": 146,
-        "comments": 16
+        "votes": 170,
+        "comments": 21
       },
       "links": {
         "homepage": "https://www.producthunt.com/r/5Y46NOSJ2V7MYB?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
@@ -330,16 +330,16 @@
       "rank": 6,
       "id": "1187923",
       "name": "CircleChat",
-      "tagline": "给AI智能体一个Slack、任务板和主管",
-      "description": "CircleChat是一个AI智能体团队执行实际工作的空间。设定目标后，团队会在看板上分解任务，认领工作，并在你可读的频道中汇报。LLM裁判在任务关闭前验证每个交付物，确保你得到的是输出而非闲聊。可在live.circlechat.co公开观看我们的智能体工作。支持免费自托管（MIT许可），或由我们托管（每工作区29美元/月）。自带模型密钥，从不加价Token费用。",
+      "tagline": "给AI智能体一个Slack、任务板和老板",
+      "description": "CircleChat是一个AI智能体团队执行实际工作的空间。设定目标后，团队会在看板上分解任务，认领工作并在频道中汇报。LLM裁判会在任务关闭前验证每个交付物，确保你获得的是输出而非闲聊。支持自托管（MIT协议）或按月订阅，自带模型密钥，不赚取Token差价。",
       "keywords": [
         "多智能体",
         "任务管理",
         "开源软件"
       ],
       "metrics": {
-        "votes": 120,
-        "comments": 9
+        "votes": 146,
+        "comments": 10
       },
       "links": {
         "homepage": "https://www.producthunt.com/r/DVLXJJDOM6PG3G?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
@@ -397,15 +397,15 @@
       "id": "1187442",
       "name": "Pennen",
       "tagline": "每天一页安静的书写日记，无信息流，无AI",
-      "description": "Pennen是一款宁静、私密、以手写为主的每日日记应用，适用于iPad和Apple Pencil。每天一页，使用真实墨水：过去的页面会自动封存变为只读，表情贴纸可撕下粘贴，连胜记录宽容度高——只要当晚写一行也算。页面仅存储在iPad和本地iCloud中：无需账号、无广告、无分析、无AI阅读内容。定价如笔记本般亲民——年付含7天免费试用，或一次性买断价低于Moleskine。",
+      "description": "Pennen是一款平静、私密、以手写为主的iPad每日日记应用。每天一页，使用真实墨水：过去的页面会自动封存为只读，贴纸可粘贴，断签机制宽容。数据仅存储在iPad和本地iCloud中，无账号、无广告、无分析、无AI阅读。定价亲民，提供年付试用或一次性买断。",
       "keywords": [
         "日记应用",
-        "手写输入",
+        "手写笔记",
         "隐私保护"
       ],
       "metrics": {
-        "votes": 84,
-        "comments": 25
+        "votes": 110,
+        "comments": 28
       },
       "links": {
         "homepage": "https://www.producthunt.com/r/ETZIYDWLCBQMYZ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
@@ -458,15 +458,15 @@
       "id": "1175505",
       "name": "Toku Reader",
       "tagline": "阅读及收听原生日语和中文，点击任意单词",
-      "description": "Toku将原生的日语和中文内容——文章、小说、播客和YouTube视频——转化为可实际阅读的形式。点击任意单词即可查看其读音、含义和词典解释，无需离开页面。在音频和视频上，你获得同步且可点击单词的转录文本：点击学习、放慢速度、重播一行，或在每句后暂停进行影子跟读。它在设备端运行自己的JP/CN引擎，配合离线词典——快速、私密、无需账号、无连胜机制。纯粹为了阅读。",
+      "description": "Toku将原生日语和中文内容（文章、小说、播客、YouTube视频）转化为可实际阅读的形式。点击任意单词即可查看读音、释义和字典，无需离开页面。音视频支持同步、可点击的转录文本，可逐句暂停跟读。采用本地JP/CN引擎和离线字典，快速、私密，无需账号或打卡。",
       "keywords": [
         "语言学习",
         "日语",
         "中文"
       ],
       "metrics": {
-        "votes": 77,
-        "comments": 8
+        "votes": 105,
+        "comments": 12
       },
       "links": {
         "homepage": "https://www.producthunt.com/r/5P5KE6MN4U2IRJ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
