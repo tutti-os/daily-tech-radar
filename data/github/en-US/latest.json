@@ -2,8 +2,8 @@
   "schemaVersion": "trendreader.daily.v1",
   "packageId": "github-daily-All-2026-07-05",
   "locale": "en-US",
-  "generatedAt": "2026-07-05T21:17:52.256Z",
-  "expiresAt": "2026-07-06T21:17:52.256Z",
+  "generatedAt": "2026-07-06T07:16:37.709Z",
+  "expiresAt": "2026-07-07T07:16:37.709Z",
   "sourceWindow": {
     "since": "daily",
     "language": "All",
@@ -14,12 +14,12 @@
       "id": "github_trending_html",
       "role": "candidate",
       "status": "ok",
-      "itemCount": 22
+      "itemCount": 21
     }
   ],
   "taxonomy": {
     "version": "2026-07-05",
-    "generatedAt": "2026-07-05T21:17:52.256Z",
+    "generatedAt": "2026-07-06T07:16:37.709Z",
     "categories": [
       {
         "id": "ai",
@@ -75,8 +75,8 @@
         "description": "Privacy first, AI meeting assistant with 4x faster Parakeet/Whisper live transcription, speaker diarization, and Ollama summarization built on Rust. 100% local processing. no cloud required. Meetily (Meetly Ai - https://meetily.ai) is the #1 Self-hosted, Open-source Ai meeting note taker for macOS & Windows.",
         "language": "Rust",
         "topics": [],
-        "stars": 16718,
-        "forks": 1785,
+        "stars": 17761,
+        "forks": 1847,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -149,14 +149,14 @@
       "source": {
         "primary": "github_trending_html",
         "sourceRank": 2,
-        "starsGained": 1519
+        "starsGained": 1532
       },
       "metadata": {
         "description": "Use Codex from Claude Code to review code or delegate tasks.",
         "language": "JavaScript",
         "topics": [],
-        "stars": 25367,
-        "forks": 1534,
+        "stars": 25784,
+        "forks": 1559,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -234,8 +234,8 @@
         "description": "Extracted system prompts from Anthropic - Claude Fable 5, Opus 4.8, Claude Code, Claude Design. OpenAI - ChatGPT 5.5 Thinking, GPT 5.5 Instant, Codex. Google - Gemini 3.5 Flash, 3.1 Pro, Antigravity. xAI - Grok, Cursor, Copilot, VS Code, Perplexity, and more. Updated regularly.",
         "language": "JavaScript",
         "topics": [],
-        "stars": 49815,
-        "forks": 8156,
+        "stars": 50411,
+        "forks": 8234,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -308,14 +308,14 @@
       "source": {
         "primary": "github_trending_html",
         "sourceRank": 4,
-        "starsGained": 850
+        "starsGained": 863
       },
       "metadata": {
         "description": "Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop",
         "language": "JavaScript",
         "topics": [],
-        "stars": 57343,
-        "forks": 3924,
+        "stars": 57977,
+        "forks": 3958,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -388,14 +388,14 @@
       "source": {
         "primary": "github_trending_html",
         "sourceRank": 5,
-        "starsGained": 394
+        "starsGained": 392
       },
       "metadata": {
         "description": "337 Claude Code skills & agent skills & plugins (30+ Agents, 70+ custom commands, 330+ skills, customizable references, scripts)for Claude Code, Codex, Gemini CLI, Cursor, and 8 more coding agents — engineering, marketing, product, compliance, C-level advisory, research, business operations, commercial & finance, and your daily productivity skills.",
         "language": "Python",
         "topics": [],
-        "stars": 20486,
-        "forks": 2792,
+        "stars": 20783,
+        "forks": 2806,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -411,7 +411,7 @@
       },
       "readmeSignals": {
         "title": "Claude Code Skills & Plugins — Agent Skills for Every Coding Tool",
-        "summary": "Claude Code Skills & Plugins — Agent Skills for Every Coding Tool 354 production-ready Claude Code skills, plugins, and agent skills for 13 AI coding tools. The most comprehensive open-source library of Claude Code skills and agent plugins — also works with OpenAI Codex, Gemini CLI, Cursor, and 9 more coding agents. Reusable expertise packages covering engineering, DevOps, marketing incl. AEO — Answer Engine Optimization for LLM citation, security PreToolUse hooks, compliance, C-level advisory incl. founder-mode CFO/CMO/CRO/CPO/COO/CHRO/CISO/GC/CDO/CAIO/CCO/VPE personas + 21 /cs: slash commands, productivity capture/email/reflect, an academic research stack litreview/grants/dossier/patent/sy",
+        "summary": "Claude Code Skills & Plugins — Agent Skills for Every Coding Tool 355 production-ready Claude Code skills, plugins, and agent skills for 13 AI coding tools. The most comprehensive open-source library of Claude Code skills and agent plugins — also works with OpenAI Codex, Gemini CLI, Cursor, and 9 more coding agents. Reusable expertise packages covering engineering, DevOps, marketing incl. AEO — Answer Engine Optimization for LLM citation, security PreToolUse hooks, compliance, C-level advisory incl. founder-mode CFO/CMO/CRO/CPO/COO/CHRO/CISO/GC/CDO/CAIO/CCO/VPE personas + 21 /cs: slash commands, productivity capture/email/reflect, an academic research stack litreview/grants/dossier/patent/sy",
         "headings": [
           "Claude Code Skills & Plugins — Agent Skills for Every Coding Tool",
           "What Are Claude Code Skills & Agent Plugins?",
@@ -471,14 +471,14 @@
       "source": {
         "primary": "github_trending_html",
         "sourceRank": 6,
-        "starsGained": 411
+        "starsGained": 410
       },
       "metadata": {
         "description": "A beautiful, powerful, self-hosted rom manager and player.",
         "language": "Python",
         "topics": [],
-        "stars": 10490,
-        "forks": 502,
+        "stars": 10659,
+        "forks": 512,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -548,14 +548,14 @@
       "source": {
         "primary": "github_trending_html",
         "sourceRank": 7,
-        "starsGained": 650
+        "starsGained": 651
       },
       "metadata": {
         "description": "agent multiplexer that lives in your terminal.",
         "language": "Rust",
         "topics": [],
-        "stars": 11985,
-        "forks": 697,
+        "stars": 12310,
+        "forks": 721,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -628,14 +628,14 @@
       "source": {
         "primary": "github_trending_html",
         "sourceRank": 8,
-        "starsGained": 801
+        "starsGained": 805
       },
       "metadata": {
         "description": "JavaScript in-page GUI agent. Control web interfaces with natural language.",
         "language": "TypeScript",
         "topics": [],
-        "stars": 23768,
-        "forks": 2053,
+        "stars": 24218,
+        "forks": 2080,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -710,14 +710,14 @@
       "source": {
         "primary": "github_trending_html",
         "sourceRank": 9,
-        "starsGained": 333
+        "starsGained": 329
       },
       "metadata": {
         "description": "Machine Learning Systems",
         "language": "Python",
         "topics": [],
-        "stars": 26803,
-        "forks": 3187,
+        "stars": 26968,
+        "forks": 3209,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -787,14 +787,14 @@
       "source": {
         "primary": "github_trending_html",
         "sourceRank": 10,
-        "starsGained": 1121
+        "starsGained": 1114
       },
       "metadata": {
         "description": "Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.",
         "language": "Python",
         "topics": [],
-        "stars": 36984,
-        "forks": 3755,
+        "stars": 37460,
+        "forks": 3800,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -867,14 +867,14 @@
       "source": {
         "primary": "github_trending_html",
         "sourceRank": 11,
-        "starsGained": 188
+        "starsGained": 148
       },
       "metadata": {
         "description": "A hand-picked collection of the finest of resources for the most awesome of agents, Claude Code, the undisputed champion of coding companions, from the unstoppable team at Anthropic PBC. A delectable showcase of top tier skills, ambidextrous agents, scintillating status lines, top notch developer tooling, and also we have plugins",
         "language": "Python",
         "topics": [],
-        "stars": 48297,
-        "forks": 4232,
+        "stars": 48563,
+        "forks": 4250,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -936,7 +936,7 @@
       "rank": {
         "globalRank": 11,
         "categoryRank": 11,
-        "score": 96.8
+        "score": 92.8
       }
     },
     {
@@ -949,14 +949,14 @@
       "source": {
         "primary": "github_trending_html",
         "sourceRank": 12,
-        "starsGained": 209
+        "starsGained": 145
       },
       "metadata": {
         "description": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
         "language": "JavaScript",
         "topics": [],
-        "stars": 36372,
-        "forks": 5890,
+        "stars": 36638,
+        "forks": 5902,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -1019,7 +1019,7 @@
       "rank": {
         "globalRank": 12,
         "categoryRank": 12,
-        "score": 96
+        "score": 90.5
       }
     },
     {
@@ -1032,14 +1032,14 @@
       "source": {
         "primary": "github_trending_html",
         "sourceRank": 13,
-        "starsGained": 1043
+        "starsGained": 1052
       },
       "metadata": {
         "description": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman",
         "language": "JavaScript",
         "topics": [],
-        "stars": 84773,
-        "forks": 4719,
+        "stars": 85184,
+        "forks": 4737,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -1111,14 +1111,14 @@
       "source": {
         "primary": "github_trending_html",
         "sourceRank": 14,
-        "starsGained": 415
+        "starsGained": 414
       },
       "metadata": {
         "description": "Unity MCP acts as a bridge between AI assistants and your Unity Editor. Give your LLM tools to manage assets, control scenes, edit scripts, and automate tasks within Unity.",
         "language": "C#",
         "topics": [],
-        "stars": 11891,
-        "forks": 1275,
+        "stars": 12059,
+        "forks": 1287,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -1197,14 +1197,14 @@
       "source": {
         "primary": "github_trending_html",
         "sourceRank": 15,
-        "starsGained": 540
+        "starsGained": 522
       },
       "metadata": {
         "description": "An open source design system that's fully customizable and agent ready",
         "language": "TypeScript",
         "topics": [],
-        "stars": 5827,
-        "forks": 371,
+        "stars": 6107,
+        "forks": 391,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -1284,14 +1284,14 @@
       "source": {
         "primary": "github_trending_html",
         "sourceRank": 16,
-        "starsGained": 475
+        "starsGained": 470
       },
       "metadata": {
         "description": "High performance self-hosted photo and video management solution.",
         "language": "TypeScript",
         "topics": [],
-        "stars": 106043,
-        "forks": 6053,
+        "stars": 106273,
+        "forks": 6072,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -1361,14 +1361,14 @@
       "source": {
         "primary": "github_trending_html",
         "sourceRank": 17,
-        "starsGained": 198
+        "starsGained": 161
       },
       "metadata": {
         "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
         "language": "Rust",
         "topics": [],
-        "stars": 76670,
-        "forks": 10280,
+        "stars": 76844,
+        "forks": 10301,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -1429,7 +1429,7 @@
       "rank": {
         "globalRank": 17,
         "categoryRank": 17,
-        "score": 85.8
+        "score": 82.1
       }
     },
     {
@@ -1442,14 +1442,14 @@
       "source": {
         "primary": "github_trending_html",
         "sourceRank": 18,
-        "starsGained": 48
+        "starsGained": 51
       },
       "metadata": {
         "description": "Gas Town - multi-agent workspace manager",
         "language": "Go",
         "topics": [],
-        "stars": 16340,
-        "forks": 1520,
+        "stars": 16472,
+        "forks": 1526,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -1511,7 +1511,7 @@
       "rank": {
         "globalRank": 18,
         "categoryRank": 18,
-        "score": 68.8
+        "score": 69.1
       }
     },
     {
@@ -1524,14 +1524,14 @@
       "source": {
         "primary": "github_trending_html",
         "sourceRank": 19,
-        "starsGained": 247
+        "starsGained": 246
       },
       "metadata": {
         "description": "Repository for skills to assist AI coding agents with .NET and C#",
         "language": "C#",
         "topics": [],
-        "stars": 4010,
-        "forks": 301,
+        "stars": 4111,
+        "forks": 306,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -1598,89 +1598,6 @@
       }
     },
     {
-      "id": "othmanadi-planning-with-files",
-      "owner": "OthmanAdi",
-      "name": "planning-with-files",
-      "url": "https://github.com/OthmanAdi/planning-with-files",
-      "avatarUrl": "https://github.com/OthmanAdi.png",
-      "homepageUrl": null,
-      "source": {
-        "primary": "github_trending_html",
-        "sourceRank": 20,
-        "starsGained": 61
-      },
-      "metadata": {
-        "description": "Persistent file-based planning for AI coding agents and long-running agentic tasks. Crash-proof markdown plans that survive context loss and /clear, plus a deterministic completion gate and multi-agent shared state on disk. Manus-style. Works with Claude Code, Codex CLI, Cursor, Kiro, OpenCode and 60+ agents via the SKILL.md standard.",
-        "language": "Python",
-        "topics": [],
-        "stars": 24663,
-        "forks": 2106,
-        "license": null,
-        "defaultBranch": null,
-        "pushedAt": null,
-        "topLanguages": [
-          "Python"
-        ]
-      },
-      "readmeRef": {
-        "status": "available",
-        "path": "README.md",
-        "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/OthmanAdi/planning-with-files/master/README.md"
-      },
-      "readmeSignals": {
-        "title": "Planning with Files",
-        "summary": "📣 New in https://github.com/OthmanAdi/planning-with-files/releases/tag/v3.0.0: opt-in autonomous and gated modes for long-running agent runs, with a completion gate that holds the agent until the plan is actually done. Existing setups change nothing. Work like Manus — the AI agent company Meta acquired for $2 billion. planning-with-files is a persistent file-based planning skill for AI coding agents. It keeps taskplan.md, findings.md, and progress.md on disk so the agent survives context loss, /clear, and crashes, with an opt-in completion gate that holds the agent until the plan is actually done. It installs across 60+ agents via the SKILL.md standard.",
-        "headings": [
-          "Planning with Files",
-          "Forks & Extensions",
-          "Used in the Wild",
-          "Skill Registries & Hubs",
-          "Current Version: v3.2.0",
-          "Session Recovery",
-          "Quick Install",
-          "Why This Skill?"
-        ],
-        "commands": [],
-        "keywords": [
-          "ai",
-          "agent",
-          "planning with files",
-          "forks & extensions",
-          "used in the wild",
-          "skill registries & hubs"
-        ],
-        "score": 100
-      },
-      "visual": {
-        "kind": "repository_avatar",
-        "url": "https://github.com/OthmanAdi.png",
-        "thumbUrl": "https://github.com/OthmanAdi.png",
-        "alt": "OthmanAdi/planning-with-files",
-        "sourceUrl": "https://github.com/OthmanAdi/planning-with-files",
-        "promptHash": "sha256:8cf143cd5969"
-      },
-      "classification": {
-        "primaryCategoryId": "ai",
-        "secondaryCategoryIds": [],
-        "confidence": 0.8,
-        "method": "rules",
-        "reasons": [
-          "Matched ai",
-          "Matched agent"
-        ],
-        "signals": [
-          "ai",
-          "agent"
-        ]
-      },
-      "rank": {
-        "globalRank": 20,
-        "categoryRank": 20,
-        "score": 66.1
-      }
-    },
-    {
       "id": "steipete-codexbar",
       "owner": "steipete",
       "name": "CodexBar",
@@ -1689,15 +1606,15 @@
       "homepageUrl": null,
       "source": {
         "primary": "github_trending_html",
-        "sourceRank": 21,
-        "starsGained": 201
+        "sourceRank": 20,
+        "starsGained": 153
       },
       "metadata": {
         "description": "Show usage stats for OpenAI Codex and Claude Code, without having to login.",
         "language": "Swift",
         "topics": [],
-        "stars": 16113,
-        "forks": 1347,
+        "stars": 16402,
+        "forks": 1357,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -1755,9 +1672,9 @@
         ]
       },
       "rank": {
-        "globalRank": 21,
-        "categoryRank": 21,
-        "score": 78
+        "globalRank": 20,
+        "categoryRank": 20,
+        "score": 75.3
       }
     },
     {
@@ -1769,15 +1686,15 @@
       "homepageUrl": null,
       "source": {
         "primary": "github_trending_html",
-        "sourceRank": 22,
-        "starsGained": 182
+        "sourceRank": 21,
+        "starsGained": 156
       },
       "metadata": {
         "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
         "language": "Python",
         "topics": [],
-        "stars": 136258,
-        "forks": 21906,
+        "stars": 136413,
+        "forks": 21919,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -1840,9 +1757,9 @@
         ]
       },
       "rank": {
-        "globalRank": 22,
-        "categoryRank": 22,
-        "score": 74.2
+        "globalRank": 21,
+        "categoryRank": 21,
+        "score": 73.6
       }
     }
   ],
@@ -1861,14 +1778,13 @@
         "alibaba-page-agent",
         "usestrix-strix",
         "hesreallyhim-awesome-claude-code",
-        "coreyhaines31-marketingskills",
         "coplaydev-unity-mcp",
+        "coreyhaines31-marketingskills",
         "facebook-astryx",
         "dotnet-skills",
         "steipete-codexbar",
         "anthropics-claude-code",
-        "gastownhall-gastown",
-        "othmanadi-planning-with-files"
+        "gastownhall-gastown"
       ],
       "sort": "score"
     },
@@ -1890,11 +1806,11 @@
   ],
   "health": {
     "status": "ok",
-    "candidateCount": 22,
-    "enrichedRepoCount": 22,
+    "candidateCount": 21,
+    "enrichedRepoCount": 21,
     "unclassifiedRepoCount": 6,
     "warnings": [
-      "13 repos used README images, 0 used Agnes images, 9 fell back to repository avatars"
+      "13 repos used README images, 0 used Agnes images, 8 fell back to repository avatars"
     ]
   }
 }

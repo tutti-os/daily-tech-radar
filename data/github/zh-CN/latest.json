@@ -2,8 +2,8 @@
   "schemaVersion": "trendreader.daily.v1",
   "packageId": "github-daily-All-2026-07-05",
   "locale": "zh-CN",
-  "generatedAt": "2026-07-05T21:17:52.256Z",
-  "expiresAt": "2026-07-06T21:17:52.256Z",
+  "generatedAt": "2026-07-06T07:16:37.709Z",
+  "expiresAt": "2026-07-07T07:16:37.709Z",
   "sourceWindow": {
     "since": "daily",
     "language": "All",
@@ -14,12 +14,12 @@
       "id": "github_trending_html",
       "role": "candidate",
       "status": "ok",
-      "itemCount": 22
+      "itemCount": 21
     }
   ],
   "taxonomy": {
     "version": "2026-07-05",
-    "generatedAt": "2026-07-05T21:17:52.256Z",
+    "generatedAt": "2026-07-06T07:16:37.709Z",
     "categories": [
       {
         "id": "ai",
@@ -72,11 +72,11 @@
         "starsGained": 1409
       },
       "metadata": {
-        "description": "隐私优先的 AI 会议助手，基于 Rust 构建，支持 4 倍速更快的 Parakeet/Whisper 实时转录、说话人分离及 Ollama 摘要生成。100% 本地处理，无需云端。Meetily 是 macOS 和 Windows 上排名第一的自托管开源 AI 会议笔记工具。",
+        "description": "隐私优先，AI会议助手，具备4倍速更快的Parakeet/Whisper实时转录、说话人分离及Ollama摘要功能，基于Rust构建。100%本地处理，无需云端。Meetily是macOS和Windows上排名第一的自托管、开源AI会议记录工具。",
         "language": "Rust",
         "topics": [],
-        "stars": 16718,
-        "forks": 1785,
+        "stars": 17761,
+        "forks": 1847,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -92,7 +92,7 @@
       },
       "readmeSignals": {
         "title": null,
-        "summary": "开源且隐私优先的企业级解决方案。该工具完全在您的基础设施上捕获、转录和总结会议内容，由精通数据主权和开源方案的 AI 工程师打造。适合需要高级会议智能但不愿牺牲隐私、合规性或控制权的企業。提供 Meetily PRO 升级选项，支持更高准确率、高级导出及团队功能。",
+        "summary": "开源 • 隐私优先 • 企业级就绪 获取最新产品更新 网站 • LinkedIn • Meetily Discord • 隐私优先AI • Reddit 一款隐私优先的AI会议助手，完全在您的基础设施上捕获、转录和总结会议。由热衷于数据主权和开源解决方案的专家AI工程师打造。非常适合需要高级会议智能但不愿在隐私、合规性或控制权上妥协的企业。Meetily PRO升级优惠 - Meetily PRO为需要更高准确率、高级导出、自定义摘要工作流和团队功能的用户提供增强服务。使用优惠券代码LAUNCH20可在下次Meetily社区活动前享受20%折扣。",
         "headings": [
           "Introduction",
           "Why Meetily?",
@@ -105,12 +105,13 @@
         ],
         "commands": [],
         "keywords": [
-          "AI 会议助手",
-          "隐私优先",
+          "AI会议助手",
+          "隐私保护",
           "本地处理",
-          "实时转录",
+          "自动转录",
+          "会议摘要",
           "自托管",
-          "Rust"
+          "开源软件"
         ],
         "score": 100
       },
@@ -150,14 +151,14 @@
       "source": {
         "primary": "github_trending_html",
         "sourceRank": 2,
-        "starsGained": 1519
+        "starsGained": 1532
       },
       "metadata": {
-        "description": "在 Claude Code 中使用 Codex 进行代码审查或委派任务。",
+        "description": "在Claude Code中使用Codex进行代码审查或委托任务。",
         "language": "JavaScript",
         "topics": [],
-        "stars": 25367,
-        "forks": 1534,
+        "stars": 25784,
+        "forks": 1559,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -173,7 +174,7 @@
       },
       "readmeSignals": {
         "title": "Codex plugin for Claude Code",
-        "summary": "专为 Claude Code 用户设计的插件，允许用户在现有工作流中轻松使用 Codex 进行代码审查或任务委派。支持多种命令模式，如只读审查、对抗性挑战审查以及任务委托和管理。需具备 ChatGPT 订阅或 OpenAI API 密钥，使用量计入 Codex 限额。",
+        "summary": "在Claude Code内部使用Codex进行代码审查或将任务委派给Codex。此插件专为希望在其现有工作流程中轻松开始使用Codex的Claude Code用户设计。支持命令：/codex:review（常规只读审查）、/codex:adversarial-review（可引导的挑战性审查）、/codex:rescue、/codex:transfer、/codex:status、/codex:result和/codex:cancel（用于委派工作、交接会话和管理后台作业）。需要ChatGPT订阅（含免费）或OpenAI API密钥。使用情况将计入您的Codex使用限额。https://developers.openai.com/codex/pricing。Node.js 18.18或更高版本。",
         "headings": [
           "Codex plugin for Claude Code",
           "What You Get",
@@ -188,12 +189,12 @@
           "npm install -g @openai/codex"
         ],
         "keywords": [
-          "Codex",
+          "Codex插件",
           "Claude Code",
           "代码审查",
-          "插件",
           "任务委派",
-          "Node.js"
+          "AI辅助编程",
+          "开发工具"
         ],
         "score": 100
       },
@@ -234,11 +235,11 @@
         "starsGained": 981
       },
       "metadata": {
-        "description": "提取自 Anthropic (Claude)、OpenAI (ChatGPT)、Google (Gemini) 及 xAI 等各大 AI 模型的系统提示词（System Prompts）。定期更新。",
+        "description": "提取了Anthropic - Claude Fable 5, Opus 4.8, Claude Code, Claude Design。OpenAI - ChatGPT 5.5 Thinking, GPT 5.5 Instant, Codex。Google - Gemini 3.5 Flash, 3.1 Pro, Antigravity。xAI - Grok, Cursor, Copilot, VS Code, Perplexity等。定期更新。",
         "language": "JavaScript",
         "topics": [],
-        "stars": 49815,
-        "forks": 8156,
+        "stars": 50411,
+        "forks": 8234,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -254,7 +255,7 @@
       },
       "readmeSignals": {
         "title": "System Prompts Leaks",
-        "summary": "旨在记录所有主要 AI 聊天机器人（如 Claude、ChatGPT、Gemini 等）的系统提示指令。该仓库详细展示了各模型的最新提示词变化，包括 Claude Sonnet 5、Claude Design Opus 4.8、GitHub Copilot 等，并提供变更对比链接，帮助开发者了解底层指令逻辑。",
+        "summary": "如《华盛顿邮报》所示：https://wapo.st/49t4gSb 2026年5月11日 系统提示词泄露 本仓库旨在记录所有AI聊天机器人（如Claude、ChatGPT、Gemini等）的系统提示词指令。🆕 https://www.diffchecker.com/QJn9jFNk/ — 查看claude.ai系统提示词的具体变更 | 内容 | 日期 | 链接 | | Claude Sonnet 5 | 2026年7月1日 | Anthropic/claude-sonnet-5.md | | Claude Design Opus 4.8 — 完整提示词 + 48个工具 + 16项技能 + 9个起始来源 | 2026年6月26日 | Anthropic/claude-design.md | | GitHub Copilot for macOS应用 | 2026年6月18日 | Microsoft/copilot-macos-app.md | | GPT-5.5 Codex完整提示词 | 2026年6月18日 |",
         "headings": [
           "System Prompts Leaks",
           "Recently Updated",
@@ -268,11 +269,12 @@
         "commands": [],
         "keywords": [
           "系统提示词",
-          "AI 安全",
-          "Claude",
-          "ChatGPT",
-          "Gemini",
-          "模型研究"
+          "AI安全",
+          "模型泄露",
+          "Anthropic",
+          "OpenAI",
+          "Google Gemini",
+          "xAI"
         ],
         "score": 100
       },
@@ -312,14 +314,14 @@
       "source": {
         "primary": "github_trending_html",
         "sourceRank": 4,
-        "starsGained": 850
+        "starsGained": 863
       },
       "metadata": {
-        "description": "Taste-Skill - 赋予 AI 良好的审美品味，阻止 AI 生成无聊、通用的低质量内容。",
+        "description": "Taste-Skill - 赋予AI良好的品味。阻止AI生成无聊、通用的垃圾内容。",
         "language": "JavaScript",
         "topics": [],
-        "stars": 57343,
-        "forks": 3924,
+        "stars": 57977,
+        "forks": 3958,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -335,7 +337,7 @@
       },
       "readmeSignals": {
         "title": "Taste Skill",
-        "summary": "面向 AI 代理的反平庸前端框架。提供可移植的代理技能，用于提升 AI 生成的界面布局、排版、动效和间距，避免样板式 UI。包含图像生成技能参考板，可与 ChatGPT Images 等生成器配合，再交由 Codex、Cursor 或 Claude Code 实现。无官方代币或加密货币项目。",
+        "summary": "AI代理的反垃圾前端框架 便携式代理技能，提升AI构建界面的质量：更强的布局、排版、动效和间距，而非样板式UI。本仓库还包括用于参考板的图像生成技能，适用于Web、移动设备和品牌套件。将其与ChatGPT Images或类似生成器配对，然后将框架交给Codex、Cursor或Claude Code进行实现。Taste Skill没有官方代币、硬币或加密项目。任何使用我名字、图像或项目的代币均与我无关，也不受我认可。免责声明 • 安装 • 技能 • 设置 • 示例 • 赞助商 • 研究 • 常见问题 • 许可证",
         "headings": [
           "Taste Skill",
           "Disclaimer",
@@ -348,11 +350,11 @@
         ],
         "commands": [],
         "keywords": [
-          "AI 代理技能",
+          "AI代理技能",
+          "界面设计",
+          "反垃圾内容",
           "前端框架",
-          "UI 优化",
-          "反平庸",
-          "设计系统",
+          "UI优化",
           "图像生成"
         ],
         "score": 100
@@ -393,14 +395,14 @@
       "source": {
         "primary": "github_trending_html",
         "sourceRank": 5,
-        "starsGained": 394
+        "starsGained": 392
       },
       "metadata": {
-        "description": "337 个 Claude Code 技能、代理技能和插件，涵盖工程、营销、产品、合规、高管咨询、研究及日常生产力等领域。",
+        "description": "337个Claude Code技能和代理技能及插件（30+代理，70+自定义命令，330+技能，可自定义参考、脚本），适用于Claude Code、Codex、Gemini CLI、Cursor和另外8种编码代理——涵盖工程、营销、产品、合规、C级咨询、研究、业务运营、商业与财务以及日常生产力技能。",
         "language": "Python",
         "topics": [],
-        "stars": 20486,
-        "forks": 2792,
+        "stars": 20783,
+        "forks": 2806,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -416,7 +418,7 @@
       },
       "readmeSignals": {
         "title": "Claude Code Skills & Plugins — Agent Skills for Every Coding Tool",
-        "summary": "最全面的开源 Claude Code 技能和代理插件库，包含 354 个生产就绪的技能包。兼容 OpenAI Codex、Gemini CLI、Cursor 等 13 种以上 AI 编码工具。提供可重用的专业知识包，涵盖 DevOps、AEO（答案引擎优化）、安全钩子、合规性及多种高管角色模拟（如 CFO、CTO 等）。",
+        "summary": "Claude Code技能与插件 — 适用于每种编码工具的代理技能 355个生产就绪的Claude Code技能、插件和代理技能，适用于13种AI编码工具。最全面的开源Claude Code技能和代理插件库——也适用于OpenAI Codex、Gemini CLI、Cursor和另外9种编码工具。可重用的专业知识包涵盖工程、DevOps、营销（包括AEO——大语言模型引用的答案引擎优化）、安全PreToolUse钩子、合规、C级咨询（包括创始人模式CFO/CMO/CRO/CPO/COO/CHRO/CISO/GC/CDO/CAIO/CCO/VPE角色）+ 21个/cs:斜杠命令、生产力捕获/电子邮件/反思、学术研究栈文献综述/拨款/档案/专利/...",
         "headings": [
           "Claude Code Skills & Plugins — Agent Skills for Every Coding Tool",
           "What Are Claude Code Skills & Agent Plugins?",
@@ -430,11 +432,12 @@
         "commands": [],
         "keywords": [
           "Claude Code",
-          "AI 代理技能",
+          "AI代理技能",
           "编码工具",
           "DevOps",
+          "营销自动化",
           "合规性",
-          "高管模拟"
+          "C级咨询"
         ],
         "score": 100
       },
@@ -476,14 +479,14 @@
       "source": {
         "primary": "github_trending_html",
         "sourceRank": 6,
-        "starsGained": 411
+        "starsGained": 410
       },
       "metadata": {
-        "description": "一款美观、强大的自托管 ROM 管理器和播放器。",
+        "description": "一个美观、强大的自托管ROM管理器和播放器。",
         "language": "Python",
         "topics": [],
-        "stars": 10490,
-        "forks": 502,
+        "stars": 10659,
+        "forks": 512,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -499,7 +502,7 @@
       },
       "readmeSignals": {
         "title": "Overview",
-        "summary": "RomM 是一款自托管的游戏库管理器，支持扫描、丰富元数据、浏览和播放游戏。支持多平台、多种命名方案和自定义标签。可从 IGDB、SteamGridDB 等平台获取元数据和艺术图，从 RetroAchievements 获取成就，并直接在浏览器中通过 EmulatorJS 或 Rufus 玩游戏。",
+        "summary": "一个美观、强大的自托管ROM管理器和播放器。RomM ROM管理器允许您扫描、丰富、浏览和播放游戏收藏，界面干净且响应迅速。支持多个平台、各种命名方案和自定义标签，对于使用模拟器的人来说，RomM是必备工具。从IGDB、Screenscraper和MobyGames获取元数据以扫描和增强游戏库 从SteamGridDB显示自定义艺术图 从Retroachievements显示您的成就 400+平台的可用元数据 使用EmulatorJS直接在浏览器中玩游戏 使用Ruf...",
         "headings": [
           "Overview",
           "Features",
@@ -512,12 +515,12 @@
         ],
         "commands": [],
         "keywords": [
-          "ROM 管理",
+          "ROM管理器",
           "自托管",
           "游戏模拟器",
           "元数据",
-          "Web 播放器",
-          "游戏库"
+          "游戏收藏",
+          "浏览器游戏"
         ],
         "score": 100
       },
@@ -555,14 +558,14 @@
       "source": {
         "primary": "github_trending_html",
         "sourceRank": 7,
-        "starsGained": 650
+        "starsGained": 651
       },
       "metadata": {
         "description": "生活在终端中的代理多路复用器。",
         "language": "Rust",
         "topics": [],
-        "stars": 11985,
-        "forks": 697,
+        "stars": 12310,
+        "forks": 721,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -578,7 +581,7 @@
       },
       "readmeSignals": {
         "title": "herdr",
-        "summary": "herdr 是一个终端内的代理多路复用器，允许在一个终端窗口中运行多个编码代理。每个代理拥有独立的真实终端会话，支持全屏 TUI 渲染。具备点击、拖拽、分屏和标签页功能，支持 SSH 远程连接和断线重连。基于 Rust 构建，无 GUI、无遥测、无账户要求。",
+        "summary": "herdr.dev • 安装 • 快速入门 • 支持的代理 • 文档 • socket api • 赞助 在一个终端中运行所有编码代理。一目了然地查看谁被阻塞、正在工作或已完成。在代理已运行的地方运行它们；您的机器、服务器、任何可以ssh的地方。每个代理都有自己的真实终端，而不是应用的模仿品，因此即使全屏TUI也能正确渲染。点击、拖动并将窗格拆分为工作区和选项卡，观察每个代理进入阻塞、工作和完成状态。关闭笔记本电脑也不会中断；可以从另一个终端或通过手机ssh重新附加。一个本地rust二进制文件，而不是应用：无gui、无electron、无仅限mac的包装器、无账户、无遥测。如果您使用过tmux：它就是那个...",
         "headings": [
           "herdr",
           "what you get",
@@ -591,12 +594,12 @@
         ],
         "commands": [],
         "keywords": [
-          "终端复用器",
-          "AI 代理",
+          "终端代理",
+          "多路复用器",
+          "AI编码",
           "Rust",
-          "多任务处理",
-          "SSH",
-          "命令行工具"
+          "命令行工具",
+          "工作流管理"
         ],
         "score": 100
       },
@@ -636,14 +639,14 @@
       "source": {
         "primary": "github_trending_html",
         "sourceRank": 8,
-        "starsGained": 801
+        "starsGained": 805
       },
       "metadata": {
-        "description": "JavaScript 页面内 GUI 代理。用自然语言控制网页界面。",
+        "description": "JavaScript页面内GUI代理。用自然语言控制Web界面。",
         "language": "TypeScript",
         "topics": [],
-        "stars": 23768,
-        "forks": 2053,
+        "stars": 24218,
+        "forks": 2080,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -659,7 +662,7 @@
       },
       "readmeSignals": {
         "title": "Page Agent",
-        "summary": "Page Agent 是一种无需浏览器扩展或 Python 环境的网页内 JavaScript 解决方案，通过自然语言控制 Web 界面。它基于文本 DOM 操作而非截图或多模态 LLM，因此无需特殊权限。支持自带 LLM，并提供 Chrome 扩展和 MCP 服务器以支持多页面任务和外部控制。",
+        "summary": "生活在您网页中的GUI代理。用自然语言控制Web界面。🚀 演示 | 📖 文档 | 📢 HN讨论 | 𝕏 在X上关注 🎯 易于集成 不需要浏览器扩展/python/无头浏览器。只需页面内javascript。一切都在您的网页中发生。📖 基于文本的DOM操作 无需截图。无需多模态LLM或特殊权限。🧠 自带LLMs 🐙 可选 https://alibaba.github.io/page-agent/docs/features/chrome-extension 用于多页任务。以及 https://alibaba.github.io/page-agent/docs/features/mcp-server 用于从外部控制它",
         "headings": [
           "Page Agent",
           "✨ Features",
@@ -674,12 +677,12 @@
           "npm install page-agent"
         ],
         "keywords": [
-          "GUI 代理",
-          "网页自动化",
-          "DOM 操作",
-          "JavaScript",
+          "GUI代理",
+          "Web自动化",
           "自然语言控制",
-          "MCP"
+          "DOM操作",
+          "JavaScript",
+          "阿里巴巴"
         ],
         "score": 100
       },
@@ -719,14 +722,14 @@
       "source": {
         "primary": "github_trending_html",
         "sourceRank": 9,
-        "starsGained": 333
+        "starsGained": 329
       },
       "metadata": {
-        "description": "机器学习系统：工程人工智能系统的原则与实践。",
+        "description": "机器学习系统",
         "language": "Python",
         "topics": [],
-        "stars": 26803,
-        "forks": 3187,
+        "stars": 26968,
+        "forks": 3209,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -742,7 +745,7 @@
       },
       "readmeSignals": {
         "title": "Machine Learning Systems",
-        "summary": "哈佛大学的机器学习系统教材，旨在填补构建 AI 系统与工程化 AI 之间的差距。强调 AI 工程学科，教授如何设计、构建和评估在现实世界中高效、可靠、安全运行的端到端智能系统。包含 TinyTorch、实验室练习及即将出版的 MIT Press 纸质版。",
+        "summary": "机器学习系统 工程人工智能系统的原则与实践 📘 教科书 • 📗 卷I + 📘 卷II • 🔥 TinyTorch • 🔬 实验 • 🔮 MLSys·im • 💼 StaffML 📚 硬拷贝版将于2026年由MIT Press出版。世界正急于构建AI系统。但它们并未对其进行工程化。这就是我们所说的AI工程差距。AI工程是构建高效、可靠、安全和健壮的智能系统的学科，这些系统在现实世界中运行，而不仅仅是孤立的模型。我们的使命是将AI工程确立为与软件工程和计算机工程并列的基础学科，通过教授如何设计、构建和评估端到端i...",
         "headings": [
           "Machine Learning Systems",
           "Mission",
@@ -756,11 +759,11 @@
         "commands": [],
         "keywords": [
           "机器学习系统",
-          "AI 工程",
-          "教育课程",
-          "系统设计",
-          "可靠性",
-          "哈佛教材"
+          "AI工程",
+          "教科书",
+          "MIT Press",
+          "人工智能",
+          "计算机科学"
         ],
         "score": 100
       },
@@ -798,14 +801,14 @@
       "source": {
         "primary": "github_trending_html",
         "sourceRank": 10,
-        "starsGained": 1121
+        "starsGained": 1114
       },
       "metadata": {
-        "description": "开源 AI 渗透测试工具，用于发现和修复应用漏洞。",
+        "description": "开源AI渗透测试工具，用于发现和修复应用程序漏洞。",
         "language": "Python",
         "topics": [],
-        "stars": 36984,
-        "forks": 3755,
+        "stars": 37460,
+        "forks": 3800,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -821,7 +824,7 @@
       },
       "readmeSignals": {
         "title": "Strix",
-        "summary": "Strix 是自主 AI 渗透测试代理，像真实黑客一样动态运行代码、发现漏洞并通过概念验证（PoC）进行验证。专为开发者和安全团队设计，提供侦察、利用和验证的全套工具。支持多代理编排，协作扩展测试规模，消除静态分析的误报问题。",
+        "summary": "开源AI渗透测试工具。自主AI黑客，发现和修复应用程序漏洞。Strix是自主AI渗透测试代理，行为就像真正的黑客一样——它们动态运行您的代码，发现漏洞，并通过实际概念验证进行验证。专为需要快速、准确的安全测试，而不愿承受手动渗透测试开销或静态分析工具误报的开发人员和团队构建。完整的渗透测试工具包——侦察、利用和验证开箱即用 多代理编排——协作和扩展的AI渗透测试团队 真实的漏洞验证——有效的PoC，而非法律意义上的误报...",
         "headings": [
           "Strix",
           "The open-source AI pentesting tool. Autonomous AI hackers that find and fix your app’s vulnerabilities.",
@@ -834,12 +837,12 @@
         ],
         "commands": [],
         "keywords": [
-          "AI 渗透测试",
-          "网络安全",
-          "漏洞挖掘",
+          "渗透测试",
+          "AI安全",
+          "漏洞扫描",
           "自主代理",
-          "概念验证",
-          "多代理编排"
+          "网络安全",
+          "代码审计"
         ],
         "score": 100
       },
@@ -879,14 +882,14 @@
       "source": {
         "primary": "github_trending_html",
         "sourceRank": 11,
-        "starsGained": 188
+        "starsGained": 148
       },
       "metadata": {
-        "description": "精选的 Claude Code 最佳资源合集，包括顶级技能、代理、状态行和插件。",
+        "description": "精选的最佳资源集合，用于最棒的代理Claude Code，Anthropic PBC团队打造的无可争议的编码伴侣冠军。展示顶级技能、双头代理、闪烁的状态行、顶级的开发者工具，还有插件。",
         "language": "Python",
         "topics": [],
-        "stars": 48297,
-        "forks": 4232,
+        "stars": 48563,
+        "forks": 4250,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -902,7 +905,7 @@
       },
       "readmeSignals": {
         "title": "Table of Contents",
-        "summary": "Anthropic 团队打造的 Claude Code 资源精选列表，展示顶级技能、双头代理、状态行指示器、开发者工具和插件。适合初学者和资深用户，强调代码质量、安全性和原创性。持续更新，收录推荐资源及社区贡献。",
+        "summary": "为最棒的代理（https://code.claude.com/docs/）精心挑选的最佳资源集合，Anthropic PBC团队打造的无可争议的编码伴侣冠军。展示顶级技能、双头代理、闪烁的状态行、顶级的开发者工具，还有插件。适合初学者和资深人士，强调代码质量、安全性和原创性。当前版本的列表旨在突出上一版本中未包含的资源，特别是从推荐列表中做出选择...",
         "headings": [
           "The Claude Code Ticker - A Sample of Claude Code Projects Around GitHub",
           "Recently Added",
@@ -918,11 +921,11 @@
         ],
         "keywords": [
           "Claude Code",
-          "资源合集",
-          "AI 代理技能",
+          "资源列表",
+          "AI代理",
           "开发者工具",
           "插件",
-          "最佳实践"
+          "编码技能"
         ],
         "score": 100
       },
@@ -949,7 +952,7 @@
       "rank": {
         "globalRank": 11,
         "categoryRank": 11,
-        "score": 96.8
+        "score": 92.8
       }
     },
     {
@@ -962,14 +965,14 @@
       "source": {
         "primary": "github_trending_html",
         "sourceRank": 12,
-        "starsGained": 209
+        "starsGained": 145
       },
       "metadata": {
-        "description": "面向 Claude Code 和 AI 代理的营销技能集，涵盖 CRO、文案、SEO、分析和增长工程。",
+        "description": "Claude Code和AI代理的营销技能。CRO、文案撰写、SEO、分析和增长工程。",
         "language": "JavaScript",
         "topics": [],
-        "stars": 36372,
-        "forks": 5890,
+        "stars": 36638,
+        "forks": 5902,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -985,7 +988,7 @@
       },
       "readmeSignals": {
         "title": "Marketing Skills for AI Agents",
-        "summary": "专注于营销任务的 AI 代理技能集合，适合技术营销人员和创始人。支持转化优化、文案写作、SEO、数据分析和增长工程。兼容 Claude Code、OpenAI Codex、Cursor 等支持 agentskills.io 标准的代理。提供相关咨询服务和营销学习资源。",
+        "summary": "专注于营销任务的AI代理技能集合。为技术营销人员和创始人构建，希望AI编码代理帮助进行转换优化、文案撰写、SEO、分析和增长工程。适用于Claude Code、OpenAI Codex、Cursor、Windsurf和支持https://agentskills.io的任何代理。由https://corey.co?ref=marketingskills构建。需要动手帮助？查看https://conversionfactory.co?ref=marketingskills — Corey的转换优化、着陆页和增长策略机构。想了解更多关于营销的知识？订阅https://swipefiles.com?ref=marketingskills。想变得非常擅长使用AI进行营销？查看h...",
         "headings": [
           "Marketing Skills for AI Agents",
           "What are Skills?",
@@ -998,11 +1001,11 @@
         ],
         "commands": [],
         "keywords": [
-          "营销技能",
-          "AI 代理",
+          "营销自动化",
+          "AI代理技能",
           "SEO",
-          "转化优化",
-          "文案生成",
+          "转化率优化",
+          "文案撰写",
           "增长工程"
         ],
         "score": 100
@@ -1032,7 +1035,7 @@
       "rank": {
         "globalRank": 12,
         "categoryRank": 12,
-        "score": 96
+        "score": 90.5
       }
     },
     {
@@ -1045,14 +1048,14 @@
       "source": {
         "primary": "github_trending_html",
         "sourceRank": 13,
-        "starsGained": 1043
+        "starsGained": 1052
       },
       "metadata": {
-        "description": "Claude Code 技能，通过‘穴居人’风格对话减少 65% 的输出 Token。",
+        "description": "🪨 为什么使用许多token当少数token就能解决问题——Claude Code技能，通过像穴居人一样说话减少65%的token",
         "language": "JavaScript",
         "topics": [],
-        "stars": 84773,
-        "forks": 4719,
+        "stars": 85184,
+        "forks": 4737,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -1068,7 +1071,7 @@
       },
       "readmeSignals": {
         "title": "macOS · Linux · WSL · Git Bash",
-        "summary": "Caveman 是一项技能/插件，使 AI 编码代理以简洁的‘穴居人’风格回答，保持代码和命令精确不变，但大幅减少输出 Token 数量（约 65%）。适用于 Claude Code、Codex、Cursor 等 30 多种代理。安装一次即可永久节省输出 Token。",
+        "summary": "让您的AI编码代理像穴居人一样说话。同样的答案，输出token减少65% 。大脑仍然很大。嘴巴很小。查看 • 安装 • 级别 • 您将获得什么 • 基准测试 • 生态系统 • 穴居人2 穴居人是https://docs.anthropic.com/en/docs/claude-code、Codex、Gemini、Cursor、Windsurf、Cline、Copilot和30多种其他代理的技能/插件。安装一次。代理删除填充物并以紧凑的穴居人风格回答，保持代码、命令和错误逐字节精确。您永远在每个回复中节省输出token。🗣️ 正常代理 — 69个token 穴居人代理 — 19个token",
         "headings": [
           "Before / After",
           "Install",
@@ -1083,12 +1086,12 @@
           "npm install -g @juliusbrussee/caveman-code"
         ],
         "keywords": [
-          "Token 优化",
-          "AI 代理技能",
-          "成本节约",
-          "简洁输出",
+          "Token优化",
           "Claude Code",
-          "Cursor"
+          "AI代理技能",
+          "成本节约",
+          "编码助手",
+          "效率工具"
         ],
         "score": 100
       },
@@ -1126,14 +1129,14 @@
       "source": {
         "primary": "github_trending_html",
         "sourceRank": 14,
-        "starsGained": 415
+        "starsGained": 414
       },
       "metadata": {
-        "description": "Unity MCP 作为 AI 助手与 Unity 编辑器之间的桥梁，提供资产管理、场景控制和脚本编辑工具。",
+        "description": "Unity MCP充当AI助手与Unity编辑器之间的桥梁。为您的LLM提供工具来管理资产、控制场景、编辑脚本并在Unity内自动化任务。",
         "language": "C#",
         "topics": [],
-        "stars": 11891,
-        "forks": 1275,
+        "stars": 12059,
+        "forks": 1287,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -1149,7 +1152,7 @@
       },
       "readmeSignals": {
         "title": null,
-        "summary": "Unity MCP 通过模型上下文协议（MCP）将 Claude、Codex、VS Code 等 AI 助手与 Unity 编辑器连接。为 LLM 提供管理资产、控制场景、编辑脚本、运行测试和自动化游戏开发工作流的工具。由 Aura.dev 赞助维护，并关联 Godot AI 项目。",
+        "summary": "README.md docs/i18n/README-zh.md &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; https://discord.gg/y4p8KfzrN4 https://coplaydev.github.io/unity-mcp/ 自豪地由https://www.tryaura.dev/赞助和维护——Unreal和Unity的AI助手。不要错过 https://github.com/hi-godot/godot-ai，来自Unity MCP制作人的新开源项目。使用LLM创建您的Unity应用。MCP for Unity通过Model Context Protocol将AI助手——Claude、Codex、VS Code、本地LLM等——与您的Unity编辑器连接起来。为您的LLM提供管理资产、控制场景、编辑脚本、运行测试和自动化游戏开发工作流程的工具。",
         "headings": [
           "What it does",
           "Quickstart",
@@ -1163,11 +1166,11 @@
         "commands": [],
         "keywords": [
           "Unity",
-          "MCP",
           "游戏开发",
-          "AI 助手",
+          "MCP协议",
+          "AI助手",
           "自动化",
-          "资产管���"
+          "LLM集成"
         ],
         "score": 100
       },
@@ -1211,14 +1214,14 @@
       "source": {
         "primary": "github_trending_html",
         "sourceRank": 15,
-        "starsGained": 540
+        "starsGained": 522
       },
       "metadata": {
-        "description": "一个完全可定制且面向代理的开源设计系统。",
+        "description": "一个完全可定制且代理就绪的开源设计系统",
         "language": "TypeScript",
         "topics": [],
-        "stars": 5827,
-        "forks": 371,
+        "stars": 6107,
+        "forks": 391,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -1234,7 +1237,7 @@
       },
       "readmeSignals": {
         "title": "Astryx",
-        "summary": "Astryx 是 Meta 内部发展而来的开源设计系统，已运行八年，支撑 13,000+ 应用。基于 React 和 StyleX 构建，提供 150+ 无障碍组件、品牌主题、深色模式、现成模板和 CLI。无需构建插件或样式库，直接导入预构建 CSS 并使用类型化的 React 组件。",
+        "summary": "一个完全可定制且专为现代构建方式设计的开源设计系统——由人和与其协同工作的代理共同构建。目前处于Beta阶段 • 基于https://react.dev和https://stylexjs.com构建 Astryx是一个开源设计系统，在过去八年中在Meta内部发展，成为该公司使用最多、最大的设计系统——支撑着13,000多个应用程序，并由每天依赖它的工程师、设计师和产品团队塑造。它提供150+可访问组件、品牌级主题、深色模式、即插即用模板和CLI作为一个连贯的系统。您导入预构建CSS并使用类型化的React组件——无需构建插件、无需样式库...",
         "headings": [
           "Astryx",
           "Overview",
@@ -1256,10 +1259,10 @@
         "keywords": [
           "设计系统",
           "React",
-          "StyleX",
-          "开源",
           "Meta",
-          "UI 组件"
+          "UI组件",
+          "开源",
+          "代理就绪"
         ],
         "score": 100
       },
@@ -1299,14 +1302,14 @@
       "source": {
         "primary": "github_trending_html",
         "sourceRank": 16,
-        "starsGained": 475
+        "starsGained": 470
       },
       "metadata": {
-        "description": "高性能的自托管照片和视频管理解决方案。",
+        "description": "高性能自托管照片和视频管理解决方案。",
         "language": "TypeScript",
         "topics": [],
-        "stars": 106043,
-        "forks": 6053,
+        "stars": 106273,
+        "forks": 6072,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -1322,7 +1325,7 @@
       },
       "readmeSignals": {
         "title": null,
-        "summary": "Immich 是一款高性能的自托管媒体管理应用，支持照片和视频的上传、查看、自动备份和多用户管理。提供移动端和 Web 端界面，支持选择性相册备份、去重、本地下载等功能。支持多种语言，并提供演示环境供体验。",
+        "summary": "高性能自托管照片和视频管理解决方案 Català Español Français Italiano 日本語 한국어 Deutsch Nederlands Türkçe 简体中文 正體中文 Українська Русский Português Brasileiro Svenska العربية Tiếng Việt ภาษาไทย 访问演示 https://demo.immich.app。对于移动应用，您可以使用 https://demo.immich.app 作为服务器端点URL。 | 电子邮件 | 密码 | | demo@immich.app | demo | | 功能 | 移动 | Web | | 上传和查看视频和照片 | 是 | 是 | | 应用打开时自动备份 | 是 | N/A | | 防止资产重复 | 是 | 是 | | 选择性相册备份 | 是 | N/A | | 下载照片和视频到本地设备 | 是 | 是 | | 多用户支持 | 是 | 是...",
         "headings": [
           "Links",
           "Demo",
@@ -1338,9 +1341,9 @@
           "照片管理",
           "视频存储",
           "自托管",
+          "云替代",
           "媒体库",
-          "自动备份",
-          "多用户"
+          "隐私保护"
         ],
         "score": 100
       },
@@ -1378,14 +1381,14 @@
       "source": {
         "primary": "github_trending_html",
         "sourceRank": 17,
-        "starsGained": 198
+        "starsGained": 161
       },
       "metadata": {
-        "description": "RuView 将普通 WiFi 信号转化为实时空间智能、生命体征监测和存在检测，无需任何摄像头像素。",
+        "description": "π RuView将商用WiFi信号转化为实时空间智能、生命体征监测和存在检测——无需任何像素的视频。",
         "language": "Rust",
         "topics": [],
-        "stars": 76670,
-        "forks": 10280,
+        "stars": 76844,
+        "forks": 10301,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -1401,7 +1404,7 @@
       },
       "readmeSignals": {
         "title": "π RuView",
-        "summary": "RuView 利用 WiFi 信号进行空间感知，可在穿墙、黑暗环境下检测人员、测量呼吸和心率、追踪运动。原生支持 Home Assistant、Apple HomePod 等智能家居生态系统，可通过 Siri、Google Assistant 和 Alexa 进行语音查询。专为低功耗边缘应用设计。",
+        "summary": "将普通WiFi转化为空间智能/传感系统。检测人员、测量呼吸和心率、跟踪运动并监控房间——穿墙、在黑暗中、无需摄像头或可穿戴设备。仅靠物理原理。原生支持四大智能家居生态系统：docs/integrations/home-assistant.md 通过HA-DISCO MQTT发布者，docs/user-guide-apple-homepod.md 作为可发现的HAP-1.1桥接器，docs/integrations/home-assistant.md + docs/integrations/home-assistant.md 通过相同的HA桥接器或docs/adr/ADR-122-bfld-ruview-ha-matter-exposure.md端点。Siri、Google Assistant和Alexa可以通过语音报告每个房间的存在和生命体征，无需自定义技能。",
         "headings": [
           "π RuView",
           "**See through walls with WiFi** ##",
@@ -1418,12 +1421,12 @@
           "pip install huggingface_hub"
         ],
         "keywords": [
-          "WiFi 传感",
-          "空间智能",
-          "生命体征监测",
+          "WiFi传感",
           "智能家居",
-          "隐私保护",
-          "边缘计算"
+          "生命体征监测",
+          "空间智能",
+          "无摄像头监控",
+          "物联网"
         ],
         "score": 100
       },
@@ -1448,7 +1451,7 @@
       "rank": {
         "globalRank": 17,
         "categoryRank": 17,
-        "score": 85.8
+        "score": 82.1
       }
     },
     {
@@ -1461,14 +1464,14 @@
       "source": {
         "primary": "github_trending_html",
         "sourceRank": 18,
-        "starsGained": 48
+        "starsGained": 51
       },
       "metadata": {
-        "description": "Gas Town - 多代理工作区管理器。",
+        "description": "Gas Town - 多代理工作区管理器",
         "language": "Go",
         "topics": [],
-        "stars": 16340,
-        "forks": 1520,
+        "stars": 16472,
+        "forks": 1526,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -1484,7 +1487,7 @@
       },
       "readmeSignals": {
         "title": "Gas Town",
-        "summary": "针对 Claude Code、GitHub Copilot 等 AI 代理的多代理编排系统。通过 Git 支持的钩子持久化工作状态，防止代理重启时上下文丢失。内置邮箱、身份标识和交接机制，支持手动协调，可舒适扩展至 20-30 个代理。",
+        "summary": "Claude Code、GitHub Copilot和其他AI代理的多代理编排系统，具有持久工作跟踪 Gas Town是一个工作区管理器，让您协调多个AI编码代理（Claude Code、GitHub Copilot、Codex、Gemini等）在不同任务上的工作。当代理重新启动时，不会丢失上下文，因为Gas Town在git支持的钩子中持久保存工作状态，从而实现可靠的多代理工作流程。 | 挑战 | Gas Town解决方案 | | 代理重启时丢失上下文 | 工作持久保存在git支持的钩子中 | | 手动代理协调 | 内置邮箱、身份和交接 | | 4-10个代理变得混乱 | 舒适扩展到20-30个代理 | | 工作状态在代理备忘录中丢失...",
         "headings": [
           "Gas Town",
           "Overview",
@@ -1501,10 +1504,10 @@
         "keywords": [
           "多代理编排",
           "工作区管理",
+          "AI编码",
           "上下文持久化",
-          "Git 集成",
-          "AI 代理",
-          "任务协调"
+          "Git集成",
+          "团队协作"
         ],
         "score": 100
       },
@@ -1531,7 +1534,7 @@
       "rank": {
         "globalRank": 18,
         "categoryRank": 18,
-        "score": 68.8
+        "score": 69.1
       }
     },
     {
@@ -1544,14 +1547,14 @@
       "source": {
         "primary": "github_trending_html",
         "sourceRank": 19,
-        "starsGained": 247
+        "starsGained": 246
       },
       "metadata": {
-        "description": ".NET 团队提供的辅助 AI 编码代理的技能和自定义代理仓库。",
+        "description": "协助AI编码代理进行.NET和C#开发的技能仓库",
         "language": "C#",
         "topics": [],
-        "stars": 4010,
-        "forks": 301,
+        "stars": 4111,
+        "forks": 306,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -1567,7 +1570,7 @@
       },
       "readmeSignals": {
         "title": ".NET Agent Skills",
-        "summary": "包含 .NET 团队策划的核心技能和自定义代理，遵循 agentskills.io 标准。提供 C# 语言服务器 LSP 集成、高级 .NET 任务处理、数据访问（Entity Framework）、性能调查、调试、MSBuild 构建等插件。",
+        "summary": "此仓库包含.NET团队策划的核心技能和自定义代理，用于编码代理。有关Agent Skills标准的信息，请参阅https://agentskills.io。 | 插件 | 描述 | | plugins/dotnet/ | C语言服务器LSP集成，用于编码代理和高级.NET开发技能。 | | plugins/dotnet-advanced/ | 处理特定.NET任务和特殊场景的.NET技能集合。 | | plugins/dotnet-data/ | .NET数据访问和Entity Framework相关任务的技能。 | | plugins/dotnet-diag/ | .NET性能调查、调试和事件分析的技能。 | | plugins/dotnet-msbuild/ | 全面的MSBuild和.NET构建技能...",
         "headings": [
           ".NET Agent Skills",
           "What's Included",
@@ -1582,10 +1585,10 @@
         "keywords": [
           ".NET",
           "C#",
-          "AI 代理技能",
-          "编码辅助",
-          "LSP",
-          "Entity Framework"
+          "AI代理技能",
+          "编码工具",
+          "开发插件",
+          "微软"
         ],
         "score": 100
       },
@@ -1618,89 +1621,6 @@
       }
     },
     {
-      "id": "othmanadi-planning-with-files",
-      "owner": "OthmanAdi",
-      "name": "planning-with-files",
-      "url": "https://github.com/OthmanAdi/planning-with-files",
-      "avatarUrl": "https://github.com/OthmanAdi.png",
-      "homepageUrl": null,
-      "source": {
-        "primary": "github_trending_html",
-        "sourceRank": 20,
-        "starsGained": 61
-      },
-      "metadata": {
-        "description": "面向 AI 编码代理和长期运行代理任务的持久化基于文件的规划方案。",
-        "language": "Python",
-        "topics": [],
-        "stars": 24663,
-        "forks": 2106,
-        "license": null,
-        "defaultBranch": null,
-        "pushedAt": null,
-        "topLanguages": [
-          "Python"
-        ]
-      },
-      "readmeRef": {
-        "status": "available",
-        "path": "README.md",
-        "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/OthmanAdi/planning-with-files/master/README.md"
-      },
-      "readmeSignals": {
-        "title": "Planning with Files",
-        "summary": "planning-with-files 是一项持久化文件规划技能，通过磁盘上的 taskplan.md、findings.md 和 progress.md 保存状态，使代理能抵御上下文丢失、/clear 命令和崩溃。支持可选的自主模式和完成门控，确保计划真正完成后才结束。兼容 60+ 代理，遵循 SKILL.md 标准。",
-        "headings": [
-          "Planning with Files",
-          "Forks & Extensions",
-          "Used in the Wild",
-          "Skill Registries & Hubs",
-          "Current Version: v3.2.0",
-          "Session Recovery",
-          "Quick Install",
-          "Why This Skill?"
-        ],
-        "commands": [],
-        "keywords": [
-          "文件规划",
-          "持久化状态",
-          "AI 代理",
-          "任务管理",
-          "SKILL.md",
-          "上下文恢复"
-        ],
-        "score": 100
-      },
-      "visual": {
-        "kind": "repository_avatar",
-        "url": "https://github.com/OthmanAdi.png",
-        "thumbUrl": "https://github.com/OthmanAdi.png",
-        "alt": "OthmanAdi/planning-with-files",
-        "sourceUrl": "https://github.com/OthmanAdi/planning-with-files",
-        "promptHash": "sha256:8cf143cd5969"
-      },
-      "classification": {
-        "primaryCategoryId": "ai",
-        "secondaryCategoryIds": [],
-        "confidence": 0.8,
-        "method": "rules",
-        "reasons": [
-          "Matched ai",
-          "Matched agent"
-        ],
-        "signals": [
-          "ai",
-          "agent"
-        ]
-      },
-      "rank": {
-        "globalRank": 20,
-        "categoryRank": 20,
-        "score": 66.1
-      }
-    },
-    {
       "id": "steipete-codexbar",
       "owner": "steipete",
       "name": "CodexBar",
@@ -1709,15 +1629,15 @@
       "homepageUrl": null,
       "source": {
         "primary": "github_trending_html",
-        "sourceRank": 21,
-        "starsGained": 201
+        "sourceRank": 20,
+        "starsGained": 153
       },
       "metadata": {
-        "description": "显示 OpenAI Codex 和 Claude Code 的使用统计信息，无需登录。",
+        "description": "显示OpenAI Codex和Claude Code的使用统计信息，无需登录。",
         "language": "Swift",
         "topics": [],
-        "stars": 16113,
-        "forks": 1347,
+        "stars": 16402,
+        "forks": 1357,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -1733,7 +1653,7 @@
       },
       "readmeSignals": {
         "title": "CodexBar 🎚️ — May your tokens never run out.",
-        "summary": "CodexBar 是一款 macOS 菜单栏应用，实时显示各类 AI 编码提供商（如 Codex、Claude、Cursor、Gemini 等）的使用限额和重置时间。支持合并图标模式和动态栏图标，无 Dock 图标，极简 UI。提供 CLI 和 Homebrew 安装方式。",
+        "summary": "CodexBar 🎚️ — 愿您的token永不耗尽。每个AI编码限制，都在您的菜单栏中。小巧的macOS 14+菜单栏应用，使AI编码提供商的限制可见，并显示每个窗口何时重置。Codex、OpenAI、Claude、Cursor、Gemini、Copilot、Grok、GroqCloud、ElevenLabs、Deepgram、z.ai、MiniMax、Kiro、Zed、Vertex AI、Augment、OpenRouter、LiteLLM、LLM代理、Codebuff、Command Code、AWS Bedrock和许多较新的编码提供商。每个提供商一个状态项，或使用提供商切换器的Merge Icons模式。无Dock图标，极简UI，动态栏图标。CLI Tarballs macOS/Linux Homebrew公式 Linux今天：",
         "headings": [
           "CodexBar 🎚️ — May your tokens never run out.",
           "Why",
@@ -1746,12 +1666,12 @@
         ],
         "commands": [],
         "keywords": [
+          "Token监控",
+          "AI编码",
+          "macOS应用",
           "使用统计",
-          "Token 监控",
-          "macOS",
-          "菜单栏应用",
-          "AI 代理",
-          "限额管理"
+          "菜单栏工具",
+          "成本追踪"
         ],
         "score": 100
       },
@@ -1776,9 +1696,9 @@
         ]
       },
       "rank": {
-        "globalRank": 21,
-        "categoryRank": 21,
-        "score": 78
+        "globalRank": 20,
+        "categoryRank": 20,
+        "score": 75.3
       }
     },
     {
@@ -1790,15 +1710,15 @@
       "homepageUrl": null,
       "source": {
         "primary": "github_trending_html",
-        "sourceRank": 22,
-        "starsGained": 182
+        "sourceRank": 21,
+        "starsGained": 156
       },
       "metadata": {
-        "description": "Claude Code 是一个位于终端中的代理式编码工具，理解你的代码库，通过自然语言命令执行常规任务、解释复杂代码和处理 Git 工作流。",
+        "description": "Claude Code是一个代理式编码工具，位于您的终端中，理解您的代码库，并通过自然语言命令执行常规任务、解释复杂代码和处理git工作流程，从而帮助您更快地编码。",
         "language": "Python",
         "topics": [],
-        "stars": 136258,
-        "forks": 21906,
+        "stars": 136413,
+        "forks": 21919,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -1814,7 +1734,7 @@
       },
       "readmeSignals": {
         "title": "Claude Code",
-        "summary": "Claude Code 是 Anthropic 推出的终端代理编码工具，能理解代码库并通过自然语言加速开发。支持在终端、IDE 中使用，或在 GitHub 上标记 @claude。提供插件系统和错误报告机制。注意：npm 安装方式已弃用，建议使用推荐方法。",
+        "summary": "Claude Code是一个代理式编码工具，位于您的终端中，理解您的代码库，并通过自然语言命令执行常规任务、解释复杂代码和处理git工作流程，从而帮助您更快地编码。在您的终端、IDE中使用它，或在Github上标记@claude。了解更多 https://code.claude.com/docs/en/overview。开始使用！注意：通过npm安装已弃用。请使用以下推荐方法之一。更多安装选项、卸载步骤和故障排除，请参阅 https://code.claude.com/docs/en/setup。",
         "headings": [
           "Claude Code",
           "Get started",
@@ -1830,11 +1750,11 @@
         ],
         "keywords": [
           "Claude Code",
-          "终端代理",
-          "编码工具",
-          "自然语言编程",
-          "Git 工作流",
-          "Anthropic"
+          "AI编码",
+          "终端工具",
+          "Anthropic",
+          "代码助手",
+          "自然语言编程"
         ],
         "score": 100
       },
@@ -1861,9 +1781,9 @@
         ]
       },
       "rank": {
-        "globalRank": 22,
-        "categoryRank": 22,
-        "score": 74.2
+        "globalRank": 21,
+        "categoryRank": 21,
+        "score": 73.6
       }
     }
   ],
@@ -1882,14 +1802,13 @@
         "alibaba-page-agent",
         "usestrix-strix",
         "hesreallyhim-awesome-claude-code",
-        "coreyhaines31-marketingskills",
         "coplaydev-unity-mcp",
+        "coreyhaines31-marketingskills",
         "facebook-astryx",
         "dotnet-skills",
         "steipete-codexbar",
         "anthropics-claude-code",
-        "gastownhall-gastown",
-        "othmanadi-planning-with-files"
+        "gastownhall-gastown"
       ],
       "sort": "score"
     },
@@ -1911,11 +1830,11 @@
   ],
   "health": {
     "status": "ok",
-    "candidateCount": 22,
-    "enrichedRepoCount": 22,
+    "candidateCount": 21,
+    "enrichedRepoCount": 21,
     "unclassifiedRepoCount": 6,
     "warnings": [
-      "13 repos used README images, 0 used Agnes images, 9 fell back to repository avatars"
+      "13 repos used README images, 0 used Agnes images, 8 fell back to repository avatars"
     ]
   }
 }
