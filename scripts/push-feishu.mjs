@@ -201,7 +201,7 @@ export function buildCard(digest, pageUrl, images = {}) {
       : []),
     {
       tag: "markdown",
-      content: `**分类项目看板**\n\n👇 点击分类标题展开项目，点击图片查看大图。\n\n[查看完整 Daily Tech Radar](${localizedPageUrl})`,
+      content: `[查看完整 Daily Tech Radar](${localizedPageUrl})\n\n**分类项目看板**\n\n👇 点击分类标题展开项目，点击图片查看大图。`,
     },
   ];
   for (const { category, items } of groups) {

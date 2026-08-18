@@ -64,6 +64,9 @@ test("one card contains collapsible categories, full descriptions, and covers", 
   assert.doesNotMatch(card.card.body.elements[0].content, /开发工具.*1 个项目.*PH 1/);
   assert.match(card.card.body.elements[0].content, /点击分类标题展开项目，点击图片查看大图/);
   assert.match(card.card.body.elements[0].content, /locale=zh-CN/);
+  const intro = card.card.body.elements[0].content;
+  assert.ok(intro.indexOf("查看完整") < intro.indexOf("分类项目看板"));
+  assert.ok(intro.indexOf("分类项目看板") < intro.indexOf("点击分类标题"));
   const panels = card.card.body.elements.filter((element) => element.tag === "collapsible_panel");
   assert.equal(panels.length, 1);
   assert.match(panels[0].header.title.content, /开发工具.*1 个项目.*PH 1/);
