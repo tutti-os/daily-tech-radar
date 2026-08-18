@@ -4,6 +4,7 @@ import {
   buildCard,
   buildDailyHighlights,
   deriveCategories,
+  generateDailyHighlights,
   groupByCategory,
   loadDigest,
   SCREENSHOT_FULL_PAGE,
@@ -69,9 +70,25 @@ test("daily highlights summarize directions and each source leader", () => {
       categories: ["AI代理", "开发工具"],
     },
   ]);
-  assert.match(highlights, /热门方向：AI代理 1、开发工具 1/);
-  assert.match(highlights, /Product Hunt 热门.*Meridian.*323 票/);
-  assert.match(highlights, /GitHub 增长最快.*MoneyPrinterTurbo.*\+1275 stars/);
+  assert.match(highlights, /今日主题集中在 AI代理 1、开发工具 1/);
+  assert.match(highlights, /Product Hunt.*Meridian.*complete description/);
+  assert.match(highlights, /GitHub.*MoneyPrinterTurbo.*complete description/);
+});
+
+test("LLM highlights turn all items into three concrete Chinese insights", async () => {
+  const highlights = await generateDailyHighlights([productItem], {
+    apiKey: "test-key",
+    fetchImpl: async () => new Response(JSON.stringify({
+      choices: [{ message: { content: JSON.stringify({ bullets: [
+        "今天的产品集中在本地优先 AI 与可执行智能体，重点从聊天转向可审计、可接管的实际工作流。",
+        "Meridian 自动记录并总结本地工作，Omni 则把智能体跨设备部署，体现个人 AI 基础设施正在成熟。",
+        "MoneyPrinterTurbo 将脚本、素材和字幕串成视频流水线，Strix 则把自主安全验证带进软件交付过程。",
+      ] }) } }],
+    })),
+  });
+  assert.match(highlights, /今日重点（AI 总结）/);
+  assert.match(highlights, /本地优先 AI/);
+  assert.equal(highlights.split("\n").length, 4);
 });
 
 test("one card contains collapsible categories, full descriptions, and covers", () => {

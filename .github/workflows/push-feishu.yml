@@ -27,6 +27,7 @@ jobs:
   notify:
     runs-on: ubuntu-latest
     env:
+      AGNES_API_KEY: ${{ secrets.AGNES_API_KEY }}
       FEISHU_APP_ID: ${{ secrets.FEISHU_APP_ID }}
       FEISHU_APP_SECRET: ${{ secrets.FEISHU_APP_SECRET }}
     steps:
