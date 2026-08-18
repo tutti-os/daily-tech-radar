@@ -241,6 +241,15 @@ export async function capturePage(pageUrl, outputPath) {
     const page = await browser.newPage({ viewport: { width: 1600, height: 1100 } });
     await page.goto(screenshotPageUrl(pageUrl), { waitUntil: "networkidle", timeout: 60_000 });
     await page.locator(".radar-card").first().waitFor({ timeout: 30_000 });
+    await page.addStyleTag({
+      content: `
+        body {
+          background-attachment: scroll !important;
+          background-repeat: no-repeat !important;
+          background-size: 100% 100% !important;
+        }
+      `,
+    });
     await page.evaluate(async () => {
       for (let offset = 0; offset < document.documentElement.scrollHeight; offset += window.innerHeight) {
         window.scrollTo(0, offset);
