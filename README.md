@@ -64,11 +64,12 @@ GitHub avatar fallback for missing visuals so local and CI runs stay stable.
 The `Push Daily Radar to Feishu` workflow runs at 05:30 Asia/Shanghai, after
 daily data generation. Set `FEISHU_WEBHOOK_URL` as an Actions secret and set
 the deployed `tutti-apps/apps/daily-tech-radar` URL as the `RADAR_PAGE_URL`
-repository variable. The card uses wide-screen mode and includes the top three
-Product Hunt and GitHub items plus a link to the full page.
+repository variable. The workflow sends one wide-screen Card JSON 2.0 message
+with a category overview and collapsible category panels. Every Product Hunt
+and GitHub item appears once with its complete description, cover, and link.
 
 Optional `FEISHU_APP_ID` and `FEISHU_APP_SECRET` secrets enable a fresh browser
-screenshot and the corresponding cover after each Top 3 item. Feishu custom-bot
+screenshot and the corresponding cover after every item. Feishu custom-bot
 webhooks cannot upload images by themselves: the app credentials upload each
 image and obtain the required `image_key`.
 Use a test webhook first; switching groups only requires replacing the

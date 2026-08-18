@@ -1,31 +1,49 @@
 import assert from "node:assert/strict";
 import test from "node:test";
-import { buildCard, truncate } from "./push-feishu.mjs";
+import { buildCard, deriveCategories, groupByCategory } from "./push-feishu.mjs";
 
-test("truncate preserves short text and ellipsizes long text", () => {
-  assert.equal(truncate("short", 8), "short");
-  assert.equal(truncate("abcdef", 5), "abcd…");
+const productItem = {
+  id: "producthunt:1",
+  source: "producthunt",
+  name: "Meridian",
+  description: "A complete description that must never be truncated.",
+  metric: "323 票",
+  url: "https://example.com/meridian",
+  category: "开发工具",
+  categories: ["开发工具"],
+  rank: 1,
+};
+
+test("classification mirrors the Radar app finite taxonomy", () => {
+  assert.deepEqual(deriveCategories(["AI agent development API"]), ["AI代理", "开发工具", "AI"]);
+  assert.deepEqual(deriveCategories(["gardening calendar"]), ["其他"]);
 });
 
-test("card only includes an image when Feishu returned an image key", () => {
-  const digest = { date: "2026-08-18", productHunt: [], github: [] };
-  const withoutImage = buildCard(digest, "https://example.com");
-  const withImage = buildCard(digest, "https://example.com", {
-    screenshot: "img_v2_test",
-  });
-  assert.equal(withoutImage.card.elements.some((element) => element.tag === "img"), false);
-  assert.equal(withImage.card.elements[0].img_key, "img_v2_test");
-  assert.equal(withImage.card.config.wide_screen_mode, true);
+test("primary category grouping keeps every item once in the single card", () => {
+  const githubItem = {
+    ...productItem,
+    id: "github:1",
+    source: "github",
+    category: "AI代理",
+    categories: ["AI代理", "开发工具", "AI"],
+  };
+  const groups = groupByCategory([productItem, githubItem]);
+  assert.deepEqual(groups.map((group) => group.category), ["AI代理", "开发工具"]);
+  assert.equal(groups.flatMap((group) => group.items).length, 2);
 });
 
-test("card places each available product image after its summary", () => {
-  const item = { name: "Meridian", description: "AI work journal", metric: "323 票", url: "https://example.com" };
+test("one card contains collapsible categories, full descriptions, and covers", () => {
   const card = buildCard(
-    { date: "2026-08-18", productHunt: [item], github: [] },
-    "https://example.com",
-    { productHunt: ["img_product"] },
+    { date: "2026-08-18", items: [productItem] },
+    "https://example.com/radar",
+    { items: { "producthunt:1": "img_cover" } },
   );
-  const productImageIndex = card.card.elements.findIndex((element) => element.img_key === "img_product");
-  assert.equal(card.card.elements[productImageIndex - 1].tag, "markdown");
-  assert.equal(card.card.elements[productImageIndex].alt.content, "Meridian 产品图片");
+  assert.equal(card.card.schema, "2.0");
+  assert.match(card.card.body.elements[0].content, /开发工具.*1 个项目.*PH 1/);
+  const panels = card.card.body.elements.filter((element) => element.tag === "collapsible_panel");
+  assert.equal(panels.length, 1);
+  assert.equal(panels[0].expanded, false);
+  assert.match(panels[0].elements[0].content, /A complete description that must never be truncated\./);
+  assert.equal(panels[0].elements[1].img_key, "img_cover");
+  assert.equal(panels[0].elements[1].alt.content, "Meridian 对应封面图");
 });

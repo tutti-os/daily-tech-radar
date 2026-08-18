@@ -2,9 +2,42 @@ import { readFile } from "node:fs/promises";
 import { resolve } from "node:path";
 import { pathToFileURL } from "node:url";
 
-export function truncate(value, length) {
-  const compact = value.replace(/\s+/g, " ").trim();
-  return compact.length <= length ? compact : `${compact.slice(0, length - 1)}…`;
+const CATEGORY_RULES = [
+  ["AI代理", ["ai代理", "agent", "代理", "智能体", "autonomous"]],
+  ["图像生成", ["图像", "视觉", "image", "photo", "video", "design", "生成"]],
+  ["财务AI", ["财务", "金融", "投资", "cash", "finance", "revenue", "invest"]],
+  ["开发工具", ["开发", "工具", "编程", "代码", "github", "api", "cli", "sdk", "python", "typescript", "javascript", "jupyter", "前端", "后端"]],
+  ["生产力", ["生产力", "项目管理", "写作", "笔记", "workflow", "效率"]],
+  ["商业智能", ["商业智能", "analytics", "分析", "报表", "metrics", "dashboard"]],
+  ["电商自动化", ["电商", "商店", "ecommerce", "shopify", "commerce", "store"]],
+  ["安全隐私", ["安全", "隐私", "privacy", "security", "prompt injection"]],
+  ["健康应用", ["健康", "health", "fitness", "apple health", "treadmill"]],
+  ["内容创作", ["内容", "文本", "语音", "tts", "slide", "幻灯片", "创作"]],
+  ["开源模型", ["开源模型", "开放权重", "open weight", "model", "模型", "moe"]],
+  ["AI", ["ai", "llm", "模型", "智能", "claude", "gpt", "agent"]],
+];
+const CATEGORY_ORDER = [...CATEGORY_RULES.map(([label]) => label), "其他"];
+
+export function deriveCategories(values) {
+  const text = values.filter(Boolean).join(" ").toLowerCase();
+  const categories = CATEGORY_RULES.filter(([, patterns]) =>
+    patterns.some((pattern) => text.includes(pattern)),
+  ).map(([label]) => label);
+  return [...new Set(categories.length ? categories : ["其他"])];
+}
+
+function githubCover(repo) {
+  const visualUrl = repo.visual?.thumbUrl || repo.visual?.url;
+  if (visualUrl) {
+    const visualText = [visualUrl, repo.visual?.sourceUrl, repo.visual?.alt, repo.visual?.kind]
+      .filter(Boolean)
+      .join(" ")
+      .toLowerCase();
+    if (!/(^|[-_/])(banner|readme-banner|logo)([-_.:/]|$)/.test(visualText)) return visualUrl;
+  }
+  return repo.avatarUrl
+    ? `https://opengraph.githubassets.com/daily-tech-radar/${repo.owner}/${repo.name}`
+    : undefined;
 }
 
 export async function loadDigest(dataRoot) {
@@ -12,100 +45,164 @@ export async function loadDigest(dataRoot) {
     readFile(resolve(dataRoot, "producthunt/zh-CN/latest.json"), "utf8").then(JSON.parse),
     readFile(resolve(dataRoot, "github/zh-CN/latest.json"), "utf8").then(JSON.parse),
   ]);
-  return {
-    date: productHunt.date || github.taxonomy?.version || github.generatedAt.slice(0, 10),
-    productHunt: productHunt.items.slice(0, 3).map((item) => ({
+  const taxonomy = new Map(github.taxonomy.categories.map((category) => [category.id, category.label]));
+  const productItems = productHunt.items.map((item) => {
+    const categories = deriveCategories([item.name, item.tagline, item.description, ...(item.keywords || [])]);
+    return {
+      id: `producthunt:${item.id}`,
+      source: "producthunt",
       name: item.name,
       description: item.description || item.tagline,
-      metric: `${item.metrics?.votes ?? 0} 票`,
+      metric: `${item.metrics?.votes ?? 0} 票 · ${item.metrics?.comments ?? 0} 评论`,
       url: item.links?.homepage || item.links.source,
       imageUrl:
-        item.assets?.media?.find((media) => media.type === "image")?.url ||
+        item.assets?.media?.find((media) => media.type === "image" && media.url)?.url ||
         item.assets?.thumbnail ||
         item.assets?.icon,
-    })),
-    github: github.repos.slice(0, 3).map((repo) => ({
+      categories,
+      category: categories[0],
+      rank: item.rank,
+    };
+  });
+  const githubItems = github.repos.map((repo) => {
+    const primary = taxonomy.get(repo.classification.primaryCategoryId) || repo.classification.primaryCategoryId;
+    const secondary = repo.classification.secondaryCategoryIds.map((id) => taxonomy.get(id) || id);
+    const categories = deriveCategories([
+      primary,
+      ...secondary,
+      repo.name,
+      repo.owner,
+      repo.metadata?.description,
+      repo.readmeSignals?.summary,
+      repo.metadata?.language,
+      ...(repo.readmeSignals?.keywords || []),
+      ...(repo.metadata?.topics || []),
+      ...(repo.classification?.signals || []),
+    ]);
+    return {
+      id: `github:${repo.id}`,
+      source: "github",
       name: `${repo.owner}/${repo.name}`,
       description: repo.readmeSignals?.summary || repo.metadata?.description || "暂无简介",
-      metric: `+${repo.source?.starsGained ?? 0} stars`,
+      metric: `+${repo.source?.starsGained ?? 0} stars · ${repo.metadata?.stars ?? 0} 总星标`,
       url: repo.url,
-      imageUrl: repo.visual?.url || repo.visual?.thumbUrl || repo.avatarUrl,
-    })),
+      imageUrl: githubCover(repo),
+      categories,
+      category: categories[0],
+      rank: repo.rank.globalRank,
+    };
+  });
+  return {
+    date: productHunt.date || github.taxonomy?.version || github.generatedAt.slice(0, 10),
+    items: [...productItems, ...githubItems],
   };
 }
 
-function itemElements(items, imageKeys = []) {
-  return items.flatMap((item, index) => {
-    const elements = [
-      {
-        tag: "markdown",
-        content: `**${index + 1}. [${item.name}](${item.url})** · ${item.metric}\n${truncate(item.description, 88)}`,
+export function groupByCategory(items) {
+  const groups = new Map();
+  for (const item of items) {
+    const itemsForCategory = groups.get(item.category) || [];
+    itemsForCategory.push(item);
+    groups.set(item.category, itemsForCategory);
+  }
+  return CATEGORY_ORDER.filter((category) => groups.has(category))
+    .map((category) => ({
+      category,
+      items: groups.get(category).sort(
+        (left, right) =>
+          (left.source === right.source ? 0 : left.source === "producthunt" ? -1 : 1) ||
+          left.rank - right.rank,
+      ),
+    }))
+    .sort(
+      (left, right) =>
+        right.items.length - left.items.length ||
+        CATEGORY_ORDER.indexOf(left.category) - CATEGORY_ORDER.indexOf(right.category),
+    );
+}
+
+function itemElements(items, imageKeys = {}) {
+  return items.flatMap((item, index) => [
+    {
+      tag: "markdown",
+      content: `**${index + 1}. [${item.name}](${item.url})** · ${item.metric}\n${item.description}`,
+    },
+    ...(imageKeys[item.id]
+      ? [{
+          tag: "img",
+          img_key: imageKeys[item.id],
+          alt: { tag: "plain_text", content: `${item.name} 对应封面图` },
+          mode: "fit_horizontal",
+          preview: true,
+        }]
+      : []),
+    ...(index === items.length - 1 ? [] : [{ tag: "hr" }]),
+  ]);
+}
+
+function collapsiblePanel(title, elements) {
+  return {
+    tag: "collapsible_panel",
+    expanded: false,
+    header: {
+      title: { tag: "plain_text", content: title },
+      icon: {
+        tag: "standard_icon",
+        token: "down-small-ccm_outlined",
+        size: "16px 16px",
       },
-    ];
-    if (imageKeys[index]) {
-      elements.push({
-        tag: "img",
-        img_key: imageKeys[index],
-        alt: { tag: "plain_text", content: `${item.name} 产品图片` },
-        mode: "fit_horizontal",
-        preview: true,
-      });
-    }
-    return elements;
-  });
+      icon_position: "right",
+      icon_expanded_angle: -180,
+    },
+    border: { color: "grey", corner_radius: "5px" },
+    elements,
+  };
 }
 
 export function buildCard(digest, pageUrl, images = {}) {
-  const elements = [];
-  if (images.screenshot) {
-    elements.push({
-      tag: "img",
-      img_key: images.screenshot,
-      alt: { tag: "plain_text", content: `${digest.date} Daily Tech Radar 页面截图` },
-      mode: "fit_horizontal",
-    });
+  const groups = groupByCategory(digest.items);
+  const overview = groups.map(({ category, items }) => {
+    const githubCount = items.filter((item) => item.source === "github").length;
+    return `**${category}**（${items.length} 个项目｜GitHub ${githubCount}｜PH ${items.length - githubCount}）`;
+  });
+  const elements = [
+    ...(images.screenshot
+      ? [{
+          tag: "img",
+          img_key: images.screenshot,
+          alt: { tag: "plain_text", content: `${digest.date} Daily Tech Radar 页面截图` },
+          mode: "fit_horizontal",
+          preview: true,
+        }]
+      : []),
+    {
+      tag: "markdown",
+      content: `**分类项目看板**\n\n${overview.join("\n\n")}\n\n[查看完整 Daily Tech Radar](${pageUrl})`,
+    },
+  ];
+  for (const { category, items } of groups) {
+    const githubCount = items.filter((item) => item.source === "github").length;
+    elements.push(
+      collapsiblePanel(
+        `${category}（${items.length} 个项目｜GitHub ${githubCount}｜PH ${items.length - githubCount}）`,
+        itemElements(items, images.items),
+      ),
+    );
   }
-  elements.push(
-    { tag: "markdown", content: "**Product Hunt Top 3**" },
-    ...itemElements(digest.productHunt, images.productHunt),
-    { tag: "hr" },
-    { tag: "markdown", content: "**GitHub Trending Top 3**" },
-    ...itemElements(digest.github, images.github),
-    {
-      tag: "note",
-      elements: [
-        {
-          tag: "plain_text",
-          content: images.screenshot
-            ? "页面截图、产品图片、摘要和完整链接均已更新"
-            : images.productHunt?.some(Boolean) || images.github?.some(Boolean)
-              ? "产品图片、摘要和完整链接均已更新"
-            : "摘要和网页已更新；配置飞书应用凭证后将自动附带页面截图",
-        },
-      ],
-    },
-    {
-      tag: "action",
-      actions: [
-        {
-          tag: "button",
-          text: { tag: "plain_text", content: "查看完整 Daily Tech Radar" },
-          url: pageUrl,
-          type: "primary",
-        },
-      ],
-    },
-  );
   return {
     msg_type: "interactive",
     card: {
-      config: { wide_screen_mode: true, enable_forward: true },
+      schema: "2.0",
+      config: { wide_screen_mode: true, update_multi: true },
       header: {
         template: "green",
         title: { tag: "plain_text", content: `Daily Tech Radar · ${digest.date}` },
-        subtitle: { tag: "plain_text", content: "每日产品与开源技术趋势" },
+        subtitle: {
+          tag: "plain_text",
+          content: `Product Hunt · GitHub · 共 ${digest.items.length} 个项目`,
+        },
       },
-      elements,
+      body: { elements },
     },
   };
 }
@@ -143,16 +240,16 @@ async function uploadImage(bytes, contentType, filename, tenantToken) {
   const form = new FormData();
   form.set("image_type", "message");
   form.set("image", new Blob([bytes], { type: contentType }), filename);
-  const imageResponse = await fetch("https://open.feishu.cn/open-apis/im/v1/images", {
+  const response = await fetch("https://open.feishu.cn/open-apis/im/v1/images", {
     method: "POST",
     headers: { authorization: `Bearer ${tenantToken}` },
     body: form,
   });
-  const imagePayload = await imageResponse.json();
-  if (!imageResponse.ok || imagePayload.code !== 0 || !imagePayload.data?.image_key) {
-    throw new Error(`Feishu image upload failed: ${imagePayload.msg || imageResponse.status}`);
+  const payload = await response.json();
+  if (!response.ok || payload.code !== 0 || !payload.data?.image_key) {
+    throw new Error(`Feishu image upload failed: ${payload.msg || response.status}`);
   }
-  return imagePayload.data.image_key;
+  return payload.data.image_key;
 }
 
 async function uploadRemoteImage(imageUrl, tenantToken) {
@@ -162,9 +259,9 @@ async function uploadRemoteImage(imageUrl, tenantToken) {
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     const contentType = response.headers.get("content-type")?.split(";")[0] || "image/jpeg";
     const extension = contentType.includes("png") ? "png" : contentType.includes("webp") ? "webp" : "jpg";
-    return await uploadImage(await response.arrayBuffer(), contentType, `product.${extension}`, tenantToken);
+    return await uploadImage(await response.arrayBuffer(), contentType, `cover.${extension}`, tenantToken);
   } catch (error) {
-    console.warn(`Skipping product image ${imageUrl}: ${error instanceof Error ? error.message : error}`);
+    console.warn(`Skipping cover ${imageUrl}: ${error instanceof Error ? error.message : error}`);
     return undefined;
   }
 }
@@ -189,12 +286,9 @@ export async function main() {
   if (!webhookUrl && !dryRun) throw new Error("FEISHU_WEBHOOK_URL is required");
 
   const digest = await loadDigest(resolve(process.cwd(), "data"));
-  const images = { productHunt: [], github: [] };
+  const images = { items: {} };
   if (process.env.FEISHU_APP_ID && process.env.FEISHU_APP_SECRET) {
-    const tenantToken = await tenantAccessToken(
-      process.env.FEISHU_APP_ID,
-      process.env.FEISHU_APP_SECRET,
-    );
+    const tenantToken = await tenantAccessToken(process.env.FEISHU_APP_ID, process.env.FEISHU_APP_SECRET);
     const screenshotPath = resolve(process.env.RUNNER_TEMP || ".", "daily-tech-radar.png");
     try {
       await capturePage(pageUrl, screenshotPath);
@@ -207,21 +301,19 @@ export async function main() {
     } catch (error) {
       console.warn(`Skipping page screenshot: ${error instanceof Error ? error.message : error}`);
     }
-    [images.productHunt, images.github] = await Promise.all(
-      [digest.productHunt, digest.github].map((items) =>
-        Promise.all(items.map((item) => uploadRemoteImage(item.imageUrl, tenantToken))),
-      ),
-    );
+    for (const item of digest.items) {
+      images.items[item.id] = await uploadRemoteImage(item.imageUrl, tenantToken);
+    }
   } else {
-    console.warn("FEISHU_APP_ID/FEISHU_APP_SECRET are not set; sending without an inline screenshot.");
+    console.warn("FEISHU_APP_ID/FEISHU_APP_SECRET are not set; sending text and links without images.");
   }
 
   const card = buildCard(digest, pageUrl, images);
   if (dryRun) console.log(JSON.stringify(card, null, 2));
   else {
     await sendCard(webhookUrl, card);
-    console.log(`Feishu notification sent for ${digest.date}.`);
+    console.log(`Sent one Feishu card with ${digest.items.length} items for ${digest.date}.`);
   }
 }
 
-if (import.meta.url === pathToFileURL(process.argv[1]).href) await main();
+if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) await main();
