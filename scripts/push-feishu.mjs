@@ -189,6 +189,7 @@ function collapsiblePanel(title, elements, expanded = false) {
 export function buildCard(digest, pageUrl, images = {}) {
   const localizedPageUrl = screenshotPageUrl(pageUrl);
   const groups = groupByCategory(digest.items);
+  const highlights = buildDailyHighlights(digest.items, groups);
   const elements = [
     ...(images.screenshot
       ? [{
@@ -201,7 +202,7 @@ export function buildCard(digest, pageUrl, images = {}) {
       : []),
     {
       tag: "markdown",
-      content: `[查看完整 Daily Tech Radar](${localizedPageUrl})\n\n**分类项目看板**\n\n👇 点击分类标题展开项目，点击图片查看大图。`,
+      content: `[查看完整 Daily Tech Radar](${localizedPageUrl})\n\n**分类项目看板**\n\n${highlights}\n\n👇 点击分类标题展开项目，点击图片查看大图。`,
     },
   ];
   for (const { category, items } of groups) {
@@ -230,6 +231,29 @@ export function buildCard(digest, pageUrl, images = {}) {
       body: { elements },
     },
   };
+}
+
+export function buildDailyHighlights(items, groups = groupByCategory(items)) {
+  const topProductHunt = items
+    .filter((item) => item.source === "producthunt")
+    .sort((left, right) => left.rank - right.rank)[0];
+  const topGitHub = items
+    .filter((item) => item.source === "github")
+    .sort((left, right) => left.rank - right.rank)[0];
+  const topCategories = groups
+    .slice(0, 3)
+    .map(({ category, items: categoryItems }) => `${category} ${categoryItems.length}`)
+    .join("、");
+  return [
+    "**今日重点**",
+    ...(topCategories ? [`- 热门方向：${topCategories}`] : []),
+    ...(topProductHunt
+      ? [`- Product Hunt 热门：[${topProductHunt.name}](${topProductHunt.url})（${topProductHunt.metric}）`]
+      : []),
+    ...(topGitHub
+      ? [`- GitHub 增长最快：[${topGitHub.name}](${topGitHub.url})（${topGitHub.metric}）`]
+      : []),
+  ].join("\n");
 }
 
 export async function capturePage(pageUrl, outputPath) {

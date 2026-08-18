@@ -2,6 +2,7 @@ import assert from "node:assert/strict";
 import test from "node:test";
 import {
   buildCard,
+  buildDailyHighlights,
   deriveCategories,
   groupByCategory,
   loadDigest,
@@ -54,6 +55,25 @@ test("primary category grouping keeps every item once in the single card", () =>
   assert.equal(groups.flatMap((group) => group.items).length, 2);
 });
 
+test("daily highlights summarize directions and each source leader", () => {
+  const highlights = buildDailyHighlights([
+    productItem,
+    {
+      ...productItem,
+      id: "github:1",
+      source: "github",
+      name: "MoneyPrinterTurbo",
+      metric: "+1275 stars",
+      url: "https://github.com/harry0703/MoneyPrinterTurbo",
+      category: "AI代理",
+      categories: ["AI代理", "开发工具"],
+    },
+  ]);
+  assert.match(highlights, /热门方向：AI代理 1、开发工具 1/);
+  assert.match(highlights, /Product Hunt 热门.*Meridian.*323 票/);
+  assert.match(highlights, /GitHub 增长最快.*MoneyPrinterTurbo.*\+1275 stars/);
+});
+
 test("one card contains collapsible categories, full descriptions, and covers", () => {
   const card = buildCard(
     { date: "2026-08-18", items: [productItem] },
@@ -63,6 +83,7 @@ test("one card contains collapsible categories, full descriptions, and covers", 
   assert.equal(card.card.schema, "2.0");
   assert.doesNotMatch(card.card.body.elements[0].content, /开发工具.*1 个项目.*PH 1/);
   assert.match(card.card.body.elements[0].content, /点击分类标题展开项目，点击图片查看大图/);
+  assert.match(card.card.body.elements[0].content, /今日重点/);
   assert.match(card.card.body.elements[0].content, /locale=zh-CN/);
   const intro = card.card.body.elements[0].content;
   assert.ok(intro.indexOf("查看完整") < intro.indexOf("分类项目看板"));
