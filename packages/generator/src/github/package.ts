@@ -102,7 +102,7 @@ export async function buildGitHubPackage(options: {
 
   const readmeImageCount = repos.filter((repo) => repo.visual.kind === "readme_image").length;
   const agnesImageCount = repos.filter((repo) => repo.visual.kind === "agnes_generated").length;
-  const avatarFallbackCount = repos.filter((repo) => repo.visual.kind === "repository_avatar").length;
+  const openGraphFallbackCount = repos.filter((repo) => repo.visual.kind === "repository_open_graph").length;
 
   return {
     schemaVersion: "trendreader.daily.v1",
@@ -136,9 +136,9 @@ export async function buildGitHubPackage(options: {
       enrichedRepoCount: repos.filter((repo) => repo.readmeRef.status === "available").length,
       unclassifiedRepoCount: repos.filter((repo) => repo.classification.primaryCategoryId === "unclassified").length,
       warnings:
-        avatarFallbackCount > 0
+        openGraphFallbackCount > 0
           ? [
-              `${readmeImageCount} repos used README images, ${agnesImageCount} used Agnes images, ${avatarFallbackCount} fell back to repository avatars`
+              `${readmeImageCount} repos used README images, ${agnesImageCount} used Agnes images, ${openGraphFallbackCount} fell back to repository Open Graph covers`
             ]
           : []
     }
@@ -362,18 +362,22 @@ async function selectVisual(
         promptHash: hashPrompt(prompt)
       };
     } catch {
-      // Fall through to avatar if generation fails.
+      // Fall through to the repository Open Graph cover if generation fails.
     }
   }
 
   return {
-    kind: "repository_avatar",
-    url: `https://github.com/${candidate.owner}.png`,
-    thumbUrl: `https://github.com/${candidate.owner}.png`,
+    kind: "repository_open_graph",
+    url: repositoryOpenGraphUrl(candidate),
+    thumbUrl: repositoryOpenGraphUrl(candidate),
     alt: `${candidate.owner}/${candidate.name}`,
     sourceUrl: candidate.url,
     promptHash: hashPrompt(`${candidate.owner}/${candidate.name}:${candidate.description}`)
   };
+}
+
+function repositoryOpenGraphUrl(candidate: CandidateRepo): string {
+  return `https://opengraph.githubassets.com/daily-tech-radar/${candidate.owner}/${candidate.name}`;
 }
 
 function buildAgnesCoverPrompt(
@@ -651,6 +655,7 @@ function firstReadmeImage(markdown: string, readmeRawUrl: string): { url: string
 function isSkippedImage(src: string, alt?: string | null): boolean {
   const value = `${src} ${alt ?? ""}`.toLowerCase();
   return (
+    isGitHubProfileAvatar(src, alt) ||
     value.includes("shield") ||
     value.includes("badge") ||
     value.includes("opencollective") ||
@@ -669,6 +674,20 @@ function isSkippedImage(src: string, alt?: string | null): boolean {
     value.includes("star history") ||
     value.endsWith(".svg?sanitize=true")
   );
+}
+
+function isGitHubProfileAvatar(src: string, alt?: string | null): boolean {
+  if (/^@[\w-]+$/.test((alt ?? "").trim())) return true;
+  try {
+    const url = new URL(src);
+    return (
+      (["github.com", "www.github.com"].includes(url.hostname.toLowerCase()) &&
+        /^\/[^/]+\.png$/i.test(url.pathname)) ||
+      url.hostname.toLowerCase() === "avatars.githubusercontent.com"
+    );
+  } catch {
+    return false;
+  }
 }
 
 function resolveReadmeImageUrl(src: string, readmeRawUrl: string): string {

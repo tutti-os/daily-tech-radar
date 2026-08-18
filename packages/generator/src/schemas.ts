@@ -103,7 +103,7 @@ const githubRepoSchema = z.object({
     score: z.number()
   }),
   visual: z.object({
-    kind: z.enum(["readme_image", "agnes_generated", "repository_avatar", "none"]),
+    kind: z.enum(["readme_image", "agnes_generated", "repository_open_graph", "repository_avatar", "none"]),
     url: z.string().nullable().optional(),
     thumbUrl: z.string().nullable().optional(),
     alt: z.string().nullable().optional(),

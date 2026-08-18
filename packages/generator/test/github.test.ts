@@ -116,6 +116,37 @@ describe("GitHub package generation", () => {
     expect(pkg.repos[0].readmeRef.status).toBe("available");
   });
 
+  it("skips GitHub profile avatars when selecting a README product cover", async () => {
+    const html = readFileSync(join(here, "fixtures/github-trending.html"), "utf8");
+    const candidates = parseGitHubTrendingHtml(html).slice(0, 1);
+    const pkg = await buildGitHubPackage({
+      candidates,
+      locale: "en-US",
+      date: "2026-06-05",
+      generatedAt: "2026-06-06T08:20:00.000Z",
+      visual: {
+        fetchImpl: async () =>
+          new Response(
+            [
+              "# Headroom",
+              "",
+              "<img src=\"https://github.com/chopratejas.png?size=100\" alt=\"@chopratejas\">",
+              "",
+              "![Product workflow](./assets/demo.png)",
+              "",
+              "Headroom compresses tool outputs before they reach an AI agent.",
+            ].join("\n"),
+            { status: 200 },
+          ),
+      },
+    });
+
+    expect(pkg.repos[0].visual).toMatchObject({
+      kind: "readme_image",
+      url: "https://raw.githubusercontent.com/chopratejas/headroom/main/assets/demo.png",
+    });
+  });
+
   it("normalizes GitHub file page README images to raw image URLs", async () => {
     const html = [
       '<article class="Box-row">',
@@ -211,7 +242,10 @@ describe("GitHub package generation", () => {
       }
     });
 
-    expect(pkg.repos[0].visual.kind).toBe("repository_avatar");
+    expect(pkg.repos[0].visual).toMatchObject({
+      kind: "repository_open_graph",
+      url: "https://opengraph.githubassets.com/daily-tech-radar/chopratejas/headroom"
+    });
   });
 
   it("skips repository move notices when extracting README summaries", () => {

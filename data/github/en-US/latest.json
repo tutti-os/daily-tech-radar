@@ -361,9 +361,9 @@
         "score": 100
       },
       "visual": {
-        "kind": "repository_avatar",
-        "url": "https://github.com/akitaonrails.png",
-        "thumbUrl": "https://github.com/akitaonrails.png",
+        "kind": "repository_open_graph",
+        "url": "https://opengraph.githubassets.com/daily-tech-radar/akitaonrails/ai-memory",
+        "thumbUrl": "https://opengraph.githubassets.com/daily-tech-radar/akitaonrails/ai-memory",
         "alt": "akitaonrails/ai-memory",
         "sourceUrl": "https://github.com/akitaonrails/ai-memory",
         "promptHash": "sha256:b5ea5f15a3ae"
@@ -444,11 +444,11 @@
         "score": 100
       },
       "visual": {
-        "kind": "readme_image",
-        "url": "https://github.com/mukul975.png?size=100",
-        "thumbUrl": "https://github.com/mukul975.png?size=100",
-        "alt": "@mukul975",
-        "sourceUrl": "https://github.com/mukul975.png?size=100",
+        "kind": "repository_open_graph",
+        "url": "https://opengraph.githubassets.com/daily-tech-radar/mukul975/Anthropic-Cybersecurity-Skills",
+        "thumbUrl": "https://opengraph.githubassets.com/daily-tech-radar/mukul975/Anthropic-Cybersecurity-Skills",
+        "alt": "mukul975/Anthropic-Cybersecurity-Skills",
+        "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
         "promptHash": null
       },
       "classification": {
@@ -841,9 +841,9 @@
         "score": 60
       },
       "visual": {
-        "kind": "repository_avatar",
-        "url": "https://github.com/cordiverse.png",
-        "thumbUrl": "https://github.com/cordiverse.png",
+        "kind": "repository_open_graph",
+        "url": "https://opengraph.githubassets.com/daily-tech-radar/cordiverse/cordis",
+        "thumbUrl": "https://opengraph.githubassets.com/daily-tech-radar/cordiverse/cordis",
         "alt": "cordiverse/cordis",
         "sourceUrl": "https://github.com/cordiverse/cordis",
         "promptHash": "sha256:2621ce1d4843"
@@ -982,7 +982,7 @@
     "enrichedRepoCount": 11,
     "unclassifiedRepoCount": 4,
     "warnings": [
-      "9 repos used README images, 0 used Agnes images, 2 fell back to repository avatars"
+      "8 repos used README images, 0 used Agnes images, 3 fell back to repository Open Graph covers"
     ]
   }
 }

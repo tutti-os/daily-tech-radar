@@ -1,0 +1,61 @@
+name: Push Daily Radar to Feishu
+
+on:
+  workflow_dispatch:
+    inputs:
+      page_url:
+        description: Optional deployed Radar page URL override.
+        required: false
+        type: string
+      dry_run:
+        description: Build and print the card without sending it.
+        required: false
+        default: false
+        type: boolean
+  schedule:
+    # Daily data generation starts at 04:15 Asia/Shanghai.
+    - cron: "30 21 * * *"
+
+concurrency:
+  group: push-daily-radar-feishu
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    env:
+      AGNES_API_KEY: ${{ secrets.AGNES_API_KEY }}
+      FEISHU_APP_ID: ${{ secrets.FEISHU_APP_ID }}
+      FEISHU_APP_SECRET: ${{ secrets.FEISHU_APP_SECRET }}
+    steps:
+      - name: Checkout latest data
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event_name == 'workflow_dispatch' && github.ref || 'main' }}
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 10.33.0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Install screenshot browser
+        if: ${{ env.FEISHU_APP_ID != '' && env.FEISHU_APP_SECRET != '' }}
+        run: pnpm exec playwright install --with-deps chromium
+
+      - name: Send Radar card
+        env:
+          FEISHU_WEBHOOK_URL: ${{ secrets.FEISHU_WEBHOOK_URL }}
+          RADAR_PAGE_URL: ${{ inputs.page_url || vars.RADAR_PAGE_URL || 'https://github.com/tutti-os/tutti-apps/tree/main/apps/daily-tech-radar' }}
+        run: pnpm notify:feishu ${{ inputs.dry_run && '-- --dry-run' || '' }}
