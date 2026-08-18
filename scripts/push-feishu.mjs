@@ -189,10 +189,6 @@ function collapsiblePanel(title, elements, expanded = false) {
 export function buildCard(digest, pageUrl, images = {}) {
   const localizedPageUrl = screenshotPageUrl(pageUrl);
   const groups = groupByCategory(digest.items);
-  const overview = groups.map(({ category, items }) => {
-    const githubCount = items.filter((item) => item.source === "github").length;
-    return `**${category}**（${items.length} 个项目｜GitHub ${githubCount}｜PH ${items.length - githubCount}）`;
-  });
   const elements = [
     ...(images.screenshot
       ? [{
@@ -205,7 +201,7 @@ export function buildCard(digest, pageUrl, images = {}) {
       : []),
     {
       tag: "markdown",
-      content: `**分类项目看板**\n\n👇 点击分类标题展开项目，点击图片查看大图。\n\n${overview.join("\n\n")}\n\n[查看完整 Daily Tech Radar](${localizedPageUrl})`,
+      content: `**分类项目看板**\n\n👇 点击分类标题展开项目，点击图片查看大图。\n\n[查看完整 Daily Tech Radar](${localizedPageUrl})`,
     },
   ];
   for (const { category, items } of groups) {

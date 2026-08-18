@@ -61,11 +61,12 @@ test("one card contains collapsible categories, full descriptions, and covers", 
     { items: { "producthunt:1": "img_cover" } },
   );
   assert.equal(card.card.schema, "2.0");
-  assert.match(card.card.body.elements[0].content, /开发工具.*1 个项目.*PH 1/);
+  assert.doesNotMatch(card.card.body.elements[0].content, /开发工具.*1 个项目.*PH 1/);
   assert.match(card.card.body.elements[0].content, /点击分类标题展开项目，点击图片查看大图/);
   assert.match(card.card.body.elements[0].content, /locale=zh-CN/);
   const panels = card.card.body.elements.filter((element) => element.tag === "collapsible_panel");
   assert.equal(panels.length, 1);
+  assert.match(panels[0].header.title.content, /开发工具.*1 个项目.*PH 1/);
   assert.equal(panels[0].expanded, false);
   assert.match(panels[0].elements[0].content, /A complete description that must never be truncated\./);
   assert.equal(panels[0].elements[1].img_key, "img_cover");
