@@ -59,6 +59,20 @@ poster, title card, README screenshot, abstract banner, or logo-only image.
 Without an Agnes key, the generator writes deterministic fallback text and uses
 GitHub avatar fallback for missing visuals so local and CI runs stay stable.
 
+## Feishu delivery
+
+The `Push Daily Radar to Feishu` workflow runs at 05:30 Asia/Shanghai, after
+daily data generation. Set `FEISHU_WEBHOOK_URL` as an Actions secret and set
+the deployed `tutti-apps/apps/daily-tech-radar` URL as the `RADAR_PAGE_URL`
+repository variable. The card uses wide-screen mode and includes the top three
+Product Hunt and GitHub items plus a link to the full page.
+
+Optional `FEISHU_APP_ID` and `FEISHU_APP_SECRET` secrets enable a fresh browser
+screenshot. Feishu custom-bot webhooks cannot upload images by themselves: the
+app credentials are used to upload the PNG and obtain the required `image_key`.
+Use a test webhook first; switching groups only requires replacing the
+`FEISHU_WEBHOOK_URL` secret.
+
 Do not commit real tokens. Product Hunt commercial usage may require Product
 Hunt approval; check Product Hunt's current API terms before using this data in
 a commercial product.
