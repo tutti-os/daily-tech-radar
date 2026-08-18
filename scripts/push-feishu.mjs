@@ -27,10 +27,10 @@ export function deriveCategories(values) {
 }
 
 function githubCover(repo) {
-  if (repo.visual?.kind === "repository_avatar") {
+  const visualUrl = repo.visual?.thumbUrl || repo.visual?.url;
+  if (repo.visual?.kind === "repository_avatar" || isGithubAvatarVisual(repo, visualUrl)) {
     return `https://opengraph.githubassets.com/daily-tech-radar/${repo.owner}/${repo.name}`;
   }
-  const visualUrl = repo.visual?.thumbUrl || repo.visual?.url;
   if (visualUrl) {
     const visualText = [visualUrl, repo.visual?.sourceUrl, repo.visual?.alt, repo.visual?.kind]
       .filter(Boolean)
@@ -45,6 +45,22 @@ function githubCover(repo) {
   return repo.avatarUrl
     ? `https://opengraph.githubassets.com/daily-tech-radar/${repo.owner}/${repo.name}`
     : undefined;
+}
+
+function isGithubAvatarVisual(repo, visualUrl) {
+  if (!visualUrl) return false;
+  const withoutQuery = (value) => value?.split("?")[0].replace(/\/+$/, "").toLowerCase();
+  if (withoutQuery(visualUrl) === withoutQuery(repo.avatarUrl)) return true;
+  try {
+    const url = new URL(visualUrl);
+    return (
+      (["github.com", "www.github.com"].includes(url.hostname.toLowerCase()) &&
+        /^\/[^/]+\.png$/i.test(url.pathname)) ||
+      url.hostname.toLowerCase() === "avatars.githubusercontent.com"
+    );
+  } catch {
+    return false;
+  }
 }
 
 export async function loadDigest(dataRoot) {

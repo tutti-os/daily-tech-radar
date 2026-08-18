@@ -651,6 +651,7 @@ function firstReadmeImage(markdown: string, readmeRawUrl: string): { url: string
 function isSkippedImage(src: string, alt?: string | null): boolean {
   const value = `${src} ${alt ?? ""}`.toLowerCase();
   return (
+    isGitHubProfileAvatar(src, alt) ||
     value.includes("shield") ||
     value.includes("badge") ||
     value.includes("opencollective") ||
@@ -669,6 +670,20 @@ function isSkippedImage(src: string, alt?: string | null): boolean {
     value.includes("star history") ||
     value.endsWith(".svg?sanitize=true")
   );
+}
+
+function isGitHubProfileAvatar(src: string, alt?: string | null): boolean {
+  if (/^@[\w-]+$/.test((alt ?? "").trim())) return true;
+  try {
+    const url = new URL(src);
+    return (
+      (["github.com", "www.github.com"].includes(url.hostname.toLowerCase()) &&
+        /^\/[^/]+\.png$/i.test(url.pathname)) ||
+      url.hostname.toLowerCase() === "avatars.githubusercontent.com"
+    );
+  } catch {
+    return false;
+  }
 }
 
 function resolveReadmeImageUrl(src: string, readmeRawUrl: string): string {

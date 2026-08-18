@@ -22,8 +22,15 @@ test("classification mirrors the Radar app finite taxonomy", () => {
 test("repository avatars become repo covers while real SVG visuals are preserved for rasterizing", async () => {
   const digest = await loadDigest("data");
   const memory = digest.items.find((item) => item.id === "github:akitaonrails-ai-memory");
+  const cybersecurity = digest.items.find(
+    (item) => item.id === "github:mukul975-anthropic-cybersecurity-skills",
+  );
   const careerOps = digest.items.find((item) => item.id === "github:santifer-career-ops");
   assert.match(memory.imageUrl, /opengraph\.githubassets\.com\/daily-tech-radar\/akitaonrails\/ai-memory/);
+  assert.match(
+    cybersecurity.imageUrl,
+    /opengraph\.githubassets\.com\/daily-tech-radar\/mukul975\/Anthropic-Cybersecurity-Skills/,
+  );
   assert.match(careerOps.imageUrl, /producthunt\.svg$/);
 });
 
