@@ -283,7 +283,7 @@ export async function generateDailyHighlights(items, { apiKey, fetchImpl = fetch
             role: "user",
             content: JSON.stringify({
               task:
-                "阅读当天全部项目，写 3 条有信息量的中文洞察，每条 45-90 字。第 1 条总结跨项目趋势及其意义；第 2 条点名 2-3 个 Product Hunt 产品，说明它们做什么、为何值得关注；第 3 条点名 2-3 个 GitHub 项目，说明能力与技术信号。避免只罗列分类、票数、星标或空泛评价。",
+                "阅读当天全部项目，写 3 条有信息量的中文洞察，每条 45-90 字。第 1 条总结跨项目趋势及其意义；第 2 条点名 2-3 个 Product Hunt 产品，说明它们做什么、为何值得关注；第 3 条点名 2-3 个 GitHub 项目，说明能力与技术信号。保留输入中的准确产品或仓库名称，不要在句首重复栏目名。避免只罗列分类、票数、星标或空泛评价。",
               items: items.map((item) => ({
                 categories: item.categories,
                 description: item.description,
@@ -311,11 +311,47 @@ export async function generateDailyHighlights(items, { apiKey, fetchImpl = fetch
       .map((bullet) => bullet.replace(/^[\s•*-]+/, "").replace(/\s+/g, " ").trim().slice(0, 180));
     if (bullets?.length !== 3) throw new Error("expected exactly three useful bullets");
     console.log("Generated daily highlights with Agnes.");
-    return ["**今日重点（AI 总结）**", ...bullets.map((bullet) => `- ${bullet}`)].join("\n");
+    const labels = ["整体趋势", "Product Hunt", "GitHub Trending"];
+    return [
+      `**今日趋势速览（基于全部 ${items.length} 个项目）**`,
+      ...bullets.map((bullet, index) => `- **${labels[index]}**：${linkifyProjectNames(bullet, items)}`),
+    ].join("\n");
   } catch (error) {
     console.warn(`LLM summary failed; using local fallback: ${error instanceof Error ? error.message : error}`);
     return fallback;
   }
+}
+
+export function linkifyProjectNames(text, items) {
+  const candidates = new Map();
+  const register = (alias, item) => {
+    const normalized = alias?.trim();
+    if (!normalized || normalized.length < 4) return;
+    const key = normalized.toLowerCase();
+    const existing = candidates.get(key);
+    if (!candidates.has(key)) candidates.set(key, { alias: normalized, item });
+    else if (existing?.item.id !== item.id) candidates.set(key, null);
+  };
+  for (const item of items) {
+    register(item.name, item);
+    if (item.source === "github") register(item.name.split("/").at(-1), item);
+    if (item.source === "producthunt") {
+      const firstWord = item.name.match(/^[A-Za-z0-9][A-Za-z0-9_-]*/)?.[0];
+      if (firstWord && !["this", "that", "open", "the"].includes(firstWord.toLowerCase())) {
+        register(firstWord, item);
+      }
+    }
+  }
+  const aliases = [...candidates.values()]
+    .filter(Boolean)
+    .sort((left, right) => right.alias.length - left.alias.length);
+  if (aliases.length === 0) return text;
+  const byAlias = new Map(aliases.map((entry) => [entry.alias.toLowerCase(), entry.item]));
+  const pattern = aliases.map(({ alias }) => alias.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")).join("|");
+  return text.replace(
+    new RegExp(`(?<![A-Za-z0-9_])(${pattern})(?![A-Za-z0-9_])`, "gi"),
+    (match) => `[${match}](${byAlias.get(match.toLowerCase()).url})`,
+  );
 }
 
 export async function capturePage(pageUrl, outputPath) {

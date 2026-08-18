@@ -6,6 +6,7 @@ import {
   deriveCategories,
   generateDailyHighlights,
   groupByCategory,
+  linkifyProjectNames,
   loadDigest,
   SCREENSHOT_FULL_PAGE,
   screenshotPageUrl,
@@ -76,7 +77,14 @@ test("daily highlights summarize directions and each source leader", () => {
 });
 
 test("LLM highlights turn all items into three concrete Chinese insights", async () => {
-  const highlights = await generateDailyHighlights([productItem], {
+  const githubItem = {
+    ...productItem,
+    id: "github:money-printer",
+    source: "github",
+    name: "harry0703/MoneyPrinterTurbo",
+    url: "https://github.com/harry0703/MoneyPrinterTurbo",
+  };
+  const highlights = await generateDailyHighlights([productItem, githubItem], {
     apiKey: "test-key",
     fetchImpl: async () => new Response(JSON.stringify({
       choices: [{ message: { content: JSON.stringify({ bullets: [
@@ -86,9 +94,27 @@ test("LLM highlights turn all items into three concrete Chinese insights", async
       ] }) } }],
     })),
   });
-  assert.match(highlights, /今日重点（AI 总结）/);
-  assert.match(highlights, /本地优先 AI/);
+  assert.match(highlights, /今日趋势速览（基于全部 2 个项目）/);
+  assert.match(highlights, /\*\*整体趋势\*\*：.*本地优先 AI/);
+  assert.match(highlights, /\[Meridian\]\(https:\/\/example\.com\/meridian\)/);
+  assert.match(highlights, /\[MoneyPrinterTurbo\]\(https:\/\/github\.com\/harry0703\/MoneyPrinterTurbo\)/);
   assert.equal(highlights.split("\n").length, 4);
+});
+
+test("project names and reliable short aliases use source URLs", () => {
+  const items = [
+    { ...productItem, name: "Omni by xpander", url: "https://example.com/omni" },
+    {
+      ...productItem,
+      source: "github",
+      name: "usestrix/strix",
+      url: "https://github.com/usestrix/strix",
+    },
+  ];
+  assert.equal(
+    linkifyProjectNames("Omni 负责部署，Strix 负责安全验证。", items),
+    "[Omni](https://example.com/omni) 负责部署，[Strix](https://github.com/usestrix/strix) 负责安全验证。",
+  );
 });
 
 test("one card contains collapsible categories, full descriptions, and covers", () => {
