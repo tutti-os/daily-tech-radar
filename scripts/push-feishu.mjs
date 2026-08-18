@@ -17,7 +17,7 @@ const CATEGORY_RULES = [
   ["AI", ["ai", "llm", "模型", "智能", "claude", "gpt", "agent"]],
 ];
 const CATEGORY_ORDER = [...CATEGORY_RULES.map(([label]) => label), "其他"];
-const DEFAULT_EXPANDED_CATEGORIES = new Set(["AI代理", "开发工具"]);
+const DEFAULT_EXPANDED_CATEGORIES = new Set();
 
 export function deriveCategories(values) {
   const text = values.filter(Boolean).join(" ").toLowerCase();
@@ -186,6 +186,7 @@ function collapsiblePanel(title, elements, expanded = false) {
 }
 
 export function buildCard(digest, pageUrl, images = {}) {
+  const localizedPageUrl = screenshotPageUrl(pageUrl);
   const groups = groupByCategory(digest.items);
   const overview = groups.map(({ category, items }) => {
     const githubCount = items.filter((item) => item.source === "github").length;
@@ -203,7 +204,7 @@ export function buildCard(digest, pageUrl, images = {}) {
       : []),
     {
       tag: "markdown",
-      content: `**分类项目看板**\n\n${overview.join("\n\n")}\n\n[查看完整 Daily Tech Radar](${pageUrl})`,
+      content: `**分类项目看板**\n\n${overview.join("\n\n")}\n\n[查看完整 Daily Tech Radar](${localizedPageUrl})`,
     },
   ];
   for (const { category, items } of groups) {
