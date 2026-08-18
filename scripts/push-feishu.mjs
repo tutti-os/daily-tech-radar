@@ -18,6 +18,7 @@ const CATEGORY_RULES = [
 ];
 const CATEGORY_ORDER = [...CATEGORY_RULES.map(([label]) => label), "其他"];
 const DEFAULT_EXPANDED_CATEGORIES = new Set();
+export const SCREENSHOT_FULL_PAGE = false;
 
 export function deriveCategories(values) {
   const text = values.filter(Boolean).join(" ").toLowerCase();
@@ -204,7 +205,7 @@ export function buildCard(digest, pageUrl, images = {}) {
       : []),
     {
       tag: "markdown",
-      content: `**分类项目看板**\n\n${overview.join("\n\n")}\n\n[查看完整 Daily Tech Radar](${localizedPageUrl})`,
+      content: `**分类项目看板**\n\n👇 点击分类标题展开项目，点击图片查看大图。\n\n${overview.join("\n\n")}\n\n[查看完整 Daily Tech Radar](${localizedPageUrl})`,
     },
   ];
   for (const { category, items } of groups) {
@@ -258,7 +259,7 @@ export async function capturePage(pageUrl, outputPath) {
       }
       window.scrollTo(0, 0);
     });
-    await page.screenshot({ path: outputPath, fullPage: true });
+    await page.screenshot({ path: outputPath, fullPage: SCREENSHOT_FULL_PAGE });
   } finally {
     await browser.close();
   }

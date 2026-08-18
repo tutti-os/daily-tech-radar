@@ -1,6 +1,13 @@
 import assert from "node:assert/strict";
 import test from "node:test";
-import { buildCard, deriveCategories, groupByCategory, loadDigest, screenshotPageUrl } from "./push-feishu.mjs";
+import {
+  buildCard,
+  deriveCategories,
+  groupByCategory,
+  loadDigest,
+  SCREENSHOT_FULL_PAGE,
+  screenshotPageUrl,
+} from "./push-feishu.mjs";
 
 const productItem = {
   id: "producthunt:1",
@@ -55,6 +62,7 @@ test("one card contains collapsible categories, full descriptions, and covers", 
   );
   assert.equal(card.card.schema, "2.0");
   assert.match(card.card.body.elements[0].content, /开发工具.*1 个项目.*PH 1/);
+  assert.match(card.card.body.elements[0].content, /点击分类标题展开项目，点击图片查看大图/);
   assert.match(card.card.body.elements[0].content, /locale=zh-CN/);
   const panels = card.card.body.elements.filter((element) => element.tag === "collapsible_panel");
   assert.equal(panels.length, 1);
@@ -86,6 +94,7 @@ test("all category panels are collapsed by default", () => {
 });
 
 test("page screenshots always use Chinese without dropping existing filters", () => {
+  assert.equal(SCREENSHOT_FULL_PAGE, false);
   assert.equal(
     screenshotPageUrl("https://example.com/radar?source=github&locale=en-US"),
     "https://example.com/radar?source=github&locale=zh-CN",
