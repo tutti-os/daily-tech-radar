@@ -57,8 +57,29 @@ test("one card contains collapsible categories, full descriptions, and covers", 
   assert.match(card.card.body.elements[0].content, /开发工具.*1 个项目.*PH 1/);
   const panels = card.card.body.elements.filter((element) => element.tag === "collapsible_panel");
   assert.equal(panels.length, 1);
-  assert.equal(panels[0].expanded, false);
+  assert.equal(panels[0].expanded, true);
   assert.match(panels[0].elements[0].content, /A complete description that must never be truncated\./);
   assert.equal(panels[0].elements[1].img_key, "img_cover");
   assert.equal(panels[0].elements[1].alt.content, "Meridian 对应封面图");
+});
+
+test("AI agent and developer tool panels are expanded by default", () => {
+  const card = buildCard(
+    {
+      date: "2026-08-18",
+      items: [
+        productItem,
+        { ...productItem, id: "github:agent", source: "github", category: "AI代理" },
+        { ...productItem, id: "github:other", source: "github", category: "其他" },
+      ],
+    },
+    "https://example.com/radar",
+  );
+  const panels = card.card.body.elements.filter((element) => element.tag === "collapsible_panel");
+  const panelByCategory = Object.fromEntries(
+    panels.map((panel) => [panel.header.title.content.match(/^[^（]+/)[0], panel]),
+  );
+  assert.equal(panelByCategory.AI代理.expanded, true);
+  assert.equal(panelByCategory.开发工具.expanded, true);
+  assert.equal(panelByCategory.其他.expanded, false);
 });

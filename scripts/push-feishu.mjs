@@ -17,6 +17,7 @@ const CATEGORY_RULES = [
   ["AI", ["ai", "llm", "模型", "智能", "claude", "gpt", "agent"]],
 ];
 const CATEGORY_ORDER = [...CATEGORY_RULES.map(([label]) => label), "其他"];
+const DEFAULT_EXPANDED_CATEGORIES = new Set(["AI代理", "开发工具"]);
 
 export function deriveCategories(values) {
   const text = values.filter(Boolean).join(" ").toLowerCase();
@@ -165,10 +166,10 @@ function itemElements(items, imageKeys = {}) {
   ]);
 }
 
-function collapsiblePanel(title, elements) {
+function collapsiblePanel(title, elements, expanded = false) {
   return {
     tag: "collapsible_panel",
-    expanded: false,
+    expanded,
     header: {
       title: { tag: "plain_text", content: title },
       icon: {
@@ -211,6 +212,7 @@ export function buildCard(digest, pageUrl, images = {}) {
       collapsiblePanel(
         `${category}（${items.length} 个项目｜GitHub ${githubCount}｜PH ${items.length - githubCount}）`,
         itemElements(items, images.items),
+        DEFAULT_EXPANDED_CATEGORIES.has(category),
       ),
     );
   }
