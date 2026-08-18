@@ -75,7 +75,7 @@ export type GitHubTrendRepo = {
     score: number;
   };
   visual: {
-    kind: "readme_image" | "agnes_generated" | "repository_avatar" | "none";
+    kind: "readme_image" | "agnes_generated" | "repository_open_graph" | "repository_avatar" | "none";
     url?: string | null;
     thumbUrl?: string | null;
     alt?: string | null;

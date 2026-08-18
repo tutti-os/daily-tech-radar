@@ -242,7 +242,10 @@ describe("GitHub package generation", () => {
       }
     });
 
-    expect(pkg.repos[0].visual.kind).toBe("repository_avatar");
+    expect(pkg.repos[0].visual).toMatchObject({
+      kind: "repository_open_graph",
+      url: "https://opengraph.githubassets.com/daily-tech-radar/chopratejas/headroom"
+    });
   });
 
   it("skips repository move notices when extracting README summaries", () => {
