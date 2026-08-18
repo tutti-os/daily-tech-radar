@@ -68,8 +68,9 @@ repository variable. The card uses wide-screen mode and includes the top three
 Product Hunt and GitHub items plus a link to the full page.
 
 Optional `FEISHU_APP_ID` and `FEISHU_APP_SECRET` secrets enable a fresh browser
-screenshot. Feishu custom-bot webhooks cannot upload images by themselves: the
-app credentials are used to upload the PNG and obtain the required `image_key`.
+screenshot and the corresponding cover after each Top 3 item. Feishu custom-bot
+webhooks cannot upload images by themselves: the app credentials upload each
+image and obtain the required `image_key`.
 Use a test webhook first; switching groups only requires replacing the
 `FEISHU_WEBHOOK_URL` secret.
 

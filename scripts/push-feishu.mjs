@@ -19,46 +19,67 @@ export async function loadDigest(dataRoot) {
       description: item.description || item.tagline,
       metric: `${item.metrics?.votes ?? 0} 票`,
       url: item.links?.homepage || item.links.source,
+      imageUrl:
+        item.assets?.media?.find((media) => media.type === "image")?.url ||
+        item.assets?.thumbnail ||
+        item.assets?.icon,
     })),
     github: github.repos.slice(0, 3).map((repo) => ({
       name: `${repo.owner}/${repo.name}`,
       description: repo.readmeSignals?.summary || repo.metadata?.description || "暂无简介",
       metric: `+${repo.source?.starsGained ?? 0} stars`,
       url: repo.url,
+      imageUrl: repo.visual?.url || repo.visual?.thumbUrl || repo.avatarUrl,
     })),
   };
 }
 
-function markdownSection(title, items) {
-  const rows = items.map(
-    (item, index) =>
-      `**${index + 1}. [${item.name}](${item.url})** · ${item.metric}\n${truncate(item.description, 88)}`,
-  );
-  return `### ${title}\n${rows.join("\n\n")}`;
+function itemElements(items, imageKeys = []) {
+  return items.flatMap((item, index) => {
+    const elements = [
+      {
+        tag: "markdown",
+        content: `**${index + 1}. [${item.name}](${item.url})** · ${item.metric}\n${truncate(item.description, 88)}`,
+      },
+    ];
+    if (imageKeys[index]) {
+      elements.push({
+        tag: "img",
+        img_key: imageKeys[index],
+        alt: { tag: "plain_text", content: `${item.name} 产品图片` },
+        mode: "fit_horizontal",
+        preview: true,
+      });
+    }
+    return elements;
+  });
 }
 
-export function buildCard(digest, pageUrl, imageKey) {
+export function buildCard(digest, pageUrl, images = {}) {
   const elements = [];
-  if (imageKey) {
+  if (images.screenshot) {
     elements.push({
       tag: "img",
-      img_key: imageKey,
+      img_key: images.screenshot,
       alt: { tag: "plain_text", content: `${digest.date} Daily Tech Radar 页面截图` },
       mode: "fit_horizontal",
     });
   }
   elements.push(
-    {
-      tag: "markdown",
-      content: `${markdownSection("Product Hunt Top 3", digest.productHunt)}\n\n${markdownSection("GitHub Trending Top 3", digest.github)}`,
-    },
+    { tag: "markdown", content: "**Product Hunt Top 3**" },
+    ...itemElements(digest.productHunt, images.productHunt),
+    { tag: "hr" },
+    { tag: "markdown", content: "**GitHub Trending Top 3**" },
+    ...itemElements(digest.github, images.github),
     {
       tag: "note",
       elements: [
         {
           tag: "plain_text",
-          content: imageKey
-            ? "页面截图、摘要和完整链接均已更新"
+          content: images.screenshot
+            ? "页面截图、产品图片、摘要和完整链接均已更新"
+            : images.productHunt?.some(Boolean) || images.github?.some(Boolean)
+              ? "产品图片、摘要和完整链接均已更新"
             : "摘要和网页已更新；配置飞书应用凭证后将自动附带页面截图",
         },
       ],
@@ -102,8 +123,8 @@ async function capturePage(pageUrl, outputPath) {
   }
 }
 
-async function uploadImage(imagePath, appId, appSecret) {
-  const tokenResponse = await fetch(
+async function tenantAccessToken(appId, appSecret) {
+  const response = await fetch(
     "https://open.feishu.cn/open-apis/auth/v3/tenant_access_token/internal",
     {
       method: "POST",
@@ -111,16 +132,20 @@ async function uploadImage(imagePath, appId, appSecret) {
       body: JSON.stringify({ app_id: appId, app_secret: appSecret }),
     },
   );
-  const tokenPayload = await tokenResponse.json();
-  if (!tokenResponse.ok || tokenPayload.code !== 0 || !tokenPayload.tenant_access_token) {
-    throw new Error(`Feishu tenant token failed: ${tokenPayload.msg || tokenResponse.status}`);
+  const payload = await response.json();
+  if (!response.ok || payload.code !== 0 || !payload.tenant_access_token) {
+    throw new Error(`Feishu tenant token failed: ${payload.msg || response.status}`);
   }
+  return payload.tenant_access_token;
+}
+
+async function uploadImage(bytes, contentType, filename, tenantToken) {
   const form = new FormData();
   form.set("image_type", "message");
-  form.set("image", new Blob([await readFile(imagePath)], { type: "image/png" }), "daily-tech-radar.png");
+  form.set("image", new Blob([bytes], { type: contentType }), filename);
   const imageResponse = await fetch("https://open.feishu.cn/open-apis/im/v1/images", {
     method: "POST",
-    headers: { authorization: `Bearer ${tokenPayload.tenant_access_token}` },
+    headers: { authorization: `Bearer ${tenantToken}` },
     body: form,
   });
   const imagePayload = await imageResponse.json();
@@ -128,6 +153,20 @@ async function uploadImage(imagePath, appId, appSecret) {
     throw new Error(`Feishu image upload failed: ${imagePayload.msg || imageResponse.status}`);
   }
   return imagePayload.data.image_key;
+}
+
+async function uploadRemoteImage(imageUrl, tenantToken) {
+  if (!imageUrl) return undefined;
+  try {
+    const response = await fetch(imageUrl, { signal: AbortSignal.timeout(30_000) });
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    const contentType = response.headers.get("content-type")?.split(";")[0] || "image/jpeg";
+    const extension = contentType.includes("png") ? "png" : contentType.includes("webp") ? "webp" : "jpg";
+    return await uploadImage(await response.arrayBuffer(), contentType, `product.${extension}`, tenantToken);
+  } catch (error) {
+    console.warn(`Skipping product image ${imageUrl}: ${error instanceof Error ? error.message : error}`);
+    return undefined;
+  }
 }
 
 async function sendCard(webhookUrl, card) {
@@ -150,20 +189,34 @@ export async function main() {
   if (!webhookUrl && !dryRun) throw new Error("FEISHU_WEBHOOK_URL is required");
 
   const digest = await loadDigest(resolve(process.cwd(), "data"));
-  let imageKey;
+  const images = { productHunt: [], github: [] };
   if (process.env.FEISHU_APP_ID && process.env.FEISHU_APP_SECRET) {
-    const screenshotPath = resolve(process.env.RUNNER_TEMP || ".", "daily-tech-radar.png");
-    await capturePage(pageUrl, screenshotPath);
-    imageKey = await uploadImage(
-      screenshotPath,
+    const tenantToken = await tenantAccessToken(
       process.env.FEISHU_APP_ID,
       process.env.FEISHU_APP_SECRET,
+    );
+    const screenshotPath = resolve(process.env.RUNNER_TEMP || ".", "daily-tech-radar.png");
+    try {
+      await capturePage(pageUrl, screenshotPath);
+      images.screenshot = await uploadImage(
+        await readFile(screenshotPath),
+        "image/png",
+        "daily-tech-radar.png",
+        tenantToken,
+      );
+    } catch (error) {
+      console.warn(`Skipping page screenshot: ${error instanceof Error ? error.message : error}`);
+    }
+    [images.productHunt, images.github] = await Promise.all(
+      [digest.productHunt, digest.github].map((items) =>
+        Promise.all(items.map((item) => uploadRemoteImage(item.imageUrl, tenantToken))),
+      ),
     );
   } else {
     console.warn("FEISHU_APP_ID/FEISHU_APP_SECRET are not set; sending without an inline screenshot.");
   }
 
-  const card = buildCard(digest, pageUrl, imageKey);
+  const card = buildCard(digest, pageUrl, images);
   if (dryRun) console.log(JSON.stringify(card, null, 2));
   else {
     await sendCard(webhookUrl, card);
