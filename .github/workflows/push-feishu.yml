@@ -26,6 +26,9 @@ permissions:
 jobs:
   notify:
     runs-on: ubuntu-latest
+    env:
+      FEISHU_APP_ID: ${{ secrets.FEISHU_APP_ID }}
+      FEISHU_APP_SECRET: ${{ secrets.FEISHU_APP_SECRET }}
     steps:
       - name: Checkout latest data
         uses: actions/checkout@v4
@@ -47,13 +50,11 @@ jobs:
         run: pnpm install --frozen-lockfile
 
       - name: Install screenshot browser
-        if: ${{ secrets.FEISHU_APP_ID != '' && secrets.FEISHU_APP_SECRET != '' }}
+        if: ${{ env.FEISHU_APP_ID != '' && env.FEISHU_APP_SECRET != '' }}
         run: pnpm exec playwright install --with-deps chromium
 
       - name: Send Radar card
         env:
           FEISHU_WEBHOOK_URL: ${{ secrets.FEISHU_WEBHOOK_URL }}
-          FEISHU_APP_ID: ${{ secrets.FEISHU_APP_ID }}
-          FEISHU_APP_SECRET: ${{ secrets.FEISHU_APP_SECRET }}
           RADAR_PAGE_URL: ${{ inputs.page_url || vars.RADAR_PAGE_URL || 'https://github.com/tutti-os/tutti-apps/tree/main/apps/daily-tech-radar' }}
         run: pnpm notify:feishu ${{ inputs.dry_run && '-- --dry-run' || '' }}
