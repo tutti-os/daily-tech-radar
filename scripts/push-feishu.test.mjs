@@ -1,6 +1,6 @@
 import assert from "node:assert/strict";
 import test from "node:test";
-import { buildCard, deriveCategories, groupByCategory } from "./push-feishu.mjs";
+import { buildCard, deriveCategories, groupByCategory, loadDigest } from "./push-feishu.mjs";
 
 const productItem = {
   id: "producthunt:1",
@@ -17,6 +17,14 @@ const productItem = {
 test("classification mirrors the Radar app finite taxonomy", () => {
   assert.deepEqual(deriveCategories(["AI agent development API"]), ["AI代理", "开发工具", "AI"]);
   assert.deepEqual(deriveCategories(["gardening calendar"]), ["其他"]);
+});
+
+test("repository avatars become repo covers while real SVG visuals are preserved for rasterizing", async () => {
+  const digest = await loadDigest("data");
+  const memory = digest.items.find((item) => item.id === "github:akitaonrails-ai-memory");
+  const careerOps = digest.items.find((item) => item.id === "github:santifer-career-ops");
+  assert.match(memory.imageUrl, /opengraph\.githubassets\.com\/daily-tech-radar\/akitaonrails\/ai-memory/);
+  assert.match(careerOps.imageUrl, /producthunt\.svg$/);
 });
 
 test("primary category grouping keeps every item once in the single card", () => {

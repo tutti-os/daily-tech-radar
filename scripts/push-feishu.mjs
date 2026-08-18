@@ -27,13 +27,20 @@ export function deriveCategories(values) {
 }
 
 function githubCover(repo) {
+  if (repo.visual?.kind === "repository_avatar") {
+    return `https://opengraph.githubassets.com/daily-tech-radar/${repo.owner}/${repo.name}`;
+  }
   const visualUrl = repo.visual?.thumbUrl || repo.visual?.url;
   if (visualUrl) {
     const visualText = [visualUrl, repo.visual?.sourceUrl, repo.visual?.alt, repo.visual?.kind]
       .filter(Boolean)
       .join(" ")
       .toLowerCase();
-    if (!/(^|[-_/])(banner|readme-banner|logo)([-_.:/]|$)/.test(visualText)) return visualUrl;
+    if (
+      !/(^|[-_/])(banner|readme-banner|logo)([-_.:/]|$)/.test(visualText)
+    ) {
+      return visualUrl;
+    }
   }
   return repo.avatarUrl
     ? `https://opengraph.githubassets.com/daily-tech-radar/${repo.owner}/${repo.name}`
@@ -59,6 +66,7 @@ export async function loadDigest(dataRoot) {
         item.assets?.media?.find((media) => media.type === "image" && media.url)?.url ||
         item.assets?.thumbnail ||
         item.assets?.icon,
+      fallbackImageUrl: item.assets?.thumbnail || item.assets?.icon,
       categories,
       category: categories[0],
       rank: item.rank,
@@ -87,6 +95,7 @@ export async function loadDigest(dataRoot) {
       metric: `+${repo.source?.starsGained ?? 0} stars · ${repo.metadata?.stars ?? 0} 总星标`,
       url: repo.url,
       imageUrl: githubCover(repo),
+      fallbackImageUrl: undefined,
       categories,
       category: categories[0],
       rank: repo.rank.globalRank,
@@ -255,14 +264,40 @@ async function uploadImage(bytes, contentType, filename, tenantToken) {
 async function uploadRemoteImage(imageUrl, tenantToken) {
   if (!imageUrl) return undefined;
   try {
-    const response = await fetch(imageUrl, { signal: AbortSignal.timeout(30_000) });
+    let response;
+    for (let attempt = 0; attempt < 3; attempt += 1) {
+      response = await fetch(imageUrl, { signal: AbortSignal.timeout(30_000) });
+      if (response.status !== 429 || attempt === 2) break;
+      await new Promise((resolveDelay) => setTimeout(resolveDelay, 1_000 * (attempt + 1)));
+    }
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
-    const contentType = response.headers.get("content-type")?.split(";")[0] || "image/jpeg";
+    let contentType = response.headers.get("content-type")?.split(";")[0] || "image/jpeg";
+    let bytes = await response.arrayBuffer();
+    if (contentType.includes("svg") || imageUrl.toLowerCase().includes(".svg")) {
+      bytes = await rasterizeSvg(bytes);
+      contentType = "image/png";
+    }
     const extension = contentType.includes("png") ? "png" : contentType.includes("webp") ? "webp" : "jpg";
-    return await uploadImage(await response.arrayBuffer(), contentType, `cover.${extension}`, tenantToken);
+    return await uploadImage(bytes, contentType, `cover.${extension}`, tenantToken);
   } catch (error) {
     console.warn(`Skipping cover ${imageUrl}: ${error instanceof Error ? error.message : error}`);
     return undefined;
+  }
+}
+
+async function rasterizeSvg(svgBytes) {
+  const { chromium } = await import("playwright");
+  const browser = await chromium.launch({ headless: true });
+  try {
+    const page = await browser.newPage({ viewport: { width: 1200, height: 630 } });
+    const source = Buffer.from(svgBytes).toString("base64");
+    await page.setContent(
+      `<style>html,body{margin:0;width:100%;height:100%;background:#fff}body{display:grid;place-items:center}img{max-width:100%;max-height:100%;object-fit:contain}</style><img id="cover" src="data:image/svg+xml;base64,${source}">`,
+    );
+    await page.locator("#cover").waitFor({ state: "visible" });
+    return await page.screenshot({ type: "png" });
+  } finally {
+    await browser.close();
   }
 }
 
@@ -289,20 +324,25 @@ export async function main() {
   const images = { items: {} };
   if (process.env.FEISHU_APP_ID && process.env.FEISHU_APP_SECRET) {
     const tenantToken = await tenantAccessToken(process.env.FEISHU_APP_ID, process.env.FEISHU_APP_SECRET);
-    const screenshotPath = resolve(process.env.RUNNER_TEMP || ".", "daily-tech-radar.png");
-    try {
-      await capturePage(pageUrl, screenshotPath);
-      images.screenshot = await uploadImage(
-        await readFile(screenshotPath),
-        "image/png",
-        "daily-tech-radar.png",
-        tenantToken,
-      );
-    } catch (error) {
-      console.warn(`Skipping page screenshot: ${error instanceof Error ? error.message : error}`);
+    if (process.env.RADAR_SCREENSHOT_ENABLED !== "false") {
+      const screenshotPath = resolve(process.env.RUNNER_TEMP || ".", "daily-tech-radar.png");
+      try {
+        await capturePage(pageUrl, screenshotPath);
+        images.screenshot = await uploadImage(
+          await readFile(screenshotPath),
+          "image/png",
+          "daily-tech-radar.png",
+          tenantToken,
+        );
+      } catch (error) {
+        console.warn(`Skipping page screenshot: ${error instanceof Error ? error.message : error}`);
+      }
     }
     for (const item of digest.items) {
       images.items[item.id] = await uploadRemoteImage(item.imageUrl, tenantToken);
+      if (!images.items[item.id] && item.fallbackImageUrl !== item.imageUrl) {
+        images.items[item.id] = await uploadRemoteImage(item.fallbackImageUrl, tenantToken);
+      }
     }
   } else {
     console.warn("FEISHU_APP_ID/FEISHU_APP_SECRET are not set; sending text and links without images.");
