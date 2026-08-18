@@ -30,7 +30,7 @@ jobs:
       - name: Checkout latest data
         uses: actions/checkout@v4
         with:
-          ref: main
+          ref: ${{ github.event_name == 'workflow_dispatch' && github.ref || 'main' }}
 
       - name: Setup pnpm
         uses: pnpm/action-setup@v4
