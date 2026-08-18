@@ -1,6 +1,6 @@
 import assert from "node:assert/strict";
 import test from "node:test";
-import { buildCard, deriveCategories, groupByCategory, loadDigest } from "./push-feishu.mjs";
+import { buildCard, deriveCategories, groupByCategory, loadDigest, screenshotPageUrl } from "./push-feishu.mjs";
 
 const productItem = {
   id: "producthunt:1",
@@ -82,4 +82,11 @@ test("AI agent and developer tool panels are expanded by default", () => {
   assert.equal(panelByCategory.AI代理.expanded, true);
   assert.equal(panelByCategory.开发工具.expanded, true);
   assert.equal(panelByCategory.其他.expanded, false);
+});
+
+test("page screenshots always use Chinese without dropping existing filters", () => {
+  assert.equal(
+    screenshotPageUrl("https://example.com/radar?source=github&locale=en-US"),
+    "https://example.com/radar?source=github&locale=zh-CN",
+  );
 });

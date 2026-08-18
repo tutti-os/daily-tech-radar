@@ -234,17 +234,30 @@ export function buildCard(digest, pageUrl, images = {}) {
   };
 }
 
-async function capturePage(pageUrl, outputPath) {
+export async function capturePage(pageUrl, outputPath) {
   const { chromium } = await import("playwright");
   const browser = await chromium.launch({ headless: true });
   try {
     const page = await browser.newPage({ viewport: { width: 1600, height: 1100 } });
-    await page.goto(pageUrl, { waitUntil: "networkidle", timeout: 60_000 });
+    await page.goto(screenshotPageUrl(pageUrl), { waitUntil: "networkidle", timeout: 60_000 });
     await page.locator(".radar-card").first().waitFor({ timeout: 30_000 });
-    await page.screenshot({ path: outputPath, fullPage: false });
+    await page.evaluate(async () => {
+      for (let offset = 0; offset < document.documentElement.scrollHeight; offset += window.innerHeight) {
+        window.scrollTo(0, offset);
+        await new Promise((resolveDelay) => setTimeout(resolveDelay, 80));
+      }
+      window.scrollTo(0, 0);
+    });
+    await page.screenshot({ path: outputPath, fullPage: true });
   } finally {
     await browser.close();
   }
+}
+
+export function screenshotPageUrl(pageUrl) {
+  const url = new URL(pageUrl);
+  url.searchParams.set("locale", "zh-CN");
+  return url.toString();
 }
 
 async function tenantAccessToken(appId, appSecret) {
