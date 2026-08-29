@@ -34,11 +34,17 @@ export async function writeSourcePayload(options: {
   if (!options.dryRun) {
     await mkdir(dir, { recursive: true });
     await writeJson(dateFile, options.payload);
-    await writeJson(latestFile, options.payload);
+    if (shouldUpdateLatest(index, options.date)) {
+      await writeJson(latestFile, options.payload);
+    }
     await writeJson(indexFile, index);
   }
 
   return { dateFile, latestFile, indexFile };
+}
+
+export function shouldUpdateLatest(index: TrendIndex, date: string): boolean {
+  return index.latestDate === date;
 }
 
 async function nextIndex(options: {
@@ -71,4 +77,3 @@ async function nextIndex(options: {
 async function writeJson(filePath: string, value: unknown): Promise<void> {
   await writeFile(filePath, `${JSON.stringify(value, null, 2)}\n`, "utf8");
 }
-
