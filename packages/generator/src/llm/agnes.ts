@@ -52,8 +52,9 @@ export async function localizeProductHuntPosts(options: {
   fetchImpl?: typeof fetch;
 }): Promise<ProductHuntLocalization[]> {
   const { posts, apiKey, fetchImpl = fetch } = options;
+  const fallbackItems = fallbackLocalizations(posts);
   if (!apiKey) {
-    return fallbackLocalizations(posts);
+    return fallbackItems;
   }
 
   const payload = posts.map((post) => ({
@@ -92,22 +93,31 @@ export async function localizeProductHuntPosts(options: {
   });
 
   if (!response.ok) {
-    throw new Error(`Agnes localization failed: ${response.status} ${response.statusText}`);
+    console.warn(`Agnes localization failed; using fallback: ${response.status} ${response.statusText}`);
+    return fallbackItems;
   }
 
   const json = (await response.json()) as AgnesChatResponse;
   const content = json.choices?.[0]?.message?.content;
   if (!content) {
-    throw new Error("Agnes localization response did not include message content");
+    console.warn("Agnes localization response had no content; using fallback");
+    return fallbackItems;
   }
 
-  const parsed = parseJsonObject(content);
+  let parsed: unknown;
+  try {
+    parsed = parseJsonObject(content);
+  } catch (error) {
+    console.warn(`Agnes localization returned invalid JSON; using fallback: ${error instanceof Error ? error.message : error}`);
+    return fallbackItems;
+  }
   const items = extractArrayField(parsed, ["items", "posts", "localizations"]);
   if (!Array.isArray(items)) {
-    throw new Error("Agnes localization JSON must be an array or an object with items");
+    console.warn("Agnes localization JSON had no item array; using fallback");
+    return fallbackItems;
   }
 
-  const fallback = new Map(fallbackLocalizations(posts).map((item) => [item.id, item]));
+  const fallback = new Map(fallbackItems.map((item) => [item.id, item]));
   const localized = new Map(fallback);
   for (const item of items) {
     const raw = item as Partial<ProductHuntLocalization>;
@@ -141,8 +151,9 @@ export async function localizeGitHubRepos(options: {
   fetchImpl?: typeof fetch;
 }): Promise<GitHubRepoLocalization[]> {
   const { repos, apiKey, fetchImpl = fetch } = options;
+  const fallbackItems = fallbackGitHubRepoLocalizations(repos);
   if (!apiKey) {
-    return fallbackGitHubRepoLocalizations(repos);
+    return fallbackItems;
   }
 
   const payload = repos.map((repo) => ({
@@ -183,22 +194,30 @@ export async function localizeGitHubRepos(options: {
   });
 
   if (!response.ok) {
-    throw new Error(`Agnes GitHub localization failed: ${response.status} ${response.statusText}`);
+    console.warn(`Agnes GitHub localization failed; using fallback: ${response.status} ${response.statusText}`);
+    return fallbackItems;
   }
 
   const json = (await response.json()) as AgnesChatResponse;
   const content = json.choices?.[0]?.message?.content;
   if (!content) {
-    throw new Error("Agnes GitHub localization response did not include message content");
+    console.warn("Agnes GitHub localization response had no content; using fallback");
+    return fallbackItems;
   }
 
-  const parsed = parseJsonObject(content);
+  let parsed: unknown;
+  try {
+    parsed = parseJsonObject(content);
+  } catch (error) {
+    console.warn(`Agnes GitHub localization returned invalid JSON; using fallback: ${error instanceof Error ? error.message : error}`);
+    return fallbackItems;
+  }
   const items = extractArrayField(parsed, ["items", "repos", "repositories", "localizations"]);
   if (!Array.isArray(items)) {
-    return fallbackGitHubRepoLocalizations(repos);
+    return fallbackItems;
   }
 
-  const fallback = new Map(fallbackGitHubRepoLocalizations(repos).map((item) => [item.id, item]));
+  const fallback = new Map(fallbackItems.map((item) => [item.id, item]));
   const localized = new Map(fallback);
   for (const item of items) {
     const raw = item as Partial<GitHubRepoLocalization>;
