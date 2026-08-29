@@ -1,0 +1,1371 @@
+{
+  "schemaVersion": "daily-tech-radar.v1",
+  "source": "producthunt",
+  "locale": "zh-CN",
+  "date": "2026-08-21",
+  "sourceTimezone": "Asia/Shanghai",
+  "generatedAt": "2026-08-29T14:33:37.297Z",
+  "items": [
+    {
+      "rank": 1,
+      "id": "1220506",
+      "name": "Supernova",
+      "tagline": "所有数据都在 Claude 和 Codex 中",
+      "description": "Supernova 将初创公司的实时数据连接到 Claude 和 Codex，让任何人都能在已使用的 AI 工具中提问、调查性能和运行复杂分析。连接 Stripe、HubSpot、PostgreSQL 等 30 多个应用，分析收入、管道、客户、使用情况与运营，无需等待工程师或迁移至传统 BI 平台。",
+      "keywords": [
+        "数据集成",
+        "AI 分析",
+        "初创工具",
+        "Claude",
+        "Codex"
+      ],
+      "metrics": {
+        "votes": 330,
+        "comments": 37
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/NI5US6CC4XM5FB?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/supernova-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/9c109b9d-c5a1-4786-93d0-c75d7ba5ad89.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/9c109b9d-c5a1-4786-93d0-c75d7ba5ad89.png?auto=format",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/8e8273e1-195c-4a42-98ea-479b7f3aafac.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/60ec7180-de6f-4fab-ba76-0229df067074.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/16c885c0-e332-44f1-bd29-a45371528fa3.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/c4783bed-00ec-4627-b408-5af4ec760a2e.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/78ce214d-635e-4e9b-aae7-d8212d4995f5.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/54311e62-7fe2-44a8-a79e-e31441d9153b.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/ce2aa044-2c9d-485f-b32a-ebaff95ec829.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/d3524f8a-1d29-4275-9d8d-f1b6bf61d049.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/66cc59ef-2fb7-4c26-aa82-d6a0987c1e81.jpeg?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "supernova-6",
+        "featuredAt": "2026-08-21T07:01:00Z",
+        "createdAt": "2026-08-21T07:01:00Z"
+      }
+    },
+    {
+      "rank": 2,
+      "id": "1227792",
+      "name": "Wizstar",
+      "tagline": "像专业演员一样动作的数字分身",
+      "description": "Wizstar 帮助创始人、创作者和制作者打造表达丰富、准确的数字大使，外观和动作都与你相似。它能自然手势、与物体互动，并保持精确的口型同步——即使在转头或有物体遮挡时。无需每次都出镜即可创建产品更新、培训、本地化视频和品牌内容，让你的数字形象在多市场、多语言、多渠道中规模化扩展。",
+      "keywords": [
+        "数字分身",
+        "AI 视频",
+        "口型同步",
+        "内容创作"
+      ],
+      "metrics": {
+        "votes": 328,
+        "comments": 34
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/66CCQDPHMOWPG6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/wizstar?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/726c8087-efb4-4e89-b388-8ea1dc94f350.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/726c8087-efb4-4e89-b388-8ea1dc94f350.png?auto=format",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/3923a9fc-4923-4ae3-b501-a4a3d049c9e1.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/6412a3a9-7b43-4516-8c33-597dea721382.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/9f1c9d09-934d-4608-9497-6e43431b1608.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/9ad288e0-81fc-4d2e-a028-e1ee5a80ad94.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/655fbbca-27e4-40f0-9545-24a1c5fb238f.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/c7c413b6-af5d-484c-958d-688b13d82597.jpeg?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "wizstar-2",
+        "featuredAt": "2026-08-21T07:01:00Z",
+        "createdAt": "2026-08-21T07:01:00Z"
+      }
+    },
+    {
+      "rank": 3,
+      "id": "1223186",
+      "name": "Mindcase",
+      "tagline": "几分钟内从网络任何地方提取数据",
+      "description": "Mindcase 是用于以结构化、可用格式提取网络数据的底层基础设施。专为需要可靠网络数据而无需管理抓取基础设施的开发者和 AI 团队打造。可访问热门来源的 API，或为你的特定用例构建网络上的任何内容作为自定义 API。",
+      "keywords": [
+        "网络抓取",
+        "数据提取",
+        "API",
+        "AI 基础设施"
+      ],
+      "metrics": {
+        "votes": 247,
+        "comments": 47
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/YI6XZOPMLJBZWC?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/mindcase?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/dfc2cded-065e-4112-a479-ea2eeae4297f.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/dfc2cded-065e-4112-a479-ea2eeae4297f.png?auto=format",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/b886c820-aede-49df-a749-a4e0c8b7ab94.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/75652beb-24b1-4460-91a4-1483fbe1e840.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/637e44d2-f086-4383-a8d0-74aa7aabd24e.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/181b79b9-f9fe-4893-a37f-6bf9ab492fab.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/d523bb79-c957-4e73-a220-96c6b504d336.jpeg?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "mindcase",
+        "featuredAt": "2026-08-21T07:01:00Z",
+        "createdAt": "2026-08-21T07:01:00Z"
+      }
+    },
+    {
+      "rank": 4,
+      "id": "1227471",
+      "name": "fx (by Vercel)",
+      "tagline": "Vercel 的轻量级开源编码代理",
+      "description": "fx 是 Vercel 的轻量级开源编码代理，旨在不打扰你。用 Zig 编写并以约 6MB 原生二进制文件发布，启动几乎瞬间完成，同时保持低内存和上下文开销。可与本地或云端模型配合使用，通过技能、插件和 MCP 扩展，或嵌入到你自己的代理基础设施中。设计小巧，让模型有更多空间工作。",
+      "keywords": [
+        "编码代理",
+        "开源",
+        "Vercel",
+        "AI 助手"
+      ],
+      "metrics": {
+        "votes": 226,
+        "comments": 4
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/65726O3N7WO5MO?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/fx-by-vercel?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/4def7711-beed-40df-a2c2-0fefa4321300.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/4def7711-beed-40df-a2c2-0fefa4321300.png?auto=format",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/a626310f-94da-4d3e-959f-c1e62dc070d5.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/ccfd8aee-dc5a-4d14-9c12-5e3804654b95.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/54e74d0b-bb49-43df-ae10-8ce1174353be.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/abe88c0e-03a4-4e6d-8e0c-5859739b8447.png?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "fx-by-vercel",
+        "featuredAt": "2026-08-21T07:01:00Z",
+        "createdAt": "2026-08-21T07:01:00Z"
+      }
+    },
+    {
+      "rank": 5,
+      "id": "1228265",
+      "name": "Antigravity IDE Extensions",
+      "tagline": "Antigravity 代理现驻于你现有的编辑器中",
+      "description": "Antigravity IDE Extensions 将 Google 的代理式编码平台引入 VS Code、Visual Studio、JetBrains 和 Zed。在查看内联差异、检查计划、调试代码和交接多步骤任务时，保持代理对话和共享上下文，无需离开编辑器。",
+      "keywords": [
+        "IDE 扩展",
+        "AI 编码",
+        "Google",
+        "代码审查"
+      ],
+      "metrics": {
+        "votes": 162,
+        "comments": 3
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/OJKMMDRQ54XCDO?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/google-antigravity?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/64f05fed-5478-434e-b175-80b218391f8c.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/64f05fed-5478-434e-b175-80b218391f8c.png?auto=format",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/8245405d-5d60-4a06-8541-7cb4c79a4234.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/2660c3ed-9610-4a06-a9a2-33e4fd671fe7.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/a2abe42c-507e-44f0-a293-cfda583e129e.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/6e8df551-5c93-463e-9dc6-daaba4e5c187.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/60d7be23-77a4-4dbd-b203-13ca7c02c7f1.png?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "antigravity-ide-extensions",
+        "featuredAt": "2026-08-21T07:01:00Z",
+        "createdAt": "2026-08-21T07:01:00Z"
+      }
+    },
+    {
+      "rank": 6,
+      "id": "1227815",
+      "name": "Epho",
+      "tagline": "在云端用你的仓库运行 Claude Code、Codex 或 Opencode",
+      "description": "Epho 在云端运行 claude code、codex 或 opencode。POST 一条消息，流式返回工作结果。无需 SDK、守护进程或本地基础设施。Epho 为你管理底层沙箱、回退、事件流和代理配置。通过单次 API 调用，即可轻松启动已连接你仓库、理解你上下文并在无服务器沙箱中运行的 Claude Code 会话。",
+      "keywords": [
+        "云端编码",
+        "AI 代理",
+        "无服务器",
+        "Claude Code"
+      ],
+      "metrics": {
+        "votes": 157,
+        "comments": 12
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/YWZHF6R3TSHJHT?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/epho-claude-code-in-the-cloud?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/41018888-f2da-4ba8-8d08-eca402a2c79d.gif?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/41018888-f2da-4ba8-8d08-eca402a2c79d.gif?auto=format",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/9d626d22-a966-4b89-977c-39524217c1e1.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/df7b87e6-0346-47ec-ba14-59acc48e3800.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/174134d8-07bd-4fd9-aa9b-9333a09c66aa.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/cd665b14-fc89-4e0b-944c-3dcdf7c26cb4.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/7d019541-c30d-45c2-b16d-84e4351c1c48.jpeg?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "epho",
+        "featuredAt": "2026-08-21T07:01:00Z",
+        "createdAt": "2026-08-21T07:01:00Z"
+      }
+    },
+    {
+      "rank": 7,
+      "id": "1227181",
+      "name": "Plow Latch",
+      "tagline": "在 Mac 上以受限权限运行 AI 代理",
+      "description": "安全地赋予你的代理对 Mac 的真实控制权，同时保持数据本地存储。通过 Plow Latch，你几乎可以用 AI 完成任何 Mac 操作。",
+      "keywords": [
+        "Mac AI",
+        "代理控制",
+        "本地数据",
+        "生产力"
+      ],
+      "metrics": {
+        "votes": 146,
+        "comments": 97
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/UWU6UJ7QRR5L65?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/plow-latch?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/c82e3885-fbb3-45cd-86c9-66f4f091b21f.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/c82e3885-fbb3-45cd-86c9-66f4f091b21f.png?auto=format",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/adb9078d-940a-42f8-b7af-a335b2c883a4.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/da3f3dd6-7223-4f61-99d2-39db55c0defd.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/78e1eee2-e3df-4f73-a60a-e43a8a6b31a4.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/f35e5c46-597b-4e56-8211-40a10fbe5b68.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/2f884bb8-a74e-4045-aadf-16ff3cbe3131.jpeg?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "plow-latch",
+        "featuredAt": "2026-08-21T07:01:00Z",
+        "createdAt": "2026-08-21T07:01:00Z"
+      }
+    },
+    {
+      "rank": 8,
+      "id": "1226539",
+      "name": "OneCLI",
+      "tagline": "为每位员工提供安全沙箱化的专业助手代理",
+      "description": "高效完成工作的最佳方式，而非仅讨论或亲力亲为。开源、安全的代理，集成于 Slack 和网页。团队自托管代理框架：沙箱隔离、策略控制，永不接触真实凭证。",
+      "keywords": [
+        "企业 AI",
+        "Slack 机器人",
+        "安全代理",
+        "开源"
+      ],
+      "metrics": {
+        "votes": 144,
+        "comments": 6
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/GOJG4CX6YDBG6M?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/onecli?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/b8f4d9c3-5241-4cbc-b019-524791019b83.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/b8f4d9c3-5241-4cbc-b019-524791019b83.png?auto=format",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/225881a2-3d4e-4420-b06e-f606621e6414.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/5d67ac9b-a739-4385-bd39-f3708de93760.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/16f961a5-9a48-484f-a63f-4dfc79c4772d.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/b1352fbe-0325-44b6-b690-e9b234111ade.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/50225573-0626-433e-82c8-788209d354e0.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/fbe242c3-1a6a-46ae-9b50-c822beb348c1.gif?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "onecli",
+        "featuredAt": "2026-08-21T07:01:00Z",
+        "createdAt": "2026-08-21T07:01:00Z"
+      }
+    },
+    {
+      "rank": 9,
+      "id": "1227654",
+      "name": "Dockhand",
+      "tagline": "人人可用的 Docker 管理工具",
+      "description": "单主机或整个集群的 Docker 管理器。从单一 UI 管理本地、远程 TLS 和 NAT/VPS 主机；部署和更新 Compose 堆栈，支持 Git 自动同步；实时日志、指标和浏览器内容器终端；在镜像发布前扫描 CVE（Grype/Trivy）；从 1Password、Vault、Infisical、Doppler 注入密钥；加密备份至本地、S3 或 GCS；Semver 更新徽章与发布说明；SSO、LDAP 和基于角色的访问控制。加固且免费。",
+      "keywords": [
+        "Docker 管理",
+        "容器编排",
+        "DevOps",
+        "安全扫描"
+      ],
+      "metrics": {
+        "votes": 132,
+        "comments": 7
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/ZTGSK47YHNZBXI?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/dockhand?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/d2291630-ea53-4ba2-9380-7c6f6a2ade06.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/d2291630-ea53-4ba2-9380-7c6f6a2ade06.png?auto=format",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/1f2e93c0-8605-4018-8fbf-e78bbb940cbf.webp?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/cd6bb0a3-bcd9-4a1d-b563-9dbc89431fed.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/6c3a712a-76e8-4228-88e0-241279e86402.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/65f85caf-6168-48f3-9986-8933f05dc6e7.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/37c6f249-096e-453b-9a65-bbbba8bed499.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/f43c5891-96f5-4f8d-91f4-51cc2681167c.webp?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/9b10c58c-fae7-4bbc-a734-1b00a81bdaa2.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/58efb217-7757-4099-b64e-4558d272656e.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/53a3cfd6-09e7-4f04-9145-dc0770ff68bb.webp?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/bb2bd872-179c-49ae-a1b5-a367b37bfbb9.webp?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/3143dacb-7347-49c9-8fff-9604cb6e60a9.webp?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/3083ecbe-0d7d-461d-af33-b93dff75b46e.webp?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/dffa9469-5420-40c9-b23d-ccc6ee62f534.webp?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/43e69aef-1df1-48c5-a087-0ebddad80a13.webp?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/c8025d14-34d6-45f2-b5a7-4a89b4a7f6c3.webp?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/992955f3-cf0e-4519-ad71-6661a81ac221.webp?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/27019361-8ee6-4e30-a984-a9243e9c37b4.webp?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/4028205d-522d-4d16-b8f6-ab6a0cbb00a2.webp?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/8bd8a288-5730-4536-b7fc-f59a5dc62ad0.webp?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/f4346be7-0863-48a4-9308-fad87f5963c9.webp?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/4d6828f1-17ac-446a-8c60-e95bc1222570.webp?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/ffdb8f9f-b4a5-4f09-893d-0ba8a9e20c1a.webp?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/53ee7919-f84f-4666-a71e-252023c84359.webp?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/2e323ffc-e1f1-4702-aaba-743e9825d260.webp?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/c31c7f06-da6e-4161-8980-6783b76564b8.webp?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/5c7ae280-2c7d-481e-93b8-68bf62721494.webp?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/de16e252-acd7-400a-afff-367e854a2ad7.webp?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/413cd639-8c5d-4c76-97e4-bc3662b4eee8.webp?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/c9601fc2-add5-4425-ac0e-74a79144c67f.webp?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/84e497ce-4721-4df2-91c4-9f8bd9ae5c59.webp?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/cc31092b-cf35-4fcd-8935-dda149508599.webp?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/31f35585-6bc0-4438-b24e-6fe11bceda12.webp?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/0dfd3bb9-67e2-45cc-bc4a-e92f1119cb2e.webp?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/9f96e811-ebee-4b6e-8c05-2987b7486ff2.webp?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/5f8309fb-6de8-4678-89a8-c3348840e4a9.webp?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/40d7eb7b-fb56-4c06-b5ad-a7a4ef85dd59.webp?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/88b79db6-a7ae-40a9-a25b-ce919feb30aa.webp?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/336472c2-7b51-4c2e-8860-ecaf59a78319.webp?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/713a59bf-75b9-4456-86e2-1dd56d6f1f9f.webp?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/4d936736-6ea1-444f-bd2e-a4852734cf70.webp?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/e5dd465c-5048-4df9-9120-7762a055521c.webp?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/2275a0dd-eeb0-4a19-8f57-f850a74fe067.webp?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/719e0110-4a05-4c8d-869a-7bb54e10fe62.webp?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/9aedbc44-76c5-448a-91bc-86031c39afb1.webp?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/9f7f91fd-fb1e-4541-98bb-d4e38128b59e.webp?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "dockhand",
+        "featuredAt": "2026-08-21T07:01:00Z",
+        "createdAt": "2026-08-21T07:01:00Z"
+      }
+    },
+    {
+      "rank": 10,
+      "id": "1227172",
+      "name": "Surfdeck",
+      "tagline": "你的标签页，触手可及。",
+      "description": "将常用网站保持在 Mac 菜单栏的便捷位置。",
+      "keywords": [
+        "浏览器标签",
+        "Mac 工具",
+        "生产力"
+      ],
+      "metrics": {
+        "votes": 126,
+        "comments": 11
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/KKNDE5EKUAL52T?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/surfdeck?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/15673e27-3cd5-425d-a80d-ed54c36879c6.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/15673e27-3cd5-425d-a80d-ed54c36879c6.png?auto=format",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/fa18b983-eb1e-43f4-b8ba-066f6226c58b.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/ec3d3dd4-96c5-4955-b9f4-83dd4079caca.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/2dd68be6-a4c4-46ba-939f-5c8a14d4b82f.jpeg?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "surfdeck",
+        "featuredAt": "2026-08-21T07:01:00Z",
+        "createdAt": "2026-08-21T07:01:00Z"
+      }
+    },
+    {
+      "rank": 11,
+      "id": "1227732",
+      "name": "Router by Ramp",
+      "tagline": "Token 就是金钱，两者兼省。",
+      "description": "停止为 LLM 推理支付过高费用并纠结于多个 API 集成。Router.com 提供单一 API 端点，将每个请求路由至满足性能阈值的最低成本模型——由 Ramp 的财务透明度背书。今天就开始更智能地路由吧！",
+      "keywords": [
+        "LLM 路由",
+        "成本优化",
+        "API",
+        "Ramp"
+      ],
+      "metrics": {
+        "votes": 122,
+        "comments": 5
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/3VQG2NN33U6NAF?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/ramp-router?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/fba478b9-6ed7-4e36-9ff3-931bc966d5b9.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/fba478b9-6ed7-4e36-9ff3-931bc966d5b9.png?auto=format",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/b045aae4-6240-4c43-b109-57b9603a88b7.webp?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/40f108a3-fe15-4e74-aedb-8cd041eaebb5.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/aa63ce18-8033-49f4-afa4-ff71140de183.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/a8957a0c-94bb-4199-8571-316a70255c15.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/cdbe7522-0c44-482f-b794-98c093276e91.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/fda8d25e-93ec-4a09-802f-9d8f90acac79.jpeg?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "router-by-ramp",
+        "featuredAt": "2026-08-21T07:01:00Z",
+        "createdAt": "2026-08-21T07:01:00Z"
+      }
+    },
+    {
+      "rank": 12,
+      "id": "1227229",
+      "name": "Local",
+      "tagline": "Mac 上零摩擦的本地 AI",
+      "description": "Local 是一款 macOS 应用，直接在本地机器上运行完全私密的 AI。我们为其打造了完全无摩擦的设置体验。它会根据你的硬件自动调优，使聊天、编码代理和会议记录在相同硬件上运行速度提升高达 5.4 倍，且数据永不离开设备。无需云端、无需账户、无需费用。办公室模式让你在最快的机器上运行 AI，每台笔记本均可连接。",
+      "keywords": [
+        "本地 AI",
+        "隐私",
+        "macOS",
+        "离线"
+      ],
+      "metrics": {
+        "votes": 108,
+        "comments": 5
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/UFC7CN4ZXMJH2S?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/local-7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/61891f08-35a9-466f-bf2d-be27a1bacbf0.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/61891f08-35a9-466f-bf2d-be27a1bacbf0.png?auto=format",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/e63240e9-18ef-47e8-8fec-cf9845e066c8.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/ef180e94-c1ad-461e-9ae3-f9a7e097a1d1.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/209b9c3d-b52c-49f5-b969-d8431fff2eb2.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/a10fb1fa-fd0f-4e78-b3e0-54eb9181aa3c.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/c5c0acfe-ea66-4709-b1d6-f4d708317371.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/c1fe19c9-29b8-4c31-a72d-df34511b4f2b.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/b7a29b6a-0d90-4f0a-a284-fa1fd921365c.jpeg?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "local-7",
+        "featuredAt": "2026-08-21T07:01:00Z",
+        "createdAt": "2026-08-21T07:01:00Z"
+      }
+    },
+    {
+      "rank": 13,
+      "id": "1227944",
+      "name": "Flunkey",
+      "tagline": "Windows 的语音优先 AI 层（测试版）",
+      "description": "Flunkey 是一款面向 Windows 的语音优先生产力工具，可将口语转化为文本、有用操作和记忆上下文，适用于任何工作场景。类似 Wispr Flow，但具备 AI 功能，可轻松提问。对学生、研究人员和重度上下文使用者非常高效，是一款可用于日常生活的通用工具。",
+      "keywords": [
+        "语音 AI",
+        "Windows",
+        "生产力",
+        "转录"
+      ],
+      "metrics": {
+        "votes": 103,
+        "comments": 3
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/2F4AB4LEZ5J3MH?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/flunkey?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/a636c494-64a4-4893-a6d4-804a62cfdb7b.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/a636c494-64a4-4893-a6d4-804a62cfdb7b.png?auto=format",
+        "media": [
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/7b54c2cd-4f75-4afe-8e7e-be4ede2bc0b0.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/67d29039-88bd-436f-ad9f-548aa4f3797e.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/d248c931-4153-4259-8523-5d4094474aa1.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/d69888e5-31bb-4bfa-a2ff-430990bb28bc.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/3fa80ae4-0b20-4c9f-9fa4-1d1803699d23.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/4075dbfd-71a5-4fe2-ba26-7fd4de5d9cb8.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/c7535724-a530-47bc-8466-9de7082f0bfc.png?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "flunkey",
+        "featuredAt": "2026-08-21T07:01:00Z",
+        "createdAt": "2026-08-21T07:01:00Z"
+      }
+    },
+    {
+      "rank": 14,
+      "id": "1227153",
+      "name": "Actx0",
+      "tagline": "AI 代理的记忆基础设施。",
+      "description": "你的代理在会话结束的瞬间就会遗忘一切。你在每个提示中塞入更多上下文，在冗余历史上消耗 token，但仍交付感觉像健忘症的回复。Actx0 是代理缺失的记忆层——即插即用基础设施，存储关键信息，毫秒级检索，跨会话、代理和应用持续工作。专为关注延迟、成本和控制的团队打造。",
+      "keywords": [
+        "AI 记忆",
+        "代理基础设施",
+        "上下文管理"
+      ],
+      "metrics": {
+        "votes": 102,
+        "comments": 13
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/VM6FVGFBGCKKSD?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/actx0?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/64381a02-16f5-42e7-9354-8a8fa9c0cc01.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/64381a02-16f5-42e7-9354-8a8fa9c0cc01.png?auto=format",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/189427d9-a359-492e-b5c9-c87f2e729913.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/2e10185a-6fb2-4e73-9312-2140f8bd9898.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/34d97131-daeb-43e2-aa2e-245dbf38bd1a.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/2ef7d9db-9417-467a-a8a5-33fcf8e24de9.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/6751af6a-4c73-4fdc-873b-192026c7498c.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/55a9453a-165f-4f1b-bccb-d6e9a61da368.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/b12d8782-4187-4a69-8a01-b1a76fe5b9e2.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/d5727401-7091-4fe8-9c7c-06229c2f8bd3.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/6a8388ad-141c-466e-983c-9959a2ce4885.jpeg?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "actx0",
+        "featuredAt": "2026-08-21T07:01:00Z",
+        "createdAt": "2026-08-21T07:01:00Z"
+      }
+    },
+    {
+      "rank": 15,
+      "id": "1228269",
+      "name": "ShogunAI",
+      "tagline": "你 PC 上的个人 AGI。专为完成实际工作而生。",
+      "description": "个人 AGI 不会以更好的聊天机器人形式到来，而是以了解你工作完整状态的代理形式到来——你这个人、你的每个项目、每个承诺——并据此行动。这就是 ShogunAI：跨工作领域通用而非局限于单一任务，驻于你的 PC 而非他人的云端。它在你工作时构建状态，为每条记录保留证据，并投入完成实际工作。阅读是自动的，发送始终等待你的批准，macOS 现已支持。",
+      "keywords": [
+        "个人 AGI",
+        "AI 代理",
+        "macOS",
+        "生产力"
+      ],
+      "metrics": {
+        "votes": 100,
+        "comments": 7
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/UK2Z7GJHTOIJXQ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/shogunai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/41809242-f470-43a0-b44c-501daf4eea81.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/41809242-f470-43a0-b44c-501daf4eea81.png?auto=format",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/8123999a-f546-4817-b64b-3f382c7a22a9.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/e58d49df-8cdd-44b9-a9df-f3c39b17fe85.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/8445aeaf-66d2-449a-8455-0c80e0303c4d.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/812f9e13-d2a8-4f6b-ab59-81a8aeb1dfa3.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/c11407de-8e16-42a9-89f3-faf0ba533939.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/01a62b7d-afe2-482f-b1e8-69299430bd0a.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/78a07210-15a5-4171-90bd-c04fbdfe0670.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/ca7aed82-b17d-402b-a47e-7c6e22235d52.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/8b2aed8a-54a2-409d-a7c6-6bba14212b95.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/416ab9d3-ee8e-4961-9aba-feeeec7dacca.jpeg?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "shogunai",
+        "featuredAt": "2026-08-21T07:01:00Z",
+        "createdAt": "2026-08-21T07:01:00Z"
+      }
+    },
+    {
+      "rank": 16,
+      "id": "1228155",
+      "name": "Project SKY",
+      "tagline": "你的 Windows 环境 AI 伴侣。",
+      "description": "Project SKY 是一款原生为 Windows 设计的智能桌面伴侣。与浏览器绑定的聊天机器人不同，SKY 直接驻于操作系统中，具备空间屏幕感知、流畅对话语音和长期环境记忆。无论是需要即时屏幕分析（圆形智能选择）、自动化桌面工作流，还是语音驱动的任务管理，SKY 都能理解你在所有应用中的工作内容，不打断你的专注。",
+      "keywords": [
+        "Windows AI",
+        "桌面伴侣",
+        "语音助手"
+      ],
+      "metrics": {
+        "votes": 95,
+        "comments": 1
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/4AWYPYAU2BEVVF?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/project-sky?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/57417648-d53e-4156-a299-8a11604eb9e1.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/57417648-d53e-4156-a299-8a11604eb9e1.png?auto=format",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/c2c0bae5-3ab2-41ae-9873-9898b861bfd3.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/25f2d121-05c9-452b-bd58-385f406fe7fa.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/2c4c14f6-b4d4-458b-a4aa-ffa969822ebc.png?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "project-sky",
+        "featuredAt": "2026-08-21T07:01:00Z",
+        "createdAt": "2026-08-21T07:01:00Z"
+      }
+    },
+    {
+      "rank": 17,
+      "id": "1182682",
+      "name": "Outlook Google Calendar Sync for Mac",
+      "tagline": "在 Mac 上将 Outlook 日历同步至 Google",
+      "description": "Outlook Google Calendar Sync for Mac 在无需 Microsoft 管理员批准的情况下，将你的 Outlook 事件镜像至 Google Calendar。在 Mac 本地运行，支持多个日历同步任务，避免发送重复邀请，并在后台静默保持日程更新。",
+      "keywords": [
+        "日历同步",
+        "Outlook",
+        "Google Calendar",
+        "Mac"
+      ],
+      "metrics": {
+        "votes": 84,
+        "comments": 7
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/PQ6K2XD56QHH6D?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/outlook-google-calendar-sync-for-mac?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/c3ee5098-8c3a-410c-ba3a-ec4bea61bfd8.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/c3ee5098-8c3a-410c-ba3a-ec4bea61bfd8.png?auto=format",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/25e8eec0-d64c-4d0e-8334-8eb232365fa3.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/580ad434-1761-4efb-b388-f016dcee5e31.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/a23e7636-87cf-42e0-88a8-ba7d9bc69bc0.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/52f6d6cd-55ae-4284-a3ea-d876e55bd783.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/ff745fa8-7f34-4428-9999-641397329912.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/f697cc54-84ef-4549-92b0-6d0439403baf.jpeg?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "outlook-google-calendar-sync-for-mac",
+        "featuredAt": "2026-08-21T07:01:00Z",
+        "createdAt": "2026-08-21T07:01:00Z"
+      }
+    },
+    {
+      "rank": 18,
+      "id": "1228032",
+      "name": "PixelRead AI OCR",
+      "tagline": "捕获、翻译和理解 Mac 上任何文本",
+      "description": "PixelRead 将 Mac 屏幕上的任何文本转化为可用内容。直接选择文本或按 ⌘⇧2 并在图像、视频、PDF、网站或应用上绘制区域。然后复制、在设备上传译、用系统语音朗读，或使用 Apple Intelligence 总结、重写、提取关键细节并提问。OCR、翻译和 AI 处理均留在 Mac 上。macOS 15.2+ 免费；翻译和 AI 功能需 macOS 26。",
+      "keywords": [
+        "OCR",
+        "屏幕捕获",
+        "AI 翻译",
+        "macOS"
+      ],
+      "metrics": {
+        "votes": 75,
+        "comments": 4
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/2R2HB2HXWCWWLY?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/pixelread-ai-ocr?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/6f427552-95ee-4637-aada-be0e59d40c04.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/6f427552-95ee-4637-aada-be0e59d40c04.png?auto=format",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/e3e7cbf6-38eb-4757-a943-a493a1451258.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/4164f324-a581-48a7-bd86-79cfaeb3764d.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/9e0de4e0-9f60-402b-be36-45e575064c69.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/28fc7d1a-3009-470c-a951-a211624075c4.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/e81b923d-0a77-4001-bafa-e7189a7894fb.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/4ab6533c-b856-4a99-a83b-6d0e70c9000e.jpeg?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "pixelread-ai-ocr",
+        "featuredAt": "2026-08-21T07:01:00Z",
+        "createdAt": "2026-08-21T07:01:00Z"
+      }
+    },
+    {
+      "rank": 19,
+      "id": "1227894",
+      "name": "Lynqo",
+      "tagline": "你的机器是 P2P 服务器、审阅套件和剪贴板同步工具。",
+      "description": "Lynqo 将你的 Mac 或 PC 变为极速本地服务器。共享视频文件、同步剪贴板，并获得帧级精确的客户反馈。零云端、零费用。",
+      "keywords": [
+        "P2P 文件共享",
+        "剪贴板同步",
+        "视频审阅",
+        "本地服务器"
+      ],
+      "metrics": {
+        "votes": 72,
+        "comments": 0
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/UZ5FMAMVMLH4HH?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/lynqo-your-local-nas-server?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/c48ee3aa-deed-4a25-9ad9-be9a162f8211.webp?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/c48ee3aa-deed-4a25-9ad9-be9a162f8211.webp?auto=format",
+        "media": [
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/88cd4c48-3f49-409d-b048-b33bce7da0e5.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/4c5ac853-4b70-4127-a111-9b935979b310.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/a8941508-4cae-4d45-bd8b-fd2fc8a71565.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/55495c37-00a6-4747-9769-782e4953c630.png?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "lynqo",
+        "featuredAt": "2026-08-21T07:01:00Z",
+        "createdAt": "2026-08-21T07:01:00Z"
+      }
+    }
+  ]
+}
