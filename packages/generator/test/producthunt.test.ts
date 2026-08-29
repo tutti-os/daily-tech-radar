@@ -130,6 +130,23 @@ describe("Product Hunt generation", () => {
     expect(result[1]).toEqual(fallbackLocalizations(posts)[1]);
   });
 
+  it("falls back when Agnes returns invalid JSON", async () => {
+    const posts = fixture;
+    const fetchImpl = async () =>
+      new Response(
+        JSON.stringify({ choices: [{ message: { content: "{invalid-json" } }] }),
+        { status: 200 }
+      );
+
+    await expect(
+      localizeProductHuntPosts({
+        posts,
+        apiKey: "test-key",
+        fetchImpl: fetchImpl as typeof fetch
+      })
+    ).resolves.toEqual(fallbackLocalizations(posts));
+  });
+
   it("accepts Agnes GitHub localizations wrapped in a repositories array", async () => {
     const fetchImpl = async () =>
       new Response(
