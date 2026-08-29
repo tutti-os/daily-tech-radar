@@ -1,0 +1,902 @@
+{
+  "schemaVersion": "daily-tech-radar.v1",
+  "source": "producthunt",
+  "locale": "en-US",
+  "date": "2026-08-23",
+  "sourceTimezone": "Asia/Shanghai",
+  "generatedAt": "2026-08-29T14:49:51.712Z",
+  "items": [
+    {
+      "rank": 1,
+      "id": "1186033",
+      "name": "Construct Computer",
+      "tagline": "Your AI coworker gets a computer. You get your day back.",
+      "description": "AI workforce for solo founders and small teams. Any MCP or skill installs like an app, agents build the tools that don't exist yet, deployed and managed by the platform, shareable to the whole team, and any agent action that you like turns into a reusable workflow so agents spend less time thinking and more time doing.",
+      "keywords": [
+        "AI workforce",
+        "solo founders",
+        "MCP",
+        "agent automation",
+        "workflow"
+      ],
+      "metrics": {
+        "votes": 368,
+        "comments": 42
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/WTHQ4KSPC225E6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/construct-computer?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/1bb53e49-e5fa-48c5-9860-e1339bf9d028.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/1bb53e49-e5fa-48c5-9860-e1339bf9d028.png?auto=format",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/b8c9dd11-9d4a-41f2-8f07-fb23477cf542.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/741a156f-0af1-4b1b-9123-9540dd37251f.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/1b584752-538e-4892-b307-ec9a7c7f7e49.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/ea42a1bc-4186-402d-9fbf-777917a1a027.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/69dc52ea-2c78-4e9b-9a51-cb16c4dd5ae2.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/ca544644-51f1-41d2-8e95-a1767fd2da3b.jpeg?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "construct-computer",
+        "featuredAt": "2026-08-23T07:01:00Z",
+        "createdAt": "2026-08-23T07:01:00Z"
+      }
+    },
+    {
+      "rank": 2,
+      "id": "1223147",
+      "name": "FetchSandbox MCP",
+      "tagline": "The MCP that proves your AI's integration fixes work",
+      "description": "Your agent's integration fix passes CI. The data is still wrong. FetchSandbox MCP reproduces the real failure on your code, fixes it, and proves the fix held. A receipt, not a vibe. 70+ API sandboxes. One config block in Cursor or Claude Code.",
+      "keywords": [
+        "MCP",
+        "API sandbox",
+        "CI testing",
+        "integration fix",
+        "Claude Code"
+      ],
+      "metrics": {
+        "votes": 262,
+        "comments": 34
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/WOUOLDN26NYVUI?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/fetchsandbox?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/fd6201ab-49aa-40ff-8fef-a391f91d9b49.x-icon?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/fd6201ab-49aa-40ff-8fef-a391f91d9b49.x-icon?auto=format",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/117e9475-21d2-4e1f-8690-444e909abcc8.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/d69f7237-a449-4b98-9570-0bb78a2c65ba.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/49ad6021-9759-4bcb-9004-364a3815a2b9.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/551cb5c0-e4ba-4e8f-ac6d-420c8776c015.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/eaf6ae46-d7bb-46cc-808e-3dc23b12d0a7.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/a1f38adb-1496-4d1a-9b40-26808302f64c.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/9ce575d7-f16e-48ad-ab21-01cfa9818549.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/d67647c4-7724-4812-96cc-086f7d223d06.jpeg?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "fetchsandbox-mcp",
+        "featuredAt": "2026-08-23T07:01:00Z",
+        "createdAt": "2026-08-23T07:01:00Z"
+      }
+    },
+    {
+      "rank": 3,
+      "id": "1217834",
+      "name": "Aximote",
+      "tagline": "Your car data, finally in your pocket",
+      "description": "Aximote brings the data from your car to your iPhone and turns every drive into something you can understand. Trips appear automatically with insights into consumption, charging, costs and driving efficiency. Customize a dashboard with 20+ vehicle metrics, compare trips and long-term trends, manage multiple cars, and keep one continuous driving history—even when you switch brands. No additional hardware required.",
+      "keywords": [
+        "car data",
+        "EV tracking",
+        "driving analytics",
+        "iPhone app",
+        "vehicle metrics"
+      ],
+      "metrics": {
+        "votes": 221,
+        "comments": 16
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/IK7GY4H42E2FDM?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/aximote?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/cc03aba2-6625-4aca-83cb-77c4f38e45d4.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/cc03aba2-6625-4aca-83cb-77c4f38e45d4.png?auto=format",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/fd817655-3748-4ebd-b617-b9971e75fe81.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/5a1ed5db-71e3-4da7-b1e2-6a83e306f4fc.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/f60c4948-e94f-4001-98ca-6fb9a95b7ec2.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/1c288220-11c5-48fa-9230-6107fd7af8c7.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/f8639737-999a-496d-bd50-1e951f8ccfc5.jpeg?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "aximote",
+        "featuredAt": "2026-08-23T07:01:00Z",
+        "createdAt": "2026-08-23T07:01:00Z"
+      }
+    },
+    {
+      "rank": 4,
+      "id": "1229381",
+      "name": "OpenLogi",
+      "tagline": "A local-first alternative to Logitech Options+",
+      "description": "A native, local-first alternative to Logitech Options+, written in Rust. Remap buttons, drive DPI and SmartShift over HID++ — no account, no telemetry.",
+      "keywords": [
+        "A",
+        "local-first",
+        "alternative",
+        "to"
+      ],
+      "metrics": {
+        "votes": 198,
+        "comments": 6
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/7MQBGZEICSBSJ5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/openlogi?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/d16ffc04-a6a2-4157-8fea-4fe6d2ae0bcb.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/d16ffc04-a6a2-4157-8fea-4fe6d2ae0bcb.png?auto=format",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/c7c2f97a-a872-48d9-8c5a-7cfd0ff036e1.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/214bd051-9983-418b-98a1-3115d1fb44e7.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/77937825-ddcb-4488-bc95-2c69dcb4319f.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/35293e28-a0a2-40fc-aace-c22b5c30eb06.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/9fa6af9d-e218-4e1d-a651-3f2f79247908.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/75f42140-da78-40d6-963e-aec1209bcf8f.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/c8eb0b64-4885-4852-9f0e-a66801c2552b.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/5b30ca99-6772-4b7c-a3f2-a9d7bb7c1f2f.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/eb9d29c5-4bb4-45a9-9831-40d7f3ea32d4.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/83943b14-4173-4db5-9b50-9515d361fbbd.png?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "openlogi",
+        "featuredAt": "2026-08-23T07:01:00Z",
+        "createdAt": "2026-08-23T07:01:00Z"
+      }
+    },
+    {
+      "rank": 5,
+      "id": "1228104",
+      "name": "Claude Academy",
+      "tagline": "The Official Learning Hub by Anthropic",
+      "description": "Master the entire Claude stack—from basic prompting and AI fluency to building complex multi-agent workflows. Claude Academy brings self-paced courses, developer tutorials, and official certification paths into a single interactive learning environment. Start learning at academy.claude.com!",
+      "keywords": [
+        "Claude",
+        "AI learning",
+        "prompting",
+        "multi-agent",
+        "Anthropic"
+      ],
+      "metrics": {
+        "votes": 171,
+        "comments": 2
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/5XZCCZGFQOKTU2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/claude-academy?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/9cf0826e-cd07-4ec6-bcca-46ff5a48c470.svg?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/9cf0826e-cd07-4ec6-bcca-46ff5a48c470.svg?auto=format",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/029adaca-d2ba-45f1-9a37-885dbada9602.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/146a2651-d129-4b73-a6fa-2dab58793110.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/2df73ff7-09f3-47fc-8c8b-133d60217392.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/3ae4ed29-b8b7-47d1-9c3a-36b4f5f3393a.png?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "claude-academy",
+        "featuredAt": "2026-08-23T07:01:00Z",
+        "createdAt": "2026-08-23T07:01:00Z"
+      }
+    },
+    {
+      "rank": 6,
+      "id": "1227238",
+      "name": "Yatko",
+      "tagline": "The download button Github forgot to add",
+      "description": "Yatko (yatko.app) turns any public Github repo into clean download links that picks the right release asset for each visitor's OS and architecture. Swap the domain — one click to the right binary.",
+      "keywords": [
+        "GitHub",
+        "download manager",
+        "release assets",
+        "OS detection"
+      ],
+      "metrics": {
+        "votes": 123,
+        "comments": 9
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/O3BHFNXR7NLXF7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/yatko?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/b674de86-5b66-43dc-a71b-1a086af29594.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/b674de86-5b66-43dc-a71b-1a086af29594.png?auto=format",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/6931ec3c-e1ef-40c0-97e8-b006d00f9105.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/2539ad8a-9d13-4c3c-922c-451cc9987fd2.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/a2d670db-fbb2-4336-8020-a3e359bb053e.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/1a6e8323-5566-4a43-80fa-df96b272b8c2.png?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "yatko",
+        "featuredAt": "2026-08-23T07:01:00Z",
+        "createdAt": "2026-08-23T07:01:00Z"
+      }
+    },
+    {
+      "rank": 7,
+      "id": "1226244",
+      "name": "Plask",
+      "tagline": "Have little ducks show how deep you dive on your Apple Watch",
+      "description": "Plask turns your Apple Watch into a tiny aquatic theatre: pixel-art rubber ducks that dive when you do, your real depth on screen, and a duck or ten. With premium, you get sharks, the Loch Ness-monster, a castaway, surströmming, and more.",
+      "keywords": [
+        "Apple Watch",
+        "diving",
+        "fitness",
+        "watch face",
+        "gamification"
+      ],
+      "metrics": {
+        "votes": 110,
+        "comments": 12
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/2LNRTIPEFZQPWX?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/plask-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/e8b09abc-1c35-4fa1-952f-ac5bb7953fc5.gif?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/e8b09abc-1c35-4fa1-952f-ac5bb7953fc5.gif?auto=format",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/cfb9fd1b-818e-4a0e-9ab2-f2d73cf2d010.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/75a33457-f0b7-4e49-9d2e-3fba38b9b60a.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/884bb4a0-391c-48ba-b669-c39850e8b5e2.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/0c514936-3055-4258-9d01-60485aee535f.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/6ff372dd-7415-4539-87ac-a16688d66ec2.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/4e8f2a59-ad82-438b-ae3c-f35a3fd5932c.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/146ef15b-2b27-4772-a045-266a44495b23.gif?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/32b3aaa8-7337-4de1-bdc8-f1311e20c77d.gif?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "plask-4",
+        "featuredAt": "2026-08-23T07:01:00Z",
+        "createdAt": "2026-08-23T07:01:00Z"
+      }
+    },
+    {
+      "rank": 8,
+      "id": "1227963",
+      "name": "KanaSensei",
+      "tagline": "Read Japanese kana in two weeks",
+      "description": "KanaSensei is a web app for learning to read Japanese. Practice hiragana and katakana with adaptive drills, challenges, memorable mnemonics, native audio, and progress tracking.",
+      "keywords": [
+        "Japanese",
+        "kana",
+        "language learning",
+        "hiragana",
+        "katakana"
+      ],
+      "metrics": {
+        "votes": 105,
+        "comments": 5
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/DZC2H6TKFBDYCC?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/kanasensei?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/8a9e4089-be29-4698-976a-4e1c4c9c76a4.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/8a9e4089-be29-4698-976a-4e1c4c9c76a4.png?auto=format",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/96af752d-3bb7-4c2d-99bc-0ca1068d9243.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/7ab3173c-3c21-428d-8e19-c864256a40bb.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/d270a043-282e-4e97-97e7-a170ae33153f.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/12bce76b-5b05-4196-9d5d-a6e43128cc09.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/68706225-6579-496c-9931-edec9a794990.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/b8daa62b-0099-465f-88c0-b137f577517c.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/1e239eca-fdef-46f2-9618-640dd287911d.png?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "kanasensei",
+        "featuredAt": "2026-08-23T07:01:00Z",
+        "createdAt": "2026-08-23T07:01:00Z"
+      }
+    },
+    {
+      "rank": 9,
+      "id": "1224087",
+      "name": "Tab Notes",
+      "tagline": "Turn your browser new tab into a distraction-free notepad",
+      "description": "Tab Notes turns every new browser tab into a distraction-free notepad. Capture thoughts instantly with rich text, tables, and syntax-highlighted code blocks, or sketch ideas using the built-in shape canvas. Works completely offline with local storage or syncs privately to your personal Google Drive with zero server lock-in. Access notes in full-screen tabs, via a quick toolbar popup over any website, and export totxt ormd anytime.",
+      "keywords": [
+        "note taking",
+        "browser extension",
+        "productivity",
+        "offline",
+        "markdown"
+      ],
+      "metrics": {
+        "votes": 90,
+        "comments": 5
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/BCSJED4WJINCHW?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/tab-notes?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/36037cae-c36d-4c13-8b9a-96d018c8eb42.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/36037cae-c36d-4c13-8b9a-96d018c8eb42.png?auto=format",
+        "media": [
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/a875176d-4082-486a-a402-7237719e7339.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/ba36d023-d1d1-4a76-8da0-42c37a11595e.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/f2b42ae9-840f-4140-bc9b-fbf9ad2c88be.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/5f7ec979-a631-46fc-b592-31187231452e.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/732fa3dc-ea8a-4be6-afa6-2c35b0512dd6.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/c829c599-4266-406e-a34f-3c43d395e86d.png?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "tab-notes-2",
+        "featuredAt": "2026-08-23T07:01:00Z",
+        "createdAt": "2026-08-23T07:01:00Z"
+      }
+    },
+    {
+      "rank": 10,
+      "id": "1224596",
+      "name": "Yattayo",
+      "tagline": "A physical slider to-do board, faithfully rebuilt in 3D",
+      "description": "Yattayo is a to-do list you can feel. Every task is a real 3D slider on an orange board — drag the knob, hear the ratchet click, and an \"OK\" stamp lands on it. Done. • Every task is a sticky note. Tap it and handwrite or type right on the paper • Swipe a finished note to peel it off the board • Spin the whole board around with your finger • Widgets show the real board — slide the switch without opening the app • iPhone, Apple Watch and Mac, synced over iCloud Free for up to 3 tasks.",
+      "keywords": [
+        "todo list",
+        "productivity",
+        "Apple ecosystem",
+        "3D UI",
+        "task management"
+      ],
+      "metrics": {
+        "votes": 88,
+        "comments": 2
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/C6TYBUL6553NIO?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/yattayo?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/70534360-6dd5-4b97-958b-fc026f583cb8.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/70534360-6dd5-4b97-958b-fc026f583cb8.png?auto=format",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/0143aa4e-26d4-454c-a67d-8762bfb398c1.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/b51fa04a-2b27-43eb-8b7d-e5bd027b5499.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/7b57a7a2-3161-4142-8d7b-b5942aac97e5.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/c25046fd-6fb5-42de-8a0d-f06ad2cdaf7f.png?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "yattayo",
+        "featuredAt": "2026-08-23T07:01:00Z",
+        "createdAt": "2026-08-23T07:01:00Z"
+      }
+    },
+    {
+      "rank": 11,
+      "id": "1209530",
+      "name": "Local Music Organizer for Mac",
+      "tagline": "Ultimate toolkit for local Apple Music library maintenance",
+      "description": "Local Music Organizer is a native macOS toolkit built for large local music collections. It works with Music.app libraries and standalone audio files, with no Apple Music subscription required. Find duplicates and missing files, compare playlists, inspect metadata, detect suspicious upscales and transcodes, view spectra and waveforms, and repair or convert rare formats offline. Your music stays on your Mac. Try every feature free for 3 days, then unlock it with one purchase. No subscription.",
+      "keywords": [
+        "music organizer",
+        "macOS",
+        "audio tools",
+        "metadata",
+        "duplicate finder"
+      ],
+      "metrics": {
+        "votes": 84,
+        "comments": 5
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/WTW5AAPLCP3OUG?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/local-music-organizer-for-mac?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/e562c25c-4371-4111-9944-318939d7cb52.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/e562c25c-4371-4111-9944-318939d7cb52.png?auto=format",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/e9751f33-078d-44f7-9a3a-df422df9c936.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/89fc1d1c-ccc1-463c-be1a-e4e08c58565a.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/3b723f90-005a-4678-9bbd-eb4c1509ed5d.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/1d11d209-86bf-4bb4-ada3-aea156b368d8.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/b2e4ec66-45b3-4b97-81ef-715fe53324e0.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/5a56bf33-20d7-4f23-96dc-2bbbf115ad7f.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/12a29419-b687-4d40-ab8f-66718219d852.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/c4f37e50-4692-40a2-bfb7-1bb72fcd5720.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/1c811a9c-69ff-4972-91a7-b1eaded96925.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/2c62060d-6af2-477b-8fe8-872f4ca8ef45.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/20c054a5-cc47-49a3-ba37-82cc56924db1.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/6a378f56-c9f0-4f78-b861-0e1891bc1c5a.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/2bf0dbd4-f3a8-4720-b045-5353e3ecf38f.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/42d40ca5-0eeb-4285-b5f5-31819bbe6ecd.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/4d63c526-8516-4891-9779-b46b0d490eed.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/cc48c01d-7946-4b7b-8d20-7304102213ba.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/6e08237b-3fa0-4c18-8a72-5f7d3712558e.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/bdcd39d0-0bcf-4116-b711-0604619b0c42.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/7a943f58-2fd6-4c09-a295-f08178949883.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/97af090e-7b5c-466f-b526-9d0dab79f231.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/2cd998b7-cc15-4343-aaf6-3aa3adbf4d48.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/e6262b5e-52b0-41aa-9244-3debfab440a1.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/e87798dc-80fe-4b0a-8ec0-cb4ff094c095.jpeg?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "local-music-organizer-for-mac",
+        "featuredAt": "2026-08-23T07:01:00Z",
+        "createdAt": "2026-08-23T07:01:00Z"
+      }
+    },
+    {
+      "rank": 12,
+      "id": "1195105",
+      "name": "ANCBuddy for Bose QC Ultra",
+      "tagline": "Control Bose QC Ultra from your macOS menu bar",
+      "description": "ANCBuddy puts ANC mode and battery status for Bose QuietComfort Ultra devices into the macOS menu bar so you can toggle modes and monitor battery without opening another app. Free trial available; designed for commuters and focus-first workflows. Looking for feedback from QC Ultra users on macOS.",
+      "keywords": [
+        "Bose",
+        "ANC",
+        "macOS",
+        "battery monitor",
+        "noise cancellation"
+      ],
+      "metrics": {
+        "votes": 74,
+        "comments": 5
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/UKPOS6C6VKEDJT?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/ancbuddy-for-bose-qc-ultra?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/082f1a3b-0620-490f-adf5-4e39a356ed8e.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/082f1a3b-0620-490f-adf5-4e39a356ed8e.png?auto=format",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/10b9b92c-791d-4002-ab15-05f976241b26.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/e755510f-3977-48f3-a0f8-ed3a59b4d767.gif?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "ancbuddy-for-bose-qc-ultra",
+        "featuredAt": "2026-08-23T07:01:00Z",
+        "createdAt": "2026-08-23T07:01:00Z"
+      }
+    },
+    {
+      "rank": 13,
+      "id": "1207124",
+      "name": "Flown",
+      "tagline": "Every flight you've ever taken, on one private map",
+      "description": "Every flight you've ever taken, drawn on one map. Tick off 197 countries, collect passport stamps, see your year in the air. And when a late flight means the airline owes you £220-£520, Flown works it out and tells you. On-device, no account.",
+      "keywords": [
+        "flight tracker",
+        "travel",
+        "aviation",
+        "compensation",
+        "privacy"
+      ],
+      "metrics": {
+        "votes": 73,
+        "comments": 1
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/TD22YJFZQZHSGR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/flown?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/3827768f-6203-4a34-9685-6f9c11abfe82.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/3827768f-6203-4a34-9685-6f9c11abfe82.png?auto=format",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/61565038-a049-4285-8880-bdb3202de4dd.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/079794bc-9b7c-4ae1-b647-efbef9c352bc.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/02627633-c13f-41d4-b4f5-800a9f08ef05.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/cbf6579d-14d6-441c-8630-de52a577cef6.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/9032d616-cc1d-48ad-a8c0-2283d0ed054e.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/8f4980b9-bbca-4616-8752-79f97ef1f746.jpeg?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "flown",
+        "featuredAt": "2026-08-23T07:01:00Z",
+        "createdAt": "2026-08-23T07:01:00Z"
+      }
+    }
+  ]
+}
