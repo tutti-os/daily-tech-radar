@@ -1,0 +1,1139 @@
+{
+  "schemaVersion": "daily-tech-radar.v1",
+  "source": "producthunt",
+  "locale": "zh-CN",
+  "date": "2026-08-24",
+  "sourceTimezone": "Asia/Shanghai",
+  "generatedAt": "2026-08-29T14:53:16.131Z",
+  "items": [
+    {
+      "rank": 1,
+      "id": "1227796",
+      "name": "PaymentKit",
+      "tagline": "即使支付处理器宕机也能正常运行的计费系统",
+      "description": "PaymentKit 是一款面向 SaaS 和电商的多处理器计费平台。它可在多个支付处理器之间路由交易，独立保管支付令牌，即使某个商户号（MID）被关闭，订阅计费仍能继续运行。无需编写代码即可上线，需要时提供完整 API。",
+      "keywords": [
+        "支付",
+        "计费",
+        "SaaS",
+        "电商",
+        "多处理器"
+      ],
+      "metrics": {
+        "votes": 456,
+        "comments": 108
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/VBME2QKKZVBULI?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/paymentkit?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/a2d8eca7-1611-49e8-9806-26ffea9ec546.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/a2d8eca7-1611-49e8-9806-26ffea9ec546.png?auto=format",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/36334bde-50fb-4b8d-860b-5bb280836ff9.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/d801a6fd-5948-44dc-86b1-bbe07b1c521c.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/d5e8f63b-9605-444d-aaa8-da1b2d5c7e43.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/e8957521-4ee5-48ba-9d9f-a4a98124e08c.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/155a9b1b-5639-47bc-97ff-90b21c373e53.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/41e335ee-c405-47ab-ac7c-d259f26d5d85.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/2d100f76-ae49-428f-bb4f-97c3aac6cedd.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/2b45a772-a292-4a42-860b-f3b862f186ec.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/b6fbdeda-9efb-4925-9147-215143bc9761.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/cd0f6526-13f2-4e9b-ac2c-0b47ed2ef1ed.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/674493bb-c788-4921-813d-5b466086d428.jpeg?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "paymentkit",
+        "featuredAt": "2026-08-24T07:01:00Z",
+        "createdAt": "2026-08-24T07:01:00Z"
+      }
+    },
+    {
+      "rank": 2,
+      "id": "1229726",
+      "name": "Decawork",
+      "tagline": "统一管理公司内部 AI 代理和工具",
+      "description": "Decawork 帮助 IT 团队将员工自建的 AI 代理正式投入生产，并从统一平台管控每一个代理。员工可在 Claude Code、Codex 或任何低代码工具中构建代理，Decawork 将其接入公司账户，作为公司资产运行。IT 团队可像管理员工一样管理代理：控制访问权限、监督运行、决定退役。",
+      "keywords": [
+        "AI 代理",
+        "IT 管理",
+        "企业 AI",
+        "编码代理",
+        "工作流"
+      ],
+      "metrics": {
+        "votes": 334,
+        "comments": 31
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/6L7FAO6PDHTEGG?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/decawork?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/25a8ffa0-c6ed-4f85-9e9d-38896e194c79.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/25a8ffa0-c6ed-4f85-9e9d-38896e194c79.png?auto=format",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/46415396-8782-473b-8364-65d1017b95b2.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/b33e84c0-05ab-4d40-9020-b7c8cac269d2.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/07e0cffa-ed26-4f53-b37d-99eb0e498051.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/0fe412f3-089b-494b-80b5-55a2a7bd3a49.jpeg?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "decawork",
+        "featuredAt": "2026-08-24T07:01:00Z",
+        "createdAt": "2026-08-24T07:01:00Z"
+      }
+    },
+    {
+      "rank": 3,
+      "id": "1229329",
+      "name": "Offloop",
+      "tagline": "人与 AI 代理协作完成工作的共享空间",
+      "description": "Offloop 是一个共享工作空间，团队成员和 AI 代理在此共同规划、执行和跟踪多步骤任务。频道功能让对话和决策对全员可见，Flow 为每个阶段明确负责人，并在关键决策时引入人工参与，使工作在不同环节间顺畅流转，而非在新的 AI 聊天中重新开始。Offloop 将于 8 月 24 日正式上线。",
+      "keywords": [
+        "协作",
+        "AI 代理",
+        "项目管理",
+        "团队合作",
+        "效率工具"
+      ],
+      "metrics": {
+        "votes": 312,
+        "comments": 19
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/QKHNZCG3KG6RH3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/offloop?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/5edc1f32-7d4f-4748-a5a0-72ec3daed353.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/5edc1f32-7d4f-4748-a5a0-72ec3daed353.png?auto=format",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/aba8ef61-0827-495a-8557-db4535d1113e.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/e9bc9998-184f-4f54-bb0f-fd3178f8eaa3.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/6b498937-a37e-4471-8766-126dd4e82d6b.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/e311456c-74fe-4190-9ccb-c0c3784ef24a.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/ca22046d-b02f-4ab9-afeb-7fa3b00924bc.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/24781330-b318-4d26-a063-1a6f0238749a.jpeg?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "offloop",
+        "featuredAt": "2026-08-24T07:01:00Z",
+        "createdAt": "2026-08-24T07:01:00Z"
+      }
+    },
+    {
+      "rank": 4,
+      "id": "1222466",
+      "name": "Navigara",
+      "tagline": "将 AI 支出直接关联到你的产品路线图",
+      "description": "Navigara 将 AI 编码效能与工程路线图直接关联。像资深工程师一样分析代码以证明真实产能提升，追踪每个路线图项的精确成本，隔离路线图外的浪费，识别维护性消耗。通过将常规 CRUD 任务自动路由至低成本模型，进一步削减支出而不牺牲质量。通过 Git 历史、JIRA/Linear 及任意 AI 编码许可证分钟级接入。",
+      "keywords": [
+        "AI 成本",
+        "工程效能",
+        "产品路线图",
+        "编码效率",
+        "SaaS 分析"
+      ],
+      "metrics": {
+        "votes": 288,
+        "comments": 38
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/N4737ZSIONEFWG?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/navigara?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/cbf9525b-3c2f-4caf-89cd-cf7b958e76d6.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/cbf9525b-3c2f-4caf-89cd-cf7b958e76d6.png?auto=format",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/766df954-51e0-4234-85cc-004d105252e4.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/1c233e6f-e022-4541-b437-e3120c8c3853.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/09e48918-a84b-4d16-9ae3-6c4ce8d5aa17.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/17a32fa3-25b8-4bb5-a5f4-eabba7663e2b.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/f491803e-ca83-4d80-9c16-8a5b8f5d45be.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/f8557c6f-a1d8-43d5-a463-b74f3eb6e8fa.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/3b5e130b-50d0-437b-afe7-ee9eca682407.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/5042b6a6-0335-411e-ba55-6417b3ec93c5.jpeg?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "navigara",
+        "featuredAt": "2026-08-24T07:01:00Z",
+        "createdAt": "2026-08-24T07:01:00Z"
+      }
+    },
+    {
+      "rank": 5,
+      "id": "1229949",
+      "name": "WorldMap.lol",
+      "tagline": "把你的创业公司标在地图上",
+      "description": "一个公开地图，让创业公司标注所在国家。创始人和独立开发者之间趣味竞争的新方式。",
+      "keywords": [
+        "创业公司",
+        "地图",
+        "社区",
+        "创始人",
+        "独立开发者"
+      ],
+      "metrics": {
+        "votes": 196,
+        "comments": 35
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/IK4ONXSX5BRNUA?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/worldmap-lol?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/e991e3d5-d343-4fc3-aaf8-433bac3402e4.svg?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/e991e3d5-d343-4fc3-aaf8-433bac3402e4.svg?auto=format",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/5317d8ef-f083-4d71-ba97-53c74b088335.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/7540c2de-090a-4f6a-985b-e1a5462cd3c4.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/2c980599-eab0-4add-91b3-73d034a3db8e.png?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "worldmap-lol",
+        "featuredAt": "2026-08-24T07:01:00Z",
+        "createdAt": "2026-08-24T07:01:00Z"
+      }
+    },
+    {
+      "rank": 6,
+      "id": "1230451",
+      "name": "Antigravity Remote Control",
+      "tagline": "从任意浏览器远程控制 Antigravity 代理",
+      "description": "Antigravity Remote Control 让你从任何网页浏览器监控和操控 Antigravity 编码会话。将完整的本地上下文、凭证和构建工具保留在主工作站，随时随地审查计划、批准命令并接收推送通知。",
+      "keywords": [
+        "远程控制",
+        "AI 编码",
+        "浏览器",
+        "开发工具",
+        "监控"
+      ],
+      "metrics": {
+        "votes": 164,
+        "comments": 3
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/KKIM77T2NNVHRR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/google-antigravity?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/64f05fed-5478-434e-b175-80b218391f8c.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/64f05fed-5478-434e-b175-80b218391f8c.png?auto=format",
+        "media": [
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/faf9ba64-e135-48c7-841e-29fb8eac952c.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/4af58a54-2067-4765-9ea5-118fda7897e6.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/aabf926d-2278-444e-9d22-5b41bd1d853b.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/1ec51af3-1c44-4ba5-842a-c1991ed3b87f.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/d43fd2fc-a8ee-4036-a6d6-0fddae7458b7.png?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "antigravity-remote-control",
+        "featuredAt": "2026-08-24T07:01:00Z",
+        "createdAt": "2026-08-24T07:01:00Z"
+      }
+    },
+    {
+      "rank": 7,
+      "id": "1230136",
+      "name": "Dropstone",
+      "tagline": "会记忆、学习、无处不在行动的 AI 运行时",
+      "description": "Dropstone 是一款智能运行时，一个能从 AI 助手进化为全天候数字劳动力的系统。",
+      "keywords": [
+        "AI 运行时",
+        "自动化",
+        "数字劳动力",
+        "AI 助手",
+        "效率工具"
+      ],
+      "metrics": {
+        "votes": 133,
+        "comments": 20
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/2QWED3PGXZG25J?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/dropstone-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/a842d9d9-424e-421a-8ac6-93f1745a1aeb.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/a842d9d9-424e-421a-8ac6-93f1745a1aeb.png?auto=format",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/60c7947f-7982-426e-8898-5189c2ee6920.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/bcdff525-aa35-4aeb-9b8c-9fe9d4de0e8c.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/e23c645d-e4c8-4d73-8763-7823be751ee0.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/863e6c5a-5880-4a01-b678-05b122506ea6.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/79b186b7-2682-463a-b30e-b1c4d612af5c.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/c08700a9-5a77-4364-994a-286d922d7ba1.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/5634874f-331d-4cb0-8721-e2dee3dbb383.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/b5d0aff2-1295-495a-91e1-af11282e985f.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/80fec380-74a7-423e-9cf0-94df0ffc63b5.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/bfa6cf7f-6d9e-453d-88a8-b13a16bba11c.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/73e79be6-6f07-4fe8-b644-689b876d73e2.png?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "dropstone-5",
+        "featuredAt": "2026-08-24T07:01:00Z",
+        "createdAt": "2026-08-24T07:01:00Z"
+      }
+    },
+    {
+      "rank": 8,
+      "id": "1229902",
+      "name": "Localdock",
+      "tagline": "让每个本地项目拥有真实网址",
+      "description": "Localdock 提供简单方案，为本地项目生成真实 HTTPS 链接。无需客户端安装即可分享开发环境。一次性支付 9 美元即可轻松管理项目，随时随地通过手机访问。",
+      "keywords": [
+        "本地开发",
+        "HTTPS",
+        "项目分享",
+        "开发者工具",
+        "测试"
+      ],
+      "metrics": {
+        "votes": 119,
+        "comments": 12
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/ICZAQZNUWJYH7P?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/localdock?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/df32973d-5cd3-435d-abc7-2a765d465291.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/df32973d-5cd3-435d-abc7-2a765d465291.png?auto=format",
+        "media": [
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/87c21d7f-c369-4aed-91e2-cd2b4ad1e8d3.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/189ae57e-a5a7-461a-a803-c2ed8105243b.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/19c56f16-4734-4c8e-a80d-0bf4a9a489ff.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/a6322266-5f63-4d46-9c30-4c8b374eb553.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/a9e8ad43-2d3b-43b5-b8bd-29c170d1bbf9.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/6989ff72-cb2a-4bdc-a3c0-361a33821ff8.png?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "localdock",
+        "featuredAt": "2026-08-24T07:01:00Z",
+        "createdAt": "2026-08-24T07:01:00Z"
+      }
+    },
+    {
+      "rank": 9,
+      "id": "1229906",
+      "name": "Bumply",
+      "tagline": "更新依赖包，随时撤销任何操作",
+      "description": "一款 Mac 应用，帮助 npm、pnpm、Yarn 和 Bun 项目保持依赖最新。Bumply 在每次执行前展示所有命令，以字节级精度备份清单和锁文件，一旦出现问题即刻回滚。",
+      "keywords": [
+        "依赖管理",
+        "npm",
+        "Mac 应用",
+        "版本控制",
+        "开发者工具"
+      ],
+      "metrics": {
+        "votes": 114,
+        "comments": 3
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/UU6NGEKCQA7R57?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/bumply?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/007fd5a9-c9fe-4780-ba46-1eb63c219b0e.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/007fd5a9-c9fe-4780-ba46-1eb63c219b0e.png?auto=format",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/8771cd14-0a30-46ad-86b5-4dc916696cd0.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/2ac04614-debe-42a8-bddb-8bef9c61118d.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/631e8e84-ed1b-4506-b27d-599ef1d31803.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/12434a98-078a-4115-bb02-f682c5bd6096.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/0df09d7f-1a69-49b5-af68-095aa9c4fdb8.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/5916c5de-67d0-480a-8366-5b2dbe197ce3.png?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "bumply",
+        "featuredAt": "2026-08-24T07:01:00Z",
+        "createdAt": "2026-08-24T07:01:00Z"
+      }
+    },
+    {
+      "rank": 10,
+      "id": "1230122",
+      "name": "Lucid Train",
+      "tagline": "为新代码库和现有代码库构建系统设计",
+      "description": "Lucid Train 从代码库生成架构图，然后将架构图作为规范交给编码代理执行。支持本地模型，完全离线运行。",
+      "keywords": [
+        "架构图",
+        "系统设计",
+        "AI 编码",
+        "离线",
+        "代码库"
+      ],
+      "metrics": {
+        "votes": 113,
+        "comments": 8
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/EIVQY453NHXK2T?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/lucid-train?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/fe13b2b4-d001-4e53-8e9a-2e029b9cf497.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/fe13b2b4-d001-4e53-8e9a-2e029b9cf497.png?auto=format",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/37da78b1-5904-433c-bf8b-6d04e70629a6.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/74bc00bb-351a-4f73-8fdb-f81a7ccfade8.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/c22ce642-b3f6-4906-a6ea-c4bc27febd22.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/0d9ed081-d8d4-4368-bf0e-a83f9a54d9ff.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/2b88fe1e-a57e-4244-af8f-497f7292317f.jpeg?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "lucid-train",
+        "featuredAt": "2026-08-24T07:01:00Z",
+        "createdAt": "2026-08-24T07:01:00Z"
+      }
+    },
+    {
+      "rank": 11,
+      "id": "1229465",
+      "name": "Trama",
+      "tagline": "用自然语言创建 macOS 原生自动化",
+      "description": "Zapier 和 Shortcuts 让你像程序员一样思考：模块、流程、条件判断。Trama 移除了这层障碍。按下 Cmd+Option+X，用你自己的语言描述重复性操作，它便在后台运行。独特之处：支持多种语言而不仅是英语；原生 Mac 能力：AppleScript、Shell、OCR、屏幕感知；它会观察你的重复操作并推荐自动化方案；出错时 AI 解释错误并一键修复；支持 Claude、GPT、Gemini、Groq 等模型。",
+      "keywords": [
+        "自动化",
+        "macOS",
+        "自然语言",
+        "效率工具",
+        "AI"
+      ],
+      "metrics": {
+        "votes": 107,
+        "comments": 4
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/V7HJKXXGPGC7QL?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/trama-mac-automation-in-plain-language?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/28877ef0-43e3-4c34-8700-d02f8b09367a.jpeg?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/28877ef0-43e3-4c34-8700-d02f8b09367a.jpeg?auto=format",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/d669ebbe-5622-4d3e-ba26-1676d21f7df1.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/b60e5a65-18e8-4667-91a7-edbd733078d1.jpeg?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "trama-3",
+        "featuredAt": "2026-08-24T07:01:00Z",
+        "createdAt": "2026-08-24T07:01:00Z"
+      }
+    },
+    {
+      "rank": 12,
+      "id": "1227531",
+      "name": "Phoenix",
+      "tagline": "专为 iOS 和 macOS 应用开发打造的 AI 编码代理",
+      "description": "Phoenix 是一款专为 iOS 开发打造的 AI 编码代理。它能编写和编辑代码、运行构建和工具、诊断错误，帮助你从想法到可运行应用完成整个 iOS 项目。",
+      "keywords": [
+        "iOS",
+        "AI 编码",
+        "Swift",
+        "应用开发",
+        "macOS"
+      ],
+      "metrics": {
+        "votes": 105,
+        "comments": 5
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/R2WY3CAIXHTVOZ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/phoenix-10?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/563eeb65-071f-4d9f-bc76-6111a5c8b9d6.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/563eeb65-071f-4d9f-bc76-6111a5c8b9d6.png?auto=format",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/6efe2090-4ed1-446b-96a7-280de01ffb1e.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/5ec1d502-ea61-459e-841f-dbe8db1598b2.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/73b0486a-2912-4c04-82c5-8097695b119b.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/7c48e2f3-1095-4bd0-bceb-903a3d4b4111.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/adfc797c-e791-4a3d-a2d0-af5621649ef9.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/ec1c8734-869e-4586-84f8-04750d7ca4bd.jpeg?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "phoenix-37f8b9a2-86ef-4255-b8e7-0b78eb650664",
+        "featuredAt": "2026-08-24T07:01:00Z",
+        "createdAt": "2026-08-24T07:01:00Z"
+      }
+    },
+    {
+      "rank": 13,
+      "id": "1230321",
+      "name": "Wavepocket ▶︎•၊||၊||။၊|။",
+      "tagline": "合成器、鼓机、四轨磁带循环与效果器",
+      "description": "Wavepocket 是一款口袋工作室：合成器、鼓机、采样器和四轨磁带录音机，尽握掌心。在波形图上切片采样，为每片命名，通过四轨磁带在片段间切换：支持任意模式录音，将片段拖入轨道、修剪边缘、在播放头处切割。所有轨道共享同一循环边界，确保层次始终对齐。混音台支持每轨独立调节音量、声像和静音。",
+      "keywords": [
+        "音乐",
+        "合成器",
+        "采样",
+        "音乐制作",
+        "移动应用"
+      ],
+      "metrics": {
+        "votes": 93,
+        "comments": 7
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/H3U3J7JMT6UHQ2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/wavepocket-free-ios-app?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/7d5a4915-1861-483d-a94c-684215feb729.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/7d5a4915-1861-483d-a94c-684215feb729.png?auto=format",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/44beffb2-e558-42a3-8537-a2721aa39861.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/453ce2c4-e3bf-4a5a-ac39-db4de548b197.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/4090ec98-594d-458c-af6e-3811c69b0051.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/15bdcb5b-360b-4068-8d4a-80d6b2f3e0c1.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/d8c713a8-ba54-4f79-8888-2dfb11bf9a4c.png?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "wavepocket",
+        "featuredAt": "2026-08-24T07:01:00Z",
+        "createdAt": "2026-08-24T07:01:00Z"
+      }
+    },
+    {
+      "rank": 14,
+      "id": "1227233",
+      "name": "Destiny Rings",
+      "tagline": "基于 proximity 的约会、社交与人脉拓展",
+      "description": "Destiny Rings 用真实世界 proximity 取代无尽滑动。佩戴蓝牙智能戒指，当附近有匹配的人——在酒吧、活动现场或街头——应用会提醒你。选择约会、社交或人脉模式，发送信号，进行命运匹配，然后点击查看并当面交谈。无需浏览资料，无需远距离匹配，只与真正在场的人建立真实连接。",
+      "keywords": [
+        "约会",
+        "社交",
+        " proximity",
+        "蓝牙",
+        "人脉拓展"
+      ],
+      "metrics": {
+        "votes": 92,
+        "comments": 10
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/3DTTW4XISHZK6G?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/destiny-rings?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/09951ffa-2403-469f-8b13-4620c405a931.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/09951ffa-2403-469f-8b13-4620c405a931.png?auto=format",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/5adf1757-48b8-4e65-9dec-8dfc4192c6de.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/0c82c531-641b-4c91-a5d0-b6e8e82ed2ac.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/42192465-8ff2-42c6-9926-bb870b5e6948.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/29266c37-4d69-41cb-a019-c2d4b5ea8739.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/efb34624-3e87-429e-97cb-150b43e7d880.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/14fbfba8-8e9b-4e77-b143-65878ce760ca.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/934b9651-bf9e-4cdc-aab5-6afc1fcf55ee.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/9fea5868-b825-4d0c-863e-b989c3b06dd6.jpeg?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "destiny-rings",
+        "featuredAt": "2026-08-24T07:01:00Z",
+        "createdAt": "2026-08-24T07:01:00Z"
+      }
+    },
+    {
+      "rank": 15,
+      "id": "1229798",
+      "name": "Contrive",
+      "tagline": "跨所有工作应用搜索并执行操作",
+      "description": "Contrive 是企业知识的统一搜索和行动层。它不只返回链接：跨连接工具综合上下文，保留来源可追溯性，从键盘优先的桌面命令栏将结果转化为即时操作。与仅搜索产品或通用 AI 助手不同，Contrive 弥合了「找到」与「做到」之间的鸿沟，同时尊重工作区权限，让团队精确控制索引内容。",
+      "keywords": [
+        "搜索",
+        "效率工具",
+        "AI",
+        "企业",
+        "工作流"
+      ],
+      "metrics": {
+        "votes": 92,
+        "comments": 4
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/6IPCP4KZKB3T62?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/contrive?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/75c61f74-a2fa-48d2-9c47-1369d2edc12a.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/75c61f74-a2fa-48d2-9c47-1369d2edc12a.png?auto=format",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/9dddee82-d3a6-477b-999c-f194dee08ccc.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/d82f5872-2452-4fd6-a1fd-9917f2e914ed.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/65dc7aec-4ca6-49e7-942d-fe504435dabb.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/6f5c0345-aa7c-48e8-ad55-94cc3e65d770.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/d0c44b60-1e54-474a-872a-259797a71f31.jpeg?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "contrive",
+        "featuredAt": "2026-08-24T07:01:00Z",
+        "createdAt": "2026-08-24T07:01:00Z"
+      }
+    },
+    {
+      "rank": 16,
+      "id": "1229883",
+      "name": "Cortex by SKYNETLAB",
+      "tagline": "决定什么值得记住的 AI 记忆层",
+      "description": "通过 MCP 为你的 AI 提供托管语义记忆。每次写入都经过质量筛选（生产中约 80% 因冗余被拒绝），事实转化为结构化声明，矛盾被追踪而非覆盖，回答附带来源引用。2 分钟完成 Claude 接入，兼容任意 MCP 客户端。30 天免费试用，无需信用卡。月费低至 €0.99。欧盟基础设施，专利引擎。意大利贝加莫独立开发。",
+      "keywords": [
+        "AI 记忆",
+        "MCP",
+        "语义搜索",
+        "知识库",
+        "Claude"
+      ],
+      "metrics": {
+        "votes": 85,
+        "comments": 9
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/KKJVZ2IIEPI66M?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/cortex-by-skynetlab?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/bc5213f6-3f22-4adc-a27b-3f35295eace9.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/bc5213f6-3f22-4adc-a27b-3f35295eace9.png?auto=format",
+        "media": [
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/bcd928c9-9c3d-4077-9ae2-f7c7c16af00e.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/ec82d358-ce9a-4640-b183-93c68adbfcee.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/c11926c7-2670-472f-94d7-17f87a12f96d.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/1fcdd97a-f663-42ab-9aed-ae40d6e677ed.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/04c1a4cd-6f18-4750-95ae-ad1375b82a0c.jpeg?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "cortex-by-skynetlab",
+        "featuredAt": "2026-08-24T07:01:00Z",
+        "createdAt": "2026-08-24T07:01:00Z"
+      }
+    },
+    {
+      "rank": 17,
+      "id": "1230103",
+      "name": "IFAH",
+      "tagline": "将声音作为空间来创作和体验的乐器",
+      "description": "IFAH 是一族全新乐器，核心理念简单而深刻：声音可以被创作成一种环境。创建、保存和回放可复现的声学场，用于聆听、练习、演出和研究。IFAH 结合离线优先的乐器、封闭的声学体验和全新的人机交互界面，从精心编排的声学场中聆听，到用手演奏音乐。",
+      "keywords": [
+        "音乐",
+        "乐器",
+        "声音设计",
+        "创意",
+        "音频"
+      ],
+      "metrics": {
+        "votes": 83,
+        "comments": 2
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/LKGV76WCQ4VW2L?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/ifah-a-new-experience-of-sound?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/90270444-b0d2-400b-bde1-6b0ed4e16120.svg?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/90270444-b0d2-400b-bde1-6b0ed4e16120.svg?auto=format",
+        "media": [
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/882291eb-3ddf-4fd6-9a5d-c41bf757c3d1.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/13c60953-fd8f-4c75-a6d2-f533bdfcd28b.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/fc266c6f-237c-422e-bd2d-8d09ffd1a4b4.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/d4dbd717-307e-4e77-abf2-9413f089b865.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/805a0878-0743-4596-8e94-0d9e79018dbb.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/54568d95-2a64-45ce-baa4-d90732463771.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/e374c175-b287-439e-8acc-5b92f4027797.png?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "ifah",
+        "featuredAt": "2026-08-24T07:01:00Z",
+        "createdAt": "2026-08-24T07:01:00Z"
+      }
+    },
+    {
+      "rank": 18,
+      "id": "1230074",
+      "name": "Treebar",
+      "tagline": "一个视图掌控所有活跃工作树",
+      "description": "Codex 同时在 5 个工作树中工作？Treebar 从你的 MacBook 刘海处显示它的位置、变更内容和活跃代理数量。Treebar 监控 Git 和 Codex，实时掌握工作动向。作者因频繁迷失 Codex 的工作位置而数月前来开发此工具，如今终于发布。核心代码即将开源。",
+      "keywords": [
+        "Git",
+        "Codex",
+        "开发者工具",
+        "效率工具",
+        "macOS"
+      ],
+      "metrics": {
+        "votes": 80,
+        "comments": 3
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/MP4Y4NBWEJJAF4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/treebar-where-is-codex?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/104cb797-521d-45a3-95df-243e41b2eea3.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/104cb797-521d-45a3-95df-243e41b2eea3.png?auto=format",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/61f2305a-86d0-4313-9ac2-9d968efef2c3.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/e0d0eaa9-0474-4984-807c-0493973aa40d.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/b3c66024-dfa7-4470-b9d2-5ae1d037f91c.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/9887ee48-1ad2-45f1-971d-717d307c2dde.png?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "treebar",
+        "featuredAt": "2026-08-24T07:01:00Z",
+        "createdAt": "2026-08-24T07:01:00Z"
+      }
+    }
+  ]
+}
