@@ -51,8 +51,8 @@ jobs:
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
-      - name: Test
-        run: pnpm test
+      - name: Test generator and SDK
+        run: pnpm -r test
 
       - name: Generate Product Hunt data
         env:
@@ -101,8 +101,8 @@ jobs:
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
-      - name: Test
-        run: pnpm test
+      - name: Test generator and SDK
+        run: pnpm -r test
 
       - name: Generate GitHub data
         env:

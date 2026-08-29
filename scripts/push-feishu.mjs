@@ -28,7 +28,7 @@ export function deriveCategories(values) {
   return [...new Set(categories.length ? categories : ["其他"])];
 }
 
-function githubCover(repo) {
+export function githubCover(repo) {
   const visualUrl = repo.visual?.thumbUrl || repo.visual?.url;
   if (repo.visual?.kind === "repository_avatar" || isGithubAvatarVisual(repo, visualUrl)) {
     return `https://opengraph.githubassets.com/daily-tech-radar/${repo.owner}/${repo.name}`;
