@@ -1,0 +1,1740 @@
+{
+  "schemaVersion": "trendreader.daily.v1",
+  "packageId": "github-daily-All-2026-08-26",
+  "locale": "en-US",
+  "generatedAt": "2026-08-29T14:56:46.907Z",
+  "expiresAt": "2026-08-30T14:56:46.907Z",
+  "sourceWindow": {
+    "since": "daily",
+    "language": "All",
+    "spokenLanguageCode": null
+  },
+  "sources": [
+    {
+      "id": "github_trending_html",
+      "role": "candidate",
+      "status": "ok",
+      "itemCount": 20
+    }
+  ],
+  "taxonomy": {
+    "version": "2026-08-26",
+    "generatedAt": "2026-08-29T14:56:46.907Z",
+    "categories": [
+      {
+        "id": "ai",
+        "label": "AI",
+        "labelEn": "AI",
+        "icon": "bot",
+        "order": 20
+      },
+      {
+        "id": "tools",
+        "label": "工具",
+        "labelEn": "Tools",
+        "icon": "wrench",
+        "order": 100
+      },
+      {
+        "id": "frontend",
+        "label": "前端",
+        "labelEn": "Frontend",
+        "icon": "layout",
+        "order": 140
+      },
+      {
+        "id": "backend",
+        "label": "后端",
+        "labelEn": "Backend",
+        "icon": "server",
+        "order": 110
+      },
+      {
+        "id": "unclassified",
+        "label": "Needs Review",
+        "labelEn": "Needs Review",
+        "icon": "circle-help",
+        "order": 999
+      }
+    ]
+  },
+  "repos": [
+    {
+      "id": "tt-a1i-archify",
+      "owner": "tt-a1i",
+      "name": "archify",
+      "url": "https://github.com/tt-a1i/archify",
+      "avatarUrl": "https://github.com/tt-a1i.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 1,
+        "starsGained": 3927
+      },
+      "metadata": {
+        "description": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
+        "language": "JavaScript",
+        "topics": [],
+        "stars": 29835,
+        "forks": 1865,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "JavaScript"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/tt-a1i/archify/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "Archify",
+        "summary": "Turn a codebase or system description into a polished, interactive system map — directly in chat. Archify is a Node.js rendering and validation system for Cursor, Claude Code, Codex CLI, and OpenCode. Agents produce typed JSON IR; Archify deterministically compiles it into HTML/SVG. Open it and present — five diagram types, four presets, dark/light themes, built-in brand marks, and finite motion Review architecture changes before merge — compare two validated snapshots as Before / Delta / After, with exact added, removed, changed, moved, and rerouted facts Every interaction stays grounded — search nodes, optionally open revision-verified source, trace upstream/downstream authored reach and e",
+        "headings": [
+          "Archify",
+          "❤️ Sponsors",
+          "See Archify in action",
+          "A real repository, mapped from source",
+          "Preview",
+          "Quick start",
+          "1. Install",
+          "2. Ask for one bounded view"
+        ],
+        "commands": [],
+        "keywords": [
+          "ai",
+          "agent",
+          "archify",
+          "❤️ sponsors",
+          "see archify in action",
+          "a real repository, mapped from source"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/tt-a1i/archify/main/docs/assets/archify-readme-hero.png",
+        "thumbUrl": "https://raw.githubusercontent.com/tt-a1i/archify/main/docs/assets/archify-readme-hero.png",
+        "alt": "Archify product preview",
+        "sourceUrl": "https://raw.githubusercontent.com/tt-a1i/archify/main/docs/assets/archify-readme-hero.png",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.8,
+        "method": "rules",
+        "reasons": [
+          "Matched ai",
+          "Matched agent"
+        ],
+        "signals": [
+          "ai",
+          "agent"
+        ]
+      },
+      "rank": {
+        "globalRank": 1,
+        "categoryRank": 1,
+        "score": 118
+      }
+    },
+    {
+      "id": "k-dense-ai-scientific-agent-skills",
+      "owner": "K-Dense-AI",
+      "name": "scientific-agent-skills",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+      "avatarUrl": "https://github.com/K-Dense-AI.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 2,
+        "starsGained": 1604
+      },
+      "metadata": {
+        "description": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 190,000+ scientists worldwide. 165 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
+        "language": "Python",
+        "topics": [],
+        "stars": 37505,
+        "forks": 3547,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Python"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "Scientific Agent Skills",
+        "summary": "🔔 Claude Scientific Skills is now Scientific Agent Skills. Same skills, broader compatibility — now works with any AI agent that supports the open https://agentskills.io/ standard, not just Claude. New: https://github.com/K-Dense-AI/k-dense-byok — A free, open-source AI co-scientist that runs on your desktop, powered by Scientific Agent Skills. Bring your own API keys, pick from 40+ models, and get a full research workspace with web search, file handling, 100+ scientific databases, and access to all 161 skills in this repo. Your data stays on your computer, and you can optionally scale to cloud compute via https://modal.com/ for heavy workloads. https://github.com/K-Dense-AI/k-dense-byok",
+        "headings": [
+          "Scientific Agent Skills",
+          "🎥 More tutorials",
+          "📦 What's Included",
+          "📋 Table of Contents",
+          "🚀 Why Use This?",
+          "⚡ **Accelerate Your Research**",
+          "🎯 **Comprehensive Coverage**",
+          "🔧 **Easy Integration**"
+        ],
+        "commands": [
+          "pip install cisco-ai-skill-scanner",
+          "pip install uv",
+          "pip install cisco-ai-skill-scanner",
+          "pip install package-name"
+        ],
+        "keywords": [
+          "ai",
+          "agent",
+          "scientific agent skills",
+          "🎥 more tutorials",
+          "📦 what's included",
+          "📋 table of contents"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "repository_open_graph",
+        "url": "https://opengraph.githubassets.com/daily-tech-radar/K-Dense-AI/scientific-agent-skills",
+        "thumbUrl": "https://opengraph.githubassets.com/daily-tech-radar/K-Dense-AI/scientific-agent-skills",
+        "alt": "K-Dense-AI/scientific-agent-skills",
+        "sourceUrl": "https://github.com/K-Dense-AI/scientific-agent-skills",
+        "promptHash": "sha256:cedb4bf53bde"
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.8,
+        "method": "rules",
+        "reasons": [
+          "Matched ai",
+          "Matched agent"
+        ],
+        "signals": [
+          "ai",
+          "agent"
+        ]
+      },
+      "rank": {
+        "globalRank": 2,
+        "categoryRank": 2,
+        "score": 116
+      }
+    },
+    {
+      "id": "anthropics-claude-plugins-official",
+      "owner": "anthropics",
+      "name": "claude-plugins-official",
+      "url": "https://github.com/anthropics/claude-plugins-official",
+      "avatarUrl": "https://github.com/anthropics.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 3,
+        "starsGained": 356
+      },
+      "metadata": {
+        "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
+        "language": "Python",
+        "topics": [],
+        "stars": 35251,
+        "forks": 3948,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Python"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/anthropics/claude-plugins-official/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "Claude Code Plugins Directory",
+        "summary": "A curated directory of high-quality plugins for Claude Code. ⚠️ Important: Make sure you trust a plugin before installing, updating, or using it. Anthropic does not control what MCP servers, files, or other software are included in plugins and cannot verify that they will work as intended or that they won't change. See each plugin's homepage for more information. /plugins - Internal plugins developed and maintained by Anthropic /externalplugins - Third-party plugins from partners and the community Plugins can be installed directly from this marketplace via Claude Code's plugin system.",
+        "headings": [
+          "Claude Code Plugins Directory",
+          "Structure",
+          "Installation",
+          "Contributing",
+          "Internal Plugins",
+          "External Plugins",
+          "Plugin Structure",
+          "Plugin names are immutable"
+        ],
+        "commands": [],
+        "keywords": [
+          "claude code plugins directory",
+          "structure",
+          "installation",
+          "contributing"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "repository_open_graph",
+        "url": "https://opengraph.githubassets.com/daily-tech-radar/anthropics/claude-plugins-official",
+        "thumbUrl": "https://opengraph.githubassets.com/daily-tech-radar/anthropics/claude-plugins-official",
+        "alt": "anthropics/claude-plugins-official",
+        "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
+        "promptHash": "sha256:083f36522e2c"
+      },
+      "classification": {
+        "primaryCategoryId": "unclassified",
+        "secondaryCategoryIds": [],
+        "confidence": 0.4,
+        "method": "rules",
+        "reasons": [
+          "No taxonomy rule matched with enough confidence"
+        ],
+        "signals": []
+      },
+      "rank": {
+        "globalRank": 3,
+        "categoryRank": 3,
+        "score": 114
+      }
+    },
+    {
+      "id": "bilawalsidhu-gods-eye-view",
+      "owner": "bilawalsidhu",
+      "name": "gods-eye-view",
+      "url": "https://github.com/bilawalsidhu/gods-eye-view",
+      "avatarUrl": "https://github.com/bilawalsidhu.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 4,
+        "starsGained": 1870
+      },
+      "metadata": {
+        "description": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
+        "language": "JavaScript",
+        "topics": [],
+        "stars": 12044,
+        "forks": 2416,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "JavaScript"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/bilawalsidhu/gods-eye-view/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "🌐 God's Eye View",
+        "summary": "A spy-satellite simulator in your browser — then you realize the sources are public and the data is real. Photorealistic 3D globe. Live aircraft, ships, satellites, earthquakes, traffic, and public cameras, with clearly labeled modeled views where a live feed is unavailable. Hands-free voice control powered by a realtime AI agent. ▶️ From the project behind the viral God's Eye View series formerly WorldView — https://youtube.com/playlist?list=PL6qSg2I-7koPbDnSMo0QeeHXRknA2uv&si=nBGYMoHWQw41v93Q -quick-start · -the-first-five-minutes · -talk-to-it · -whats-on-the-globe · -under-the-hood · -api-keys · -what-it-actually-costs",
+        "headings": [
+          "🌐 God's Eye View",
+          "A spy-satellite simulator in your browser — then you realize the sources are public and the data is real.",
+          "🌍 Why This Exists",
+          "🎛️ What This Thing Does",
+          "⚡ Quick Start",
+          "🕐 The First Five Minutes",
+          "🎙️ Talk to It",
+          "🛰️ What's on the Globe"
+        ],
+        "commands": [
+          "npm install\nnpm run dev -- --host localhost --port 4173"
+        ],
+        "keywords": [
+          "🌐 god's eye view",
+          "a spy-satellite simulator in your browser — then you realize the sources are public and the data is real.",
+          "🌍 why this exists",
+          "🎛️ what this thing does"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/bilawalsidhu/gods-eye-view/main/docs/media/hero-open-source-reveal.gif",
+        "thumbUrl": "https://raw.githubusercontent.com/bilawalsidhu/gods-eye-view/main/docs/media/hero-open-source-reveal.gif",
+        "alt": "Orbital HUD, a tracked live globe, FLIR terrain — then OPEN SOURCED",
+        "sourceUrl": "https://raw.githubusercontent.com/bilawalsidhu/gods-eye-view/main/docs/media/hero-open-source-reveal.gif",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "unclassified",
+        "secondaryCategoryIds": [],
+        "confidence": 0.4,
+        "method": "rules",
+        "reasons": [
+          "No taxonomy rule matched with enough confidence"
+        ],
+        "signals": []
+      },
+      "rank": {
+        "globalRank": 4,
+        "categoryRank": 4,
+        "score": 112
+      }
+    },
+    {
+      "id": "abhigyanpatwari-gitnexus",
+      "owner": "abhigyanpatwari",
+      "name": "GitNexus",
+      "url": "https://github.com/abhigyanpatwari/GitNexus",
+      "avatarUrl": "https://github.com/abhigyanpatwari.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 5,
+        "starsGained": 273
+      },
+      "metadata": {
+        "description": "GitNexus: The Zero-Server Code Intelligence Engine - GitNexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a git repository (Github, Gitlab, Azure, Local) or ZIP file, and get an interactive knowledge graph with a built in Graph RAG Agent. Perfect for code exploration",
+        "language": "TypeScript",
+        "topics": [],
+        "stars": 46313,
+        "forks": 5109,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "TypeScript"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/abhigyanpatwari/GitNexus/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "GitNexus  (Akon Labs)",
+        "summary": "⚠️ Important Notice: GitNexus has NO official cryptocurrency, token, or coin. Any token/coin using the GitNexus name on Pump.fun or any other platform is not affiliated with, endorsed by, or created by this project or its maintainers. Do not purchase any cryptocurrency claiming association with GitNexus. Indexes any codebase into a knowledge graph — every dependency, call chain, cluster, and execution flow — then exposes it through smart MCP tools so AI agents never miss code. 💬 Discord · 🌐 Web UI · 🏢 Enterprise SaaS & self-hosted Like DeepWiki, but deeper. DeepWiki helps you understand code. GitNexus lets you analyze it — a knowledge graph tracks every relationship, not just descriptions",
+        "headings": [
+          "GitNexus  (Akon Labs)",
+          "Quick Start",
+          "1. Index your repo (run from repo root)",
+          "2. Connect your editors (one-time, auto-detects Claude Code, Cursor, Codex, …)",
+          "Deploy to Render",
+          "Two Ways to Use GitNexus",
+          "Why a Knowledge Graph?",
+          "What Your AI Agent Gets"
+        ],
+        "commands": [
+          "npm install -g gitnexus@latest",
+          "npm install -g gitnexus",
+          "npm install -g gitnexus",
+          "npm install -g gitnexus",
+          "npm install && npm run build",
+          "npm install\nnpm run dev"
+        ],
+        "keywords": [
+          "agent",
+          "gitnexus  (akon labs)",
+          "quick start",
+          "1. index your repo (run from repo root)",
+          "2. connect your editors (one-time, auto-detects claude code, cursor, codex, …)"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://render.com/images/deploy-to-render-button.svg",
+        "thumbUrl": "https://render.com/images/deploy-to-render-button.svg",
+        "alt": "Deploy to Render",
+        "sourceUrl": "https://render.com/images/deploy-to-render-button.svg",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.7,
+        "method": "rules",
+        "reasons": [
+          "Matched agent"
+        ],
+        "signals": [
+          "agent"
+        ]
+      },
+      "rank": {
+        "globalRank": 5,
+        "categoryRank": 5,
+        "score": 110
+      }
+    },
+    {
+      "id": "jetbrains-go-modern-guidelines",
+      "owner": "JetBrains",
+      "name": "go-modern-guidelines",
+      "url": "https://github.com/JetBrains/go-modern-guidelines",
+      "avatarUrl": "https://github.com/JetBrains.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 6,
+        "starsGained": 294
+      },
+      "metadata": {
+        "description": "Help AI coding agents write modern Go",
+        "language": "Go",
+        "topics": [],
+        "stars": 2770,
+        "forks": 81,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Go"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/JetBrains/go-modern-guidelines/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "Modern Go Guidelines",
+        "summary": "This repository contains https://github.com/JetBrains/go-modern-guidelines/blob/main/plugin/skills/use-modern-go/SKILL.md for code agents that help them write modern Go code. For example, an agent with these guidelines uses maxa, b instead of an if-else block, slices.Contains instead of a manual loop, cmp.Ora, b, c instead of a chain of nil checks. It also knows about recent additions like new42 to get a pointer to a value and errors.AsTypeerr for type-safe error matching—both from Go 1.26. The guidelines cover the most useful features from Go 1.0 through Go 1.27, including everything targeted by the modernize analyzer. An agent will:",
+        "headings": [
+          "Modern Go Guidelines",
+          "Motivation",
+          "Requirements",
+          "Instructions",
+          "[Junie](https://junie.jetbrains.com)",
+          "[Claude Code](https://claude.com/product/claude-code)",
+          "[Codex](https://developers.openai.com/codex/)",
+          "[Cursor](https://cursor.com)"
+        ],
+        "commands": [],
+        "keywords": [
+          "ai",
+          "agent",
+          "modern go guidelines",
+          "motivation",
+          "requirements",
+          "instructions"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "repository_open_graph",
+        "url": "https://opengraph.githubassets.com/daily-tech-radar/JetBrains/go-modern-guidelines",
+        "thumbUrl": "https://opengraph.githubassets.com/daily-tech-radar/JetBrains/go-modern-guidelines",
+        "alt": "JetBrains/go-modern-guidelines",
+        "sourceUrl": "https://github.com/JetBrains/go-modern-guidelines",
+        "promptHash": "sha256:1856722e3712"
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.8,
+        "method": "rules",
+        "reasons": [
+          "Matched ai",
+          "Matched agent"
+        ],
+        "signals": [
+          "ai",
+          "agent"
+        ]
+      },
+      "rank": {
+        "globalRank": 6,
+        "categoryRank": 6,
+        "score": 108
+      }
+    },
+    {
+      "id": "calesthio-openmontage",
+      "owner": "calesthio",
+      "name": "OpenMontage",
+      "url": "https://github.com/calesthio/OpenMontage",
+      "avatarUrl": "https://github.com/calesthio.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 7,
+        "starsGained": 809
+      },
+      "metadata": {
+        "description": "World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio.",
+        "language": "Python",
+        "topics": [],
+        "stars": 53789,
+        "forks": 6686,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Python"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/calesthio/OpenMontage/main/README.md"
+      },
+      "readmeSignals": {
+        "title": ".env — every key is optional, add what you have",
+        "summary": "Monty the Clapper — the official mascot of OpenMontage The first open-source, agentic video production system. Paste A Video &nbsp;·&nbsp; Quick Start &nbsp;·&nbsp; Try These Prompts &nbsp;·&nbsp; Pipelines &nbsp;·&nbsp; How It Works &nbsp;·&nbsp; Sponsors &nbsp;·&nbsp; Providers &nbsp;·&nbsp; Review Guide &nbsp;·&nbsp; Agent Guide Want to support OpenMontage? https://github.com/sponsors/calesthio. Bloome lets multiple AI agents Claude, ChatGPT, DeepSeek, and more collaborate in one conversation for agentic video pipelines. It has zero setup, runs in the cloud, works on web and mobile, and lets you share a configured agent with your whole team. Try Bloome . Atlas Cloud is a full-modal AI inf",
+        "headings": [
+          "Sponsors",
+          "Start From A Video You Already Love",
+          "Watch It Happen — The Backlot Living Storyboard",
+          "Quick Start",
+          "Prerequisites",
+          "Install & Run",
+          "If You're An OpenClaw Agent Reading This, Congratulations: You Probably Passed The Turing Test",
+          "Add API Keys (optional — more keys = more tools)"
+        ],
+        "commands": [
+          "pip install -r requirements.txt && cd remotion-composer && npm install && cd .. && python -m pip install piper-tts && cp .env.example .env",
+          "pip install -r requirements.txt; cd remotion-composer; npm install; cd ..; python -m pip install piper-tts; Copy-Item .env.example .env"
+        ],
+        "keywords": [
+          "ai",
+          "agent",
+          "sponsors",
+          "start from a video you already love",
+          "watch it happen — the backlot living storyboard",
+          "quick start"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/calesthio/OpenMontage/main/assets/monty-light.svg",
+        "thumbUrl": "https://raw.githubusercontent.com/calesthio/OpenMontage/main/assets/monty-light.svg",
+        "alt": "Monty the Clapper — the official mascot of OpenMontage",
+        "sourceUrl": "https://raw.githubusercontent.com/calesthio/OpenMontage/main/assets/monty-light.svg",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.8,
+        "method": "rules",
+        "reasons": [
+          "Matched ai",
+          "Matched agent"
+        ],
+        "signals": [
+          "ai",
+          "agent"
+        ]
+      },
+      "rank": {
+        "globalRank": 7,
+        "categoryRank": 7,
+        "score": 106
+      }
+    },
+    {
+      "id": "abi-screenshot-to-code",
+      "owner": "abi",
+      "name": "screenshot-to-code",
+      "url": "https://github.com/abi/screenshot-to-code",
+      "avatarUrl": "https://github.com/abi.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 8,
+        "starsGained": 558
+      },
+      "metadata": {
+        "description": "Drop in a screenshot and convert it to clean code (HTML/Tailwind/React/Vue)",
+        "language": "Python",
+        "topics": [],
+        "stars": 75867,
+        "forks": 9236,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Python"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/abi/screenshot-to-code/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "screenshot-to-code",
+        "summary": "Convert screenshots, mockups, Figma designs, and screen recordings into clean, functional code using AI. The easiest way to try this is using the official, hosted product at screenshottocode.com → HTML + Tailwind HTML + CSS React + Tailwind Vue + Tailwind Bootstrap Ionic + Tailwind Gemini 3 Flash Preview and Gemini 3.1 Pro Preview - the best models GPT-5.5 and GPT-5.4 Mini Claude Opus 4.6, Claude Opus 4.8 z-image-turbo using Replicate for image generation See the -examples section below for more demos. Screenshot to Code also supports taking a screen recording of a website in action and turning that into a functional prototype.",
+        "headings": [
+          "screenshot-to-code",
+          "🛠 Getting Started",
+          "API keys",
+          "Install the Chromium browser used by the screenshot preview tool.",
+          "On Linux, use `poetry run playwright install --with-deps chromium` to also",
+          "install the required system libraries (needs sudo/apt).",
+          "run the printed command, e.g. source /path/to/venv/bin/activate",
+          "Docker"
+        ],
+        "commands": [
+          "pip install --upgrade poetry"
+        ],
+        "keywords": [
+          "ai",
+          "screenshot-to-code",
+          "🛠 getting started",
+          "api keys",
+          "install the chromium browser used by the screenshot preview tool."
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://github.com/abi/screenshot-to-code/assets/23818/8758ffa4-9483-4b9b-bb66-abd6d1594c33",
+        "thumbUrl": "https://github.com/abi/screenshot-to-code/assets/23818/8758ffa4-9483-4b9b-bb66-abd6d1594c33",
+        "alt": "google in app quick 3",
+        "sourceUrl": "https://github.com/abi/screenshot-to-code/assets/23818/8758ffa4-9483-4b9b-bb66-abd6d1594c33",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.7,
+        "method": "rules",
+        "reasons": [
+          "Matched ai"
+        ],
+        "signals": [
+          "ai"
+        ]
+      },
+      "rank": {
+        "globalRank": 8,
+        "categoryRank": 8,
+        "score": 104
+      }
+    },
+    {
+      "id": "cursor-plugins",
+      "owner": "cursor",
+      "name": "plugins",
+      "url": "https://github.com/cursor/plugins",
+      "avatarUrl": "https://github.com/cursor.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 9,
+        "starsGained": 257
+      },
+      "metadata": {
+        "description": "Cursor plugin specification and official plugins",
+        "language": "TypeScript",
+        "topics": [],
+        "stars": 6095,
+        "forks": 483,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "TypeScript"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/cursor/plugins/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "Cursor plugins",
+        "summary": "Official Cursor plugins for popular developer tools, frameworks, and SaaS products. Each plugin is a standalone directory at the repository root with its own .cursor-plugin/plugin.json manifest. | name | Plugin | Author | Category | description from marketplace | | teaching | teaching/ | Cursor | Utilities | Skill mapping, practice plans, and learning retrospectives. | | continual-learning | continual-learning/ | Cursor | Developer Tools | Incremental transcript-driven memory updates for AGENTS.md using high-signal bullet points only. | | cursor-team-kit | cursor-team-kit/ | Cursor | Developer Tools | Internal team workflows for CI, code review, shipping, local automation, and verification. ",
+        "headings": [
+          "Cursor plugins",
+          "Plugins",
+          "Repository structure",
+          "License"
+        ],
+        "commands": [],
+        "keywords": [
+          "cursor plugins",
+          "plugins",
+          "repository structure",
+          "license"
+        ],
+        "score": 80
+      },
+      "visual": {
+        "kind": "repository_open_graph",
+        "url": "https://opengraph.githubassets.com/daily-tech-radar/cursor/plugins",
+        "thumbUrl": "https://opengraph.githubassets.com/daily-tech-radar/cursor/plugins",
+        "alt": "cursor/plugins",
+        "sourceUrl": "https://github.com/cursor/plugins",
+        "promptHash": "sha256:4b8206bfeced"
+      },
+      "classification": {
+        "primaryCategoryId": "unclassified",
+        "secondaryCategoryIds": [],
+        "confidence": 0.4,
+        "method": "rules",
+        "reasons": [
+          "No taxonomy rule matched with enough confidence"
+        ],
+        "signals": []
+      },
+      "rank": {
+        "globalRank": 9,
+        "categoryRank": 9,
+        "score": 102
+      }
+    },
+    {
+      "id": "freestylefly-awesome-gpt-image-2",
+      "owner": "freestylefly",
+      "name": "awesome-gpt-image-2",
+      "url": "https://github.com/freestylefly/awesome-gpt-image-2",
+      "avatarUrl": "https://github.com/freestylefly.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 10,
+        "starsGained": 767
+      },
+      "metadata": {
+        "description": "Prompt as Code | GPT-Image2 工业级提示词引擎与模板库，530+ 个案例逆向工程，20+ 套工业级模板，并提炼出Skills，持续更新中",
+        "language": "JavaScript",
+        "topics": [],
+        "stars": 24851,
+        "forks": 2443,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "JavaScript"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/freestylefly/awesome-gpt-image-2/main/README.md"
+      },
+      "readmeSignals": {
+        "title": null,
+        "summary": "Prompt as Code | GPT-Image2 Industrial Prompt Engine & Template Library, 500+ Reverse-Engineered Cases, 20+ Industrial Templates Use the live site at https://gpt-image2.canghe.ai/ to browse the gallery as a product experience: open large previews, copy full prompts, filter by style or scenario, test generation after Google sign-in, and jump back to the source case on GitHub. Join the GPT-Image2 discussion group to exchange prompts, workflows, and creative ideas with other users. Visit the https://gpt-image2.canghe.ai/community to join. Follow the WeChat official account 苍何 or scan the QR code below to receive project updates, new cases, and practical tutorials.",
+        "headings": [
+          "🌐 Visual Website",
+          "Community 交流群",
+          "❤️ Sponsors",
+          "⚡️ Project Vision",
+          "📖 Quick Links",
+          "🗂️ Category Overview",
+          "🖼️ Case Album",
+          "🧩 Prompt Template Categories"
+        ],
+        "commands": [
+          "npm install -g gpt-image-2-style-library",
+          "npm install -g @freestylefly/gpt-image-2-style-library --registry=https://npm.pkg.github.com"
+        ],
+        "keywords": [
+          "🌐 visual website",
+          "community 交流群",
+          "❤️ sponsors",
+          "⚡️ project vision"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/freestylefly/awesome-gpt-image-2/main/data/images/case1.jpg",
+        "thumbUrl": "https://raw.githubusercontent.com/freestylefly/awesome-gpt-image-2/main/data/images/case1.jpg",
+        "alt": "Urban Metabolism Atlas",
+        "sourceUrl": "https://raw.githubusercontent.com/freestylefly/awesome-gpt-image-2/main/data/images/case1.jpg",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "unclassified",
+        "secondaryCategoryIds": [],
+        "confidence": 0.4,
+        "method": "rules",
+        "reasons": [
+          "No taxonomy rule matched with enough confidence"
+        ],
+        "signals": []
+      },
+      "rank": {
+        "globalRank": 10,
+        "categoryRank": 10,
+        "score": 100
+      }
+    },
+    {
+      "id": "tailscale-tailcat",
+      "owner": "tailscale",
+      "name": "tailcat",
+      "url": "https://github.com/tailscale/tailcat",
+      "avatarUrl": "https://github.com/tailscale.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 11,
+        "starsGained": 790
+      },
+      "metadata": {
+        "description": "like netcat, but over Tailscale's data plane, without Tailscale's control plane",
+        "language": "Go",
+        "topics": [],
+        "stars": 3204,
+        "forks": 92,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Go"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/tailscale/tailcat/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "Tailcat",
+        "summary": "\"Tailscale without Tailscale, by Tailscale\" Tailcat is a remix of Tailscale open source pieces to act like https://en.wikipedia.org/wiki/Netcat, but over Tailscale's data plane, without Tailscale's control plane. Tailscale's data plane magicsock, internally gives you point-to-point WireGuard®-encrypted tunnels between two machines with DERP as the NAT-hole-punching communication side channel and the ultimate relay-of-last-resort if NAT traversal fails. Instead of using the Tailscale control plane, all tailcat connection metadata is exchanged out of band, however you want.",
+        "headings": [
+          "Tailcat",
+          "Install",
+          "Usage",
+          "Pipe stdin/stdout between two machines",
+          "Selected bootstrap relay region 302, San Francisco",
+          "🐈 Server listening with new address: tcomFwWCCcjS5nKNqAod034nWoJZW0LZqDhhC8U_dKdnDRYQ8uNGFpGQEu",
+          "Selected bootstrap relay region 302, San Francisco",
+          "🐈 Server listening with new address: tcomFwWCCcjS5nKNqAod034nWoJZW0LZqDhhC8U_dKdnDRYQ8uNGFpGQEu"
+        ],
+        "commands": [],
+        "keywords": [
+          "ai",
+          "tailcat",
+          "install",
+          "usage",
+          "pipe stdin/stdout between two machines"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/tailscale/tailcat/main/tailcat.png",
+        "thumbUrl": "https://raw.githubusercontent.com/tailscale/tailcat/main/tailcat.png",
+        "alt": "Tailcat",
+        "sourceUrl": "https://raw.githubusercontent.com/tailscale/tailcat/main/tailcat.png",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.7,
+        "method": "rules",
+        "reasons": [
+          "Matched ai"
+        ],
+        "signals": [
+          "ai"
+        ]
+      },
+      "rank": {
+        "globalRank": 11,
+        "categoryRank": 11,
+        "score": 98
+      }
+    },
+    {
+      "id": "nationalsecurityagency-ghidra",
+      "owner": "NationalSecurityAgency",
+      "name": "ghidra",
+      "url": "https://github.com/NationalSecurityAgency/ghidra",
+      "avatarUrl": "https://github.com/NationalSecurityAgency.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 12,
+        "starsGained": 375
+      },
+      "metadata": {
+        "description": "Ghidra is a software reverse engineering (SRE) framework",
+        "language": "Java",
+        "topics": [],
+        "stars": 73532,
+        "forks": 8024,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Java"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/NationalSecurityAgency/ghidra/master/README.md"
+      },
+      "readmeSignals": {
+        "title": "Ghidra Software Reverse Engineering Framework",
+        "summary": "Ghidra Software Reverse Engineering Framework Ghidra is a software reverse engineering SRE framework created and maintained by the National Security Agencynsa Research Directorate. This framework includes a suite of full-featured, high-end software analysis tools that enable users to analyze compiled code on a variety of platforms including Windows, macOS, and Linux. Capabilities include disassembly, assembly, decompilation, graphing, and scripting, along with hundreds of other features. Ghidra supports a wide variety of processor instruction sets and executable formats and can be run in both user-interactive and automated modes. Users may also develop their own Ghidra extension components a",
+        "headings": [
+          "Ghidra Software Reverse Engineering Framework",
+          "Security Warning",
+          "Install",
+          "Build",
+          "Develop",
+          "User Scripts and Extensions",
+          "Advanced Development",
+          "Contribute"
+        ],
+        "commands": [],
+        "keywords": [
+          "ghidra software reverse engineering framework",
+          "security warning",
+          "install",
+          "build"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/NationalSecurityAgency/ghidra/master/Ghidra/Features/Base/src/main/resources/images/GHIDRA_3.png",
+        "thumbUrl": "https://raw.githubusercontent.com/NationalSecurityAgency/ghidra/master/Ghidra/Features/Base/src/main/resources/images/GHIDRA_3.png",
+        "alt": "NationalSecurityAgency/ghidra",
+        "sourceUrl": "https://raw.githubusercontent.com/NationalSecurityAgency/ghidra/master/Ghidra/Features/Base/src/main/resources/images/GHIDRA_3.png",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "unclassified",
+        "secondaryCategoryIds": [],
+        "confidence": 0.4,
+        "method": "rules",
+        "reasons": [
+          "No taxonomy rule matched with enough confidence"
+        ],
+        "signals": []
+      },
+      "rank": {
+        "globalRank": 12,
+        "categoryRank": 12,
+        "score": 96
+      }
+    },
+    {
+      "id": "swoole-typephp",
+      "owner": "swoole",
+      "name": "typephp",
+      "url": "https://github.com/swoole/typephp",
+      "avatarUrl": "https://github.com/swoole.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 13,
+        "starsGained": 188
+      },
+      "metadata": {
+        "description": "Compile PHP to Native Binaries",
+        "language": "PHP",
+        "topics": [],
+        "stars": 908,
+        "forks": 44,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "PHP"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/swoole/typephp/master/README.md"
+      },
+      "readmeSignals": {
+        "title": "TypePHP",
+        "summary": "Compile PHP source code into native machine code ahead of time — producing native executables, PHP extensions, and shared libraries — while keeping the PHP syntax you already know. TypePHP is an Ahead-Of-Time AOT compiler that translates PHP source code into C++ and then into native machine code. Unlike a bytecode cache or a VM, it does not interpret opcodes at runtime: it generates optimized native binaries that run directly on the CPU. It keeps familiar PHP syntax and adds compile-time type information, so the compiler can emit fast, statically-typed C++ for hot paths. Dynamic PHP values, internal functions, reflection, and object metadata continue to interoperate with the Zend runtime thr",
+        "headings": [
+          "TypePHP",
+          "What is TypePHP?",
+          "How it works",
+          "Features",
+          "Why TypePHP?",
+          "Requirements",
+          "Ubuntu/Debian",
+          "RHEL/CentOS/Fedora"
+        ],
+        "commands": [],
+        "keywords": [
+          "typephp",
+          "what is typephp?",
+          "how it works",
+          "features"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "repository_open_graph",
+        "url": "https://opengraph.githubassets.com/daily-tech-radar/swoole/typephp",
+        "thumbUrl": "https://opengraph.githubassets.com/daily-tech-radar/swoole/typephp",
+        "alt": "swoole/typephp",
+        "sourceUrl": "https://github.com/swoole/typephp",
+        "promptHash": "sha256:58870949f4c2"
+      },
+      "classification": {
+        "primaryCategoryId": "unclassified",
+        "secondaryCategoryIds": [],
+        "confidence": 0.4,
+        "method": "rules",
+        "reasons": [
+          "No taxonomy rule matched with enough confidence"
+        ],
+        "signals": []
+      },
+      "rank": {
+        "globalRank": 13,
+        "categoryRank": 13,
+        "score": 92.8
+      }
+    },
+    {
+      "id": "marin-community-marin",
+      "owner": "marin-community",
+      "name": "marin",
+      "url": "https://github.com/marin-community/marin",
+      "avatarUrl": "https://github.com/marin-community.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 14,
+        "starsGained": 163
+      },
+      "metadata": {
+        "description": "Open-source framework for the research and development of foundation models.",
+        "language": "Python",
+        "topics": [],
+        "stars": 2973,
+        "forks": 242,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Python"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/marin-community/marin/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "<img alt=\"Marin\" src=\"docs/design/marin-logo.svg\" height=\"36\" align=\"top\"> Marin",
+        "summary": "\"I am not afraid of storms, for I am learning how to sail my ship.\" – Louisa May Alcott Marin's concern is training large language models. This includes data curation, transformation, filtering, tokenization, pretraining, posttraining, and evaluation. Beyond the artifacts, software, and infrastructure, behind these models, Marin is committed to openly sharing all of the process knowledge required to build these models. Marin's core value is https://openathena.ai/blog/open-development-of-frontier-ai/. We document our processes, experiments, and decisions as they happen. Every step, from raw data to the final model, is recorded. Failed experiments are part of that record.",
+        "headings": [
+          "<img alt=\"Marin\" src=\"docs/design/marin-logo.svg\" height=\"36\" align=\"top\"> Marin",
+          "Current work",
+          "Frontier mixture-of-experts",
+          "Scaling suite",
+          "Other learnings",
+          "Other models",
+          "Learning more & using Marin",
+          "Example"
+        ],
+        "commands": [],
+        "keywords": [
+          "model",
+          "<img alt=\"marin\" src=\"docs/design/marin-logo.svg\" height=\"36\" align=\"top\"> marin",
+          "current work",
+          "frontier mixture-of-experts",
+          "scaling suite"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/marin-community/marin/main/docs/design/crfm-rgb.png",
+        "thumbUrl": "https://raw.githubusercontent.com/marin-community/marin/main/docs/design/crfm-rgb.png",
+        "alt": "Stanford CRFM",
+        "sourceUrl": "https://raw.githubusercontent.com/marin-community/marin/main/docs/design/crfm-rgb.png",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.7,
+        "method": "rules",
+        "reasons": [
+          "Matched model"
+        ],
+        "signals": [
+          "model"
+        ]
+      },
+      "rank": {
+        "globalRank": 14,
+        "categoryRank": 14,
+        "score": 88.3
+      }
+    },
+    {
+      "id": "tashfeenahmed-freellmapi",
+      "owner": "tashfeenahmed",
+      "name": "freellmapi",
+      "url": "https://github.com/tashfeenahmed/freellmapi",
+      "avatarUrl": "https://github.com/tashfeenahmed.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 15,
+        "starsGained": 612
+      },
+      "metadata": {
+        "description": "7.4 billion tokens per month. 34 free LLM providers. 635 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.",
+        "language": "TypeScript",
+        "topics": [],
+        "stars": 22022,
+        "forks": 3092,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "TypeScript"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/tashfeenahmed/freellmapi/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "FreeLLMAPI",
+        "summary": "7.4 billion tokens per month. 34 free LLM providers. 635 free model endpoints. One OpenAI-compatible endpoint. Aggregate free tiers from dozens of providers, plus custom OpenAI-compatible chat, embedding, image, and audio endpoints, behind a single /v1 API. Keys are stored encrypted. A router picks the best available model for each request, falls over to the next provider when one is rate-limited, and tracks per-key usage so you stay under every free-tier cap. Your router updates its own model catalog from a signed feed: new free models, quota changes, and compatibility fixes land without a git pull. Free installs get the monthly snapshot, so a model reaches them 30 days after it joins the l",
+        "headings": [
+          "FreeLLMAPI",
+          "Contents",
+          "Why this exists",
+          "Supported providers",
+          "Compatible CLIs & coding agents",
+          "How it compares",
+          "Features",
+          "Quick start"
+        ],
+        "commands": [
+          "npm install && npm run dev"
+        ],
+        "keywords": [
+          "ai",
+          "llm",
+          "model",
+          "freellmapi",
+          "contents",
+          "why this exists",
+          "supported providers"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/tashfeenahmed/freellmapi/main/repo-assets/github-hero.png",
+        "thumbUrl": "https://raw.githubusercontent.com/tashfeenahmed/freellmapi/main/repo-assets/github-hero.png",
+        "alt": "FreeLLMAPI dashboard — Models page with the monthly token budget",
+        "sourceUrl": "https://raw.githubusercontent.com/tashfeenahmed/freellmapi/main/repo-assets/github-hero.png",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.9,
+        "method": "rules",
+        "reasons": [
+          "Matched ai",
+          "Matched llm",
+          "Matched model"
+        ],
+        "signals": [
+          "ai",
+          "llm",
+          "model"
+        ]
+      },
+      "rank": {
+        "globalRank": 15,
+        "categoryRank": 15,
+        "score": 90
+      }
+    },
+    {
+      "id": "chromedevtools-chrome-devtools-mcp",
+      "owner": "ChromeDevTools",
+      "name": "chrome-devtools-mcp",
+      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+      "avatarUrl": "https://github.com/ChromeDevTools.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 16,
+        "starsGained": 215
+      },
+      "metadata": {
+        "description": "Chrome DevTools for coding agents",
+        "language": "TypeScript",
+        "topics": [],
+        "stars": 50091,
+        "forks": 3512,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "TypeScript"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/ChromeDevTools/chrome-devtools-mcp/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "Chrome DevTools for agents",
+        "summary": "Chrome DevTools for agents chrome-devtools-mcp lets your coding agent such as Antigravity, Claude, Cursor or Copilot control and inspect a live Chrome browser. It acts as a Model-Context-Protocol MCP server, giving your AI coding assistant access to the full power of Chrome DevTools for reliable automation, in-depth debugging, and performance analysis. A docs/cli.md is also provided for use without MCP. ./docs/tool-reference.md | ./CHANGELOG.md | ./CONTRIBUTING.md | ./docs/troubleshooting.md | ./docs/design-principles.md Get performance insights: Uses https://github.com/ChromeDevTools/devtools-frontend to record traces and extract actionable performance insights. Advanced browser debugging: ",
+        "headings": [
+          "Chrome DevTools for agents",
+          "[Tool reference](./docs/tool-reference.md) | [Changelog](./CHANGELOG.md) | [Contributing](./CONTRIBUTING.md) | [Troubleshooting](./docs/troubleshooting.md) | [Design Principles](./docs/design-principles.md)",
+          "Key features",
+          "Disclaimers",
+          "**Usage statistics**",
+          "Update checks",
+          "Requirements",
+          "Getting started"
+        ],
+        "commands": [],
+        "keywords": [
+          "agent",
+          "mcp",
+          "chrome devtools for agents",
+          "[tool reference](./docs/tool-reference.md) | [changelog](./changelog.md) | [contributing](./contributing.md) | [troubleshooting](./docs/troubleshooting.md) | [design principles](./docs/design-principles.md)",
+          "key features",
+          "disclaimers"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://cursor.com/deeplink/mcp-install-dark.svg",
+        "thumbUrl": "https://cursor.com/deeplink/mcp-install-dark.svg",
+        "alt": "Install in Cursor",
+        "sourceUrl": "https://cursor.com/deeplink/mcp-install-dark.svg",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.8,
+        "method": "rules",
+        "reasons": [
+          "Matched agent",
+          "Matched mcp"
+        ],
+        "signals": [
+          "agent",
+          "mcp"
+        ]
+      },
+      "rank": {
+        "globalRank": 16,
+        "categoryRank": 16,
+        "score": 88
+      }
+    },
+    {
+      "id": "rohitg00-ai-engineering-from-scratch",
+      "owner": "rohitg00",
+      "name": "ai-engineering-from-scratch",
+      "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+      "avatarUrl": "https://github.com/rohitg00.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 17,
+        "starsGained": 359
+      },
+      "metadata": {
+        "description": "Learn it. Build it. Ship it for others.",
+        "language": "Python",
+        "topics": [],
+        "stars": 50852,
+        "forks": 8804,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Python"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/rohitg00/ai-engineering-from-scratch/main/README.md"
+      },
+      "readmeSignals": {
+        "title": null,
+        "summary": "Read in your language: Español · Français · Português · Deutsch · Italiano · 简体中文 · 日本語 · 한국어 · हिन्दी · العربية · Русский · Türkçe Translated landing pages, committed to the repo. English is canonical; lesson pages are machine-translated on the translations branch. See docs/i18n.md . From the creator of https://github.com/rohitg00/agentmemory which naturally works with any agents or chat assistants. 84% of students already use AI tools. Only 18% feel prepared to use them professionally. This curriculum closes that gap. 511 lessons. 20 phases. ~329 hours. Python, TypeScript, Rust, Julia. Every lesson ships a reusable artifact: a prompt, a skill, an agent, an MCP server. Free, open source, MI",
+        "headings": [
+          "From the creator of [Agent Memory - #1 Persistent memory ⭐](https://github.com/rohitg00/agentmemory) <a href=\"https://github.com/rohitg00/agentmemory/stargazers\"><img src=\"https://img.shields.io/github/stars/rohitg00/agentmemory?style=flat-square&labelColor=fafaf5&color=3553ff\" alt=\"GitHub stars\"></a> which naturally works with any agents or chat assistants.",
+          "Start here: choose what you want to build",
+          "Use every lesson the same way",
+          "Clone it and produce your first evidence",
+          "Add the AI tutor in 30 seconds",
+          "How this works",
+          "The shape of the curriculum",
+          "The shape of a lesson"
+        ],
+        "commands": [],
+        "keywords": [
+          "ai",
+          "from the creator of [agent memory - #1 persistent memory ⭐](https://github.com/rohitg00/agentmemory) <a href=\"https://github.com/rohitg00/agentmemory/stargazers\"><img src=\"https://img.shields.io/github/stars/rohitg00/agentmemory?style=flat-square&labelcolor=fafaf5&color=3553ff\" alt=\"github stars\"></a> which naturally works with any agents or chat assistants.",
+          "start here: choose what you want to build",
+          "use every lesson the same way",
+          "clone it and produce your first evidence"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/rohitg00/ai-engineering-from-scratch/main/site/assets/figures/001-a-prompts.svg",
+        "thumbUrl": "https://raw.githubusercontent.com/rohitg00/ai-engineering-from-scratch/main/site/assets/figures/001-a-prompts.svg",
+        "alt": "FIG_001.A prompts",
+        "sourceUrl": "https://raw.githubusercontent.com/rohitg00/ai-engineering-from-scratch/main/site/assets/figures/001-a-prompts.svg",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.7,
+        "method": "rules",
+        "reasons": [
+          "Matched ai"
+        ],
+        "signals": [
+          "ai"
+        ]
+      },
+      "rank": {
+        "globalRank": 17,
+        "categoryRank": 17,
+        "score": 86
+      }
+    },
+    {
+      "id": "dietrichgebert-ponytail",
+      "owner": "DietrichGebert",
+      "name": "ponytail",
+      "url": "https://github.com/DietrichGebert/ponytail",
+      "avatarUrl": "https://github.com/DietrichGebert.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 18,
+        "starsGained": 1171
+      },
+      "metadata": {
+        "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+        "language": "JavaScript",
+        "topics": [],
+        "stars": 116093,
+        "forks": 6338,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "JavaScript"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/DietrichGebert/ponytail/main/README.md"
+      },
+      "readmeSignals": {
+        "title": null,
+        "summary": "He says nothing. He writes one line. It works. ~54% less code up to 94% &middot; ~20% cheaper &middot; ~27% faster &middot; 100% safe Measured on real Claude Code sessions editing a real open-source repo FastAPI + React, against the same agent with no skill. ~54% is the mean across 12 feature tasks Haiku 4.5, n=4; it reaches 94% where an agent over-builds a date picker and is near zero where the code is already minimal. ponytail keeps every safety guard while a bare \"write one-liners\" prompt drops one. The earlier single-shot benchmark reported 80-94% as a flat figure; against a fair agentic baseline that is the per-task ceiling, not the average. Full writeup &middot; reproduce it .",
+        "headings": [
+          "Before / after",
+          "Numbers",
+          "How it works",
+          "Install",
+          "Claude Code",
+          "Codex",
+          "GitHub Copilot CLI",
+          "Pi agent harness"
+        ],
+        "commands": [],
+        "keywords": [
+          "ai",
+          "agent",
+          "before / after",
+          "numbers",
+          "how it works",
+          "install"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/DietrichGebert/ponytail/main/assets/benchmark-agentic.svg",
+        "thumbUrl": "https://raw.githubusercontent.com/DietrichGebert/ponytail/main/assets/benchmark-agentic.svg",
+        "alt": "Each arm as a percent of the no-skill baseline across LOC, tokens, cost and time (Haiku 4.5). ponytail is lowest on every metric (LOC 46%, tokens 78%, cost 80%, time 73%); caveman rises above 100% on tokens, cost and time; yagni-oneliner LOC 67%. Safety, separate adversarial tier: baseline, caveman and ponytail 100%, yagni-oneliner 95%.",
+        "sourceUrl": "https://raw.githubusercontent.com/DietrichGebert/ponytail/main/assets/benchmark-agentic.svg",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.8,
+        "method": "rules",
+        "reasons": [
+          "Matched ai",
+          "Matched agent"
+        ],
+        "signals": [
+          "ai",
+          "agent"
+        ]
+      },
+      "rank": {
+        "globalRank": 18,
+        "categoryRank": 18,
+        "score": 84
+      }
+    },
+    {
+      "id": "google-googletest",
+      "owner": "google",
+      "name": "googletest",
+      "url": "https://github.com/google/googletest",
+      "avatarUrl": "https://github.com/google.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 19,
+        "starsGained": 125
+      },
+      "metadata": {
+        "description": "GoogleTest - Google Testing and Mocking Framework",
+        "language": "C++",
+        "topics": [],
+        "stars": 39249,
+        "forks": 10876,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "C++"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/google/googletest/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "GoogleTest",
+        "summary": "Our documentation is now live on GitHub Pages at https://google.github.io/googletest/. We recommend browsing the documentation on GitHub Pages rather than directly in the repository. The 1.18.x branch https://opensource.google/documentation/policies/cplusplus-supportclanguagestandard. We use Google's internal systems for continuous integration. We are planning to take a dependency on https://github.com/abseil/abseil-cpp. Welcome to GoogleTest, Google's C++ test framework! This repository is a merger of the formerly separate GoogleTest and GoogleMock projects. These were so closely related that it makes sense to maintain and release them together.",
+        "headings": [
+          "GoogleTest",
+          "Announcements",
+          "Welcome to **GoogleTest**, Google's C++ test framework!",
+          "Getting Started",
+          "Features",
+          "Supported Platforms",
+          "Who Is Using GoogleTest?",
+          "Related Open Source Projects"
+        ],
+        "commands": [],
+        "keywords": [
+          "googletest",
+          "announcements",
+          "welcome to **googletest**, google's c++ test framework!",
+          "getting started"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "repository_open_graph",
+        "url": "https://opengraph.githubassets.com/daily-tech-radar/google/googletest",
+        "thumbUrl": "https://opengraph.githubassets.com/daily-tech-radar/google/googletest",
+        "alt": "google/googletest",
+        "sourceUrl": "https://github.com/google/googletest",
+        "promptHash": "sha256:df56902d8c3c"
+      },
+      "classification": {
+        "primaryCategoryId": "unclassified",
+        "secondaryCategoryIds": [],
+        "confidence": 0.4,
+        "method": "rules",
+        "reasons": [
+          "No taxonomy rule matched with enough confidence"
+        ],
+        "signals": []
+      },
+      "rank": {
+        "globalRank": 19,
+        "categoryRank": 19,
+        "score": 74.5
+      }
+    },
+    {
+      "id": "livekit-agents",
+      "owner": "livekit",
+      "name": "agents",
+      "url": "https://github.com/livekit/agents",
+      "avatarUrl": "https://github.com/livekit.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 20,
+        "starsGained": 256
+      },
+      "metadata": {
+        "description": "A framework for building realtime voice AI agents 🤖🎙️📹",
+        "language": "Python",
+        "topics": [],
+        "stars": 13485,
+        "forks": 3643,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Python"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/livekit/agents/main/README.md"
+      },
+      "readmeSignals": {
+        "title": null,
+        "summary": "Looking for the JS/TS library? Check out https://github.com/livekit/agents-js The Agent Framework is designed for building realtime, programmable participants that run on servers. Use it to create conversational, multi-modal voice agents that can see, hear, and understand. Flexible integrations: A comprehensive ecosystem to mix and match the right STT, LLM, TTS, and Realtime API to suit your use case. Integrated job scheduling: Built-in task scheduling and distribution with https://docs.livekit.io/agents/build/dispatch/ to connect end users to agents. Extensive WebRTC clients: Build client applications using LiveKit's open-source SDK ecosystem, supporting all major platforms. Telephony integ",
+        "headings": [
+          "What is Agents?",
+          "Features",
+          "Installation",
+          "Docs and guides",
+          "Building with AI coding agents",
+          "Core concepts",
+          "Usage",
+          "Simple voice agent"
+        ],
+        "commands": [
+          "pip install \"livekit-agents[openai,deepgram,cartesia]\""
+        ],
+        "keywords": [
+          "ai",
+          "agent",
+          "what is agents?",
+          "features",
+          "installation",
+          "docs and guides"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "repository_open_graph",
+        "url": "https://opengraph.githubassets.com/daily-tech-radar/livekit/agents",
+        "thumbUrl": "https://opengraph.githubassets.com/daily-tech-radar/livekit/agents",
+        "alt": "livekit/agents",
+        "sourceUrl": "https://github.com/livekit/agents",
+        "promptHash": "sha256:492de82f676f"
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.8,
+        "method": "rules",
+        "reasons": [
+          "Matched ai",
+          "Matched agent"
+        ],
+        "signals": [
+          "ai",
+          "agent"
+        ]
+      },
+      "rank": {
+        "globalRank": 20,
+        "categoryRank": 20,
+        "score": 80
+      }
+    }
+  ],
+  "views": [
+    {
+      "id": "ai",
+      "type": "category",
+      "label": "AI",
+      "categoryId": "ai",
+      "repoIds": [
+        "tt-a1i-archify",
+        "k-dense-ai-scientific-agent-skills",
+        "abhigyanpatwari-gitnexus",
+        "jetbrains-go-modern-guidelines",
+        "calesthio-openmontage",
+        "abi-screenshot-to-code",
+        "tailscale-tailcat",
+        "tashfeenahmed-freellmapi",
+        "marin-community-marin",
+        "chromedevtools-chrome-devtools-mcp",
+        "rohitg00-ai-engineering-from-scratch",
+        "dietrichgebert-ponytail",
+        "livekit-agents"
+      ],
+      "sort": "score"
+    },
+    {
+      "id": "unclassified",
+      "type": "review",
+      "label": "Needs Review",
+      "categoryId": "unclassified",
+      "repoIds": [
+        "anthropics-claude-plugins-official",
+        "bilawalsidhu-gods-eye-view",
+        "cursor-plugins",
+        "freestylefly-awesome-gpt-image-2",
+        "nationalsecurityagency-ghidra",
+        "swoole-typephp",
+        "google-googletest"
+      ],
+      "sort": "score"
+    }
+  ],
+  "health": {
+    "status": "ok",
+    "candidateCount": 20,
+    "enrichedRepoCount": 20,
+    "unclassifiedRepoCount": 7,
+    "warnings": [
+      "13 repos used README images, 0 used Agnes images, 7 fell back to repository Open Graph covers"
+    ]
+  }
+}

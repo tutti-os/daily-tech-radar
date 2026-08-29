@@ -1,0 +1,1764 @@
+{
+  "schemaVersion": "trendreader.daily.v1",
+  "packageId": "github-daily-All-2026-08-26",
+  "locale": "zh-CN",
+  "generatedAt": "2026-08-29T14:56:46.907Z",
+  "expiresAt": "2026-08-30T14:56:46.907Z",
+  "sourceWindow": {
+    "since": "daily",
+    "language": "All",
+    "spokenLanguageCode": null
+  },
+  "sources": [
+    {
+      "id": "github_trending_html",
+      "role": "candidate",
+      "status": "ok",
+      "itemCount": 20
+    }
+  ],
+  "taxonomy": {
+    "version": "2026-08-26",
+    "generatedAt": "2026-08-29T14:56:46.907Z",
+    "categories": [
+      {
+        "id": "ai",
+        "label": "AI",
+        "labelEn": "AI",
+        "icon": "bot",
+        "order": 20
+      },
+      {
+        "id": "tools",
+        "label": "工具",
+        "labelEn": "Tools",
+        "icon": "wrench",
+        "order": 100
+      },
+      {
+        "id": "frontend",
+        "label": "前端",
+        "labelEn": "Frontend",
+        "icon": "layout",
+        "order": 140
+      },
+      {
+        "id": "backend",
+        "label": "后端",
+        "labelEn": "Backend",
+        "icon": "server",
+        "order": 110
+      },
+      {
+        "id": "unclassified",
+        "label": "Needs Review",
+        "labelEn": "Needs Review",
+        "icon": "circle-help",
+        "order": 999
+      }
+    ]
+  },
+  "repos": [
+    {
+      "id": "tt-a1i-archify",
+      "owner": "tt-a1i",
+      "name": "archify",
+      "url": "https://github.com/tt-a1i/archify",
+      "avatarUrl": "https://github.com/tt-a1i.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 1,
+        "starsGained": 3927
+      },
+      "metadata": {
+        "description": "为架构、工作流、序列、数据流和生命周期图生成精美且可验证的可视化——自包含 HTML，支持动效和清晰导出。",
+        "language": "JavaScript",
+        "topics": [],
+        "stars": 29835,
+        "forks": 1865,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "JavaScript"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/tt-a1i/archify/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "Archify",
+        "summary": "将代码库或系统描述转化为精美的交互式系统图谱——直接在对话中完成。Archify 是专为 Cursor、Claude Code、Codex CLI 和 OpenCode 设计的 Node.js 渲染与验证系统。Agent 生成类型化的 JSON IR，Archify 将其确定性编译为 HTML/SVG。支持五种图表类型、四种预设、深色/浅色主题、内置品牌标识和有限动效。在合并前审查架构变更——对比两个已验证快照，精确展示新增、删除、修改、移动和重路由的变更。每次交互都有据可查——搜索节点，可选打开经修订验证的源码，追溯上下游的 authored 可达性。",
+        "headings": [
+          "Archify",
+          "❤️ Sponsors",
+          "See Archify in action",
+          "A real repository, mapped from source",
+          "Preview",
+          "Quick start",
+          "1. Install",
+          "2. Ask for one bounded view"
+        ],
+        "commands": [],
+        "keywords": [
+          "AI",
+          "Agent",
+          "架构图",
+          "工作流可视化",
+          "数据流",
+          "HTML 渲染",
+          "Cursor 插件"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/tt-a1i/archify/main/docs/assets/archify-readme-hero.png",
+        "thumbUrl": "https://raw.githubusercontent.com/tt-a1i/archify/main/docs/assets/archify-readme-hero.png",
+        "alt": "Archify product preview",
+        "sourceUrl": "https://raw.githubusercontent.com/tt-a1i/archify/main/docs/assets/archify-readme-hero.png",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.8,
+        "method": "rules",
+        "reasons": [
+          "Matched ai",
+          "Matched agent"
+        ],
+        "signals": [
+          "ai",
+          "agent"
+        ]
+      },
+      "rank": {
+        "globalRank": 1,
+        "categoryRank": 1,
+        "score": 118
+      }
+    },
+    {
+      "id": "k-dense-ai-scientific-agent-skills",
+      "owner": "K-Dense-AI",
+      "name": "scientific-agent-skills",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+      "avatarUrl": "https://github.com/K-Dense-AI.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 2,
+        "starsGained": 1604
+      },
+      "metadata": {
+        "description": "将任意 AI Agent 转变为 AI 科学家。全球 19 万+科学家使用的 #1 Agent Skills 库，涵盖 165 个经过验证的即用技能，以及 100+ 科学数据库，覆盖生物学、化学、医学和药物发现。兼容 Cursor、Claude Code、Codex、Pi、Antigravity 及开放 Agent Skills 标准。",
+        "language": "Python",
+        "topics": [],
+        "stars": 37505,
+        "forks": 3547,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Python"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "Scientific Agent Skills",
+        "summary": "🔔 Claude Scientific Skills 现已升级为 Scientific Agent Skills。技能不变，兼容性更广——现在支持任何兼容 https://agentskills.io/ 开放标准的 AI Agent，不再局限于 Claude。新增：https://github.com/K-Dense-AI/k-dense-byok —— 一款免费开源的 AI 科研助手，运行于你的桌面，由 Scientific Agent Skills 驱动。自带 API Key，从 40+ 模型中选择，获得完整的科研工作台，含网页搜索、文件处理、100+ 科学数据库及本仓库全部 161 个技能。你的数据留在本地，还可按需通过 https://modal.com/ 扩展至云端计算处理重负载。",
+        "headings": [
+          "Scientific Agent Skills",
+          "🎥 More tutorials",
+          "📦 What's Included",
+          "📋 Table of Contents",
+          "🚀 Why Use This?",
+          "⚡ **Accelerate Your Research**",
+          "🎯 **Comprehensive Coverage**",
+          "🔧 **Easy Integration**"
+        ],
+        "commands": [
+          "pip install cisco-ai-skill-scanner",
+          "pip install uv",
+          "pip install cisco-ai-skill-scanner",
+          "pip install package-name"
+        ],
+        "keywords": [
+          "AI",
+          "Agent",
+          "科研助手",
+          "科学数据库",
+          "药物发现",
+          "Claude Code",
+          "Cursor"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "repository_open_graph",
+        "url": "https://opengraph.githubassets.com/daily-tech-radar/K-Dense-AI/scientific-agent-skills",
+        "thumbUrl": "https://opengraph.githubassets.com/daily-tech-radar/K-Dense-AI/scientific-agent-skills",
+        "alt": "K-Dense-AI/scientific-agent-skills",
+        "sourceUrl": "https://github.com/K-Dense-AI/scientific-agent-skills",
+        "promptHash": "sha256:cedb4bf53bde"
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.8,
+        "method": "rules",
+        "reasons": [
+          "Matched ai",
+          "Matched agent"
+        ],
+        "signals": [
+          "ai",
+          "agent"
+        ]
+      },
+      "rank": {
+        "globalRank": 2,
+        "categoryRank": 2,
+        "score": 116
+      }
+    },
+    {
+      "id": "anthropics-claude-plugins-official",
+      "owner": "anthropics",
+      "name": "claude-plugins-official",
+      "url": "https://github.com/anthropics/claude-plugins-official",
+      "avatarUrl": "https://github.com/anthropics.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 3,
+        "starsGained": 356
+      },
+      "metadata": {
+        "description": "Anthropic 官方维护的高质量 Claude Code 插件目录。",
+        "language": "Python",
+        "topics": [],
+        "stars": 35251,
+        "forks": 3948,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Python"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/anthropics/claude-plugins-official/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "Claude Code Plugins Directory",
+        "summary": "精选的高质量 Claude Code 插件目录。⚠️ 重要提示：安装、更新或使用插件前请确保信任该插件。Anthropic 不控制插件中包含的 MCP 服务器、文件或其他软件，也无法验证其是否能按预期工作或是否会发生变更。详见各插件主页。/plugins — Anthropic 内部开发的插件；/externalplugins — 来自合作伙伴和社区的第三方插件。可通过 Claude Code 的插件系统直接从本市场安装。",
+        "headings": [
+          "Claude Code Plugins Directory",
+          "Structure",
+          "Installation",
+          "Contributing",
+          "Internal Plugins",
+          "External Plugins",
+          "Plugin Structure",
+          "Plugin names are immutable"
+        ],
+        "commands": [],
+        "keywords": [
+          "Claude Code",
+          "插件目录",
+          "MCP",
+          "Anthropic",
+          "插件安装"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "repository_open_graph",
+        "url": "https://opengraph.githubassets.com/daily-tech-radar/anthropics/claude-plugins-official",
+        "thumbUrl": "https://opengraph.githubassets.com/daily-tech-radar/anthropics/claude-plugins-official",
+        "alt": "anthropics/claude-plugins-official",
+        "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
+        "promptHash": "sha256:083f36522e2c"
+      },
+      "classification": {
+        "primaryCategoryId": "unclassified",
+        "secondaryCategoryIds": [],
+        "confidence": 0.4,
+        "method": "rules",
+        "reasons": [
+          "No taxonomy rule matched with enough confidence"
+        ],
+        "signals": []
+      },
+      "rank": {
+        "globalRank": 3,
+        "categoryRank": 3,
+        "score": 114
+      }
+    },
+    {
+      "id": "bilawalsidhu-gods-eye-view",
+      "owner": "bilawalsidhu",
+      "name": "gods-eye-view",
+      "url": "https://github.com/bilawalsidhu/gods-eye-view",
+      "avatarUrl": "https://github.com/bilawalsidhu.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 4,
+        "starsGained": 1870
+      },
+      "metadata": {
+        "description": "浏览器中的间谍卫星模拟器，数据来源于真实公开信息。在 photorealistic 3D 地球仪上展示实时开源空间情报。",
+        "language": "JavaScript",
+        "topics": [],
+        "stars": 12044,
+        "forks": 2416,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "JavaScript"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/bilawalsidhu/gods-eye-view/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "🌐 God's Eye View",
+        "summary": "浏览器中的间谍卫星模拟器——然后你发现数据源是公开的，数据是真实的。Photorealistic 3D 地球仪，实时展示飞机、船舶、卫星、地震、交通和公共摄像头画面，在无法提供实时画面时明确标注为模拟视图。由实时 AI Agent 驱动的手势语音控制。▶️ 来自病毒式传播的 God's Eye View 系列（原 WorldView）项目—— https://youtube.com/playlist?list=PL6qSg2I-7koPbDnSMo0QeeHXRknA2uv&si=nBGYMoHWQw41v93Q",
+        "headings": [
+          "🌐 God's Eye View",
+          "A spy-satellite simulator in your browser — then you realize the sources are public and the data is real.",
+          "🌍 Why This Exists",
+          "🎛️ What This Thing Does",
+          "⚡ Quick Start",
+          "🕐 The First Five Minutes",
+          "🎙️ Talk to It",
+          "🛰️ What's on the Globe"
+        ],
+        "commands": [
+          "npm install\nnpm run dev -- --host localhost --port 4173"
+        ],
+        "keywords": [
+          "卫星模拟",
+          "3D 地球仪",
+          "实时数据",
+          "空间情报",
+          "语音控制",
+          "AI Agent"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/bilawalsidhu/gods-eye-view/main/docs/media/hero-open-source-reveal.gif",
+        "thumbUrl": "https://raw.githubusercontent.com/bilawalsidhu/gods-eye-view/main/docs/media/hero-open-source-reveal.gif",
+        "alt": "Orbital HUD, a tracked live globe, FLIR terrain — then OPEN SOURCED",
+        "sourceUrl": "https://raw.githubusercontent.com/bilawalsidhu/gods-eye-view/main/docs/media/hero-open-source-reveal.gif",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "unclassified",
+        "secondaryCategoryIds": [],
+        "confidence": 0.4,
+        "method": "rules",
+        "reasons": [
+          "No taxonomy rule matched with enough confidence"
+        ],
+        "signals": []
+      },
+      "rank": {
+        "globalRank": 4,
+        "categoryRank": 4,
+        "score": 112
+      }
+    },
+    {
+      "id": "abhigyanpatwari-gitnexus",
+      "owner": "abhigyanpatwari",
+      "name": "GitNexus",
+      "url": "https://github.com/abhigyanpatwari/GitNexus",
+      "avatarUrl": "https://github.com/abhigyanpatwari.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 5,
+        "starsGained": 273
+      },
+      "metadata": {
+        "description": "GitNexus：零服务器代码智能引擎——完全在浏览器中运行的客户端知识图谱构建器。拖入 git 仓库（GitHub、GitLab、Azure、本地）或 ZIP 文件，即可获得带内置 Graph RAG Agent 的交互式知识图谱，是代码探索的绝佳工具。",
+        "language": "TypeScript",
+        "topics": [],
+        "stars": 46313,
+        "forks": 5109,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "TypeScript"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/abhigyanpatwari/GitNexus/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "GitNexus  (Akon Labs)",
+        "summary": "⚠️ 重要声明：GitNexus 没有任何官方加密货币、代币或 Coin。任何在 Pump.fun 或其他平台上以 GitNexus 名义发行的代币/Coin 均与本项目及维护者无关。请勿购买任何声称与 GitNexus 关联的加密货币。将代码库索引为知识图谱——追踪每个依赖、调用链、集群和执行流程——并通过智能 MCP 工具暴露，让 AI Agent 不再遗漏任何代码。💬 Discord · 🌐 Web UI · 🏢 企业 SaaS 及自托管。类似 DeepWiki 但更深入——DeepWiki 帮你理解代码，GitNexus 让你分析代码。",
+        "headings": [
+          "GitNexus  (Akon Labs)",
+          "Quick Start",
+          "1. Index your repo (run from repo root)",
+          "2. Connect your editors (one-time, auto-detects Claude Code, Cursor, Codex, …)",
+          "Deploy to Render",
+          "Two Ways to Use GitNexus",
+          "Why a Knowledge Graph?",
+          "What Your AI Agent Gets"
+        ],
+        "commands": [
+          "npm install -g gitnexus@latest",
+          "npm install -g gitnexus",
+          "npm install -g gitnexus",
+          "npm install -g gitnexus",
+          "npm install && npm run build",
+          "npm install\nnpm run dev"
+        ],
+        "keywords": [
+          "AI",
+          "Agent",
+          "知识图谱",
+          "代码分析",
+          "MCP",
+          "Graph RAG",
+          "TypeScript"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://render.com/images/deploy-to-render-button.svg",
+        "thumbUrl": "https://render.com/images/deploy-to-render-button.svg",
+        "alt": "Deploy to Render",
+        "sourceUrl": "https://render.com/images/deploy-to-render-button.svg",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.7,
+        "method": "rules",
+        "reasons": [
+          "Matched agent"
+        ],
+        "signals": [
+          "agent"
+        ]
+      },
+      "rank": {
+        "globalRank": 5,
+        "categoryRank": 5,
+        "score": 110
+      }
+    },
+    {
+      "id": "jetbrains-go-modern-guidelines",
+      "owner": "JetBrains",
+      "name": "go-modern-guidelines",
+      "url": "https://github.com/JetBrains/go-modern-guidelines",
+      "avatarUrl": "https://github.com/JetBrains.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 6,
+        "starsGained": 294
+      },
+      "metadata": {
+        "description": "帮助 AI 编程 Agent 编写现代 Go 代码。",
+        "language": "Go",
+        "topics": [],
+        "stars": 2770,
+        "forks": 81,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Go"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/JetBrains/go-modern-guidelines/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "Modern Go Guidelines",
+        "summary": "本仓库包含 https://github.com/JetBrains/go-modern-guidelines/blob/main/plugin/skills/use-modern-go/SKILL.md ，供代码 Agent 使用，帮助其编写现代 Go 代码。例如，遵循这些指南的 Agent 会使用 max(a, b) 替代 if-else 块、slices.Contains 替代手动循环、cmp.Or(a, b, c) 替代链式 nil 检查。它还了解 Go 1.26 中的新增特性，如 new[T](42) 获取值指针和 errors.AsType 进行类型安全错误匹配。指南覆盖 Go 1.0 至 Go 1.27 中最实用的特性，包括 modernize 分析器所针对的全部内容。",
+        "headings": [
+          "Modern Go Guidelines",
+          "Motivation",
+          "Requirements",
+          "Instructions",
+          "[Junie](https://junie.jetbrains.com)",
+          "[Claude Code](https://claude.com/product/claude-code)",
+          "[Codex](https://developers.openai.com/codex/)",
+          "[Cursor](https://cursor.com)"
+        ],
+        "commands": [],
+        "keywords": [
+          "Go",
+          "AI Agent",
+          "代码规范",
+          "现代 Go",
+          "JetBrains",
+          "编程指南"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "repository_open_graph",
+        "url": "https://opengraph.githubassets.com/daily-tech-radar/JetBrains/go-modern-guidelines",
+        "thumbUrl": "https://opengraph.githubassets.com/daily-tech-radar/JetBrains/go-modern-guidelines",
+        "alt": "JetBrains/go-modern-guidelines",
+        "sourceUrl": "https://github.com/JetBrains/go-modern-guidelines",
+        "promptHash": "sha256:1856722e3712"
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.8,
+        "method": "rules",
+        "reasons": [
+          "Matched ai",
+          "Matched agent"
+        ],
+        "signals": [
+          "ai",
+          "agent"
+        ]
+      },
+      "rank": {
+        "globalRank": 6,
+        "categoryRank": 6,
+        "score": 108
+      }
+    },
+    {
+      "id": "calesthio-openmontage",
+      "owner": "calesthio",
+      "name": "OpenMontage",
+      "url": "https://github.com/calesthio/OpenMontage",
+      "avatarUrl": "https://github.com/calesthio.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 7,
+        "starsGained": 809
+      },
+      "metadata": {
+        "description": "全球首个开源 Agent 化视频制作系统。12 条制作流水线、100+ 工具、700+ Agent 技能和生产知识文件。将你的 AI 编程助手变为完整的视频制作工作室。",
+        "language": "Python",
+        "topics": [],
+        "stars": 53789,
+        "forks": 6686,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Python"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/calesthio/OpenMontage/main/README.md"
+      },
+      "readmeSignals": {
+        "title": ".env — every key is optional, add what you have",
+        "summary": "Monty the Clapper —— OpenMontage 官方吉祥物。首个开源 Agent 化视频制作系统。支持粘贴视频链接、快速入门、提示词模板、流水线配置等。Bloome 让多个 AI Agent（Claude、ChatGPT、DeepSeek 等）在同一对话中协作完成 Agent 化视频流水线。零配置、云端运行、支持网页和移动端，可与团队共享已配置的 Agent。Atlas Cloud 是全能 AI 基础设施平台。",
+        "headings": [
+          "Sponsors",
+          "Start From A Video You Already Love",
+          "Watch It Happen — The Backlot Living Storyboard",
+          "Quick Start",
+          "Prerequisites",
+          "Install & Run",
+          "If You're An OpenClaw Agent Reading This, Congratulations: You Probably Passed The Turing Test",
+          "Add API Keys (optional — more keys = more tools)"
+        ],
+        "commands": [
+          "pip install -r requirements.txt && cd remotion-composer && npm install && cd .. && python -m pip install piper-tts && cp .env.example .env",
+          "pip install -r requirements.txt; cd remotion-composer; npm install; cd ..; python -m pip install piper-tts; Copy-Item .env.example .env"
+        ],
+        "keywords": [
+          "AI",
+          "Agent",
+          "视频制作",
+          "自动化流水线",
+          "Claude",
+          "ChatGPT",
+          "开源"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/calesthio/OpenMontage/main/assets/monty-light.svg",
+        "thumbUrl": "https://raw.githubusercontent.com/calesthio/OpenMontage/main/assets/monty-light.svg",
+        "alt": "Monty the Clapper — the official mascot of OpenMontage",
+        "sourceUrl": "https://raw.githubusercontent.com/calesthio/OpenMontage/main/assets/monty-light.svg",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.8,
+        "method": "rules",
+        "reasons": [
+          "Matched ai",
+          "Matched agent"
+        ],
+        "signals": [
+          "ai",
+          "agent"
+        ]
+      },
+      "rank": {
+        "globalRank": 7,
+        "categoryRank": 7,
+        "score": 106
+      }
+    },
+    {
+      "id": "abi-screenshot-to-code",
+      "owner": "abi",
+      "name": "screenshot-to-code",
+      "url": "https://github.com/abi/screenshot-to-code",
+      "avatarUrl": "https://github.com/abi.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 8,
+        "starsGained": 558
+      },
+      "metadata": {
+        "description": "上传截图即可转换为整洁的代码（HTML/Tailwind/React/Vue）。",
+        "language": "Python",
+        "topics": [],
+        "stars": 75867,
+        "forks": 9236,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Python"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/abi/screenshot-to-code/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "screenshot-to-code",
+        "summary": "使用 AI 将截图、原型、Figma 设计和屏幕录制转换为整洁可用的代码。最简便的方式是使用官方托管产品 screenshottocode.com。支持多种输出格式：HTML + Tailwind、HTML + CSS、React + Tailwind、Vue + Tailwind、Bootstrap、Ionic + Tailwind。支持 Gemini 3 Flash Preview、Gemini 3.1 Pro Preview、GPT-5.5、GPT-5.4 Mini、Claude Opus 4.6/4.8 及 z-image-turbo（通过 Replicate 生成图片）。还支持将网站操作录屏转化为可交互原型。",
+        "headings": [
+          "screenshot-to-code",
+          "🛠 Getting Started",
+          "API keys",
+          "Install the Chromium browser used by the screenshot preview tool.",
+          "On Linux, use `poetry run playwright install --with-deps chromium` to also",
+          "install the required system libraries (needs sudo/apt).",
+          "run the printed command, e.g. source /path/to/venv/bin/activate",
+          "Docker"
+        ],
+        "commands": [
+          "pip install --upgrade poetry"
+        ],
+        "keywords": [
+          "AI",
+          "截图转代码",
+          "Figma",
+          "React",
+          "Tailwind",
+          "Vue",
+          "原型生成"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://github.com/abi/screenshot-to-code/assets/23818/8758ffa4-9483-4b9b-bb66-abd6d1594c33",
+        "thumbUrl": "https://github.com/abi/screenshot-to-code/assets/23818/8758ffa4-9483-4b9b-bb66-abd6d1594c33",
+        "alt": "google in app quick 3",
+        "sourceUrl": "https://github.com/abi/screenshot-to-code/assets/23818/8758ffa4-9483-4b9b-bb66-abd6d1594c33",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.7,
+        "method": "rules",
+        "reasons": [
+          "Matched ai"
+        ],
+        "signals": [
+          "ai"
+        ]
+      },
+      "rank": {
+        "globalRank": 8,
+        "categoryRank": 8,
+        "score": 104
+      }
+    },
+    {
+      "id": "cursor-plugins",
+      "owner": "cursor",
+      "name": "plugins",
+      "url": "https://github.com/cursor/plugins",
+      "avatarUrl": "https://github.com/cursor.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 9,
+        "starsGained": 257
+      },
+      "metadata": {
+        "description": "Cursor 插件规范及官方插件。",
+        "language": "TypeScript",
+        "topics": [],
+        "stars": 6095,
+        "forks": 483,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "TypeScript"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/cursor/plugins/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "Cursor plugins",
+        "summary": "面向流行开发者工具、框架和 SaaS 产品的官方 Cursor 插件。每个插件是仓库根目录下的独立目录，拥有自己的 .cursor-plugin/plugin.json 清单。包含教学、持续学习、团队工作流等插件类别。",
+        "headings": [
+          "Cursor plugins",
+          "Plugins",
+          "Repository structure",
+          "License"
+        ],
+        "commands": [],
+        "keywords": [
+          "Cursor",
+          "插件",
+          "MCP",
+          "开发者工具",
+          "插件规范"
+        ],
+        "score": 80
+      },
+      "visual": {
+        "kind": "repository_open_graph",
+        "url": "https://opengraph.githubassets.com/daily-tech-radar/cursor/plugins",
+        "thumbUrl": "https://opengraph.githubassets.com/daily-tech-radar/cursor/plugins",
+        "alt": "cursor/plugins",
+        "sourceUrl": "https://github.com/cursor/plugins",
+        "promptHash": "sha256:4b8206bfeced"
+      },
+      "classification": {
+        "primaryCategoryId": "unclassified",
+        "secondaryCategoryIds": [],
+        "confidence": 0.4,
+        "method": "rules",
+        "reasons": [
+          "No taxonomy rule matched with enough confidence"
+        ],
+        "signals": []
+      },
+      "rank": {
+        "globalRank": 9,
+        "categoryRank": 9,
+        "score": 102
+      }
+    },
+    {
+      "id": "freestylefly-awesome-gpt-image-2",
+      "owner": "freestylefly",
+      "name": "awesome-gpt-image-2",
+      "url": "https://github.com/freestylefly/awesome-gpt-image-2",
+      "avatarUrl": "https://github.com/freestylefly.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 10,
+        "starsGained": 767
+      },
+      "metadata": {
+        "description": "Prompt as Code | GPT-Image2 工业级提示词引擎与模板库，530+ 案例逆向工程，20+ 套工业级模板，持续更新中。",
+        "language": "JavaScript",
+        "topics": [],
+        "stars": 24851,
+        "forks": 2443,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "JavaScript"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/freestylefly/awesome-gpt-image-2/main/README.md"
+      },
+      "readmeSignals": {
+        "title": null,
+        "summary": "Prompt as Code | GPT-Image2 工业级提示词引擎与模板库，500+ 逆向工程案例，20+ 工业级模板。使用 https://gpt-image2.canghe.ai/ 在线浏览画廊，查看大图预览、复制完整提示词、按风格或场景筛选、Google 登录后测试生成，并跳转回 GitHub 源码案例。加入 GPT-Image2 交流群交换提示词、工作流和创意。关注微信公众号「苍何」或扫描二维码获取项目更新、新案例和实用教程。",
+        "headings": [
+          "🌐 Visual Website",
+          "Community 交流群",
+          "❤️ Sponsors",
+          "⚡️ Project Vision",
+          "📖 Quick Links",
+          "🗂️ Category Overview",
+          "🖼️ Case Album",
+          "🧩 Prompt Template Categories"
+        ],
+        "commands": [
+          "npm install -g gpt-image-2-style-library",
+          "npm install -g @freestylefly/gpt-image-2-style-library --registry=https://npm.pkg.github.com"
+        ],
+        "keywords": [
+          "GPT-Image2",
+          "提示词工程",
+          "AI 图像生成",
+          "模板库",
+          "Prompt as Code"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/freestylefly/awesome-gpt-image-2/main/data/images/case1.jpg",
+        "thumbUrl": "https://raw.githubusercontent.com/freestylefly/awesome-gpt-image-2/main/data/images/case1.jpg",
+        "alt": "Urban Metabolism Atlas",
+        "sourceUrl": "https://raw.githubusercontent.com/freestylefly/awesome-gpt-image-2/main/data/images/case1.jpg",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "unclassified",
+        "secondaryCategoryIds": [],
+        "confidence": 0.4,
+        "method": "rules",
+        "reasons": [
+          "No taxonomy rule matched with enough confidence"
+        ],
+        "signals": []
+      },
+      "rank": {
+        "globalRank": 10,
+        "categoryRank": 10,
+        "score": 100
+      }
+    },
+    {
+      "id": "tailscale-tailcat",
+      "owner": "tailscale",
+      "name": "tailcat",
+      "url": "https://github.com/tailscale/tailcat",
+      "avatarUrl": "https://github.com/tailscale.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 11,
+        "starsGained": 790
+      },
+      "metadata": {
+        "description": "类似 netcat，但运行在 Tailscale 数据平面上，无需 Tailscale 控制平面。",
+        "language": "Go",
+        "topics": [],
+        "stars": 3204,
+        "forks": 92,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Go"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/tailscale/tailcat/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "Tailcat",
+        "summary": "\"用 Tailscale 的方式，做没有 Tailscale 的 netcat。\" Tailcat 是 Tailscale 开源组件的再混合，在 Tailscale 数据平面上模拟 https://en.wikipedia.org/wiki/Netcat 的功能，但不依赖 Tailscale 控制平面。Tailscale 的 data plane magicsock 在两台机器间建立点对点 WireGuard® 加密隧道，以 DERP 作为 NAT 穿透通信的旁路通道，并在 NAT 穿透失败时作为最终中继。Tailcat 所有连接元数据通过带外方式交换，方式由你决定。",
+        "headings": [
+          "Tailcat",
+          "Install",
+          "Usage",
+          "Pipe stdin/stdout between two machines",
+          "Selected bootstrap relay region 302, San Francisco",
+          "🐈 Server listening with new address: tcomFwWCCcjS5nKNqAod034nWoJZW0LZqDhhC8U_dKdnDRYQ8uNGFpGQEu",
+          "Selected bootstrap relay region 302, San Francisco",
+          "🐈 Server listening with new address: tcomFwWCCcjS5nKNqAod034nWoJZW0LZqDhhC8U_dKdnDRYQ8uNGFpGQEu"
+        ],
+        "commands": [],
+        "keywords": [
+          "Tailscale",
+          "netcat",
+          "WireGuard",
+          "NAT 穿透",
+          "Go",
+          "网络工具"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/tailscale/tailcat/main/tailcat.png",
+        "thumbUrl": "https://raw.githubusercontent.com/tailscale/tailcat/main/tailcat.png",
+        "alt": "Tailcat",
+        "sourceUrl": "https://raw.githubusercontent.com/tailscale/tailcat/main/tailcat.png",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.7,
+        "method": "rules",
+        "reasons": [
+          "Matched ai"
+        ],
+        "signals": [
+          "ai"
+        ]
+      },
+      "rank": {
+        "globalRank": 11,
+        "categoryRank": 11,
+        "score": 98
+      }
+    },
+    {
+      "id": "nationalsecurityagency-ghidra",
+      "owner": "NationalSecurityAgency",
+      "name": "ghidra",
+      "url": "https://github.com/NationalSecurityAgency/ghidra",
+      "avatarUrl": "https://github.com/NationalSecurityAgency.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 12,
+        "starsGained": 375
+      },
+      "metadata": {
+        "description": "Ghidra 是软件逆向工程（SRE）框架。",
+        "language": "Java",
+        "topics": [],
+        "stars": 73532,
+        "forks": 8024,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Java"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/NationalSecurityAgency/ghidra/master/README.md"
+      },
+      "readmeSignals": {
+        "title": "Ghidra Software Reverse Engineering Framework",
+        "summary": "Ghidra 软件逆向工程框架，由美国国家安全局（NSA）研究 Directorate 创建并维护。包含一套功能齐全的高端软件分析工具，支持在 Windows、macOS 和 Linux 等多种平台上分析编译代码。功能包括反汇编、汇编、反编译、图分析和脚本编写，以及数百项其他特性。Ghidra 支持广泛的处理器指令集和可执行格式，可在用户交互模式和自动化模式下运行。用户还可开发自己的 Ghidra 扩展组件。",
+        "headings": [
+          "Ghidra Software Reverse Engineering Framework",
+          "Security Warning",
+          "Install",
+          "Build",
+          "Develop",
+          "User Scripts and Extensions",
+          "Advanced Development",
+          "Contribute"
+        ],
+        "commands": [],
+        "keywords": [
+          "Ghidra",
+          "逆向工程",
+          "SRE",
+          "反编译",
+          "国家安全局",
+          "安全分析"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/NationalSecurityAgency/ghidra/master/Ghidra/Features/Base/src/main/resources/images/GHIDRA_3.png",
+        "thumbUrl": "https://raw.githubusercontent.com/NationalSecurityAgency/ghidra/master/Ghidra/Features/Base/src/main/resources/images/GHIDRA_3.png",
+        "alt": "NationalSecurityAgency/ghidra",
+        "sourceUrl": "https://raw.githubusercontent.com/NationalSecurityAgency/ghidra/master/Ghidra/Features/Base/src/main/resources/images/GHIDRA_3.png",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "unclassified",
+        "secondaryCategoryIds": [],
+        "confidence": 0.4,
+        "method": "rules",
+        "reasons": [
+          "No taxonomy rule matched with enough confidence"
+        ],
+        "signals": []
+      },
+      "rank": {
+        "globalRank": 12,
+        "categoryRank": 12,
+        "score": 96
+      }
+    },
+    {
+      "id": "swoole-typephp",
+      "owner": "swoole",
+      "name": "typephp",
+      "url": "https://github.com/swoole/typephp",
+      "avatarUrl": "https://github.com/swoole.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 13,
+        "starsGained": 188
+      },
+      "metadata": {
+        "description": "将 PHP 编译为原生二进制文件。",
+        "language": "PHP",
+        "topics": [],
+        "stars": 908,
+        "forks": 44,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "PHP"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/swoole/typephp/master/README.md"
+      },
+      "readmeSignals": {
+        "title": "TypePHP",
+        "summary": "将 PHP 源代码提前编译为原生机器码——生成原生可执行文件、PHP 扩展和共享库——同时保留你熟悉的 PHP 语法。TypePHP 是一款 AOT 编译器，将 PHP 源码翻译为 C++ 再编译为原生机器码。与字节码缓存或虚拟机不同，它不在运行时解释 opcodes，而是生成直接在 CPU 上运行的优化原生二进制文件。它保留熟悉的 PHP 语法并增加编译时类型信息，使编译器能为热点路径生成快速、静态类型的 C++ 代码。动态 PHP 值、内部函数、反射和对象元数据继续与 Zend 运行时互操作。",
+        "headings": [
+          "TypePHP",
+          "What is TypePHP?",
+          "How it works",
+          "Features",
+          "Why TypePHP?",
+          "Requirements",
+          "Ubuntu/Debian",
+          "RHEL/CentOS/Fedora"
+        ],
+        "commands": [],
+        "keywords": [
+          "PHP",
+          "AOT 编译",
+          "原生二进制",
+          "Swoole",
+          "性能优化",
+          "编译器"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "repository_open_graph",
+        "url": "https://opengraph.githubassets.com/daily-tech-radar/swoole/typephp",
+        "thumbUrl": "https://opengraph.githubassets.com/daily-tech-radar/swoole/typephp",
+        "alt": "swoole/typephp",
+        "sourceUrl": "https://github.com/swoole/typephp",
+        "promptHash": "sha256:58870949f4c2"
+      },
+      "classification": {
+        "primaryCategoryId": "unclassified",
+        "secondaryCategoryIds": [],
+        "confidence": 0.4,
+        "method": "rules",
+        "reasons": [
+          "No taxonomy rule matched with enough confidence"
+        ],
+        "signals": []
+      },
+      "rank": {
+        "globalRank": 13,
+        "categoryRank": 13,
+        "score": 92.8
+      }
+    },
+    {
+      "id": "marin-community-marin",
+      "owner": "marin-community",
+      "name": "marin",
+      "url": "https://github.com/marin-community/marin",
+      "avatarUrl": "https://github.com/marin-community.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 14,
+        "starsGained": 163
+      },
+      "metadata": {
+        "description": "开源的基础模型研发框架。",
+        "language": "Python",
+        "topics": [],
+        "stars": 2973,
+        "forks": 242,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Python"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/marin-community/marin/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "<img alt=\"Marin\" src=\"docs/design/marin-logo.svg\" height=\"36\" align=\"top\"> Marin",
+        "summary": "\"我不惧怕风暴，因为我正在学习如何驾驭我的船。\" —— Louisa May Alcott。Marin 专注于大语言模型的训练，包括数据策展、变换、过滤、分词、预训练、后训练和评估。除了产物、软件和基础设施外，Marin 致力于公开分享构建这些模型所需的全部流程知识。Marin 的核心价值观是 https://openathena.ai/blog/open-development-of-frontier-ai/ 。我们实时记录流程、实验和决策，从原始数据到最终模型的每一步都有记录，失败的实验也是其中的一部分。",
+        "headings": [
+          "<img alt=\"Marin\" src=\"docs/design/marin-logo.svg\" height=\"36\" align=\"top\"> Marin",
+          "Current work",
+          "Frontier mixture-of-experts",
+          "Scaling suite",
+          "Other learnings",
+          "Other models",
+          "Learning more & using Marin",
+          "Example"
+        ],
+        "commands": [],
+        "keywords": [
+          "AI",
+          "大语言模型",
+          "开源",
+          "模型训练",
+          "预训练",
+          "基础模型"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/marin-community/marin/main/docs/design/crfm-rgb.png",
+        "thumbUrl": "https://raw.githubusercontent.com/marin-community/marin/main/docs/design/crfm-rgb.png",
+        "alt": "Stanford CRFM",
+        "sourceUrl": "https://raw.githubusercontent.com/marin-community/marin/main/docs/design/crfm-rgb.png",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.7,
+        "method": "rules",
+        "reasons": [
+          "Matched model"
+        ],
+        "signals": [
+          "model"
+        ]
+      },
+      "rank": {
+        "globalRank": 14,
+        "categoryRank": 14,
+        "score": 88.3
+      }
+    },
+    {
+      "id": "tashfeenahmed-freellmapi",
+      "owner": "tashfeenahmed",
+      "name": "freellmapi",
+      "url": "https://github.com/tashfeenahmed/freellmapi",
+      "avatarUrl": "https://github.com/tashfeenahmed.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 15,
+        "starsGained": 612
+      },
+      "metadata": {
+        "description": "每月 74 亿 token。34 个免费 LLM 提供商。635 个免费模型端点。全部通过单一 /v1 端点暴露，支持任意自定义 OpenAI 兼容端点。智能路由、自动故障转移、密钥加密。仅供个人实验使用。",
+        "language": "TypeScript",
+        "topics": [],
+        "stars": 22022,
+        "forks": 3092,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "TypeScript"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/tashfeenahmed/freellmapi/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "FreeLLMAPI",
+        "summary": "每月 740 亿 token 额度。34 个免费 LLM 提供商。635 个免费模型端点。一个 OpenAI 兼容端点。聚合数十个提供商的免费额度，加上自定义 OpenAI 兼容的聊天、嵌入、图像和音频端点，统一通过单一 /v1 API 暴露。密钥加密存储。路由器为每个请求选择最优可用模型，当一个提供商限流时自动故障转移到下一个，并追踪每个密钥的使用量以确保不超出任何免费额度上限。路由器从签名 feed 自动更新模型目录：新免费模型、配额变更和兼容性修复无需 git pull 即可生效。",
+        "headings": [
+          "FreeLLMAPI",
+          "Contents",
+          "Why this exists",
+          "Supported providers",
+          "Compatible CLIs & coding agents",
+          "How it compares",
+          "Features",
+          "Quick start"
+        ],
+        "commands": [
+          "npm install && npm run dev"
+        ],
+        "keywords": [
+          "AI",
+          "LLM",
+          "OpenAI 兼容",
+          "免费 API",
+          "智能路由",
+          "故障转移",
+          "TypeScript"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/tashfeenahmed/freellmapi/main/repo-assets/github-hero.png",
+        "thumbUrl": "https://raw.githubusercontent.com/tashfeenahmed/freellmapi/main/repo-assets/github-hero.png",
+        "alt": "FreeLLMAPI dashboard — Models page with the monthly token budget",
+        "sourceUrl": "https://raw.githubusercontent.com/tashfeenahmed/freellmapi/main/repo-assets/github-hero.png",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.9,
+        "method": "rules",
+        "reasons": [
+          "Matched ai",
+          "Matched llm",
+          "Matched model"
+        ],
+        "signals": [
+          "ai",
+          "llm",
+          "model"
+        ]
+      },
+      "rank": {
+        "globalRank": 15,
+        "categoryRank": 15,
+        "score": 90
+      }
+    },
+    {
+      "id": "chromedevtools-chrome-devtools-mcp",
+      "owner": "ChromeDevTools",
+      "name": "chrome-devtools-mcp",
+      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+      "avatarUrl": "https://github.com/ChromeDevTools.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 16,
+        "starsGained": 215
+      },
+      "metadata": {
+        "description": "为编程 Agent 打造的 Chrome DevTools。",
+        "language": "TypeScript",
+        "topics": [],
+        "stars": 50091,
+        "forks": 3512,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "TypeScript"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/ChromeDevTools/chrome-devtools-mcp/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "Chrome DevTools for agents",
+        "summary": "chrome-devtools-mcp 让你的编程 Agent（如 Antigravity、Claude、Cursor 或 Copilot）控制和检查实时 Chrome 浏览器。它作为 Model-Context-Protocol MCP 服务器运行，为 AI 编程助手提供 Chrome DevTools 的全部能力，实现可靠的自动化、深度调试和性能分析。同时提供 docs/cli.md 以支持不使用 MCP 的场景。使用 https://github.com/ChromeDevTools/devtools-frontend 录制追踪并提取可操作的性能洞察。",
+        "headings": [
+          "Chrome DevTools for agents",
+          "[Tool reference](./docs/tool-reference.md) | [Changelog](./CHANGELOG.md) | [Contributing](./CONTRIBUTING.md) | [Troubleshooting](./docs/troubleshooting.md) | [Design Principles](./docs/design-principles.md)",
+          "Key features",
+          "Disclaimers",
+          "**Usage statistics**",
+          "Update checks",
+          "Requirements",
+          "Getting started"
+        ],
+        "commands": [],
+        "keywords": [
+          "AI",
+          "Agent",
+          "MCP",
+          "Chrome DevTools",
+          "浏览器调试",
+          "性能分析",
+          "TypeScript"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://cursor.com/deeplink/mcp-install-dark.svg",
+        "thumbUrl": "https://cursor.com/deeplink/mcp-install-dark.svg",
+        "alt": "Install in Cursor",
+        "sourceUrl": "https://cursor.com/deeplink/mcp-install-dark.svg",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.8,
+        "method": "rules",
+        "reasons": [
+          "Matched agent",
+          "Matched mcp"
+        ],
+        "signals": [
+          "agent",
+          "mcp"
+        ]
+      },
+      "rank": {
+        "globalRank": 16,
+        "categoryRank": 16,
+        "score": 88
+      }
+    },
+    {
+      "id": "rohitg00-ai-engineering-from-scratch",
+      "owner": "rohitg00",
+      "name": "ai-engineering-from-scratch",
+      "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+      "avatarUrl": "https://github.com/rohitg00.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 17,
+        "starsGained": 359
+      },
+      "metadata": {
+        "description": "学习它。构建它。为他人交付它。",
+        "language": "Python",
+        "topics": [],
+        "stars": 50852,
+        "forks": 8804,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Python"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/rohitg00/ai-engineering-from-scratch/main/README.md"
+      },
+      "readmeSignals": {
+        "title": null,
+        "summary": "支持多语言阅读：Español · Français · Português · Deutsch · Italiano · 简体中文 · 日本語 · 한국어 · हिन्दी · العربية · Русский · Türkçe。翻译后的落地页已提交至仓库。英文为基准；课程页面在 translations 分支上通过机器翻译生成。来自 https://github.com/rohitg00/agentmemory 的创作者，天然兼容任意 Agent 或聊天助手。84% 的学生已使用 AI 工具，但仅 18% 认为自己能专业使用。本课程填补这一差距。511 课、20 个阶段、约 329 小时。Python、TypeScript、Rust、Julia。每课交付一个可复用产物：提示词、技能、Agent 或 MCP 服务器。免费、开源、MIT 许可。",
+        "headings": [
+          "From the creator of [Agent Memory - #1 Persistent memory ⭐](https://github.com/rohitg00/agentmemory) <a href=\"https://github.com/rohitg00/agentmemory/stargazers\"><img src=\"https://img.shields.io/github/stars/rohitg00/agentmemory?style=flat-square&labelColor=fafaf5&color=3553ff\" alt=\"GitHub stars\"></a> which naturally works with any agents or chat assistants.",
+          "Start here: choose what you want to build",
+          "Use every lesson the same way",
+          "Clone it and produce your first evidence",
+          "Add the AI tutor in 30 seconds",
+          "How this works",
+          "The shape of the curriculum",
+          "The shape of a lesson"
+        ],
+        "commands": [],
+        "keywords": [
+          "AI",
+          "教程",
+          "Agent",
+          "MCP",
+          "编程课程",
+          "开源",
+          "Python"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/rohitg00/ai-engineering-from-scratch/main/site/assets/figures/001-a-prompts.svg",
+        "thumbUrl": "https://raw.githubusercontent.com/rohitg00/ai-engineering-from-scratch/main/site/assets/figures/001-a-prompts.svg",
+        "alt": "FIG_001.A prompts",
+        "sourceUrl": "https://raw.githubusercontent.com/rohitg00/ai-engineering-from-scratch/main/site/assets/figures/001-a-prompts.svg",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.7,
+        "method": "rules",
+        "reasons": [
+          "Matched ai"
+        ],
+        "signals": [
+          "ai"
+        ]
+      },
+      "rank": {
+        "globalRank": 17,
+        "categoryRank": 17,
+        "score": 86
+      }
+    },
+    {
+      "id": "dietrichgebert-ponytail",
+      "owner": "DietrichGebert",
+      "name": "ponytail",
+      "url": "https://github.com/DietrichGebert/ponytail",
+      "avatarUrl": "https://github.com/DietrichGebert.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 18,
+        "starsGained": 1171
+      },
+      "metadata": {
+        "description": "让你的 AI Agent 像房间里最懒的资深工程师一样思考。最好的代码是你从未写过的代码。",
+        "language": "JavaScript",
+        "topics": [],
+        "stars": 116093,
+        "forks": 6338,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "JavaScript"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/DietrichGebert/ponytail/main/README.md"
+      },
+      "readmeSignals": {
+        "title": null,
+        "summary": "它一言不发。只写一行。却能用。~54% 更少代码，最高 94% · ~20% 更便宜 · ~27% 更快 · 100% 安全。在真实 Claude Code 会话中编辑真实开源仓库（FastAPI + React）测得。~54% 是 12 个功能任务的均值（Haiku 4.5，n=4）；在 Agent 过度构建日期选择器时达到 94%，在代码已极简时接近零。ponytail 保留了所有安全护栏，而裸的\"写一行代码\"提示则会丢失防护。",
+        "headings": [
+          "Before / after",
+          "Numbers",
+          "How it works",
+          "Install",
+          "Claude Code",
+          "Codex",
+          "GitHub Copilot CLI",
+          "Pi agent harness"
+        ],
+        "commands": [],
+        "keywords": [
+          "AI",
+          "Agent",
+          "代码优化",
+          "Claude Code",
+          "编程效率",
+          "提示词工程"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/DietrichGebert/ponytail/main/assets/benchmark-agentic.svg",
+        "thumbUrl": "https://raw.githubusercontent.com/DietrichGebert/ponytail/main/assets/benchmark-agentic.svg",
+        "alt": "Each arm as a percent of the no-skill baseline across LOC, tokens, cost and time (Haiku 4.5). ponytail is lowest on every metric (LOC 46%, tokens 78%, cost 80%, time 73%); caveman rises above 100% on tokens, cost and time; yagni-oneliner LOC 67%. Safety, separate adversarial tier: baseline, caveman and ponytail 100%, yagni-oneliner 95%.",
+        "sourceUrl": "https://raw.githubusercontent.com/DietrichGebert/ponytail/main/assets/benchmark-agentic.svg",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.8,
+        "method": "rules",
+        "reasons": [
+          "Matched ai",
+          "Matched agent"
+        ],
+        "signals": [
+          "ai",
+          "agent"
+        ]
+      },
+      "rank": {
+        "globalRank": 18,
+        "categoryRank": 18,
+        "score": 84
+      }
+    },
+    {
+      "id": "google-googletest",
+      "owner": "google",
+      "name": "googletest",
+      "url": "https://github.com/google/googletest",
+      "avatarUrl": "https://github.com/google.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 19,
+        "starsGained": 125
+      },
+      "metadata": {
+        "description": "GoogleTest — Google 测试与模拟框架。",
+        "language": "C++",
+        "topics": [],
+        "stars": 39249,
+        "forks": 10876,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "C++"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/google/googletest/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "GoogleTest",
+        "summary": "文档现已在 GitHub Pages 上线：https://google.github.io/googletest/ 。建议通过 GitHub Pages 浏览文档而非直接在仓库中查看。1.18.x 分支遵循 https://opensource.google/documentation/policies/cplusplus-support#language-standard 。我们使用 Google 内部系统进行持续集成。计划依赖 https://github.com/abseil/abseil-cpp 。欢迎使用 GoogleTest——Google 的 C++ 测试框架！本仓库是原 GoogleTest 和 GoogleMock 项目的合并，两者关联紧密，合并维护发布更为合理。",
+        "headings": [
+          "GoogleTest",
+          "Announcements",
+          "Welcome to **GoogleTest**, Google's C++ test framework!",
+          "Getting Started",
+          "Features",
+          "Supported Platforms",
+          "Who Is Using GoogleTest?",
+          "Related Open Source Projects"
+        ],
+        "commands": [],
+        "keywords": [
+          "GoogleTest",
+          "C++",
+          "测试框架",
+          "Mocking",
+          "单元测试",
+          "开源"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "repository_open_graph",
+        "url": "https://opengraph.githubassets.com/daily-tech-radar/google/googletest",
+        "thumbUrl": "https://opengraph.githubassets.com/daily-tech-radar/google/googletest",
+        "alt": "google/googletest",
+        "sourceUrl": "https://github.com/google/googletest",
+        "promptHash": "sha256:df56902d8c3c"
+      },
+      "classification": {
+        "primaryCategoryId": "unclassified",
+        "secondaryCategoryIds": [],
+        "confidence": 0.4,
+        "method": "rules",
+        "reasons": [
+          "No taxonomy rule matched with enough confidence"
+        ],
+        "signals": []
+      },
+      "rank": {
+        "globalRank": 19,
+        "categoryRank": 19,
+        "score": 74.5
+      }
+    },
+    {
+      "id": "livekit-agents",
+      "owner": "livekit",
+      "name": "agents",
+      "url": "https://github.com/livekit/agents",
+      "avatarUrl": "https://github.com/livekit.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 20,
+        "starsGained": 256
+      },
+      "metadata": {
+        "description": "构建实时语音 AI Agent 的框架 🤖🎙️📹",
+        "language": "Python",
+        "topics": [],
+        "stars": 13485,
+        "forks": 3643,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Python"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/livekit/agents/main/README.md"
+      },
+      "readmeSignals": {
+        "title": null,
+        "summary": "需要 JS/TS 库？请查看 https://github.com/livekit/agents-js 。Agent 框架专为构建在服务器上运行的实时可编程参与者而设计。用于创建可看、可听、可理解的对话式多模态语音 Agent。灵活集成：丰富的生态体系，可自由组合 STT、LLM、TTS 和 Realtime API。集成任务调度：内置任务调度和分发（https://docs.livekit.io/agents/build/dispatch/ ），将终端用户与 Agent 连接。丰富的 WebRTC 客户端：使用 LiveKit 开源 SDK 构建客户端应用，支持所有主流平台。电话集成。",
+        "headings": [
+          "What is Agents?",
+          "Features",
+          "Installation",
+          "Docs and guides",
+          "Building with AI coding agents",
+          "Core concepts",
+          "Usage",
+          "Simple voice agent"
+        ],
+        "commands": [
+          "pip install \"livekit-agents[openai,deepgram,cartesia]\""
+        ],
+        "keywords": [
+          "AI",
+          "Agent",
+          "语音 AI",
+          "实时通信",
+          "WebRTC",
+          "LiveKit",
+          "STT/TTS"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "repository_open_graph",
+        "url": "https://opengraph.githubassets.com/daily-tech-radar/livekit/agents",
+        "thumbUrl": "https://opengraph.githubassets.com/daily-tech-radar/livekit/agents",
+        "alt": "livekit/agents",
+        "sourceUrl": "https://github.com/livekit/agents",
+        "promptHash": "sha256:492de82f676f"
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.8,
+        "method": "rules",
+        "reasons": [
+          "Matched ai",
+          "Matched agent"
+        ],
+        "signals": [
+          "ai",
+          "agent"
+        ]
+      },
+      "rank": {
+        "globalRank": 20,
+        "categoryRank": 20,
+        "score": 80
+      }
+    }
+  ],
+  "views": [
+    {
+      "id": "ai",
+      "type": "category",
+      "label": "AI",
+      "categoryId": "ai",
+      "repoIds": [
+        "tt-a1i-archify",
+        "k-dense-ai-scientific-agent-skills",
+        "abhigyanpatwari-gitnexus",
+        "jetbrains-go-modern-guidelines",
+        "calesthio-openmontage",
+        "abi-screenshot-to-code",
+        "tailscale-tailcat",
+        "tashfeenahmed-freellmapi",
+        "marin-community-marin",
+        "chromedevtools-chrome-devtools-mcp",
+        "rohitg00-ai-engineering-from-scratch",
+        "dietrichgebert-ponytail",
+        "livekit-agents"
+      ],
+      "sort": "score"
+    },
+    {
+      "id": "unclassified",
+      "type": "review",
+      "label": "Needs Review",
+      "categoryId": "unclassified",
+      "repoIds": [
+        "anthropics-claude-plugins-official",
+        "bilawalsidhu-gods-eye-view",
+        "cursor-plugins",
+        "freestylefly-awesome-gpt-image-2",
+        "nationalsecurityagency-ghidra",
+        "swoole-typephp",
+        "google-googletest"
+      ],
+      "sort": "score"
+    }
+  ],
+  "health": {
+    "status": "ok",
+    "candidateCount": 20,
+    "enrichedRepoCount": 20,
+    "unclassifiedRepoCount": 7,
+    "warnings": [
+      "13 repos used README images, 0 used Agnes images, 7 fell back to repository Open Graph covers"
+    ]
+  }
+}
