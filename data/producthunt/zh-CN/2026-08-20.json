@@ -1,0 +1,1252 @@
+{
+  "schemaVersion": "daily-tech-radar.v1",
+  "source": "producthunt",
+  "locale": "zh-CN",
+  "date": "2026-08-20",
+  "sourceTimezone": "Asia/Shanghai",
+  "generatedAt": "2026-08-29T14:32:11.697Z",
+  "items": [
+    {
+      "rank": 1,
+      "id": "1215949",
+      "name": "HyNote for Mac",
+      "tagline": "完全本地运行的免费转录工具，100% 隐私保护",
+      "description": "解决会议软件的三大痛点：隐私、摩擦和成本。通过完全在设备本地运行语音转文字，您的机密讨论永远不会离开您的硬件，确保数据完全隐私。它以隐形方式运行，不会在参会者列表中发送令人尴尬的机器人，直接从 Zoom、Google Meet 和 Microsoft Teams 捕获系统音频。",
+      "keywords": [
+        "转录",
+        "隐私保护",
+        "语音转文字",
+        "会议记录",
+        "本地AI"
+      ],
+      "metrics": {
+        "votes": 389,
+        "comments": 57
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/TFVUEICJCPZ3GD?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/hynote-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/0fef001a-fad0-43a5-a2e6-84a74d012ad4.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/0fef001a-fad0-43a5-a2e6-84a74d012ad4.png?auto=format",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/4f5d34fe-e31c-4744-a968-e0f3ab562514.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/b72a0111-b361-4966-ad7a-78f197d55734.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/44ffdca4-d87a-493a-af4e-99b2797aff39.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/74b72252-db37-4d86-b7ca-8b48b8b48ded.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/fbfc7843-db24-4052-acbc-9fb458531be8.png?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "hynote-for-mac",
+        "featuredAt": "2026-08-20T07:01:00Z",
+        "createdAt": "2026-08-20T07:01:00Z"
+      }
+    },
+    {
+      "rank": 2,
+      "id": "1226841",
+      "name": "Grok 4.6",
+      "tagline": "面向长期运行智能体的前沿智能",
+      "description": "持续推理与现实执行相结合。Grok 4.6 在智能体工作流、软件工程和交互式 Web 应用生成方面带来重大升级，价格保持不变——每 100 万 token 仅 $2/$6。在 xAI API 和合作网络上使用 Grok 4.6 构建长期运行的 AI 智能体工作流！",
+      "keywords": [
+        "AI智能体",
+        "大语言模型",
+        "xAI",
+        "软件工程",
+        "智能体工作流"
+      ],
+      "metrics": {
+        "votes": 302,
+        "comments": 7
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/GAULWNJU36TUR3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/grok-4-6-7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/29fcadea-8850-4424-9774-e30fc7f13707.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/29fcadea-8850-4424-9774-e30fc7f13707.png?auto=format",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/702a596e-dc13-4ae2-8e54-9b12d1c2a071.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/2023ad26-a56b-4e2f-ad90-9a49113d1827.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/d6c0d6cb-1843-4135-a855-fcc1458aa825.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/8d8fb443-d88c-401f-8994-76b829e7c7e8.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/c3ba0365-eb29-4abf-8022-22719fac4fe1.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/99df2ac9-e5ce-44da-9266-8885b093e97e.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/5fb9c32c-3fd6-4986-94f3-226973a694b9.png?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "grok-4-6-8",
+        "featuredAt": "2026-08-20T07:01:00Z",
+        "createdAt": "2026-08-20T07:01:00Z"
+      }
+    },
+    {
+      "rank": 3,
+      "id": "1219589",
+      "name": "Checksum AI",
+      "tagline": "你编码智能体的测试伙伴",
+      "description": "Checksum 是一款面向工程团队的 AI 原生持续测试平台，专为超越人工 QA 速度的快速交付而生。它在每个 pull request 上自动生成、运行和自动修复端到端及 API 测试，全部以标准 Playwright 代码形式存在于您的仓库中。当测试失败时，Checksum 会告诉您是真实 bug 还是过时测试，然后修复误报，让您的测试套件跟上编码智能体的节奏。",
+      "keywords": [
+        "测试",
+        "AI测试",
+        "Playwright",
+        "质量保证",
+        "持续测试"
+      ],
+      "metrics": {
+        "votes": 231,
+        "comments": 40
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/6UXTVDQE4GWO3U?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/checksum-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/f22facd7-cd87-497c-a3d6-13f0290fee8c.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/f22facd7-cd87-497c-a3d6-13f0290fee8c.png?auto=format",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/4c8b66eb-bbcb-485b-8685-a1293399644b.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/85f87404-2fb1-4bc0-8963-13e061d889d6.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/dc9ef34d-a340-4561-9321-7c1d6f6fd884.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/c1191858-3714-414a-9e97-6fbc9f1bf135.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/b5d09a37-9569-4fee-b0b1-968008646623.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/c1ddfd89-1a25-45d5-92b4-6a1eb0df9682.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/83340304-51e7-47bf-b43d-be432f524aac.jpeg?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "checksum-ai",
+        "featuredAt": "2026-08-20T07:01:00Z",
+        "createdAt": "2026-08-20T07:01:00Z"
+      }
+    },
+    {
+      "rank": 4,
+      "id": "1227327",
+      "name": "The New Calendly",
+      "tagline": "处理会议前、中、后的所有工作",
+      "description": "推出 Calendly Notetaker 和 Callie AI 助手：两款全新 AI 产品，旨在处理会议前、中、后的所有工作。会议固然重要，但围绕会议的工作量迅速累积。😅 因此我们推出了升级版的 Calendly——不仅处理预约，还处理您会议前后的所有工作，让您专注于真正重要的事。",
+      "keywords": [
+        "日程安排",
+        "AI助手",
+        "会议",
+        "效率工具",
+        "日历"
+      ],
+      "metrics": {
+        "votes": 213,
+        "comments": 6
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/LNHNJGGXMWCU24?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/calendly?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/f6c73f54-aad8-47c3-ae8f-9330f4efedb7.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/f6c73f54-aad8-47c3-ae8f-9330f4efedb7.png?auto=format",
+        "media": [
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/56493a57-75f8-4102-aea9-116a87c43708.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/47e36120-0481-4e15-b30c-f2a1bb2a2d93.png?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "the-new-calendly",
+        "featuredAt": "2026-08-20T07:01:00Z",
+        "createdAt": "2026-08-20T07:01:00Z"
+      }
+    },
+    {
+      "rank": 5,
+      "id": "1226457",
+      "name": "MeetStream AI",
+      "tagline": "AI 会议智能体的统一 API 与基础设施",
+      "description": "以智能体为核心的会议基础设施。一个 API 即可从 Zoom、Google Meet 和 Teams 捕获 50+ 个实时数据点，内置语音基础设施，让您的智能体以参与者身份加入会议，在通话进行时聆听、发言和行动。",
+      "keywords": [
+        "API",
+        "AI智能体",
+        "会议",
+        "Zoom",
+        "基础设施"
+      ],
+      "metrics": {
+        "votes": 182,
+        "comments": 24
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/L7IWMBYCVNNDMY?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/meetstream-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/63c15406-e586-4730-a29d-64f0b6915b2d.gif?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/63c15406-e586-4730-a29d-64f0b6915b2d.gif?auto=format",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/9c3b4044-bfc1-417d-b642-54302537e1b4.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/8f3d75d3-9fa1-4229-8ab8-b496d63736f6.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/18433225-b186-41dd-937b-cff93ab9d192.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/4e5ac90a-5bf2-490a-8b3e-bb9b7f8e6a8b.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/04b12c14-655a-47fb-8153-1339834fe1c7.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/e1845b78-283e-4e33-a5a3-f3fd522d6178.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/6ec8fb1e-4eea-460e-b02e-fd2e46dfd2a1.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/bb1d3b09-2c42-4680-ac3a-62aad452b15b.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/9db22d72-be2c-4a0b-8633-d9160ccf3fe2.jpeg?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "meetstream-ai-2",
+        "featuredAt": "2026-08-20T07:01:00Z",
+        "createdAt": "2026-08-20T07:01:00Z"
+      }
+    },
+    {
+      "rank": 6,
+      "id": "1227170",
+      "name": "Prized",
+      "tagline": "让非技术人员构建安全的内部工具",
+      "description": "Prized 让运营、支持和财务团队能够使用 AI 构建并部署安全的内部工具。公司数据已预连接并限定范围，每次访问都有审计追踪，一键部署在公司登录系统之后。",
+      "keywords": [
+        "无代码",
+        "内部工具",
+        "AI",
+        "企业级",
+        "低代码"
+      ],
+      "metrics": {
+        "votes": 159,
+        "comments": 17
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/6OP6W6QAJ7SXCE?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/prized?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/9b91c441-7d80-4859-b8d0-f6cc0f0ef738.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/9b91c441-7d80-4859-b8d0-f6cc0f0ef738.png?auto=format",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/8e19a51a-3720-4a41-8d08-80203b1907ea.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/302583dc-2eaf-4035-a158-343e787ce93f.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/88837ebb-0a70-4957-940c-157416eff603.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/1b748d01-89b5-4c99-9790-7171b9ba6094.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/9dadacb1-8bfa-44a6-8574-cb1cb67c500f.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/d7009476-1658-4ea9-9049-6fdf82fc8768.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/8b2f54b7-e16f-4e86-817f-10e4d4901147.jpeg?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "prized",
+        "featuredAt": "2026-08-20T07:01:00Z",
+        "createdAt": "2026-08-20T07:01:00Z"
+      }
+    },
+    {
+      "rank": 7,
+      "id": "1227218",
+      "name": "Hermai Brand API",
+      "tagline": "为每个客户品牌白标你的 B2B SaaS",
+      "description": "客户用工作邮箱或域名注册后，您将获得 Logo、配色、描述和即用的主题方案。专为 B2B SaaS 打造，让每个客户的账户从第一次登录起就看起来像他们自己的品牌。每月免费支持 1,000 个品牌，无需信用卡。",
+      "keywords": [
+        "白标",
+        "B2B SaaS",
+        "品牌定制",
+        "个性化",
+        "SaaS"
+      ],
+      "metrics": {
+        "votes": 145,
+        "comments": 30
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/KBTDPMY6V3G6LL?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/hermai-brand-api?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/5cc63f53-46a6-421d-a97e-4c847172a74c.gif?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/5cc63f53-46a6-421d-a97e-4c847172a74c.gif?auto=format",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/f0b155af-ed0b-4b00-b6df-8fe7ade2594b.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/bc4dc28a-cd08-4ab5-9824-fc4290d23e56.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/c98ceae0-b650-44ac-a3cd-d17d27942618.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/6367af6d-4ff1-4c9e-ac4d-db5ffce47bd8.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/10dc8c4b-cb87-4d1d-8534-283446626f28.gif?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "hermai-brand-api",
+        "featuredAt": "2026-08-20T07:01:00Z",
+        "createdAt": "2026-08-20T07:01:00Z"
+      }
+    },
+    {
+      "rank": 8,
+      "id": "1227258",
+      "name": "Lifelong",
+      "tagline": "全家人的健康信息，一站式管理",
+      "description": "Lifelong 是一款以家庭为单位构建的健康应用，而非仅针对个人。为家中每个人统一管理健康记录、药物、症状、预约、活动和睡眠。连接您已有的可穿戴设备，让合适的人随时了解情况，并使用内置 AI 助手 Alo 记录更新和执行简单操作。分享权限由用户完全控制。iOS 版可用，提供两周免费试用。",
+      "keywords": [
+        "健康",
+        "家庭健康",
+        "健康管理",
+        "可穿戴设备",
+        "AI助手"
+      ],
+      "metrics": {
+        "votes": 139,
+        "comments": 7
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/EMHDXTAKNXV56T?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/lifelong-the-family-health-company?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/afd28f29-3396-4230-905f-1220fe5dd9ec.jpeg?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/afd28f29-3396-4230-905f-1220fe5dd9ec.jpeg?auto=format",
+        "media": [
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/02df3f1d-09a2-4f81-8a8b-40a12a1a81b9.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/8ce6aa2e-7db3-4fb9-8b24-5024451d595f.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/62a70754-2eb5-4cab-8095-002498ac6faf.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/89a87f23-d72c-4d4b-8dbc-3108fffb030d.png?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "lifelong",
+        "featuredAt": "2026-08-20T07:01:00Z",
+        "createdAt": "2026-08-20T07:01:00Z"
+      }
+    },
+    {
+      "rank": 9,
+      "id": "1227288",
+      "name": "MiniMax Design",
+      "tagline": "为你打造专属的智能创作团队",
+      "description": "MiniMax Design 是一款桌面应用，将 MiniMax H3 包裹在完整的制作工作流中。描述你想要的视频，智能体将处理脚本、静帧、H3 片段、音乐和剪辑，全部在一个画布上完成。Skills、3D 导演舞台和 ComfyUI 节点在你需要更多控制时随时可用。",
+      "keywords": [
+        "AI视频",
+        "创意工具",
+        "MiniMax",
+        "视频生成",
+        "设计工具"
+      ],
+      "metrics": {
+        "votes": 132,
+        "comments": 2
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/3ZDKIA2BDBRV7U?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/minimax?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/63fc22bd-8869-4c7e-ab8b-793b1acde1d0.svg?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/63fc22bd-8869-4c7e-ab8b-793b1acde1d0.svg?auto=format",
+        "media": [
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/1ab6844a-fa3b-4b18-a853-55b003e7a25a.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/f8f5f61e-878b-4d6e-8170-a9126d44068a.webp?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/f65126a8-5230-40aa-aa7e-2c34c557d145.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/3859bac8-db17-45c0-98f8-957c22c6181e.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/51923f2b-4bb2-4977-b195-8d72dcda4b51.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/6bd38fdb-e8c4-4be9-a669-2f4a8bc61cca.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/3eea6d81-b597-488d-b96b-e8a77bc49978.png?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "minimax-design",
+        "featuredAt": "2026-08-20T07:01:00Z",
+        "createdAt": "2026-08-20T07:01:00Z"
+      }
+    },
+    {
+      "rank": 10,
+      "id": "1227128",
+      "name": "Aloud",
+      "tagline": "将口头反馈转化为编码智能体可执行的任务",
+      "description": "反馈说起来容易写下来难。Aloud 在你讲述应用时同步录制语音、屏幕和实时转录——边说边指、边改边想。只需一键：它将转录重写为你真正想表达的内容，对可能有歧义的地方进行确认，提取你指向的截图，并将整个会话转化为 Claude Code、Cursor 或 Codex 可执行的任务。Whisper 在本地运行——你的音视频永远不会离开 Mac。",
+      "keywords": [
+        "语音反馈",
+        "转录",
+        "AI编程",
+        "开发者工具",
+        "语音转任务"
+      ],
+      "metrics": {
+        "votes": 119,
+        "comments": 17
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/AOIGYVQTYHCPRE?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/aloud-4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/a356af9b-152d-43c5-b043-5503d0900fcf.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/a356af9b-152d-43c5-b043-5503d0900fcf.png?auto=format",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/8fffc5fa-062f-46bb-b347-06c912146b11.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/074f6e0a-43c1-4a5d-bdec-f491386c2b77.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/4be02449-476d-4000-ab21-19ce2c00a356.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/89b1c4c4-a305-4896-895f-1cb8861186db.png?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "aloud-4",
+        "featuredAt": "2026-08-20T07:01:00Z",
+        "createdAt": "2026-08-20T07:01:00Z"
+      }
+    },
+    {
+      "rank": 11,
+      "id": "1226829",
+      "name": "Glasp for Firefox",
+      "tagline": "在 Firefox 中高亮标注并总结任意页面、PDF 或视频",
+      "description": "Glasp 现已登陆 Firefox。用四种颜色高亮网页文章、PDF 和 YouTube 字幕，添加笔记和标签，并用 ChatGPT、Claude 或 Gemini 总结任意页面或视频。所有内容汇入一个可搜索的资料库，并支持导出至 Notion、Obsidian 或 Markdown。在任何浏览器或移动应用上登录，你的高亮内容随之同步。免费使用，无需迁移。",
+      "keywords": [
+        "Firefox插件",
+        "高亮标注",
+        "内容总结",
+        "笔记",
+        "效率工具"
+      ],
+      "metrics": {
+        "votes": 114,
+        "comments": 9
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/YI2F675MOQJCQE?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/glasp-for-firefox?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/e3249f33-d850-47db-a06f-7549464ea91e.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/e3249f33-d850-47db-a06f-7549464ea91e.png?auto=format",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/6c07e75d-2332-436f-8afc-08dd61b78c87.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/92360e1c-206a-4360-9173-13becc811a88.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/6e9f4c30-3ead-40b2-a02c-fc368901550d.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/02efe2ba-0f26-4592-9ddd-2cadbe7e44ba.png?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "glasp-for-firefox",
+        "featuredAt": "2026-08-20T07:01:00Z",
+        "createdAt": "2026-08-20T07:01:00Z"
+      }
+    },
+    {
+      "rank": 12,
+      "id": "1225203",
+      "name": "bitdrift.ai",
+      "tagline": "全球首个智能体移动可观测性平台",
+      "description": "bitdrift AI 是全球首个智能体移动可观测性平台：一个实时、全保真度的可观测系统，让 AI 智能体能够查询移动端用户行为并自主采取行动。基于 bitdrift Public API 和 bd skills 构建。用户旅程、性能指标和行为变化在智能体需要时即可获取，而非等待十天后的应用发布。早期用户报告调查速度更快，MTTR 提升 10 倍。",
+      "keywords": [
+        "可观测性",
+        "移动端",
+        "AI智能体",
+        "数据分析",
+        "故障恢复"
+      ],
+      "metrics": {
+        "votes": 112,
+        "comments": 10
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/UG2LC5QUB4IBYY?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/bitdrift?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/7aff148b-4536-4181-921c-2bebd98eb364.jpeg?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/7aff148b-4536-4181-921c-2bebd98eb364.jpeg?auto=format",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/1d3f1b50-b256-48ed-9a49-e361defe11a3.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/1996a8a7-cdb3-4ce0-a4ea-460533b551f2.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/a7c24995-bc18-47ad-9d41-77afd405acac.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/b51c7b61-bcd1-442f-9d9d-a3582623352b.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/e67a0b15-0ee3-4b59-a2e4-1cdeae4f53bc.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/cb0d9265-637d-440c-8058-3bb0480ae825.jpeg?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "bitdrift-ai",
+        "featuredAt": "2026-08-20T07:01:00Z",
+        "createdAt": "2026-08-20T07:01:00Z"
+      }
+    },
+    {
+      "rank": 13,
+      "id": "1227189",
+      "name": "Shape",
+      "tagline": "设计师与程序员的智能体 IDE",
+      "description": "Shape 是面向设计师和程序员的智能体 IDE。设计、编码、Git 和 AI 聊天，全部集成在一个桌面应用中。支持 Windows 下载。",
+      "keywords": [
+        "IDE",
+        "设计工具",
+        "编程",
+        "AI",
+        "开发者工具"
+      ],
+      "metrics": {
+        "votes": 112,
+        "comments": 8
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/VCZNOGHAWYUJEU?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/shape-5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/1fc95ab2-0b17-4893-b7cc-61c7d368e1b7.svg?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/1fc95ab2-0b17-4893-b7cc-61c7d368e1b7.svg?auto=format",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/3cd9f4ce-20fc-45e2-b05d-fa8126fa8306.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/eac0a00a-3c3e-4a05-a8c2-0e1efda2377a.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/0c2b701b-8518-4bf9-aea9-0aacdf8ae38a.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/c2730205-86a3-4ab6-9a16-aff84b450c31.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/73ceb379-f344-4a38-8d38-9d0950afb3eb.png?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "shape-6f9cb6b9-afa3-4fb6-b0e2-b528a71d15d1",
+        "featuredAt": "2026-08-20T07:01:00Z",
+        "createdAt": "2026-08-20T07:01:00Z"
+      }
+    },
+    {
+      "rank": 14,
+      "id": "1226285",
+      "name": "Berd",
+      "tagline": "一款古怪有趣的桌面应用，与 AI 智能体一起构建",
+      "description": "Berd 面向在桌面工作区中用 AI 智能体做实事的人：工程师、产品设计师和其他构建者，他们需要一位能使用项目、技能、扩展、自动化、模型提供商和本地工作区上下文的持久智能体伙伴。用户常在宏观产品思维和具体实现之间切换，因此界面需要支持快速聊天、精确的上下文选择和关于智能体可见/可操作范围的明确认知。",
+      "keywords": [
+        "AI智能体",
+        "桌面应用",
+        "效率工具",
+        "创意工作",
+        "构建者工具"
+      ],
+      "metrics": {
+        "votes": 109,
+        "comments": 2
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/7GXWXOPOBJJA7Y?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/berd?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/cba6980e-5e1b-46e0-ae0c-31d1ed01d63f.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/cba6980e-5e1b-46e0-ae0c-31d1ed01d63f.png?auto=format",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/430be18f-571c-4c63-a7b5-0cc381f21ffa.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/e83861b7-686d-4947-81bc-8871c07eceae.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/751a02a3-76b3-490d-afb9-c43688946593.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/26563b49-8338-4600-8e06-b42d49790493.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/7d0a8571-d465-4bb1-84df-552b60a8d131.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/a27403cc-e8d5-4cbf-b91a-f6fa9eec5030.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/3b1cbd7f-41ae-4a71-9304-5c1eac92487a.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/55c50cc8-cf3a-426d-8648-3478933a9693.png?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "berd",
+        "featuredAt": "2026-08-20T07:01:00Z",
+        "createdAt": "2026-08-20T07:01:00Z"
+      }
+    },
+    {
+      "rank": 15,
+      "id": "1226610",
+      "name": "NobodyWho",
+      "tagline": "在任何设备上运行 AI 模型",
+      "description": "NobodyWho 是一款基于 llama.cpp 的推理引擎，可在设备上完全本地运行大语言模型。开源、免费、无需 API 密钥、无需云端调用。支持 Swift、Kotlin、Flutter、React Native、Python 和 Godot。包含类型安全的工具调用（自动语法生成）、多模态输入、语音合成与语音识别、Vulkan 和 Metal GPU 加速以及 Hugging Face 模型下载。",
+      "keywords": [
+        "大语言模型",
+        "本地运行",
+        "开源",
+        "推理引擎",
+        "隐私保护"
+      ],
+      "metrics": {
+        "votes": 106,
+        "comments": 20
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/FNS5GNY3Y6LMYC?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/nobodywho?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/fce36bdf-7c3d-489e-ad9f-5c497c669730.jpeg?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/fce36bdf-7c3d-489e-ad9f-5c497c669730.jpeg?auto=format",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/bf4e7068-008a-41e4-990a-bccee5ffb372.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/2bb5ce14-0ce9-4399-b3b2-076a49a22d17.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/463780b2-0bc1-42fa-abce-f8ac7d1bf882.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/4f6b3f78-217d-44eb-8f7c-cdb505dba879.jpeg?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "nobodywho",
+        "featuredAt": "2026-08-20T07:01:00Z",
+        "createdAt": "2026-08-20T07:01:00Z"
+      }
+    },
+    {
+      "rank": 16,
+      "id": "1211537",
+      "name": "Zoho Cliq 7.0",
+      "tagline": "Uninterrupted work",
+      "description": "Connect the dots and do uninterrupted work with our latest features and enhancements. Build no-code bots, experience inclusive collaboration with sign language mode for meetings and WCAG compliance, and focus on the little things that keep work flowing—multimedia summaries, AI coding assistant, hashtags and more.",
+      "keywords": [
+        "Uninterrupted",
+        "work"
+      ],
+      "metrics": {
+        "votes": 96,
+        "comments": 1
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/FMRT2TPU2NYECY?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/zoho?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/105d0060-3697-4e5a-af3c-1c7e16229794.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/105d0060-3697-4e5a-af3c-1c7e16229794.png?auto=format",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/c967dd16-7959-418c-901d-9fab3821ffdd.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/8a60ce2a-af57-4f8d-8917-570d9f733146.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/59fc5b53-38e7-4e90-9aa1-63aedea1821e.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/fd38bb9c-5dd5-4be1-b9f8-13d0b33a5b95.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/c7093244-888c-432c-806f-269eaa6f4ee0.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/0c915c7e-6a2d-4b25-a88b-cb32a103a059.jpeg?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "zoho-cliq-7-0",
+        "featuredAt": "2026-08-20T07:01:00Z",
+        "createdAt": "2026-08-20T07:01:00Z"
+      }
+    },
+    {
+      "rank": 17,
+      "id": "1220408",
+      "name": "Roveri",
+      "tagline": "每次骑行，都在地图上绘就你的骑行日记",
+      "description": "一键记录路线、速度、海拔和天气，绘制在地图上。骑行记录累积成可反复回顾的赛季——以及你骑过的每一条道路的图集。这是一本日记，而非导航仪。免费开始使用；iPhone，需 iOS 18.6+。",
+      "keywords": [
+        "骑行",
+        "健身",
+        "日记",
+        "地图",
+        "iOS应用"
+      ],
+      "metrics": {
+        "votes": 93,
+        "comments": 15
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/TFWHWET6O3E2VF?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/roveri?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/bddeeff0-80d7-4adc-9e3d-12161354e20d.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/bddeeff0-80d7-4adc-9e3d-12161354e20d.png?auto=format",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/aeef958b-6a01-4941-931f-8856425cb940.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/d66a37c7-b93b-437a-9295-4c489e852c2d.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/d47185c4-cbe7-4975-987d-abd661d2a9b5.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/a9daed43-6744-4be2-ae4a-1e013654afb5.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/71dacff9-4f8c-4cd0-b3d6-c0ae39c261a4.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/35af0083-81c4-4fc0-83fb-9ca7694dc70d.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/33841199-6758-4a9c-952c-9e76a36f27b8.jpeg?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "roveri",
+        "featuredAt": "2026-08-20T07:01:00Z",
+        "createdAt": "2026-08-20T07:01:00Z"
+      }
+    },
+    {
+      "rank": 18,
+      "id": "1226544",
+      "name": "Peach Co-Pilot",
+      "tagline": "忙碌专业人士的 WhatsApp 副驾",
+      "description": "为标准 WhatsApp Business App 用户打造的托管式 WhatsApp MCP 服务器。让 Claude、ChatGPT、Cursor 或 Zed 安全地读取、搜索和起草消息。",
+      "keywords": [
+        "WhatsApp",
+        "AI助手",
+        "MCP",
+        "消息管理",
+        "效率工具"
+      ],
+      "metrics": {
+        "votes": 89,
+        "comments": 10
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/VW2ZGIHTYYWE4I?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/peach-co-pilot?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/9447f8fa-4f99-497b-a8c2-4973b0d0aad0.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/9447f8fa-4f99-497b-a8c2-4973b0d0aad0.png?auto=format",
+        "media": [
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/0b4fb470-2e43-4daf-854f-485280e8565b.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/ecf07b21-e775-4473-bf5b-c925cd0c0249.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/e91bbac0-0b5e-44ac-852b-2f8716d5ec09.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/f87fa5f1-6557-41e8-a044-a692d2464358.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/419230d9-9469-4c6f-84fe-3ff38c14d720.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/cbaa89da-0811-4f90-870c-ba9e5077d06a.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/f0f50a72-f2f9-46c4-ab6e-6a72e55451f6.png?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "peach-co-pilot",
+        "featuredAt": "2026-08-20T07:01:00Z",
+        "createdAt": "2026-08-20T07:01:00Z"
+      }
+    },
+    {
+      "rank": 19,
+      "id": "1226404",
+      "name": "Revy",
+      "tagline": "时尚、购物与衣橱的所有权层",
+      "description": "Revy 是一款时尚应用，帮助你用已有衣橱重现喜爱的穿搭，同时连接灵感、创作者、购物和个人风格。",
+      "keywords": [
+        "时尚",
+        "购物",
+        "衣橱管理",
+        "穿搭",
+        "AI"
+      ],
+      "metrics": {
+        "votes": 87,
+        "comments": 14
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/VSXVHAEMH4EI7A?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/revy-the-fashion-app?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/d6917ca1-9ebd-4d06-8116-ed1cf0cc9030.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/d6917ca1-9ebd-4d06-8116-ed1cf0cc9030.png?auto=format",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/99568380-570b-4e10-af4a-57026ae9d87c.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/b23c9652-3fe5-46ab-acef-d60283323e93.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/3cfede83-c63d-44b3-b014-f378d5606cc4.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/e1bb41be-15c1-4d39-b3c9-1af52fe4f7f9.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/0ca95544-4856-41fa-924c-54474da664de.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/2b0d4f58-58c0-4b5b-a205-6a3f9dbb2e53.jpeg?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "revy",
+        "featuredAt": "2026-08-20T07:01:00Z",
+        "createdAt": "2026-08-20T07:01:00Z"
+      }
+    },
+    {
+      "rank": 20,
+      "id": "1227394",
+      "name": "ProtoNote",
+      "tagline": "分享 AI 构建的原型，获得页面级精准反馈",
+      "description": "上传 HTML 原型、图片或 PDF，即可获得一个可分享链接。审阅者在页面精确位置留下注释，无需注册账号，只需一个名字。使用 Claude 连接器可在聊天中直接将任何构建内容转为 ProtoNote。收到注释后，让 Claude 提取并应用更改，新版本自动发布。免费套餐包含 3 个活跃原型，审阅者和注释无限制。审阅永远免费。",
+      "keywords": [
+        "原型设计",
+        "反馈",
+        "AI",
+        "设计协作",
+        "产品原型"
+      ],
+      "metrics": {
+        "votes": 87,
+        "comments": 7
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/P26M7RDO45O2TS?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/protonote?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/419b7837-4c37-4d08-a5fc-96d18660e0fe.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/419b7837-4c37-4d08-a5fc-96d18660e0fe.png?auto=format",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/8acb659a-9748-49f5-82b0-d41ee8224843.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/bccc7007-44ba-45cf-8757-80b2667594d4.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/6acbe799-b4c6-4e12-ab88-427e791314f8.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/b7523bd8-f35b-4d3f-87fa-d57fdf307b57.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/9061bc33-a5d7-4f74-b046-0f6f6da554d2.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/1f7bbfe9-6c2c-4ff9-bef3-ec2097f5c237.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/884a5ca3-e67d-4f16-8675-783f0ec1540c.jpeg?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "protonote",
+        "featuredAt": "2026-08-20T07:01:00Z",
+        "createdAt": "2026-08-20T07:01:00Z"
+      }
+    }
+  ]
+}
