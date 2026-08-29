@@ -92,6 +92,44 @@ describe("Product Hunt generation", () => {
     ]);
   });
 
+  it("ignores unknown Agnes ids and falls back for missing posts", async () => {
+    const posts = fixture;
+    const fetchImpl = async () =>
+      new Response(
+        JSON.stringify({
+          choices: [
+            {
+              message: {
+                content: JSON.stringify({
+                  posts: [
+                    {
+                      id: posts[0].id,
+                      taglineZh: "已本地化",
+                      descriptionZh: "已本地化描述",
+                      keywordsEn: ["localized"],
+                      keywordsZh: ["本地化"]
+                    },
+                    { id: "unknown-id", taglineZh: "忽略" }
+                  ]
+                })
+              }
+            }
+          ]
+        }),
+        { status: 200 }
+      );
+
+    const result = await localizeProductHuntPosts({
+      posts,
+      apiKey: "test-key",
+      fetchImpl: fetchImpl as typeof fetch
+    });
+
+    expect(result).toHaveLength(posts.length);
+    expect(result[0].taglineZh).toBe("已本地化");
+    expect(result[1]).toEqual(fallbackLocalizations(posts)[1]);
+  });
+
   it("accepts Agnes GitHub localizations wrapped in a repositories array", async () => {
     const fetchImpl = async () =>
       new Response(
