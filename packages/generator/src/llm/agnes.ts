@@ -108,20 +108,22 @@ export async function localizeProductHuntPosts(options: {
   }
 
   const fallback = new Map(fallbackLocalizations(posts).map((item) => [item.id, item]));
-  return items.map((item) => {
+  const localized = new Map(fallback);
+  for (const item of items) {
     const raw = item as Partial<ProductHuntLocalization>;
     const base = raw.id ? fallback.get(raw.id) : undefined;
     if (!raw.id || !base) {
-      throw new Error("Agnes localization item is missing a known id");
+      continue;
     }
-    return {
+    localized.set(raw.id, {
       id: raw.id,
       taglineZh: raw.taglineZh ?? base.taglineZh,
       descriptionZh: raw.descriptionZh ?? base.descriptionZh,
       keywordsEn: Array.isArray(raw.keywordsEn) ? raw.keywordsEn : base.keywordsEn,
       keywordsZh: Array.isArray(raw.keywordsZh) ? raw.keywordsZh : base.keywordsZh
-    };
-  });
+    });
+  }
+  return posts.map((post) => localized.get(post.id)!);
 }
 
 export function fallbackGitHubRepoLocalizations(repos: GitHubTrendRepo[]): GitHubRepoLocalization[] {
@@ -197,17 +199,19 @@ export async function localizeGitHubRepos(options: {
   }
 
   const fallback = new Map(fallbackGitHubRepoLocalizations(repos).map((item) => [item.id, item]));
-  return items.map((item) => {
+  const localized = new Map(fallback);
+  for (const item of items) {
     const raw = item as Partial<GitHubRepoLocalization>;
     const base = raw.id ? fallback.get(raw.id) : undefined;
     if (!raw.id || !base) {
-      throw new Error("Agnes GitHub localization item is missing a known id");
+      continue;
     }
-    return {
+    localized.set(raw.id, {
       id: raw.id,
       descriptionZh: raw.descriptionZh ?? base.descriptionZh,
       summaryZh: raw.summaryZh ?? base.summaryZh,
       keywordsZh: Array.isArray(raw.keywordsZh) ? raw.keywordsZh : base.keywordsZh
-    };
-  });
+    });
+  }
+  return repos.map((repo) => localized.get(repo.id)!);
 }
