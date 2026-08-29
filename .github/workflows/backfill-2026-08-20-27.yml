@@ -63,9 +63,22 @@ jobs:
             2026-08-27
           )
 
+          generate_with_retry() {
+            backfill_source="$1"
+            backfill_date="$2"
+            for backfill_attempt in 1 2 3; do
+              if pnpm generate -- --source "$backfill_source" --date "$backfill_date"; then
+                return 0
+              fi
+              echo "Generation failed for $backfill_source $backfill_date (attempt $backfill_attempt/3)"
+              sleep 5
+            done
+            return 1
+          }
+
           for date in "${dates[@]}"; do
-            pnpm generate -- --source producthunt --date "$date"
-            pnpm generate -- --source github --date "$date"
+            generate_with_retry producthunt "$date"
+            generate_with_retry github "$date"
             git add data
             if git diff --cached --quiet; then
               echo "No generated changes for $date"
