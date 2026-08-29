@@ -5,9 +5,9 @@ import {
   buildDailyHighlights,
   deriveCategories,
   generateDailyHighlights,
+  githubCover,
   groupByCategory,
   linkifyProjectNames,
-  loadDigest,
   SCREENSHOT_FULL_PAGE,
   screenshotPageUrl,
 } from "./push-feishu.mjs";
@@ -29,19 +29,43 @@ test("classification mirrors the Radar app finite taxonomy", () => {
   assert.deepEqual(deriveCategories(["gardening calendar"]), ["其他"]);
 });
 
-test("repository avatars become repo covers while real SVG visuals are preserved for rasterizing", async () => {
-  const digest = await loadDigest("data");
-  const memory = digest.items.find((item) => item.id === "github:akitaonrails-ai-memory");
-  const cybersecurity = digest.items.find(
-    (item) => item.id === "github:mukul975-anthropic-cybersecurity-skills",
+test("repository avatars become repo covers while real SVG visuals are preserved for rasterizing", () => {
+  assert.equal(
+    githubCover({
+      owner: "akitaonrails",
+      name: "ai-memory",
+      avatarUrl: "https://github.com/akitaonrails.png",
+      visual: {
+        kind: "repository_avatar",
+        url: "https://github.com/akitaonrails.png",
+      },
+    }),
+    "https://opengraph.githubassets.com/daily-tech-radar/akitaonrails/ai-memory",
   );
-  const careerOps = digest.items.find((item) => item.id === "github:santifer-career-ops");
-  assert.match(memory.imageUrl, /opengraph\.githubassets\.com\/daily-tech-radar\/akitaonrails\/ai-memory/);
-  assert.match(
-    cybersecurity.imageUrl,
-    /opengraph\.githubassets\.com\/daily-tech-radar\/mukul975\/Anthropic-Cybersecurity-Skills/,
+  assert.equal(
+    githubCover({
+      owner: "mukul975",
+      name: "Anthropic-Cybersecurity-Skills",
+      avatarUrl: "https://avatars.githubusercontent.com/u/12345?v=4",
+      visual: {
+        kind: "readme_image",
+        url: "https://avatars.githubusercontent.com/u/12345?v=4",
+      },
+    }),
+    "https://opengraph.githubassets.com/daily-tech-radar/mukul975/Anthropic-Cybersecurity-Skills",
   );
-  assert.match(careerOps.imageUrl, /producthunt\.svg$/);
+  assert.equal(
+    githubCover({
+      owner: "santifer",
+      name: "career-ops",
+      avatarUrl: "https://github.com/santifer.png",
+      visual: {
+        kind: "readme_image",
+        url: "https://example.com/producthunt.svg",
+      },
+    }),
+    "https://example.com/producthunt.svg",
+  );
 });
 
 test("primary category grouping keeps every item once in the single card", () => {
