@@ -1,9 +1,9 @@
 {
   "schemaVersion": "trendreader.daily.v1",
-  "packageId": "github-daily-All-2026-10-10",
+  "packageId": "github-daily-All-2026-10-11",
   "locale": "zh-CN",
-  "generatedAt": "2026-10-10T20:25:01.218Z",
-  "expiresAt": "2026-10-11T20:25:01.218Z",
+  "generatedAt": "2026-10-11T20:26:14.435Z",
+  "expiresAt": "2026-10-12T20:26:14.435Z",
   "sourceWindow": {
     "since": "daily",
     "language": "All",
@@ -14,12 +14,12 @@
       "id": "github_trending_html",
       "role": "candidate",
       "status": "ok",
-      "itemCount": 13
+      "itemCount": 8
     }
   ],
   "taxonomy": {
-    "version": "2026-10-10",
-    "generatedAt": "2026-10-10T20:25:01.218Z",
+    "version": "2026-10-11",
+    "generatedAt": "2026-10-11T20:26:14.435Z",
     "categories": [
       {
         "id": "ai",
@@ -69,14 +69,14 @@
       "source": {
         "primary": "github_trending_html",
         "sourceRank": 1,
-        "starsGained": 25784
+        "starsGained": 25585
       },
       "metadata": {
         "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
         "language": "TypeScript",
         "topics": [],
-        "stars": 68940,
-        "forks": 14520,
+        "stars": 98824,
+        "forks": 21881,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -104,7 +104,9 @@
           "How REA works"
         ],
         "commands": [
-          "npm install --global rea-agents"
+          "npm install --global rea-agents",
+          "npm install --global",
+          "npm install --global"
         ],
         "keywords": [
           "agent",
@@ -151,14 +153,14 @@
       "source": {
         "primary": "github_trending_html",
         "sourceRank": 2,
-        "starsGained": 5831
+        "starsGained": 3977
       },
       "metadata": {
         "description": "Tool for automatic PS5 executables porting to Linux and Windows",
         "language": "C++",
         "topics": [],
-        "stars": 26190,
-        "forks": 2189,
+        "stars": 29573,
+        "forks": 2536,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -229,14 +231,14 @@
       "source": {
         "primary": "github_trending_html",
         "sourceRank": 3,
-        "starsGained": 3217
+        "starsGained": 2956
       },
       "metadata": {
         "description": "ArtCraft is an intentional crafting engine for artists, designers, and filmmakers",
         "language": "Rust",
         "topics": [],
-        "stars": 13991,
-        "forks": 2192,
+        "stars": 17327,
+        "forks": 2838,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -304,14 +306,14 @@
       "source": {
         "primary": "github_trending_html",
         "sourceRank": 4,
-        "starsGained": 1189
+        "starsGained": 1083
       },
       "metadata": {
-        "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Factory Droid, and Pi. 44 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+        "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, and Pi. 44 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
         "language": "HTML",
         "topics": [],
-        "stars": 48775,
-        "forks": 3082,
+        "stars": 50114,
+        "forks": 3181,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -326,36 +328,36 @@
         "rawUrl": "https://raw.githubusercontent.com/cathrynlavery/diagram-design/main/README.md"
       },
       "readmeSignals": {
-        "title": "Diagram Design",
-        "summary": "An agent skill for Claude Code, Codex, Copilot, Cursor and more that draws editorial diagrams as one self-contained HTML+SVG file, in your brand, with design rules baked in. 44 diagram types. No shadows. No Mermaid slop. Project site: https://diagramdesign.dev \"Make me an architecture diagram of my app: frontend, backend, database, Redis cache.\" \"I need a quadrant showing Q2 projects by impact vs effort.\" \"Give me a sequence of a bearer call with token refresh on 401.\" \"Onboard diagram-design to https://yoursite.com\" pulls your palette and fonts so every diagram after this one matches your site",
+        "title": "Pi: register the checkout as a local package",
+        "summary": "An agent skill that draws diagrams as one self-contained HTML + SVG file, in your brand. 44 diagram types. No shadows. No Mermaid slop. install · what-it-makes · quickstart · onboarding-make-it-look-like-your-brand · import-from-drawio-mermaid-or-excalidraw · export-to-png--svg · contributing npx skills add cathrynlavery/diagram-design \"Make me an architecture diagram of my app: frontend, backend, database, Redis cache.\" \"I need a quadrant showing Q2 projects by impact vs effort.\" \"Give me a sequence of a bearer call with token refresh on 401.\" \"Onboard diagram-design to https://yoursite.com\" pulls your palette and fonts so every diagram after this one matches your site",
         "headings": [
-          "Diagram Design",
           "Install",
           "Pi: register the checkout as a local package",
           "Claude Code: symlink the inner skill",
           "Other Agent Skills hosts: create only the roots you use",
           "How it compares",
           "Why I built it",
-          "What it makes"
+          "What it makes",
+          "Onboarding: make it look like *your* brand"
         ],
         "commands": [
           "pip install playwright && playwright install chromium"
         ],
         "keywords": [
           "ai",
-          "diagram design",
           "install",
           "pi: register the checkout as a local package",
-          "claude code: symlink the inner skill"
+          "claude code: symlink the inner skill",
+          "other agent skills hosts: create only the roots you use"
         ],
         "score": 100
       },
       "visual": {
         "kind": "readme_image",
-        "url": "https://raw.githubusercontent.com/cathrynlavery/diagram-design/main/docs/hero/demo.gif",
-        "thumbUrl": "https://raw.githubusercontent.com/cathrynlavery/diagram-design/main/docs/hero/demo.gif",
-        "alt": "A prompt typed into an agent session becomes a finished architecture diagram, then a generic first-pass diagram is redrawn in an editorial style",
-        "sourceUrl": "https://raw.githubusercontent.com/cathrynlavery/diagram-design/main/docs/hero/demo.gif",
+        "url": "https://skills.sh/b/cathrynlavery/diagram-design?style=flat-square",
+        "thumbUrl": "https://skills.sh/b/cathrynlavery/diagram-design?style=flat-square",
+        "alt": "skills.sh installs",
+        "sourceUrl": "https://skills.sh/b/cathrynlavery/diagram-design?style=flat-square",
         "promptHash": null
       },
       "classification": {
@@ -377,323 +379,65 @@
       }
     },
     {
-      "id": "mksglu-context-mode",
-      "owner": "mksglu",
-      "name": "context-mode",
-      "url": "https://github.com/mksglu/context-mode",
-      "avatarUrl": "https://github.com/mksglu.png",
+      "id": "bilawalsidhu-gods-eye-view",
+      "owner": "bilawalsidhu",
+      "name": "gods-eye-view",
+      "url": "https://github.com/bilawalsidhu/gods-eye-view",
+      "avatarUrl": "https://github.com/bilawalsidhu.png",
       "homepageUrl": null,
       "source": {
         "primary": "github_trending_html",
         "sourceRank": 5,
-        "starsGained": 178
+        "starsGained": 872
       },
       "metadata": {
-        "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
-        "language": "TypeScript",
+        "description": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
+        "language": "JavaScript",
         "topics": [],
-        "stars": 26243,
-        "forks": 1890,
+        "stars": 51387,
+        "forks": 10331,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
         "topLanguages": [
-          "TypeScript"
+          "JavaScript"
         ]
       },
       "readmeRef": {
         "status": "available",
         "path": "README.md",
         "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/mksglu/context-mode/main/README.md"
+        "rawUrl": "https://raw.githubusercontent.com/bilawalsidhu/gods-eye-view/main/README.md"
       },
       "readmeSignals": {
-        "title": "Context Mode",
-        "summary": "Every MCP tool call dumps raw data into your context window. A Playwright snapshot costs 56 KB. Twenty GitHub issues cost 59 KB. One access log — 45 KB. After 30 minutes, 40% of your context is gone. And when the agent compacts the conversation to free space, it forgets which files it was editing, what tasks are in progress, and what you last asked for. On top of that, the agent wastes output tokens on filler, pleasantries, and verbose explanations — burning context from both sides. Context Mode is an MCP server that solves all four sides of this problem:",
+        "title": "🌐 God's Eye View",
+        "summary": "A spy-satellite simulator in your browser — then you realize the sources are public and the data is real. Photorealistic 3D globe. Live aircraft, ships, satellites, earthquakes, traffic, and public cameras. Hands-free voice control powered by a realtime AI agent. ▶️ From the project behind the viral God's Eye View series formerly WorldView — https://youtube.com/playlist?list=PL6qSg2I-7koPbDnSMo0QeeHXRknA2uv&si=nBGYMoHWQw41v93Q · https://www.google.com/search?q=god%27s+eye+view 🏆 Reached 1 on GitHub Trending, daily and weekly · August 2026 “pretty cool” — https://x.com/BrendanEich/status/2094592096401490266, creator of JavaScript and co-founder of Mozilla and Brave · Featured on https://pino",
         "headings": [
-          "Context Mode",
-          "The Problem",
-          "How Context Mode Solves It",
-          "Install",
-          "Option A — Marketplace plugin (recommended once published)",
-          "Option B — Manual install (existing path)",
-          "Tools",
-          "How the Sandbox Works"
-        ],
-        "commands": [
-          "npm install -g context-mode",
-          "npm install -g context-mode",
-          "npm install -g context-mode",
-          "npm install -g context-mode                                     # the plugin's MCP server runs the global binary",
-          "npm install -g context-mode",
-          "npm install -g context-mode@latest"
-        ],
-        "keywords": [
-          "ai",
-          "agent",
-          "mcp",
-          "context mode",
-          "the problem",
-          "how context mode solves it",
-          "install"
-        ],
-        "score": 100
-      },
-      "visual": {
-        "kind": "readme_image",
-        "url": "https://img.youtube.com/vi/QUHrntlfPo4/maxresdefault.jpg",
-        "thumbUrl": "https://img.youtube.com/vi/QUHrntlfPo4/maxresdefault.jpg",
-        "alt": "Watch context-mode demo on YouTube",
-        "sourceUrl": "https://img.youtube.com/vi/QUHrntlfPo4/maxresdefault.jpg",
-        "promptHash": null
-      },
-      "classification": {
-        "primaryCategoryId": "ai",
-        "secondaryCategoryIds": [],
-        "confidence": 0.9,
-        "method": "rules",
-        "reasons": [
-          "Matched ai",
-          "Matched agent",
-          "Matched mcp"
-        ],
-        "signals": [
-          "ai",
-          "agent",
-          "mcp"
-        ]
-      },
-      "rank": {
-        "globalRank": 5,
-        "categoryRank": 5,
-        "score": 107.8
-      }
-    },
-    {
-      "id": "mattpocock-skills",
-      "owner": "mattpocock",
-      "name": "skills",
-      "url": "https://github.com/mattpocock/skills",
-      "avatarUrl": "https://github.com/mattpocock.png",
-      "homepageUrl": null,
-      "source": {
-        "primary": "github_trending_html",
-        "sourceRank": 6,
-        "starsGained": 1737
-      },
-      "metadata": {
-        "description": "Skills for Real Engineers. Straight from my .agents directory.",
-        "language": "Shell",
-        "topics": [],
-        "stars": 284247,
-        "forks": 23793,
-        "license": null,
-        "defaultBranch": null,
-        "pushedAt": null,
-        "topLanguages": [
-          "Shell"
-        ]
-      },
-      "readmeRef": {
-        "status": "available",
-        "path": "README.md",
-        "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/mattpocock/skills/main/README.md"
-      },
-      "readmeSignals": {
-        "title": "Skills For Real Engineers",
-        "summary": "My agent skills that I use every day to do real engineering - not vibe coding. Developing real applications is hard. Approaches like GSD, BMAD, and Spec-Kit try to help by owning the process. But while doing so, they take away your control and make bugs in the process hard to resolve. These skills are designed to be small, easy to adapt, and composable. They work with any model. They're based on decades of engineering experience. Hack around with them. Make them your own. Enjoy. If you want to keep up with changes to these skills, and any new ones I create, you can join ~60,000 other devs on my newsletter:",
-        "headings": [
-          "Skills For Real Engineers",
-          "Installation (30-second setup)",
-          "1. Get the skills",
-          "2. Run `/setup-matt-pocock-skills`",
-          "3. Bam - you're ready to go.",
-          "Why These Skills Exist",
-          "#1: The Agent Didn't Do What I Want",
-          "#2: The Agent Is Way Too Verbose"
+          "🌐 God's Eye View",
+          "A spy-satellite simulator in your browser — then you realize the sources are public and the data is real.",
+          "🌍 Why This Exists",
+          "🎛️ What This Thing Does",
+          "⚡ Quick Start",
+          "Path 1 — One click, no terminal",
+          "Path 2 — Terminal / coding agent",
+          "Then power it up — in the app, not in a file"
         ],
         "commands": [],
         "keywords": [
-          "ai",
-          "agent",
-          "skills for real engineers",
-          "installation (30-second setup)",
-          "1. get the skills",
-          "2. run `/setup-matt-pocock-skills`"
+          "🌐 god's eye view",
+          "a spy-satellite simulator in your browser — then you realize the sources are public and the data is real.",
+          "🌍 why this exists",
+          "🎛️ what this thing does"
         ],
         "score": 100
       },
       "visual": {
         "kind": "readme_image",
-        "url": "https://skills.sh/b/mattpocock/skills",
-        "thumbUrl": "https://skills.sh/b/mattpocock/skills",
-        "alt": "skills.sh",
-        "sourceUrl": "https://skills.sh/b/mattpocock/skills",
+        "url": "https://raw.githubusercontent.com/bilawalsidhu/gods-eye-view/main/docs/media/hero-open-source-reveal.gif",
+        "thumbUrl": "https://raw.githubusercontent.com/bilawalsidhu/gods-eye-view/main/docs/media/hero-open-source-reveal.gif",
+        "alt": "Orbital HUD, a tracked live globe, FLIR terrain — then OPEN SOURCED",
+        "sourceUrl": "https://raw.githubusercontent.com/bilawalsidhu/gods-eye-view/main/docs/media/hero-open-source-reveal.gif",
         "promptHash": null
-      },
-      "classification": {
-        "primaryCategoryId": "ai",
-        "secondaryCategoryIds": [],
-        "confidence": 0.8,
-        "method": "rules",
-        "reasons": [
-          "Matched ai",
-          "Matched agent"
-        ],
-        "signals": [
-          "ai",
-          "agent"
-        ]
-      },
-      "rank": {
-        "globalRank": 6,
-        "categoryRank": 6,
-        "score": 108
-      }
-    },
-    {
-      "id": "flutter-flutter",
-      "owner": "flutter",
-      "name": "flutter",
-      "url": "https://github.com/flutter/flutter",
-      "avatarUrl": "https://github.com/flutter.png",
-      "homepageUrl": null,
-      "source": {
-        "primary": "github_trending_html",
-        "sourceRank": 7,
-        "starsGained": 164
-      },
-      "metadata": {
-        "description": "Flutter makes it easy and fast to build beautiful apps for mobile and beyond",
-        "language": "Dart",
-        "topics": [],
-        "stars": 179443,
-        "forks": 33569,
-        "license": null,
-        "defaultBranch": null,
-        "pushedAt": null,
-        "topLanguages": [
-          "Dart"
-        ]
-      },
-      "readmeRef": {
-        "status": "available",
-        "path": "README.md",
-        "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/flutter/flutter/main/README.md"
-      },
-      "readmeSignals": {
-        "title": null,
-        "summary": "Flutter is Google's SDK for crafting beautiful, fast user experiences for mobile, web, and desktop from a single codebase. Flutter works with existing code, is used by developers and organizations around the world, and is free and open source. For release and other announcements, join the https://groups.google.com/g/flutter-announce mailing list. Our documentation also tracks https://docs.flutter.dev/release/breaking-changes across releases. The Flutter tool may occasionally download resources from Google servers. By downloading or using the Flutter SDK, you agree to the Google Terms of Service: https://policies.google.com/terms",
-        "headings": [
-          "Documentation",
-          "Terms of service",
-          "About Flutter",
-          "Beautiful user experiences",
-          "Fast results",
-          "Productive development",
-          "Extensible and open model"
-        ],
-        "commands": [],
-        "keywords": [
-          "ui",
-          "documentation",
-          "terms of service",
-          "about flutter",
-          "beautiful user experiences"
-        ],
-        "score": 95
-      },
-      "visual": {
-        "kind": "readme_image",
-        "url": "https://raw.githubusercontent.com/flutter/website/main/sites/docs/web/assets/images/docs/homepage/reflectly-hero-600px.png",
-        "thumbUrl": "https://raw.githubusercontent.com/flutter/website/main/sites/docs/web/assets/images/docs/homepage/reflectly-hero-600px.png",
-        "alt": "Reflectly hero image",
-        "sourceUrl": "https://raw.githubusercontent.com/flutter/website/main/sites/docs/web/assets/images/docs/homepage/reflectly-hero-600px.png",
-        "promptHash": null
-      },
-      "classification": {
-        "primaryCategoryId": "frontend",
-        "secondaryCategoryIds": [],
-        "confidence": 0.7,
-        "method": "rules",
-        "reasons": [
-          "Matched ui"
-        ],
-        "signals": [
-          "ui"
-        ]
-      },
-      "rank": {
-        "globalRank": 7,
-        "categoryRank": 7,
-        "score": 102.4
-      }
-    },
-    {
-      "id": "tensorflow-tensorflow",
-      "owner": "tensorflow",
-      "name": "tensorflow",
-      "url": "https://github.com/tensorflow/tensorflow",
-      "avatarUrl": "https://github.com/tensorflow.png",
-      "homepageUrl": null,
-      "source": {
-        "primary": "github_trending_html",
-        "sourceRank": 8,
-        "starsGained": 24
-      },
-      "metadata": {
-        "description": "An Open Source Machine Learning Framework for Everyone",
-        "language": "C++",
-        "topics": [],
-        "stars": 200690,
-        "forks": 78939,
-        "license": null,
-        "defaultBranch": null,
-        "pushedAt": null,
-        "topLanguages": [
-          "C++"
-        ]
-      },
-      "readmeRef": {
-        "status": "available",
-        "path": "README.md",
-        "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/tensorflow/tensorflow/master/README.md"
-      },
-      "readmeSignals": {
-        "title": null,
-        "summary": "Documentation | https://www.tensorflow.org/apidocs/ | TensorFlow was originally developed by researchers and engineers working within the Machine Intelligence team at Google Brain to conduct research in machine learning and neural networks. However, the framework is versatile enough to be used in other areas as well. TensorFlow provides stable https://www.tensorflow.org/apidocs/python and https://www.tensorflow.org/apidocs/cc APIs, as well as a non-guaranteed backward compatible API for https://www.tensorflow.org/apidocs. Keep up-to-date with release announcements and security updates by subscribing to https://groups.google.com/a/tensorflow.org/forum/!forum/announce. See all the https://www.",
-        "headings": [
-          "Install",
-          "Contribution guidelines",
-          "Patching guidelines",
-          "Continuous build status",
-          "Official Builds",
-          "Resources",
-          "Courses",
-          "License"
-        ],
-        "commands": [
-          "pip install tensorflow",
-          "pip install tensorflow-cpu"
-        ],
-        "keywords": [
-          "install",
-          "contribution guidelines",
-          "patching guidelines",
-          "continuous build status"
-        ],
-        "score": 100
-      },
-      "visual": {
-        "kind": "repository_open_graph",
-        "url": "https://opengraph.githubassets.com/daily-tech-radar/tensorflow/tensorflow",
-        "thumbUrl": "https://opengraph.githubassets.com/daily-tech-radar/tensorflow/tensorflow",
-        "alt": "tensorflow/tensorflow",
-        "sourceUrl": "https://github.com/tensorflow/tensorflow",
-        "promptHash": "sha256:2c8f90ab2770"
       },
       "classification": {
         "primaryCategoryId": "unclassified",
@@ -706,95 +450,9 @@
         "signals": []
       },
       "rank": {
-        "globalRank": 8,
-        "categoryRank": 8,
-        "score": 86.4
-      }
-    },
-    {
-      "id": "hugohe3-ppt-master",
-      "owner": "hugohe3",
-      "name": "ppt-master",
-      "url": "https://github.com/hugohe3/ppt-master",
-      "avatarUrl": "https://github.com/hugohe3.png",
-      "homepageUrl": null,
-      "source": {
-        "primary": "github_trending_html",
-        "sourceRank": 9,
-        "starsGained": 515
-      },
-      "metadata": {
-        "description": "AI turns documents or topics into real, native PowerPoint decks—with native shapes, transitions and animations, data-backed charts and tables on demand, audio narration from speaker notes, and support for your own .pptx templates. · by Hugo He",
-        "language": "Python",
-        "topics": [],
-        "stars": 59304,
-        "forks": 4672,
-        "license": null,
-        "defaultBranch": null,
-        "pushedAt": null,
-        "topLanguages": [
-          "Python"
-        ]
-      },
-      "readmeRef": {
-        "status": "available",
-        "path": "README.md",
-        "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/hugohe3/ppt-master/main/README.md"
-      },
-      "readmeSignals": {
-        "title": "PPT Master — AI generates native PowerPoint from any document",
-        "summary": "PPT Master — AI generates native PowerPoint from any document This project is kept free and open source with the support of Kimi , PackyCode , APIKEY.FAN , RunAPI , APIMart and other sponsors. Thanks to https://www.kimi.com/code/?aff=ppt-master for sponsoring this project! https://platform.kimi.ai/docs/guide/kimi-k3-quickstart is the world's first open 3T-class model, featuring native vision and a 1-million-token context window. With PPT Master, K3 can understand source materials such as PDFs, DOCX files, and web pages, identify key points, structure the narrative, and generate a natively editable PPTX that you can continue refining in PowerPoint.",
-        "headings": [
-          "PPT Master — AI generates native PowerPoint from any document",
-          "❤️ Sponsors",
-          "Product Positioning",
-          "Built by Hugo He",
-          "You Might Also Like",
-          "<a href=\"https://github.com/microsoft/ResearchStudio\">ResearchStudio-<img src=\"https://raw.githubusercontent.com/ai-nuts/Storage/main/ResearchStudio/ResearchStudio-Reel/docs/figures/reel-wordmark.png\" alt=\"Reel\" height=\"16\"></a>",
-          "Quick Start",
-          "1. Prerequisites"
-        ],
-        "commands": [
-          "pip install -r requirements.txt",
-          "pip install -r requirements.txt",
-          "pip install -r requirements.txt",
-          "pip install -r requirements.txt",
-          "pip install -r requirements.txt"
-        ],
-        "keywords": [
-          "ai",
-          "ppt master — ai generates native powerpoint from any document",
-          "❤️ sponsors",
-          "product positioning",
-          "built by hugo he"
-        ],
-        "score": 100
-      },
-      "visual": {
-        "kind": "readme_image",
-        "url": "https://gcdn.moonshot.cn/growth-cdn/sponsor/kimi-en.png",
-        "thumbUrl": "https://gcdn.moonshot.cn/growth-cdn/sponsor/kimi-en.png",
-        "alt": "Kimi",
-        "sourceUrl": "https://gcdn.moonshot.cn/growth-cdn/sponsor/kimi-en.png",
-        "promptHash": null
-      },
-      "classification": {
-        "primaryCategoryId": "ai",
-        "secondaryCategoryIds": [],
-        "confidence": 0.7,
-        "method": "rules",
-        "reasons": [
-          "Matched ai"
-        ],
-        "signals": [
-          "ai"
-        ]
-      },
-      "rank": {
-        "globalRank": 9,
-        "categoryRank": 9,
-        "score": 102
+        "globalRank": 5,
+        "categoryRank": 5,
+        "score": 110
       }
     },
     {
@@ -806,15 +464,15 @@
       "homepageUrl": null,
       "source": {
         "primary": "github_trending_html",
-        "sourceRank": 10,
-        "starsGained": 81
+        "sourceRank": 6,
+        "starsGained": 314
       },
       "metadata": {
         "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
         "language": "Python",
         "topics": [],
-        "stars": 104112,
-        "forks": 31934,
+        "stars": 104413,
+        "forks": 32078,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -876,77 +534,79 @@
         "signals": []
       },
       "rank": {
-        "globalRank": 10,
-        "categoryRank": 10,
-        "score": 88.1
+        "globalRank": 6,
+        "categoryRank": 6,
+        "score": 108
       }
     },
     {
-      "id": "huggingface-transformers",
-      "owner": "huggingface",
-      "name": "transformers",
-      "url": "https://github.com/huggingface/transformers",
-      "avatarUrl": "https://github.com/huggingface.png",
+      "id": "lyogavin-airllm",
+      "owner": "lyogavin",
+      "name": "airllm",
+      "url": "https://github.com/lyogavin/airllm",
+      "avatarUrl": "https://github.com/lyogavin.png",
       "homepageUrl": null,
       "source": {
         "primary": "github_trending_html",
-        "sourceRank": 11,
-        "starsGained": 94
+        "sourceRank": 7,
+        "starsGained": 541
       },
       "metadata": {
-        "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training.",
-        "language": "Python",
+        "description": "AirLLM 70B inference with single 4GB GPU",
+        "language": "Jupyter Notebook",
         "topics": [],
-        "stars": 167169,
-        "forks": 34796,
+        "stars": 36344,
+        "forks": 3811,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
         "topLanguages": [
-          "Python"
+          "Jupyter Notebook"
         ]
       },
       "readmeRef": {
         "status": "available",
         "path": "README.md",
         "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/huggingface/transformers/main/README.md"
+        "rawUrl": "https://raw.githubusercontent.com/lyogavin/airllm/main/README.md"
       },
       "readmeSignals": {
-        "title": "venv",
-        "summary": "English | 简体中文 | 繁體中文 | 한국어 | Español | 日本語 | हिन्दी | Русский | Português | తెలుగు | Français | Deutsch | Italiano | Tiếng Việt | العربية | اردو | বাংলা | فارسی | Română | Türkçe State-of-the-art pretrained models for inference and training Transformers acts as the model-definition framework for state-of-the-art machine learning with text, computer vision, audio, video, and multimodal models, for both inference and training. It centralizes the model definition so that this definition is agreed upon across the ecosystem. transformers is the pivot across frameworks: if a model definition is supported, it will be compatible with the majority of training frameworks Axolotl, Unsloth, DeepSpeed, ",
+        "title": "just pass a hugging face repo id — works with almost any popular model:",
+        "summary": "quickstart | configurations | macos | example-python-notebook | faq AirLLM dramatically reduces inference memory usage, letting 70B large language models run on a single 4GB GPU card — without quantization, distillation, or pruning. You can even run Kimi K3 2.8T — the largest open-source model released to date — on under 4GB, Qwen3.8-Flash-Next 125B on 6GB, and DeepSeek-V3 671B on ~12GB. We now also support training huge models on small VRAM: Qwen3.8-Flash-Next 125B under 6GB. Updates 2026/09 Training support: stream frozen weights one layer at a time and keep adapters on the GPU. Qwen3.8-Flash-Next 125B trains under 6GB RTX 3060 Ti; Qwen3.8-27B trains in ~2GB at seq 512. See training.",
         "headings": [
-          "Installation",
-          "venv",
-          "uv",
-          "pip",
-          "uv",
-          "pip",
-          "uv",
-          "Quickstart"
+          "AI Agents Recommendation:",
+          "Updates",
+          "Star History",
+          "Table of Contents",
+          "Quickstart",
+          "1. Install package",
+          "2. Inference",
+          "just pass a hugging face repo id — works with almost any popular model:"
         ],
         "commands": [
-          "pip install \"transformers[torch]\"",
-          "pip install \"transformers[torch]\"",
-          "pip install '.[torch]'",
-          "pip install '.[torch]'"
+          "pip install git+https://github.com/huggingface/transformers.git",
+          "pip install compressed-tensors flash-attn",
+          "pip install airllm",
+          "pip install -U bitsandbytes",
+          "pip install -U airllm",
+          "pip install git+https://github.com/huggingface/transformers.git"
         ],
         "keywords": [
           "ai",
-          "model",
-          "installation",
-          "venv",
-          "uv",
-          "pip"
+          "llm",
+          "ai agents recommendation:",
+          "updates",
+          "star history",
+          "table of contents"
         ],
         "score": 100
       },
       "visual": {
         "kind": "readme_image",
-        "url": "https://huggingface.co/datasets/huggingface/documentation-images/resolve/main/transformers/transformers_as_a_model_definition.png",
-        "thumbUrl": "https://huggingface.co/datasets/huggingface/documentation-images/resolve/main/transformers/transformers_as_a_model_definition.png",
-        "alt": "huggingface/transformers",
-        "sourceUrl": "https://huggingface.co/datasets/huggingface/documentation-images/resolve/main/transformers/transformers_as_a_model_definition.png",
+        "url": "https://raw.githubusercontent.com/lyogavin/airllm/main/assets/airllm2_time_improvement.png",
+        "thumbUrl": "https://raw.githubusercontent.com/lyogavin/airllm/main/assets/airllm2_time_improvement.png",
+        "alt": "speed_improvement",
+        "sourceUrl": "https://raw.githubusercontent.com/lyogavin/airllm/main/assets/airllm2_time_improvement.png",
         "promptHash": null
       },
       "classification": {
@@ -956,172 +616,94 @@
         "method": "rules",
         "reasons": [
           "Matched ai",
-          "Matched model"
-        ],
-        "signals": [
-          "ai",
-          "model"
-        ]
-      },
-      "rank": {
-        "globalRank": 11,
-        "categoryRank": 11,
-        "score": 87.4
-      }
-    },
-    {
-      "id": "anthropics-knowledge-work-plugins",
-      "owner": "anthropics",
-      "name": "knowledge-work-plugins",
-      "url": "https://github.com/anthropics/knowledge-work-plugins",
-      "avatarUrl": "https://github.com/anthropics.png",
-      "homepageUrl": null,
-      "source": {
-        "primary": "github_trending_html",
-        "sourceRank": 12,
-        "starsGained": 626
-      },
-      "metadata": {
-        "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
-        "language": "Python",
-        "topics": [],
-        "stars": 28736,
-        "forks": 3272,
-        "license": null,
-        "defaultBranch": null,
-        "pushedAt": null,
-        "topLanguages": [
-          "Python"
-        ]
-      },
-      "readmeRef": {
-        "status": "available",
-        "path": "README.md",
-        "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/README.md"
-      },
-      "readmeSignals": {
-        "title": "Knowledge Work Plugins",
-        "summary": "Plugins that turn Claude into a specialist for your role, team, and company. Built for https://claude.com/product/cowork, also compatible with https://claude.com/product/claude-code. Cowork lets you set the goal and Claude delivers finished, professional work. Plugins let you go further: tell Claude how you like work done, which tools and data to pull from, how to handle critical workflows, and what slash commands to expose — so your team gets better and more consistent outcomes. Each plugin bundles the skills, connectors, slash commands, and sub-agents for a specific job function. Out of the box, they give Claude a strong starting point for helping anyone in that role. The real power comes ",
-        "headings": [
-          "Knowledge Work Plugins",
-          "Why Plugins",
-          "Plugin Marketplace",
-          "Getting Started",
-          "Cowork",
-          "Claude Code",
-          "Add the marketplace first",
-          "Then install a specific plugin"
-        ],
-        "commands": [],
-        "keywords": [
-          "knowledge work plugins",
-          "why plugins",
-          "plugin marketplace",
-          "getting started"
-        ],
-        "score": 100
-      },
-      "visual": {
-        "kind": "repository_open_graph",
-        "url": "https://opengraph.githubassets.com/daily-tech-radar/anthropics/knowledge-work-plugins",
-        "thumbUrl": "https://opengraph.githubassets.com/daily-tech-radar/anthropics/knowledge-work-plugins",
-        "alt": "anthropics/knowledge-work-plugins",
-        "sourceUrl": "https://github.com/anthropics/knowledge-work-plugins",
-        "promptHash": "sha256:36c6e3559edc"
-      },
-      "classification": {
-        "primaryCategoryId": "unclassified",
-        "secondaryCategoryIds": [],
-        "confidence": 0.4,
-        "method": "rules",
-        "reasons": [
-          "No taxonomy rule matched with enough confidence"
-        ],
-        "signals": []
-      },
-      "rank": {
-        "globalRank": 12,
-        "categoryRank": 12,
-        "score": 96
-      }
-    },
-    {
-      "id": "multica-ai-andrej-karpathy-skills",
-      "owner": "multica-ai",
-      "name": "andrej-karpathy-skills",
-      "url": "https://github.com/multica-ai/andrej-karpathy-skills",
-      "avatarUrl": "https://github.com/multica-ai.png",
-      "homepageUrl": null,
-      "source": {
-        "primary": "github_trending_html",
-        "sourceRank": 13,
-        "starsGained": 279
-      },
-      "metadata": {
-        "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
-        "language": "",
-        "topics": [],
-        "stars": 218144,
-        "forks": 21976,
-        "license": null,
-        "defaultBranch": null,
-        "pushedAt": null,
-        "topLanguages": []
-      },
-      "readmeRef": {
-        "status": "available",
-        "path": "README.md",
-        "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/multica-ai/andrej-karpathy-skills/main/README.md"
-      },
-      "readmeSignals": {
-        "title": "Karpathy-Inspired Claude Code Guidelines",
-        "summary": "Karpathy-Inspired Claude Code Guidelines Check out my new project https://github.com/multica-ai/multica — an open-source platform for running and managing coding agents with reusable skills. Follow me on X: https://x.com/jiayuanjy A single CLAUDE.md file to improve Claude Code behavior, derived from https://x.com/karpathy/status/2015883857489522876 on LLM coding pitfalls. \"The models make wrong assumptions on your behalf and just run along with them without checking. They don't manage their confusion, don't seek clarifications, don't surface inconsistencies, don't present tradeoffs, don't push back when they should.\"",
-        "headings": [
-          "Karpathy-Inspired Claude Code Guidelines",
-          "The Problems",
-          "The Solution",
-          "The Four Principles in Detail",
-          "1. Think Before Coding",
-          "2. Simplicity First",
-          "3. Surgical Changes",
-          "4. Goal-Driven Execution"
-        ],
-        "commands": [],
-        "keywords": [
-          "llm",
-          "karpathy-inspired claude code guidelines",
-          "the problems",
-          "the solution",
-          "the four principles in detail"
-        ],
-        "score": 100
-      },
-      "visual": {
-        "kind": "repository_open_graph",
-        "url": "https://opengraph.githubassets.com/daily-tech-radar/multica-ai/andrej-karpathy-skills",
-        "thumbUrl": "https://opengraph.githubassets.com/daily-tech-radar/multica-ai/andrej-karpathy-skills",
-        "alt": "multica-ai/andrej-karpathy-skills",
-        "sourceUrl": "https://github.com/multica-ai/andrej-karpathy-skills",
-        "promptHash": "sha256:7b1c2a02d030"
-      },
-      "classification": {
-        "primaryCategoryId": "ai",
-        "secondaryCategoryIds": [],
-        "confidence": 0.7,
-        "method": "rules",
-        "reasons": [
           "Matched llm"
         ],
         "signals": [
+          "ai",
           "llm"
         ]
       },
       "rank": {
-        "globalRank": 13,
-        "categoryRank": 13,
-        "score": 94
+        "globalRank": 7,
+        "categoryRank": 7,
+        "score": 106
+      }
+    },
+    {
+      "id": "chrislgarry-apollo-11",
+      "owner": "chrislgarry",
+      "name": "Apollo-11",
+      "url": "https://github.com/chrislgarry/Apollo-11",
+      "avatarUrl": "https://github.com/chrislgarry.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 8,
+        "starsGained": 496
+      },
+      "metadata": {
+        "description": "Original Apollo 11 Guidance Computer (AGC) source code for the command and lunar modules.",
+        "language": "Assembly",
+        "topics": [],
+        "stars": 74147,
+        "forks": 8095,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Assembly"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/chrislgarry/Apollo-11/master/README.md"
+      },
+      "readmeSignals": {
+        "title": "Apollo-11",
+        "summary": "🌐 AzerbaijaniAZ, bahasa IndonesiaID, Basa JawaJV, CatalàCA, ČeštinaCZ, DanskDA, DeutschDE, EnglishEN, EspañolES, FrançaisFR, GalegoGL, ItalianoIT, KurdîKU, LietuviųLT, MongolianMN, NederlandsNL, NorskNO, PolskiPL, PortuguêsPTBR, RomânăRO, SuomiFI, SvenskaSV, tiếng ViệtVI, TürkçeTR, ΕλληνικάGR, Беларуская моваBE, РусскийRU, УкраїнськаUK, العربيةAR, فارسیFA, नेपाली भाषाNE हिंदीHIIN, অসমীয়াASIN, বাংলাBDBN, မြန်မာMM, 한국어KOKR, 日本語JA, 正體中文ZHTW, 简体中文ZHCN, മലയാളംML AR:Translations/README.ar.md ASIN:Translations/README.asin.md AZ:Translations/README.az.md BDBN:Translations/README.bdbn.md BE:Translations/README.be.md CA:Translations/README.ca.md CZ:Translations/README.cz.md DA:Translations/README.da",
+        "headings": [
+          "Apollo-11",
+          "Contributing",
+          "Compiling",
+          "Attribution",
+          "Contract and Approvals"
+        ],
+        "commands": [],
+        "keywords": [
+          "ui",
+          "apollo-11",
+          "contributing",
+          "compiling",
+          "attribution"
+        ],
+        "score": 85
+      },
+      "visual": {
+        "kind": "repository_open_graph",
+        "url": "https://opengraph.githubassets.com/daily-tech-radar/chrislgarry/Apollo-11",
+        "thumbUrl": "https://opengraph.githubassets.com/daily-tech-radar/chrislgarry/Apollo-11",
+        "alt": "chrislgarry/Apollo-11",
+        "sourceUrl": "https://github.com/chrislgarry/Apollo-11",
+        "promptHash": "sha256:308e86efc068"
+      },
+      "classification": {
+        "primaryCategoryId": "frontend",
+        "secondaryCategoryIds": [],
+        "confidence": 0.7,
+        "method": "rules",
+        "reasons": [
+          "Matched ui"
+        ],
+        "signals": [
+          "ui"
+        ]
+      },
+      "rank": {
+        "globalRank": 8,
+        "categoryRank": 8,
+        "score": 104
       }
     }
   ],
@@ -1134,11 +716,7 @@
       "repoIds": [
         "morluto-rea",
         "cathrynlavery-diagram-design",
-        "mattpocock-skills",
-        "mksglu-context-mode",
-        "hugohe3-ppt-master",
-        "multica-ai-andrej-karpathy-skills",
-        "huggingface-transformers"
+        "lyogavin-airllm"
       ],
       "sort": "score"
     },
@@ -1158,7 +736,7 @@
       "label": "前端",
       "categoryId": "frontend",
       "repoIds": [
-        "flutter-flutter"
+        "chrislgarry-apollo-11"
       ],
       "sort": "score"
     },
@@ -1169,20 +747,19 @@
       "categoryId": "unclassified",
       "repoIds": [
         "storytold-artcraft",
-        "anthropics-knowledge-work-plugins",
-        "pytorch-pytorch",
-        "tensorflow-tensorflow"
+        "bilawalsidhu-gods-eye-view",
+        "pytorch-pytorch"
       ],
       "sort": "score"
     }
   ],
   "health": {
     "status": "ok",
-    "candidateCount": 13,
-    "enrichedRepoCount": 13,
-    "unclassifiedRepoCount": 4,
+    "candidateCount": 8,
+    "enrichedRepoCount": 8,
+    "unclassifiedRepoCount": 3,
     "warnings": [
-      "10 repos used README images, 0 used Agnes images, 3 fell back to repository Open Graph covers"
+      "7 repos used README images, 0 used Agnes images, 1 fell back to repository Open Graph covers"
     ]
   }
 }
