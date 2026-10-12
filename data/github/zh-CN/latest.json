@@ -1,9 +1,9 @@
 {
   "schemaVersion": "trendreader.daily.v1",
-  "packageId": "github-daily-All-2026-10-11",
+  "packageId": "github-daily-All-2026-10-12",
   "locale": "zh-CN",
-  "generatedAt": "2026-10-11T20:26:14.435Z",
-  "expiresAt": "2026-10-12T20:26:14.435Z",
+  "generatedAt": "2026-10-12T20:28:06.088Z",
+  "expiresAt": "2026-10-13T20:28:06.088Z",
   "sourceWindow": {
     "since": "daily",
     "language": "All",
@@ -14,12 +14,12 @@
       "id": "github_trending_html",
       "role": "candidate",
       "status": "ok",
-      "itemCount": 8
+      "itemCount": 9
     }
   ],
   "taxonomy": {
-    "version": "2026-10-11",
-    "generatedAt": "2026-10-11T20:26:14.435Z",
+    "version": "2026-10-12",
+    "generatedAt": "2026-10-12T20:28:06.088Z",
     "categories": [
       {
         "id": "ai",
@@ -69,14 +69,14 @@
       "source": {
         "primary": "github_trending_html",
         "sourceRank": 1,
-        "starsGained": 25585
+        "starsGained": 45495
       },
       "metadata": {
         "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
         "language": "TypeScript",
         "topics": [],
-        "stars": 98824,
-        "forks": 21881,
+        "stars": 150061,
+        "forks": 34675,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -144,241 +144,6 @@
       }
     },
     {
-      "id": "boykopovar-anyps5",
-      "owner": "boykopovar",
-      "name": "AnyPS5",
-      "url": "https://github.com/boykopovar/AnyPS5",
-      "avatarUrl": "https://github.com/boykopovar.png",
-      "homepageUrl": null,
-      "source": {
-        "primary": "github_trending_html",
-        "sourceRank": 2,
-        "starsGained": 3977
-      },
-      "metadata": {
-        "description": "Tool for automatic PS5 executables porting to Linux and Windows",
-        "language": "C++",
-        "topics": [],
-        "stars": 29573,
-        "forks": 2536,
-        "license": null,
-        "defaultBranch": null,
-        "pushedAt": null,
-        "topLanguages": [
-          "C++"
-        ]
-      },
-      "readmeRef": {
-        "status": "available",
-        "path": "README.md",
-        "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/boykopovar/AnyPS5/main/README.md"
-      },
-      "readmeSignals": {
-        "title": "About",
-        "summary": "Tool for automatic executables porting to Linux and Windows. Includes a core/relinker that converts executable to the target system's native format and implementations of core/libs/prx suitable for dynamic linking. No emulation or separate runtime process. docs/user/USAGE.md, docs/dev/BUILD.md, docs/dev/ARCHITECTURE.md, docs/dev/TechnicalDebt.md, docs/dev/CONVENTIONS.md, CONTRIBUTING.md System libraries: percentage of the functions known to the project so far declared in core/libs/prx, not of every PS5 system function. The total grows as more functions are declared.",
-        "headings": [
-          "About",
-          "Status",
-          "Compatibility",
-          "Input mapping",
-          "Disclaimer",
-          "License"
-        ],
-        "commands": [],
-        "keywords": [
-          "tool",
-          "about",
-          "status",
-          "compatibility",
-          "input mapping"
-        ],
-        "score": 90
-      },
-      "visual": {
-        "kind": "readme_image",
-        "url": "https://boykopovar.github.io/AnyPS5/progress.svg",
-        "thumbUrl": "https://boykopovar.github.io/AnyPS5/progress.svg",
-        "alt": "progress map",
-        "sourceUrl": "https://boykopovar.github.io/AnyPS5/progress.svg",
-        "promptHash": null
-      },
-      "classification": {
-        "primaryCategoryId": "tools",
-        "secondaryCategoryIds": [],
-        "confidence": 0.7,
-        "method": "rules",
-        "reasons": [
-          "Matched tool"
-        ],
-        "signals": [
-          "tool"
-        ]
-      },
-      "rank": {
-        "globalRank": 2,
-        "categoryRank": 2,
-        "score": 116
-      }
-    },
-    {
-      "id": "storytold-artcraft",
-      "owner": "storytold",
-      "name": "artcraft",
-      "url": "https://github.com/storytold/artcraft",
-      "avatarUrl": "https://github.com/storytold.png",
-      "homepageUrl": null,
-      "source": {
-        "primary": "github_trending_html",
-        "sourceRank": 3,
-        "starsGained": 2956
-      },
-      "metadata": {
-        "description": "ArtCraft is an intentional crafting engine for artists, designers, and filmmakers",
-        "language": "Rust",
-        "topics": [],
-        "stars": 17327,
-        "forks": 2838,
-        "license": null,
-        "defaultBranch": null,
-        "pushedAt": null,
-        "topLanguages": [
-          "Rust"
-        ]
-      },
-      "readmeRef": {
-        "status": "available",
-        "path": "README.md",
-        "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/storytold/artcraft/main/README.md"
-      },
-      "readmeSignals": {
-        "title": null,
-        "summary": "Watch the two-minute ArtCraft demo on YouTube Download ArtCraft · GitHub releases · Build from source ArtCraft is the IDE for interactive AI image and video creation. Compose in 2D, stage scenes in 3D, and choose the models that fit your work. Turn prompting into crafting with visual tools for precise, repeatable results. Show, Don't Tell: Advanced Crafting Features Artists need control over composition, character identity, and camera placement. Build the scene before you generate it. Click any preview to view it at full size. | Feature | Preview | | Image to Location Place virtual actors in a consistent environment and plan multiple shots in the same room. | | 3D Image Compositing Layer bac",
-        "headings": [
-          "Show, Don't Tell: Advanced Crafting Features",
-          "Quick and Easy Prompting",
-          "Models and Providers Supported within ArtCraft",
-          "Downloads",
-          "Documentation",
-          "License"
-        ],
-        "commands": [],
-        "keywords": [
-          "show, don't tell: advanced crafting features",
-          "quick and easy prompting",
-          "models and providers supported within artcraft",
-          "downloads"
-        ],
-        "score": 90
-      },
-      "visual": {
-        "kind": "readme_image",
-        "url": "https://github.com/user-attachments/assets/21f103e3-cc19-4882-a630-9caa1b76ae31",
-        "thumbUrl": "https://github.com/user-attachments/assets/21f103e3-cc19-4882-a630-9caa1b76ae31",
-        "alt": "Image to Location demo",
-        "sourceUrl": "https://github.com/user-attachments/assets/21f103e3-cc19-4882-a630-9caa1b76ae31",
-        "promptHash": null
-      },
-      "classification": {
-        "primaryCategoryId": "unclassified",
-        "secondaryCategoryIds": [],
-        "confidence": 0.4,
-        "method": "rules",
-        "reasons": [
-          "No taxonomy rule matched with enough confidence"
-        ],
-        "signals": []
-      },
-      "rank": {
-        "globalRank": 3,
-        "categoryRank": 3,
-        "score": 114
-      }
-    },
-    {
-      "id": "cathrynlavery-diagram-design",
-      "owner": "cathrynlavery",
-      "name": "diagram-design",
-      "url": "https://github.com/cathrynlavery/diagram-design",
-      "avatarUrl": "https://github.com/cathrynlavery.png",
-      "homepageUrl": null,
-      "source": {
-        "primary": "github_trending_html",
-        "sourceRank": 4,
-        "starsGained": 1083
-      },
-      "metadata": {
-        "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, and Pi. 44 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
-        "language": "HTML",
-        "topics": [],
-        "stars": 50114,
-        "forks": 3181,
-        "license": null,
-        "defaultBranch": null,
-        "pushedAt": null,
-        "topLanguages": [
-          "HTML"
-        ]
-      },
-      "readmeRef": {
-        "status": "available",
-        "path": "README.md",
-        "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/cathrynlavery/diagram-design/main/README.md"
-      },
-      "readmeSignals": {
-        "title": "Pi: register the checkout as a local package",
-        "summary": "An agent skill that draws diagrams as one self-contained HTML + SVG file, in your brand. 44 diagram types. No shadows. No Mermaid slop. install · what-it-makes · quickstart · onboarding-make-it-look-like-your-brand · import-from-drawio-mermaid-or-excalidraw · export-to-png--svg · contributing npx skills add cathrynlavery/diagram-design \"Make me an architecture diagram of my app: frontend, backend, database, Redis cache.\" \"I need a quadrant showing Q2 projects by impact vs effort.\" \"Give me a sequence of a bearer call with token refresh on 401.\" \"Onboard diagram-design to https://yoursite.com\" pulls your palette and fonts so every diagram after this one matches your site",
-        "headings": [
-          "Install",
-          "Pi: register the checkout as a local package",
-          "Claude Code: symlink the inner skill",
-          "Other Agent Skills hosts: create only the roots you use",
-          "How it compares",
-          "Why I built it",
-          "What it makes",
-          "Onboarding: make it look like *your* brand"
-        ],
-        "commands": [
-          "pip install playwright && playwright install chromium"
-        ],
-        "keywords": [
-          "ai",
-          "install",
-          "pi: register the checkout as a local package",
-          "claude code: symlink the inner skill",
-          "other agent skills hosts: create only the roots you use"
-        ],
-        "score": 100
-      },
-      "visual": {
-        "kind": "readme_image",
-        "url": "https://skills.sh/b/cathrynlavery/diagram-design?style=flat-square",
-        "thumbUrl": "https://skills.sh/b/cathrynlavery/diagram-design?style=flat-square",
-        "alt": "skills.sh installs",
-        "sourceUrl": "https://skills.sh/b/cathrynlavery/diagram-design?style=flat-square",
-        "promptHash": null
-      },
-      "classification": {
-        "primaryCategoryId": "ai",
-        "secondaryCategoryIds": [],
-        "confidence": 0.7,
-        "method": "rules",
-        "reasons": [
-          "Matched ai"
-        ],
-        "signals": [
-          "ai"
-        ]
-      },
-      "rank": {
-        "globalRank": 4,
-        "categoryRank": 4,
-        "score": 112
-      }
-    },
-    {
       "id": "bilawalsidhu-gods-eye-view",
       "owner": "bilawalsidhu",
       "name": "gods-eye-view",
@@ -387,15 +152,15 @@
       "homepageUrl": null,
       "source": {
         "primary": "github_trending_html",
-        "sourceRank": 5,
-        "starsGained": 872
+        "sourceRank": 2,
+        "starsGained": 1903
       },
       "metadata": {
         "description": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
         "language": "JavaScript",
         "topics": [],
-        "stars": 51387,
-        "forks": 10331,
+        "stars": 53367,
+        "forks": 10584,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -450,77 +215,161 @@
         "signals": []
       },
       "rank": {
-        "globalRank": 5,
-        "categoryRank": 5,
-        "score": 110
+        "globalRank": 2,
+        "categoryRank": 2,
+        "score": 116
       }
     },
     {
-      "id": "pytorch-pytorch",
-      "owner": "pytorch",
-      "name": "pytorch",
-      "url": "https://github.com/pytorch/pytorch",
-      "avatarUrl": "https://github.com/pytorch.png",
+      "id": "mksglu-context-mode",
+      "owner": "mksglu",
+      "name": "context-mode",
+      "url": "https://github.com/mksglu/context-mode",
+      "avatarUrl": "https://github.com/mksglu.png",
       "homepageUrl": null,
       "source": {
         "primary": "github_trending_html",
-        "sourceRank": 6,
-        "starsGained": 314
+        "sourceRank": 3,
+        "starsGained": 394
       },
       "metadata": {
-        "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
-        "language": "Python",
+        "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
+        "language": "TypeScript",
         "topics": [],
-        "stars": 104413,
-        "forks": 32078,
+        "stars": 27167,
+        "forks": 1940,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
         "topLanguages": [
-          "Python"
+          "TypeScript"
         ]
       },
       "readmeRef": {
         "status": "available",
         "path": "README.md",
         "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/pytorch/pytorch/main/README.md"
+        "rawUrl": "https://raw.githubusercontent.com/mksglu/context-mode/main/README.md"
       },
       "readmeSignals": {
-        "title": "if you are updating an existing checkout",
-        "summary": "PyTorch is a Python package that provides two high-level features: Tensor computation like NumPy with strong GPU acceleration Deep neural networks built on a tape-based autograd system You can reuse your favorite Python packages such as NumPy, SciPy, and Cython to extend PyTorch when needed. Our trunk health Continuous Integration signals can be found at https://hud.pytorch.org/ci/pytorch/pytorch/main. more-about-pytorch a-gpu-ready-tensor-library dynamic-neural-networks-tape-based-autograd python-first imperative-experiences fast-and-lean extensions-without-pain installation binaries nvidia-jetson-platforms from-source prerequisites nvidia-cuda-support amd-rocm-support intel-gpu-support get",
+        "title": "Context Mode",
+        "summary": "Every MCP tool call dumps raw data into your context window. A Playwright snapshot costs 56 KB. Twenty GitHub issues cost 59 KB. One access log — 45 KB. After 30 minutes, 40% of your context is gone. And when the agent compacts the conversation to free space, it forgets which files it was editing, what tasks are in progress, and what you last asked for. On top of that, the agent wastes output tokens on filler, pleasantries, and verbose explanations — burning context from both sides. Context Mode is an MCP server that solves all four sides of this problem:",
         "headings": [
-          "More About PyTorch",
-          "A GPU-Ready Tensor Library",
-          "Dynamic Neural Networks: Tape-Based Autograd",
-          "Python First",
-          "Imperative Experiences",
-          "Fast and Lean",
-          "Extensions Without Pain",
-          "Installation"
+          "Context Mode",
+          "The Problem",
+          "How Context Mode Solves It",
+          "Install",
+          "Option A — Marketplace plugin (recommended once published)",
+          "Option B — Manual install (existing path)",
+          "Tools",
+          "How the Sandbox Works"
         ],
         "commands": [
-          "pip install --group dev",
-          "pip install mkl-static mkl-include",
-          "pip install mkl-static mkl-include",
-          "pip install --no-build-isolation -v -e .",
-          "pip install --no-build-isolation -v -e .",
-          "pip install --no-build-isolation -v -e ."
+          "npm install -g context-mode",
+          "npm install -g context-mode",
+          "npm install -g context-mode",
+          "npm install -g context-mode                                     # the plugin's MCP server runs the global binary",
+          "npm install -g context-mode",
+          "npm install -g context-mode@latest"
         ],
         "keywords": [
-          "more about pytorch",
-          "a gpu-ready tensor library",
-          "dynamic neural networks: tape-based autograd",
-          "python first"
+          "ai",
+          "agent",
+          "mcp",
+          "context mode",
+          "the problem",
+          "how context mode solves it",
+          "install"
         ],
         "score": 100
       },
       "visual": {
         "kind": "readme_image",
-        "url": "https://raw.githubusercontent.com/pytorch/pytorch/main/docs/source/_static/img/tensor_illustration.png",
-        "thumbUrl": "https://raw.githubusercontent.com/pytorch/pytorch/main/docs/source/_static/img/tensor_illustration.png",
-        "alt": "Tensor illustration",
-        "sourceUrl": "https://raw.githubusercontent.com/pytorch/pytorch/main/docs/source/_static/img/tensor_illustration.png",
+        "url": "https://img.youtube.com/vi/QUHrntlfPo4/maxresdefault.jpg",
+        "thumbUrl": "https://img.youtube.com/vi/QUHrntlfPo4/maxresdefault.jpg",
+        "alt": "Watch context-mode demo on YouTube",
+        "sourceUrl": "https://img.youtube.com/vi/QUHrntlfPo4/maxresdefault.jpg",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.9,
+        "method": "rules",
+        "reasons": [
+          "Matched ai",
+          "Matched agent",
+          "Matched mcp"
+        ],
+        "signals": [
+          "ai",
+          "agent",
+          "mcp"
+        ]
+      },
+      "rank": {
+        "globalRank": 3,
+        "categoryRank": 3,
+        "score": 114
+      }
+    },
+    {
+      "id": "storytold-artcraft",
+      "owner": "storytold",
+      "name": "artcraft",
+      "url": "https://github.com/storytold/artcraft",
+      "avatarUrl": "https://github.com/storytold.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 4,
+        "starsGained": 4106
+      },
+      "metadata": {
+        "description": "ArtCraft is an intentional crafting engine for artists, designers, and filmmakers",
+        "language": "Rust",
+        "topics": [],
+        "stars": 21391,
+        "forks": 3475,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Rust"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/storytold/artcraft/main/README.md"
+      },
+      "readmeSignals": {
+        "title": null,
+        "summary": "Watch the two-minute ArtCraft demo on YouTube Download ArtCraft · GitHub releases · Build from source ArtCraft is the IDE for interactive AI image and video creation. Compose in 2D, stage scenes in 3D, and choose the models that fit your work. Turn prompting into crafting with visual tools for precise, repeatable results. Show, Don't Tell: Advanced Crafting Features Artists need control over composition, character identity, and camera placement. Build the scene before you generate it. Click any preview to view it at full size. | Feature | Preview | | Image to Location Place virtual actors in a consistent environment and plan multiple shots in the same room. | | 3D Image Compositing Layer bac",
+        "headings": [
+          "Show, Don't Tell: Advanced Crafting Features",
+          "Quick and Easy Prompting",
+          "Models and Providers Supported within ArtCraft",
+          "Downloads",
+          "Documentation",
+          "License"
+        ],
+        "commands": [],
+        "keywords": [
+          "show, don't tell: advanced crafting features",
+          "quick and easy prompting",
+          "models and providers supported within artcraft",
+          "downloads"
+        ],
+        "score": 90
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://github.com/user-attachments/assets/21f103e3-cc19-4882-a630-9caa1b76ae31",
+        "thumbUrl": "https://github.com/user-attachments/assets/21f103e3-cc19-4882-a630-9caa1b76ae31",
+        "alt": "Image to Location demo",
+        "sourceUrl": "https://github.com/user-attachments/assets/21f103e3-cc19-4882-a630-9caa1b76ae31",
         "promptHash": null
       },
       "classification": {
@@ -532,6 +381,170 @@
           "No taxonomy rule matched with enough confidence"
         ],
         "signals": []
+      },
+      "rank": {
+        "globalRank": 4,
+        "categoryRank": 4,
+        "score": 112
+      }
+    },
+    {
+      "id": "open-webui-open-webui",
+      "owner": "open-webui",
+      "name": "open-webui",
+      "url": "https://github.com/open-webui/open-webui",
+      "avatarUrl": "https://github.com/open-webui.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 5,
+        "starsGained": 142
+      },
+      "metadata": {
+        "description": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
+        "language": "Python",
+        "topics": [],
+        "stars": 154837,
+        "forks": 22630,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Python"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/open-webui/open-webui/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "Open WebUI 👋",
+        "summary": "Open WebUI is a home for AI, a self-hosted AI platform that's https://docs.openwebui.com/features/extensibility/plugin/, https://docs.openwebui.com/features/, user-friendly, and built to run https://openwebui.com/sovereign-ai. With support for Ollama and OpenAI-compatible APIs, it gives you a powerful, provider-agnostic interface for both local and cloud-based models. Passionate about open-source AI? https://careers.openwebui.com/ For more information, be sure to check out our https://docs.openwebui.com/. 🚀 Effortless Setup: Install seamlessly via pip, uv, Docker, or Kubernetes kubectl, kustomize, or helm, with :ollama and :cuda tagged images available for container deployments.",
+        "headings": [
+          "Open WebUI 👋",
+          "Key Features of Open WebUI ⭐",
+          "The Open WebUI Ecosystem 🌐",
+          "How to Install 🚀",
+          "Installation via Python pip 🐍",
+          "Quick Start with Docker 🐳",
+          "Installation with Default Configuration",
+          "Installation for OpenAI API Usage Only"
+        ],
+        "commands": [
+          "pip install open-webui"
+        ],
+        "keywords": [
+          "ai",
+          "open webui 👋",
+          "key features of open webui ⭐",
+          "the open webui ecosystem 🌐",
+          "how to install 🚀"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/open-webui/open-webui/main/demo.png",
+        "thumbUrl": "https://raw.githubusercontent.com/open-webui/open-webui/main/demo.png",
+        "alt": "Open WebUI Demo",
+        "sourceUrl": "https://raw.githubusercontent.com/open-webui/open-webui/main/demo.png",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.7,
+        "method": "rules",
+        "reasons": [
+          "Matched ai"
+        ],
+        "signals": [
+          "ai"
+        ]
+      },
+      "rank": {
+        "globalRank": 5,
+        "categoryRank": 5,
+        "score": 104.2
+      }
+    },
+    {
+      "id": "cathrynlavery-diagram-design",
+      "owner": "cathrynlavery",
+      "name": "diagram-design",
+      "url": "https://github.com/cathrynlavery/diagram-design",
+      "avatarUrl": "https://github.com/cathrynlavery.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 6,
+        "starsGained": 2100
+      },
+      "metadata": {
+        "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, and Pi. 44 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+        "language": "HTML",
+        "topics": [],
+        "stars": 52367,
+        "forks": 3305,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "HTML"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/cathrynlavery/diagram-design/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "Pi: register the checkout as a local package",
+        "summary": "An agent skill that draws diagrams as one self-contained HTML + SVG file, in your brand. 45 diagram types. No shadows. No Mermaid slop. install · what-it-makes · quickstart · onboarding-make-it-look-like-your-brand · import-from-drawio-mermaid-or-excalidraw · export-to-png--svg · contributing npx skills add cathrynlavery/diagram-design \"Make me an architecture diagram of my app: frontend, backend, database, Redis cache.\" \"I need a quadrant showing Q2 projects by impact vs effort.\" \"Give me a sequence of a bearer call with token refresh on 401.\" \"Onboard diagram-design to https://yoursite.com\" pulls your palette and fonts so every diagram after this one matches your site",
+        "headings": [
+          "Install",
+          "Pi: register the checkout as a local package",
+          "Claude Code: symlink the inner skill",
+          "Other Agent Skills hosts: create only the roots you use",
+          "How it compares",
+          "Why I built it",
+          "What it makes",
+          "Onboarding: make it look like *your* brand"
+        ],
+        "commands": [
+          "pip install playwright && playwright install chromium"
+        ],
+        "keywords": [
+          "ai",
+          "install",
+          "pi: register the checkout as a local package",
+          "claude code: symlink the inner skill",
+          "other agent skills hosts: create only the roots you use"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://skills.sh/b/cathrynlavery/diagram-design?style=flat-square",
+        "thumbUrl": "https://skills.sh/b/cathrynlavery/diagram-design?style=flat-square",
+        "alt": "skills.sh installs",
+        "sourceUrl": "https://skills.sh/b/cathrynlavery/diagram-design?style=flat-square",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.7,
+        "method": "rules",
+        "reasons": [
+          "Matched ai"
+        ],
+        "signals": [
+          "ai"
+        ]
       },
       "rank": {
         "globalRank": 6,
@@ -549,14 +562,14 @@
       "source": {
         "primary": "github_trending_html",
         "sourceRank": 7,
-        "starsGained": 541
+        "starsGained": 886
       },
       "metadata": {
         "description": "AirLLM 70B inference with single 4GB GPU",
         "language": "Jupyter Notebook",
         "topics": [],
-        "stars": 36344,
-        "forks": 3811,
+        "stars": 37397,
+        "forks": 3860,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -630,80 +643,165 @@
       }
     },
     {
-      "id": "chrislgarry-apollo-11",
-      "owner": "chrislgarry",
-      "name": "Apollo-11",
-      "url": "https://github.com/chrislgarry/Apollo-11",
-      "avatarUrl": "https://github.com/chrislgarry.png",
+      "id": "microsoft-bitnet",
+      "owner": "microsoft",
+      "name": "BitNet",
+      "url": "https://github.com/microsoft/BitNet",
+      "avatarUrl": "https://github.com/microsoft.png",
       "homepageUrl": null,
       "source": {
         "primary": "github_trending_html",
         "sourceRank": 8,
-        "starsGained": 496
+        "starsGained": 134
       },
       "metadata": {
-        "description": "Original Apollo 11 Guidance Computer (AGC) source code for the command and lunar modules.",
-        "language": "Assembly",
+        "description": "Official inference framework for 1-bit LLMs",
+        "language": "C++",
         "topics": [],
-        "stars": 74147,
-        "forks": 8095,
+        "stars": 40852,
+        "forks": 3804,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
         "topLanguages": [
-          "Assembly"
+          "C++"
         ]
       },
       "readmeRef": {
         "status": "available",
         "path": "README.md",
         "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/chrislgarry/Apollo-11/master/README.md"
+        "rawUrl": "https://raw.githubusercontent.com/microsoft/BitNet/main/README.md"
       },
       "readmeSignals": {
-        "title": "Apollo-11",
-        "summary": "🌐 AzerbaijaniAZ, bahasa IndonesiaID, Basa JawaJV, CatalàCA, ČeštinaCZ, DanskDA, DeutschDE, EnglishEN, EspañolES, FrançaisFR, GalegoGL, ItalianoIT, KurdîKU, LietuviųLT, MongolianMN, NederlandsNL, NorskNO, PolskiPL, PortuguêsPTBR, RomânăRO, SuomiFI, SvenskaSV, tiếng ViệtVI, TürkçeTR, ΕλληνικάGR, Беларуская моваBE, РусскийRU, УкраїнськаUK, العربيةAR, فارسیFA, नेपाली भाषाNE हिंदीHIIN, অসমীয়াASIN, বাংলাBDBN, မြန်မာMM, 한국어KOKR, 日本語JA, 正體中文ZHTW, 简体中文ZHCN, മലയാളംML AR:Translations/README.ar.md ASIN:Translations/README.asin.md AZ:Translations/README.az.md BDBN:Translations/README.bdbn.md BE:Translations/README.be.md CA:Translations/README.ca.md CZ:Translations/README.cz.md DA:Translations/README.da",
+        "title": "bitnet.cpp",
+        "summary": "07/23/2026: 📣 We released VibeASR.cpp — a real-time multilingual ASR inference engine on CPU using BitNet I2S quantization, achieving RTF Code Models Report 07/20/2026: 📣 We released BitNet-embedding-0.6B and BitNet-embedding-270M on Hugging Face — the first 1-bit embedding models that deliver competitive embedding quality with significantly faster inference on CPUs. 1.42x to 2.28x speedup over F16 on BitNet-embedding-0.6B prefill 8 threads 1.32x to 1.74x speedup over F16 on BitNet-embedding-270M prefill 8 threads Supports I2S conversion with optimized kernels on x86 CPUs Lossless inference with 2 bits per weight",
         "headings": [
-          "Apollo-11",
-          "Contributing",
-          "Compiling",
-          "Attribution",
-          "Contract and Approvals"
+          "bitnet.cpp",
+          "Overview",
+          "Model Releases",
+          "1. [BitNet-b1.58-2B-4T](https://huggingface.co/microsoft/BitNet-b1.58-2B-4T) - 1-bit Large Language Model",
+          "2. [BitNet-embedding-0.6B](https://huggingface.co/microsoft/BitNet-embedding-0.6B) - 1-bit Embedding Model",
+          "3. [BitNet-embedding-270M](https://huggingface.co/microsoft/BitNet-embedding-270M) - Lightweight 1-bit Embedding Model",
+          "Supported Models",
+          "Installation"
         ],
-        "commands": [],
+        "commands": [
+          "pip install -r requirements.txt"
+        ],
         "keywords": [
-          "ui",
-          "apollo-11",
-          "contributing",
-          "compiling",
-          "attribution"
+          "llm",
+          "bitnet.cpp",
+          "overview",
+          "model releases",
+          "1. [bitnet-b1.58-2b-4t](https://huggingface.co/microsoft/bitnet-b1.58-2b-4t) - 1-bit large language model"
         ],
-        "score": 85
+        "score": 100
       },
       "visual": {
-        "kind": "repository_open_graph",
-        "url": "https://opengraph.githubassets.com/daily-tech-radar/chrislgarry/Apollo-11",
-        "thumbUrl": "https://opengraph.githubassets.com/daily-tech-radar/chrislgarry/Apollo-11",
-        "alt": "chrislgarry/Apollo-11",
-        "sourceUrl": "https://github.com/chrislgarry/Apollo-11",
-        "promptHash": "sha256:308e86efc068"
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/microsoft/BitNet/main/assets/performance.png",
+        "thumbUrl": "https://raw.githubusercontent.com/microsoft/BitNet/main/assets/performance.png",
+        "alt": "performance_comparison",
+        "sourceUrl": "https://raw.githubusercontent.com/microsoft/BitNet/main/assets/performance.png",
+        "promptHash": null
       },
       "classification": {
-        "primaryCategoryId": "frontend",
+        "primaryCategoryId": "ai",
         "secondaryCategoryIds": [],
         "confidence": 0.7,
         "method": "rules",
         "reasons": [
-          "Matched ui"
+          "Matched llm"
         ],
         "signals": [
-          "ui"
+          "llm"
         ]
       },
       "rank": {
         "globalRank": 8,
         "categoryRank": 8,
-        "score": 104
+        "score": 97.4
+      }
+    },
+    {
+      "id": "alishahryar1-free-claude-code",
+      "owner": "Alishahryar1",
+      "name": "free-claude-code",
+      "url": "https://github.com/Alishahryar1/free-claude-code",
+      "avatarUrl": "https://github.com/Alishahryar1.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 9,
+        "starsGained": 705
+      },
+      "metadata": {
+        "description": "Use Claude Code, Codex, VSCode, Pi, and OpenCode (and 6 other harnesses) for free (1.3B+ free tokens) from your terminal, app, IDE, or phone, and now from the browser with native browser sessions (multi-harness + multi-model) like OpenClaw (voice supported + ToS friendly)",
+        "language": "Python",
+        "topics": [],
+        "stars": 58887,
+        "forks": 9292,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Python"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/Alishahryar1/free-claude-code/main/README.md"
+      },
+      "readmeSignals": {
+        "title": null,
+        "summary": "quick-start · choose-a-provider · connect-your-client · optional-integrations · manage-your-installation Independent open-source project. Not affiliated with or endorsed by Anthropic. Claude and Claude Code are trademarks of Anthropic. 61 ToS-friendly providers. 1.3B+ free tokens every month. Use free, paid, subscription, and local models from one searchable UI without putting your account at risk. FCC follows provider terms and removes integrations if they stop being allowed. 11 coding agents. One model catalog. Run https://code.claude.com/docs/en/overview, https://github.com/openai/codex, https://github.com/earendil-works/pi, https://github.com/anomalyco/opencode, https://github.com/cline/",
+        "headings": [
+          "What You Get",
+          "Quick Start",
+          "1. Install",
+          "2. Start FCC",
+          "3. Configure NVIDIA NIM",
+          "4. Run Your Coding Agent",
+          "Choose A Provider",
+          "LM Studio"
+        ],
+        "commands": [],
+        "keywords": [
+          "model",
+          "what you get",
+          "quick start",
+          "1. install",
+          "2. start fcc"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/Alishahryar1/free-claude-code/main/assets/package-manager-uv.svg",
+        "thumbUrl": "https://raw.githubusercontent.com/Alishahryar1/free-claude-code/main/assets/package-manager-uv.svg",
+        "alt": "Package Manager: uv",
+        "sourceUrl": "https://raw.githubusercontent.com/Alishahryar1/free-claude-code/main/assets/package-manager-uv.svg",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.7,
+        "method": "rules",
+        "reasons": [
+          "Matched model"
+        ],
+        "signals": [
+          "model"
+        ]
+      },
+      "rank": {
+        "globalRank": 9,
+        "categoryRank": 9,
+        "score": 102
       }
     }
   ],
@@ -715,28 +813,12 @@
       "categoryId": "ai",
       "repoIds": [
         "morluto-rea",
+        "mksglu-context-mode",
         "cathrynlavery-diagram-design",
-        "lyogavin-airllm"
-      ],
-      "sort": "score"
-    },
-    {
-      "id": "tools",
-      "type": "category",
-      "label": "工具",
-      "categoryId": "tools",
-      "repoIds": [
-        "boykopovar-anyps5"
-      ],
-      "sort": "score"
-    },
-    {
-      "id": "frontend",
-      "type": "category",
-      "label": "前端",
-      "categoryId": "frontend",
-      "repoIds": [
-        "chrislgarry-apollo-11"
+        "lyogavin-airllm",
+        "open-webui-open-webui",
+        "alishahryar1-free-claude-code",
+        "microsoft-bitnet"
       ],
       "sort": "score"
     },
@@ -746,20 +828,17 @@
       "label": "Needs Review",
       "categoryId": "unclassified",
       "repoIds": [
-        "storytold-artcraft",
         "bilawalsidhu-gods-eye-view",
-        "pytorch-pytorch"
+        "storytold-artcraft"
       ],
       "sort": "score"
     }
   ],
   "health": {
     "status": "ok",
-    "candidateCount": 8,
-    "enrichedRepoCount": 8,
-    "unclassifiedRepoCount": 3,
-    "warnings": [
-      "7 repos used README images, 0 used Agnes images, 1 fell back to repository Open Graph covers"
-    ]
+    "candidateCount": 9,
+    "enrichedRepoCount": 9,
+    "unclassifiedRepoCount": 2,
+    "warnings": []
   }
 }
