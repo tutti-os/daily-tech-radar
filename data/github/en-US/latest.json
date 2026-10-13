@@ -1,9 +1,9 @@
 {
   "schemaVersion": "trendreader.daily.v1",
-  "packageId": "github-daily-All-2026-10-12",
+  "packageId": "github-daily-All-2026-10-13",
   "locale": "en-US",
-  "generatedAt": "2026-10-12T20:28:06.088Z",
-  "expiresAt": "2026-10-13T20:28:06.088Z",
+  "generatedAt": "2026-10-13T20:26:36.544Z",
+  "expiresAt": "2026-10-14T20:26:36.544Z",
   "sourceWindow": {
     "since": "daily",
     "language": "All",
@@ -18,8 +18,8 @@
     }
   ],
   "taxonomy": {
-    "version": "2026-10-12",
-    "generatedAt": "2026-10-12T20:28:06.088Z",
+    "version": "2026-10-13",
+    "generatedAt": "2026-10-13T20:26:36.544Z",
     "categories": [
       {
         "id": "ai",
@@ -69,14 +69,14 @@
       "source": {
         "primary": "github_trending_html",
         "sourceRank": 1,
-        "starsGained": 45495
+        "starsGained": 54706
       },
       "metadata": {
         "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
         "language": "TypeScript",
         "topics": [],
-        "stars": 150061,
-        "forks": 34675,
+        "stars": 202646,
+        "forks": 49440,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -92,7 +92,7 @@
       },
       "readmeSignals": {
         "title": "REA: Reverse Engineer Anything",
-        "summary": "English · READMEzh.md · READMEzh-TW.md · READMEja.md · READMEko.md · READMEtr.md · READMEru.md · READMEvi.md · READMEth.md · READMEde.md · READMEes.md · READMEfr.md · READMEuk.md · READMEpl.md · READMEpt-BR.md · READMEar.md · READMEfa.md · READMEid.md · READMEit.md One MCP for reverse engineering across binaries, applications, and runtime behavior. See a feature you like. Understand how it works, down to the binary level. quick-start · how-rea-works · what-you-can-analyze · showcases · faq · documentation Join the Reverse Engineering Community Discord · Q&amp;A · Show and Tell",
+        "summary": "English · docs/readme/READMEzh.md · docs/readme/READMEzh-TW.md · docs/readme/READMEja.md · docs/readme/READMEko.md · docs/readme/READMEtr.md · docs/readme/READMEru.md · docs/readme/READMEvi.md · docs/readme/READMEth.md · docs/readme/READMEde.md · docs/readme/READMEes.md · docs/readme/READMEfr.md · docs/readme/READMEuk.md · docs/readme/READMEpl.md · docs/readme/READMEpt-BR.md · docs/readme/READMEar.md · docs/readme/READMEfa.md · docs/readme/READMEid.md · docs/readme/READMEit.md One MCP for reverse engineering across binaries, applications, and runtime behavior.",
         "headings": [
           "REA: Reverse Engineer Anything",
           "One MCP for reverse engineering across binaries, applications, and runtime behavior.",
@@ -153,14 +153,14 @@
       "source": {
         "primary": "github_trending_html",
         "sourceRank": 2,
-        "starsGained": 1903
+        "starsGained": 1961
       },
       "metadata": {
         "description": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
         "language": "JavaScript",
         "topics": [],
-        "stars": 53367,
-        "forks": 10584,
+        "stars": 55138,
+        "forks": 10796,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -221,6 +221,83 @@
       }
     },
     {
+      "id": "debpalash-voicestudio",
+      "owner": "debpalash",
+      "name": "VoiceStudio",
+      "url": "https://github.com/debpalash/VoiceStudio",
+      "avatarUrl": "https://github.com/debpalash.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 3,
+        "starsGained": 2277
+      },
+      "metadata": {
+        "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+        "language": "Python",
+        "topics": [],
+        "stars": 62772,
+        "forks": 6990,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Python"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/debpalash/VoiceStudio/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "Latest Electron release",
+        "summary": "VoiceStudio Open-source voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages. Website · Download · Get started · Docs · Discord · 简体中文 · 日本語 | Create | Produce | Connect | | Clone a voice or design your own | Dub videos with timed speech | Local API & MCP for agents | | Dictate with a floating widget | Stories, audiobooks & batch jobs | Reusable recipes & watch folders | Start with VoiceStudio default, powered by k2-fsa/OmniVoice, or choose another engine. docs/feature-catalog.md. Local workflows run on your hardware. Remote services are optional; usage analytics requires consent.",
+        "headings": [
+          "Your voice. Your workflow.",
+          "Get started",
+          "One-command install (macOS / Linux)",
+          "Latest Electron release",
+          "A specific published Electron release (replace X.Y.Z)",
+          "Build current main and install the desktop app",
+          "Uninstall the app, keeping your data",
+          "Install with prompt"
+        ],
+        "commands": [],
+        "keywords": [
+          "your voice. your workflow.",
+          "get started",
+          "one-command install (macos / linux)",
+          "latest electron release"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/debpalash/VoiceStudio/main/docs/media/electron/voicestudio.gif",
+        "thumbUrl": "https://raw.githubusercontent.com/debpalash/VoiceStudio/main/docs/media/electron/voicestudio.gif",
+        "alt": "A tour of the Electron app: voice cloning, voice design, dubbing, and model management",
+        "sourceUrl": "https://raw.githubusercontent.com/debpalash/VoiceStudio/main/docs/media/electron/voicestudio.gif",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "unclassified",
+        "secondaryCategoryIds": [],
+        "confidence": 0.4,
+        "method": "rules",
+        "reasons": [
+          "No taxonomy rule matched with enough confidence"
+        ],
+        "signals": []
+      },
+      "rank": {
+        "globalRank": 3,
+        "categoryRank": 3,
+        "score": 114
+      }
+    },
+    {
       "id": "mksglu-context-mode",
       "owner": "mksglu",
       "name": "context-mode",
@@ -229,15 +306,15 @@
       "homepageUrl": null,
       "source": {
         "primary": "github_trending_html",
-        "sourceRank": 3,
-        "starsGained": 394
+        "sourceRank": 4,
+        "starsGained": 978
       },
       "metadata": {
         "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
         "language": "TypeScript",
         "topics": [],
-        "stars": 27167,
-        "forks": 1940,
+        "stars": 28091,
+        "forks": 1987,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -308,166 +385,9 @@
         ]
       },
       "rank": {
-        "globalRank": 3,
-        "categoryRank": 3,
-        "score": 114
-      }
-    },
-    {
-      "id": "storytold-artcraft",
-      "owner": "storytold",
-      "name": "artcraft",
-      "url": "https://github.com/storytold/artcraft",
-      "avatarUrl": "https://github.com/storytold.png",
-      "homepageUrl": null,
-      "source": {
-        "primary": "github_trending_html",
-        "sourceRank": 4,
-        "starsGained": 4106
-      },
-      "metadata": {
-        "description": "ArtCraft is an intentional crafting engine for artists, designers, and filmmakers",
-        "language": "Rust",
-        "topics": [],
-        "stars": 21391,
-        "forks": 3475,
-        "license": null,
-        "defaultBranch": null,
-        "pushedAt": null,
-        "topLanguages": [
-          "Rust"
-        ]
-      },
-      "readmeRef": {
-        "status": "available",
-        "path": "README.md",
-        "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/storytold/artcraft/main/README.md"
-      },
-      "readmeSignals": {
-        "title": null,
-        "summary": "Watch the two-minute ArtCraft demo on YouTube Download ArtCraft · GitHub releases · Build from source ArtCraft is the IDE for interactive AI image and video creation. Compose in 2D, stage scenes in 3D, and choose the models that fit your work. Turn prompting into crafting with visual tools for precise, repeatable results. Show, Don't Tell: Advanced Crafting Features Artists need control over composition, character identity, and camera placement. Build the scene before you generate it. Click any preview to view it at full size. | Feature | Preview | | Image to Location Place virtual actors in a consistent environment and plan multiple shots in the same room. | | 3D Image Compositing Layer bac",
-        "headings": [
-          "Show, Don't Tell: Advanced Crafting Features",
-          "Quick and Easy Prompting",
-          "Models and Providers Supported within ArtCraft",
-          "Downloads",
-          "Documentation",
-          "License"
-        ],
-        "commands": [],
-        "keywords": [
-          "show, don't tell: advanced crafting features",
-          "quick and easy prompting",
-          "models and providers supported within artcraft",
-          "downloads"
-        ],
-        "score": 90
-      },
-      "visual": {
-        "kind": "readme_image",
-        "url": "https://github.com/user-attachments/assets/21f103e3-cc19-4882-a630-9caa1b76ae31",
-        "thumbUrl": "https://github.com/user-attachments/assets/21f103e3-cc19-4882-a630-9caa1b76ae31",
-        "alt": "Image to Location demo",
-        "sourceUrl": "https://github.com/user-attachments/assets/21f103e3-cc19-4882-a630-9caa1b76ae31",
-        "promptHash": null
-      },
-      "classification": {
-        "primaryCategoryId": "unclassified",
-        "secondaryCategoryIds": [],
-        "confidence": 0.4,
-        "method": "rules",
-        "reasons": [
-          "No taxonomy rule matched with enough confidence"
-        ],
-        "signals": []
-      },
-      "rank": {
         "globalRank": 4,
         "categoryRank": 4,
         "score": 112
-      }
-    },
-    {
-      "id": "open-webui-open-webui",
-      "owner": "open-webui",
-      "name": "open-webui",
-      "url": "https://github.com/open-webui/open-webui",
-      "avatarUrl": "https://github.com/open-webui.png",
-      "homepageUrl": null,
-      "source": {
-        "primary": "github_trending_html",
-        "sourceRank": 5,
-        "starsGained": 142
-      },
-      "metadata": {
-        "description": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
-        "language": "Python",
-        "topics": [],
-        "stars": 154837,
-        "forks": 22630,
-        "license": null,
-        "defaultBranch": null,
-        "pushedAt": null,
-        "topLanguages": [
-          "Python"
-        ]
-      },
-      "readmeRef": {
-        "status": "available",
-        "path": "README.md",
-        "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/open-webui/open-webui/main/README.md"
-      },
-      "readmeSignals": {
-        "title": "Open WebUI 👋",
-        "summary": "Open WebUI is a home for AI, a self-hosted AI platform that's https://docs.openwebui.com/features/extensibility/plugin/, https://docs.openwebui.com/features/, user-friendly, and built to run https://openwebui.com/sovereign-ai. With support for Ollama and OpenAI-compatible APIs, it gives you a powerful, provider-agnostic interface for both local and cloud-based models. Passionate about open-source AI? https://careers.openwebui.com/ For more information, be sure to check out our https://docs.openwebui.com/. 🚀 Effortless Setup: Install seamlessly via pip, uv, Docker, or Kubernetes kubectl, kustomize, or helm, with :ollama and :cuda tagged images available for container deployments.",
-        "headings": [
-          "Open WebUI 👋",
-          "Key Features of Open WebUI ⭐",
-          "The Open WebUI Ecosystem 🌐",
-          "How to Install 🚀",
-          "Installation via Python pip 🐍",
-          "Quick Start with Docker 🐳",
-          "Installation with Default Configuration",
-          "Installation for OpenAI API Usage Only"
-        ],
-        "commands": [
-          "pip install open-webui"
-        ],
-        "keywords": [
-          "ai",
-          "open webui 👋",
-          "key features of open webui ⭐",
-          "the open webui ecosystem 🌐",
-          "how to install 🚀"
-        ],
-        "score": 100
-      },
-      "visual": {
-        "kind": "readme_image",
-        "url": "https://raw.githubusercontent.com/open-webui/open-webui/main/demo.png",
-        "thumbUrl": "https://raw.githubusercontent.com/open-webui/open-webui/main/demo.png",
-        "alt": "Open WebUI Demo",
-        "sourceUrl": "https://raw.githubusercontent.com/open-webui/open-webui/main/demo.png",
-        "promptHash": null
-      },
-      "classification": {
-        "primaryCategoryId": "ai",
-        "secondaryCategoryIds": [],
-        "confidence": 0.7,
-        "method": "rules",
-        "reasons": [
-          "Matched ai"
-        ],
-        "signals": [
-          "ai"
-        ]
-      },
-      "rank": {
-        "globalRank": 5,
-        "categoryRank": 5,
-        "score": 104.2
       }
     },
     {
@@ -479,15 +399,15 @@
       "homepageUrl": null,
       "source": {
         "primary": "github_trending_html",
-        "sourceRank": 6,
-        "starsGained": 2100
+        "sourceRank": 5,
+        "starsGained": 1813
       },
       "metadata": {
         "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, and Pi. 44 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
         "language": "HTML",
         "topics": [],
-        "stars": 52367,
-        "forks": 3305,
+        "stars": 53915,
+        "forks": 3422,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -547,9 +467,89 @@
         ]
       },
       "rank": {
+        "globalRank": 5,
+        "categoryRank": 5,
+        "score": 110
+      }
+    },
+    {
+      "id": "vercel-labs-skills",
+      "owner": "vercel-labs",
+      "name": "skills",
+      "url": "https://github.com/vercel-labs/skills",
+      "avatarUrl": "https://github.com/vercel-labs.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 6,
+        "starsGained": 187
+      },
+      "metadata": {
+        "description": "The open agent skills tool - npx skills",
+        "language": "TypeScript",
+        "topics": [],
+        "stars": 34381,
+        "forks": 2945,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "TypeScript"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/vercel-labs/skills/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "skills",
+        "summary": "The CLI for the open agent skills ecosystem. Supports OpenCode, Claude Code, Codex, Cursor, and supported-agents. Generate a prompt for one skill, or start a supported coding agent interactively: skills use resolves sources the same way as skills add, writes the selected skill files to a temporary directory, and prints only the generated prompt to stdout unless --agent is provided. With --agent, it starts one supported agent interactively with the generated prompt. Use the same command for public and private repositories. The CLI uses the authentication already configured for the repository URL:",
+        "headings": [
+          "skills",
+          "Install a Skill",
+          "Use a Skill Without Installing",
+          "Source Formats",
+          "GitHub shorthand (owner/repo)",
+          "Full GitHub URL",
+          "Direct path to a skill in a repo",
+          "GitLab URL"
+        ],
+        "commands": [],
+        "keywords": [
+          "agent",
+          "skills",
+          "install a skill",
+          "use a skill without installing",
+          "source formats"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "repository_open_graph",
+        "url": "https://opengraph.githubassets.com/daily-tech-radar/vercel-labs/skills",
+        "thumbUrl": "https://opengraph.githubassets.com/daily-tech-radar/vercel-labs/skills",
+        "alt": "vercel-labs/skills",
+        "sourceUrl": "https://github.com/vercel-labs/skills",
+        "promptHash": "sha256:ce83c8bf4c25"
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.7,
+        "method": "rules",
+        "reasons": [
+          "Matched agent"
+        ],
+        "signals": [
+          "agent"
+        ]
+      },
+      "rank": {
         "globalRank": 6,
         "categoryRank": 6,
-        "score": 108
+        "score": 106.7
       }
     },
     {
@@ -562,14 +562,14 @@
       "source": {
         "primary": "github_trending_html",
         "sourceRank": 7,
-        "starsGained": 886
+        "starsGained": 1004
       },
       "metadata": {
-        "description": "AirLLM 70B inference with single 4GB GPU",
+        "description": "AirLLM 2.8T LLM inference with single 4GB GPU",
         "language": "Jupyter Notebook",
         "topics": [],
-        "stars": 37397,
-        "forks": 3860,
+        "stars": 38224,
+        "forks": 3913,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -643,159 +643,151 @@
       }
     },
     {
-      "id": "microsoft-bitnet",
-      "owner": "microsoft",
-      "name": "BitNet",
-      "url": "https://github.com/microsoft/BitNet",
-      "avatarUrl": "https://github.com/microsoft.png",
+      "id": "storytold-artcraft",
+      "owner": "storytold",
+      "name": "artcraft",
+      "url": "https://github.com/storytold/artcraft",
+      "avatarUrl": "https://github.com/storytold.png",
       "homepageUrl": null,
       "source": {
         "primary": "github_trending_html",
         "sourceRank": 8,
-        "starsGained": 134
+        "starsGained": 4078
       },
       "metadata": {
-        "description": "Official inference framework for 1-bit LLMs",
-        "language": "C++",
+        "description": "ArtCraft is an intentional crafting engine for artists, designers, and filmmakers",
+        "language": "Rust",
         "topics": [],
-        "stars": 40852,
-        "forks": 3804,
+        "stars": 25227,
+        "forks": 3968,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
         "topLanguages": [
-          "C++"
+          "Rust"
         ]
       },
       "readmeRef": {
         "status": "available",
         "path": "README.md",
         "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/microsoft/BitNet/main/README.md"
+        "rawUrl": "https://raw.githubusercontent.com/storytold/artcraft/main/README.md"
       },
       "readmeSignals": {
-        "title": "bitnet.cpp",
-        "summary": "07/23/2026: 📣 We released VibeASR.cpp — a real-time multilingual ASR inference engine on CPU using BitNet I2S quantization, achieving RTF Code Models Report 07/20/2026: 📣 We released BitNet-embedding-0.6B and BitNet-embedding-270M on Hugging Face — the first 1-bit embedding models that deliver competitive embedding quality with significantly faster inference on CPUs. 1.42x to 2.28x speedup over F16 on BitNet-embedding-0.6B prefill 8 threads 1.32x to 1.74x speedup over F16 on BitNet-embedding-270M prefill 8 threads Supports I2S conversion with optimized kernels on x86 CPUs Lossless inference with 2 bits per weight",
+        "title": null,
+        "summary": "Watch the two-minute ArtCraft demo on YouTube Download ArtCraft · GitHub releases · Build from source ArtCraft is the IDE for interactive AI image and video creation. Compose in 2D, stage scenes in 3D, and choose the models that fit your work. Turn prompting into crafting with visual tools for precise, repeatable results. Show, Don't Tell: Advanced Crafting Features Artists need control over composition, character identity, and camera placement. Build the scene before you generate it. Click any preview to view it at full size. | Feature | Preview | | Image to Location Place virtual actors in a consistent environment and plan multiple shots in the same room. | | 3D Image Compositing Layer bac",
         "headings": [
-          "bitnet.cpp",
-          "Overview",
-          "Model Releases",
-          "1. [BitNet-b1.58-2B-4T](https://huggingface.co/microsoft/BitNet-b1.58-2B-4T) - 1-bit Large Language Model",
-          "2. [BitNet-embedding-0.6B](https://huggingface.co/microsoft/BitNet-embedding-0.6B) - 1-bit Embedding Model",
-          "3. [BitNet-embedding-270M](https://huggingface.co/microsoft/BitNet-embedding-270M) - Lightweight 1-bit Embedding Model",
-          "Supported Models",
-          "Installation"
+          "Show, Don't Tell: Advanced Crafting Features",
+          "Quick and Easy Prompting",
+          "Models and Providers Supported within ArtCraft",
+          "Downloads",
+          "Documentation",
+          "License"
         ],
-        "commands": [
-          "pip install -r requirements.txt"
-        ],
+        "commands": [],
         "keywords": [
-          "llm",
-          "bitnet.cpp",
-          "overview",
-          "model releases",
-          "1. [bitnet-b1.58-2b-4t](https://huggingface.co/microsoft/bitnet-b1.58-2b-4t) - 1-bit large language model"
+          "show, don't tell: advanced crafting features",
+          "quick and easy prompting",
+          "models and providers supported within artcraft",
+          "downloads"
         ],
-        "score": 100
+        "score": 90
       },
       "visual": {
         "kind": "readme_image",
-        "url": "https://raw.githubusercontent.com/microsoft/BitNet/main/assets/performance.png",
-        "thumbUrl": "https://raw.githubusercontent.com/microsoft/BitNet/main/assets/performance.png",
-        "alt": "performance_comparison",
-        "sourceUrl": "https://raw.githubusercontent.com/microsoft/BitNet/main/assets/performance.png",
+        "url": "https://github.com/user-attachments/assets/21f103e3-cc19-4882-a630-9caa1b76ae31",
+        "thumbUrl": "https://github.com/user-attachments/assets/21f103e3-cc19-4882-a630-9caa1b76ae31",
+        "alt": "Image to Location demo",
+        "sourceUrl": "https://github.com/user-attachments/assets/21f103e3-cc19-4882-a630-9caa1b76ae31",
         "promptHash": null
       },
       "classification": {
-        "primaryCategoryId": "ai",
+        "primaryCategoryId": "unclassified",
         "secondaryCategoryIds": [],
-        "confidence": 0.7,
+        "confidence": 0.4,
         "method": "rules",
         "reasons": [
-          "Matched llm"
+          "No taxonomy rule matched with enough confidence"
         ],
-        "signals": [
-          "llm"
-        ]
+        "signals": []
       },
       "rank": {
         "globalRank": 8,
         "categoryRank": 8,
-        "score": 97.4
+        "score": 104
       }
     },
     {
-      "id": "alishahryar1-free-claude-code",
-      "owner": "Alishahryar1",
-      "name": "free-claude-code",
-      "url": "https://github.com/Alishahryar1/free-claude-code",
-      "avatarUrl": "https://github.com/Alishahryar1.png",
+      "id": "xtool-org-xtool",
+      "owner": "xtool-org",
+      "name": "xtool",
+      "url": "https://github.com/xtool-org/xtool",
+      "avatarUrl": "https://github.com/xtool-org.png",
       "homepageUrl": null,
       "source": {
         "primary": "github_trending_html",
         "sourceRank": 9,
-        "starsGained": 705
+        "starsGained": 1182
       },
       "metadata": {
-        "description": "Use Claude Code, Codex, VSCode, Pi, and OpenCode (and 6 other harnesses) for free (1.3B+ free tokens) from your terminal, app, IDE, or phone, and now from the browser with native browser sessions (multi-harness + multi-model) like OpenClaw (voice supported + ToS friendly)",
-        "language": "Python",
+        "description": "Cross-platform Xcode replacement. Build and deploy iOS apps with SwiftPM on Linux, Windows, macOS.",
+        "language": "Swift",
         "topics": [],
-        "stars": 58887,
-        "forks": 9292,
+        "stars": 9143,
+        "forks": 387,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
         "topLanguages": [
-          "Python"
+          "Swift"
         ]
       },
       "readmeRef": {
         "status": "available",
         "path": "README.md",
         "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/Alishahryar1/free-claude-code/main/README.md"
+        "rawUrl": "https://raw.githubusercontent.com/xtool-org/xtool/main/README.md"
       },
       "readmeSignals": {
-        "title": null,
-        "summary": "quick-start · choose-a-provider · connect-your-client · optional-integrations · manage-your-installation Independent open-source project. Not affiliated with or endorsed by Anthropic. Claude and Claude Code are trademarks of Anthropic. 61 ToS-friendly providers. 1.3B+ free tokens every month. Use free, paid, subscription, and local models from one searchable UI without putting your account at risk. FCC follows provider terms and removes integrations if they stop being allowed. 11 coding agents. One model catalog. Run https://code.claude.com/docs/en/overview, https://github.com/openai/codex, https://github.com/earendil-works/pi, https://github.com/anomalyco/opencode, https://github.com/cline/",
+        "title": "xtool",
+        "summary": "Cross-platform Xcode replacement. Build and deploy iOS apps with SwiftPM on Linux, Windows, and macOS. xtool is a cross-platform Linux/WSL/macOS tool that replicates Xcode functionality with open standards. ✅ Build a SwiftPM package into an iOS app ✅ Interact with Apple Developer Services programmatically 1. Follow the guide to install xtool https://xtool.sh/documentation/xtooldocs/installation-linux https://xtool.sh/documentation/xtooldocs/installation-macos 2. Create and run your first xtool-powered app by following the https://xtool.sh/tutorials/xtooldocs/first-app!",
         "headings": [
-          "What You Get",
-          "Quick Start",
-          "1. Install",
-          "2. Start FCC",
-          "3. Configure NVIDIA NIM",
-          "4. Run Your Coding Agent",
-          "Choose A Provider",
-          "LM Studio"
+          "xtool",
+          "Overview",
+          "Getting Started",
+          "Examples",
+          "Screenshot",
+          "Command line interface",
+          "Library"
         ],
         "commands": [],
         "keywords": [
-          "model",
-          "what you get",
-          "quick start",
-          "1. install",
-          "2. start fcc"
+          "ui",
+          "xtool",
+          "overview",
+          "getting started",
+          "examples"
         ],
-        "score": 100
+        "score": 95
       },
       "visual": {
         "kind": "readme_image",
-        "url": "https://raw.githubusercontent.com/Alishahryar1/free-claude-code/main/assets/package-manager-uv.svg",
-        "thumbUrl": "https://raw.githubusercontent.com/Alishahryar1/free-claude-code/main/assets/package-manager-uv.svg",
-        "alt": "Package Manager: uv",
-        "sourceUrl": "https://raw.githubusercontent.com/Alishahryar1/free-claude-code/main/assets/package-manager-uv.svg",
+        "url": "https://raw.githubusercontent.com/xtool-org/xtool/main/Documentation/xtool.docc/Resources/Cover.png",
+        "thumbUrl": "https://raw.githubusercontent.com/xtool-org/xtool/main/Documentation/xtool.docc/Resources/Cover.png",
+        "alt": "A screenshot of xtool being invoked from VSCode",
+        "sourceUrl": "https://raw.githubusercontent.com/xtool-org/xtool/main/Documentation/xtool.docc/Resources/Cover.png",
         "promptHash": null
       },
       "classification": {
-        "primaryCategoryId": "ai",
+        "primaryCategoryId": "frontend",
         "secondaryCategoryIds": [],
         "confidence": 0.7,
         "method": "rules",
         "reasons": [
-          "Matched model"
+          "Matched ui"
         ],
         "signals": [
-          "model"
+          "ui"
         ]
       },
       "rank": {
@@ -815,10 +807,18 @@
         "morluto-rea",
         "mksglu-context-mode",
         "cathrynlavery-diagram-design",
-        "lyogavin-airllm",
-        "open-webui-open-webui",
-        "alishahryar1-free-claude-code",
-        "microsoft-bitnet"
+        "vercel-labs-skills",
+        "lyogavin-airllm"
+      ],
+      "sort": "score"
+    },
+    {
+      "id": "frontend",
+      "type": "category",
+      "label": "Frontend",
+      "categoryId": "frontend",
+      "repoIds": [
+        "xtool-org-xtool"
       ],
       "sort": "score"
     },
@@ -829,6 +829,7 @@
       "categoryId": "unclassified",
       "repoIds": [
         "bilawalsidhu-gods-eye-view",
+        "debpalash-voicestudio",
         "storytold-artcraft"
       ],
       "sort": "score"
@@ -838,7 +839,9 @@
     "status": "ok",
     "candidateCount": 9,
     "enrichedRepoCount": 9,
-    "unclassifiedRepoCount": 2,
-    "warnings": []
+    "unclassifiedRepoCount": 3,
+    "warnings": [
+      "8 repos used README images, 0 used Agnes images, 1 fell back to repository Open Graph covers"
+    ]
   }
 }
