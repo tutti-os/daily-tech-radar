@@ -1,9 +1,9 @@
 {
   "schemaVersion": "trendreader.daily.v1",
-  "packageId": "github-daily-All-2026-10-13",
+  "packageId": "github-daily-All-2026-10-14",
   "locale": "zh-CN",
-  "generatedAt": "2026-10-13T20:26:36.544Z",
-  "expiresAt": "2026-10-14T20:26:36.544Z",
+  "generatedAt": "2026-10-14T20:23:43.788Z",
+  "expiresAt": "2026-10-15T20:23:43.788Z",
   "sourceWindow": {
     "since": "daily",
     "language": "All",
@@ -14,12 +14,12 @@
       "id": "github_trending_html",
       "role": "candidate",
       "status": "ok",
-      "itemCount": 9
+      "itemCount": 12
     }
   ],
   "taxonomy": {
-    "version": "2026-10-13",
-    "generatedAt": "2026-10-13T20:26:36.544Z",
+    "version": "2026-10-14",
+    "generatedAt": "2026-10-14T20:23:43.788Z",
     "categories": [
       {
         "id": "ai",
@@ -69,14 +69,14 @@
       "source": {
         "primary": "github_trending_html",
         "sourceRank": 1,
-        "starsGained": 54706
+        "starsGained": 41187
       },
       "metadata": {
         "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
         "language": "TypeScript",
         "topics": [],
-        "stars": 202646,
-        "forks": 49440,
+        "stars": 238117,
+        "forks": 59308,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -92,7 +92,7 @@
       },
       "readmeSignals": {
         "title": "REA: Reverse Engineer Anything",
-        "summary": "English · docs/readme/READMEzh.md · docs/readme/READMEzh-TW.md · docs/readme/READMEja.md · docs/readme/READMEko.md · docs/readme/READMEtr.md · docs/readme/READMEru.md · docs/readme/READMEvi.md · docs/readme/READMEth.md · docs/readme/READMEde.md · docs/readme/READMEes.md · docs/readme/READMEfr.md · docs/readme/READMEuk.md · docs/readme/READMEpl.md · docs/readme/READMEpt-BR.md · docs/readme/READMEar.md · docs/readme/READMEfa.md · docs/readme/READMEid.md · docs/readme/READMEit.md One MCP for reverse engineering across binaries, applications, and runtime behavior.",
+        "summary": "English · docs/readme/READMEzh.md · docs/readme/READMEzh-TW.md · docs/readme/READMEja.md · docs/readme/READMEko.md · docs/readme/READMEtr.md · docs/readme/READMEru.md · docs/readme/READMEvi.md · docs/readme/READMEth.md · docs/readme/READMEde.md · docs/readme/READMEes.md · docs/readme/READMEfr.md · docs/readme/READMEuk.md · docs/readme/READMEpl.md · docs/readme/READMEpt-BR.md · docs/readme/READMEar.md · docs/readme/READMEfa.md · docs/readme/READMEid.md · docs/readme/READMEit.md · docs/readme/READMEel.md One MCP for reverse engineering across binaries, applications, and runtime behavior.",
         "headings": [
           "REA: Reverse Engineer Anything",
           "One MCP for reverse engineering across binaries, applications, and runtime behavior.",
@@ -144,83 +144,6 @@
       }
     },
     {
-      "id": "bilawalsidhu-gods-eye-view",
-      "owner": "bilawalsidhu",
-      "name": "gods-eye-view",
-      "url": "https://github.com/bilawalsidhu/gods-eye-view",
-      "avatarUrl": "https://github.com/bilawalsidhu.png",
-      "homepageUrl": null,
-      "source": {
-        "primary": "github_trending_html",
-        "sourceRank": 2,
-        "starsGained": 1961
-      },
-      "metadata": {
-        "description": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
-        "language": "JavaScript",
-        "topics": [],
-        "stars": 55138,
-        "forks": 10796,
-        "license": null,
-        "defaultBranch": null,
-        "pushedAt": null,
-        "topLanguages": [
-          "JavaScript"
-        ]
-      },
-      "readmeRef": {
-        "status": "available",
-        "path": "README.md",
-        "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/bilawalsidhu/gods-eye-view/main/README.md"
-      },
-      "readmeSignals": {
-        "title": "🌐 God's Eye View",
-        "summary": "A spy-satellite simulator in your browser — then you realize the sources are public and the data is real. Photorealistic 3D globe. Live aircraft, ships, satellites, earthquakes, traffic, and public cameras. Hands-free voice control powered by a realtime AI agent. ▶️ From the project behind the viral God's Eye View series formerly WorldView — https://youtube.com/playlist?list=PL6qSg2I-7koPbDnSMo0QeeHXRknA2uv&si=nBGYMoHWQw41v93Q · https://www.google.com/search?q=god%27s+eye+view 🏆 Reached 1 on GitHub Trending, daily and weekly · August 2026 “pretty cool” — https://x.com/BrendanEich/status/2094592096401490266, creator of JavaScript and co-founder of Mozilla and Brave · Featured on https://pino",
-        "headings": [
-          "🌐 God's Eye View",
-          "A spy-satellite simulator in your browser — then you realize the sources are public and the data is real.",
-          "🌍 Why This Exists",
-          "🎛️ What This Thing Does",
-          "⚡ Quick Start",
-          "Path 1 — One click, no terminal",
-          "Path 2 — Terminal / coding agent",
-          "Then power it up — in the app, not in a file"
-        ],
-        "commands": [],
-        "keywords": [
-          "🌐 god's eye view",
-          "a spy-satellite simulator in your browser — then you realize the sources are public and the data is real.",
-          "🌍 why this exists",
-          "🎛️ what this thing does"
-        ],
-        "score": 100
-      },
-      "visual": {
-        "kind": "readme_image",
-        "url": "https://raw.githubusercontent.com/bilawalsidhu/gods-eye-view/main/docs/media/hero-open-source-reveal.gif",
-        "thumbUrl": "https://raw.githubusercontent.com/bilawalsidhu/gods-eye-view/main/docs/media/hero-open-source-reveal.gif",
-        "alt": "Orbital HUD, a tracked live globe, FLIR terrain — then OPEN SOURCED",
-        "sourceUrl": "https://raw.githubusercontent.com/bilawalsidhu/gods-eye-view/main/docs/media/hero-open-source-reveal.gif",
-        "promptHash": null
-      },
-      "classification": {
-        "primaryCategoryId": "unclassified",
-        "secondaryCategoryIds": [],
-        "confidence": 0.4,
-        "method": "rules",
-        "reasons": [
-          "No taxonomy rule matched with enough confidence"
-        ],
-        "signals": []
-      },
-      "rank": {
-        "globalRank": 2,
-        "categoryRank": 2,
-        "score": 116
-      }
-    },
-    {
       "id": "debpalash-voicestudio",
       "owner": "debpalash",
       "name": "VoiceStudio",
@@ -229,15 +152,15 @@
       "homepageUrl": null,
       "source": {
         "primary": "github_trending_html",
-        "sourceRank": 3,
-        "starsGained": 2277
+        "sourceRank": 2,
+        "starsGained": 3547
       },
       "metadata": {
         "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
         "language": "Python",
         "topics": [],
-        "stars": 62772,
-        "forks": 6990,
+        "stars": 65897,
+        "forks": 7276,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -292,9 +215,9 @@
         "signals": []
       },
       "rank": {
-        "globalRank": 3,
-        "categoryRank": 3,
-        "score": 114
+        "globalRank": 2,
+        "categoryRank": 2,
+        "score": 116
       }
     },
     {
@@ -306,15 +229,15 @@
       "homepageUrl": null,
       "source": {
         "primary": "github_trending_html",
-        "sourceRank": 4,
-        "starsGained": 978
+        "sourceRank": 3,
+        "starsGained": 946
       },
       "metadata": {
         "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
         "language": "TypeScript",
         "topics": [],
-        "stars": 28091,
-        "forks": 1987,
+        "stars": 28991,
+        "forks": 2037,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -385,154 +308,248 @@
         ]
       },
       "rank": {
-        "globalRank": 4,
-        "categoryRank": 4,
-        "score": 112
+        "globalRank": 3,
+        "categoryRank": 3,
+        "score": 114
       }
     },
     {
-      "id": "cathrynlavery-diagram-design",
-      "owner": "cathrynlavery",
-      "name": "diagram-design",
-      "url": "https://github.com/cathrynlavery/diagram-design",
-      "avatarUrl": "https://github.com/cathrynlavery.png",
+      "id": "nvm-sh-nvm",
+      "owner": "nvm-sh",
+      "name": "nvm",
+      "url": "https://github.com/nvm-sh/nvm",
+      "avatarUrl": "https://github.com/nvm-sh.png",
       "homepageUrl": null,
       "source": {
         "primary": "github_trending_html",
-        "sourceRank": 5,
-        "starsGained": 1813
+        "sourceRank": 4,
+        "starsGained": 70
       },
       "metadata": {
-        "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, and Pi. 44 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
-        "language": "HTML",
+        "description": "Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions.",
+        "language": "Shell",
         "topics": [],
-        "stars": 53915,
-        "forks": 3422,
+        "stars": 95424,
+        "forks": 10513,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
         "topLanguages": [
-          "HTML"
+          "Shell"
         ]
       },
       "readmeRef": {
         "status": "available",
         "path": "README.md",
         "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/cathrynlavery/diagram-design/main/README.md"
+        "rawUrl": "https://raw.githubusercontent.com/nvm-sh/nvm/master/README.md"
       },
       "readmeSignals": {
-        "title": "Pi: register the checkout as a local package",
-        "summary": "An agent skill that draws diagrams as one self-contained HTML + SVG file, in your brand. 45 diagram types. No shadows. No Mermaid slop. install · what-it-makes · quickstart · onboarding-make-it-look-like-your-brand · import-from-drawio-mermaid-or-excalidraw · export-to-png--svg · contributing npx skills add cathrynlavery/diagram-design \"Make me an architecture diagram of my app: frontend, backend, database, Redis cache.\" \"I need a quadrant showing Q2 projects by impact vs effort.\" \"Give me a sequence of a bearer call with token refresh on 401.\" \"Onboard diagram-design to https://yoursite.com\" pulls your palette and fonts so every diagram after this one matches your site",
+        "title": "Node Version Manager [![Tests](https://github.com/nvm-sh/nvm/actions/workflows/tests-fast.yml/badge.svg?branch=master)][3] [![nvm version](https://img.shields.io/badge/version-v0.40.8-yellow.svg)][4] [![CII Best Practices](https://bestpractices.dev/projects/684/badge)](https://bestpractices.dev/projects/684)",
+        "summary": "Node Version Manager 3 4 https://bestpractices.dev/projects/684 intro about installing-and-updating install--update-script additional-notes installing-in-docker installing-in-docker-for-cicd-jobs troubleshooting-on-linux troubleshooting-on-macos ansible verify-installation important-notes git-install manual-install manual-upgrade usage long-term-support migrating-global-packages-while-installing migrating-global-packages-between-installed-versions offline-install default-global-packages-from-file-while-installing iojs system-version-of-node listing-versions setting-custom-colors persisting-custom-colors suppressing-colorized-output restoring-path set-default-node-version use-a-mirror-of-node",
         "headings": [
-          "Install",
-          "Pi: register the checkout as a local package",
-          "Claude Code: symlink the inner skill",
-          "Other Agent Skills hosts: create only the roots you use",
-          "How it compares",
-          "Why I built it",
-          "What it makes",
-          "Onboarding: make it look like *your* brand"
+          "Node Version Manager [![Tests](https://github.com/nvm-sh/nvm/actions/workflows/tests-fast.yml/badge.svg?branch=master)][3] [![nvm version](https://img.shields.io/badge/version-v0.40.8-yellow.svg)][4] [![CII Best Practices](https://bestpractices.dev/projects/684/badge)](https://bestpractices.dev/projects/684)",
+          "Table of Contents",
+          "Intro",
+          "About",
+          "Installing and Updating",
+          "Install & Update Script",
+          "Use bash for the shell",
+          "Create a script file sourced by both interactive and non-interactive bash shells"
         ],
         "commands": [
-          "pip install playwright && playwright install chromium"
+          "npm install -g grunt",
+          "npm install -g grunt",
+          "npm install\n\nThere are slow tests and fast tests. The slow tests do things like install node"
         ],
         "keywords": [
-          "ai",
-          "install",
-          "pi: register the checkout as a local package",
-          "claude code: symlink the inner skill",
-          "other agent skills hosts: create only the roots you use"
-        ],
-        "score": 100
-      },
-      "visual": {
-        "kind": "readme_image",
-        "url": "https://skills.sh/b/cathrynlavery/diagram-design?style=flat-square",
-        "thumbUrl": "https://skills.sh/b/cathrynlavery/diagram-design?style=flat-square",
-        "alt": "skills.sh installs",
-        "sourceUrl": "https://skills.sh/b/cathrynlavery/diagram-design?style=flat-square",
-        "promptHash": null
-      },
-      "classification": {
-        "primaryCategoryId": "ai",
-        "secondaryCategoryIds": [],
-        "confidence": 0.7,
-        "method": "rules",
-        "reasons": [
-          "Matched ai"
-        ],
-        "signals": [
-          "ai"
-        ]
-      },
-      "rank": {
-        "globalRank": 5,
-        "categoryRank": 5,
-        "score": 110
-      }
-    },
-    {
-      "id": "vercel-labs-skills",
-      "owner": "vercel-labs",
-      "name": "skills",
-      "url": "https://github.com/vercel-labs/skills",
-      "avatarUrl": "https://github.com/vercel-labs.png",
-      "homepageUrl": null,
-      "source": {
-        "primary": "github_trending_html",
-        "sourceRank": 6,
-        "starsGained": 187
-      },
-      "metadata": {
-        "description": "The open agent skills tool - npx skills",
-        "language": "TypeScript",
-        "topics": [],
-        "stars": 34381,
-        "forks": 2945,
-        "license": null,
-        "defaultBranch": null,
-        "pushedAt": null,
-        "topLanguages": [
-          "TypeScript"
-        ]
-      },
-      "readmeRef": {
-        "status": "available",
-        "path": "README.md",
-        "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/vercel-labs/skills/main/README.md"
-      },
-      "readmeSignals": {
-        "title": "skills",
-        "summary": "The CLI for the open agent skills ecosystem. Supports OpenCode, Claude Code, Codex, Cursor, and supported-agents. Generate a prompt for one skill, or start a supported coding agent interactively: skills use resolves sources the same way as skills add, writes the selected skill files to a temporary directory, and prints only the generated prompt to stdout unless --agent is provided. With --agent, it starts one supported agent interactively with the generated prompt. Use the same command for public and private repositories. The CLI uses the authentication already configured for the repository URL:",
-        "headings": [
-          "skills",
-          "Install a Skill",
-          "Use a Skill Without Installing",
-          "Source Formats",
-          "GitHub shorthand (owner/repo)",
-          "Full GitHub URL",
-          "Direct path to a skill in a repo",
-          "GitLab URL"
-        ],
-        "commands": [],
-        "keywords": [
-          "agent",
-          "skills",
-          "install a skill",
-          "use a skill without installing",
-          "source formats"
+          "node version manager [![tests](https://github.com/nvm-sh/nvm/actions/workflows/tests-fast.yml/badge.svg?branch=master)][3] [![nvm version](https://img.shields.io/badge/version-v0.40.8-yellow.svg)][4] [![cii best practices](https://bestpractices.dev/projects/684/badge)](https://bestpractices.dev/projects/684)",
+          "table of contents",
+          "intro",
+          "about"
         ],
         "score": 100
       },
       "visual": {
         "kind": "repository_open_graph",
-        "url": "https://opengraph.githubassets.com/daily-tech-radar/vercel-labs/skills",
-        "thumbUrl": "https://opengraph.githubassets.com/daily-tech-radar/vercel-labs/skills",
-        "alt": "vercel-labs/skills",
-        "sourceUrl": "https://github.com/vercel-labs/skills",
-        "promptHash": "sha256:ce83c8bf4c25"
+        "url": "https://opengraph.githubassets.com/daily-tech-radar/nvm-sh/nvm",
+        "thumbUrl": "https://opengraph.githubassets.com/daily-tech-radar/nvm-sh/nvm",
+        "alt": "nvm-sh/nvm",
+        "sourceUrl": "https://github.com/nvm-sh/nvm",
+        "promptHash": "sha256:70a7c7b4f24b"
+      },
+      "classification": {
+        "primaryCategoryId": "unclassified",
+        "secondaryCategoryIds": [],
+        "confidence": 0.4,
+        "method": "rules",
+        "reasons": [
+          "No taxonomy rule matched with enough confidence"
+        ],
+        "signals": []
+      },
+      "rank": {
+        "globalRank": 4,
+        "categoryRank": 4,
+        "score": 99
+      }
+    },
+    {
+      "id": "k-dense-ai-scientific-agent-skills",
+      "owner": "K-Dense-AI",
+      "name": "scientific-agent-skills",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+      "avatarUrl": "https://github.com/K-Dense-AI.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 5,
+        "starsGained": 146
+      },
+      "metadata": {
+        "description": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. 177 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
+        "language": "Python",
+        "topics": [],
+        "stars": 49200,
+        "forks": 4409,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Python"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "Scientific Agent Skills",
+        "summary": "🔔 Claude Scientific Skills is now Scientific Agent Skills. Same skills, broader compatibility — now works with any AI agent that supports the open https://agentskills.io/ standard, not just Claude. New: https://github.com/K-Dense-AI/k-dense-byok — A free, open-source AI co-scientist that runs on your desktop, powered by Scientific Agent Skills. Bring your own API keys, pick from 40+ models, and get a full research workspace with web search, file handling, 100+ scientific databases, and access to all 177 skills in this repo. Your data stays on your computer, and you can optionally scale to cloud compute via https://modal.com/ for heavy workloads. https://github.com/K-Dense-AI/k-dense-byok",
+        "headings": [
+          "Scientific Agent Skills",
+          "🎥 More tutorials",
+          "📦 What's Included",
+          "What's new in 2.72.0",
+          "What's new in 2.71.0",
+          "Recently added workflows",
+          "📋 Table of Contents",
+          "🚀 Why Use This?"
+        ],
+        "commands": [
+          "pip install cisco-ai-skill-scanner",
+          "pip install uv",
+          "pip install cisco-ai-skill-scanner",
+          "pip install package-name"
+        ],
+        "keywords": [
+          "ai",
+          "agent",
+          "scientific agent skills",
+          "🎥 more tutorials",
+          "📦 what's included",
+          "what's new in 2.72.0"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "repository_open_graph",
+        "url": "https://opengraph.githubassets.com/daily-tech-radar/K-Dense-AI/scientific-agent-skills",
+        "thumbUrl": "https://opengraph.githubassets.com/daily-tech-radar/K-Dense-AI/scientific-agent-skills",
+        "alt": "K-Dense-AI/scientific-agent-skills",
+        "sourceUrl": "https://github.com/K-Dense-AI/scientific-agent-skills",
+        "promptHash": "sha256:867ab5d54260"
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.8,
+        "method": "rules",
+        "reasons": [
+          "Matched ai",
+          "Matched agent"
+        ],
+        "signals": [
+          "ai",
+          "agent"
+        ]
+      },
+      "rank": {
+        "globalRank": 5,
+        "categoryRank": 5,
+        "score": 104.6
+      }
+    },
+    {
+      "id": "hkuds-cli-anything",
+      "owner": "HKUDS",
+      "name": "CLI-Anything",
+      "url": "https://github.com/HKUDS/CLI-Anything",
+      "avatarUrl": "https://github.com/HKUDS.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 6,
+        "starsGained": 94
+      },
+      "metadata": {
+        "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+        "language": "Python",
+        "topics": [],
+        "stars": 52387,
+        "forks": 4768,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Python"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/HKUDS/CLI-Anything/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "Browse what is available",
+        "summary": "&nbsp; CLI-Anything: Making ALL Software Agent-Native Today's Software Serves Humans👨‍💻. Tomorrow's Users will be Agents🤖. CLI-Anything: Bridging the Gap Between AI Agents and the World's Software 🌐 https://hkuds.github.io/CLI-Anything/: pip install cli-anything-hub then cli-hub install — browse, install, and manage all community-built CLIs. Want to add your own? https://github.com/HKUDS/CLI-Anything/blob/main/CONTRIBUTING.md — the hub updates instantly. 🎬 -real-world-demos: Watch AI agents use generated CLIs plus preview, live preview, and trajectory loops to produce real artifacts — CAD builds, 3D scenes, diagrams, gameplay, subtitles, and more.",
+        "headings": [
+          "📰 News",
+          "🤔 Why CLI?",
+          "🚀 Quick Start",
+          "Browse what is available",
+          "Install and try a CLI immediately",
+          "Pick Your Agent Platform",
+          "Add the CLI-Anything marketplace",
+          "Install the cli-anything plugin from the marketplace"
+        ],
+        "commands": [
+          "pip install cli-anything-hub",
+          "pip install cli-anything-hub",
+          "pip install cli-anything-hub",
+          "pip install cli-anything-hub",
+          "pip install -e .",
+          "pip install -e . puts cli-anything-<software> directly on PATH. Agents discover tools via standard which commands. No setup, no wrappers."
+        ],
+        "keywords": [
+          "agent",
+          "📰 news",
+          "🤔 why cli?",
+          "🚀 quick start",
+          "browse what is available"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/HKUDS/CLI-Anything/main/assets/icon.png",
+        "thumbUrl": "https://raw.githubusercontent.com/HKUDS/CLI-Anything/main/assets/icon.png",
+        "alt": "HKUDS/CLI-Anything",
+        "sourceUrl": "https://raw.githubusercontent.com/HKUDS/CLI-Anything/main/assets/icon.png",
+        "promptHash": null
       },
       "classification": {
         "primaryCategoryId": "ai",
@@ -549,77 +566,76 @@
       "rank": {
         "globalRank": 6,
         "categoryRank": 6,
-        "score": 106.7
+        "score": 97.4
       }
     },
     {
-      "id": "lyogavin-airllm",
-      "owner": "lyogavin",
-      "name": "airllm",
-      "url": "https://github.com/lyogavin/airllm",
-      "avatarUrl": "https://github.com/lyogavin.png",
+      "id": "ifixai-ai-ifixai",
+      "owner": "ifixai-ai",
+      "name": "iFixAi",
+      "url": "https://github.com/ifixai-ai/iFixAi",
+      "avatarUrl": "https://github.com/ifixai-ai.png",
       "homepageUrl": null,
       "source": {
         "primary": "github_trending_html",
         "sourceRank": 7,
-        "starsGained": 1004
+        "starsGained": 2143
       },
       "metadata": {
-        "description": "AirLLM 2.8T LLM inference with single 4GB GPU",
-        "language": "Jupyter Notebook",
+        "description": "Independent Auditing of AI Agents. Run by human or the agent itself, to answer the most crucial question in the AI Agent Economy. Is the agent doing what is supposed to do? With iFixAi you can have this answer in less than 120 seconds.",
+        "language": "Python",
         "topics": [],
-        "stars": 38224,
-        "forks": 3913,
+        "stars": 27203,
+        "forks": 1496,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
         "topLanguages": [
-          "Jupyter Notebook"
+          "Python"
         ]
       },
       "readmeRef": {
         "status": "available",
         "path": "README.md",
         "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/lyogavin/airllm/main/README.md"
+        "rawUrl": "https://raw.githubusercontent.com/ifixai-ai/iFixAi/main/README.md"
       },
       "readmeSignals": {
-        "title": "just pass a hugging face repo id — works with almost any popular model:",
-        "summary": "quickstart | configurations | macos | example-python-notebook | faq AirLLM dramatically reduces inference memory usage, letting 70B large language models run on a single 4GB GPU card — without quantization, distillation, or pruning. You can even run Kimi K3 2.8T — the largest open-source model released to date — on under 4GB, Qwen3.8-Flash-Next 125B on 6GB, and DeepSeek-V3 671B on ~12GB. We now also support training huge models on small VRAM: Qwen3.8-Flash-Next 125B under 6GB. Updates 2026/09 Training support: stream frozen weights one layer at a time and keep adapters on the GPU. Qwen3.8-Flash-Next 125B trains under 6GB RTX 3060 Ti; Qwen3.8-27B trains in ~2GB at seq 512. See training.",
+        "title": "1. Install the CLI + the extra for the provider you'll test",
+        "summary": "Catch your agent's mistakes and blind spots before the shit hits the fan. Quick start • Three ways to run • Test your agent • Scoring • Audit recorded actions • Docs • Contributing The existing Eval, Red-teaming, and Observability Tools are evaluating the agent mainly based on tech capability token efficiency, latency, prompt injections. They cannot answer the most crucial question. Is the agent doing the job it is supposed to do based on the business KPIs and Organizational Structure? iFixAi gives you this answer in less than 120 seconds by striking the right balance between AI-Red Teaming and Operational Assurance.",
         "headings": [
-          "AI Agents Recommendation:",
-          "Updates",
-          "Star History",
-          "Table of Contents",
-          "Quickstart",
-          "1. Install package",
-          "2. Inference",
-          "just pass a hugging face repo id — works with almost any popular model:"
+          "What it is",
+          "Three ways to run",
+          "Quick start",
+          "Guided wizard (recommended)",
+          "Plugin (Claude Code and Codex)",
+          "Skill (every agent)",
+          "Explicit flags",
+          "1. Install the CLI + the extra for the provider you'll test"
         ],
         "commands": [
-          "pip install git+https://github.com/huggingface/transformers.git",
-          "pip install compressed-tensors flash-attn",
-          "pip install airllm",
-          "pip install -U bitsandbytes",
-          "pip install -U airllm",
-          "pip install git+https://github.com/huggingface/transformers.git"
+          "pip install \"ifixai[<provider>]\"",
+          "pip install \"ifixai[<provider>]\"",
+          "pip install \"ifixai[openai]\"   # or anthropic, gemini, etc.: install the provider extra you'll test",
+          "pip install \"ifixai[anthropic]\"",
+          "pip install \"ifixai[anthropic,openai]\"     # SUT's + judge's SDKs (or ifixai[all])"
         ],
         "keywords": [
           "ai",
-          "llm",
-          "ai agents recommendation:",
-          "updates",
-          "star history",
-          "table of contents"
+          "agent",
+          "what it is",
+          "three ways to run",
+          "quick start",
+          "guided wizard (recommended)"
         ],
         "score": 100
       },
       "visual": {
         "kind": "readme_image",
-        "url": "https://raw.githubusercontent.com/lyogavin/airllm/main/assets/airllm2_time_improvement.png",
-        "thumbUrl": "https://raw.githubusercontent.com/lyogavin/airllm/main/assets/airllm2_time_improvement.png",
-        "alt": "speed_improvement",
-        "sourceUrl": "https://raw.githubusercontent.com/lyogavin/airllm/main/assets/airllm2_time_improvement.png",
+        "url": "https://raw.githubusercontent.com/ifixai-ai/iFixAi/main/docs/assets/brand/ifixai-masthead-light.svg",
+        "thumbUrl": "https://raw.githubusercontent.com/ifixai-ai/iFixAi/main/docs/assets/brand/ifixai-masthead-light.svg",
+        "alt": "iFixAi: Independent auditing for AI agents",
+        "sourceUrl": "https://raw.githubusercontent.com/ifixai-ai/iFixAi/main/docs/assets/brand/ifixai-masthead-light.svg",
         "promptHash": null
       },
       "classification": {
@@ -629,11 +645,11 @@
         "method": "rules",
         "reasons": [
           "Matched ai",
-          "Matched llm"
+          "Matched agent"
         ],
         "signals": [
           "ai",
-          "llm"
+          "agent"
         ]
       },
       "rank": {
@@ -643,23 +659,109 @@
       }
     },
     {
-      "id": "storytold-artcraft",
-      "owner": "storytold",
-      "name": "artcraft",
-      "url": "https://github.com/storytold/artcraft",
-      "avatarUrl": "https://github.com/storytold.png",
+      "id": "vxcontrol-pentagi",
+      "owner": "vxcontrol",
+      "name": "pentagi",
+      "url": "https://github.com/vxcontrol/pentagi",
+      "avatarUrl": "https://github.com/vxcontrol.png",
       "homepageUrl": null,
       "source": {
         "primary": "github_trending_html",
         "sourceRank": 8,
-        "starsGained": 4078
+        "starsGained": 1070
       },
       "metadata": {
-        "description": "ArtCraft is an intentional crafting engine for artists, designers, and filmmakers",
+        "description": "Fully autonomous AI Agents system capable of performing complex penetration testing tasks",
+        "language": "Go",
+        "topics": [],
+        "stars": 29222,
+        "forks": 4393,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Go"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/vxcontrol/pentagi/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "PentAGI",
+        "summary": "P enetration testing A rtificial G eneral I ntelligence Join the Community! Connect with security researchers, AI enthusiasts, and fellow ethical hackers. Get support, share insights, and stay updated with the latest PentAGI developments. overview features architecture advanced-agent-supervision quick-start giving-agents-docker-without-giving-away-the-host running-several-instances-tenantid how-to-use-pentagi-after-login api-access custom-llm-provider-configuration using-azure-openai ollama-provider-configuration openai-provider-configuration anthropic-provider-configuration google-ai-gemini-provider-configuration aws-bedrock-provider-configuration deepseek-provider-configuration glm-provide",
+        "headings": [
+          "PentAGI",
+          "Table of Contents",
+          "Overview",
+          "Features",
+          "Current Capability Boundaries",
+          "Architecture",
+          "System Context",
+          "Global Summarizer Configuration Options"
+        ],
+        "commands": [
+          "pnpm add -g fern-api",
+          "pnpm add -g graphql-codegen"
+        ],
+        "keywords": [
+          "ai",
+          "agent",
+          "pentagi",
+          "table of contents",
+          "overview",
+          "features"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://github.com/user-attachments/assets/0828dc3e-15f1-4a1d-858e-9696a146e478",
+        "thumbUrl": "https://github.com/user-attachments/assets/0828dc3e-15f1-4a1d-858e-9696a146e478",
+        "alt": "PentAGI Overview Video",
+        "sourceUrl": "https://github.com/user-attachments/assets/0828dc3e-15f1-4a1d-858e-9696a146e478",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.8,
+        "method": "rules",
+        "reasons": [
+          "Matched ai",
+          "Matched agent"
+        ],
+        "signals": [
+          "ai",
+          "agent"
+        ]
+      },
+      "rank": {
+        "globalRank": 8,
+        "categoryRank": 8,
+        "score": 104
+      }
+    },
+    {
+      "id": "rust-lang-rust",
+      "owner": "rust-lang",
+      "name": "rust",
+      "url": "https://github.com/rust-lang/rust",
+      "avatarUrl": "https://github.com/rust-lang.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 9,
+        "starsGained": 205
+      },
+      "metadata": {
+        "description": "Empowering everyone to build reliable and efficient software.",
         "language": "Rust",
         "topics": [],
-        "stars": 25227,
-        "forks": 3968,
+        "stars": 119928,
+        "forks": 18698,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -671,50 +773,54 @@
         "status": "available",
         "path": "README.md",
         "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/storytold/artcraft/main/README.md"
+        "rawUrl": "https://raw.githubusercontent.com/rust-lang/rust/main/README.md"
       },
       "readmeSignals": {
         "title": null,
-        "summary": "Watch the two-minute ArtCraft demo on YouTube Download ArtCraft · GitHub releases · Build from source ArtCraft is the IDE for interactive AI image and video creation. Compose in 2D, stage scenes in 3D, and choose the models that fit your work. Turn prompting into crafting with visual tools for precise, repeatable results. Show, Don't Tell: Advanced Crafting Features Artists need control over composition, character identity, and camera placement. Build the scene before you generate it. Click any preview to view it at full size. | Feature | Preview | | Image to Location Place virtual actors in a consistent environment and plan multiple shots in the same room. | | 3D Image Compositing Layer bac",
+        "summary": "WebsiteRust | Getting started | Learn | Documentation | Contributing This is the main source code repository for Rust. It contains the compiler, standard library, and documentation. Performance: Fast and memory-efficient, suitable for critical services, embedded devices, and easily integrated with other languages. Reliability: Our rich type system and ownership model ensure memory and thread safety, reducing bugs at compile-time. Productivity: Comprehensive documentation, a compiler committed to providing great diagnostics, and advanced tooling including package manager and build tool Cargo, auto-formatter rustfmt, linter Clippy and editor support rust-analyzer.",
         "headings": [
-          "Show, Don't Tell: Advanced Crafting Features",
-          "Quick and Easy Prompting",
-          "Models and Providers Supported within ArtCraft",
-          "Downloads",
-          "Documentation",
-          "License"
+          "Why Rust?",
+          "Quick Start",
+          "Installing from Source",
+          "Getting Help",
+          "Contributing",
+          "License",
+          "Trademark"
         ],
         "commands": [],
         "keywords": [
-          "show, don't tell: advanced crafting features",
-          "quick and easy prompting",
-          "models and providers supported within artcraft",
-          "downloads"
+          "ui",
+          "why rust?",
+          "quick start",
+          "installing from source",
+          "getting help"
         ],
-        "score": 90
+        "score": 95
       },
       "visual": {
         "kind": "readme_image",
-        "url": "https://github.com/user-attachments/assets/21f103e3-cc19-4882-a630-9caa1b76ae31",
-        "thumbUrl": "https://github.com/user-attachments/assets/21f103e3-cc19-4882-a630-9caa1b76ae31",
-        "alt": "Image to Location demo",
-        "sourceUrl": "https://github.com/user-attachments/assets/21f103e3-cc19-4882-a630-9caa1b76ae31",
+        "url": "https://raw.githubusercontent.com/rust-lang/www.rust-lang.org/master/static/images/rust-social-wide-light.svg",
+        "thumbUrl": "https://raw.githubusercontent.com/rust-lang/www.rust-lang.org/master/static/images/rust-social-wide-light.svg",
+        "alt": "The Rust Programming Language: A language empowering everyone to build reliable and efficient software",
+        "sourceUrl": "https://raw.githubusercontent.com/rust-lang/www.rust-lang.org/master/static/images/rust-social-wide-light.svg",
         "promptHash": null
       },
       "classification": {
-        "primaryCategoryId": "unclassified",
+        "primaryCategoryId": "frontend",
         "secondaryCategoryIds": [],
-        "confidence": 0.4,
+        "confidence": 0.7,
         "method": "rules",
         "reasons": [
-          "No taxonomy rule matched with enough confidence"
+          "Matched ui"
         ],
-        "signals": []
+        "signals": [
+          "ui"
+        ]
       },
       "rank": {
-        "globalRank": 8,
-        "categoryRank": 8,
-        "score": 104
+        "globalRank": 9,
+        "categoryRank": 9,
+        "score": 102
       }
     },
     {
@@ -726,15 +832,15 @@
       "homepageUrl": null,
       "source": {
         "primary": "github_trending_html",
-        "sourceRank": 9,
-        "starsGained": 1182
+        "sourceRank": 10,
+        "starsGained": 1510
       },
       "metadata": {
         "description": "Cross-platform Xcode replacement. Build and deploy iOS apps with SwiftPM on Linux, Windows, macOS.",
         "language": "Swift",
         "topics": [],
-        "stars": 9143,
-        "forks": 387,
+        "stars": 10577,
+        "forks": 466,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -791,9 +897,166 @@
         ]
       },
       "rank": {
-        "globalRank": 9,
-        "categoryRank": 9,
-        "score": 102
+        "globalRank": 10,
+        "categoryRank": 10,
+        "score": 100
+      }
+    },
+    {
+      "id": "ntdevlabs-tiny11builder",
+      "owner": "ntdevlabs",
+      "name": "tiny11builder",
+      "url": "https://github.com/ntdevlabs/tiny11builder",
+      "avatarUrl": "https://github.com/ntdevlabs.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 11,
+        "starsGained": 194
+      },
+      "metadata": {
+        "description": "WinUI app for building smaller, customized Windows 11 images.",
+        "language": "C#",
+        "topics": [],
+        "stars": 20162,
+        "forks": 1552,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "C#"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/ntdevlabs/tiny11builder/master/README.md"
+      },
+      "readmeSignals": {
+        "title": "Tiny11 Builder",
+        "summary": "Choose x64 for Intel/AMD PCs or ARM64 for Windows on ARM. Extract the entire ZIP and open Tiny11Builder.exe. Administrator approval is required. | Mode | What it does | | Tiny11 | Removes bundled apps and unwanted features while keeping updates, Defender and recovery. | | Tiny11 Core | Trims further by removing servicing and recovery support and disabling Defender. | | Custom | Choose individual apps, components, features and services to remove or keep. | Turbo mode speeds up image processing. Interrupted builds can resume from saved progress after the image is committed or compressed. Core and component-store removals automatically use the legacy Windows installer.",
+        "headings": [
+          "Tiny11 Builder",
+          "Download",
+          "Choose your build",
+          "Video",
+          "Screenshots",
+          "Welcome",
+          "Components",
+          "Build settings"
+        ],
+        "commands": [],
+        "keywords": [
+          "ui",
+          "tiny11 builder",
+          "download",
+          "choose your build",
+          "video"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/ntdevlabs/tiny11builder/master/docs/images/ui-welcome.png",
+        "thumbUrl": "https://raw.githubusercontent.com/ntdevlabs/tiny11builder/master/docs/images/ui-welcome.png",
+        "alt": "Tiny11 Builder welcome screen with Tiny11, Tiny11 Core and Custom modes",
+        "sourceUrl": "https://raw.githubusercontent.com/ntdevlabs/tiny11builder/master/docs/images/ui-welcome.png",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "frontend",
+        "secondaryCategoryIds": [],
+        "confidence": 0.7,
+        "method": "rules",
+        "reasons": [
+          "Matched ui"
+        ],
+        "signals": [
+          "ui"
+        ]
+      },
+      "rank": {
+        "globalRank": 11,
+        "categoryRank": 11,
+        "score": 97.4
+      }
+    },
+    {
+      "id": "nationalsecurityagency-ghidra",
+      "owner": "NationalSecurityAgency",
+      "name": "ghidra",
+      "url": "https://github.com/NationalSecurityAgency/ghidra",
+      "avatarUrl": "https://github.com/NationalSecurityAgency.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 12,
+        "starsGained": 1002
+      },
+      "metadata": {
+        "description": "Ghidra is a software reverse engineering (SRE) framework",
+        "language": "Java",
+        "topics": [],
+        "stars": 87283,
+        "forks": 9750,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Java"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/NationalSecurityAgency/ghidra/master/README.md"
+      },
+      "readmeSignals": {
+        "title": "Ghidra Software Reverse Engineering Framework",
+        "summary": "Ghidra Software Reverse Engineering Framework Ghidra is a software reverse engineering SRE framework created and maintained by the National Security Agencynsa Research Directorate. This framework includes a suite of full-featured, high-end software analysis tools that enable users to analyze compiled code on a variety of platforms including Windows, macOS, and Linux. Capabilities include disassembly, assembly, decompilation, graphing, and scripting, along with hundreds of other features. Ghidra supports a wide variety of processor instruction sets and executable formats and can be run in both user-interactive and automated modes. Users may also develop their own Ghidra extension components a",
+        "headings": [
+          "Ghidra Software Reverse Engineering Framework",
+          "Security Warning",
+          "Install",
+          "Build",
+          "Develop",
+          "User Scripts and Extensions",
+          "Advanced Development",
+          "Contribute"
+        ],
+        "commands": [],
+        "keywords": [
+          "ghidra software reverse engineering framework",
+          "security warning",
+          "install",
+          "build"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/NationalSecurityAgency/ghidra/master/Ghidra/Features/Base/src/main/resources/images/GHIDRA_3.png",
+        "thumbUrl": "https://raw.githubusercontent.com/NationalSecurityAgency/ghidra/master/Ghidra/Features/Base/src/main/resources/images/GHIDRA_3.png",
+        "alt": "NationalSecurityAgency/ghidra",
+        "sourceUrl": "https://raw.githubusercontent.com/NationalSecurityAgency/ghidra/master/Ghidra/Features/Base/src/main/resources/images/GHIDRA_3.png",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "unclassified",
+        "secondaryCategoryIds": [],
+        "confidence": 0.4,
+        "method": "rules",
+        "reasons": [
+          "No taxonomy rule matched with enough confidence"
+        ],
+        "signals": []
+      },
+      "rank": {
+        "globalRank": 12,
+        "categoryRank": 12,
+        "score": 96
       }
     }
   ],
@@ -806,9 +1069,10 @@
       "repoIds": [
         "morluto-rea",
         "mksglu-context-mode",
-        "cathrynlavery-diagram-design",
-        "vercel-labs-skills",
-        "lyogavin-airllm"
+        "ifixai-ai-ifixai",
+        "k-dense-ai-scientific-agent-skills",
+        "vxcontrol-pentagi",
+        "hkuds-cli-anything"
       ],
       "sort": "score"
     },
@@ -818,7 +1082,9 @@
       "label": "前端",
       "categoryId": "frontend",
       "repoIds": [
-        "xtool-org-xtool"
+        "rust-lang-rust",
+        "xtool-org-xtool",
+        "ntdevlabs-tiny11builder"
       ],
       "sort": "score"
     },
@@ -828,20 +1094,20 @@
       "label": "Needs Review",
       "categoryId": "unclassified",
       "repoIds": [
-        "bilawalsidhu-gods-eye-view",
         "debpalash-voicestudio",
-        "storytold-artcraft"
+        "nvm-sh-nvm",
+        "nationalsecurityagency-ghidra"
       ],
       "sort": "score"
     }
   ],
   "health": {
     "status": "ok",
-    "candidateCount": 9,
-    "enrichedRepoCount": 9,
+    "candidateCount": 12,
+    "enrichedRepoCount": 12,
     "unclassifiedRepoCount": 3,
     "warnings": [
-      "8 repos used README images, 0 used Agnes images, 1 fell back to repository Open Graph covers"
+      "10 repos used README images, 0 used Agnes images, 2 fell back to repository Open Graph covers"
     ]
   }
 }

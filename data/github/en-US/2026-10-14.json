@@ -1,0 +1,1113 @@
+{
+  "schemaVersion": "trendreader.daily.v1",
+  "packageId": "github-daily-All-2026-10-14",
+  "locale": "en-US",
+  "generatedAt": "2026-10-14T20:23:43.788Z",
+  "expiresAt": "2026-10-15T20:23:43.788Z",
+  "sourceWindow": {
+    "since": "daily",
+    "language": "All",
+    "spokenLanguageCode": null
+  },
+  "sources": [
+    {
+      "id": "github_trending_html",
+      "role": "candidate",
+      "status": "ok",
+      "itemCount": 12
+    }
+  ],
+  "taxonomy": {
+    "version": "2026-10-14",
+    "generatedAt": "2026-10-14T20:23:43.788Z",
+    "categories": [
+      {
+        "id": "ai",
+        "label": "AI",
+        "labelEn": "AI",
+        "icon": "bot",
+        "order": 20
+      },
+      {
+        "id": "tools",
+        "label": "工具",
+        "labelEn": "Tools",
+        "icon": "wrench",
+        "order": 100
+      },
+      {
+        "id": "frontend",
+        "label": "前端",
+        "labelEn": "Frontend",
+        "icon": "layout",
+        "order": 140
+      },
+      {
+        "id": "backend",
+        "label": "后端",
+        "labelEn": "Backend",
+        "icon": "server",
+        "order": 110
+      },
+      {
+        "id": "unclassified",
+        "label": "Needs Review",
+        "labelEn": "Needs Review",
+        "icon": "circle-help",
+        "order": 999
+      }
+    ]
+  },
+  "repos": [
+    {
+      "id": "morluto-rea",
+      "owner": "morluto",
+      "name": "rea",
+      "url": "https://github.com/morluto/rea",
+      "avatarUrl": "https://github.com/morluto.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 1,
+        "starsGained": 41187
+      },
+      "metadata": {
+        "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+        "language": "TypeScript",
+        "topics": [],
+        "stars": 238117,
+        "forks": 59308,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "TypeScript"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/morluto/rea/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "REA: Reverse Engineer Anything",
+        "summary": "English · docs/readme/READMEzh.md · docs/readme/READMEzh-TW.md · docs/readme/READMEja.md · docs/readme/READMEko.md · docs/readme/READMEtr.md · docs/readme/READMEru.md · docs/readme/READMEvi.md · docs/readme/READMEth.md · docs/readme/READMEde.md · docs/readme/READMEes.md · docs/readme/READMEfr.md · docs/readme/READMEuk.md · docs/readme/READMEpl.md · docs/readme/READMEpt-BR.md · docs/readme/READMEar.md · docs/readme/READMEfa.md · docs/readme/READMEid.md · docs/readme/READMEit.md · docs/readme/READMEel.md One MCP for reverse engineering across binaries, applications, and runtime behavior.",
+        "headings": [
+          "REA: Reverse Engineer Anything",
+          "One MCP for reverse engineering across binaries, applications, and runtime behavior.",
+          "Quick start",
+          "Set up your agent",
+          "Ask your agent",
+          "Use the terminal",
+          "Update REA",
+          "How REA works"
+        ],
+        "commands": [
+          "npm install --global rea-agents",
+          "npm install --global",
+          "npm install --global"
+        ],
+        "keywords": [
+          "agent",
+          "rea: reverse engineer anything",
+          "one mcp for reverse engineering across binaries, applications, and runtime behavior.",
+          "quick start",
+          "set up your agent"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://skills.sh/b/morluto/rea?style=flat-square",
+        "thumbUrl": "https://skills.sh/b/morluto/rea?style=flat-square",
+        "alt": "skills.sh",
+        "sourceUrl": "https://skills.sh/b/morluto/rea?style=flat-square",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.7,
+        "method": "rules",
+        "reasons": [
+          "Matched agent"
+        ],
+        "signals": [
+          "agent"
+        ]
+      },
+      "rank": {
+        "globalRank": 1,
+        "categoryRank": 1,
+        "score": 118
+      }
+    },
+    {
+      "id": "debpalash-voicestudio",
+      "owner": "debpalash",
+      "name": "VoiceStudio",
+      "url": "https://github.com/debpalash/VoiceStudio",
+      "avatarUrl": "https://github.com/debpalash.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 2,
+        "starsGained": 3547
+      },
+      "metadata": {
+        "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+        "language": "Python",
+        "topics": [],
+        "stars": 65897,
+        "forks": 7276,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Python"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/debpalash/VoiceStudio/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "Latest Electron release",
+        "summary": "VoiceStudio Open-source voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages. Website · Download · Get started · Docs · Discord · 简体中文 · 日本語 | Create | Produce | Connect | | Clone a voice or design your own | Dub videos with timed speech | Local API & MCP for agents | | Dictate with a floating widget | Stories, audiobooks & batch jobs | Reusable recipes & watch folders | Start with VoiceStudio default, powered by k2-fsa/OmniVoice, or choose another engine. docs/feature-catalog.md. Local workflows run on your hardware. Remote services are optional; usage analytics requires consent.",
+        "headings": [
+          "Your voice. Your workflow.",
+          "Get started",
+          "One-command install (macOS / Linux)",
+          "Latest Electron release",
+          "A specific published Electron release (replace X.Y.Z)",
+          "Build current main and install the desktop app",
+          "Uninstall the app, keeping your data",
+          "Install with prompt"
+        ],
+        "commands": [],
+        "keywords": [
+          "your voice. your workflow.",
+          "get started",
+          "one-command install (macos / linux)",
+          "latest electron release"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/debpalash/VoiceStudio/main/docs/media/electron/voicestudio.gif",
+        "thumbUrl": "https://raw.githubusercontent.com/debpalash/VoiceStudio/main/docs/media/electron/voicestudio.gif",
+        "alt": "A tour of the Electron app: voice cloning, voice design, dubbing, and model management",
+        "sourceUrl": "https://raw.githubusercontent.com/debpalash/VoiceStudio/main/docs/media/electron/voicestudio.gif",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "unclassified",
+        "secondaryCategoryIds": [],
+        "confidence": 0.4,
+        "method": "rules",
+        "reasons": [
+          "No taxonomy rule matched with enough confidence"
+        ],
+        "signals": []
+      },
+      "rank": {
+        "globalRank": 2,
+        "categoryRank": 2,
+        "score": 116
+      }
+    },
+    {
+      "id": "mksglu-context-mode",
+      "owner": "mksglu",
+      "name": "context-mode",
+      "url": "https://github.com/mksglu/context-mode",
+      "avatarUrl": "https://github.com/mksglu.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 3,
+        "starsGained": 946
+      },
+      "metadata": {
+        "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
+        "language": "TypeScript",
+        "topics": [],
+        "stars": 28991,
+        "forks": 2037,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "TypeScript"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/mksglu/context-mode/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "Context Mode",
+        "summary": "Every MCP tool call dumps raw data into your context window. A Playwright snapshot costs 56 KB. Twenty GitHub issues cost 59 KB. One access log — 45 KB. After 30 minutes, 40% of your context is gone. And when the agent compacts the conversation to free space, it forgets which files it was editing, what tasks are in progress, and what you last asked for. On top of that, the agent wastes output tokens on filler, pleasantries, and verbose explanations — burning context from both sides. Context Mode is an MCP server that solves all four sides of this problem:",
+        "headings": [
+          "Context Mode",
+          "The Problem",
+          "How Context Mode Solves It",
+          "Install",
+          "Option A — Marketplace plugin (recommended once published)",
+          "Option B — Manual install (existing path)",
+          "Tools",
+          "How the Sandbox Works"
+        ],
+        "commands": [
+          "npm install -g context-mode",
+          "npm install -g context-mode",
+          "npm install -g context-mode",
+          "npm install -g context-mode                                     # the plugin's MCP server runs the global binary",
+          "npm install -g context-mode",
+          "npm install -g context-mode@latest"
+        ],
+        "keywords": [
+          "ai",
+          "agent",
+          "mcp",
+          "context mode",
+          "the problem",
+          "how context mode solves it",
+          "install"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://img.youtube.com/vi/QUHrntlfPo4/maxresdefault.jpg",
+        "thumbUrl": "https://img.youtube.com/vi/QUHrntlfPo4/maxresdefault.jpg",
+        "alt": "Watch context-mode demo on YouTube",
+        "sourceUrl": "https://img.youtube.com/vi/QUHrntlfPo4/maxresdefault.jpg",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.9,
+        "method": "rules",
+        "reasons": [
+          "Matched ai",
+          "Matched agent",
+          "Matched mcp"
+        ],
+        "signals": [
+          "ai",
+          "agent",
+          "mcp"
+        ]
+      },
+      "rank": {
+        "globalRank": 3,
+        "categoryRank": 3,
+        "score": 114
+      }
+    },
+    {
+      "id": "nvm-sh-nvm",
+      "owner": "nvm-sh",
+      "name": "nvm",
+      "url": "https://github.com/nvm-sh/nvm",
+      "avatarUrl": "https://github.com/nvm-sh.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 4,
+        "starsGained": 70
+      },
+      "metadata": {
+        "description": "Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions.",
+        "language": "Shell",
+        "topics": [],
+        "stars": 95424,
+        "forks": 10513,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Shell"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/nvm-sh/nvm/master/README.md"
+      },
+      "readmeSignals": {
+        "title": "Node Version Manager [![Tests](https://github.com/nvm-sh/nvm/actions/workflows/tests-fast.yml/badge.svg?branch=master)][3] [![nvm version](https://img.shields.io/badge/version-v0.40.8-yellow.svg)][4] [![CII Best Practices](https://bestpractices.dev/projects/684/badge)](https://bestpractices.dev/projects/684)",
+        "summary": "Node Version Manager 3 4 https://bestpractices.dev/projects/684 intro about installing-and-updating install--update-script additional-notes installing-in-docker installing-in-docker-for-cicd-jobs troubleshooting-on-linux troubleshooting-on-macos ansible verify-installation important-notes git-install manual-install manual-upgrade usage long-term-support migrating-global-packages-while-installing migrating-global-packages-between-installed-versions offline-install default-global-packages-from-file-while-installing iojs system-version-of-node listing-versions setting-custom-colors persisting-custom-colors suppressing-colorized-output restoring-path set-default-node-version use-a-mirror-of-node",
+        "headings": [
+          "Node Version Manager [![Tests](https://github.com/nvm-sh/nvm/actions/workflows/tests-fast.yml/badge.svg?branch=master)][3] [![nvm version](https://img.shields.io/badge/version-v0.40.8-yellow.svg)][4] [![CII Best Practices](https://bestpractices.dev/projects/684/badge)](https://bestpractices.dev/projects/684)",
+          "Table of Contents",
+          "Intro",
+          "About",
+          "Installing and Updating",
+          "Install & Update Script",
+          "Use bash for the shell",
+          "Create a script file sourced by both interactive and non-interactive bash shells"
+        ],
+        "commands": [
+          "npm install -g grunt",
+          "npm install -g grunt",
+          "npm install\n\nThere are slow tests and fast tests. The slow tests do things like install node"
+        ],
+        "keywords": [
+          "node version manager [![tests](https://github.com/nvm-sh/nvm/actions/workflows/tests-fast.yml/badge.svg?branch=master)][3] [![nvm version](https://img.shields.io/badge/version-v0.40.8-yellow.svg)][4] [![cii best practices](https://bestpractices.dev/projects/684/badge)](https://bestpractices.dev/projects/684)",
+          "table of contents",
+          "intro",
+          "about"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "repository_open_graph",
+        "url": "https://opengraph.githubassets.com/daily-tech-radar/nvm-sh/nvm",
+        "thumbUrl": "https://opengraph.githubassets.com/daily-tech-radar/nvm-sh/nvm",
+        "alt": "nvm-sh/nvm",
+        "sourceUrl": "https://github.com/nvm-sh/nvm",
+        "promptHash": "sha256:70a7c7b4f24b"
+      },
+      "classification": {
+        "primaryCategoryId": "unclassified",
+        "secondaryCategoryIds": [],
+        "confidence": 0.4,
+        "method": "rules",
+        "reasons": [
+          "No taxonomy rule matched with enough confidence"
+        ],
+        "signals": []
+      },
+      "rank": {
+        "globalRank": 4,
+        "categoryRank": 4,
+        "score": 99
+      }
+    },
+    {
+      "id": "k-dense-ai-scientific-agent-skills",
+      "owner": "K-Dense-AI",
+      "name": "scientific-agent-skills",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+      "avatarUrl": "https://github.com/K-Dense-AI.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 5,
+        "starsGained": 146
+      },
+      "metadata": {
+        "description": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. 177 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
+        "language": "Python",
+        "topics": [],
+        "stars": 49200,
+        "forks": 4409,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Python"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "Scientific Agent Skills",
+        "summary": "🔔 Claude Scientific Skills is now Scientific Agent Skills. Same skills, broader compatibility — now works with any AI agent that supports the open https://agentskills.io/ standard, not just Claude. New: https://github.com/K-Dense-AI/k-dense-byok — A free, open-source AI co-scientist that runs on your desktop, powered by Scientific Agent Skills. Bring your own API keys, pick from 40+ models, and get a full research workspace with web search, file handling, 100+ scientific databases, and access to all 177 skills in this repo. Your data stays on your computer, and you can optionally scale to cloud compute via https://modal.com/ for heavy workloads. https://github.com/K-Dense-AI/k-dense-byok",
+        "headings": [
+          "Scientific Agent Skills",
+          "🎥 More tutorials",
+          "📦 What's Included",
+          "What's new in 2.72.0",
+          "What's new in 2.71.0",
+          "Recently added workflows",
+          "📋 Table of Contents",
+          "🚀 Why Use This?"
+        ],
+        "commands": [
+          "pip install cisco-ai-skill-scanner",
+          "pip install uv",
+          "pip install cisco-ai-skill-scanner",
+          "pip install package-name"
+        ],
+        "keywords": [
+          "ai",
+          "agent",
+          "scientific agent skills",
+          "🎥 more tutorials",
+          "📦 what's included",
+          "what's new in 2.72.0"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "repository_open_graph",
+        "url": "https://opengraph.githubassets.com/daily-tech-radar/K-Dense-AI/scientific-agent-skills",
+        "thumbUrl": "https://opengraph.githubassets.com/daily-tech-radar/K-Dense-AI/scientific-agent-skills",
+        "alt": "K-Dense-AI/scientific-agent-skills",
+        "sourceUrl": "https://github.com/K-Dense-AI/scientific-agent-skills",
+        "promptHash": "sha256:867ab5d54260"
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.8,
+        "method": "rules",
+        "reasons": [
+          "Matched ai",
+          "Matched agent"
+        ],
+        "signals": [
+          "ai",
+          "agent"
+        ]
+      },
+      "rank": {
+        "globalRank": 5,
+        "categoryRank": 5,
+        "score": 104.6
+      }
+    },
+    {
+      "id": "hkuds-cli-anything",
+      "owner": "HKUDS",
+      "name": "CLI-Anything",
+      "url": "https://github.com/HKUDS/CLI-Anything",
+      "avatarUrl": "https://github.com/HKUDS.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 6,
+        "starsGained": 94
+      },
+      "metadata": {
+        "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+        "language": "Python",
+        "topics": [],
+        "stars": 52387,
+        "forks": 4768,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Python"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/HKUDS/CLI-Anything/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "Browse what is available",
+        "summary": "&nbsp; CLI-Anything: Making ALL Software Agent-Native Today's Software Serves Humans👨‍💻. Tomorrow's Users will be Agents🤖. CLI-Anything: Bridging the Gap Between AI Agents and the World's Software 🌐 https://hkuds.github.io/CLI-Anything/: pip install cli-anything-hub then cli-hub install — browse, install, and manage all community-built CLIs. Want to add your own? https://github.com/HKUDS/CLI-Anything/blob/main/CONTRIBUTING.md — the hub updates instantly. 🎬 -real-world-demos: Watch AI agents use generated CLIs plus preview, live preview, and trajectory loops to produce real artifacts — CAD builds, 3D scenes, diagrams, gameplay, subtitles, and more.",
+        "headings": [
+          "📰 News",
+          "🤔 Why CLI?",
+          "🚀 Quick Start",
+          "Browse what is available",
+          "Install and try a CLI immediately",
+          "Pick Your Agent Platform",
+          "Add the CLI-Anything marketplace",
+          "Install the cli-anything plugin from the marketplace"
+        ],
+        "commands": [
+          "pip install cli-anything-hub",
+          "pip install cli-anything-hub",
+          "pip install cli-anything-hub",
+          "pip install cli-anything-hub",
+          "pip install -e .",
+          "pip install -e . puts cli-anything-<software> directly on PATH. Agents discover tools via standard which commands. No setup, no wrappers."
+        ],
+        "keywords": [
+          "agent",
+          "📰 news",
+          "🤔 why cli?",
+          "🚀 quick start",
+          "browse what is available"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/HKUDS/CLI-Anything/main/assets/icon.png",
+        "thumbUrl": "https://raw.githubusercontent.com/HKUDS/CLI-Anything/main/assets/icon.png",
+        "alt": "HKUDS/CLI-Anything",
+        "sourceUrl": "https://raw.githubusercontent.com/HKUDS/CLI-Anything/main/assets/icon.png",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.7,
+        "method": "rules",
+        "reasons": [
+          "Matched agent"
+        ],
+        "signals": [
+          "agent"
+        ]
+      },
+      "rank": {
+        "globalRank": 6,
+        "categoryRank": 6,
+        "score": 97.4
+      }
+    },
+    {
+      "id": "ifixai-ai-ifixai",
+      "owner": "ifixai-ai",
+      "name": "iFixAi",
+      "url": "https://github.com/ifixai-ai/iFixAi",
+      "avatarUrl": "https://github.com/ifixai-ai.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 7,
+        "starsGained": 2143
+      },
+      "metadata": {
+        "description": "Independent Auditing of AI Agents. Run by human or the agent itself, to answer the most crucial question in the AI Agent Economy. Is the agent doing what is supposed to do? With iFixAi you can have this answer in less than 120 seconds.",
+        "language": "Python",
+        "topics": [],
+        "stars": 27203,
+        "forks": 1496,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Python"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/ifixai-ai/iFixAi/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "1. Install the CLI + the extra for the provider you'll test",
+        "summary": "Catch your agent's mistakes and blind spots before the shit hits the fan. Quick start • Three ways to run • Test your agent • Scoring • Audit recorded actions • Docs • Contributing The existing Eval, Red-teaming, and Observability Tools are evaluating the agent mainly based on tech capability token efficiency, latency, prompt injections. They cannot answer the most crucial question. Is the agent doing the job it is supposed to do based on the business KPIs and Organizational Structure? iFixAi gives you this answer in less than 120 seconds by striking the right balance between AI-Red Teaming and Operational Assurance.",
+        "headings": [
+          "What it is",
+          "Three ways to run",
+          "Quick start",
+          "Guided wizard (recommended)",
+          "Plugin (Claude Code and Codex)",
+          "Skill (every agent)",
+          "Explicit flags",
+          "1. Install the CLI + the extra for the provider you'll test"
+        ],
+        "commands": [
+          "pip install \"ifixai[<provider>]\"",
+          "pip install \"ifixai[<provider>]\"",
+          "pip install \"ifixai[openai]\"   # or anthropic, gemini, etc.: install the provider extra you'll test",
+          "pip install \"ifixai[anthropic]\"",
+          "pip install \"ifixai[anthropic,openai]\"     # SUT's + judge's SDKs (or ifixai[all])"
+        ],
+        "keywords": [
+          "ai",
+          "agent",
+          "what it is",
+          "three ways to run",
+          "quick start",
+          "guided wizard (recommended)"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/ifixai-ai/iFixAi/main/docs/assets/brand/ifixai-masthead-light.svg",
+        "thumbUrl": "https://raw.githubusercontent.com/ifixai-ai/iFixAi/main/docs/assets/brand/ifixai-masthead-light.svg",
+        "alt": "iFixAi: Independent auditing for AI agents",
+        "sourceUrl": "https://raw.githubusercontent.com/ifixai-ai/iFixAi/main/docs/assets/brand/ifixai-masthead-light.svg",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.8,
+        "method": "rules",
+        "reasons": [
+          "Matched ai",
+          "Matched agent"
+        ],
+        "signals": [
+          "ai",
+          "agent"
+        ]
+      },
+      "rank": {
+        "globalRank": 7,
+        "categoryRank": 7,
+        "score": 106
+      }
+    },
+    {
+      "id": "vxcontrol-pentagi",
+      "owner": "vxcontrol",
+      "name": "pentagi",
+      "url": "https://github.com/vxcontrol/pentagi",
+      "avatarUrl": "https://github.com/vxcontrol.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 8,
+        "starsGained": 1070
+      },
+      "metadata": {
+        "description": "Fully autonomous AI Agents system capable of performing complex penetration testing tasks",
+        "language": "Go",
+        "topics": [],
+        "stars": 29222,
+        "forks": 4393,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Go"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/vxcontrol/pentagi/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "PentAGI",
+        "summary": "P enetration testing A rtificial G eneral I ntelligence Join the Community! Connect with security researchers, AI enthusiasts, and fellow ethical hackers. Get support, share insights, and stay updated with the latest PentAGI developments. overview features architecture advanced-agent-supervision quick-start giving-agents-docker-without-giving-away-the-host running-several-instances-tenantid how-to-use-pentagi-after-login api-access custom-llm-provider-configuration using-azure-openai ollama-provider-configuration openai-provider-configuration anthropic-provider-configuration google-ai-gemini-provider-configuration aws-bedrock-provider-configuration deepseek-provider-configuration glm-provide",
+        "headings": [
+          "PentAGI",
+          "Table of Contents",
+          "Overview",
+          "Features",
+          "Current Capability Boundaries",
+          "Architecture",
+          "System Context",
+          "Global Summarizer Configuration Options"
+        ],
+        "commands": [
+          "pnpm add -g fern-api",
+          "pnpm add -g graphql-codegen"
+        ],
+        "keywords": [
+          "ai",
+          "agent",
+          "pentagi",
+          "table of contents",
+          "overview",
+          "features"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://github.com/user-attachments/assets/0828dc3e-15f1-4a1d-858e-9696a146e478",
+        "thumbUrl": "https://github.com/user-attachments/assets/0828dc3e-15f1-4a1d-858e-9696a146e478",
+        "alt": "PentAGI Overview Video",
+        "sourceUrl": "https://github.com/user-attachments/assets/0828dc3e-15f1-4a1d-858e-9696a146e478",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.8,
+        "method": "rules",
+        "reasons": [
+          "Matched ai",
+          "Matched agent"
+        ],
+        "signals": [
+          "ai",
+          "agent"
+        ]
+      },
+      "rank": {
+        "globalRank": 8,
+        "categoryRank": 8,
+        "score": 104
+      }
+    },
+    {
+      "id": "rust-lang-rust",
+      "owner": "rust-lang",
+      "name": "rust",
+      "url": "https://github.com/rust-lang/rust",
+      "avatarUrl": "https://github.com/rust-lang.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 9,
+        "starsGained": 205
+      },
+      "metadata": {
+        "description": "Empowering everyone to build reliable and efficient software.",
+        "language": "Rust",
+        "topics": [],
+        "stars": 119928,
+        "forks": 18698,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Rust"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/rust-lang/rust/main/README.md"
+      },
+      "readmeSignals": {
+        "title": null,
+        "summary": "WebsiteRust | Getting started | Learn | Documentation | Contributing This is the main source code repository for Rust. It contains the compiler, standard library, and documentation. Performance: Fast and memory-efficient, suitable for critical services, embedded devices, and easily integrated with other languages. Reliability: Our rich type system and ownership model ensure memory and thread safety, reducing bugs at compile-time. Productivity: Comprehensive documentation, a compiler committed to providing great diagnostics, and advanced tooling including package manager and build tool Cargo, auto-formatter rustfmt, linter Clippy and editor support rust-analyzer.",
+        "headings": [
+          "Why Rust?",
+          "Quick Start",
+          "Installing from Source",
+          "Getting Help",
+          "Contributing",
+          "License",
+          "Trademark"
+        ],
+        "commands": [],
+        "keywords": [
+          "ui",
+          "why rust?",
+          "quick start",
+          "installing from source",
+          "getting help"
+        ],
+        "score": 95
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/rust-lang/www.rust-lang.org/master/static/images/rust-social-wide-light.svg",
+        "thumbUrl": "https://raw.githubusercontent.com/rust-lang/www.rust-lang.org/master/static/images/rust-social-wide-light.svg",
+        "alt": "The Rust Programming Language: A language empowering everyone to build reliable and efficient software",
+        "sourceUrl": "https://raw.githubusercontent.com/rust-lang/www.rust-lang.org/master/static/images/rust-social-wide-light.svg",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "frontend",
+        "secondaryCategoryIds": [],
+        "confidence": 0.7,
+        "method": "rules",
+        "reasons": [
+          "Matched ui"
+        ],
+        "signals": [
+          "ui"
+        ]
+      },
+      "rank": {
+        "globalRank": 9,
+        "categoryRank": 9,
+        "score": 102
+      }
+    },
+    {
+      "id": "xtool-org-xtool",
+      "owner": "xtool-org",
+      "name": "xtool",
+      "url": "https://github.com/xtool-org/xtool",
+      "avatarUrl": "https://github.com/xtool-org.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 10,
+        "starsGained": 1510
+      },
+      "metadata": {
+        "description": "Cross-platform Xcode replacement. Build and deploy iOS apps with SwiftPM on Linux, Windows, macOS.",
+        "language": "Swift",
+        "topics": [],
+        "stars": 10577,
+        "forks": 466,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Swift"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/xtool-org/xtool/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "xtool",
+        "summary": "Cross-platform Xcode replacement. Build and deploy iOS apps with SwiftPM on Linux, Windows, and macOS. xtool is a cross-platform Linux/WSL/macOS tool that replicates Xcode functionality with open standards. ✅ Build a SwiftPM package into an iOS app ✅ Interact with Apple Developer Services programmatically 1. Follow the guide to install xtool https://xtool.sh/documentation/xtooldocs/installation-linux https://xtool.sh/documentation/xtooldocs/installation-macos 2. Create and run your first xtool-powered app by following the https://xtool.sh/tutorials/xtooldocs/first-app!",
+        "headings": [
+          "xtool",
+          "Overview",
+          "Getting Started",
+          "Examples",
+          "Screenshot",
+          "Command line interface",
+          "Library"
+        ],
+        "commands": [],
+        "keywords": [
+          "ui",
+          "xtool",
+          "overview",
+          "getting started",
+          "examples"
+        ],
+        "score": 95
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/xtool-org/xtool/main/Documentation/xtool.docc/Resources/Cover.png",
+        "thumbUrl": "https://raw.githubusercontent.com/xtool-org/xtool/main/Documentation/xtool.docc/Resources/Cover.png",
+        "alt": "A screenshot of xtool being invoked from VSCode",
+        "sourceUrl": "https://raw.githubusercontent.com/xtool-org/xtool/main/Documentation/xtool.docc/Resources/Cover.png",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "frontend",
+        "secondaryCategoryIds": [],
+        "confidence": 0.7,
+        "method": "rules",
+        "reasons": [
+          "Matched ui"
+        ],
+        "signals": [
+          "ui"
+        ]
+      },
+      "rank": {
+        "globalRank": 10,
+        "categoryRank": 10,
+        "score": 100
+      }
+    },
+    {
+      "id": "ntdevlabs-tiny11builder",
+      "owner": "ntdevlabs",
+      "name": "tiny11builder",
+      "url": "https://github.com/ntdevlabs/tiny11builder",
+      "avatarUrl": "https://github.com/ntdevlabs.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 11,
+        "starsGained": 194
+      },
+      "metadata": {
+        "description": "WinUI app for building smaller, customized Windows 11 images.",
+        "language": "C#",
+        "topics": [],
+        "stars": 20162,
+        "forks": 1552,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "C#"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/ntdevlabs/tiny11builder/master/README.md"
+      },
+      "readmeSignals": {
+        "title": "Tiny11 Builder",
+        "summary": "Choose x64 for Intel/AMD PCs or ARM64 for Windows on ARM. Extract the entire ZIP and open Tiny11Builder.exe. Administrator approval is required. | Mode | What it does | | Tiny11 | Removes bundled apps and unwanted features while keeping updates, Defender and recovery. | | Tiny11 Core | Trims further by removing servicing and recovery support and disabling Defender. | | Custom | Choose individual apps, components, features and services to remove or keep. | Turbo mode speeds up image processing. Interrupted builds can resume from saved progress after the image is committed or compressed. Core and component-store removals automatically use the legacy Windows installer.",
+        "headings": [
+          "Tiny11 Builder",
+          "Download",
+          "Choose your build",
+          "Video",
+          "Screenshots",
+          "Welcome",
+          "Components",
+          "Build settings"
+        ],
+        "commands": [],
+        "keywords": [
+          "ui",
+          "tiny11 builder",
+          "download",
+          "choose your build",
+          "video"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/ntdevlabs/tiny11builder/master/docs/images/ui-welcome.png",
+        "thumbUrl": "https://raw.githubusercontent.com/ntdevlabs/tiny11builder/master/docs/images/ui-welcome.png",
+        "alt": "Tiny11 Builder welcome screen with Tiny11, Tiny11 Core and Custom modes",
+        "sourceUrl": "https://raw.githubusercontent.com/ntdevlabs/tiny11builder/master/docs/images/ui-welcome.png",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "frontend",
+        "secondaryCategoryIds": [],
+        "confidence": 0.7,
+        "method": "rules",
+        "reasons": [
+          "Matched ui"
+        ],
+        "signals": [
+          "ui"
+        ]
+      },
+      "rank": {
+        "globalRank": 11,
+        "categoryRank": 11,
+        "score": 97.4
+      }
+    },
+    {
+      "id": "nationalsecurityagency-ghidra",
+      "owner": "NationalSecurityAgency",
+      "name": "ghidra",
+      "url": "https://github.com/NationalSecurityAgency/ghidra",
+      "avatarUrl": "https://github.com/NationalSecurityAgency.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 12,
+        "starsGained": 1002
+      },
+      "metadata": {
+        "description": "Ghidra is a software reverse engineering (SRE) framework",
+        "language": "Java",
+        "topics": [],
+        "stars": 87283,
+        "forks": 9750,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Java"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/NationalSecurityAgency/ghidra/master/README.md"
+      },
+      "readmeSignals": {
+        "title": "Ghidra Software Reverse Engineering Framework",
+        "summary": "Ghidra Software Reverse Engineering Framework Ghidra is a software reverse engineering SRE framework created and maintained by the National Security Agencynsa Research Directorate. This framework includes a suite of full-featured, high-end software analysis tools that enable users to analyze compiled code on a variety of platforms including Windows, macOS, and Linux. Capabilities include disassembly, assembly, decompilation, graphing, and scripting, along with hundreds of other features. Ghidra supports a wide variety of processor instruction sets and executable formats and can be run in both user-interactive and automated modes. Users may also develop their own Ghidra extension components a",
+        "headings": [
+          "Ghidra Software Reverse Engineering Framework",
+          "Security Warning",
+          "Install",
+          "Build",
+          "Develop",
+          "User Scripts and Extensions",
+          "Advanced Development",
+          "Contribute"
+        ],
+        "commands": [],
+        "keywords": [
+          "ghidra software reverse engineering framework",
+          "security warning",
+          "install",
+          "build"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/NationalSecurityAgency/ghidra/master/Ghidra/Features/Base/src/main/resources/images/GHIDRA_3.png",
+        "thumbUrl": "https://raw.githubusercontent.com/NationalSecurityAgency/ghidra/master/Ghidra/Features/Base/src/main/resources/images/GHIDRA_3.png",
+        "alt": "NationalSecurityAgency/ghidra",
+        "sourceUrl": "https://raw.githubusercontent.com/NationalSecurityAgency/ghidra/master/Ghidra/Features/Base/src/main/resources/images/GHIDRA_3.png",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "unclassified",
+        "secondaryCategoryIds": [],
+        "confidence": 0.4,
+        "method": "rules",
+        "reasons": [
+          "No taxonomy rule matched with enough confidence"
+        ],
+        "signals": []
+      },
+      "rank": {
+        "globalRank": 12,
+        "categoryRank": 12,
+        "score": 96
+      }
+    }
+  ],
+  "views": [
+    {
+      "id": "ai",
+      "type": "category",
+      "label": "AI",
+      "categoryId": "ai",
+      "repoIds": [
+        "morluto-rea",
+        "mksglu-context-mode",
+        "ifixai-ai-ifixai",
+        "k-dense-ai-scientific-agent-skills",
+        "vxcontrol-pentagi",
+        "hkuds-cli-anything"
+      ],
+      "sort": "score"
+    },
+    {
+      "id": "frontend",
+      "type": "category",
+      "label": "Frontend",
+      "categoryId": "frontend",
+      "repoIds": [
+        "rust-lang-rust",
+        "xtool-org-xtool",
+        "ntdevlabs-tiny11builder"
+      ],
+      "sort": "score"
+    },
+    {
+      "id": "unclassified",
+      "type": "review",
+      "label": "Needs Review",
+      "categoryId": "unclassified",
+      "repoIds": [
+        "debpalash-voicestudio",
+        "nvm-sh-nvm",
+        "nationalsecurityagency-ghidra"
+      ],
+      "sort": "score"
+    }
+  ],
+  "health": {
+    "status": "ok",
+    "candidateCount": 12,
+    "enrichedRepoCount": 12,
+    "unclassifiedRepoCount": 3,
+    "warnings": [
+      "10 repos used README images, 0 used Agnes images, 2 fell back to repository Open Graph covers"
+    ]
+  }
+}
