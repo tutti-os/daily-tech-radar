@@ -2,1352 +2,1373 @@
   "schemaVersion": "daily-tech-radar.v1",
   "source": "producthunt",
   "locale": "en-US",
-  "date": "2026-10-14",
+  "date": "2026-10-15",
   "sourceTimezone": "Asia/Shanghai",
-  "generatedAt": "2026-10-14T20:23:25.786Z",
+  "generatedAt": "2026-10-15T20:22:39.342Z",
   "items": [
     {
       "rank": 1,
-      "id": "1221402",
-      "name": "Pancake",
-      "tagline": "The Vercel for GTM",
-      "description": "Pancake is the Vercel for GTM. It gives you the building blocks to deploy any go-to-market idea from your favorite AI agent, such as Claude or Codex: a GTM Brain, sending infrastructure, and 40+ data providers and enrichment, all accessible through one MCP connection.",
+      "id": "1267030",
+      "name": "Talanoa",
+      "tagline": "Email that feels like chat",
+      "description": "Talanoa is your first email messenger. It turns messy email threads into clean, chat-like conversations, removing quotes, signatures and clutter along the way. Turn emails into actionable todos, manage your calendar without leaving your inbox, and use private, on-device AI to search, summarize and write. Connect Gmail, Outlook, iCloud or any IMAP account in one unified inbox. Everything stays on your computer: no cloud sync, no tracking, no one reading your emails.",
       "keywords": [
-        "The",
-        "Vercel",
-        "for",
-        "GTM"
+        "Email",
+        "that",
+        "feels",
+        "like"
       ],
       "metrics": {
-        "votes": 465,
-        "comments": 72
+        "votes": 249,
+        "comments": 21
       },
       "links": {
-        "homepage": "https://www.producthunt.com/r/TK5WOCVR7ZG7IU?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
-        "source": "https://www.producthunt.com/products/pancake-6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+        "homepage": "https://www.producthunt.com/r/LOUVBI5K3ZIRPE?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/talanoa-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
       },
       "assets": {
-        "icon": "https://ph-files.imgix.net/97c3d3e6-3484-4fe5-9a56-bf795d31eaa5.png?auto=format",
-        "thumbnail": "https://ph-files.imgix.net/97c3d3e6-3484-4fe5-9a56-bf795d31eaa5.png?auto=format",
+        "icon": "https://ph-files.imgix.net/93560827-b239-46fc-964b-b3e4414dc2bb.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/93560827-b239-46fc-964b-b3e4414dc2bb.png?auto=format",
         "media": [
           {
-            "type": "image",
-            "url": "https://ph-files.imgix.net/d77de011-9237-4f78-bedc-3e03372e2824.png?auto=format",
-            "videoUrl": null
-          },
-          {
             "type": "video",
-            "url": "https://ph-files.imgix.net/a5755eb0-cf23-49a3-b169-a07e973e6299.jpeg?auto=format",
+            "url": "https://ph-files.imgix.net/d306f955-72db-4d6a-b699-146ee83a87b6.jpeg?auto=format",
             "videoUrl": null
           },
           {
             "type": "image",
-            "url": "https://ph-files.imgix.net/3cee6bc0-910a-4c75-ae48-ef61df501bab.png?auto=format",
+            "url": "https://ph-files.imgix.net/5094a753-f1bc-402a-977d-fe704ff82632.png?auto=format",
             "videoUrl": null
           },
           {
             "type": "image",
-            "url": "https://ph-files.imgix.net/7e29247c-f60c-4012-86ab-f400a0607bb6.png?auto=format",
+            "url": "https://ph-files.imgix.net/a6f5b563-c70d-4872-88b0-5099e0d36a85.png?auto=format",
             "videoUrl": null
           },
           {
             "type": "image",
-            "url": "https://ph-files.imgix.net/76be9e14-edb9-436a-abad-23bcc5a86157.png?auto=format",
-            "videoUrl": null
-          },
-          {
-            "type": "image",
-            "url": "https://ph-files.imgix.net/0025e164-b60f-4873-b9d7-5000a4743975.png?auto=format",
+            "url": "https://ph-files.imgix.net/48590961-6466-4ca7-a2f1-fa5db59aeae6.png?auto=format",
             "videoUrl": null
           }
         ]
       },
       "raw": {
-        "slug": "pancake-7",
-        "featuredAt": "2026-10-14T07:01:00Z",
-        "createdAt": "2026-10-14T07:01:00Z"
+        "slug": "talanoa-2",
+        "featuredAt": "2026-10-15T07:01:00Z",
+        "createdAt": "2026-10-15T07:01:00Z"
       }
     },
     {
       "rank": 2,
-      "id": "1265035",
-      "name": "Inferock",
-      "tagline": "Serverless inference, with credits back for failed calls.",
-      "description": "Get free signup credits to use all available models on Inferock. Bring your own keys: run your OpenAI, Claude or Gemini accounts, see where calls fail and what they cost, and get credits back on eligible failed calls. Serverless: pay-per-token LLM inference. Get signup credits to start using.",
+      "id": "1279864",
+      "name": "Navige",
+      "tagline": "Cut AI agent costs and control runaway spending",
+      "description": "Navige uses Sufficiency Intelligence to cut AI agent costs while work runs. It sends suitable requests to smaller models, caches repeated reads and trims bulky tool results. If unsure, it keeps your chosen model. Set budgets, catch runaway loops and approve sensitive actions. See costs and savings by job, with estimates clearly labelled. Watchtower is free forever. Preview changes before switching controls on.",
       "keywords": [
-        "Serverless",
-        "inference,",
-        "with",
-        "credits"
+        "Cut",
+        "AI",
+        "agent",
+        "costs"
       ],
       "metrics": {
-        "votes": 334,
-        "comments": 32
+        "votes": 199,
+        "comments": 52
       },
       "links": {
-        "homepage": "https://www.producthunt.com/r/Q5YAUE7WHFYYB4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
-        "source": "https://www.producthunt.com/products/inferock?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+        "homepage": "https://www.producthunt.com/r/DWQS7TVW6U7GNA?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/navige?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
       },
       "assets": {
-        "icon": "https://ph-files.imgix.net/7a48325f-d5b7-4547-9aaf-aae3b709d967.png?auto=format",
-        "thumbnail": "https://ph-files.imgix.net/7a48325f-d5b7-4547-9aaf-aae3b709d967.png?auto=format",
+        "icon": "https://ph-files.imgix.net/535c70e8-d55c-4a69-8d90-9766143f306f.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/535c70e8-d55c-4a69-8d90-9766143f306f.png?auto=format",
         "media": [
           {
             "type": "video",
-            "url": "https://ph-files.imgix.net/298c83cd-d799-4604-af15-6358acae3332.jpeg?auto=format",
+            "url": "https://ph-files.imgix.net/d1e4da6f-4a37-4251-9300-ebe915e853f5.jpeg?auto=format",
             "videoUrl": null
           },
           {
             "type": "image",
-            "url": "https://ph-files.imgix.net/274f2b0d-879c-4503-970a-1b8da617f155.png?auto=format",
+            "url": "https://ph-files.imgix.net/bf03af86-5dd5-4acf-b6ca-c405710d06f2.jpeg?auto=format",
             "videoUrl": null
           },
           {
             "type": "image",
-            "url": "https://ph-files.imgix.net/c2222868-e39b-4396-8211-8ef79ee222f3.png?auto=format",
+            "url": "https://ph-files.imgix.net/26fc1897-12b6-4e4f-b421-e234823e3061.jpeg?auto=format",
             "videoUrl": null
           },
           {
             "type": "image",
-            "url": "https://ph-files.imgix.net/b3b56ca0-964a-4d73-8ad9-a05c3de90840.png?auto=format",
+            "url": "https://ph-files.imgix.net/425876b5-6c6a-4aa2-a4f3-12f37430cc4d.jpeg?auto=format",
             "videoUrl": null
           },
           {
             "type": "image",
-            "url": "https://ph-files.imgix.net/7419a249-ec94-44d6-a737-430a46bc7f27.png?auto=format",
+            "url": "https://ph-files.imgix.net/8a82c9ab-726f-46de-a09a-3ed8c3b7b2f3.jpeg?auto=format",
             "videoUrl": null
           },
           {
             "type": "image",
-            "url": "https://ph-files.imgix.net/11b1d5f6-bd9b-4fd2-94af-da6296a12910.png?auto=format",
-            "videoUrl": null
-          },
-          {
-            "type": "image",
-            "url": "https://ph-files.imgix.net/f9290677-96b9-4f69-8186-f9b80e1a3ffc.png?auto=format",
-            "videoUrl": null
-          },
-          {
-            "type": "image",
-            "url": "https://ph-files.imgix.net/9e485196-134d-4e02-a05f-85a08e1da121.png?auto=format",
+            "url": "https://ph-files.imgix.net/b9c5bf11-1b80-4dc7-9719-75d7614602e7.jpeg?auto=format",
             "videoUrl": null
           }
         ]
       },
       "raw": {
-        "slug": "inferock",
-        "featuredAt": "2026-10-14T07:01:00Z",
-        "createdAt": "2026-10-14T07:01:00Z"
+        "slug": "navige",
+        "featuredAt": "2026-10-15T07:01:00Z",
+        "createdAt": "2026-10-15T07:01:00Z"
       }
     },
     {
       "rank": 3,
-      "id": "1273690",
-      "name": "Retriever AI",
-      "tagline": "Free AI browser agent: find leads, reach out, apply to jobs",
-      "description": "Retriever is a free AI browser agent that finishes work across websites. Ask it to find leads and send outreach, shortlist TikTok and Instagram creators for your next campaign, or apply to jobs. Run tasks in your own Chrome browser or in cloud browsers hosted by rtrvr. It beats OpenAI, Anthropic, and Muse on accuracy, runs 5x faster, and costs 300x less.",
+      "id": "1279126",
+      "name": "Apple HomeView",
+      "tagline": "A new way to stay connected, and manage the home",
+      "description": "Apple HomeView is a smart display with Siri AI, Liquid Retina display, high-fidelity audio, FaceTime, smart home controls, built-in privacy, and more.",
       "keywords": [
-        "Free",
-        "AI",
-        "browser",
-        "agent:"
+        "A",
+        "new",
+        "way",
+        "to"
       ],
       "metrics": {
-        "votes": 194,
-        "comments": 26
+        "votes": 160,
+        "comments": 3
       },
       "links": {
-        "homepage": "https://www.producthunt.com/r/WYCLMV7ALKHIUI?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
-        "source": "https://www.producthunt.com/products/rtrvr-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+        "homepage": "https://www.producthunt.com/r/PBZJGBXXYRUB7L?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/apple?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
       },
       "assets": {
-        "icon": "https://ph-files.imgix.net/9c8e2898-8610-4813-bbe9-d5a5f51f72e9.png?auto=format",
-        "thumbnail": "https://ph-files.imgix.net/9c8e2898-8610-4813-bbe9-d5a5f51f72e9.png?auto=format",
+        "icon": "https://ph-files.imgix.net/ce9c1435-64d9-4963-b5ea-e8c369ac2239.jpeg?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/ce9c1435-64d9-4963-b5ea-e8c369ac2239.jpeg?auto=format",
         "media": [
           {
             "type": "image",
-            "url": "https://ph-files.imgix.net/63240eff-1bee-463a-aa93-e005a496c9a5.png?auto=format",
+            "url": "https://ph-files.imgix.net/570a908f-7cce-494d-968d-49cf7d20eb43.png?auto=format",
             "videoUrl": null
           },
           {
             "type": "image",
-            "url": "https://ph-files.imgix.net/771553c0-0b7a-4896-a43f-076c970bf101.png?auto=format",
+            "url": "https://ph-files.imgix.net/7b4520e9-1644-4001-b1ec-0b259e305162.jpeg?auto=format",
             "videoUrl": null
           },
           {
             "type": "image",
-            "url": "https://ph-files.imgix.net/0bc3b9df-3a60-467c-bb12-bf7fbd06d582.png?auto=format",
+            "url": "https://ph-files.imgix.net/36704c89-5b05-478c-86a6-3ca18ba36577.jpeg?auto=format",
             "videoUrl": null
           },
           {
             "type": "image",
-            "url": "https://ph-files.imgix.net/02e68d2b-20be-4fdc-ae60-f8939508a991.png?auto=format",
+            "url": "https://ph-files.imgix.net/15611868-5c91-4851-9fbf-198a5498b7b8.jpeg?auto=format",
             "videoUrl": null
           },
           {
             "type": "image",
-            "url": "https://ph-files.imgix.net/90c4e746-e89f-49f1-8636-fa7baa2d902a.png?auto=format",
+            "url": "https://ph-files.imgix.net/be20f600-9217-4e91-962b-0bab6a0c940c.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/f708d713-1260-4b2d-bef7-d8b15c0f3f35.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/a71bebac-3a87-4304-aeb8-967f8bdf179d.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/d457c91e-9044-4266-aad9-ab04bcbe8293.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/6f082b28-2f2d-46ed-839a-733a0a2e1069.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/520f9f4e-54fd-4a22-b3ba-cd6ae5ae4e26.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/2e13cd1e-2e31-4fc9-bbbc-d021f9ddede9.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/6cfc60dd-da7a-49a8-b55c-52be85a38606.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/d7a04fc7-5a7d-4a9a-85e1-2274103721ba.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/24d2fd3a-8ccb-44f9-94b3-79624d5f89b4.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/19c84948-9297-4cdb-a829-5b945f54cd15.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/3295b026-de43-4aa5-a7f6-78c5fbd16b39.jpeg?auto=format",
             "videoUrl": null
           },
           {
             "type": "video",
-            "url": "https://ph-files.imgix.net/75ffc008-1f39-43b3-997b-aa7e14407794.jpeg?auto=format",
+            "url": "https://ph-files.imgix.net/e234d467-5bb7-4dfe-8bc3-c9909c1975cd.jpeg?auto=format",
             "videoUrl": null
           }
         ]
       },
       "raw": {
-        "slug": "retriever-ai",
-        "featuredAt": "2026-10-14T07:01:00Z",
-        "createdAt": "2026-10-14T07:01:00Z"
+        "slug": "apple-homeview",
+        "featuredAt": "2026-10-15T07:01:00Z",
+        "createdAt": "2026-10-15T07:01:00Z"
       }
     },
     {
       "rank": 4,
-      "id": "1278698",
-      "name": "AdAnt 2.0",
-      "tagline": "Muse for Social Media Marketing",
-      "description": "AdAnt AI is your proactive, 24/7 social media marketing team. The Strategist researches your niche on TikTok, Instagram, YouTube and Meta Ads and writes content strategies that work. The Creator turns every strategy into a batch of videos. The Analyst listens on X and Reddit for conversations worth joining. The Manager plans the calendar and posts. Built on the strategies our founding team used to generate 100M+ organic views and cut paid acquisition costs by 60% on average.",
+      "id": "1278021",
+      "name": "GLM-Legal",
+      "tagline": "Z.ai’s legal AI model for contract review and compliance",
+      "description": "LM-Legal is Z.ai’s legal AI model, built on GLM-5.3-Flash and trained for agentic legal work like contract review, evidence analysis, and compliance research. Z.ai added legal mid-training, then reinforcement learning across tens of thousands of legal task environments. It passes 19.17% of tasks on Harvey’s Legal Agent Benchmark per Vals AI, up from 6.67% for the base model. API access is application-only beta",
       "keywords": [
-        "Muse",
-        "for",
-        "Social",
-        "Media"
+        "Z.ai’s",
+        "legal",
+        "AI",
+        "model"
       ],
       "metrics": {
-        "votes": 162,
-        "comments": 35
+        "votes": 157,
+        "comments": 2
       },
       "links": {
-        "homepage": "https://www.producthunt.com/r/P2S3Z4QRV2ANYE?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
-        "source": "https://www.producthunt.com/products/adant-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+        "homepage": "https://www.producthunt.com/r/4WQDIM7IVRBEKC?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/z-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
       },
       "assets": {
-        "icon": "https://ph-files.imgix.net/df5d768c-62aa-4fdc-9357-88916a232548.png?auto=format",
-        "thumbnail": "https://ph-files.imgix.net/df5d768c-62aa-4fdc-9357-88916a232548.png?auto=format",
+        "icon": "https://ph-files.imgix.net/88cbb6bb-611a-48fe-95c2-0c5345ba95ce.svg?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/88cbb6bb-611a-48fe-95c2-0c5345ba95ce.svg?auto=format",
         "media": [
           {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/5fe3e246-2861-4aa8-a515-d94ba836ae84.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/ce2ba7b0-1194-48dd-9260-4a81e0be8bbf.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/a3df7fde-10e9-46d3-93a9-381d0b457896.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/e8f902d4-eab7-4ddf-b455-b650fd00761c.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
             "type": "video",
-            "url": "https://ph-files.imgix.net/558fbfc4-b0a4-4ae6-b393-b3862b073a6a.jpeg?auto=format",
-            "videoUrl": null
-          },
-          {
-            "type": "image",
-            "url": "https://ph-files.imgix.net/a6518089-3b02-41c7-87f9-58300843ef25.png?auto=format",
-            "videoUrl": null
-          },
-          {
-            "type": "image",
-            "url": "https://ph-files.imgix.net/f5a994be-6686-40eb-9c82-76d5a3d1c602.png?auto=format",
-            "videoUrl": null
-          },
-          {
-            "type": "image",
-            "url": "https://ph-files.imgix.net/456e1724-fd17-4398-bbd7-71b533b32ee2.png?auto=format",
-            "videoUrl": null
-          },
-          {
-            "type": "image",
-            "url": "https://ph-files.imgix.net/a70ea0c7-2b94-4b0e-b8d9-bba356a1b09f.png?auto=format",
-            "videoUrl": null
-          },
-          {
-            "type": "image",
-            "url": "https://ph-files.imgix.net/0dbd6c00-19bd-4557-a677-bd042b78bea0.png?auto=format",
-            "videoUrl": null
-          },
-          {
-            "type": "image",
-            "url": "https://ph-files.imgix.net/5b433ffb-8da6-4647-9511-c48f3193f390.png?auto=format",
-            "videoUrl": null
-          },
-          {
-            "type": "image",
-            "url": "https://ph-files.imgix.net/09d4b85b-57bc-46e9-8e15-de9f18dd0f6e.png?auto=format",
+            "url": "https://ph-files.imgix.net/3b4761ea-276b-4378-9ad9-8105ebda3176.jpeg?auto=format",
             "videoUrl": null
           }
         ]
       },
       "raw": {
-        "slug": "adant-2-0-3",
-        "featuredAt": "2026-10-14T07:01:00Z",
-        "createdAt": "2026-10-14T07:01:00Z"
+        "slug": "glm-legal",
+        "featuredAt": "2026-10-15T07:01:00Z",
+        "createdAt": "2026-10-15T07:01:00Z"
       }
     },
     {
       "rank": 5,
-      "id": "1278154",
-      "name": "daily.dev for agents",
-      "tagline": "Where agents discover what's next",
-      "description": "daily.dev is where millions of developers find out what's next. Now your agent can too. Connect Claude, Cursor, Codex or any MCP client to read personalized feeds, search posts, learn from discussions, save bookmarks and tune your feed. In addition, plugin marketplace and apps ecosystem. YOUR AGENTS CAN READ daily.dev NOW!!",
+      "id": "1259376",
+      "name": "OpenMuse",
+      "tagline": "Opensource, self hostable personal assistant for any harness",
+      "description": "OpenMuse is an open-source, self-hostable personal agent with its own browser, terminal, files, and persistent work. Ask for an outcome, watch it work, review actions, and come back to the result. Compatible with any agent harness.",
       "keywords": [
-        "Where",
-        "agents",
-        "discover",
-        "what's"
+        "Opensource,",
+        "self",
+        "hostable",
+        "personal"
       ],
       "metrics": {
-        "votes": 159,
-        "comments": 10
+        "votes": 142,
+        "comments": 4
       },
       "links": {
-        "homepage": "https://www.producthunt.com/r/2DYUSJYPHY2MIA?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
-        "source": "https://www.producthunt.com/products/daily-dev?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+        "homepage": "https://www.producthunt.com/r/AXFB6EEZ5VOPRF?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/copilotkit?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
       },
       "assets": {
-        "icon": "https://ph-files.imgix.net/946909a1-6f76-4b14-8c6b-56046f6e02b5.png?auto=format",
-        "thumbnail": "https://ph-files.imgix.net/946909a1-6f76-4b14-8c6b-56046f6e02b5.png?auto=format",
+        "icon": "https://ph-files.imgix.net/b0b98301-186b-49b8-bf9c-10a3f864b211.x-icon?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/b0b98301-186b-49b8-bf9c-10a3f864b211.x-icon?auto=format",
         "media": [
           {
             "type": "video",
-            "url": "https://ph-files.imgix.net/a1732b7c-cc1b-41dc-90ef-1c044b176475.jpeg?auto=format",
+            "url": "https://ph-files.imgix.net/754c4cfe-219a-43eb-8d82-f8d2ad8981e7.jpeg?auto=format",
             "videoUrl": null
           },
           {
             "type": "image",
-            "url": "https://ph-files.imgix.net/a6f3ab54-d016-40f1-8829-8e3f3bc332b8.png?auto=format",
+            "url": "https://ph-files.imgix.net/34cd79f3-0899-4e4f-852c-e29f1e7bce22.png?auto=format",
             "videoUrl": null
           },
           {
             "type": "image",
-            "url": "https://ph-files.imgix.net/fdc1250b-7ca1-4abe-b778-86f495a06816.png?auto=format",
+            "url": "https://ph-files.imgix.net/02343e93-0135-4734-b69a-e3387213e173.png?auto=format",
             "videoUrl": null
           },
           {
             "type": "image",
-            "url": "https://ph-files.imgix.net/b9cb2e65-8431-416d-9202-b759b105639b.png?auto=format",
+            "url": "https://ph-files.imgix.net/fa95ba71-43b5-4394-a46c-d34e4ff5b9e8.png?auto=format",
             "videoUrl": null
           },
           {
             "type": "image",
-            "url": "https://ph-files.imgix.net/5746cc58-c240-44a0-a08f-bd7284984c98.png?auto=format",
-            "videoUrl": null
-          },
-          {
-            "type": "image",
-            "url": "https://ph-files.imgix.net/3eb3045c-693f-442f-b049-c0a08a36183f.png?auto=format",
-            "videoUrl": null
-          },
-          {
-            "type": "image",
-            "url": "https://ph-files.imgix.net/5091db0f-911a-4421-a87b-91be9b66ff12.png?auto=format",
-            "videoUrl": null
-          },
-          {
-            "type": "image",
-            "url": "https://ph-files.imgix.net/f1694159-b329-4758-8814-d5e8e8447eff.png?auto=format",
+            "url": "https://ph-files.imgix.net/1a193dde-9919-49a1-9621-a161f3ed2a49.png?auto=format",
             "videoUrl": null
           }
         ]
       },
       "raw": {
-        "slug": "daily-dev-for-agents",
-        "featuredAt": "2026-10-14T07:01:00Z",
-        "createdAt": "2026-10-14T07:01:00Z"
+        "slug": "openmuse",
+        "featuredAt": "2026-10-15T07:01:00Z",
+        "createdAt": "2026-10-15T07:01:00Z"
       }
     },
     {
       "rank": 6,
-      "id": "1275120",
-      "name": "Tiden",
-      "tagline": "Intent verification for coding agents",
-      "description": "Tiden verifies your coding agents built what you actually asked for. Most checks run inside the session that wrote the code, so the tests agree with it by construction. Tiden keeps your intent as requirements that branch and merge like code, and checks every change against that record. The verdict comes from tests run in your environment; no model grades the diff. You decide what merges, and production errors trace back to the release. Works beside Claude Code, Cursor, Codex and Copilot.",
+      "id": "1273869",
+      "name": "Daddy Issues",
+      "tagline": "Think ahead. Fight less. A weekly family briefing for dads.",
+      "description": "Daddy Issues uses AI to help dads think ahead before family life turns into last-minute stress. Each week, it connects your kids, calendar, responsibilities and tasks to surface what’s coming up, what you might be missing, and what’s worth handling now. Less reacting, fewer reminders, fewer small fights — and more “I’m already on it.”",
       "keywords": [
-        "Intent",
-        "verification",
-        "for",
-        "coding"
+        "Think",
+        "ahead.",
+        "Fight",
+        "less."
       ],
       "metrics": {
-        "votes": 142,
-        "comments": 26
+        "votes": 107,
+        "comments": 25
       },
       "links": {
-        "homepage": "https://www.producthunt.com/r/KLWVRGQPBSK7MC?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
-        "source": "https://www.producthunt.com/products/tiden?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+        "homepage": "https://www.producthunt.com/r/P5THAHV6JENYHY?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/daddy-issues?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
       },
       "assets": {
-        "icon": "https://ph-files.imgix.net/75eab5b8-2f1b-4cf3-91f5-575e00d04650.png?auto=format",
-        "thumbnail": "https://ph-files.imgix.net/75eab5b8-2f1b-4cf3-91f5-575e00d04650.png?auto=format",
+        "icon": "https://ph-files.imgix.net/8e6a7064-f757-4806-bffa-964b21aaefe9.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/8e6a7064-f757-4806-bffa-964b21aaefe9.png?auto=format",
         "media": [
           {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/f0bbea35-33b7-40f2-8ac4-4964d6d925ba.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/181ab64f-89f4-48c2-9eb7-d67967a60b00.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/c9798f66-ec7a-47fc-84ef-9cd2edada54f.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/30d62cbe-e6df-4a13-b3d5-c7f7e68b903f.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/5e926ea5-ed58-42ee-9e70-2afc59e62f83.png?auto=format",
+            "videoUrl": null
+          },
+          {
             "type": "video",
-            "url": "https://ph-files.imgix.net/102bbb30-4e9e-40ff-8240-37167519ef18.jpeg?auto=format",
-            "videoUrl": null
-          },
-          {
-            "type": "image",
-            "url": "https://ph-files.imgix.net/02ae7261-0004-43a4-a699-223180ea44d8.png?auto=format",
-            "videoUrl": null
-          },
-          {
-            "type": "image",
-            "url": "https://ph-files.imgix.net/eca97bc0-8d1c-4e99-9d72-2247df9fb640.png?auto=format",
-            "videoUrl": null
-          },
-          {
-            "type": "image",
-            "url": "https://ph-files.imgix.net/5e38567d-f353-4e31-a826-7c6638ae62df.png?auto=format",
-            "videoUrl": null
-          },
-          {
-            "type": "image",
-            "url": "https://ph-files.imgix.net/005e9960-52bd-4c9d-b42f-1b90799a6bad.png?auto=format",
+            "url": "https://ph-files.imgix.net/8b47d1d8-9b07-49dc-ae49-9b3d8a74268d.jpeg?auto=format",
             "videoUrl": null
           }
         ]
       },
       "raw": {
-        "slug": "tiden",
-        "featuredAt": "2026-10-14T07:01:00Z",
-        "createdAt": "2026-10-14T07:01:00Z"
+        "slug": "daddy-issues",
+        "featuredAt": "2026-10-15T07:01:00Z",
+        "createdAt": "2026-10-15T07:01:00Z"
       }
     },
     {
       "rank": 7,
-      "id": "1277882",
-      "name": "Confidence by Spotify ",
-      "tagline": "Build products at full speed, with both hands on the wheel",
-      "description": "Confidence is a product intelligence platform built by Spotify. Spotify's approach to building products has always combined data with judgment and taste, and that scientific rigor is what Confidence brings to customers. Confidence is born from experimentation, but that’s now part of a wider story. Confidence analyzes your user signals, surfaces what's working, suggests the next move, and validates the hypothesis before it ships. You stay in the loop and approve the moves that matter.",
+      "id": "1279416",
+      "name": "Polylane Impact Analysis",
+      "tagline": "Catch risky pull requests before they break production",
+      "description": "Catch issues before they break production. Polylane reviews every pull request against your live infrastructure: its config, capacity, dependencies and telemetry. For every pull request, you get a an analysis including all the evidence telling you if the pull request is safe to merge against production. Polylane also proposes missing instrumentation on your branch and keeps watching after deployment.",
       "keywords": [
-        "Build",
-        "products",
-        "at",
-        "full"
+        "Catch",
+        "risky",
+        "pull",
+        "requests"
       ],
       "metrics": {
-        "votes": 109,
-        "comments": 3
+        "votes": 107,
+        "comments": 4
       },
       "links": {
-        "homepage": "https://www.producthunt.com/r/MGDVIGENYLUYIW?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
-        "source": "https://www.producthunt.com/products/spotify?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+        "homepage": "https://www.producthunt.com/r/6IFIVCOEBSFQYE?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/polylane?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
       },
       "assets": {
-        "icon": "https://ph-files.imgix.net/0119dba6-9fcd-48bf-8092-d651f7d76a67.x-icon?auto=format",
-        "thumbnail": "https://ph-files.imgix.net/0119dba6-9fcd-48bf-8092-d651f7d76a67.x-icon?auto=format",
+        "icon": "https://ph-files.imgix.net/685f0a29-9583-4950-b09c-c923156d66c2.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/685f0a29-9583-4950-b09c-c923156d66c2.png?auto=format",
         "media": [
           {
-            "type": "image",
-            "url": "https://ph-files.imgix.net/e9bfa8fb-5020-4288-9217-209c5f5a908e.png?auto=format",
-            "videoUrl": null
-          },
-          {
-            "type": "image",
-            "url": "https://ph-files.imgix.net/ee45584c-abd1-4ca8-805d-6516e21ac5b2.png?auto=format",
-            "videoUrl": null
-          },
-          {
-            "type": "image",
-            "url": "https://ph-files.imgix.net/742d5562-eb42-4e0a-a281-5c8a22525996.webp?auto=format",
-            "videoUrl": null
-          },
-          {
-            "type": "image",
-            "url": "https://ph-files.imgix.net/e8adba8e-a231-4031-9c1c-77707387c4b8.png?auto=format",
-            "videoUrl": null
-          },
-          {
-            "type": "image",
-            "url": "https://ph-files.imgix.net/5362aea0-697c-4a3c-aed4-e79989841dee.png?auto=format",
-            "videoUrl": null
-          },
-          {
-            "type": "image",
-            "url": "https://ph-files.imgix.net/eab2dfe6-e77f-4b0e-b45e-ffc564f5d101.png?auto=format",
-            "videoUrl": null
-          },
-          {
-            "type": "image",
-            "url": "https://ph-files.imgix.net/0aef6319-7352-4e6f-8c0a-9b978d062baf.png?auto=format",
-            "videoUrl": null
-          },
-          {
-            "type": "image",
-            "url": "https://ph-files.imgix.net/c7afcbc0-e3ad-4324-a26c-8b72e71e8947.png?auto=format",
-            "videoUrl": null
-          },
-          {
-            "type": "image",
-            "url": "https://ph-files.imgix.net/843e121c-a9a1-4284-82f1-1ed929fd173e.png?auto=format",
-            "videoUrl": null
-          },
-          {
             "type": "video",
-            "url": "https://ph-files.imgix.net/97d3d853-7924-4e03-b4be-a4a54c7bcae8.jpeg?auto=format",
+            "url": "https://ph-files.imgix.net/fa835900-d371-40d5-b9d5-6e50503e5933.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/40d177c8-31a3-42c9-928b-980679314c98.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/e9ef333d-903a-4dc6-8899-320c5e07e8da.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/ea5e16dc-abac-49ed-bfec-c566b716d491.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/e924bd2a-e44b-4d66-bbe9-6e7d1d5fafb8.png?auto=format",
             "videoUrl": null
           }
         ]
       },
       "raw": {
-        "slug": "confidence-by-spotify",
-        "featuredAt": "2026-10-14T13:36:15Z",
-        "createdAt": "2026-10-14T13:36:15Z"
+        "slug": "polylane-impact-analysis",
+        "featuredAt": "2026-10-15T07:01:00Z",
+        "createdAt": "2026-10-15T07:01:00Z"
       }
     },
     {
       "rank": 8,
-      "id": "1269704",
-      "name": "Reason",
-      "tagline": "A state-of-the-art coding agent for cost efficiency",
-      "description": "Reason is the best coding agent, in the cloud or locally. Give it a task and it writes code, runs tests and opens a pull request. Use Reason from the Mac app, terminal, web or Slack, with your choice of models and connected subscriptions. Start free on your own computer. Our published GPT-6 Astra evaluation scores 65.1 on the Coding Agent Index vs Codex’s 62.5, at 22% lower cost per solved task.",
+      "id": "1280444",
+      "name": "withHuman",
+      "tagline": "A open-source human approval layer for AI Agents",
+      "description": "withHuman is an approval layer for AI agents. It intercepts your agents’ tool calls before they run. Rules approve or deny routine calls automatically, and risky ones go to the right person on your team. It works across Claude Code, Codex and agents built with LangGraph, Pydantic AI and more, through an open protocol (AAP). One set of rules for every agent your company runs. Open source, with a hosted version. Use code PRODUCTHUNT for 3 months of Scale free - valid till Friday!",
       "keywords": [
         "A",
-        "state-of-the-art",
-        "coding",
-        "agent"
+        "open-source",
+        "human",
+        "approval"
       ],
       "metrics": {
-        "votes": 100,
-        "comments": 12
+        "votes": 93,
+        "comments": 10
       },
       "links": {
-        "homepage": "https://www.producthunt.com/r/ACZF6BMTUGELS6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
-        "source": "https://www.producthunt.com/products/dereference-the-100x-ide?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+        "homepage": "https://www.producthunt.com/r/UQLJVVCYBNRAWV?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/withhuman?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
       },
       "assets": {
-        "icon": "https://ph-files.imgix.net/f9c4e7bb-fbd3-4547-80eb-9b912d7983c4.png?auto=format",
-        "thumbnail": "https://ph-files.imgix.net/f9c4e7bb-fbd3-4547-80eb-9b912d7983c4.png?auto=format",
+        "icon": "https://ph-files.imgix.net/5995d6e1-ab80-438a-8e56-996386730062.svg?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/5995d6e1-ab80-438a-8e56-996386730062.svg?auto=format",
         "media": [
           {
-            "type": "video",
-            "url": "https://ph-files.imgix.net/0062589e-ee11-4497-9d51-5078016ea255.jpeg?auto=format",
+            "type": "image",
+            "url": "https://ph-files.imgix.net/978922b1-4fb9-4eec-8f6c-52de8848a2c3.png?auto=format",
             "videoUrl": null
           },
           {
             "type": "image",
-            "url": "https://ph-files.imgix.net/da914d3d-a75e-455b-9b88-0aeba55195ef.png?auto=format",
+            "url": "https://ph-files.imgix.net/a8c65548-0398-421e-bf5c-b8cdd066da53.png?auto=format",
             "videoUrl": null
           },
           {
             "type": "image",
-            "url": "https://ph-files.imgix.net/c6dbeac4-ee1f-4d1d-9400-4f221b6dcf84.png?auto=format",
+            "url": "https://ph-files.imgix.net/dea0bf59-de4d-44be-b244-3fc270e1ccec.png?auto=format",
             "videoUrl": null
           },
           {
             "type": "image",
-            "url": "https://ph-files.imgix.net/f36505e4-7061-4a97-866f-66251a3d5a2e.png?auto=format",
+            "url": "https://ph-files.imgix.net/366a271c-4106-4d0e-8911-e68b2ec7ad83.png?auto=format",
             "videoUrl": null
           },
           {
             "type": "image",
-            "url": "https://ph-files.imgix.net/3b1dbd3f-9f44-4d5d-8d3e-1c480a3a98bf.png?auto=format",
-            "videoUrl": null
-          },
-          {
-            "type": "image",
-            "url": "https://ph-files.imgix.net/27bff766-34ff-4f84-a198-93dce1bd3708.png?auto=format",
+            "url": "https://ph-files.imgix.net/7384c56f-f140-4c1d-a601-a399536fa2dc.png?auto=format",
             "videoUrl": null
           }
         ]
       },
       "raw": {
-        "slug": "reason-10",
-        "featuredAt": "2026-10-14T07:01:00Z",
-        "createdAt": "2026-10-14T07:01:00Z"
+        "slug": "withhuman",
+        "featuredAt": "2026-10-15T07:01:00Z",
+        "createdAt": "2026-10-15T07:01:00Z"
       }
     },
     {
       "rank": 9,
-      "id": "1278817",
-      "name": "Exodus for Google Cloud Run",
-      "tagline": "Upgrade any app to Cloud Run, with your coding agent",
-      "description": "Cloud Run is Google's managed platform: no servers to look after, new copies in seconds under load, a bill only while your code works. Exodus takes your app there with your coding agent (Claude Code, Codex, Cursor): it checks the app on your machine, shows what you pay today and on Cloud Run and what to change, by 50+ playbooks from real moves. Then the agent makes the move, task by task, or designs a new app for Cloud Run. Free and open source. Try it on your repo today.",
+      "id": "1280174",
+      "name": "Chatway MCP",
+      "tagline": "Let ChatGPT & Claude answer customer support tickets via MCP",
+      "description": "Chatway is a live chat and customer support platform that lets you bring your own AI agent. Connect ChatGPT, Claude, Gemini, Cursor, or any MCP-compatible assistant to manage customer conversations, reply to messages, search contacts, and access your knowledge base. No coding required. Chatway also includes a built-in AI Support Agent, shared inbox, help center, automation, iOS and Android apps, and integrations with WhatsApp, Instagram, Facebook Messenger, and more. Get started for free.",
       "keywords": [
-        "Upgrade",
-        "any",
-        "app",
-        "to"
+        "Let",
+        "ChatGPT",
+        "&",
+        "Claude"
       ],
       "metrics": {
-        "votes": 99,
-        "comments": 7
+        "votes": 92,
+        "comments": 17
       },
       "links": {
-        "homepage": "https://www.producthunt.com/r/DKRZ5SVMJ577ZK?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
-        "source": "https://www.producthunt.com/products/exodus-by-elim-io?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+        "homepage": "https://www.producthunt.com/r/3IXOP27GGFYKS2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/chatway?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
       },
       "assets": {
-        "icon": "https://ph-files.imgix.net/d0a2afe3-9645-4be4-b2b3-e95a7b8cde4c.png?auto=format",
-        "thumbnail": "https://ph-files.imgix.net/d0a2afe3-9645-4be4-b2b3-e95a7b8cde4c.png?auto=format",
+        "icon": "https://ph-files.imgix.net/04e49253-5617-4b7a-bfa0-f14bd457b955.gif?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/04e49253-5617-4b7a-bfa0-f14bd457b955.gif?auto=format",
         "media": [
           {
             "type": "video",
-            "url": "https://ph-files.imgix.net/735ce32d-a1ee-4498-98ca-4548f1a9354b.jpeg?auto=format",
+            "url": "https://ph-files.imgix.net/8c07dcc5-59db-4f33-bd3b-6c7444b57e4a.jpeg?auto=format",
             "videoUrl": null
           },
           {
             "type": "image",
-            "url": "https://ph-files.imgix.net/96c9029d-f256-4cfb-b7f9-1c0e84be40fa.png?auto=format",
+            "url": "https://ph-files.imgix.net/fce08372-9af1-42e0-b6a6-c4b51f3f0ff9.png?auto=format",
             "videoUrl": null
           },
           {
             "type": "image",
-            "url": "https://ph-files.imgix.net/86e9bea6-6a2e-44ce-8c53-7d061399ff93.png?auto=format",
+            "url": "https://ph-files.imgix.net/ea07ab61-ca18-4316-a9a9-dd5b7c07eec5.png?auto=format",
             "videoUrl": null
           },
           {
             "type": "image",
-            "url": "https://ph-files.imgix.net/617a8c4e-1c88-4ce8-b14d-ebd256a517fe.png?auto=format",
+            "url": "https://ph-files.imgix.net/f92e1273-e70b-499c-aae2-c9bb524b44e9.png?auto=format",
             "videoUrl": null
           },
           {
             "type": "image",
-            "url": "https://ph-files.imgix.net/46a5297c-a25f-4b40-8298-0224d0890891.png?auto=format",
+            "url": "https://ph-files.imgix.net/d4ad8c75-6a8b-4ffd-9169-3a7b18be5daf.png?auto=format",
             "videoUrl": null
           },
           {
             "type": "image",
-            "url": "https://ph-files.imgix.net/53c6668b-3358-49ae-8c89-f1c9ade83db6.png?auto=format",
-            "videoUrl": null
-          },
-          {
-            "type": "image",
-            "url": "https://ph-files.imgix.net/a328f5f6-1636-4597-b9f3-3da3d2190672.png?auto=format",
-            "videoUrl": null
-          },
-          {
-            "type": "image",
-            "url": "https://ph-files.imgix.net/27b11820-43a8-4698-9572-0086586b6d00.png?auto=format",
-            "videoUrl": null
-          },
-          {
-            "type": "image",
-            "url": "https://ph-files.imgix.net/2d0486db-9e9a-4310-b22f-04f3937f75c9.png?auto=format",
-            "videoUrl": null
-          },
-          {
-            "type": "image",
-            "url": "https://ph-files.imgix.net/90c429ab-2c4b-4249-a02d-58728b825c6c.png?auto=format",
+            "url": "https://ph-files.imgix.net/a425d4f5-24f9-4626-a2b5-c0330d26f378.png?auto=format",
             "videoUrl": null
           }
         ]
       },
       "raw": {
-        "slug": "exodus-for-google-cloud-run",
-        "featuredAt": "2026-10-14T07:01:00Z",
-        "createdAt": "2026-10-14T07:01:00Z"
+        "slug": "chatway-mcp",
+        "featuredAt": "2026-10-15T07:01:00Z",
+        "createdAt": "2026-10-15T07:01:00Z"
       }
     },
     {
       "rank": 10,
-      "id": "1135009",
-      "name": "AirJelly",
-      "tagline": "Your Proactive, Self-Organizing Second Brain",
-      "description": "AirJelly is an always-on desktop AI agent that proactively captures your intent, organizes your tasks, and gets things done. By observing your on-screen activities, it knows who you are and what you're working on. It doesn't just spot your to-dos — it foresees what's next and acts. It also tracks your personal interactions, so you'll never miss a follow-up or forget a promise. Everything in your life is managed by AirJelly — freeing your time for what AI can't do, or simply for you to enjoy.",
+      "id": "1277820",
+      "name": "Kerno 1.0",
+      "tagline": "The AI Runtime Backend QA Engineer",
+      "description": "Kerno v1 is our biggest upgrade yet, a complete AI Backend QA Engineer. It maps your codebase, learns how your app works, and gets sharper with every run. It now tests your whole backend, from full user flows and live security checks to background jobs, queues, MCP servers and AWS serverless. Bugs get caught inside your agent's session before you open a PR, then re-checked on every PR in CI.",
       "keywords": [
-        "Your",
-        "Proactive,",
-        "Self-Organizing",
-        "Second"
+        "The",
+        "AI",
+        "Runtime",
+        "Backend"
       ],
       "metrics": {
-        "votes": 92,
+        "votes": 88,
         "comments": 7
       },
       "links": {
-        "homepage": "https://www.producthunt.com/r/PMQKFXXQ5WQB2C?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
-        "source": "https://www.producthunt.com/products/airjelly?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+        "homepage": "https://www.producthunt.com/r/DUOOWOGKGBBWP4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/kerno?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
       },
       "assets": {
-        "icon": "https://ph-files.imgix.net/4958e60d-f7c3-4de3-81d0-66e62d85892c.png?auto=format",
-        "thumbnail": "https://ph-files.imgix.net/4958e60d-f7c3-4de3-81d0-66e62d85892c.png?auto=format",
+        "icon": "https://ph-files.imgix.net/17a73be4-0ff6-419e-b45e-377d8a8b442d.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/17a73be4-0ff6-419e-b45e-377d8a8b442d.png?auto=format",
         "media": [
           {
             "type": "video",
-            "url": "https://ph-files.imgix.net/ad21d0ca-98c9-4f34-9604-10fd3925070c.jpeg?auto=format",
+            "url": "https://ph-files.imgix.net/066b8451-b19b-4dcb-bde5-5ee0dd4e606d.jpeg?auto=format",
             "videoUrl": null
           },
           {
             "type": "image",
-            "url": "https://ph-files.imgix.net/d6389614-0e06-4bd1-a708-a50a964e4443.png?auto=format",
+            "url": "https://ph-files.imgix.net/c71fa05e-6bb3-4bcd-ab85-b18db0c1f66b.png?auto=format",
             "videoUrl": null
           },
           {
             "type": "image",
-            "url": "https://ph-files.imgix.net/de1072e0-df70-4dbb-aebb-b69425f47dd3.png?auto=format",
+            "url": "https://ph-files.imgix.net/4c7269a9-5747-42c2-b74e-fc1940857f99.png?auto=format",
             "videoUrl": null
           },
           {
             "type": "image",
-            "url": "https://ph-files.imgix.net/099feec0-993f-4eb9-879f-516422a96a41.png?auto=format",
+            "url": "https://ph-files.imgix.net/860ea4a8-b1c1-4aa1-9b0d-ca8b4606385d.png?auto=format",
             "videoUrl": null
           },
           {
             "type": "image",
-            "url": "https://ph-files.imgix.net/0c47263d-ca01-4102-98a2-ccd4da59b8ee.png?auto=format",
+            "url": "https://ph-files.imgix.net/42345a8c-8e27-4fea-96fb-84d7be4ef570.png?auto=format",
             "videoUrl": null
           },
           {
             "type": "image",
-            "url": "https://ph-files.imgix.net/12efae8a-a9c0-4e69-a835-609eb8ae1dd1.png?auto=format",
+            "url": "https://ph-files.imgix.net/392f5d1d-4aae-4dc4-9e29-2f56d07899e0.png?auto=format",
             "videoUrl": null
           },
           {
             "type": "image",
-            "url": "https://ph-files.imgix.net/d8529c31-8b20-407a-b925-74a9bf2597cf.png?auto=format",
+            "url": "https://ph-files.imgix.net/d5aa253d-ae06-49f0-b1af-de411d54e7d9.png?auto=format",
             "videoUrl": null
           },
           {
             "type": "image",
-            "url": "https://ph-files.imgix.net/0d98b14e-3c1e-4422-a05f-5ac7170e34e2.png?auto=format",
+            "url": "https://ph-files.imgix.net/1faca9d1-e94f-4f93-ac2c-ee821b3a6e0f.png?auto=format",
             "videoUrl": null
           },
           {
             "type": "image",
-            "url": "https://ph-files.imgix.net/69913f2f-b5d2-48bb-9bd7-0d7dd29d9a0a.png?auto=format",
+            "url": "https://ph-files.imgix.net/517f809e-57de-4db4-886e-c6a9ee1d5f79.png?auto=format",
             "videoUrl": null
           }
         ]
       },
       "raw": {
-        "slug": "airjelly",
-        "featuredAt": "2026-10-14T07:01:00Z",
-        "createdAt": "2026-10-14T07:01:00Z"
+        "slug": "kerno-1-0",
+        "featuredAt": "2026-10-15T07:01:00Z",
+        "createdAt": "2026-10-15T07:01:00Z"
       }
     },
     {
       "rank": 11,
-      "id": "1279535",
-      "name": "Specreel",
-      "tagline": "Product demos that update themselves",
-      "description": "Paste your app's URL and Specreel walks it in a real browser, turning your key flows into narrated, shareable demos. Already on Playwright? It renders them from your test traces on every green build, so a demo can't go stale. Open-source CLI + hosted Cloud.",
+      "id": "1280514",
+      "name": "Ubuntu 26.10 (Stonking Stingray)",
+      "tagline": "GNOME 51, Rust coreutils, and a refreshed Linux desktop",
+      "description": "Ubuntu 26.10 \"Stonking Stingray\" brings GNOME 51, expanded hardware support, and a complete switch to Rust-based coreutils. App Center unifies Snap and Debian package details and adds graphics driver management. An optional Myna preview offers local speech-to-text. A non-LTS release for developers and Linux enthusiasts who want newer software between long-term releases.",
       "keywords": [
-        "Product",
-        "demos",
-        "that",
-        "update"
+        "GNOME",
+        "51,",
+        "Rust",
+        "coreutils,"
       ],
       "metrics": {
-        "votes": 92,
-        "comments": 5
+        "votes": 88,
+        "comments": 2
       },
       "links": {
-        "homepage": "https://www.producthunt.com/r/GR4O6J6QXTMJRM?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
-        "source": "https://www.producthunt.com/products/specreel?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+        "homepage": "https://www.producthunt.com/r/Y5OEXBC6LOH2BN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/ubuntu?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
       },
       "assets": {
-        "icon": "https://ph-files.imgix.net/266ee1c9-c18b-4713-8c47-6d35a6ad68c9.png?auto=format",
-        "thumbnail": "https://ph-files.imgix.net/266ee1c9-c18b-4713-8c47-6d35a6ad68c9.png?auto=format",
+        "icon": "https://ph-files.imgix.net/62f183a7-aeb4-4ca8-831c-c069f34eaefa.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/62f183a7-aeb4-4ca8-831c-c069f34eaefa.png?auto=format",
         "media": [
           {
             "type": "image",
-            "url": "https://ph-files.imgix.net/f2f4e192-2c3e-447c-be9a-962c47450061.png?auto=format",
+            "url": "https://ph-files.imgix.net/166dad93-1494-44e3-9e09-4198f3221568.png?auto=format",
             "videoUrl": null
           },
           {
             "type": "image",
-            "url": "https://ph-files.imgix.net/2275f8e0-5301-40e2-b0a4-96ee16c20b1c.png?auto=format",
+            "url": "https://ph-files.imgix.net/338b7545-c00d-40ff-af6e-6ebbb38cc591.png?auto=format",
             "videoUrl": null
           },
           {
             "type": "image",
-            "url": "https://ph-files.imgix.net/87223561-8656-41a4-bd8a-f19d37d0a689.png?auto=format",
+            "url": "https://ph-files.imgix.net/5b4fdea6-7fae-4bc6-978a-7257c99b0a7d.png?auto=format",
             "videoUrl": null
           },
           {
             "type": "image",
-            "url": "https://ph-files.imgix.net/11064980-09f2-4c37-94a2-ab8d5ec1dc5a.png?auto=format",
+            "url": "https://ph-files.imgix.net/4aa5eb67-88d7-4bdb-b009-9515ff56d7d9.png?auto=format",
             "videoUrl": null
           },
           {
             "type": "image",
-            "url": "https://ph-files.imgix.net/8c6e618c-bf37-4659-b99c-72bf9a49a18f.png?auto=format",
+            "url": "https://ph-files.imgix.net/7593671c-00e3-40f5-8982-d2fb93cf4986.png?auto=format",
             "videoUrl": null
           }
         ]
       },
       "raw": {
-        "slug": "specreel",
-        "featuredAt": "2026-10-14T07:01:00Z",
-        "createdAt": "2026-10-14T07:01:00Z"
+        "slug": "ubuntu-26-10-stonking-stingray",
+        "featuredAt": "2026-10-15T07:01:00Z",
+        "createdAt": "2026-10-15T07:01:00Z"
       }
     },
     {
       "rank": 12,
-      "id": "1277837",
-      "name": "Microsoft Maia 300",
-      "tagline": "Microsoft’s own AI chip, headed to multi-gigawatts",
-      "description": "Maia 300 is Microsoft’s next-generation AI inference platform, announced Oct 12, 2026. Per Microsoft, it’s built for long-context reasoning, low-latency conversation, and agents, with 8 HBM4 stacks, TSMC N2P compute chiplets, and 96-accelerator racks. Microsoft claims 40% more tokens per megawatt. Production starts in 2027, and Azure Maia scales to multi-gigawatt deployments, becoming the main inference system for Microsoft’s products.",
+      "id": "1280449",
+      "name": "siliXon",
+      "tagline": "Turn a plain English idea into a circuit board you can order",
+      "description": "Describe your device in plain English and siliXon takes it all the way to a routed, manufacturable PCB, built for anyone with an idea, not only engineers. In minutes. Rocky, our design agent, asks what it needs to know, then picks real, purchasable components, places them, draws the schematic and routes the copper. Edit in 2D and 3D, or just ask Rocky. Every board must pass engineering checks before it goes to manufacture, and the design files are yours.",
       "keywords": [
-        "Microsoft’s",
-        "own",
-        "AI",
-        "chip,"
+        "Turn",
+        "a",
+        "plain",
+        "English"
       ],
       "metrics": {
-        "votes": 86,
-        "comments": 1
+        "votes": 87,
+        "comments": 7
       },
       "links": {
-        "homepage": "https://www.producthunt.com/r/24TA7VNSGXFMYN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
-        "source": "https://www.producthunt.com/products/microsoft-maia-300?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+        "homepage": "https://www.producthunt.com/r/DJUJLC74EVT7CQ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/silixon?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
       },
       "assets": {
-        "icon": "https://ph-files.imgix.net/cf060f9b-bfef-4d17-8aae-d3a2587a66f3.png?auto=format",
-        "thumbnail": "https://ph-files.imgix.net/cf060f9b-bfef-4d17-8aae-d3a2587a66f3.png?auto=format",
+        "icon": "https://ph-files.imgix.net/4d062602-e866-4a2e-8693-fedad836c06b.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/4d062602-e866-4a2e-8693-fedad836c06b.png?auto=format",
         "media": [
           {
             "type": "image",
-            "url": "https://ph-files.imgix.net/d2c1b210-4c8a-4491-846d-54396f7787bc.png?auto=format",
+            "url": "https://ph-files.imgix.net/a4fa0c31-49b0-4620-b7c5-fdc700cc6ffc.png?auto=format",
             "videoUrl": null
           },
           {
             "type": "image",
-            "url": "https://ph-files.imgix.net/e530f5df-abbe-4eed-8a4e-16ef951d22ad.png?auto=format",
+            "url": "https://ph-files.imgix.net/224e9942-6226-4c62-88c4-a4771c15c642.png?auto=format",
             "videoUrl": null
           },
           {
             "type": "image",
-            "url": "https://ph-files.imgix.net/742b20ce-a859-475e-a921-821503b21611.jpeg?auto=format",
+            "url": "https://ph-files.imgix.net/c88d04f8-8c60-4837-b5bc-25fa1e418d96.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/3aebcf8d-8f9e-4277-a0a1-6f49945c20aa.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/3fe514e4-6345-4210-b44c-c6b2798da3c7.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/9cef0708-958d-45f4-8011-78d9915a520e.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/5bc9c2d7-7b5b-4de3-b9d1-8b6e5bf1883a.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/503372a3-fda1-4e92-8c9d-17a6d4358953.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/8b7e7804-b1ed-4542-9c76-db92e5e719e7.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/f31f4bfc-b692-433e-9a58-49d20e22ba30.png?auto=format",
             "videoUrl": null
           },
           {
             "type": "video",
-            "url": "https://ph-files.imgix.net/d4e015b7-5bca-4539-8b1a-137fa382bf03.jpeg?auto=format",
+            "url": "https://ph-files.imgix.net/51aa81bb-33a0-4cef-8fbf-3dc2ff3f5208.jpeg?auto=format",
             "videoUrl": null
           }
         ]
       },
       "raw": {
-        "slug": "microsoft-maia-300",
-        "featuredAt": "2026-10-14T07:01:00Z",
-        "createdAt": "2026-10-14T07:01:00Z"
+        "slug": "silixon",
+        "featuredAt": "2026-10-15T07:01:00Z",
+        "createdAt": "2026-10-15T07:01:00Z"
       }
     },
     {
       "rank": 13,
-      "id": "1274767",
-      "name": "Rambox",
-      "tagline": "Ready-to-use workspaces as you switch tasks and contexts",
-      "description": "A major Rambox redesign focused on making everyday work simpler, faster and easier to navigate. The new interface reduces friction and the number of clicks needed to move between apps, workspaces, tasks and contexts, while a redesigned onboarding experience makes Rambox easier to set up and understand. This release also adds faster access to what you need, improved tabs and context persistence, Unified Search, Quick View, Command Center and new focus tools.",
+      "id": "1279394",
+      "name": "Nostaliga",
+      "tagline": "Rediscover the days behind your favorite songs",
+      "description": "Nostaliga turns your listening history into a personal timeline. Pick any song and see the day around it: your photos, places, runs, check-ins, shows and posts. Plus On This Day across the years. No account, no tracking; your timeline lives on your device.",
       "keywords": [
-        "Ready-to-use",
-        "workspaces",
-        "as",
-        "you"
+        "Rediscover",
+        "the",
+        "days",
+        "behind"
       ],
       "metrics": {
-        "votes": 82,
-        "comments": 9
+        "votes": 84,
+        "comments": 4
       },
       "links": {
-        "homepage": "https://www.producthunt.com/r/EITQX65ISUJ222?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
-        "source": "https://www.producthunt.com/products/rambox?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+        "homepage": "https://www.producthunt.com/r/B5SAMCYXWXTAHX?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/nostaliga?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
       },
       "assets": {
-        "icon": "https://ph-files.imgix.net/66bb04f2-5e07-4a41-898e-419834f240aa.gif?auto=format",
-        "thumbnail": "https://ph-files.imgix.net/66bb04f2-5e07-4a41-898e-419834f240aa.gif?auto=format",
+        "icon": "https://ph-files.imgix.net/c325d549-6d5e-422d-a75c-8bb7c4b3b5f3.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/c325d549-6d5e-422d-a75c-8bb7c4b3b5f3.png?auto=format",
         "media": [
           {
-            "type": "video",
-            "url": "https://ph-files.imgix.net/adddde3f-5dbb-4522-b6c2-defacbd8bed6.jpeg?auto=format",
+            "type": "image",
+            "url": "https://ph-files.imgix.net/7d6a6f35-013d-4c54-84b7-45eff567a575.png?auto=format",
             "videoUrl": null
           },
           {
             "type": "image",
-            "url": "https://ph-files.imgix.net/396549b9-e107-4d99-8742-6e0196d549a6.png?auto=format",
+            "url": "https://ph-files.imgix.net/ce0247d0-a5ec-43bd-bf47-13ec56c37d8a.png?auto=format",
             "videoUrl": null
           },
           {
             "type": "image",
-            "url": "https://ph-files.imgix.net/70cec358-1025-434b-9d5b-8df7387b9f29.png?auto=format",
+            "url": "https://ph-files.imgix.net/9630d14c-38a2-44f7-be60-eab9e4ced832.png?auto=format",
             "videoUrl": null
           },
           {
             "type": "image",
-            "url": "https://ph-files.imgix.net/78c005e1-4b9e-43cc-9bb4-24b883bc1604.png?auto=format",
+            "url": "https://ph-files.imgix.net/b15d42d5-e0df-4d1b-a194-ad72667b9021.png?auto=format",
             "videoUrl": null
           },
           {
             "type": "image",
-            "url": "https://ph-files.imgix.net/ffe70613-8b67-4602-9fac-922c10b96381.png?auto=format",
-            "videoUrl": null
-          },
-          {
-            "type": "image",
-            "url": "https://ph-files.imgix.net/8eaca45a-c67e-4190-97b8-3cf77090ec71.png?auto=format",
-            "videoUrl": null
-          },
-          {
-            "type": "image",
-            "url": "https://ph-files.imgix.net/e1043b7d-be89-4d74-b03b-dda82f0bbcbc.png?auto=format",
-            "videoUrl": null
-          },
-          {
-            "type": "image",
-            "url": "https://ph-files.imgix.net/adc3d458-2c86-41b2-904d-6ceb52a2c356.png?auto=format",
-            "videoUrl": null
-          },
-          {
-            "type": "image",
-            "url": "https://ph-files.imgix.net/bdddacb6-3ecd-4463-b5ea-a2cc984b86fa.png?auto=format",
-            "videoUrl": null
-          },
-          {
-            "type": "image",
-            "url": "https://ph-files.imgix.net/43da7016-f120-4e7a-a071-c62f2b7a7dd4.png?auto=format",
-            "videoUrl": null
-          },
-          {
-            "type": "image",
-            "url": "https://ph-files.imgix.net/e73a5dab-b167-4925-af41-91b34307182b.png?auto=format",
-            "videoUrl": null
-          },
-          {
-            "type": "image",
-            "url": "https://ph-files.imgix.net/a5a390c7-5f28-4917-9d71-bca4d20917b3.png?auto=format",
+            "url": "https://ph-files.imgix.net/7d4dc24b-d3b6-4fe4-b14c-e279eedb1619.png?auto=format",
             "videoUrl": null
           }
         ]
       },
       "raw": {
-        "slug": "rambox-2",
-        "featuredAt": "2026-10-14T07:01:00Z",
-        "createdAt": "2026-10-14T07:01:00Z"
+        "slug": "nostaliga",
+        "featuredAt": "2026-10-15T07:01:00Z",
+        "createdAt": "2026-10-15T07:01:00Z"
       }
     },
     {
       "rank": 14,
-      "id": "1272957",
-      "name": "Table Canon",
-      "tagline": "Automated notes, searchable history, prep ideas for GMs",
-      "description": "Focus on the session, not note taking. Simplify your prep time with a searchable memory-bank of what happened at your table. Table Canon turns uploaded game-night audio into a recap, outline, entity dossiers, searchable index, and prep ideas for tabletop RPG game masters. Memory evolves each session. No sign up required to get started, 6 hours of audio upload free! Message me that you saw the launch on Product Hunt and I’ll credit your account with an extra 10 hours.",
+      "id": "1280213",
+      "name": "AI Sandboxes by Buddy",
+      "tagline": "Isolated cloud machines for your AI coding agents",
+      "description": "Buddy Sandboxes give AI coding agents their own isolated Linux machines to build, run, test, and fix apps without touching your local setup. Each Sandbox has a persistent disk, root access, Docker, SSH, and a public URL. Create one per task, branch, or PR, then let your agents manage it through MCP, CLI, SDK, or API.",
       "keywords": [
-        "Automated",
-        "notes,",
-        "searchable",
-        "history,"
+        "Isolated",
+        "cloud",
+        "machines",
+        "for"
       ],
       "metrics": {
-        "votes": 81,
-        "comments": 3
+        "votes": 83,
+        "comments": 24
       },
       "links": {
-        "homepage": "https://www.producthunt.com/r/CJNX6OVU3UTFYB?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
-        "source": "https://www.producthunt.com/products/table-canon-ttrpg-campaign-memory?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+        "homepage": "https://www.producthunt.com/r/7MQ6MORAFYYKTJ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/buddy?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
       },
       "assets": {
-        "icon": "https://ph-files.imgix.net/13e07dd1-4784-4d4c-b7e0-c28c946434b4.png?auto=format",
-        "thumbnail": "https://ph-files.imgix.net/13e07dd1-4784-4d4c-b7e0-c28c946434b4.png?auto=format",
+        "icon": "https://ph-files.imgix.net/34b0f53a-e3db-4169-8543-0eb0292dff0b.vnd.microsoft.icon?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/34b0f53a-e3db-4169-8543-0eb0292dff0b.vnd.microsoft.icon?auto=format",
         "media": [
           {
-            "type": "video",
-            "url": "https://ph-files.imgix.net/970967d2-1af7-4ea6-8a7b-b311a9759747.jpeg?auto=format",
+            "type": "image",
+            "url": "https://ph-files.imgix.net/822b801c-264e-4fe3-a2a2-2460ed7297f8.png?auto=format",
             "videoUrl": null
           },
           {
             "type": "image",
-            "url": "https://ph-files.imgix.net/220cdafa-1d02-4596-a1b0-9c7750e4dc6f.png?auto=format",
+            "url": "https://ph-files.imgix.net/94bca3a1-259a-4d61-aab1-cd442f444f38.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/9150b90e-7bae-40dc-b1e0-6a80d2e6b758.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/df69f265-c5e9-40fd-bc3d-f9e785884feb.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/63d7b80e-62a9-4224-bb3a-24c9dfc1cf01.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/9520a513-dfc3-41f4-b0d1-af9b39e7bf69.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/7e67e644-b30e-4b02-86bf-ae16f9535531.jpeg?auto=format",
             "videoUrl": null
           }
         ]
       },
       "raw": {
-        "slug": "table-canon",
-        "featuredAt": "2026-10-14T07:01:00Z",
-        "createdAt": "2026-10-14T07:01:00Z"
+        "slug": "ai-sandboxes-by-buddy",
+        "featuredAt": "2026-10-15T07:01:00Z",
+        "createdAt": "2026-10-15T07:01:00Z"
       }
     },
     {
       "rank": 15,
-      "id": "1277094",
-      "name": "Mira Tours",
-      "tagline": "AI Walking Tour Guide",
-      "description": "Mira is your AI tour guide. Walking audio tours, anywhere in the world: chat to build your own, or just start walking and hear the story of the places around you.",
+      "id": "1278526",
+      "name": "Backdrop",
+      "tagline": "Build AI coworkers for any workflow, any industry",
+      "description": "Create AI coworkers for any workflow. Give them access to the right tools and context, and let them research, create, coordinate, follow up, and get work done. Connect them to Slack, Asana, Google, Hubspot, Meta, TikTok, and 1500+ more apps.",
       "keywords": [
+        "Build",
         "AI",
-        "Walking",
-        "Tour",
-        "Guide"
+        "coworkers",
+        "for"
       ],
       "metrics": {
-        "votes": 80,
-        "comments": 6
+        "votes": 83,
+        "comments": 8
       },
       "links": {
-        "homepage": "https://www.producthunt.com/r/7SPLOKPPLSTOIM?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
-        "source": "https://www.producthunt.com/products/mira-tours?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+        "homepage": "https://www.producthunt.com/r/D3RIAUWJ4KDYJ2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/backdrop?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
       },
       "assets": {
-        "icon": "https://ph-files.imgix.net/857069cb-cb94-43ba-8bec-f945131fc773.png?auto=format",
-        "thumbnail": "https://ph-files.imgix.net/857069cb-cb94-43ba-8bec-f945131fc773.png?auto=format",
+        "icon": "https://ph-files.imgix.net/2d4a4fe1-8d42-42ab-ad5e-2ccf677729a0.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/2d4a4fe1-8d42-42ab-ad5e-2ccf677729a0.png?auto=format",
         "media": [
           {
-            "type": "video",
-            "url": "https://ph-files.imgix.net/70e42715-bcbf-407e-9fc6-28c87451f61d.jpeg?auto=format",
+            "type": "image",
+            "url": "https://ph-files.imgix.net/c73465ed-793f-4212-9860-50e0c88b463d.png?auto=format",
             "videoUrl": null
           },
           {
             "type": "image",
-            "url": "https://ph-files.imgix.net/146abda5-f7f0-44c0-8d2e-e50dd9b092d1.png?auto=format",
+            "url": "https://ph-files.imgix.net/c28627a7-4acd-4701-b28c-46bb99313048.png?auto=format",
             "videoUrl": null
           },
           {
             "type": "image",
-            "url": "https://ph-files.imgix.net/1fcdcba5-8fca-4e93-888b-f2b0338177f2.png?auto=format",
+            "url": "https://ph-files.imgix.net/d2371622-98ce-49e6-8ecd-181d82e132dd.png?auto=format",
             "videoUrl": null
           },
           {
             "type": "image",
-            "url": "https://ph-files.imgix.net/e165c054-e51e-4731-a3ac-ffeb5658d421.png?auto=format",
+            "url": "https://ph-files.imgix.net/e34b00fd-7bfc-473a-ba3a-707ae6c19bf2.png?auto=format",
             "videoUrl": null
           },
           {
             "type": "image",
-            "url": "https://ph-files.imgix.net/68b12f45-60b3-4f17-bf08-d8a429d98161.png?auto=format",
+            "url": "https://ph-files.imgix.net/141f8dee-2e97-4cad-b7a0-c16d9b54bad3.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/13fb6577-6567-43c7-a5ac-9ec1f6f296ce.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/539049cb-e8ab-487b-83e1-24b695f1b229.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/fede721e-235c-4116-879e-6f326cef9604.png?auto=format",
             "videoUrl": null
           }
         ]
       },
       "raw": {
-        "slug": "mira-tours",
-        "featuredAt": "2026-10-14T07:01:00Z",
-        "createdAt": "2026-10-14T07:01:00Z"
+        "slug": "backdrop-47474fcb-1e9d-4b38-95f9-fe897fe00803",
+        "featuredAt": "2026-10-15T07:01:00Z",
+        "createdAt": "2026-10-15T07:01:00Z"
       }
     },
     {
       "rank": 16,
-      "id": "1278289",
-      "name": "Winq",
-      "tagline": "Control your Mac with a look and a wink",
-      "description": "Gaze focus switching: look at a window and it becomes the active one. Per-eye wink clicks: left wink and right wink are separate actions. Face-gesture shortcuts: map gestures to the actions you use most. Notch island: a small live indicator in the notch area shows what Winq detected. No extra hardware: it works with your Mac’s built-in camera, with a short guided calibration. Private by design: all face tracking runs on your Mac, and no video leaves the device.",
+      "id": "1279668",
+      "name": "Reelbird",
+      "tagline": "Open Source Loom + Screen Studio alternative for Mac",
+      "description": "Reelbird is a free, open-source Mac screen recorder. The share link is on your clipboard when you stop. Later, add auto-zoom, a smooth cursor and captions, then update the same link. Native Swift, no account, your own S3/R2 bucket. Signed and notarized.",
       "keywords": [
-        "Control",
-        "your",
-        "Mac",
-        "with"
+        "Open",
+        "Source",
+        "Loom",
+        "+"
       ],
       "metrics": {
-        "votes": 78,
-        "comments": 11
+        "votes": 83,
+        "comments": 3
       },
       "links": {
-        "homepage": "https://www.producthunt.com/r/PGBVUCJNHZOCWF?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
-        "source": "https://www.producthunt.com/products/winq?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+        "homepage": "https://www.producthunt.com/r/HRRCDNGKZDWX2V?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/reelbird?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
       },
       "assets": {
-        "icon": "https://ph-files.imgix.net/9cffe7e9-8ef4-4e9e-bdaf-eabf813dccda.png?auto=format",
-        "thumbnail": "https://ph-files.imgix.net/9cffe7e9-8ef4-4e9e-bdaf-eabf813dccda.png?auto=format",
+        "icon": "https://ph-files.imgix.net/35b6aff0-974c-4a18-9132-01fa247ef406.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/35b6aff0-974c-4a18-9132-01fa247ef406.png?auto=format",
         "media": [
           {
-            "type": "image",
-            "url": "https://ph-files.imgix.net/c4f4a397-5dba-4724-a393-a08569aa029e.png?auto=format",
+            "type": "video",
+            "url": "https://ph-files.imgix.net/c9536a76-5d28-4086-a5cf-77a4e30eedc1.jpeg?auto=format",
             "videoUrl": null
           },
           {
             "type": "image",
-            "url": "https://ph-files.imgix.net/e5b91107-3004-4367-91a0-69471ec734fd.png?auto=format",
+            "url": "https://ph-files.imgix.net/d3020fa4-f93f-473f-a962-5cf63062b421.png?auto=format",
             "videoUrl": null
           },
           {
             "type": "image",
-            "url": "https://ph-files.imgix.net/0eff9414-05fd-4dc1-8072-4c764445e1f6.png?auto=format",
+            "url": "https://ph-files.imgix.net/962c38ea-70a5-4688-928d-f4c7edddf3bf.png?auto=format",
             "videoUrl": null
           },
           {
             "type": "image",
-            "url": "https://ph-files.imgix.net/5f3dcd2b-8353-4b2f-9f4f-38fb28509552.png?auto=format",
+            "url": "https://ph-files.imgix.net/e2f42323-e380-49e3-afde-f6f58a9a715b.png?auto=format",
             "videoUrl": null
           },
           {
             "type": "image",
-            "url": "https://ph-files.imgix.net/f0101f6c-5810-433e-bb52-f671a330c5e0.png?auto=format",
+            "url": "https://ph-files.imgix.net/a7579e88-0a7b-49df-a59c-23de390cca70.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/ccac74f3-1b13-4931-bedb-a2aa2839db08.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/13b94893-f595-4bb1-abd3-7bfee8c091cf.png?auto=format",
             "videoUrl": null
           }
         ]
       },
       "raw": {
-        "slug": "winq",
-        "featuredAt": "2026-10-14T07:01:00Z",
-        "createdAt": "2026-10-14T07:01:00Z"
+        "slug": "reelbird",
+        "featuredAt": "2026-10-15T07:01:00Z",
+        "createdAt": "2026-10-15T07:01:00Z"
       }
     },
     {
       "rank": 17,
-      "id": "1277320",
-      "name": "Epherem",
-      "tagline": "Find login and database flaws in your AI-built app",
-      "description": "Epherem is a free source code security scanner for apps built with AI. It checks for common security issues involving authentication, database access, exposed API keys and vulnerable packages. Upload a ZIP or connect a GitHub repository to scan your app. Findings include plain-English explanations, suggested fixes and prompts you can paste into Claude Code, Lovable or Cursor. Reports can also be exported for review with your AI coding assistant, including issues the scanner couldn't verify.",
+      "id": "1279449",
+      "name": "SuperLocalMemory",
+      "tagline": "Agent memory with Laya, Jev + Google Gemma",
+      "description": "The relaunch of SuperLocalMemory, rebuilt from the ground up and backed by four arXiv papers. One local-first memory brain for Claude Code, Codex, Cursor, ChatGPT and any MCP or CLI agent. It never bluffs: recall says supported, related or no answer, checked by Laya on your Mac or Jev online. Find pictures and PDFs by describing them, with Google’s EmbeddingGemma 2. Governed, mesh-connected, AGPL-3.0. Built by Qualixar, the AI Reliability Engineering lab behind 10 open-source products.",
       "keywords": [
-        "Find",
-        "login",
-        "and",
-        "database"
+        "Agent",
+        "memory",
+        "with",
+        "Laya,"
       ],
       "metrics": {
-        "votes": 76,
+        "votes": 81,
         "comments": 7
       },
       "links": {
-        "homepage": "https://www.producthunt.com/r/YL7RFBRSIMGWCK?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
-        "source": "https://www.producthunt.com/products/epherem?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+        "homepage": "https://www.producthunt.com/r/F5FLUBQ6Z4P2LL?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/superlocalmemory-v2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
       },
       "assets": {
-        "icon": "https://ph-files.imgix.net/66fe8ed3-45cd-4016-a0a7-dcac717e854a.png?auto=format",
-        "thumbnail": "https://ph-files.imgix.net/66fe8ed3-45cd-4016-a0a7-dcac717e854a.png?auto=format",
+        "icon": "https://ph-files.imgix.net/dc649628-cf69-4a72-b440-ef2916c3f310.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/dc649628-cf69-4a72-b440-ef2916c3f310.png?auto=format",
         "media": [
           {
             "type": "video",
-            "url": "https://ph-files.imgix.net/667387a8-9b19-4bce-945d-64e8c0887407.jpeg?auto=format",
+            "url": "https://ph-files.imgix.net/fc055211-0381-4d05-8ad5-bfc4415d0301.jpeg?auto=format",
             "videoUrl": null
           },
           {
             "type": "image",
-            "url": "https://ph-files.imgix.net/697eab02-ca06-4bbe-ac32-61b10f760b5c.png?auto=format",
+            "url": "https://ph-files.imgix.net/14372d28-9f61-4f08-a03b-b090c49e27d5.jpeg?auto=format",
             "videoUrl": null
           },
           {
             "type": "image",
-            "url": "https://ph-files.imgix.net/5619c83c-4afd-4e18-a0dd-f6d8826039c7.png?auto=format",
+            "url": "https://ph-files.imgix.net/fe4d8f7e-1d7e-479a-974a-314f5e5771cc.jpeg?auto=format",
             "videoUrl": null
           },
           {
             "type": "image",
-            "url": "https://ph-files.imgix.net/d755583f-b738-4bba-b5a1-4d15d80d59e8.png?auto=format",
+            "url": "https://ph-files.imgix.net/ce98a1d9-68ce-40db-beca-6a0772452de8.jpeg?auto=format",
             "videoUrl": null
           },
           {
             "type": "image",
-            "url": "https://ph-files.imgix.net/cfa16b91-d9d3-4705-a690-2ae59bec4293.png?auto=format",
+            "url": "https://ph-files.imgix.net/4d30f454-8df9-4d66-9d20-539348ea5c7f.jpeg?auto=format",
             "videoUrl": null
           },
           {
-            "type": "interactive_demo",
-            "url": "https://ph-files.imgix.net/80eae415-e49f-449d-80d4-c36076bf30e1.jpeg?auto=format",
+            "type": "image",
+            "url": "https://ph-files.imgix.net/8ad16ab3-aa02-4550-a8de-3f10ffde168a.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/d903cfa7-bc0a-4f80-aaea-cfd75fe5d8c8.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/4ff11de9-849e-4f69-a535-35f33982255b.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/079d0409-98b7-4a5d-82e5-278a095af463.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/c4cfb881-6e03-42f3-a7ed-0a314ea229a1.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/20117a61-7048-4fa1-b26f-95bee5f747cc.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/40188b55-250c-4dfd-9ebc-81223518a5db.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/5fe9142b-9977-4a08-a000-8e3fbe6b221a.jpeg?auto=format",
             "videoUrl": null
           }
         ]
       },
       "raw": {
-        "slug": "epherem",
-        "featuredAt": "2026-10-14T07:01:00Z",
-        "createdAt": "2026-10-14T07:01:00Z"
+        "slug": "superlocalmemory",
+        "featuredAt": "2026-10-15T07:01:00Z",
+        "createdAt": "2026-10-15T07:01:00Z"
       }
     },
     {
       "rank": 18,
-      "id": "1279309",
-      "name": "Nimble",
-      "tagline": "SOTA Decision Model",
-      "description": "Today, we are announcing Nimble-v4 and Nimble-v4-max which are pushing the frontier of decision models, outperforming Jev and other variants. On Decision Index public scores, our nimble-v4-max model and nimble-v4 models score +10.5 and +5.74 against Jev 1.13, making nimble-v4-max a top performing model. Beyond benchmarks, we have done a lot of internal evals, and see big improvements: 43% fewer mistakes than Jev, +50pp on model routing decisions, and so on. Try for free: console.bespokelabs.ai",
+      "id": "1278267",
+      "name": "Shrine",
+      "tagline": "A home for your agents",
+      "description": "Shrine lives in your Mac's notch. A glance shows how many Claude Code, Codex and OpenCode sessions are working and which one needs you, so there is no dashboard window to keep open. Each push, pull request and research session earns a piece of pixel art for a small room that fills up as you work. Find the joy in your agents work.",
       "keywords": [
-        "SOTA",
-        "Decision",
-        "Model"
+        "A",
+        "home",
+        "for",
+        "your"
       ],
       "metrics": {
-        "votes": 76,
-        "comments": 4
+        "votes": 81,
+        "comments": 2
       },
       "links": {
-        "homepage": "https://www.producthunt.com/r/KIVORSGOXVIOSX?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
-        "source": "https://www.producthunt.com/products/nimble-5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+        "homepage": "https://www.producthunt.com/r/URGUYXDAVTGRZ3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/shrine-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
       },
       "assets": {
-        "icon": "https://ph-files.imgix.net/66b6a707-1e6d-4826-9adb-f31d82155874.png?auto=format",
-        "thumbnail": "https://ph-files.imgix.net/66b6a707-1e6d-4826-9adb-f31d82155874.png?auto=format",
+        "icon": "https://ph-files.imgix.net/0fe92dcc-76fa-4ec6-8bc8-6d152d254004.svg?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/0fe92dcc-76fa-4ec6-8bc8-6d152d254004.svg?auto=format",
         "media": [
           {
             "type": "image",
-            "url": "https://ph-files.imgix.net/9badb985-c7dd-401b-93a9-5791a041a17e.png?auto=format",
+            "url": "https://ph-files.imgix.net/13196e8a-e374-4b28-ba33-1a91322fb5a4.png?auto=format",
             "videoUrl": null
           },
           {
             "type": "image",
-            "url": "https://ph-files.imgix.net/ad4e6756-5271-40ac-8dc5-6e4e9a182fc8.png?auto=format",
+            "url": "https://ph-files.imgix.net/40a6082a-cbf6-4eaa-915e-bb9b38107585.png?auto=format",
             "videoUrl": null
           },
           {
             "type": "image",
-            "url": "https://ph-files.imgix.net/5aa1e508-048f-4ba0-aada-00453c7b49ed.png?auto=format",
+            "url": "https://ph-files.imgix.net/ee28508c-17d8-4dd6-a0f9-c65ed87c1e1d.png?auto=format",
             "videoUrl": null
           },
           {
             "type": "image",
-            "url": "https://ph-files.imgix.net/7e2a1dd1-17c3-42e2-bbfe-2b96a5ea831c.png?auto=format",
+            "url": "https://ph-files.imgix.net/6ef461b5-08d5-4d93-b231-17269b981a47.png?auto=format",
             "videoUrl": null
           },
           {
             "type": "image",
-            "url": "https://ph-files.imgix.net/4cbf38f1-e0f2-49b7-878b-ac410e35c952.png?auto=format",
+            "url": "https://ph-files.imgix.net/9aca11b5-6886-41a0-9329-b91a550f4169.png?auto=format",
             "videoUrl": null
           },
           {
             "type": "image",
-            "url": "https://ph-files.imgix.net/f4aac0d3-b9c2-4a20-95b1-b58658b1419c.png?auto=format",
+            "url": "https://ph-files.imgix.net/b893e209-51ac-468b-8080-f6aed22ee96d.png?auto=format",
             "videoUrl": null
           },
           {
             "type": "image",
-            "url": "https://ph-files.imgix.net/19c279d1-e002-4281-9d01-a3719e137832.png?auto=format",
+            "url": "https://ph-files.imgix.net/f2e53d83-9c94-4a48-8016-def0bf643976.png?auto=format",
             "videoUrl": null
           },
           {
             "type": "image",
-            "url": "https://ph-files.imgix.net/152c0066-0487-4cfe-858f-002a6bcbec03.png?auto=format",
+            "url": "https://ph-files.imgix.net/53ca030c-3a2f-4e40-80f0-65196b701c0a.png?auto=format",
             "videoUrl": null
           },
           {
-            "type": "image",
-            "url": "https://ph-files.imgix.net/ce0b46ce-de21-45a9-bb13-57443b5dae7d.png?auto=format",
-            "videoUrl": null
-          },
-          {
-            "type": "image",
-            "url": "https://ph-files.imgix.net/97400cad-da39-4c5d-a272-86785eb7a3ac.png?auto=format",
-            "videoUrl": null
-          },
-          {
-            "type": "image",
-            "url": "https://ph-files.imgix.net/2f415fd9-5109-4af5-9144-de837e4ea329.png?auto=format",
+            "type": "video",
+            "url": "https://ph-files.imgix.net/0c255564-3a68-477a-9e44-687ab4627908.gif?auto=format",
             "videoUrl": null
           }
         ]
       },
       "raw": {
-        "slug": "nimble-90f6a585-1d47-49a9-b635-f5188b9c0d47",
-        "featuredAt": "2026-10-14T07:01:00Z",
-        "createdAt": "2026-10-14T07:01:00Z"
+        "slug": "shrine-2",
+        "featuredAt": "2026-10-15T07:01:00Z",
+        "createdAt": "2026-10-15T07:01:00Z"
       }
     },
     {
       "rank": 19,
-      "id": "1279730",
-      "name": "Cloud Releases",
-      "tagline": "Every AWS, Azure, GCP and Cloudflare update in one feed",
-      "description": "🔥 Cloud providers ship thousands of updates a year across separate blogs and changelogs. Cloud Releases puts AWS, Azure, Google Cloud and Cloudflare in one feed. Follow only the services you run, and spot retirements before they break something.",
+      "id": "1270278",
+      "name": "Afterparty",
+      "tagline": "Automated actions for meeting deliverables",
+      "description": "Note takers give you a list. Afterparty does the list. Paste a transcript or connect your note taker, and agents draft every email, message, invite and CRM note in the right app, with context from your tools. Nothing goes out until you approve it.",
       "keywords": [
-        "Every",
-        "AWS,",
-        "Azure,",
-        "GCP"
+        "Automated",
+        "actions",
+        "for",
+        "meeting"
       ],
       "metrics": {
-        "votes": 75,
-        "comments": 1
+        "votes": 79,
+        "comments": 7
       },
       "links": {
-        "homepage": "https://www.producthunt.com/r/QUXM3PTH5G4QKG?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
-        "source": "https://www.producthunt.com/products/cloud-releases?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+        "homepage": "https://www.producthunt.com/r/YAB2LK6ENOKCXH?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/afterparty?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
       },
       "assets": {
-        "icon": "https://ph-files.imgix.net/f653513c-77ba-4587-b875-00837b026424.png?auto=format",
-        "thumbnail": "https://ph-files.imgix.net/f653513c-77ba-4587-b875-00837b026424.png?auto=format",
+        "icon": "https://ph-files.imgix.net/afde71ef-2f1e-4de3-af64-5bfe5fb18f2d.gif?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/afde71ef-2f1e-4de3-af64-5bfe5fb18f2d.gif?auto=format",
         "media": [
           {
             "type": "image",
-            "url": "https://ph-files.imgix.net/3b64f909-3623-428c-a060-683871519ecb.png?auto=format",
+            "url": "https://ph-files.imgix.net/249fb5b0-5d5d-44a4-9c9f-039156f1a561.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/1f4f32a9-b4c1-4a09-b579-d95e0366b5ca.jpeg?auto=format",
             "videoUrl": null
           },
           {
             "type": "image",
-            "url": "https://ph-files.imgix.net/be779310-c229-479e-9490-c7e6dae27d03.png?auto=format",
+            "url": "https://ph-files.imgix.net/946e0b58-8064-4bb5-9219-59636abf9a6a.png?auto=format",
             "videoUrl": null
           },
           {
             "type": "image",
-            "url": "https://ph-files.imgix.net/fc8b246d-2090-4d47-8f0b-563a521db9cf.png?auto=format",
+            "url": "https://ph-files.imgix.net/e289cdfc-d2bb-4780-949b-c3bd400d9654.png?auto=format",
             "videoUrl": null
           },
           {
             "type": "image",
-            "url": "https://ph-files.imgix.net/75ded888-78e7-494c-9c61-aee01ad762e7.png?auto=format",
+            "url": "https://ph-files.imgix.net/78ce99a7-05c0-4ee9-a056-97226aa1241b.png?auto=format",
             "videoUrl": null
           },
           {
             "type": "image",
-            "url": "https://ph-files.imgix.net/8b28c443-4f15-4212-839e-bfe740b17cd4.png?auto=format",
+            "url": "https://ph-files.imgix.net/274b9e1d-31b5-4da6-b02a-1c6eaa37c521.png?auto=format",
             "videoUrl": null
           },
           {
             "type": "image",
-            "url": "https://ph-files.imgix.net/7ca5f6d8-9117-434a-8e99-1120549c5691.png?auto=format",
-            "videoUrl": null
-          },
-          {
-            "type": "image",
-            "url": "https://ph-files.imgix.net/1f93a34e-f312-45ea-817e-f716e3615479.png?auto=format",
+            "url": "https://ph-files.imgix.net/55ad4ef7-ddaf-4288-ae9d-1d110e06a0a3.png?auto=format",
             "videoUrl": null
           }
         ]
       },
       "raw": {
-        "slug": "cloud-releases",
-        "featuredAt": "2026-10-14T07:01:00Z",
-        "createdAt": "2026-10-14T07:01:00Z"
+        "slug": "afterparty",
+        "featuredAt": "2026-10-15T07:01:00Z",
+        "createdAt": "2026-10-15T07:01:00Z"
       }
     },
     {
       "rank": 20,
-      "id": "1275818",
-      "name": "Make0 Brain",
-      "tagline": "A memory store that works across all of your AI agents.",
-      "description": "Make0 Brain is a personal memory store that works across ChatGPT, Claude, Cursor, and other MCP-compatible AI tools. AI agents can read and write to this memory and be in sync with your personal context. It is like dropbox but for memories - specifically built for agents to use. You can easily build your brain in just 2 minutes by importing your conversations from Claude, ChatGPT and even dropping your markdown files and documents.",
+      "id": "1280610",
+      "name": "Superdraft",
+      "tagline": "Automatically identify opportunities to email your customers",
+      "description": "Good email opportunities slip by when you’re busy running a business. Superdraft spots them and turns them into on-brand drafts with copy, images, and layout. Edit, export HTML, and send through your existing email platform.",
       "keywords": [
-        "A",
-        "memory",
-        "store",
-        "that"
+        "Automatically",
+        "identify",
+        "opportunities",
+        "to"
       ],
       "metrics": {
-        "votes": 74,
-        "comments": 3
+        "votes": 78,
+        "comments": 9
       },
       "links": {
-        "homepage": "https://www.producthunt.com/r/7H3KVAWJJDBJQ4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
-        "source": "https://www.producthunt.com/products/make0-brain?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+        "homepage": "https://www.producthunt.com/r/HTB6FNNEGXC43E?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/superdraft?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
       },
       "assets": {
-        "icon": "https://ph-files.imgix.net/536789a7-7430-4ef7-96a0-ed092dc79fd8.png?auto=format",
-        "thumbnail": "https://ph-files.imgix.net/536789a7-7430-4ef7-96a0-ed092dc79fd8.png?auto=format",
+        "icon": "https://ph-files.imgix.net/a5916c60-e874-4206-9783-324004b23dd4.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/a5916c60-e874-4206-9783-324004b23dd4.png?auto=format",
         "media": [
           {
-            "type": "image",
-            "url": "https://ph-files.imgix.net/cbbd9704-c41b-406e-9fec-f9f2694938e1.png?auto=format",
-            "videoUrl": null
-          },
-          {
             "type": "video",
-            "url": "https://ph-files.imgix.net/83406bf0-5444-45d0-9050-598e4f124f93.jpeg?auto=format",
-            "videoUrl": null
-          },
-          {
-            "type": "video",
-            "url": "https://ph-files.imgix.net/b542fe93-66d5-41e1-b21e-e50dd887064a.jpeg?auto=format",
+            "url": "https://ph-files.imgix.net/21193ceb-990a-47d3-98eb-983d8eadc7bc.jpeg?auto=format",
             "videoUrl": null
           },
           {
             "type": "image",
-            "url": "https://ph-files.imgix.net/bd5b54ff-34f3-4da6-8e5e-f011baba711a.png?auto=format",
+            "url": "https://ph-files.imgix.net/7f149f3a-5b27-40ac-9d96-2cf21ae276a1.png?auto=format",
             "videoUrl": null
           },
           {
             "type": "image",
-            "url": "https://ph-files.imgix.net/e5d7d95b-bf0e-40cc-8b53-68740b6c5d62.png?auto=format",
+            "url": "https://ph-files.imgix.net/09ba0dd1-3cc3-4c3c-9f44-9c791b8a0282.png?auto=format",
             "videoUrl": null
           },
           {
             "type": "image",
-            "url": "https://ph-files.imgix.net/beef7cfe-fc2b-486d-bf42-65f5748c88e5.png?auto=format",
+            "url": "https://ph-files.imgix.net/8aae383b-4a59-453b-8287-0d8ca5783154.png?auto=format",
             "videoUrl": null
           },
           {
             "type": "image",
-            "url": "https://ph-files.imgix.net/29c4a943-c345-4ca1-88f3-ab895e0a8f93.png?auto=format",
-            "videoUrl": null
-          },
-          {
-            "type": "image",
-            "url": "https://ph-files.imgix.net/d9efd482-8f62-455e-adc1-d58abca87f6b.png?auto=format",
+            "url": "https://ph-files.imgix.net/7929de7a-e156-46de-92a7-5168f72a16dd.png?auto=format",
             "videoUrl": null
           }
         ]
       },
       "raw": {
-        "slug": "make0-brain",
-        "featuredAt": "2026-10-14T07:01:00Z",
-        "createdAt": "2026-10-14T07:01:00Z"
+        "slug": "superdraft",
+        "featuredAt": "2026-10-15T07:01:00Z",
+        "createdAt": "2026-10-15T07:01:00Z"
       }
     }
   ]
