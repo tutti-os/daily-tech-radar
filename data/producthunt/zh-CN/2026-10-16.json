@@ -1,0 +1,1380 @@
+{
+  "schemaVersion": "daily-tech-radar.v1",
+  "source": "producthunt",
+  "locale": "zh-CN",
+  "date": "2026-10-16",
+  "sourceTimezone": "Asia/Shanghai",
+  "generatedAt": "2026-10-16T20:23:40.274Z",
+  "items": [
+    {
+      "rank": 1,
+      "id": "1274680",
+      "name": "Jockey by TwelveLabs",
+      "tagline": "Your entire video library: organized, searchable, understood",
+      "description": "Jockey is the first AI that understands your entire media library across photos and video. It analyzes thousands of hours of footage so you can find and connect people, moments and context across videos. Use it in Claude or ChatGPT, or build with the API/SDK. Ingest YouTube, TikTok and Instagram Reels links; assemble content into MP4s; and create and share video-driven artifacts with playable clips. Every TwelveLabs model upgrade makes Jockey better, without re-integration.",
+      "keywords": [
+        "Your",
+        "entire",
+        "video",
+        "library:"
+      ],
+      "metrics": {
+        "votes": 353,
+        "comments": 24
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/H3AVDIX7A2JROL?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/twelvelabs?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/4ad9e370-d353-4eca-a339-a783eaf4d5af.gif?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/4ad9e370-d353-4eca-a339-a783eaf4d5af.gif?auto=format",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/18985122-061d-4872-8db4-3b819ca49b15.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/83096054-69e8-41e6-8532-bc40d8a71174.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/609674b9-280c-4c3a-8b7e-5c1f9dd27262.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/2aea870b-245d-4fda-a8d5-cc6cf8d005cd.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/bd34e632-f211-4b8c-91dc-c649da747215.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/28bda25e-dc2b-4c9e-8c50-99013eca346d.jpeg?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "jockey-by-twelvelabs-2",
+        "featuredAt": "2026-10-16T07:01:00Z",
+        "createdAt": "2026-10-16T07:01:00Z"
+      }
+    },
+    {
+      "rank": 2,
+      "id": "1281483",
+      "name": "Harness by Autonomous",
+      "tagline": "Every coding agent, every machine, one command center.",
+      "description": "Harness is the open-source command center for coding agents. Claude Code at work, Codex at home, Hermes in the cloud: every agent on every machine, side by side. Use the native desktop app, hn in your terminal, or the iOS and Android app to answer agents by voice. End-to-end encrypted. Then go beyond code with 49 harnesses for CAD, circuits, robots, games and music. Free on Mac and Linux.",
+      "keywords": [
+        "Every",
+        "coding",
+        "agent,",
+        "every"
+      ],
+      "metrics": {
+        "votes": 267,
+        "comments": 19
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/DTWJQ55RR225ZD?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/harness-by-autonomous?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/8dd4ace8-4774-4e1c-9f3d-9ce6674a82db.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/8dd4ace8-4774-4e1c-9f3d-9ce6674a82db.png?auto=format",
+        "media": [
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/84ef43f9-1e3c-4ca9-84e6-a20d67697e01.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/529d55db-7a43-4dec-bfa2-defd01c6605b.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/74bbbfd4-1b39-4382-9071-ff98dcd45979.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/6142a79c-0713-4360-86f8-932ef78b88f9.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/3ac0f8c2-43ee-4dc7-8fb8-95d2cf8966dc.png?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "harness-by-autonomous-2",
+        "featuredAt": "2026-10-16T07:01:00Z",
+        "createdAt": "2026-10-16T07:01:00Z"
+      }
+    },
+    {
+      "rank": 3,
+      "id": "1282035",
+      "name": "Tesla Roadster",
+      "tagline": "The hypercar that flies",
+      "description": "Roadster can perform at levels unlike any other production car. It goes beyond Plaid to unlock an entirely new dimension of driving. It challenges the limits of design, engineering and physics to deliver an expertly crafted extra-terrestrial vehicle.",
+      "keywords": [
+        "The",
+        "hypercar",
+        "that",
+        "flies"
+      ],
+      "metrics": {
+        "votes": 185,
+        "comments": 6
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/ZPPNXZJWS7FMRU?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/tesla-roadster?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/106cfeac-850f-4567-ac42-0a51998ee2f1.jpeg?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/106cfeac-850f-4567-ac42-0a51998ee2f1.jpeg?auto=format",
+        "media": [
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/aeb8b617-f80a-4186-bb82-1f5050969f6c.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/3a39a1e4-01b0-4cf2-91e5-fb00f25133b2.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/cc488353-03d1-4a0b-9dbc-9de2d6eca2ac.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/d4c2150d-238c-4350-9840-019c5c3c628c.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/0f59d53e-878a-47f8-8112-2c79fd71ae63.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/9feffbf0-9e4c-4e4e-bb88-018031b70bcd.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/e2831426-9439-4354-918a-4e89cf67b7b1.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/0c2e4bb9-e973-4551-9728-922f59996b58.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/ef9bd3dd-794f-4b2c-a428-c869463628fc.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/ba2a27e9-5fcf-44e8-a152-31dc36ece5f7.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/961b8a34-3035-4294-a4b6-76efa39f6bd6.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/f53cf8a2-d5b8-4124-8af1-440d77fd2c32.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/70858d20-1fba-4c26-8630-f6be1dabb8e2.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/578354a0-88a4-4bb7-9a27-337ca131c32d.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/bdbfada3-6f76-4685-a7be-2c1b0dd2bbf6.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/6c3acf05-c527-4303-946a-fbf12aa0ac33.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/e41001ec-edaa-4a7a-9996-8b516c82e23e.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/4efc56cf-fd96-47c9-bd87-ddf7579e8c3e.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/e32bc2fd-42a8-4895-a2a2-fef9349191b0.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/c6c9fa08-926a-4b26-8c7b-539bcb1efca4.jpeg?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "tesla-roadster",
+        "featuredAt": "2026-10-16T07:01:00Z",
+        "createdAt": "2026-10-16T07:01:00Z"
+      }
+    },
+    {
+      "rank": 4,
+      "id": "1278195",
+      "name": "SignWith",
+      "tagline": "E-signatures without the subscription. Pay per doc.",
+      "description": "Sign 3 documents free every month, then buy one-time credit packs from $9. Every account gets signing order, email OTP verification, audit trail and certificate of completion. Send from the app, the API, or AI assistants like Claude and ChatGPT using the MCP.",
+      "keywords": [
+        "E-signatures",
+        "without",
+        "the",
+        "subscription."
+      ],
+      "metrics": {
+        "votes": 180,
+        "comments": 32
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/IKNOVOIOYZFRKD?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/signwith?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/0a009e3c-b630-4961-9873-0f9e10fc13dc.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/0a009e3c-b630-4961-9873-0f9e10fc13dc.png?auto=format",
+        "media": [
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/15d31ddc-5527-4555-9d98-54574c9fd1b6.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/47ecf72e-565a-4a25-9a7a-9eb1508d020a.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/3d53296e-a204-4569-9402-d20497c2725b.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/48a29d8a-8013-4928-a553-639a1cc209d4.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/6e524a38-334f-4f7b-86d9-c4e78e921445.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/9d1eab13-4389-4971-a322-f938d39beea4.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/0328f592-80d9-41c3-90ab-89ab70acdd14.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/0585f84e-6628-40f0-8a16-9df63f7ae979.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/ec5e52cf-a504-49a3-85e0-115a96ecf9c9.png?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "signwith",
+        "featuredAt": "2026-10-16T07:01:00Z",
+        "createdAt": "2026-10-16T07:01:00Z"
+      }
+    },
+    {
+      "rank": 5,
+      "id": "1277534",
+      "name": "Pomerado",
+      "tagline": "Turn any website into an API; Faster & reliable browser use",
+      "description": "Pomerado turns any website into a MCP / API in minutes. Automate everything by turning previously inaccessible websites (like Google Flights, Zillow, Instacart, legacy portals) into native tools for your agents. Our open-source tool builds, hosts, authenticates, and maintains your integrations, so you can focus on building.",
+      "keywords": [
+        "Turn",
+        "any",
+        "website",
+        "into"
+      ],
+      "metrics": {
+        "votes": 148,
+        "comments": 16
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/VN2LP6GB4KYPXX?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/pomerado?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/ba981b0d-a39a-4b37-af33-c8198697d818.svg?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/ba981b0d-a39a-4b37-af33-c8198697d818.svg?auto=format",
+        "media": [
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/fb506080-e754-44b3-b473-94a9b4fb2737.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/45143ee2-d179-423f-a5ed-25d12dd682af.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/dcdfc6d9-2f0e-406a-abb2-239ff9e04eb6.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/5e565251-cb3e-4c97-a18d-c4d1bb4af0cc.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/d71ea364-109e-4f92-ba84-423c063565a5.gif?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "pomerado",
+        "featuredAt": "2026-10-16T07:01:00Z",
+        "createdAt": "2026-10-16T07:01:00Z"
+      }
+    },
+    {
+      "rank": 6,
+      "id": "1274688",
+      "name": "Hintly for Google Meet™",
+      "tagline": "Real-time hints for every term you miss on Google Meet",
+      "description": "Hintly explains the terms, names and things people mention on your Google Meet calls, a moment after they come up.",
+      "keywords": [
+        "Real-time",
+        "hints",
+        "for",
+        "every"
+      ],
+      "metrics": {
+        "votes": 117,
+        "comments": 11
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/F6EPOLKJZA3EMU?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/hintly-for-google-meet?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/814bafa3-8385-456f-a131-4f31bd9cbc6f.gif?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/814bafa3-8385-456f-a131-4f31bd9cbc6f.gif?auto=format",
+        "media": [
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/2364da4a-3aa5-42b7-8184-7cd799951dd8.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/c08b65d4-ec47-4e0a-8a39-2c57d96fef06.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/97fe0e0e-47ea-4a28-b372-93964c783251.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/d9e265f2-43ba-4f1a-839e-470ee3013157.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/3e4cb723-7859-4c10-8248-b2444beeed60.png?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "hintly-for-google-meet",
+        "featuredAt": "2026-10-16T07:01:00Z",
+        "createdAt": "2026-10-16T07:01:00Z"
+      }
+    },
+    {
+      "rank": 7,
+      "id": "1279617",
+      "name": "Fish Audio Drama 3",
+      "tagline": "AI voice acting you can direct, not just generate",
+      "description": "Drama 3 is Fish Audio's latest AI voice model, built for performances you can direct. Turn scripts into expressive speech with natural-language control over emotion, pacing, whispers, laughter, and pauses — even within a single sentence. Create multi-character scenes, audiobooks, game dialogue, and narration across 83 languages. Available on the web, mobile, and API, with open weights for self-hosting under Fish Audio's community license.",
+      "keywords": [
+        "AI",
+        "voice",
+        "acting",
+        "you"
+      ],
+      "metrics": {
+        "votes": 113,
+        "comments": 5
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/S62DBL7GMHNIII?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/fish-speech?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/fa155317-cdb3-4612-9bc0-f3e0a5e6788f.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/fa155317-cdb3-4612-9bc0-f3e0a5e6788f.png?auto=format",
+        "media": [
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/c07e277f-b383-4346-8b22-7a6597837edb.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/1bd6f85a-775b-4a2a-a923-5733d9b4c030.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/0edf1d99-bd56-49bc-aecf-350d6c02335b.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/e67620e9-6eae-4f2a-a718-a52f241b267a.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/aaf0f3d8-ab9a-458b-8bc6-511757ff386f.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/274aae0d-7497-4171-8d8a-8e799409fd4a.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/e6fd46cb-8fec-486c-b3fe-df1484f292cb.png?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "fish-audio-drama-3",
+        "featuredAt": "2026-10-16T07:01:00Z",
+        "createdAt": "2026-10-16T07:01:00Z"
+      }
+    },
+    {
+      "rank": 8,
+      "id": "1280573",
+      "name": "Memory Chess",
+      "tagline": "Study a chess position, then rebuild it from memory",
+      "description": "Memory Chess shows you a chess position for a few seconds, clears the board, and you put the pieces back. Version 2.0 is our biggest update yet: a daily board everyone plays once, a skill rating that moves both ways, a dashboard of your memory span and progress, shareable round replays, and a redesign in 24 languages. Free, no account. Come say hi and swap scores with other players on Telegram: t.me/TheMemoryChess",
+      "keywords": [
+        "Study",
+        "a",
+        "chess",
+        "position,"
+      ],
+      "metrics": {
+        "votes": 106,
+        "comments": 8
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/4SEMA4OXQUPDNQ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/memory-chess?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/9153659b-220f-46fa-b5a7-19db87fc1733.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/9153659b-220f-46fa-b5a7-19db87fc1733.png?auto=format",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/5e0859bd-b05c-46f8-b602-e3da9289c734.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/b542e344-42b1-4ac1-84ba-fdb2dce04160.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/1cd6108a-704e-4894-b8ff-9de4878d568e.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/eec1cedf-020e-41bf-bf26-5e23cd01f517.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/cd90ebc9-1ed4-4c13-a97c-145c7e4fc182.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/88f2d02f-89a9-44d2-af06-7e68a2781fbf.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/7db1eb36-fd37-4b65-a975-9e1cbce5b8a4.jpeg?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "memory-chess-2",
+        "featuredAt": "2026-10-16T07:01:00Z",
+        "createdAt": "2026-10-16T07:01:00Z"
+      }
+    },
+    {
+      "rank": 9,
+      "id": "1280874",
+      "name": "Dottr",
+      "tagline": "Agent that drafts contracts, flags risks + gets them signed",
+      "description": "Dottr is an AI teammate for contracts that lives in your email. Forward a thread or notes and it drafts the agreement from your templates, reviews risks in plain English, sends it for signature, and chases every signer until it’s done. Signers need no login. It also remembers the terms and dates so you can ask what you agreed later. From draft to signed instantly, so the yes doesn’t go cold.",
+      "keywords": [
+        "Agent",
+        "that",
+        "drafts",
+        "contracts,"
+      ],
+      "metrics": {
+        "votes": 101,
+        "comments": 11
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/4PWEXRFLTRGWJD?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/dottr?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/9a147bda-4b76-4580-9d9a-1abc06bb758f.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/9a147bda-4b76-4580-9d9a-1abc06bb758f.png?auto=format",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/6f7127b2-3a87-4b55-a7bf-8f2cf9fdbef6.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/cae92b7f-473d-4951-bd47-61fcd464d6ca.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/911f2e89-056b-43ff-a02e-14988e557d5a.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/4fcd2373-239f-49b1-a85d-6d1c59a63c32.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/aebd3db8-f80c-471b-8bb4-f72b57fb6c91.jpeg?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "dottr",
+        "featuredAt": "2026-10-16T07:01:00Z",
+        "createdAt": "2026-10-16T07:01:00Z"
+      }
+    },
+    {
+      "rank": 10,
+      "id": "1281822",
+      "name": "Parallax",
+      "tagline": "Every coding agent you run, in one place.",
+      "description": "Parallax runs your coding agents for you. Claude Code, Codex and 40+ more in one app, with 240+ models on your own subscriptions. Captain handles the busywork, fast merge ships your PRs in one click, and when a subscription runs out, auto fallback enables your work to move to the next.",
+      "keywords": [
+        "Every",
+        "coding",
+        "agent",
+        "you"
+      ],
+      "metrics": {
+        "votes": 96,
+        "comments": 7
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/23DR2PPSB3MY5C?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/parallax-5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/08f05d37-acd0-4443-b9c8-4f88a2e4a7cd.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/08f05d37-acd0-4443-b9c8-4f88a2e4a7cd.png?auto=format",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/91d1e35d-72ee-4a62-83e8-92fcf4d33a55.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/80910d60-f28c-4edd-9eb5-65596e91252b.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/2d7ce6ac-23da-4e51-b4c7-103e0e1cea5e.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/003f7a95-71a0-4826-a57d-dd463b4ff134.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/393c429e-750e-4988-b27b-0756390f474b.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/0a70537a-133b-4fd7-9ee7-fefa63ceea96.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/243b1232-6fa6-4974-afeb-bf5225ac4088.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/34605c24-fb69-40c9-9f18-ff83e844a137.png?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "parallax-9f9b7e6d-09d4-4ba1-8fcb-30649e79776b",
+        "featuredAt": "2026-10-16T07:01:00Z",
+        "createdAt": "2026-10-16T07:01:00Z"
+      }
+    },
+    {
+      "rank": 11,
+      "id": "1278687",
+      "name": "Firefox Enterprise",
+      "tagline": "Firefox for enterprises that want control of their data",
+      "description": "Firefox Enterprise brings Mozilla's independent browser technology to organizations that want more control over their IT infrastructure and data. Built on the Gecko engine, it offers a self-hosted management console for centrally managing browser policies, access, data movement, and AI usage. It works alongside existing identity, security, and device management systems, helping enterprises reduce dependence on dominant browser ecosystems.",
+      "keywords": [
+        "Firefox",
+        "for",
+        "enterprises",
+        "that"
+      ],
+      "metrics": {
+        "votes": 96,
+        "comments": 2
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/4WDS25OV64OZ2N?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/mozilla?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/fb13e32f-bee0-4797-bf91-0a98207a21ff.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/fb13e32f-bee0-4797-bf91-0a98207a21ff.png?auto=format",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/34b64df1-2f53-4e49-b9c0-c87ee8b34ecb.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/c8831c1d-dbb9-45dc-9435-c029dcdb6960.webp?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/326f566b-4985-4c0d-8d64-b7c6a86c2701.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/f0a119c3-27bd-4cbe-929a-0911d8ab4f1d.png?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "firefox-enterprise-2",
+        "featuredAt": "2026-10-16T07:01:00Z",
+        "createdAt": "2026-10-16T07:01:00Z"
+      }
+    },
+    {
+      "rank": 12,
+      "id": "1273049",
+      "name": "Taim",
+      "tagline": "Capture it. Taim files, schedules & syncs it with your AI.",
+      "description": "Taim is your thought-capture assistant. Speak your mind and it all falls into place: thoughts land in the right thread automatically, and to-dos become tasks, reminders, and calendar events. Connect via MCP, and every agent you use instantly has your context.",
+      "keywords": [
+        "Capture",
+        "it.",
+        "Taim",
+        "files,"
+      ],
+      "metrics": {
+        "votes": 94,
+        "comments": 31
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/D5WWJHKU6PEMIK?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/taim-4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/14cdc710-39f6-435a-8961-b1b5d202a45e.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/14cdc710-39f6-435a-8961-b1b5d202a45e.png?auto=format",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/724a5f00-c8b4-4e58-bd93-715098d8f0e6.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/cc2148ed-3b7e-4e3a-9036-7d5aa3abbc26.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/791f1ad9-bca2-46a5-ba71-1f246d5052cf.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/e770d73d-afcd-44ba-a081-ff0549675264.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/78aaf3d3-6933-4d40-944e-c6216095150b.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/3f286a5b-bc86-48b7-84d6-0a950f3236d4.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/de81bb01-6946-4c82-83d4-ff5762b398fd.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/548087b6-64fc-4212-98f3-c8d48bf35033.jpeg?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "taim-4",
+        "featuredAt": "2026-10-16T07:01:00Z",
+        "createdAt": "2026-10-16T07:01:00Z"
+      }
+    },
+    {
+      "rank": 13,
+      "id": "1280285",
+      "name": "Lovable Growth Tools",
+      "tagline": "From building your app to growing it, in one chat",
+      "description": "Lovable can now help you grow your business. Set a goal like “my first 100 signups” and get a launch playbook built from your app. Launch ads to Google Search, YouTube, Maps, Facebook and Instagram. Get found in Google and AI search with Semrush data. Create images, video and copy from your builds. Unlike an agency or a pile of tools, it lives next to your app and traffic, and you approve before anything spends.",
+      "keywords": [
+        "From",
+        "building",
+        "your",
+        "app"
+      ],
+      "metrics": {
+        "votes": 90,
+        "comments": 1
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/HOY5AKHJBXDLT7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/lovable?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/90acab39-a7ab-434b-a921-4c4785e55589.gif?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/90acab39-a7ab-434b-a921-4c4785e55589.gif?auto=format",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/8ceb942d-0923-4f45-8b7e-170ebb15fea6.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/14882b95-4492-4ab8-b01f-ea1cd4c625bd.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/6b8575fe-2557-4b31-a304-56e6ad700e25.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/2909be89-2795-4e73-a0b5-62e8ee1dac01.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/fa44c943-3ef0-409f-848c-33c419edb1db.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/3a64f884-9e7c-447c-aaaf-b125aec5f906.png?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "lovable-growth-tools",
+        "featuredAt": "2026-10-16T07:01:00Z",
+        "createdAt": "2026-10-16T07:01:00Z"
+      }
+    },
+    {
+      "rank": 14,
+      "id": "1281378",
+      "name": "BOSS Console",
+      "tagline": "A tiny OS for your always-on agents",
+      "description": "BOSS Console is a tiny OS for your always-on agents. Create your own agent with real tools, chat at fluck.ai, and access live sessions at cli.risaboss.com.",
+      "keywords": [
+        "A",
+        "tiny",
+        "OS",
+        "for"
+      ],
+      "metrics": {
+        "votes": 79,
+        "comments": 15
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/427GSERRVC6TPQ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/boss-console?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/6c216097-7388-4808-a25d-93a25e7e97b9.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/6c216097-7388-4808-a25d-93a25e7e97b9.png?auto=format",
+        "media": [
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/751f2688-5370-476f-ab8d-3c98dd5ff253.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/990d8436-1d3f-4868-8182-249a1e142fca.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/da28081a-6ca6-4b1d-8330-e13c67649d08.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/a1701fdc-8cb5-46ee-96ce-47409237e559.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/0604bbc7-42ef-44ce-82b2-37aa1412fe2d.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/d315d1ee-f8ed-4af5-8b90-7af934192124.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/8578bc98-454f-467c-9e5b-ae43f4cbc05c.png?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "boss-console",
+        "featuredAt": "2026-10-16T07:01:00Z",
+        "createdAt": "2026-10-16T07:01:00Z"
+      }
+    },
+    {
+      "rank": 15,
+      "id": "1281857",
+      "name": "Muse Spark Open",
+      "tagline": "The most capable US open weights model to date",
+      "description": "Meta's open weights model built for coding and agentic work. 816B total parameters with 42B active, a 1M token context window and native multimodal input. Download the weights on Hugging Face or run it on two M5 Ultra Mac Studios with MLX.",
+      "keywords": [
+        "The",
+        "most",
+        "capable",
+        "US"
+      ],
+      "metrics": {
+        "votes": 75,
+        "comments": 1
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/EVSJET3OLU3A6X?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/muse-spark-open?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/7b98b142-05d6-49fc-86b6-dea81f114c35.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/7b98b142-05d6-49fc-86b6-dea81f114c35.png?auto=format",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/1d84c4ae-82b4-41ab-a2d0-20a172a7355c.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/5ac8f4b5-a4d1-46cc-9e8b-09fe455e35a9.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/c553a9c0-e5f8-47db-8fee-b20df0bc8cac.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/1fc80c5e-3f34-4213-8f1a-c89a2b0385fd.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/c7d16e03-ab06-482c-8191-a65b4d0eb7cf.png?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "muse-spark-open-2",
+        "featuredAt": "2026-10-16T07:01:00Z",
+        "createdAt": "2026-10-16T07:01:00Z"
+      }
+    },
+    {
+      "rank": 16,
+      "id": "1281593",
+      "name": "Nemotron 3.5 Super VL",
+      "tagline": "NVIDIA’s open multimodal model for specialized agents",
+      "description": "Nemotron 3.5 Super VL is NVIDIA’s open, customizable multimodal model for specialized agents. It is a 120B mixture-of-experts model with 12B active parameters that handles text, image, document, and video input, plus reasoning and tool use, in one model. NVIDIA claims up to 5x higher agentic throughput on a single GPU than open models its size. Checkpoints, training recipes, and datasets are on Hugging Face, with a NIM container.",
+      "keywords": [
+        "NVIDIA’s",
+        "open",
+        "multimodal",
+        "model"
+      ],
+      "metrics": {
+        "votes": 69,
+        "comments": 2
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/ID3MOHR524KFME?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/nvidia?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/75e4b8f8-d448-427e-b92f-c11634afb52f.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/75e4b8f8-d448-427e-b92f-c11634afb52f.png?auto=format",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/9ef897a9-10f7-40a8-9d4c-e28f36fd9ab3.webp?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/a3e62b34-a75f-461e-b822-a8511f84801e.webp?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/d3c17ecb-ea0c-44cd-afa2-d639e09aaf61.webp?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/e976bd6a-2003-4828-8a3c-e987d4f621e7.webp?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/bc18d5c9-78d2-4942-b38b-4b953fe93c1d.webp?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/8de05f82-ab64-478c-90f2-c62bd10b6910.webp?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/6673c0e7-2872-4c07-82bd-8681575454bf.webp?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/dc4df680-eae4-45f6-9717-94b6be3a6365.jpeg?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "nemotron-3-5-super-vl",
+        "featuredAt": "2026-10-16T07:01:00Z",
+        "createdAt": "2026-10-16T07:01:00Z"
+      }
+    },
+    {
+      "rank": 17,
+      "id": "1281319",
+      "name": "NANI???",
+      "tagline": "Your interpreter and your boss doesn't even know.",
+      "description": "NANI??? Ever sat through a call understanding nothing, then realised someone just asked you a question? Nani? learns who’s speaking by voice, right on your Mac, and floats live translated subtitles over any call. No bot joins, so nobody sees a thing. When your boss asks you something, it chimes and suggests replies you can say back, even in a language you don’t speak. Add context and a glossary before the call, and get a summary with action items after. Next time, you won’t have to say NANI???",
+      "keywords": [
+        "Your",
+        "interpreter",
+        "and",
+        "your"
+      ],
+      "metrics": {
+        "votes": 66,
+        "comments": 1
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/AXJGYFOZ2KH23J?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/nani-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/2809980b-682b-46e5-9898-3f4b758c164b.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/2809980b-682b-46e5-9898-3f4b758c164b.png?auto=format",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/67829101-dc1e-4c8b-9dee-76dcd6fc49b6.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/d649013c-de43-4d1e-bc8e-91b2ba29d078.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/fc32c0dd-f819-4278-abaf-d2683889ebb9.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/4a5d68cf-4d8b-405e-9cec-a8aa0aa55138.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/759be176-4554-4d90-9303-5eb2e30d969a.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/ed6f4949-da11-467a-8c86-e900c48a7f0f.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/e73f8496-be9e-421d-858c-163eedeebd60.png?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "nani-4",
+        "featuredAt": "2026-10-16T07:01:00Z",
+        "createdAt": "2026-10-16T07:01:00Z"
+      }
+    },
+    {
+      "rank": 18,
+      "id": "1281992",
+      "name": "GBrain Tools",
+      "tagline": "A password manager for AI",
+      "description": "GBrain Tools is a password manager for AI. Connect Gmail, GitHub, Stripe, Notion and many more once, then use them from ChatGPT, Claude, Claude Code, Cursor or your terminal. No AI holds a password, and every action lands on one log. $19 a month.",
+      "keywords": [
+        "A",
+        "password",
+        "manager",
+        "for"
+      ],
+      "metrics": {
+        "votes": 65,
+        "comments": 1
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/5ARCAPYQEZS7U3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/gbrain?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/a30d2a0a-5ba4-456c-8eaf-004f069a8d94.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/a30d2a0a-5ba4-456c-8eaf-004f069a8d94.png?auto=format",
+        "media": [
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/6bfeab26-3702-4629-8b4b-3167ae205941.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/b6e2863b-78de-4958-bba7-c781ce514706.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/10f32a19-f390-4700-973a-bb9068f7b25a.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/81f9073c-e7bd-4569-84e6-ab18e4d0a9fb.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/f8831365-1a88-40ff-9092-4c56281b14c7.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/02482ac3-1557-42af-a847-9c630fe44d95.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/be7f0687-5a96-48c6-9fb3-3b667aba42d2.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/df122c56-9e34-4f47-9e3e-9fa58d452996.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/e7880b89-ca2c-431d-b0b4-cd57b58adae9.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/8396aab4-2dac-44a8-a441-b1f3ce1fc68b.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/486aa617-fe57-44e1-9999-3eafa6357ab6.png?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "gbrain-tools",
+        "featuredAt": "2026-10-16T07:01:00Z",
+        "createdAt": "2026-10-16T07:01:00Z"
+      }
+    },
+    {
+      "rank": 19,
+      "id": "1279519",
+      "name": "Tidy Design",
+      "tagline": "Open Source Paper / Figma Alternative",
+      "description": "Tidy is an open source alternative to Figma and Paper for designers, engineers, and AI agents. Design interfaces directly from your coding harness (Claude Code, Codex, Opencode, etc), explore the source code, and adapt the tool to fit how you work.",
+      "keywords": [
+        "Open",
+        "Source",
+        "Paper",
+        "/"
+      ],
+      "metrics": {
+        "votes": 65,
+        "comments": 1
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/KIKMJ3DCCFKRMS?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/tidy-design?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/58782dbd-f887-488b-bf44-f40a6000c2de.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/58782dbd-f887-488b-bf44-f40a6000c2de.png?auto=format",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/9a73af7a-88c5-4dc0-afec-0c25eb942d8f.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/2a0053f0-b534-42bd-8900-26c52ee30b2a.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/f08ebf25-9c30-4b84-9678-614c54142be0.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/d4785f4a-6c8a-4177-984e-dced8f518720.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/01982847-84b8-4556-a10d-f0f98785bb78.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/4526ca01-c579-4347-8769-88701d073c72.png?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "tidy-design",
+        "featuredAt": "2026-10-16T07:01:00Z",
+        "createdAt": "2026-10-16T07:01:00Z"
+      }
+    },
+    {
+      "rank": 20,
+      "id": "1280758",
+      "name": "Agent Vault",
+      "tagline": "Superpowers for your Agents",
+      "description": "Your agent fills checkout and sign-in forms with mock tokens. Real card numbers and passwords are substituted inside a secure enclave it can never see.",
+      "keywords": [
+        "Superpowers",
+        "for",
+        "your",
+        "Agents"
+      ],
+      "metrics": {
+        "votes": 63,
+        "comments": 5
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/XCUKBHW37YI5L2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/agent-vault-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/f3e3128d-9f1c-46d7-b099-d65d8bb61bfb.svg?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/f3e3128d-9f1c-46d7-b099-d65d8bb61bfb.svg?auto=format",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/32ad1061-0f3c-4fc8-b0b3-a29122888610.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/478c2845-a6bf-4ff4-bb9d-bdb68cf8696c.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/8db4ec69-5f8a-46ce-b7f7-186d8ccb30aa.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/f6c500ac-2eda-4cfe-abf9-f02a2ae75cec.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/fd9f9d5f-d0b2-4bef-a29c-19a7bc7c9b36.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/d3f5dd25-ca44-4196-affe-d94f607ea502.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/af9a4e89-30ab-4c63-a45a-1c00d6ff9e28.jpeg?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "agent-vault-2",
+        "featuredAt": "2026-10-16T07:01:00Z",
+        "createdAt": "2026-10-16T07:01:00Z"
+      }
+    }
+  ]
+}
