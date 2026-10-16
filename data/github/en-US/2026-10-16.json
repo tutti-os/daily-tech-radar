@@ -1,0 +1,1170 @@
+{
+  "schemaVersion": "trendreader.daily.v1",
+  "packageId": "github-daily-All-2026-10-16",
+  "locale": "en-US",
+  "generatedAt": "2026-10-16T20:23:59.940Z",
+  "expiresAt": "2026-10-17T20:23:59.940Z",
+  "sourceWindow": {
+    "since": "daily",
+    "language": "All",
+    "spokenLanguageCode": null
+  },
+  "sources": [
+    {
+      "id": "github_trending_html",
+      "role": "candidate",
+      "status": "ok",
+      "itemCount": 13
+    }
+  ],
+  "taxonomy": {
+    "version": "2026-10-16",
+    "generatedAt": "2026-10-16T20:23:59.940Z",
+    "categories": [
+      {
+        "id": "ai",
+        "label": "AI",
+        "labelEn": "AI",
+        "icon": "bot",
+        "order": 20
+      },
+      {
+        "id": "tools",
+        "label": "工具",
+        "labelEn": "Tools",
+        "icon": "wrench",
+        "order": 100
+      },
+      {
+        "id": "frontend",
+        "label": "前端",
+        "labelEn": "Frontend",
+        "icon": "layout",
+        "order": 140
+      },
+      {
+        "id": "backend",
+        "label": "后端",
+        "labelEn": "Backend",
+        "icon": "server",
+        "order": 110
+      },
+      {
+        "id": "unclassified",
+        "label": "Needs Review",
+        "labelEn": "Needs Review",
+        "icon": "circle-help",
+        "order": 999
+      }
+    ]
+  },
+  "repos": [
+    {
+      "id": "anthropics-claude-plugins-official",
+      "owner": "anthropics",
+      "name": "claude-plugins-official",
+      "url": "https://github.com/anthropics/claude-plugins-official",
+      "avatarUrl": "https://github.com/anthropics.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 1,
+        "starsGained": 1552
+      },
+      "metadata": {
+        "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
+        "language": "Python",
+        "topics": [],
+        "stars": 40354,
+        "forks": 4392,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Python"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/anthropics/claude-plugins-official/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "Claude Code Plugins Directory",
+        "summary": "A curated directory of high-quality plugins for Claude Code. ⚠️ Important: Make sure you trust a plugin before installing, updating, or using it. Anthropic does not control what MCP servers, files, or other software are included in plugins and cannot verify that they will work as intended or that they won't change. See each plugin's homepage for more information. /plugins - Internal plugins developed and maintained by Anthropic /externalplugins - Third-party plugins from partners and the community Plugins can be installed directly from this marketplace via Claude Code's plugin system.",
+        "headings": [
+          "Claude Code Plugins Directory",
+          "Structure",
+          "Installation",
+          "Contributing",
+          "Internal Plugins",
+          "External Plugins",
+          "Plugin Structure",
+          "Plugin names are immutable"
+        ],
+        "commands": [],
+        "keywords": [
+          "claude code plugins directory",
+          "structure",
+          "installation",
+          "contributing"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "repository_open_graph",
+        "url": "https://opengraph.githubassets.com/daily-tech-radar/anthropics/claude-plugins-official",
+        "thumbUrl": "https://opengraph.githubassets.com/daily-tech-radar/anthropics/claude-plugins-official",
+        "alt": "anthropics/claude-plugins-official",
+        "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
+        "promptHash": "sha256:083f36522e2c"
+      },
+      "classification": {
+        "primaryCategoryId": "unclassified",
+        "secondaryCategoryIds": [],
+        "confidence": 0.4,
+        "method": "rules",
+        "reasons": [
+          "No taxonomy rule matched with enough confidence"
+        ],
+        "signals": []
+      },
+      "rank": {
+        "globalRank": 1,
+        "categoryRank": 1,
+        "score": 118
+      }
+    },
+    {
+      "id": "k-dense-ai-scientific-agent-skills",
+      "owner": "K-Dense-AI",
+      "name": "scientific-agent-skills",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+      "avatarUrl": "https://github.com/K-Dense-AI.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 2,
+        "starsGained": 1158
+      },
+      "metadata": {
+        "description": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. 177 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
+        "language": "Python",
+        "topics": [],
+        "stars": 51365,
+        "forks": 4552,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Python"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "Scientific Agent Skills",
+        "summary": "🔔 Claude Scientific Skills is now Scientific Agent Skills. Same skills, broader compatibility — now works with any AI agent that supports the open https://agentskills.io/ standard, not just Claude. New: https://github.com/K-Dense-AI/k-dense-byok — A free, open-source AI co-scientist that runs on your desktop, powered by Scientific Agent Skills. Bring your own API keys, pick from 40+ models, and get a full research workspace with web search, file handling, 100+ scientific databases, and access to all 177 skills in this repo. Your data stays on your computer, and you can optionally scale to cloud compute via https://modal.com/ for heavy workloads. https://github.com/K-Dense-AI/k-dense-byok",
+        "headings": [
+          "Scientific Agent Skills",
+          "🎥 More tutorials",
+          "📦 What's Included",
+          "What's new in 2.72.0",
+          "What's new in 2.71.0",
+          "Recently added workflows",
+          "📋 Table of Contents",
+          "🚀 Why Use This?"
+        ],
+        "commands": [
+          "pip install cisco-ai-skill-scanner",
+          "pip install uv",
+          "pip install cisco-ai-skill-scanner",
+          "pip install package-name"
+        ],
+        "keywords": [
+          "ai",
+          "agent",
+          "scientific agent skills",
+          "🎥 more tutorials",
+          "📦 what's included",
+          "what's new in 2.72.0"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "repository_open_graph",
+        "url": "https://opengraph.githubassets.com/daily-tech-radar/K-Dense-AI/scientific-agent-skills",
+        "thumbUrl": "https://opengraph.githubassets.com/daily-tech-radar/K-Dense-AI/scientific-agent-skills",
+        "alt": "K-Dense-AI/scientific-agent-skills",
+        "sourceUrl": "https://github.com/K-Dense-AI/scientific-agent-skills",
+        "promptHash": "sha256:867ab5d54260"
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.8,
+        "method": "rules",
+        "reasons": [
+          "Matched ai",
+          "Matched agent"
+        ],
+        "signals": [
+          "ai",
+          "agent"
+        ]
+      },
+      "rank": {
+        "globalRank": 2,
+        "categoryRank": 2,
+        "score": 116
+      }
+    },
+    {
+      "id": "affaan-m-ecc",
+      "owner": "affaan-m",
+      "name": "ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "avatarUrl": "https://github.com/affaan-m.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 3,
+        "starsGained": 1057
+      },
+      "metadata": {
+        "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+        "language": "JavaScript",
+        "topics": [],
+        "stars": 281318,
+        "forks": 41828,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "JavaScript"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/affaan-m/ECC/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "ECC",
+        "summary": "Use the install-ecc or claude-code-details. Both install the same ecc@ecc plugin. Choose one and do not stack a full manual Claude install on top. ECC Pro + GitHub App Install free · Private repos from $19/seat/mo Sponsor ECC Fund the open-source project Community Discord · Q&amp;A · Show and Tell OSS stays free. This repo is MIT-licensed forever. ECC Pro is the hosted GitHub App for private repos. Sponsors and Pro subscribers fund the work. That's why a single maintainer ships weekly across 7 harnesses. &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;",
+        "headings": [
+          "Install with Claude Code",
+          "ECC",
+          "Install ECC",
+          "Recommended: universal guided setup",
+          "Pick one path only (per harness)",
+          "Claude Code details",
+          "Codex App and CLI",
+          "Qoder CLI and IDE"
+        ],
+        "commands": [
+          "npm install\nbash scripts/sync-ecc-to-codex.sh",
+          "npm install && npm run build:opencode && ./install.sh --profile full --target opencode --enable-hooks",
+          "npm install -g ecc-universal@2.2.3",
+          "npm install && bash scripts/sync-ecc-to-codex.sh",
+          "npm install ecc-universal@2.2.3"
+        ],
+        "keywords": [
+          "agent",
+          "install with claude code",
+          "ecc",
+          "install ecc",
+          "recommended: universal guided setup"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/affaan-m/ECC/main/assets/hero.png",
+        "thumbUrl": "https://raw.githubusercontent.com/affaan-m/ECC/main/assets/hero.png",
+        "alt": "ECC - the agent harness operating system",
+        "sourceUrl": "https://raw.githubusercontent.com/affaan-m/ECC/main/assets/hero.png",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.7,
+        "method": "rules",
+        "reasons": [
+          "Matched agent"
+        ],
+        "signals": [
+          "agent"
+        ]
+      },
+      "rank": {
+        "globalRank": 3,
+        "categoryRank": 3,
+        "score": 114
+      }
+    },
+    {
+      "id": "hkuds-cli-anything",
+      "owner": "HKUDS",
+      "name": "CLI-Anything",
+      "url": "https://github.com/HKUDS/CLI-Anything",
+      "avatarUrl": "https://github.com/HKUDS.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 4,
+        "starsGained": 323
+      },
+      "metadata": {
+        "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+        "language": "Python",
+        "topics": [],
+        "stars": 53387,
+        "forks": 4839,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Python"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/HKUDS/CLI-Anything/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "Browse what is available",
+        "summary": "&nbsp; CLI-Anything: Making ALL Software Agent-Native Today's Software Serves Humans👨‍💻. Tomorrow's Users will be Agents🤖. CLI-Anything: Bridging the Gap Between AI Agents and the World's Software 🌐 https://hkuds.github.io/CLI-Anything/: pip install cli-anything-hub then cli-hub install — browse, install, and manage all community-built CLIs. Want to add your own? https://github.com/HKUDS/CLI-Anything/blob/main/CONTRIBUTING.md — the hub updates instantly. 🎬 -real-world-demos: Watch AI agents use generated CLIs plus preview, live preview, and trajectory loops to produce real artifacts — CAD builds, 3D scenes, diagrams, gameplay, subtitles, and more.",
+        "headings": [
+          "📰 News",
+          "🤔 Why CLI?",
+          "🚀 Quick Start",
+          "Browse what is available",
+          "Install and try a CLI immediately",
+          "Pick Your Agent Platform",
+          "Add the CLI-Anything marketplace",
+          "Install the cli-anything plugin from the marketplace"
+        ],
+        "commands": [
+          "pip install cli-anything-hub",
+          "pip install cli-anything-hub",
+          "pip install cli-anything-hub",
+          "pip install cli-anything-hub",
+          "pip install -e .",
+          "pip install -e . puts cli-anything-<software> directly on PATH. Agents discover tools via standard which commands. No setup, no wrappers."
+        ],
+        "keywords": [
+          "agent",
+          "📰 news",
+          "🤔 why cli?",
+          "🚀 quick start",
+          "browse what is available"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/HKUDS/CLI-Anything/main/assets/icon.png",
+        "thumbUrl": "https://raw.githubusercontent.com/HKUDS/CLI-Anything/main/assets/icon.png",
+        "alt": "HKUDS/CLI-Anything",
+        "sourceUrl": "https://raw.githubusercontent.com/HKUDS/CLI-Anything/main/assets/icon.png",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.7,
+        "method": "rules",
+        "reasons": [
+          "Matched agent"
+        ],
+        "signals": [
+          "agent"
+        ]
+      },
+      "rank": {
+        "globalRank": 4,
+        "categoryRank": 4,
+        "score": 112
+      }
+    },
+    {
+      "id": "mksglu-context-mode",
+      "owner": "mksglu",
+      "name": "context-mode",
+      "url": "https://github.com/mksglu/context-mode",
+      "avatarUrl": "https://github.com/mksglu.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 5,
+        "starsGained": 449
+      },
+      "metadata": {
+        "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
+        "language": "TypeScript",
+        "topics": [],
+        "stars": 30156,
+        "forks": 2124,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "TypeScript"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/mksglu/context-mode/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "Context Mode",
+        "summary": "Every MCP tool call dumps raw data into your context window. A Playwright snapshot costs 56 KB. Twenty GitHub issues cost 59 KB. One access log — 45 KB. After 30 minutes, 40% of your context is gone. And when the agent compacts the conversation to free space, it forgets which files it was editing, what tasks are in progress, and what you last asked for. On top of that, the agent wastes output tokens on filler, pleasantries, and verbose explanations — burning context from both sides. Context Mode is an MCP server that solves all four sides of this problem:",
+        "headings": [
+          "Context Mode",
+          "The Problem",
+          "How Context Mode Solves It",
+          "Install",
+          "Option A — Marketplace plugin (recommended once published)",
+          "Option B — Manual install (existing path)",
+          "Tools",
+          "How the Sandbox Works"
+        ],
+        "commands": [
+          "npm install -g context-mode",
+          "npm install -g context-mode",
+          "npm install -g context-mode",
+          "npm install -g context-mode                                     # the plugin's MCP server runs the global binary",
+          "npm install -g context-mode",
+          "npm install -g context-mode@latest"
+        ],
+        "keywords": [
+          "ai",
+          "agent",
+          "mcp",
+          "context mode",
+          "the problem",
+          "how context mode solves it",
+          "install"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://img.youtube.com/vi/QUHrntlfPo4/maxresdefault.jpg",
+        "thumbUrl": "https://img.youtube.com/vi/QUHrntlfPo4/maxresdefault.jpg",
+        "alt": "Watch context-mode demo on YouTube",
+        "sourceUrl": "https://img.youtube.com/vi/QUHrntlfPo4/maxresdefault.jpg",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.9,
+        "method": "rules",
+        "reasons": [
+          "Matched ai",
+          "Matched agent",
+          "Matched mcp"
+        ],
+        "signals": [
+          "ai",
+          "agent",
+          "mcp"
+        ]
+      },
+      "rank": {
+        "globalRank": 5,
+        "categoryRank": 5,
+        "score": 110
+      }
+    },
+    {
+      "id": "ruvnet-ruflo",
+      "owner": "ruvnet",
+      "name": "ruflo",
+      "url": "https://github.com/ruvnet/ruflo",
+      "avatarUrl": "https://github.com/ruvnet.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 6,
+        "starsGained": 672
+      },
+      "metadata": {
+        "description": "🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, federation, vector RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
+        "language": "TypeScript",
+        "topics": [],
+        "stars": 75555,
+        "forks": 8962,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "TypeScript"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/ruvnet/ruflo/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "Ruflo",
+        "summary": "An agent meta-harness for Claude Code and Codex. Start in Claude Code with core tools, the visual console and runtime mods. Requires Claude Code 2.1.287 or later. Run inside Claude Code: Core provides foundation tools. Console opens the agent cockpit. Mods add routing and policy enforcement inside Claude Code. Mods run with your account's permissions; review their code before installing. Using Codex or another MCP enabled tool? Use NPX for Ruflo project setup and connect your client to the Ruflo MCP server. Run the setup wizard in your project terminal: For clients that support local stdio MCP servers, configure command npx and arguments \"-y\", \"ruflo@latest\", \"mcp\", \"start\". The equivalent s",
+        "headings": [
+          "<img src=\"docs/assets/readme/icons/terminal.svg\" width=\"32\" height=\"32\" alt=\"\"> Get started with Ruflo",
+          "Optional: ruOS Desktop",
+          "Ruflo",
+          "One task: create a mission with Claude",
+          "Quick Start",
+          "Path A — Claude Code Plugins (lite, slash commands only)",
+          "Add the marketplace",
+          "Install core + any plugins you need"
+        ],
+        "commands": [
+          "npm install -g ruflo@latest"
+        ],
+        "keywords": [
+          "ai",
+          "agent",
+          "<img src=\"docs/assets/readme/icons/terminal.svg\" width=\"32\" height=\"32\" alt=\"\"> get started with ruflo",
+          "optional: ruos desktop",
+          "ruflo",
+          "one task: create a mission with claude"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/ruvnet/ruflo/main/docs/assets/ruflo-explained/ch14.jpg",
+        "thumbUrl": "https://raw.githubusercontent.com/ruvnet/ruflo/main/docs/assets/ruflo-explained/ch14.jpg",
+        "alt": "RuFlo Explained — build an AI team that plans, remembers, tests, and improves",
+        "sourceUrl": "https://raw.githubusercontent.com/ruvnet/ruflo/main/docs/assets/ruflo-explained/ch14.jpg",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.8,
+        "method": "rules",
+        "reasons": [
+          "Matched ai",
+          "Matched agent"
+        ],
+        "signals": [
+          "ai",
+          "agent"
+        ]
+      },
+      "rank": {
+        "globalRank": 6,
+        "categoryRank": 6,
+        "score": 108
+      }
+    },
+    {
+      "id": "android-skills",
+      "owner": "android",
+      "name": "skills",
+      "url": "https://github.com/android/skills",
+      "avatarUrl": "https://github.com/android.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 7,
+        "starsGained": 163
+      },
+      "metadata": {
+        "description": "",
+        "language": "Kotlin",
+        "topics": [],
+        "stars": 8003,
+        "forks": 531,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Kotlin"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/android/skills/main/README.md"
+      },
+      "readmeSignals": {
+        "title": null,
+        "summary": "Android skills are a dedicated repository of AI-optimized, modular instructions and resources, to help agents better understand and execute specific patterns that follow the best practices and guidance on Android development from https://developer.android.com. Android skills follow the https://agentskills.io/home - markdown files SKILL.md that provide a technical specification of a task, and ground LLMs with information on specialized domains and workflows. Our Android skill development focuses on use cases and workflows where evaluations show LLMs underperform. We aren't prioritizing well-established areas where LLMs are already proficient, such as basic Jetpack Compose best practices.",
+        "headings": [
+          "Android skills",
+          "Install Android skills",
+          "Install as an agent plugin",
+          "Activate skills",
+          "Disclaimer",
+          "Contributing",
+          "License",
+          "Review our community guidelines"
+        ],
+        "commands": [],
+        "keywords": [
+          "android skills",
+          "install android skills",
+          "install as an agent plugin",
+          "activate skills"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "repository_open_graph",
+        "url": "https://opengraph.githubassets.com/daily-tech-radar/android/skills",
+        "thumbUrl": "https://opengraph.githubassets.com/daily-tech-radar/android/skills",
+        "alt": "android/skills",
+        "sourceUrl": "https://github.com/android/skills",
+        "promptHash": "sha256:f456b92b24ab"
+      },
+      "classification": {
+        "primaryCategoryId": "unclassified",
+        "secondaryCategoryIds": [],
+        "confidence": 0.4,
+        "method": "rules",
+        "reasons": [
+          "No taxonomy rule matched with enough confidence"
+        ],
+        "signals": []
+      },
+      "rank": {
+        "globalRank": 7,
+        "categoryRank": 7,
+        "score": 102.3
+      }
+    },
+    {
+      "id": "obra-superpowers",
+      "owner": "obra",
+      "name": "superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "avatarUrl": "https://github.com/obra.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 8,
+        "starsGained": 973
+      },
+      "metadata": {
+        "description": "An agentic skills framework & software development methodology that works.",
+        "language": "Shell",
+        "topics": [],
+        "stars": 300588,
+        "forks": 26841,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Shell"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/obra/superpowers/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "Superpowers",
+        "summary": "Superpowers is a complete software development methodology for your coding agents, built on top of a set of composable skills and some initial instructions that make sure your agent uses them. how-it-works commercial-services installation claude-code antigravity codex-app codex-cli cursor devin-cli factory-droid gemini-cli github-copilot-cli grok-build-cli kimi-code opencode pi qwen-code hermes-agent muse the-basic-workflow when-something-goes-wrong community whats-inside philosophy contributing updating license visual-companion-telemetry It starts from the moment you fire up your coding agent. As soon as it sees that you're building something, it doesn't just jump into trying to write code.",
+        "headings": [
+          "Superpowers",
+          "Table of Contents",
+          "How it works",
+          "Commercial Services",
+          "Installation",
+          "Claude Code",
+          "Antigravity",
+          "Codex App"
+        ],
+        "commands": [],
+        "keywords": [
+          "agent",
+          "superpowers",
+          "table of contents",
+          "how it works",
+          "commercial services"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "repository_open_graph",
+        "url": "https://opengraph.githubassets.com/daily-tech-radar/obra/superpowers",
+        "thumbUrl": "https://opengraph.githubassets.com/daily-tech-radar/obra/superpowers",
+        "alt": "obra/superpowers",
+        "sourceUrl": "https://github.com/obra/superpowers",
+        "promptHash": "sha256:51b512daa18a"
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.7,
+        "method": "rules",
+        "reasons": [
+          "Matched agent"
+        ],
+        "signals": [
+          "agent"
+        ]
+      },
+      "rank": {
+        "globalRank": 8,
+        "categoryRank": 8,
+        "score": 104
+      }
+    },
+    {
+      "id": "cursor-plugins",
+      "owner": "cursor",
+      "name": "plugins",
+      "url": "https://github.com/cursor/plugins",
+      "avatarUrl": "https://github.com/cursor.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 9,
+        "starsGained": 282
+      },
+      "metadata": {
+        "description": "Cursor plugin specification and official plugins",
+        "language": "TypeScript",
+        "topics": [],
+        "stars": 11879,
+        "forks": 1156,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "TypeScript"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/cursor/plugins/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "Cursor plugins",
+        "summary": "Official Cursor plugins for popular developer tools, frameworks, and SaaS products. Each plugin is a standalone directory at the repository root with its own .cursor-plugin/plugin.json manifest. | name | Plugin | Author | Category | description from marketplace | | teaching | teaching/ | Cursor | Utilities | Skill mapping, practice plans, and learning retrospectives. | | continual-learning | continual-learning/ | Eric Zakariasson | Developer Tools | Incremental transcript-driven memory updates for AGENTS.md using high-signal bullet points only. | | cursor-team-kit | cursor-team-kit/ | Eric Zakariasson | Developer Tools | Internal team workflows for CI, code review, shipping, local automation",
+        "headings": [
+          "Cursor plugins",
+          "Plugins",
+          "Repository structure",
+          "License"
+        ],
+        "commands": [],
+        "keywords": [
+          "cursor plugins",
+          "plugins",
+          "repository structure",
+          "license"
+        ],
+        "score": 80
+      },
+      "visual": {
+        "kind": "repository_open_graph",
+        "url": "https://opengraph.githubassets.com/daily-tech-radar/cursor/plugins",
+        "thumbUrl": "https://opengraph.githubassets.com/daily-tech-radar/cursor/plugins",
+        "alt": "cursor/plugins",
+        "sourceUrl": "https://github.com/cursor/plugins",
+        "promptHash": "sha256:4b8206bfeced"
+      },
+      "classification": {
+        "primaryCategoryId": "unclassified",
+        "secondaryCategoryIds": [],
+        "confidence": 0.4,
+        "method": "rules",
+        "reasons": [
+          "No taxonomy rule matched with enough confidence"
+        ],
+        "signals": []
+      },
+      "rank": {
+        "globalRank": 9,
+        "categoryRank": 9,
+        "score": 102
+      }
+    },
+    {
+      "id": "debpalash-voicestudio",
+      "owner": "debpalash",
+      "name": "VoiceStudio",
+      "url": "https://github.com/debpalash/VoiceStudio",
+      "avatarUrl": "https://github.com/debpalash.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 10,
+        "starsGained": 2301
+      },
+      "metadata": {
+        "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+        "language": "Python",
+        "topics": [],
+        "stars": 70775,
+        "forks": 7757,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Python"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/debpalash/VoiceStudio/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "Latest Electron release",
+        "summary": "VoiceStudio Open-source voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages. Website · Download · Get started · Docs · Discord · 简体中文 · 日本語 | Create | Produce | Connect | | Clone a voice or design your own | Dub videos with timed speech | Local API & MCP for agents | | Dictate with a floating widget | Stories, audiobooks & batch jobs | Reusable recipes & watch folders | Start with VoiceStudio default, powered by k2-fsa/OmniVoice, or choose another engine. docs/feature-catalog.md. Local workflows run on your hardware. Remote services are optional; usage analytics requires consent.",
+        "headings": [
+          "Your voice. Your workflow.",
+          "Get started",
+          "One-command install (macOS / Linux)",
+          "Latest Electron release",
+          "A specific published Electron release (replace X.Y.Z)",
+          "Build current main and install the desktop app",
+          "Uninstall the app, keeping your data",
+          "Install with prompt"
+        ],
+        "commands": [],
+        "keywords": [
+          "your voice. your workflow.",
+          "get started",
+          "one-command install (macos / linux)",
+          "latest electron release"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/debpalash/VoiceStudio/main/docs/media/electron/voicestudio.gif",
+        "thumbUrl": "https://raw.githubusercontent.com/debpalash/VoiceStudio/main/docs/media/electron/voicestudio.gif",
+        "alt": "A tour of the Electron app: voice cloning, voice design, dubbing, and model management",
+        "sourceUrl": "https://raw.githubusercontent.com/debpalash/VoiceStudio/main/docs/media/electron/voicestudio.gif",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "unclassified",
+        "secondaryCategoryIds": [],
+        "confidence": 0.4,
+        "method": "rules",
+        "reasons": [
+          "No taxonomy rule matched with enough confidence"
+        ],
+        "signals": []
+      },
+      "rank": {
+        "globalRank": 10,
+        "categoryRank": 10,
+        "score": 100
+      }
+    },
+    {
+      "id": "madslorentzen-ai-job-search",
+      "owner": "MadsLorentzen",
+      "name": "ai-job-search",
+      "url": "https://github.com/MadsLorentzen/ai-job-search",
+      "avatarUrl": "https://github.com/MadsLorentzen.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 11,
+        "starsGained": 879
+      },
+      "metadata": {
+        "description": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.",
+        "language": "Python",
+        "topics": [],
+        "stars": 48282,
+        "forks": 16597,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Python"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/MadsLorentzen/ai-job-search/master/README.md"
+      },
+      "readmeSignals": {
+        "title": "AI Job Search",
+        "summary": "The job search that runs on your machine. An AI-powered job application framework built on https://claude.com/claude-code. Fork it, fill in your profile, and let Claude evaluate job postings, tailor your CV, write cover letters, and prepare you for interviews. Note: This is an independent open-source project and is not affiliated with, endorsed by, sponsored by, or maintained by Anthropic. Anthropic and Claude Code are referenced only to describe the toolchain this workflow uses. This project has no affiliated cryptocurrency, token, or paid sponsorship program. Anything claiming otherwise is unauthorized and should be treated as a scam. The only ways to support the project are the Ko-fi link",
+        "headings": [
+          "AI Job Search",
+          "Does it actually work?",
+          "What this is",
+          "Prerequisites",
+          "Quick start",
+          "1. Fork and clone",
+          "2. Install job search tools",
+          "3. Set up your profile"
+        ],
+        "commands": [
+          "pip install pypdf"
+        ],
+        "keywords": [
+          "ai",
+          "ai job search",
+          "does it actually work?",
+          "what this is",
+          "prerequisites"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/MadsLorentzen/ai-job-search/master/assets/mascot/pip_flight_loop.gif",
+        "thumbUrl": "https://raw.githubusercontent.com/MadsLorentzen/ai-job-search/master/assets/mascot/pip_flight_loop.gif",
+        "alt": "Pip, the courier bird",
+        "sourceUrl": "https://raw.githubusercontent.com/MadsLorentzen/ai-job-search/master/assets/mascot/pip_flight_loop.gif",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.7,
+        "method": "rules",
+        "reasons": [
+          "Matched ai"
+        ],
+        "signals": [
+          "ai"
+        ]
+      },
+      "rank": {
+        "globalRank": 11,
+        "categoryRank": 11,
+        "score": 98
+      }
+    },
+    {
+      "id": "hmjz100-linkswift",
+      "owner": "hmjz100",
+      "name": "LinkSwift",
+      "url": "https://github.com/hmjz100/LinkSwift",
+      "avatarUrl": "https://github.com/hmjz100.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 12,
+        "starsGained": 702
+      },
+      "metadata": {
+        "description": "一个基于 JavaScript 的网盘文件下载地址获取工具。基于【网盘直链下载助手】修改 ，支持 百度网盘 / 阿里云盘 / 中国移动云盘 / 天翼云盘 / 迅雷云盘 / 夸克网盘 / UC网盘 / 123云盘 八大网盘",
+        "language": "JavaScript",
+        "topics": [],
+        "stars": 23596,
+        "forks": 1431,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "JavaScript"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/hmjz100/LinkSwift/main/README.md"
+      },
+      "readmeSignals": {
+        "title": null,
+        "summary": "“出淤泥而不染，濯清涟而不妖” 搭配使用，效果更佳！👋扩展脚本 123 云盘会员青春版 | 百度网盘会员青春版 | 阿里云盘会员青春版 ↓&nbsp;&nbsp;↓&nbsp;&nbsp;↓&nbsp;&nbsp;↓&nbsp;&nbsp;↓ 正式版 Github 国际: https://github.com/hmjz100/LinkSwift/raw/main/（改）网盘直链下载助手.user.js OpenUserJS 国际（更新不及时）: https://openuserjs.org/install/hmjz100/LinkSwift.user.js Gitee 国内: https://gitee.com/hmjz100/LinkSwift/raw/main/（改）网盘直链下载助手.user.js 脚本猫 国内: https://scriptcat.org/scripts/code/1604/LinkSwift.user.js Github 国际: https://github.com/hmjz100/LinkSwift/raw/dev/（改）网盘直链下载助手.user.js 基于https://www.baiduyun.wiki/install.html修改 原作者: https://www.youxiaohou.com/ 原仓库: https://github.com/syhyz1990/baiduyun 本脚本发布至脚本猫: https://scriptcat.org/script-show-page/1604 还有 OpenUserJS: https://ope",
+        "headings": [
+          "安装",
+          "LinkSwift",
+          "（改）百度网盘会员青春版",
+          "123 云盘会员青春版",
+          "说明",
+          "简介",
+          "贡献者",
+          "版本号"
+        ],
+        "commands": [],
+        "keywords": [
+          "安装",
+          "linkswift",
+          "（改）百度网盘会员青春版",
+          "123 云盘会员青春版"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://socialify.git.ci/hmjz100/LinkSwift/image?description=1&descriptionEditable=%E4%B8%80%E4%B8%AA%E5%9F%BA%E4%BA%8E%20JavaScript%20%E7%9A%84%E7%BD%91%E7%9B%98%E6%96%87%E4%BB%B6%E4%B8%8B%E8%BD%BD%E5%9C%B0%E5%9D%80%E8%8E%B7%E5%8F%96%E5%B7%A5%E5%85%B7&language=1&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjggMTI4Ij48cGF0aCBkPSJNMTAzLjYgMTA3LjRjMy41LTIuMiA4LjktNi4xIDEzLjgtMTIuNXM3LjMtMTIuNSA4LjUtMTYuNWMuNS0xLjcgMi4yLTcuNSAyLjItMTQuNyAwLTEwLjEtMy4zLTI1LjEtMTUuNC0zNi44LTE0LjUtMTQtMzIuMS0xNC4zLTM1LjctMTQuMy04IDAtMTUuNyAxLjktMjIuNiA1LjJDNDQgMjMgMzUuNyAzMS40IDMwLjggNDEuN2MtMS4zIDIuOC00IDQuNy03LjEgNS00IC4zLTcuNSA0LjQtOC45IDkuNi0uNSAxLjktMS42IDMuNS0zLjEgNC43QzQuNCA2Ni44IDAgNzUuNyAwIDg1YzAgNi44IDIuMyAxMy4xIDYuMSAxOC4yIDUuNSA3LjQgMTQuMiAxMi4yIDI0IDEyLjJoNDcuMWM0LjQgMCAxMS0uNSAxOC4zLTMuNSAzLjItMS40IDUuOS0zIDguMS00LjV6IiBmaWxsPSIjQTA5OUYwIi8%2BPHBhdGggZD0iTTExOS44IDY0LjNjLjEtMTcuMS0xMC40LTI4LTEyLjUtMzAuMUM5NSAyMi4xIDc5LjkgMjEuOCA3Ni45IDIxLjhjLTE3LjYgMC0zMy4zIDEwLjUtMzkuOSAyNi43LS42IDEuMy0xLjggMi4zLTMuNCAyLjNoLS40Yy01LjggMC0xMC42IDQuOC0xMC42IDEwLjd2LjVjMCAxLjQtLjggMi42LTEuOSAzLjNDMTMuNCA2OSA4LjggNzYuOCA4LjggODVjMCAxMi4yIDkuOSAyMi4zIDIyLjIgMjIuM2g0NS4yYzMuNi0uMSAxNy42LS45IDI5LjYtMTIgMi45LTIuOCAxMy45LTEzLjcgMTQtMzF6IiBmaWxsPSIjNTc0QUI4Ii8%2BPHBhdGggZD0iTTExMC44IDU3LjRsLjIgMy4zYzAgMS4zLTEuMSAyLjQtMi4zIDIuNC0xLjMgMC0yLjMtMS4xLTIuMy0yLjRsLS4xLTIuOHYtLjNjMC0xLjIuOS0yLjIgMi4xLTIuM2guM2MuNyAwIDEuMy4zIDEuNy43LS4yLjEuMy41LjQgMS40em0tMy4zLTEwLjNjMCAxLjItMSAyLjMtMi4yIDIuM2gtLjFjLS44IDAtMS42LS41LTItMS4yLTQuNi04LjMtMTMuMy0xMy41LTIyLjgtMTMuNS0xLjIgMC0yLjMtMS0yLjMtMi4ydi0uMWMwLTEuMiAxLTIuMyAyLjItMi4zaC4xYTMwLjM3IDMwLjM3IDAgMCAxIDE1LjggNC40YzQuNiAyLjggOC40IDYuOCAxMS4xIDExLjUuMS4zLjIuNy4yIDEuMXpNODguMyA3My44TDczLjUgOTMuMmMtMS41IDEuOS0zLjUgMy4xLTUuNyAzLjVoLS4yYy0uNC4xLS44LjEtMS4yLjEtLjYgMC0xLjEtLjEtMS42LS4yLTIuMi0uNC00LjItMS43LTUuNi0zLjVMNDQuMyA3My45Yy0yLTIuNi0yLjUtNS40LTEuNC03LjcuMS0uMS4xLS4yLjItLjIgMS4yLTIgMy41LTMuMiA2LjQtMy4yaDYuNnYtNS43YzAtNi44IDQuNy0xMiAxMC45LTEyIDQuOCAwIDguNSAyLjYgMTAuMyA3LjIuNSAxLjMtLjIgMi43LTEuNSAzLjJzLTIuOC0uMS0zLjMtMS40Yy0xLjEtMi43LTIuOS00LTUuNS00LTMuNSAwLTYgMy02IDd2OC4xYzAgLjUtLjIgMS0uNiAxLjQtLjYuNy0xLjcgMS4xLTIuNiAxLjFoLTguNGMtMS4zIDAtMiAuNC0yLjEuNy0uMi40IDAgMS4zLjkgMi40TDYzLjEgOTBjLjkgMS4yIDIuMSAxLjggMy4zIDEuOHMyLjMtLjYgMy4xLTEuN2wxNC44LTE5LjNjLjktMS4xIDEuMS0yIC45LTIuNC0uMi0uMy0uOS0uNy0yLjEtLjdoLTcuNmMtLjkgMC0xLjctLjUtMi4xLTEuMi0uMy0uNC0uNC0uOC0uNC0xLjMgMC0xLjQgMS4xLTIuNSAyLjUtMi41aDcuNmMzLjEgMCA1LjUgMS4zIDYuNiAzLjVsLjMuN2MuNyAyLjEuMSA0LjYtMS43IDYuOXoiIGZpbGw9IiNmZmYiLz48L3N2Zz4%3D&name=1&owner=1&pattern=Charlie%20Brown&theme=Auto",
+        "thumbUrl": "https://socialify.git.ci/hmjz100/LinkSwift/image?description=1&descriptionEditable=%E4%B8%80%E4%B8%AA%E5%9F%BA%E4%BA%8E%20JavaScript%20%E7%9A%84%E7%BD%91%E7%9B%98%E6%96%87%E4%BB%B6%E4%B8%8B%E8%BD%BD%E5%9C%B0%E5%9D%80%E8%8E%B7%E5%8F%96%E5%B7%A5%E5%85%B7&language=1&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjggMTI4Ij48cGF0aCBkPSJNMTAzLjYgMTA3LjRjMy41LTIuMiA4LjktNi4xIDEzLjgtMTIuNXM3LjMtMTIuNSA4LjUtMTYuNWMuNS0xLjcgMi4yLTcuNSAyLjItMTQuNyAwLTEwLjEtMy4zLTI1LjEtMTUuNC0zNi44LTE0LjUtMTQtMzIuMS0xNC4zLTM1LjctMTQuMy04IDAtMTUuNyAxLjktMjIuNiA1LjJDNDQgMjMgMzUuNyAzMS40IDMwLjggNDEuN2MtMS4zIDIuOC00IDQuNy03LjEgNS00IC4zLTcuNSA0LjQtOC45IDkuNi0uNSAxLjktMS42IDMuNS0zLjEgNC43QzQuNCA2Ni44IDAgNzUuNyAwIDg1YzAgNi44IDIuMyAxMy4xIDYuMSAxOC4yIDUuNSA3LjQgMTQuMiAxMi4yIDI0IDEyLjJoNDcuMWM0LjQgMCAxMS0uNSAxOC4zLTMuNSAzLjItMS40IDUuOS0zIDguMS00LjV6IiBmaWxsPSIjQTA5OUYwIi8%2BPHBhdGggZD0iTTExOS44IDY0LjNjLjEtMTcuMS0xMC40LTI4LTEyLjUtMzAuMUM5NSAyMi4xIDc5LjkgMjEuOCA3Ni45IDIxLjhjLTE3LjYgMC0zMy4zIDEwLjUtMzkuOSAyNi43LS42IDEuMy0xLjggMi4zLTMuNCAyLjNoLS40Yy01LjggMC0xMC42IDQuOC0xMC42IDEwLjd2LjVjMCAxLjQtLjggMi42LTEuOSAzLjNDMTMuNCA2OSA4LjggNzYuOCA4LjggODVjMCAxMi4yIDkuOSAyMi4zIDIyLjIgMjIuM2g0NS4yYzMuNi0uMSAxNy42LS45IDI5LjYtMTIgMi45LTIuOCAxMy45LTEzLjcgMTQtMzF6IiBmaWxsPSIjNTc0QUI4Ii8%2BPHBhdGggZD0iTTExMC44IDU3LjRsLjIgMy4zYzAgMS4zLTEuMSAyLjQtMi4zIDIuNC0xLjMgMC0yLjMtMS4xLTIuMy0yLjRsLS4xLTIuOHYtLjNjMC0xLjIuOS0yLjIgMi4xLTIuM2guM2MuNyAwIDEuMy4zIDEuNy43LS4yLjEuMy41LjQgMS40em0tMy4zLTEwLjNjMCAxLjItMSAyLjMtMi4yIDIuM2gtLjFjLS44IDAtMS42LS41LTItMS4yLTQuNi04LjMtMTMuMy0xMy41LTIyLjgtMTMuNS0xLjIgMC0yLjMtMS0yLjMtMi4ydi0uMWMwLTEuMiAxLTIuMyAyLjItMi4zaC4xYTMwLjM3IDMwLjM3IDAgMCAxIDE1LjggNC40YzQuNiAyLjggOC40IDYuOCAxMS4xIDExLjUuMS4zLjIuNy4yIDEuMXpNODguMyA3My44TDczLjUgOTMuMmMtMS41IDEuOS0zLjUgMy4xLTUuNyAzLjVoLS4yYy0uNC4xLS44LjEtMS4yLjEtLjYgMC0xLjEtLjEtMS42LS4yLTIuMi0uNC00LjItMS43LTUuNi0zLjVMNDQuMyA3My45Yy0yLTIuNi0yLjUtNS40LTEuNC03LjcuMS0uMS4xLS4yLjItLjIgMS4yLTIgMy41LTMuMiA2LjQtMy4yaDYuNnYtNS43YzAtNi44IDQuNy0xMiAxMC45LTEyIDQuOCAwIDguNSAyLjYgMTAuMyA3LjIuNSAxLjMtLjIgMi43LTEuNSAzLjJzLTIuOC0uMS0zLjMtMS40Yy0xLjEtMi43LTIuOS00LTUuNS00LTMuNSAwLTYgMy02IDd2OC4xYzAgLjUtLjIgMS0uNiAxLjQtLjYuNy0xLjcgMS4xLTIuNiAxLjFoLTguNGMtMS4zIDAtMiAuNC0yLjEuNy0uMi40IDAgMS4zLjkgMi40TDYzLjEgOTBjLjkgMS4yIDIuMSAxLjggMy4zIDEuOHMyLjMtLjYgMy4xLTEuN2wxNC44LTE5LjNjLjktMS4xIDEuMS0yIC45LTIuNC0uMi0uMy0uOS0uNy0yLjEtLjdoLTcuNmMtLjkgMC0xLjctLjUtMi4xLTEuMi0uMy0uNC0uNC0uOC0uNC0xLjMgMC0xLjQgMS4xLTIuNSAyLjUtMi41aDcuNmMzLjEgMCA1LjUgMS4zIDYuNiAzLjVsLjMuN2MuNyAyLjEuMSA0LjYtMS43IDYuOXoiIGZpbGw9IiNmZmYiLz48L3N2Zz4%3D&name=1&owner=1&pattern=Charlie%20Brown&theme=Auto",
+        "alt": "LinkSwift",
+        "sourceUrl": "https://socialify.git.ci/hmjz100/LinkSwift/image?description=1&descriptionEditable=%E4%B8%80%E4%B8%AA%E5%9F%BA%E4%BA%8E%20JavaScript%20%E7%9A%84%E7%BD%91%E7%9B%98%E6%96%87%E4%BB%B6%E4%B8%8B%E8%BD%BD%E5%9C%B0%E5%9D%80%E8%8E%B7%E5%8F%96%E5%B7%A5%E5%85%B7&language=1&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjggMTI4Ij48cGF0aCBkPSJNMTAzLjYgMTA3LjRjMy41LTIuMiA4LjktNi4xIDEzLjgtMTIuNXM3LjMtMTIuNSA4LjUtMTYuNWMuNS0xLjcgMi4yLTcuNSAyLjItMTQuNyAwLTEwLjEtMy4zLTI1LjEtMTUuNC0zNi44LTE0LjUtMTQtMzIuMS0xNC4zLTM1LjctMTQuMy04IDAtMTUuNyAxLjktMjIuNiA1LjJDNDQgMjMgMzUuNyAzMS40IDMwLjggNDEuN2MtMS4zIDIuOC00IDQuNy03LjEgNS00IC4zLTcuNSA0LjQtOC45IDkuNi0uNSAxLjktMS42IDMuNS0zLjEgNC43QzQuNCA2Ni44IDAgNzUuNyAwIDg1YzAgNi44IDIuMyAxMy4xIDYuMSAxOC4yIDUuNSA3LjQgMTQuMiAxMi4yIDI0IDEyLjJoNDcuMWM0LjQgMCAxMS0uNSAxOC4zLTMuNSAzLjItMS40IDUuOS0zIDguMS00LjV6IiBmaWxsPSIjQTA5OUYwIi8%2BPHBhdGggZD0iTTExOS44IDY0LjNjLjEtMTcuMS0xMC40LTI4LTEyLjUtMzAuMUM5NSAyMi4xIDc5LjkgMjEuOCA3Ni45IDIxLjhjLTE3LjYgMC0zMy4zIDEwLjUtMzkuOSAyNi43LS42IDEuMy0xLjggMi4zLTMuNCAyLjNoLS40Yy01LjggMC0xMC42IDQuOC0xMC42IDEwLjd2LjVjMCAxLjQtLjggMi42LTEuOSAzLjNDMTMuNCA2OSA4LjggNzYuOCA4LjggODVjMCAxMi4yIDkuOSAyMi4zIDIyLjIgMjIuM2g0NS4yYzMuNi0uMSAxNy42LS45IDI5LjYtMTIgMi45LTIuOCAxMy45LTEzLjcgMTQtMzF6IiBmaWxsPSIjNTc0QUI4Ii8%2BPHBhdGggZD0iTTExMC44IDU3LjRsLjIgMy4zYzAgMS4zLTEuMSAyLjQtMi4zIDIuNC0xLjMgMC0yLjMtMS4xLTIuMy0yLjRsLS4xLTIuOHYtLjNjMC0xLjIuOS0yLjIgMi4xLTIuM2guM2MuNyAwIDEuMy4zIDEuNy43LS4yLjEuMy41LjQgMS40em0tMy4zLTEwLjNjMCAxLjItMSAyLjMtMi4yIDIuM2gtLjFjLS44IDAtMS42LS41LTItMS4yLTQuNi04LjMtMTMuMy0xMy41LTIyLjgtMTMuNS0xLjIgMC0yLjMtMS0yLjMtMi4ydi0uMWMwLTEuMiAxLTIuMyAyLjItMi4zaC4xYTMwLjM3IDMwLjM3IDAgMCAxIDE1LjggNC40YzQuNiAyLjggOC40IDYuOCAxMS4xIDExLjUuMS4zLjIuNy4yIDEuMXpNODguMyA3My44TDczLjUgOTMuMmMtMS41IDEuOS0zLjUgMy4xLTUuNyAzLjVoLS4yYy0uNC4xLS44LjEtMS4yLjEtLjYgMC0xLjEtLjEtMS42LS4yLTIuMi0uNC00LjItMS43LTUuNi0zLjVMNDQuMyA3My45Yy0yLTIuNi0yLjUtNS40LTEuNC03LjcuMS0uMS4xLS4yLjItLjIgMS4yLTIgMy41LTMuMiA2LjQtMy4yaDYuNnYtNS43YzAtNi44IDQuNy0xMiAxMC45LTEyIDQuOCAwIDguNSAyLjYgMTAuMyA3LjIuNSAxLjMtLjIgMi43LTEuNSAzLjJzLTIuOC0uMS0zLjMtMS40Yy0xLjEtMi43LTIuOS00LTUuNS00LTMuNSAwLTYgMy02IDd2OC4xYzAgLjUtLjIgMS0uNiAxLjQtLjYuNy0xLjcgMS4xLTIuNiAxLjFoLTguNGMtMS4zIDAtMiAuNC0yLjEuNy0uMi40IDAgMS4zLjkgMi40TDYzLjEgOTBjLjkgMS4yIDIuMSAxLjggMy4zIDEuOHMyLjMtLjYgMy4xLTEuN2wxNC44LTE5LjNjLjktMS4xIDEuMS0yIC45LTIuNC0uMi0uMy0uOS0uNy0yLjEtLjdoLTcuNmMtLjkgMC0xLjctLjUtMi4xLTEuMi0uMy0uNC0uNC0uOC0uNC0xLjMgMC0xLjQgMS4xLTIuNSAyLjUtMi41aDcuNmMzLjEgMCA1LjUgMS4zIDYuNiAzLjVsLjMuN2MuNyAyLjEuMSA0LjYtMS43IDYuOXoiIGZpbGw9IiNmZmYiLz48L3N2Zz4%3D&name=1&owner=1&pattern=Charlie%20Brown&theme=Auto",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "unclassified",
+        "secondaryCategoryIds": [],
+        "confidence": 0.4,
+        "method": "rules",
+        "reasons": [
+          "No taxonomy rule matched with enough confidence"
+        ],
+        "signals": []
+      },
+      "rank": {
+        "globalRank": 12,
+        "categoryRank": 12,
+        "score": 96
+      }
+    },
+    {
+      "id": "xerj-org-xerj",
+      "owner": "xerj-org",
+      "name": "xerj",
+      "url": "https://github.com/xerj-org/xerj",
+      "avatarUrl": "https://github.com/xerj-org.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 13,
+        "starsGained": 1647
+      },
+      "metadata": {
+        "description": "XERJ is the new way for AI to search data. Its autoindex capability activates agents to know your data without the token waste of grep and sed. One command indexes code, docs, logs and PDFs for search, RAG, security audits and agent memory, using 40x fewer tokens than grep. Elasticsearch compatible, so existing clients just work.",
+        "language": "Rust",
+        "topics": [],
+        "stars": 6792,
+        "forks": 344,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Rust"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/xerj-org/xerj/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "XERJ",
+        "summary": "XERJ is a community-trusted local AI search that indexes any folder automatically, so your coding agent stops burning tokens reading files one by one and pulls the exact code it needs instead. Reference coding is its main use case and the clearest win: point an agent at a task and it downloads the open-source repos closest to it, indexes them, and reuses how they solved the problem before writing its own code. In a controlled study that cut a coding agent's output tokens by 2.7x at the same 16/16 solve rate https://xerj.org/case-studies/reference-coding.html, and people report roughly 5x in everyday work ./user-feedback/11-reference-coding-field-reports/2026-08-11-token-savings-reports.md. I",
+        "headings": [
+          "XERJ",
+          "Join the community",
+          "The measured reason: reference coding",
+          "Feed it any folder",
+          "What people point it at",
+          "How the prompt works",
+          "Install by hand",
+          "Index a folder"
+        ],
+        "commands": [],
+        "keywords": [
+          "ai",
+          "agent",
+          "xerj",
+          "join the community",
+          "the measured reason: reference coding",
+          "feed it any folder"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/xerj-org/xerj/main/docs/media/demo-poster.png",
+        "thumbUrl": "https://raw.githubusercontent.com/xerj-org/xerj/main/docs/media/demo-poster.png",
+        "alt": "Watch the XERJ demo: boot, ingest, search, vectors, dashboards",
+        "sourceUrl": "https://raw.githubusercontent.com/xerj-org/xerj/main/docs/media/demo-poster.png",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.8,
+        "method": "rules",
+        "reasons": [
+          "Matched ai",
+          "Matched agent"
+        ],
+        "signals": [
+          "ai",
+          "agent"
+        ]
+      },
+      "rank": {
+        "globalRank": 13,
+        "categoryRank": 13,
+        "score": 94
+      }
+    }
+  ],
+  "views": [
+    {
+      "id": "ai",
+      "type": "category",
+      "label": "AI",
+      "categoryId": "ai",
+      "repoIds": [
+        "k-dense-ai-scientific-agent-skills",
+        "affaan-m-ecc",
+        "hkuds-cli-anything",
+        "mksglu-context-mode",
+        "ruvnet-ruflo",
+        "obra-superpowers",
+        "madslorentzen-ai-job-search",
+        "xerj-org-xerj"
+      ],
+      "sort": "score"
+    },
+    {
+      "id": "unclassified",
+      "type": "review",
+      "label": "Needs Review",
+      "categoryId": "unclassified",
+      "repoIds": [
+        "anthropics-claude-plugins-official",
+        "android-skills",
+        "cursor-plugins",
+        "debpalash-voicestudio",
+        "hmjz100-linkswift"
+      ],
+      "sort": "score"
+    }
+  ],
+  "health": {
+    "status": "ok",
+    "candidateCount": 13,
+    "enrichedRepoCount": 13,
+    "unclassifiedRepoCount": 5,
+    "warnings": [
+      "8 repos used README images, 0 used Agnes images, 5 fell back to repository Open Graph covers"
+    ]
+  }
+}
