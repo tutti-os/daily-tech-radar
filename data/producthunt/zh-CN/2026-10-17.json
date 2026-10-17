@@ -1,0 +1,1131 @@
+{
+  "schemaVersion": "daily-tech-radar.v1",
+  "source": "producthunt",
+  "locale": "zh-CN",
+  "date": "2026-10-17",
+  "sourceTimezone": "Asia/Shanghai",
+  "generatedAt": "2026-10-17T20:22:29.817Z",
+  "items": [
+    {
+      "rank": 1,
+      "id": "1273961",
+      "name": "NitroStack",
+      "tagline": "Build, test, and deploy MCP servers in one place",
+      "description": "NitroStack is the full-stack platform for building production-ready MCP servers and AI apps. Build with open-source TypeScript & Python SDKs, test and debug visually in NitroStack Studio, orchestrate agent workflows with NitroStack Workflow, deploy on NitroStack Cloud, and ship branded experiences with NitroStack Chat. Auth, testing, deployment and frontend stay in one workflow. Connect to ChatGPT, Claude and other AI clients. Powering 80,000+ MCP servers.",
+      "keywords": [
+        "Build,",
+        "test,",
+        "and",
+        "deploy"
+      ],
+      "metrics": {
+        "votes": 249,
+        "comments": 24
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/NFV7LZ6PHSL5AT?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/nitrostack?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/435e7137-2641-4c1c-98eb-f5b3728fd0a8.jpeg?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/435e7137-2641-4c1c-98eb-f5b3728fd0a8.jpeg?auto=format",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/5e19b60e-627e-4cba-a56b-afe217d6e2c1.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/d6999149-faab-4e92-b2f1-794a410431ca.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/d7eabaae-2cfd-4af0-8a45-a9683390e918.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/66339e1c-b1de-4ee1-9e4f-8425e07c7d06.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/34bcfa2b-e27e-4be0-83db-7b29743a8bac.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/fdfce722-9caf-4505-8fcc-8d80bf176fe8.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/e94cd481-610f-412a-ae23-b6f145fec426.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/3e3a92aa-b429-45cf-8691-74d9487d122b.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/b50efbf0-c959-4fa2-905b-3c047b473752.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/a0c508dc-a5c1-42e6-82b5-1804db000ec6.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/7d0d12d7-09f8-4725-b288-779762526990.jpeg?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "nitrostack",
+        "featuredAt": "2026-10-17T07:01:00Z",
+        "createdAt": "2026-10-17T07:01:00Z"
+      }
+    },
+    {
+      "rank": 2,
+      "id": "1278219",
+      "name": "Caldera",
+      "tagline": "Your Obsidian vault as a living profile and linked garden",
+      "description": "Caldera turns your Obsidian vault into a public page that updates itself, and a digital garden of notes you grow in public. Plant a note and it becomes a page marked seedling, budding or evergreen, with a license you choose. Link to a note in a friend's garden and the backlink appears on theirs. Private by default: nothing leaves your vault unless you choose it, and contact details are stripped. Free, open source and self-hostable.",
+      "keywords": [
+        "Your",
+        "Obsidian",
+        "vault",
+        "as"
+      ],
+      "metrics": {
+        "votes": 160,
+        "comments": 11
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/2JSRELYQXYA53W?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/caldera?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/9ddfe38e-133a-4257-8d46-60ee70a63150.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/9ddfe38e-133a-4257-8d46-60ee70a63150.png?auto=format",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/2c80407b-287d-44aa-9de0-4d61a0f00a9d.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/a2c62148-5339-4317-8668-56b5bfba41b0.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/a7a65e63-8043-4afc-b37e-61a1b5d70c8d.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/2a51bfce-1354-4d3d-b5ee-6a396a1628bf.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/b54fb4b7-8ab0-49d4-aa60-6d4d487a98bb.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/121e733a-167e-4ff0-95c9-9d41c4379d71.png?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "caldera",
+        "featuredAt": "2026-10-17T07:01:00Z",
+        "createdAt": "2026-10-17T07:01:00Z"
+      }
+    },
+    {
+      "rank": 3,
+      "id": "1279890",
+      "name": "Notion: Context for your agents",
+      "tagline": "Switch AI agents without re-explaining your work",
+      "description": "Notion 3.8 turns your workspace into the shared context layer for every AI agent your team uses. Unlike chat tools that start from zero each time you switch models, Notion keeps your docs, databases, and Skills in one place any MCP agent can read and update. Connect Claude, ChatGPT, or any MCP agent, plug Notion Agents into 150+ tools, sync Skills everywhere with the new Skills API, and see every agent edit in upgraded version history. Plus column permissions and rebuilt synced databases.",
+      "keywords": [
+        "Switch",
+        "AI",
+        "agents",
+        "without"
+      ],
+      "metrics": {
+        "votes": 145,
+        "comments": 3
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/6JUMUPF3NCHFPT?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/notion?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/ff3e2acf-884a-4f4c-a383-6edfe3de0d88.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/ff3e2acf-884a-4f4c-a383-6edfe3de0d88.png?auto=format",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/fd5e596d-3937-4c8c-a7c8-e8c8f0d1b7f4.gif?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/4829ffbe-3a44-431e-a633-b01ea77d3228.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/308c1f96-f870-4485-900c-9c8a5f420a06.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/de42a701-fc16-46bc-b690-c77717d7d930.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/69fdcc9b-edd6-4cf7-bf6c-bd2b0afc5b86.png?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "notion-context-for-your-agents",
+        "featuredAt": "2026-10-17T07:01:00Z",
+        "createdAt": "2026-10-17T07:01:00Z"
+      }
+    },
+    {
+      "rank": 4,
+      "id": "1282248",
+      "name": "Emochi",
+      "tagline": "Voice journal to understand yourself through art and science",
+      "description": "Emochi turns your voice notes into a living, generative character that reflects your emotional world. Vent about your day, untangle a thought, or check in with yourself. Your words are transcribed instantly, helping you notice patterns in how you feel. Built by a doctor, a designer, and two AI engineers, Emochi brings affective science and playful art to private, non-clinical self-reflection. Start with a voice note. Meet your Mochi.",
+      "keywords": [
+        "Voice",
+        "journal",
+        "to",
+        "understand"
+      ],
+      "metrics": {
+        "votes": 137,
+        "comments": 12
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/YAJULXSMGNIKDO?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/emochi-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/9a76b94d-5022-4931-ac22-2e629f56fecd.gif?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/9a76b94d-5022-4931-ac22-2e629f56fecd.gif?auto=format",
+        "media": [
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/0abd025c-97f1-46ff-ac87-b59498e3513d.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/5affd85e-0b75-4a80-8dca-664fa98185ac.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/46e05612-3ed6-4c0e-b9b2-7167cd8f0e1b.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/9813142a-569d-46b3-9171-cb4b1f8f9058.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/bf63614f-2155-4185-9cc4-ebdfa8fdede2.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/f16dfa17-6725-4023-ac19-97bd89f74b1c.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/93166690-8165-47eb-bba6-015b5a87e755.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/29bb813a-3084-458b-93b0-0d499117630a.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/af48a1eb-ee0b-4199-ade0-efafa48f82bf.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/8465d263-1810-4d45-b369-4eb27b083abf.png?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "emochi-2",
+        "featuredAt": "2026-10-17T07:01:00Z",
+        "createdAt": "2026-10-17T07:01:00Z"
+      }
+    },
+    {
+      "rank": 5,
+      "id": "1279257",
+      "name": "Train with Pasta",
+      "tagline": "A personal trainer powered by Apple Intelligence",
+      "description": "Pasta is a personal trainer in your pocket. Ask for \"a 30 minute upper body workout\", and it'll build it for you. While you train, the app uses voice as a guide, so you can focus on pushing yourself hard. It does plans too! Tell it what you're training for and it writes a plan around the days you can train. The app runs on Apple Intelligence and needs no account. Your progress and health data stays on your device. Requires an iPhone with Apple Intelligence on iOS 27.",
+      "keywords": [
+        "A",
+        "personal",
+        "trainer",
+        "powered"
+      ],
+      "metrics": {
+        "votes": 125,
+        "comments": 4
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/RCYFVIP3UANWOT?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/train-with-pasta?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/5bc5e36c-9f15-48c4-9d90-c8a6f8f89879.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/5bc5e36c-9f15-48c4-9d90-c8a6f8f89879.png?auto=format",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/3db92606-07c8-4c1d-aae6-5cb1f0c85805.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/45b7ad22-bc85-416f-80dd-8da496722f83.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/dc0bd42e-804a-4dac-b76e-11a4f417f09f.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/c97174d6-b47f-4075-a814-f3563b30a0a8.png?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "train-with-pasta",
+        "featuredAt": "2026-10-17T07:01:00Z",
+        "createdAt": "2026-10-17T07:01:00Z"
+      }
+    },
+    {
+      "rank": 6,
+      "id": "1280962",
+      "name": "Craft Agents",
+      "tagline": "The world's most powerful agents, with the UX they deserve",
+      "description": "Craft Agents is fully open source and runs locally on your machine — your data and keys never leave it. Bring any AI provider: Claude, GPT, Gemini, or local models. Agents connect to your real tools (MCP, APIs, local files) and act across all of them. Code diffs, data tables, diagrams, and live previews render inline. Turn results into persistent Pages, teach reusable Skills, and run Automations on a schedule — all in a desktop UX you can actually live in.",
+      "keywords": [
+        "The",
+        "world's",
+        "most",
+        "powerful"
+      ],
+      "metrics": {
+        "votes": 104,
+        "comments": 7
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/ERP56R5DH2SM47?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/craft-agents?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/d2dc3a33-894c-4ad6-ba3c-22994aa482fe.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/d2dc3a33-894c-4ad6-ba3c-22994aa482fe.png?auto=format",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/e0266350-146a-43ef-82e8-0b61a9e64e25.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/1e37288a-20d4-490c-8eae-ed54bb8c8c8d.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/8c7c298c-b5e0-46fc-a4cb-b57d548c9833.png?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "craft-agents",
+        "featuredAt": "2026-10-17T07:01:00Z",
+        "createdAt": "2026-10-17T07:01:00Z"
+      }
+    },
+    {
+      "rank": 7,
+      "id": "1276839",
+      "name": "LooGo",
+      "tagline": "Find public restrooms fast",
+      "description": "LooGo helps you find public restrooms instantly when you're out in the city. Built natively for Android and Wear OS using OpenStreetMap data, it gives you quick access to door codes, pricing, opening hours, and accessibility details. No ads, no tracking, and no bloat just fast offline maps and a companion Wear OS app so you can find a spot directly from your wrist.",
+      "keywords": [
+        "Find",
+        "public",
+        "restrooms",
+        "fast"
+      ],
+      "metrics": {
+        "votes": 101,
+        "comments": 11
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/6QTQ2YZVZFK4KE?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/loogo?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/fcbf3f90-30cd-44f5-862c-04da334ed6b6.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/fcbf3f90-30cd-44f5-862c-04da334ed6b6.png?auto=format",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/e08e85a2-66af-49b0-ba24-50e67c336385.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/4fec4a8a-7434-41ca-af09-81a3c428e8e4.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/7ea517ad-d613-4d33-b755-4d7ac686e3d6.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/25ef6131-9f43-477a-863d-5e6b2dfcc3d9.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/c847f6ac-89b0-4508-a596-95e321f78f83.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/f162ee9f-91a9-4187-9cb0-ea03ecf6bd1e.png?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "loogo",
+        "featuredAt": "2026-10-17T07:01:00Z",
+        "createdAt": "2026-10-17T07:01:00Z"
+      }
+    },
+    {
+      "rank": 8,
+      "id": "1283017",
+      "name": "GPU Terminal by Context.dev",
+      "tagline": "Compare GPU rental prices across cloud providers",
+      "description": "GPU cloud pricing is scattered across dozens of providers. GPU Terminal brings recent hourly rates into one dashboard. Pick your GPU, compare provider offers, explore price history, and check original sources. Open source and built by Context.dev.",
+      "keywords": [
+        "Compare",
+        "GPU",
+        "rental",
+        "prices"
+      ],
+      "metrics": {
+        "votes": 94,
+        "comments": 0
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/DF6JU33ZTEEQI3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/context-dev?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/67d3c38f-e5ee-4be9-97b1-8eda63e24a80.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/67d3c38f-e5ee-4be9-97b1-8eda63e24a80.png?auto=format",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/e990aafa-d516-4377-9d00-8b724a034226.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/b7d27bb6-f936-45f9-a804-8866565c6e66.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/ff42ceaf-e80b-490f-a70c-f829b6abf31d.png?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "gpu-terminal-by-context-dev",
+        "featuredAt": "2026-10-17T07:01:00Z",
+        "createdAt": "2026-10-17T07:01:00Z"
+      }
+    },
+    {
+      "rank": 9,
+      "id": "1278278",
+      "name": "Ultracite v8",
+      "tagline": "The linter and formatter for agentic development",
+      "description": "Agents write most of the code now. Ultracite is the linter and formatter for agentic development, a zero-config preset for Oxlint, Biome, and ESLint that keeps agent-written code consistent and type-safe. Ultracite checks every edit agents make against hundreds of strict rules in under half a second, so what reaches review is consistent, type-safe code instead of slop. Used by engineering teams at OpenAI, Vercel, Mintlify, and thousands of open source projects: ultracite.ai",
+      "keywords": [
+        "The",
+        "linter",
+        "and",
+        "formatter"
+      ],
+      "metrics": {
+        "votes": 92,
+        "comments": 2
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/E3YR3RCT4JCACA?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/ultracite?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/54b6ab70-0eae-45f3-9020-762f6b00867f.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/54b6ab70-0eae-45f3-9020-762f6b00867f.png?auto=format",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/c74a1b2e-0d67-4b70-b926-911f7cebf36e.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/2e62da52-535a-4b36-93d3-b0c53bff61b7.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/55410c92-446e-4aca-97c4-405f8097020e.png?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "ultracite-v8",
+        "featuredAt": "2026-10-17T07:01:00Z",
+        "createdAt": "2026-10-17T07:01:00Z"
+      }
+    },
+    {
+      "rank": 10,
+      "id": "1279510",
+      "name": "Unfenced",
+      "tagline": "Land for sale that actually borders public land",
+      "description": "Checks ~700,000 U.S. listings every week against official public-land maps and shows the ~13,600 homes and land parcels that actually touch national forest, BLM and state land. Each one is measured from its county parcel boundary: the shared edge in feet, drawn on a map, plus how much public land is behind it, elevation, road access, flood zone and wildfire hazard. Search by ZIP or state. Free, no account needed.",
+      "keywords": [
+        "Land",
+        "for",
+        "sale",
+        "that"
+      ],
+      "metrics": {
+        "votes": 89,
+        "comments": 13
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/PXFKGSHHKBKW2P?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/unfenced?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/fed47e71-63f6-43ce-8616-c1a8aad8e2e7.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/fed47e71-63f6-43ce-8616-c1a8aad8e2e7.png?auto=format",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/70840edb-6701-432c-8a04-26275bdc9130.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/d5d22eec-4b19-41b4-bd58-b40323a42eb9.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/a253a545-2036-4ed3-8b8f-55cf1d885f3a.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/7d94bdce-7d71-469e-8f4e-e4207fa3b079.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/f1f273e9-8071-40d7-af67-29c45daafc9e.png?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "unfenced",
+        "featuredAt": "2026-10-17T07:01:00Z",
+        "createdAt": "2026-10-17T07:01:00Z"
+      }
+    },
+    {
+      "rank": 11,
+      "id": "1278738",
+      "name": "Spiralens",
+      "tagline": "Golden ratio camera that tells you where to move your phone",
+      "description": "Spiralens is an Android camera for people who never learned composition. Tap your subject, follow the arrow, and shoot when the ring turns green: the subject sits on the golden point and the phone is level. Guides for golden spiral, phi grid, rule of thirds, symmetry and horizon. The editor adds a golden-ratio crop, straighten, drag-to-crop and a new background blur that keeps your target sharp. Works offline; photos never leave your phone.",
+      "keywords": [
+        "Golden",
+        "ratio",
+        "camera",
+        "that"
+      ],
+      "metrics": {
+        "votes": 85,
+        "comments": 11
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/2O36K2KKQC6THL?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/spiralens?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/61ae0883-8052-4596-b6a3-299732ca4549.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/61ae0883-8052-4596-b6a3-299732ca4549.png?auto=format",
+        "media": [
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/7113ba9d-cd78-490a-8723-804b8116e6cb.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/48403e31-00df-4c37-82e1-d2277c1bdfdc.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/b3de835b-f7ee-416b-a25c-8f48415da15e.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/db80cc33-0747-4e2f-a1d2-d8811bd9b245.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/418f9d88-39b9-4218-9ee7-3f150e10fa62.jpeg?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "spiralens",
+        "featuredAt": "2026-10-17T07:01:00Z",
+        "createdAt": "2026-10-17T07:01:00Z"
+      }
+    },
+    {
+      "rank": 12,
+      "id": "1282082",
+      "name": "Draper",
+      "tagline": "Validate, plan, and launch a business, one step at a time.",
+      "description": "Turn your idea into a real product. Use Draper to find out if your idea holds up, and then work through the next steps: business plan, brand, product, landing page, first customers — all in one place.",
+      "keywords": [
+        "Validate,",
+        "plan,",
+        "and",
+        "launch"
+      ],
+      "metrics": {
+        "votes": 82,
+        "comments": 9
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/SLX5LIXCHR32E2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/draper?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/82d12dea-a060-4c42-bc30-aaea2426e55d.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/82d12dea-a060-4c42-bc30-aaea2426e55d.png?auto=format",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/72248e8f-69af-4dc2-a916-bf2b2f9fe0e6.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/39747596-8bb1-434c-a14a-e19b0b3cc905.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/c79fc095-8262-4805-b78f-05280fab00c8.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/ccf53317-a5ae-4176-afb4-563852d02d04.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/68b8a392-44d3-4c98-8eca-1ab9b0d84753.png?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "draper-2",
+        "featuredAt": "2026-10-17T07:01:00Z",
+        "createdAt": "2026-10-17T07:01:00Z"
+      }
+    },
+    {
+      "rank": 13,
+      "id": "1273909",
+      "name": "Earnote",
+      "tagline": "Lecture & meeting notes, written on your device",
+      "description": "Record a lecture, meeting or your own explanation – Earnote transcribes it with Whisper and writes a structured note with tasks, flashcards and a PDF study sheet. Speech recognition runs on your iPhone, iPad or Mac, and on iPhone 15 Pro and later even the note is written on-device. No account, no ads, no subscription. Free and open source (MIT); optional one-time Pro on iPhone/iPad.",
+      "keywords": [
+        "Lecture",
+        "&",
+        "meeting",
+        "notes,"
+      ],
+      "metrics": {
+        "votes": 80,
+        "comments": 4
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/L7MNFYD4ZHX6E6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/earnote?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/e7f89ef0-430b-494b-9cdd-be358ec5e0b0.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/e7f89ef0-430b-494b-9cdd-be358ec5e0b0.png?auto=format",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/1e000737-5a25-49dd-b4fb-0c5a062ee42f.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/43cee860-a5e6-473c-972b-5675f42cc5ec.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/312f8b3e-764b-4534-9110-4694993b58ae.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/dfa371d4-e610-49eb-a1d0-97de09ddbc0a.png?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "earnote",
+        "featuredAt": "2026-10-17T07:01:00Z",
+        "createdAt": "2026-10-17T07:01:00Z"
+      }
+    },
+    {
+      "rank": 14,
+      "id": "1276945",
+      "name": "Korinotch",
+      "tagline": "Your MacBook notch, turned into a command center",
+      "description": "Media HUD, notifications, file tray, clipboard, keep awake, keyboard lock and widgets, all in the notch. Native SwiftUI for macOS 14+. Free for 14 days, then $11.50 lifetime. Eleven of the utilities are free standalone menu-bar apps.",
+      "keywords": [
+        "Your",
+        "MacBook",
+        "notch,",
+        "turned"
+      ],
+      "metrics": {
+        "votes": 79,
+        "comments": 5
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/YQDXLXVWKZMVKW?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/korinotch?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/2192e831-2401-47d6-9ca5-ae325f792eff.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/2192e831-2401-47d6-9ca5-ae325f792eff.png?auto=format",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/3d75b356-fb63-4ae9-b1a7-3b3762f17121.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/177cdd50-9bd1-40f6-9dab-a73e745dabb2.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/704e4bec-dbb4-466e-8369-9b74a85b47d2.png?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "korinotch",
+        "featuredAt": "2026-10-17T07:01:00Z",
+        "createdAt": "2026-10-17T07:01:00Z"
+      }
+    },
+    {
+      "rank": 15,
+      "id": "1282623",
+      "name": "Step 5 Preview",
+      "tagline": "600B open weights, trained for long-running agents",
+      "description": "Step 5 Preview is StepFun's open-weight MoE for coding, financial research and long-running agents. It has 600B total parameters, 27B active per token and a 1M-token context, with deployment support for vLLM, SGLang and Transformers.",
+      "keywords": [
+        "600B",
+        "open",
+        "weights,",
+        "trained"
+      ],
+      "metrics": {
+        "votes": 78,
+        "comments": 7
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/43SXMMGUSWZP6U?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/step-3-5-flash?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/87e367fb-62a8-4a12-a2b5-512820906ff7.svg?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/87e367fb-62a8-4a12-a2b5-512820906ff7.svg?auto=format",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/81671235-175d-491a-8dd1-a768c2690a0b.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/12326f3c-fd74-4208-8d30-2a7eddd342dd.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/5ad84a3a-df04-4514-b96d-3abe062f5696.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/7bfdd5d0-5fe2-451b-85e7-bb6982677245.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/9f874fd6-90bd-4653-b619-4dbac6f9c0ad.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/66d02cc0-6d2e-4749-9c5e-d736f2726b19.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/6f4538e3-324f-42e2-97f4-93e1b23b0034.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/a74c6ecf-6f81-49e5-90c0-8dafc788b1ad.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/551f77de-3e2f-4826-a37f-580363505117.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/146de979-1cb5-4468-94f3-ceeb37898718.jpeg?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "step-5-preview",
+        "featuredAt": "2026-10-17T07:01:00Z",
+        "createdAt": "2026-10-17T07:01:00Z"
+      }
+    },
+    {
+      "rank": 16,
+      "id": "1283097",
+      "name": "Salience",
+      "tagline": "See every request to your website and how it responds.",
+      "description": "Salience turns the server and CDN data you already generate into a live view of every request, response and issue, from people, search engines and AI bots.",
+      "keywords": [
+        "See",
+        "every",
+        "request",
+        "to"
+      ],
+      "metrics": {
+        "votes": 78,
+        "comments": 2
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/7LLDB2DFOQWGAZ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/salience?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/9042a8e1-9fc2-4114-bb2f-3936890b6eea.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/9042a8e1-9fc2-4114-bb2f-3936890b6eea.png?auto=format",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/c953c5cd-a82c-4274-bbf7-e3372f4e0c43.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/4d2b996f-bccc-4ceb-b117-a180b7baefd9.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/c96a0858-375e-4e77-bab6-afa08704d2c8.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/dc913099-969b-46f4-b014-e467152a3358.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/7a964a2c-56d3-4206-8918-f8d488e86357.png?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "salience",
+        "featuredAt": "2026-10-17T07:01:00Z",
+        "createdAt": "2026-10-17T07:01:00Z"
+      }
+    },
+    {
+      "rank": 17,
+      "id": "1260394",
+      "name": "Parrot",
+      "tagline": "Smart Meeting Assistant for Mac that helps during the call ",
+      "description": "Parrot is a free, open-source meeting recorder for Mac that helps during the call, not after it. No bot joins: it records what your Mac hears and transcribes on device. When a client asks something your pricing sheet or FAQ covers, the answer appears with the file it came from. After the call you get a report of promises made and questions missed, and you can chat with all your meetings. Use Claude, a free local model with Ollama, or your own server. No account, no subscription.",
+      "keywords": [
+        "Smart",
+        "Meeting",
+        "Assistant",
+        "for"
+      ],
+      "metrics": {
+        "votes": 75,
+        "comments": 7
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/ZQX2QDSQ6XQ7QN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/parrot-10?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/e7005282-756f-42dd-ae01-82c9c985e5ff.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/e7005282-756f-42dd-ae01-82c9c985e5ff.png?auto=format",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/af380301-39de-4e8c-8f56-a7e26fd324bd.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/42f8e7f4-2a33-4114-af7b-fed7e3724e89.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/69fc58d3-e604-4e49-9abf-e92882a5c017.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/6fd16c50-d20c-4748-b2d5-6f184ea2cd98.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/5d397daf-58b6-4290-b92b-e1c0a3fa173c.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/c841ce59-8848-4920-a921-dcdde5c378a1.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/aa2dd068-c262-4dbb-8679-b7936044225b.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/5079e94c-25dc-4c4c-a8a5-6751cb3dea25.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/3a0f9389-e02b-4fb5-aa6a-945c4774dfe3.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/00b6b18c-b31a-40d1-ba68-12568343dba0.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/a9117c14-dd50-47b7-bf04-28f89a60f096.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/ac0fcdf6-a96f-465a-bc95-e308259d227d.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/f1a0e382-55b5-4a15-bf92-a807fc20f513.jpeg?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "parrot-5f95a2f0-bb9d-4992-bbb5-8c60031032dc",
+        "featuredAt": "2026-10-17T07:01:00Z",
+        "createdAt": "2026-10-17T07:01:00Z"
+      }
+    },
+    {
+      "rank": 18,
+      "id": "1280692",
+      "name": "CrewTower Mod for Claude Code",
+      "tagline": "Talk to Claude Code right from your MacBook notch",
+      "description": "A Claude Code mod that links every Claude session to CrewTower in your Mac's notch. Type Claude's next prompt on its card, stop the turn, compact it, and see what fills its context. Terminal and Claude Desktop. Stays on your Mac, off until you turn it on.",
+      "keywords": [
+        "Talk",
+        "to",
+        "Claude",
+        "Code"
+      ],
+      "metrics": {
+        "votes": 61,
+        "comments": 7
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/NMSK3UAZW7HJX4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/crew-tower?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/7477b32b-92b8-48fc-ada5-ac5f374b5b16.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/7477b32b-92b8-48fc-ada5-ac5f374b5b16.png?auto=format",
+        "media": [
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/f5fa694c-07b4-4a37-83a8-4f8b8ace7f20.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/36be7fd0-89b8-4c2d-b0cb-cdfa33740a3a.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/035a0048-3ad0-4af6-b9b6-11866c654878.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/23d8d197-789a-4faf-9182-dab8b47aeafd.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/2ec447d0-7e8a-4610-9501-14aae6a913ba.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/77cb0b84-d58e-48a5-b9e7-efee8f2a26bd.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/09fcf6e3-1dea-4a15-b59e-5c4e9f532d85.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/dee0d8b6-434b-4454-b6b3-52055f7bba77.png?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "crewtower-mod-for-claude-code",
+        "featuredAt": "2026-10-17T07:01:00Z",
+        "createdAt": "2026-10-17T07:01:00Z"
+      }
+    }
+  ]
+}
