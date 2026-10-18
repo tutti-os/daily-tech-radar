@@ -1,0 +1,1166 @@
+{
+  "schemaVersion": "trendreader.daily.v1",
+  "packageId": "github-daily-All-2026-10-18",
+  "locale": "en-US",
+  "generatedAt": "2026-10-18T20:22:36.486Z",
+  "expiresAt": "2026-10-19T20:22:36.486Z",
+  "sourceWindow": {
+    "since": "daily",
+    "language": "All",
+    "spokenLanguageCode": null
+  },
+  "sources": [
+    {
+      "id": "github_trending_html",
+      "role": "candidate",
+      "status": "ok",
+      "itemCount": 13
+    }
+  ],
+  "taxonomy": {
+    "version": "2026-10-18",
+    "generatedAt": "2026-10-18T20:22:36.486Z",
+    "categories": [
+      {
+        "id": "ai",
+        "label": "AI",
+        "labelEn": "AI",
+        "icon": "bot",
+        "order": 20
+      },
+      {
+        "id": "tools",
+        "label": "工具",
+        "labelEn": "Tools",
+        "icon": "wrench",
+        "order": 100
+      },
+      {
+        "id": "frontend",
+        "label": "前端",
+        "labelEn": "Frontend",
+        "icon": "layout",
+        "order": 140
+      },
+      {
+        "id": "backend",
+        "label": "后端",
+        "labelEn": "Backend",
+        "icon": "server",
+        "order": 110
+      },
+      {
+        "id": "unclassified",
+        "label": "Needs Review",
+        "labelEn": "Needs Review",
+        "icon": "circle-help",
+        "order": 999
+      }
+    ]
+  },
+  "repos": [
+    {
+      "id": "madslorentzen-ai-job-search",
+      "owner": "MadsLorentzen",
+      "name": "ai-job-search",
+      "url": "https://github.com/MadsLorentzen/ai-job-search",
+      "avatarUrl": "https://github.com/MadsLorentzen.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 1,
+        "starsGained": 2213
+      },
+      "metadata": {
+        "description": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.",
+        "language": "Python",
+        "topics": [],
+        "stars": 52650,
+        "forks": 17265,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Python"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/MadsLorentzen/ai-job-search/master/README.md"
+      },
+      "readmeSignals": {
+        "title": "AI Job Search",
+        "summary": "The job search that runs on your machine. An AI-powered job application framework built on https://claude.com/claude-code. Fork it, fill in your profile, and let Claude evaluate job postings, tailor your CV, write cover letters, and prepare you for interviews. Note: This is an independent open-source project and is not affiliated with, endorsed by, sponsored by, or maintained by Anthropic. Anthropic and Claude Code are referenced only to describe the toolchain this workflow uses. This project has no affiliated cryptocurrency, token, or paid sponsorship program. Anything claiming otherwise is unauthorized and should be treated as a scam. The only ways to support the project are the Ko-fi link",
+        "headings": [
+          "AI Job Search",
+          "Does it actually work?",
+          "What this is",
+          "Prerequisites",
+          "Quick start",
+          "1. Fork and clone",
+          "2. Install job search tools",
+          "3. Set up your profile"
+        ],
+        "commands": [
+          "pip install pypdf"
+        ],
+        "keywords": [
+          "ai",
+          "ai job search",
+          "does it actually work?",
+          "what this is",
+          "prerequisites"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/MadsLorentzen/ai-job-search/master/assets/mascot/pip_flight_loop.gif",
+        "thumbUrl": "https://raw.githubusercontent.com/MadsLorentzen/ai-job-search/master/assets/mascot/pip_flight_loop.gif",
+        "alt": "Pip, the courier bird",
+        "sourceUrl": "https://raw.githubusercontent.com/MadsLorentzen/ai-job-search/master/assets/mascot/pip_flight_loop.gif",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.7,
+        "method": "rules",
+        "reasons": [
+          "Matched ai"
+        ],
+        "signals": [
+          "ai"
+        ]
+      },
+      "rank": {
+        "globalRank": 1,
+        "categoryRank": 1,
+        "score": 118
+      }
+    },
+    {
+      "id": "anthropics-claude-plugins-official",
+      "owner": "anthropics",
+      "name": "claude-plugins-official",
+      "url": "https://github.com/anthropics/claude-plugins-official",
+      "avatarUrl": "https://github.com/anthropics.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 2,
+        "starsGained": 1187
+      },
+      "metadata": {
+        "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
+        "language": "Python",
+        "topics": [],
+        "stars": 42562,
+        "forks": 4525,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Python"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/anthropics/claude-plugins-official/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "Claude Code Plugins Directory",
+        "summary": "A curated directory of high-quality plugins for Claude Code. ⚠️ Important: Make sure you trust a plugin before installing, updating, or using it. Anthropic does not control what MCP servers, files, or other software are included in plugins and cannot verify that they will work as intended or that they won't change. See each plugin's homepage for more information. /plugins - Internal plugins developed and maintained by Anthropic /externalplugins - Third-party plugins from partners and the community Plugins can be installed directly from this marketplace via Claude Code's plugin system.",
+        "headings": [
+          "Claude Code Plugins Directory",
+          "Structure",
+          "Installation",
+          "Contributing",
+          "Internal Plugins",
+          "External Plugins",
+          "Plugin Structure",
+          "Plugin names are immutable"
+        ],
+        "commands": [],
+        "keywords": [
+          "claude code plugins directory",
+          "structure",
+          "installation",
+          "contributing"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "repository_open_graph",
+        "url": "https://opengraph.githubassets.com/daily-tech-radar/anthropics/claude-plugins-official",
+        "thumbUrl": "https://opengraph.githubassets.com/daily-tech-radar/anthropics/claude-plugins-official",
+        "alt": "anthropics/claude-plugins-official",
+        "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
+        "promptHash": "sha256:083f36522e2c"
+      },
+      "classification": {
+        "primaryCategoryId": "unclassified",
+        "secondaryCategoryIds": [],
+        "confidence": 0.4,
+        "method": "rules",
+        "reasons": [
+          "No taxonomy rule matched with enough confidence"
+        ],
+        "signals": []
+      },
+      "rank": {
+        "globalRank": 2,
+        "categoryRank": 2,
+        "score": 116
+      }
+    },
+    {
+      "id": "anomalyco-opencode",
+      "owner": "anomalyco",
+      "name": "opencode",
+      "url": "https://github.com/anomalyco/opencode",
+      "avatarUrl": "https://github.com/anomalyco.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 3,
+        "starsGained": 1417
+      },
+      "metadata": {
+        "description": "The open source coding agent.",
+        "language": "TypeScript",
+        "topics": [],
+        "stars": 216415,
+        "forks": 28973,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "TypeScript"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/anomalyco/opencode/master/README.md"
+      },
+      "readmeSignals": {
+        "title": "YOLO",
+        "summary": "English | 简体中文 | 繁體中文 | 한국어 | Deutsch | Español | Français | Italiano | Dansk | 日本語 | Polski | Русский | Bosanski | العربية | Norsk | Português Brasil | ไทย | Türkçe | Українська | বাংলা | Ελληνικά | Tiếng Việt OpenCode is also available as a desktop application. Download it from https://opencode.ai/download. | Platform | Download | | macOS Apple Silicon | opencode-desktop-mac-arm64.dmg | | macOS Intel | opencode-desktop-mac-x64.dmg | | Windows | opencode-desktop-win-x64.exe | | Linux | .deb, .rpm, or .AppImage | The install script respects the following priority order for the installation path:",
+        "headings": [
+          "Installation",
+          "YOLO",
+          "Package managers",
+          "Desktop App (BETA)",
+          "macOS (Homebrew)",
+          "Examples",
+          "Agents",
+          "Documentation"
+        ],
+        "commands": [],
+        "keywords": [
+          "agent",
+          "installation",
+          "yolo",
+          "package managers",
+          "desktop app (beta)"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/anomalyco/opencode/master/packages/web/src/assets/lander/screenshot.png",
+        "thumbUrl": "https://raw.githubusercontent.com/anomalyco/opencode/master/packages/web/src/assets/lander/screenshot.png",
+        "alt": "OpenCode Terminal UI",
+        "sourceUrl": "https://raw.githubusercontent.com/anomalyco/opencode/master/packages/web/src/assets/lander/screenshot.png",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.7,
+        "method": "rules",
+        "reasons": [
+          "Matched agent"
+        ],
+        "signals": [
+          "agent"
+        ]
+      },
+      "rank": {
+        "globalRank": 3,
+        "categoryRank": 3,
+        "score": 114
+      }
+    },
+    {
+      "id": "cursor-plugins",
+      "owner": "cursor",
+      "name": "plugins",
+      "url": "https://github.com/cursor/plugins",
+      "avatarUrl": "https://github.com/cursor.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 4,
+        "starsGained": 351
+      },
+      "metadata": {
+        "description": "Cursor plugin specification and official plugins",
+        "language": "TypeScript",
+        "topics": [],
+        "stars": 12683,
+        "forks": 1246,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "TypeScript"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/cursor/plugins/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "Cursor plugins",
+        "summary": "Official Cursor plugins for popular developer tools, frameworks, and SaaS products. Each plugin is a standalone directory at the repository root with its own .cursor-plugin/plugin.json manifest. | name | Plugin | Author | Category | description from marketplace | | teaching | teaching/ | Cursor | Utilities | Skill mapping, practice plans, and learning retrospectives. | | continual-learning | continual-learning/ | Eric Zakariasson | Developer Tools | Incremental transcript-driven memory updates for AGENTS.md using high-signal bullet points only. | | cursor-team-kit | cursor-team-kit/ | Eric Zakariasson | Developer Tools | Internal team workflows for CI, code review, shipping, local automation",
+        "headings": [
+          "Cursor plugins",
+          "Plugins",
+          "Repository structure",
+          "License"
+        ],
+        "commands": [],
+        "keywords": [
+          "cursor plugins",
+          "plugins",
+          "repository structure",
+          "license"
+        ],
+        "score": 80
+      },
+      "visual": {
+        "kind": "repository_open_graph",
+        "url": "https://opengraph.githubassets.com/daily-tech-radar/cursor/plugins",
+        "thumbUrl": "https://opengraph.githubassets.com/daily-tech-radar/cursor/plugins",
+        "alt": "cursor/plugins",
+        "sourceUrl": "https://github.com/cursor/plugins",
+        "promptHash": "sha256:4b8206bfeced"
+      },
+      "classification": {
+        "primaryCategoryId": "unclassified",
+        "secondaryCategoryIds": [],
+        "confidence": 0.4,
+        "method": "rules",
+        "reasons": [
+          "No taxonomy rule matched with enough confidence"
+        ],
+        "signals": []
+      },
+      "rank": {
+        "globalRank": 4,
+        "categoryRank": 4,
+        "score": 112
+      }
+    },
+    {
+      "id": "ruvnet-ruflo",
+      "owner": "ruvnet",
+      "name": "ruflo",
+      "url": "https://github.com/ruvnet/ruflo",
+      "avatarUrl": "https://github.com/ruvnet.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 5,
+        "starsGained": 502
+      },
+      "metadata": {
+        "description": "🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, federation, vector RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
+        "language": "TypeScript",
+        "topics": [],
+        "stars": 76434,
+        "forks": 9033,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "TypeScript"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/ruvnet/ruflo/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "Ruflo",
+        "summary": "An agent meta-harness for Claude Code and Codex. Start in Claude Code with core tools, the visual console and runtime mods. Requires Claude Code 2.1.287 or later. Run inside Claude Code: Core provides foundation tools. Console opens the agent cockpit. Mods add routing and policy enforcement inside Claude Code. Mods run with your account's permissions; review their code before installing. Using Codex or another MCP enabled tool? Use NPX for Ruflo project setup and connect your client to the Ruflo MCP server. Run the setup wizard in your project terminal: For clients that support local stdio MCP servers, configure command npx and arguments \"-y\", \"ruflo@latest\", \"mcp\", \"start\". The equivalent s",
+        "headings": [
+          "<img src=\"docs/assets/readme/icons/terminal.svg\" width=\"32\" height=\"32\" alt=\"\"> Get started with Ruflo",
+          "Optional: ruOS Desktop",
+          "Ruflo",
+          "An origin you can inspect",
+          "One task: create a mission with Claude",
+          "Quick Start",
+          "Path A — Claude Code Plugins (lite, slash commands only)",
+          "Add the marketplace"
+        ],
+        "commands": [
+          "npm install -g ruflo@latest"
+        ],
+        "keywords": [
+          "ai",
+          "agent",
+          "<img src=\"docs/assets/readme/icons/terminal.svg\" width=\"32\" height=\"32\" alt=\"\"> get started with ruflo",
+          "optional: ruos desktop",
+          "ruflo",
+          "an origin you can inspect"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/ruvnet/ruflo/main/docs/assets/ruflo-explained/ch14.jpg",
+        "thumbUrl": "https://raw.githubusercontent.com/ruvnet/ruflo/main/docs/assets/ruflo-explained/ch14.jpg",
+        "alt": "RuFlo Explained — build an AI team that plans, remembers, tests, and improves",
+        "sourceUrl": "https://raw.githubusercontent.com/ruvnet/ruflo/main/docs/assets/ruflo-explained/ch14.jpg",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.8,
+        "method": "rules",
+        "reasons": [
+          "Matched ai",
+          "Matched agent"
+        ],
+        "signals": [
+          "ai",
+          "agent"
+        ]
+      },
+      "rank": {
+        "globalRank": 5,
+        "categoryRank": 5,
+        "score": 110
+      }
+    },
+    {
+      "id": "akitaonrails-ai-memory",
+      "owner": "akitaonrails",
+      "name": "ai-memory",
+      "url": "https://github.com/akitaonrails/ai-memory",
+      "avatarUrl": "https://github.com/akitaonrails.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 6,
+        "starsGained": 513
+      },
+      "metadata": {
+        "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
+        "language": "Rust",
+        "topics": [],
+        "stars": 10390,
+        "forks": 744,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Rust"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/akitaonrails/ai-memory/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "1. Install the ai-memory CLI wrapper (a small shell script that",
+        "summary": "Long-term memory for AI coding agents. Quit Claude Code mid-task, start OpenAI Codex in the same directory, continue without re-explaining the architecture, the failed approaches, or the open questions. Your coding agent probably has a memory feature already. Claude Code takes its own notes, Cursor remembers some things, and every platform is adding more. They all have the same limits: the notes live on one machine, belong to one agent, and drop out of view when you switch tools or hand the work to a teammate. It follows you across agents. More than twenty harnesses Claude Code, Codex, Cursor, Gemini CLI, OpenCode, Grok, Devin, Kimi, Kiro, and others feed one shared memory. Quit Claude Code ",
+        "headings": [
+          "Why ai-memory",
+          "How it works",
+          "Support matrix",
+          "Coming from another tool?",
+          "Quick start",
+          "Linux and macOS (two commands, no root)",
+          "Windows (two commands, no admin)",
+          "Arch Linux (AUR)"
+        ],
+        "commands": [],
+        "keywords": [
+          "ai",
+          "agent",
+          "why ai-memory",
+          "how it works",
+          "support matrix",
+          "coming from another tool?"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "repository_open_graph",
+        "url": "https://opengraph.githubassets.com/daily-tech-radar/akitaonrails/ai-memory",
+        "thumbUrl": "https://opengraph.githubassets.com/daily-tech-radar/akitaonrails/ai-memory",
+        "alt": "akitaonrails/ai-memory",
+        "sourceUrl": "https://github.com/akitaonrails/ai-memory",
+        "promptHash": "sha256:b5ea5f15a3ae"
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.8,
+        "method": "rules",
+        "reasons": [
+          "Matched ai",
+          "Matched agent"
+        ],
+        "signals": [
+          "ai",
+          "agent"
+        ]
+      },
+      "rank": {
+        "globalRank": 6,
+        "categoryRank": 6,
+        "score": 108
+      }
+    },
+    {
+      "id": "stablyai-orca",
+      "owner": "stablyai",
+      "name": "orca",
+      "url": "https://github.com/stablyai/orca",
+      "avatarUrl": "https://github.com/stablyai.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 7,
+        "starsGained": 1146
+      },
+      "metadata": {
+        "description": "Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
+        "language": "TypeScript",
+        "topics": [],
+        "stars": 96434,
+        "forks": 6167,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "TypeScript"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/stablyai/orca/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "macOS (Homebrew)",
+        "summary": "中文 · 日本語 · 한국어 · Español · Français · Português The AI Orchestrator for 100x builders. Run Codex, ClaudeCode, OpenCode or Pi side-by-side — each in its own worktree, tracked in one place. Monitor and steer your agents from your phone — get notified when an agent finishes and send follow-ups from anywhere. Fan one prompt across five agents, each in its own isolated git worktree — compare the results and merge the winner. Ghostty-class terminals with WebGL rendering, infinite splits, and scrollback that survives restarts. Click any UI element in a real Chromium window to send its HTML, CSS, and a cropped screenshot straight into your agent's prompt.",
+        "headings": [
+          "Features",
+          "Mobile Companion",
+          "Parallel Worktrees",
+          "Terminal Splits",
+          "Design Mode",
+          "GitHub &amp; Linear, Native",
+          "SSH Worktrees",
+          "Annotate AI Diffs"
+        ],
+        "commands": [],
+        "keywords": [
+          "ai",
+          "agent",
+          "features",
+          "mobile companion",
+          "parallel worktrees",
+          "terminal splits"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/stablyai/orca/main/resources/build/icon.png",
+        "thumbUrl": "https://raw.githubusercontent.com/stablyai/orca/main/resources/build/icon.png",
+        "alt": "Orca",
+        "sourceUrl": "https://raw.githubusercontent.com/stablyai/orca/main/resources/build/icon.png",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.8,
+        "method": "rules",
+        "reasons": [
+          "Matched ai",
+          "Matched agent"
+        ],
+        "signals": [
+          "ai",
+          "agent"
+        ]
+      },
+      "rank": {
+        "globalRank": 7,
+        "categoryRank": 7,
+        "score": 106
+      }
+    },
+    {
+      "id": "hkuds-cli-anything",
+      "owner": "HKUDS",
+      "name": "CLI-Anything",
+      "url": "https://github.com/HKUDS/CLI-Anything",
+      "avatarUrl": "https://github.com/HKUDS.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 8,
+        "starsGained": 582
+      },
+      "metadata": {
+        "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+        "language": "Python",
+        "topics": [],
+        "stars": 54509,
+        "forks": 4939,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Python"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/HKUDS/CLI-Anything/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "Browse what is available",
+        "summary": "&nbsp; CLI-Anything: Making ALL Software Agent-Native Today's Software Serves Humans👨‍💻. Tomorrow's Users will be Agents🤖. CLI-Anything: Bridging the Gap Between AI Agents and the World's Software 🌐 https://hkuds.github.io/CLI-Anything/: pip install cli-anything-hub then cli-hub install — browse, install, and manage all community-built CLIs. Want to add your own? https://github.com/HKUDS/CLI-Anything/blob/main/CONTRIBUTING.md — the hub updates instantly. 🎬 -real-world-demos: Watch AI agents use generated CLIs plus preview, live preview, and trajectory loops to produce real artifacts — CAD builds, 3D scenes, diagrams, gameplay, subtitles, and more.",
+        "headings": [
+          "📰 News",
+          "🤔 Why CLI?",
+          "🚀 Quick Start",
+          "Browse what is available",
+          "Install and try a CLI immediately",
+          "Pick Your Agent Platform",
+          "Add the CLI-Anything marketplace",
+          "Install the cli-anything plugin from the marketplace"
+        ],
+        "commands": [
+          "pip install cli-anything-hub",
+          "pip install cli-anything-hub",
+          "pip install cli-anything-hub",
+          "pip install cli-anything-hub",
+          "pip install -e .",
+          "pip install -e . puts cli-anything-<software> directly on PATH. Agents discover tools via standard which commands. No setup, no wrappers."
+        ],
+        "keywords": [
+          "agent",
+          "📰 news",
+          "🤔 why cli?",
+          "🚀 quick start",
+          "browse what is available"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/HKUDS/CLI-Anything/main/assets/icon.png",
+        "thumbUrl": "https://raw.githubusercontent.com/HKUDS/CLI-Anything/main/assets/icon.png",
+        "alt": "HKUDS/CLI-Anything",
+        "sourceUrl": "https://raw.githubusercontent.com/HKUDS/CLI-Anything/main/assets/icon.png",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.7,
+        "method": "rules",
+        "reasons": [
+          "Matched agent"
+        ],
+        "signals": [
+          "agent"
+        ]
+      },
+      "rank": {
+        "globalRank": 8,
+        "categoryRank": 8,
+        "score": 104
+      }
+    },
+    {
+      "id": "debpalash-voicestudio",
+      "owner": "debpalash",
+      "name": "VoiceStudio",
+      "url": "https://github.com/debpalash/VoiceStudio",
+      "avatarUrl": "https://github.com/debpalash.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 9,
+        "starsGained": 2098
+      },
+      "metadata": {
+        "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+        "language": "Python",
+        "topics": [],
+        "stars": 74958,
+        "forks": 8199,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Python"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/debpalash/VoiceStudio/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "Latest Electron release",
+        "summary": "VoiceStudio Open-source voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages. Website · Download · Get started · Docs · Discord · 简体中文 · 日本語 | Create | Produce | Connect | | Clone a voice or design your own | Dub videos with timed speech | Local API & MCP for agents | | Dictate with a floating widget | Stories, audiobooks & batch jobs | Reusable recipes & watch folders | Start with VoiceStudio default, powered by k2-fsa/OmniVoice, or choose another engine. docs/feature-catalog.md. Local workflows run on your hardware. Remote services are optional; usage analytics requires consent.",
+        "headings": [
+          "Your voice. Your workflow.",
+          "Get started",
+          "One-command install (macOS / Linux)",
+          "Latest Electron release",
+          "A specific published Electron release (replace X.Y.Z)",
+          "Build current main and install the desktop app",
+          "Uninstall the app, keeping your data",
+          "Install with prompt"
+        ],
+        "commands": [],
+        "keywords": [
+          "your voice. your workflow.",
+          "get started",
+          "one-command install (macos / linux)",
+          "latest electron release"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/debpalash/VoiceStudio/main/docs/media/electron/voicestudio.gif",
+        "thumbUrl": "https://raw.githubusercontent.com/debpalash/VoiceStudio/main/docs/media/electron/voicestudio.gif",
+        "alt": "A tour of the Electron app: voice cloning, voice design, dubbing, and model management",
+        "sourceUrl": "https://raw.githubusercontent.com/debpalash/VoiceStudio/main/docs/media/electron/voicestudio.gif",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "unclassified",
+        "secondaryCategoryIds": [],
+        "confidence": 0.4,
+        "method": "rules",
+        "reasons": [
+          "No taxonomy rule matched with enough confidence"
+        ],
+        "signals": []
+      },
+      "rank": {
+        "globalRank": 9,
+        "categoryRank": 9,
+        "score": 102
+      }
+    },
+    {
+      "id": "android-skills",
+      "owner": "android",
+      "name": "skills",
+      "url": "https://github.com/android/skills",
+      "avatarUrl": "https://github.com/android.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 10,
+        "starsGained": 381
+      },
+      "metadata": {
+        "description": "",
+        "language": "Kotlin",
+        "topics": [],
+        "stars": 8713,
+        "forks": 567,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Kotlin"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/android/skills/main/README.md"
+      },
+      "readmeSignals": {
+        "title": null,
+        "summary": "Android skills are a dedicated repository of AI-optimized, modular instructions and resources, to help agents better understand and execute specific patterns that follow the best practices and guidance on Android development from https://developer.android.com. Android skills follow the https://agentskills.io/home - markdown files SKILL.md that provide a technical specification of a task, and ground LLMs with information on specialized domains and workflows. Our Android skill development focuses on use cases and workflows where evaluations show LLMs underperform. We aren't prioritizing well-established areas where LLMs are already proficient, such as basic Jetpack Compose best practices.",
+        "headings": [
+          "Android skills",
+          "Install Android skills",
+          "Install as an agent plugin",
+          "Activate skills",
+          "Disclaimer",
+          "Contributing",
+          "License",
+          "Review our community guidelines"
+        ],
+        "commands": [],
+        "keywords": [
+          "android skills",
+          "install android skills",
+          "install as an agent plugin",
+          "activate skills"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "repository_open_graph",
+        "url": "https://opengraph.githubassets.com/daily-tech-radar/android/skills",
+        "thumbUrl": "https://opengraph.githubassets.com/daily-tech-radar/android/skills",
+        "alt": "android/skills",
+        "sourceUrl": "https://github.com/android/skills",
+        "promptHash": "sha256:f456b92b24ab"
+      },
+      "classification": {
+        "primaryCategoryId": "unclassified",
+        "secondaryCategoryIds": [],
+        "confidence": 0.4,
+        "method": "rules",
+        "reasons": [
+          "No taxonomy rule matched with enough confidence"
+        ],
+        "signals": []
+      },
+      "rank": {
+        "globalRank": 10,
+        "categoryRank": 10,
+        "score": 100
+      }
+    },
+    {
+      "id": "mlabonne-llm-course",
+      "owner": "mlabonne",
+      "name": "llm-course",
+      "url": "https://github.com/mlabonne/llm-course",
+      "avatarUrl": "https://github.com/mlabonne.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 11,
+        "starsGained": 81
+      },
+      "metadata": {
+        "description": "Course to get into Large Language Models (LLMs) with roadmaps and Colab notebooks.",
+        "language": "",
+        "topics": [],
+        "stars": 83955,
+        "forks": 9779,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": []
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/mlabonne/llm-course/main/README.md"
+      },
+      "readmeSignals": {
+        "title": null,
+        "summary": "𝕏 Follow me on X • 🤗 Hugging Face • 💻 Blog • 📙 LLM Engineer's Handbook The LLM course is divided into three parts: 1. 🧩 LLM Fundamentals is optional and covers fundamental knowledge about mathematics, Python, and neural networks. 2. 🧑‍🔬 The LLM Scientist focuses on building the best possible LLMs using the latest techniques. 3. 👷 The LLM Engineer focuses on creating LLM-based applications and deploying them. For a more comprehensive version of this course, check out the https://deepwiki.com/mlabonne/llm-course/. A list of notebooks and articles I wrote about LLMs.",
+        "headings": [
+          "📝 Notebooks",
+          "Tools",
+          "Fine-tuning",
+          "Quantization",
+          "Other",
+          "🧩 LLM Fundamentals",
+          "1. Mathematics for Machine Learning",
+          "2. Python for Machine Learning"
+        ],
+        "commands": [],
+        "keywords": [
+          "llm",
+          "model",
+          "📝 notebooks",
+          "tools",
+          "fine-tuning",
+          "quantization"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/mlabonne/llm-course/main/img/roadmap_fundamentals.png",
+        "thumbUrl": "https://raw.githubusercontent.com/mlabonne/llm-course/main/img/roadmap_fundamentals.png",
+        "alt": "mlabonne/llm-course",
+        "sourceUrl": "https://raw.githubusercontent.com/mlabonne/llm-course/main/img/roadmap_fundamentals.png",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.8,
+        "method": "rules",
+        "reasons": [
+          "Matched llm",
+          "Matched model"
+        ],
+        "signals": [
+          "llm",
+          "model"
+        ]
+      },
+      "rank": {
+        "globalRank": 11,
+        "categoryRank": 11,
+        "score": 86.1
+      }
+    },
+    {
+      "id": "kruk2-jasna",
+      "owner": "Kruk2",
+      "name": "jasna",
+      "url": "https://github.com/Kruk2/jasna",
+      "avatarUrl": "https://github.com/Kruk2.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 12,
+        "starsGained": 115
+      },
+      "metadata": {
+        "description": "Video restoration tool",
+        "language": "Python",
+        "topics": [],
+        "stars": 2349,
+        "forks": 183,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Python"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/Kruk2/jasna/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "<img width=\"32\" src=\"https://github.com/Kruk2/jasna/blob/main/assets/jasna-logo.png?raw=true\" /> Jasna",
+        "summary": "The only places to get a genuine License code for the supporter models are https://buymeacoffee.com/kruk2, https://app.unifans.io/c/kruk2, and for China the seller in the README.zh.md在闲鱼购买. 支持者模型的正版许可证码只能通过 https://buymeacoffee.com/kruk2、https://app.unifans.io/c/kruk2 或 README.zh.md在闲鱼购买 获取。 Jasna restores mosaics in videos and images. It is free, has a simple app and a command line, and runs on your GPU. what-jasna-does what-you-need quick-start help-and-community supporting-the-project supporter models how-jasna-works command-line all-guides benchmarks licensing acknowledgments",
+        "headings": [
+          "<img width=\"32\" src=\"https://github.com/Kruk2/jasna/blob/main/assets/jasna-logo.png?raw=true\" /> Jasna",
+          "Contents",
+          "What Jasna does",
+          "What you need",
+          "Quick start",
+          "Help and community",
+          "Supporting the project",
+          "Where to support"
+        ],
+        "commands": [],
+        "keywords": [
+          "tool",
+          "<img width=\"32\" src=\"https://github.com/kruk2/jasna/blob/main/assets/jasna-logo.png?raw=true\" /> jasna",
+          "contents",
+          "what jasna does",
+          "what you need"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://github.com/user-attachments/assets/d59a914b-482d-4f37-ae72-5c59eb5dc9bb",
+        "thumbUrl": "https://github.com/user-attachments/assets/d59a914b-482d-4f37-ae72-5c59eb5dc9bb",
+        "alt": "image",
+        "sourceUrl": "https://github.com/user-attachments/assets/d59a914b-482d-4f37-ae72-5c59eb5dc9bb",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "tools",
+        "secondaryCategoryIds": [],
+        "confidence": 0.7,
+        "method": "rules",
+        "reasons": [
+          "Matched tool"
+        ],
+        "signals": [
+          "tool"
+        ]
+      },
+      "rank": {
+        "globalRank": 12,
+        "categoryRank": 12,
+        "score": 87.5
+      }
+    },
+    {
+      "id": "comfy-org-comfyui",
+      "owner": "Comfy-Org",
+      "name": "ComfyUI",
+      "url": "https://github.com/Comfy-Org/ComfyUI",
+      "avatarUrl": "https://github.com/Comfy-Org.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 13,
+        "starsGained": 155
+      },
+      "metadata": {
+        "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world.",
+        "language": "Python",
+        "topics": [],
+        "stars": 138509,
+        "forks": 16493,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Python"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/Comfy-Org/ComfyUI/master/README.md"
+      },
+      "readmeSignals": {
+        "title": "ComfyUI",
+        "summary": "ComfyUI The most powerful and modular AI engine for content creation. ComfyUI is the AI creation engine for visual professionals who demand control over every model, every parameter, and every output. Its powerful and modular node graph interface empowers creatives to generate images, videos, 3D models, audio, and more... ComfyUI natively supports the latest open-source state of the art models. It is by far the most optimized inference engine for diffusion models in the world with a focus on local consumer hardware. Can run even the biggest open source models on as low as 4GB vram + 8GB ram relatively quickly saturating your GPU compute using our state of the art asynchronous weight streamin",
+        "headings": [
+          "ComfyUI",
+          "Get Started",
+          "Local",
+          "Cloud",
+          "Examples",
+          "Features",
+          "Release Process",
+          "Shortcuts"
+        ],
+        "commands": [
+          "pip install comfy-cli",
+          "pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/rocm7.2",
+          "pip install --pre torch torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/rocm7.2",
+          "pip install --index-url https://stable.repo.amd.com/rocm/whl-next/ \"torch[device-all]==2.13.0+rocm10.0.0\" \"torchvision[device-all]==0.28.0+rocm10.0.0\" \"torchaudio==2.11.0.2+rocm10.0.0\"",
+          "pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/xpu",
+          "pip install --pre torch torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/xpu"
+        ],
+        "keywords": [
+          "model",
+          "comfyui",
+          "get started",
+          "local",
+          "cloud"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://github.com/user-attachments/assets/36e065e0-bfae-4456-8c7f-8369d5ea48a2",
+        "thumbUrl": "https://github.com/user-attachments/assets/36e065e0-bfae-4456-8c7f-8369d5ea48a2",
+        "alt": "ComfyUI Screenshot",
+        "sourceUrl": "https://github.com/user-attachments/assets/36e065e0-bfae-4456-8c7f-8369d5ea48a2",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.7,
+        "method": "rules",
+        "reasons": [
+          "Matched model"
+        ],
+        "signals": [
+          "model"
+        ]
+      },
+      "rank": {
+        "globalRank": 13,
+        "categoryRank": 13,
+        "score": 89.5
+      }
+    }
+  ],
+  "views": [
+    {
+      "id": "ai",
+      "type": "category",
+      "label": "AI",
+      "categoryId": "ai",
+      "repoIds": [
+        "madslorentzen-ai-job-search",
+        "anomalyco-opencode",
+        "ruvnet-ruflo",
+        "akitaonrails-ai-memory",
+        "stablyai-orca",
+        "hkuds-cli-anything",
+        "comfy-org-comfyui",
+        "mlabonne-llm-course"
+      ],
+      "sort": "score"
+    },
+    {
+      "id": "tools",
+      "type": "category",
+      "label": "Tools",
+      "categoryId": "tools",
+      "repoIds": [
+        "kruk2-jasna"
+      ],
+      "sort": "score"
+    },
+    {
+      "id": "unclassified",
+      "type": "review",
+      "label": "Needs Review",
+      "categoryId": "unclassified",
+      "repoIds": [
+        "anthropics-claude-plugins-official",
+        "cursor-plugins",
+        "debpalash-voicestudio",
+        "android-skills"
+      ],
+      "sort": "score"
+    }
+  ],
+  "health": {
+    "status": "ok",
+    "candidateCount": 13,
+    "enrichedRepoCount": 13,
+    "unclassifiedRepoCount": 4,
+    "warnings": [
+      "9 repos used README images, 0 used Agnes images, 4 fell back to repository Open Graph covers"
+    ]
+  }
+}
