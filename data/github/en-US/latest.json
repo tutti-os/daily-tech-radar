@@ -1,9 +1,9 @@
 {
   "schemaVersion": "trendreader.daily.v1",
-  "packageId": "github-daily-All-2026-10-18",
+  "packageId": "github-daily-All-2026-10-19",
   "locale": "en-US",
-  "generatedAt": "2026-10-18T20:22:36.486Z",
-  "expiresAt": "2026-10-19T20:22:36.486Z",
+  "generatedAt": "2026-10-19T20:25:53.611Z",
+  "expiresAt": "2026-10-20T20:25:53.611Z",
   "sourceWindow": {
     "since": "daily",
     "language": "All",
@@ -14,12 +14,12 @@
       "id": "github_trending_html",
       "role": "candidate",
       "status": "ok",
-      "itemCount": 13
+      "itemCount": 12
     }
   ],
   "taxonomy": {
-    "version": "2026-10-18",
-    "generatedAt": "2026-10-18T20:22:36.486Z",
+    "version": "2026-10-19",
+    "generatedAt": "2026-10-19T20:25:53.611Z",
     "categories": [
       {
         "id": "ai",
@@ -69,14 +69,14 @@
       "source": {
         "primary": "github_trending_html",
         "sourceRank": 1,
-        "starsGained": 2213
+        "starsGained": 3860
       },
       "metadata": {
         "description": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.",
         "language": "Python",
         "topics": [],
-        "stars": 52650,
-        "forks": 17265,
+        "stars": 56764,
+        "forks": 18081,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -142,83 +142,6 @@
       }
     },
     {
-      "id": "anthropics-claude-plugins-official",
-      "owner": "anthropics",
-      "name": "claude-plugins-official",
-      "url": "https://github.com/anthropics/claude-plugins-official",
-      "avatarUrl": "https://github.com/anthropics.png",
-      "homepageUrl": null,
-      "source": {
-        "primary": "github_trending_html",
-        "sourceRank": 2,
-        "starsGained": 1187
-      },
-      "metadata": {
-        "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
-        "language": "Python",
-        "topics": [],
-        "stars": 42562,
-        "forks": 4525,
-        "license": null,
-        "defaultBranch": null,
-        "pushedAt": null,
-        "topLanguages": [
-          "Python"
-        ]
-      },
-      "readmeRef": {
-        "status": "available",
-        "path": "README.md",
-        "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/anthropics/claude-plugins-official/main/README.md"
-      },
-      "readmeSignals": {
-        "title": "Claude Code Plugins Directory",
-        "summary": "A curated directory of high-quality plugins for Claude Code. ⚠️ Important: Make sure you trust a plugin before installing, updating, or using it. Anthropic does not control what MCP servers, files, or other software are included in plugins and cannot verify that they will work as intended or that they won't change. See each plugin's homepage for more information. /plugins - Internal plugins developed and maintained by Anthropic /externalplugins - Third-party plugins from partners and the community Plugins can be installed directly from this marketplace via Claude Code's plugin system.",
-        "headings": [
-          "Claude Code Plugins Directory",
-          "Structure",
-          "Installation",
-          "Contributing",
-          "Internal Plugins",
-          "External Plugins",
-          "Plugin Structure",
-          "Plugin names are immutable"
-        ],
-        "commands": [],
-        "keywords": [
-          "claude code plugins directory",
-          "structure",
-          "installation",
-          "contributing"
-        ],
-        "score": 100
-      },
-      "visual": {
-        "kind": "repository_open_graph",
-        "url": "https://opengraph.githubassets.com/daily-tech-radar/anthropics/claude-plugins-official",
-        "thumbUrl": "https://opengraph.githubassets.com/daily-tech-radar/anthropics/claude-plugins-official",
-        "alt": "anthropics/claude-plugins-official",
-        "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
-        "promptHash": "sha256:083f36522e2c"
-      },
-      "classification": {
-        "primaryCategoryId": "unclassified",
-        "secondaryCategoryIds": [],
-        "confidence": 0.4,
-        "method": "rules",
-        "reasons": [
-          "No taxonomy rule matched with enough confidence"
-        ],
-        "signals": []
-      },
-      "rank": {
-        "globalRank": 2,
-        "categoryRank": 2,
-        "score": 116
-      }
-    },
-    {
       "id": "anomalyco-opencode",
       "owner": "anomalyco",
       "name": "opencode",
@@ -227,15 +150,15 @@
       "homepageUrl": null,
       "source": {
         "primary": "github_trending_html",
-        "sourceRank": 3,
-        "starsGained": 1417
+        "sourceRank": 2,
+        "starsGained": 1310
       },
       "metadata": {
         "description": "The open source coding agent.",
         "language": "TypeScript",
         "topics": [],
-        "stars": 216415,
-        "forks": 28973,
+        "stars": 217640,
+        "forks": 29093,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -293,77 +216,174 @@
         ]
       },
       "rank": {
-        "globalRank": 3,
-        "categoryRank": 3,
-        "score": 114
+        "globalRank": 2,
+        "categoryRank": 2,
+        "score": 116
       }
     },
     {
-      "id": "cursor-plugins",
-      "owner": "cursor",
-      "name": "plugins",
-      "url": "https://github.com/cursor/plugins",
-      "avatarUrl": "https://github.com/cursor.png",
+      "id": "akitaonrails-ai-memory",
+      "owner": "akitaonrails",
+      "name": "ai-memory",
+      "url": "https://github.com/akitaonrails/ai-memory",
+      "avatarUrl": "https://github.com/akitaonrails.png",
       "homepageUrl": null,
       "source": {
         "primary": "github_trending_html",
-        "sourceRank": 4,
-        "starsGained": 351
+        "sourceRank": 3,
+        "starsGained": 666
       },
       "metadata": {
-        "description": "Cursor plugin specification and official plugins",
-        "language": "TypeScript",
+        "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
+        "language": "Rust",
         "topics": [],
-        "stars": 12683,
-        "forks": 1246,
+        "stars": 11215,
+        "forks": 792,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
         "topLanguages": [
-          "TypeScript"
+          "Rust"
         ]
       },
       "readmeRef": {
         "status": "available",
         "path": "README.md",
         "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/cursor/plugins/main/README.md"
+        "rawUrl": "https://raw.githubusercontent.com/akitaonrails/ai-memory/main/README.md"
       },
       "readmeSignals": {
-        "title": "Cursor plugins",
-        "summary": "Official Cursor plugins for popular developer tools, frameworks, and SaaS products. Each plugin is a standalone directory at the repository root with its own .cursor-plugin/plugin.json manifest. | name | Plugin | Author | Category | description from marketplace | | teaching | teaching/ | Cursor | Utilities | Skill mapping, practice plans, and learning retrospectives. | | continual-learning | continual-learning/ | Eric Zakariasson | Developer Tools | Incremental transcript-driven memory updates for AGENTS.md using high-signal bullet points only. | | cursor-team-kit | cursor-team-kit/ | Eric Zakariasson | Developer Tools | Internal team workflows for CI, code review, shipping, local automation",
+        "title": "1. Install the ai-memory CLI wrapper (a small shell script that",
+        "summary": "Long-term memory for AI coding agents. Quit Claude Code mid-task, start OpenAI Codex in the same directory, continue without re-explaining the architecture, the failed approaches, or the open questions. Your coding agent probably has a memory feature already. Claude Code takes its own notes, Cursor remembers some things, and every platform is adding more. They all have the same limits: the notes live on one machine, belong to one agent, and drop out of view when you switch tools or hand the work to a teammate. It follows you across agents. More than twenty harnesses Claude Code, Codex, Cursor, Gemini CLI, OpenCode, Grok, Devin, Kimi, Kiro, and others feed one shared memory. Quit Claude Code ",
         "headings": [
-          "Cursor plugins",
-          "Plugins",
-          "Repository structure",
-          "License"
+          "Why ai-memory",
+          "How it works",
+          "Support matrix",
+          "Coming from another tool?",
+          "Quick start",
+          "Linux and macOS (two commands, no root)",
+          "Windows (two commands, no admin)",
+          "Arch Linux (AUR)"
         ],
         "commands": [],
         "keywords": [
-          "cursor plugins",
-          "plugins",
-          "repository structure",
-          "license"
+          "ai",
+          "agent",
+          "why ai-memory",
+          "how it works",
+          "support matrix",
+          "coming from another tool?"
         ],
-        "score": 80
+        "score": 100
       },
       "visual": {
         "kind": "repository_open_graph",
-        "url": "https://opengraph.githubassets.com/daily-tech-radar/cursor/plugins",
-        "thumbUrl": "https://opengraph.githubassets.com/daily-tech-radar/cursor/plugins",
-        "alt": "cursor/plugins",
-        "sourceUrl": "https://github.com/cursor/plugins",
-        "promptHash": "sha256:4b8206bfeced"
+        "url": "https://opengraph.githubassets.com/daily-tech-radar/akitaonrails/ai-memory",
+        "thumbUrl": "https://opengraph.githubassets.com/daily-tech-radar/akitaonrails/ai-memory",
+        "alt": "akitaonrails/ai-memory",
+        "sourceUrl": "https://github.com/akitaonrails/ai-memory",
+        "promptHash": "sha256:b5ea5f15a3ae"
       },
       "classification": {
-        "primaryCategoryId": "unclassified",
+        "primaryCategoryId": "ai",
         "secondaryCategoryIds": [],
-        "confidence": 0.4,
+        "confidence": 0.8,
         "method": "rules",
         "reasons": [
-          "No taxonomy rule matched with enough confidence"
+          "Matched ai",
+          "Matched agent"
         ],
-        "signals": []
+        "signals": [
+          "ai",
+          "agent"
+        ]
+      },
+      "rank": {
+        "globalRank": 3,
+        "categoryRank": 3,
+        "score": 114
+      }
+    },
+    {
+      "id": "comfy-org-comfyui",
+      "owner": "Comfy-Org",
+      "name": "ComfyUI",
+      "url": "https://github.com/Comfy-Org/ComfyUI",
+      "avatarUrl": "https://github.com/Comfy-Org.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 4,
+        "starsGained": 1011
+      },
+      "metadata": {
+        "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world.",
+        "language": "Python",
+        "topics": [],
+        "stars": 139562,
+        "forks": 16570,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Python"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/Comfy-Org/ComfyUI/master/README.md"
+      },
+      "readmeSignals": {
+        "title": "ComfyUI",
+        "summary": "ComfyUI The most powerful and modular AI engine for content creation. ComfyUI is the AI creation engine for visual professionals who demand control over every model, every parameter, and every output. Its powerful and modular node graph interface empowers creatives to generate images, videos, 3D models, audio, and more... ComfyUI natively supports the latest open-source state of the art models. It is by far the most optimized inference engine for diffusion models in the world with a focus on local consumer hardware. Can run even the biggest open source models on as low as 4GB vram + 8GB ram relatively quickly saturating your GPU compute using our state of the art asynchronous weight streamin",
+        "headings": [
+          "ComfyUI",
+          "Get Started",
+          "Local",
+          "Cloud",
+          "Examples",
+          "Features",
+          "Release Process",
+          "Shortcuts"
+        ],
+        "commands": [
+          "pip install comfy-cli",
+          "pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/rocm7.2",
+          "pip install --pre torch torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/rocm7.2",
+          "pip install --index-url https://stable.repo.amd.com/rocm/whl-next/ \"torch[device-all]==2.13.0+rocm10.0.0\" \"torchvision[device-all]==0.28.0+rocm10.0.0\" \"torchaudio==2.11.0.2+rocm10.0.0\"",
+          "pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/xpu",
+          "pip install --pre torch torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/xpu"
+        ],
+        "keywords": [
+          "model",
+          "comfyui",
+          "get started",
+          "local",
+          "cloud"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://github.com/user-attachments/assets/36e065e0-bfae-4456-8c7f-8369d5ea48a2",
+        "thumbUrl": "https://github.com/user-attachments/assets/36e065e0-bfae-4456-8c7f-8369d5ea48a2",
+        "alt": "ComfyUI Screenshot",
+        "sourceUrl": "https://github.com/user-attachments/assets/36e065e0-bfae-4456-8c7f-8369d5ea48a2",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.7,
+        "method": "rules",
+        "reasons": [
+          "Matched model"
+        ],
+        "signals": [
+          "model"
+        ]
       },
       "rank": {
         "globalRank": 4,
@@ -381,14 +401,14 @@
       "source": {
         "primary": "github_trending_html",
         "sourceRank": 5,
-        "starsGained": 502
+        "starsGained": 564
       },
       "metadata": {
         "description": "🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, federation, vector RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
         "language": "TypeScript",
         "topics": [],
-        "stars": 76434,
-        "forks": 9033,
+        "stars": 77088,
+        "forks": 9094,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -457,89 +477,6 @@
       }
     },
     {
-      "id": "akitaonrails-ai-memory",
-      "owner": "akitaonrails",
-      "name": "ai-memory",
-      "url": "https://github.com/akitaonrails/ai-memory",
-      "avatarUrl": "https://github.com/akitaonrails.png",
-      "homepageUrl": null,
-      "source": {
-        "primary": "github_trending_html",
-        "sourceRank": 6,
-        "starsGained": 513
-      },
-      "metadata": {
-        "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
-        "language": "Rust",
-        "topics": [],
-        "stars": 10390,
-        "forks": 744,
-        "license": null,
-        "defaultBranch": null,
-        "pushedAt": null,
-        "topLanguages": [
-          "Rust"
-        ]
-      },
-      "readmeRef": {
-        "status": "available",
-        "path": "README.md",
-        "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/akitaonrails/ai-memory/main/README.md"
-      },
-      "readmeSignals": {
-        "title": "1. Install the ai-memory CLI wrapper (a small shell script that",
-        "summary": "Long-term memory for AI coding agents. Quit Claude Code mid-task, start OpenAI Codex in the same directory, continue without re-explaining the architecture, the failed approaches, or the open questions. Your coding agent probably has a memory feature already. Claude Code takes its own notes, Cursor remembers some things, and every platform is adding more. They all have the same limits: the notes live on one machine, belong to one agent, and drop out of view when you switch tools or hand the work to a teammate. It follows you across agents. More than twenty harnesses Claude Code, Codex, Cursor, Gemini CLI, OpenCode, Grok, Devin, Kimi, Kiro, and others feed one shared memory. Quit Claude Code ",
-        "headings": [
-          "Why ai-memory",
-          "How it works",
-          "Support matrix",
-          "Coming from another tool?",
-          "Quick start",
-          "Linux and macOS (two commands, no root)",
-          "Windows (two commands, no admin)",
-          "Arch Linux (AUR)"
-        ],
-        "commands": [],
-        "keywords": [
-          "ai",
-          "agent",
-          "why ai-memory",
-          "how it works",
-          "support matrix",
-          "coming from another tool?"
-        ],
-        "score": 100
-      },
-      "visual": {
-        "kind": "repository_open_graph",
-        "url": "https://opengraph.githubassets.com/daily-tech-radar/akitaonrails/ai-memory",
-        "thumbUrl": "https://opengraph.githubassets.com/daily-tech-radar/akitaonrails/ai-memory",
-        "alt": "akitaonrails/ai-memory",
-        "sourceUrl": "https://github.com/akitaonrails/ai-memory",
-        "promptHash": "sha256:b5ea5f15a3ae"
-      },
-      "classification": {
-        "primaryCategoryId": "ai",
-        "secondaryCategoryIds": [],
-        "confidence": 0.8,
-        "method": "rules",
-        "reasons": [
-          "Matched ai",
-          "Matched agent"
-        ],
-        "signals": [
-          "ai",
-          "agent"
-        ]
-      },
-      "rank": {
-        "globalRank": 6,
-        "categoryRank": 6,
-        "score": 108
-      }
-    },
-    {
       "id": "stablyai-orca",
       "owner": "stablyai",
       "name": "orca",
@@ -548,15 +485,15 @@
       "homepageUrl": null,
       "source": {
         "primary": "github_trending_html",
-        "sourceRank": 7,
-        "starsGained": 1146
+        "sourceRank": 6,
+        "starsGained": 1591
       },
       "metadata": {
         "description": "Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
         "language": "TypeScript",
         "topics": [],
-        "stars": 96434,
-        "forks": 6167,
+        "stars": 98071,
+        "forks": 6250,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -617,9 +554,259 @@
         ]
       },
       "rank": {
+        "globalRank": 6,
+        "categoryRank": 6,
+        "score": 108
+      }
+    },
+    {
+      "id": "headroomlabs-ai-headroom",
+      "owner": "headroomlabs-ai",
+      "name": "headroom",
+      "url": "https://github.com/headroomlabs-ai/headroom",
+      "avatarUrl": "https://github.com/headroomlabs-ai.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 7,
+        "starsGained": 317
+      },
+      "metadata": {
+        "description": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP server.",
+        "language": "Python",
+        "topics": [],
+        "stars": 76162,
+        "forks": 5922,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Python"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/headroomlabs-ai/headroom/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "1 — Install",
+        "summary": "Quickstart · Headroom for Teams · Install · Proof · Agents · Docs · Discord · llms.txt AI agents / LLMs: read /llms.txt here, or fetch the live index · full docs blob . Headroom compresses everything your AI agent reads — tool outputs, logs, RAG chunks, files, and conversation history — before it reaches the LLM. Same answers, fraction of the tokens. Compression runs on your machine; no prompt or file content is sent anywhere to be compressed. Library — compressmessages in Python or TypeScript, inline in any app. Proxy — headroom proxy --port 8787, zero code changes, any language. Agent wrap — headroom wrap claude|codex|grok|copilot|cursor|aider|opencode|cline|continue|goose|openhands|opencl",
+        "headings": [
+          "What it does",
+          "How it works",
+          "Get started (60 seconds)",
+          "1 — Install",
+          "2 — Pick a mode",
+          "or: from headroom import compress     # inline library",
+          "3 — Check it and watch the savings",
+          "Proof"
+        ],
+        "commands": [
+          "pip install \"headroom-ai[all]\"                    # Python — ships the",
+          "npm install headroom-ai                           # TypeScript SDK only — no CLI",
+          "pip install \"headroom-ai[proxy]\"",
+          "pip install \"headroom-ai[all]\"                    # Python, everything — includes the CLI",
+          "npm install headroom-ai                           # TypeScript SDK (library only)",
+          "pip install \"headroom-ai[langchain]\""
+        ],
+        "keywords": [
+          "agent",
+          "llm",
+          "mcp",
+          "what it does",
+          "how it works",
+          "get started (60 seconds)",
+          "1 — install"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/headroomlabs-ai/headroom/main/.github/assets/hero.svg",
+        "thumbUrl": "https://raw.githubusercontent.com/headroomlabs-ai/headroom/main/.github/assets/hero.svg",
+        "alt": "Headroom — the context compression layer for AI agents. A 55,957 token agent prompt compresses to the 24,340 tokens actually sent to the model, and the FATAL line at item 67 survives byte for byte.",
+        "sourceUrl": "https://raw.githubusercontent.com/headroomlabs-ai/headroom/main/.github/assets/hero.svg",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.9,
+        "method": "rules",
+        "reasons": [
+          "Matched agent",
+          "Matched llm",
+          "Matched mcp"
+        ],
+        "signals": [
+          "agent",
+          "llm",
+          "mcp"
+        ]
+      },
+      "rank": {
         "globalRank": 7,
         "categoryRank": 7,
         "score": 106
+      }
+    },
+    {
+      "id": "withmarbleapp-os-taxonomy",
+      "owner": "withmarbleapp",
+      "name": "os-taxonomy",
+      "url": "https://github.com/withmarbleapp/os-taxonomy",
+      "avatarUrl": "https://github.com/withmarbleapp.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 8,
+        "starsGained": 301
+      },
+      "metadata": {
+        "description": "",
+        "language": "JavaScript",
+        "topics": [],
+        "stars": 6053,
+        "forks": 996,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "JavaScript"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/withmarbleapp/os-taxonomy/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "Marble Skill Taxonomy",
+        "summary": "An open, structured taxonomy of what children learn across the primary/elementary years — decomposed into fine-grained \"micro-topics\", wired into a prerequisite graph, and aligned to national curriculum standards. Produced by https://withmarble.com. Version: v1 · Topics: 1,591 · Prerequisite edges: 3,225 · Subjects: 8 Every dot is a micro-topic, colored by subject; height is age; each thread is a prerequisite media/curriculum-viz.mp4. Explore it interactively at https://withmarble.com/curriculum — tap any concept to trace everything a learner must master before it.",
+        "headings": [
+          "Marble Skill Taxonomy",
+          "See it",
+          "What this is",
+          "Subjects",
+          "Files",
+          "A topic",
+          "A dependency",
+          "Teaching research"
+        ],
+        "commands": [],
+        "keywords": [
+          "marble skill taxonomy",
+          "see it",
+          "what this is",
+          "subjects"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/withmarbleapp/os-taxonomy/main/media/curriculum-viz.gif",
+        "thumbUrl": "https://raw.githubusercontent.com/withmarbleapp/os-taxonomy/main/media/curriculum-viz.gif",
+        "alt": "The taxonomy as a rotating 3D graph: every dot a micro-topic, colored by subject, wired by prerequisites",
+        "sourceUrl": "https://raw.githubusercontent.com/withmarbleapp/os-taxonomy/main/media/curriculum-viz.gif",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "unclassified",
+        "secondaryCategoryIds": [],
+        "confidence": 0.4,
+        "method": "rules",
+        "reasons": [
+          "No taxonomy rule matched with enough confidence"
+        ],
+        "signals": []
+      },
+      "rank": {
+        "globalRank": 8,
+        "categoryRank": 8,
+        "score": 104
+      }
+    },
+    {
+      "id": "kruk2-jasna",
+      "owner": "Kruk2",
+      "name": "jasna",
+      "url": "https://github.com/Kruk2/jasna",
+      "avatarUrl": "https://github.com/Kruk2.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 9,
+        "starsGained": 502
+      },
+      "metadata": {
+        "description": "Video restoration tool",
+        "language": "Python",
+        "topics": [],
+        "stars": 2844,
+        "forks": 212,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Python"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/Kruk2/jasna/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "<img width=\"32\" src=\"https://github.com/Kruk2/jasna/blob/main/assets/jasna-logo.png?raw=true\" /> Jasna",
+        "summary": "The only places to get a genuine License code for the supporter models are https://buymeacoffee.com/kruk2, https://app.unifans.io/c/kruk2, and for China the seller in the README.zh.md在闲鱼购买. 支持者模型的正版许可证码只能通过 https://buymeacoffee.com/kruk2、https://app.unifans.io/c/kruk2 或 README.zh.md在闲鱼购买 获取。 Jasna restores mosaics in videos and images. It is free, has a simple app and a command line, and runs on your GPU. what-jasna-does what-you-need quick-start help-and-community supporting-the-project supporter models how-jasna-works command-line all-guides benchmarks licensing acknowledgments",
+        "headings": [
+          "<img width=\"32\" src=\"https://github.com/Kruk2/jasna/blob/main/assets/jasna-logo.png?raw=true\" /> Jasna",
+          "Contents",
+          "What Jasna does",
+          "What you need",
+          "Quick start",
+          "Help and community",
+          "Supporting the project",
+          "Where to support"
+        ],
+        "commands": [],
+        "keywords": [
+          "tool",
+          "<img width=\"32\" src=\"https://github.com/kruk2/jasna/blob/main/assets/jasna-logo.png?raw=true\" /> jasna",
+          "contents",
+          "what jasna does",
+          "what you need"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://github.com/user-attachments/assets/d59a914b-482d-4f37-ae72-5c59eb5dc9bb",
+        "thumbUrl": "https://github.com/user-attachments/assets/d59a914b-482d-4f37-ae72-5c59eb5dc9bb",
+        "alt": "image",
+        "sourceUrl": "https://github.com/user-attachments/assets/d59a914b-482d-4f37-ae72-5c59eb5dc9bb",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "tools",
+        "secondaryCategoryIds": [],
+        "confidence": 0.7,
+        "method": "rules",
+        "reasons": [
+          "Matched tool"
+        ],
+        "signals": [
+          "tool"
+        ]
+      },
+      "rank": {
+        "globalRank": 9,
+        "categoryRank": 9,
+        "score": 102
       }
     },
     {
@@ -631,15 +818,15 @@
       "homepageUrl": null,
       "source": {
         "primary": "github_trending_html",
-        "sourceRank": 8,
-        "starsGained": 582
+        "sourceRank": 10,
+        "starsGained": 607
       },
       "metadata": {
         "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
         "language": "Python",
         "topics": [],
-        "stars": 54509,
-        "forks": 4939,
+        "stars": 55138,
+        "forks": 4976,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -704,224 +891,74 @@
         ]
       },
       "rank": {
-        "globalRank": 8,
-        "categoryRank": 8,
-        "score": 104
-      }
-    },
-    {
-      "id": "debpalash-voicestudio",
-      "owner": "debpalash",
-      "name": "VoiceStudio",
-      "url": "https://github.com/debpalash/VoiceStudio",
-      "avatarUrl": "https://github.com/debpalash.png",
-      "homepageUrl": null,
-      "source": {
-        "primary": "github_trending_html",
-        "sourceRank": 9,
-        "starsGained": 2098
-      },
-      "metadata": {
-        "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
-        "language": "Python",
-        "topics": [],
-        "stars": 74958,
-        "forks": 8199,
-        "license": null,
-        "defaultBranch": null,
-        "pushedAt": null,
-        "topLanguages": [
-          "Python"
-        ]
-      },
-      "readmeRef": {
-        "status": "available",
-        "path": "README.md",
-        "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/debpalash/VoiceStudio/main/README.md"
-      },
-      "readmeSignals": {
-        "title": "Latest Electron release",
-        "summary": "VoiceStudio Open-source voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages. Website · Download · Get started · Docs · Discord · 简体中文 · 日本語 | Create | Produce | Connect | | Clone a voice or design your own | Dub videos with timed speech | Local API & MCP for agents | | Dictate with a floating widget | Stories, audiobooks & batch jobs | Reusable recipes & watch folders | Start with VoiceStudio default, powered by k2-fsa/OmniVoice, or choose another engine. docs/feature-catalog.md. Local workflows run on your hardware. Remote services are optional; usage analytics requires consent.",
-        "headings": [
-          "Your voice. Your workflow.",
-          "Get started",
-          "One-command install (macOS / Linux)",
-          "Latest Electron release",
-          "A specific published Electron release (replace X.Y.Z)",
-          "Build current main and install the desktop app",
-          "Uninstall the app, keeping your data",
-          "Install with prompt"
-        ],
-        "commands": [],
-        "keywords": [
-          "your voice. your workflow.",
-          "get started",
-          "one-command install (macos / linux)",
-          "latest electron release"
-        ],
-        "score": 100
-      },
-      "visual": {
-        "kind": "readme_image",
-        "url": "https://raw.githubusercontent.com/debpalash/VoiceStudio/main/docs/media/electron/voicestudio.gif",
-        "thumbUrl": "https://raw.githubusercontent.com/debpalash/VoiceStudio/main/docs/media/electron/voicestudio.gif",
-        "alt": "A tour of the Electron app: voice cloning, voice design, dubbing, and model management",
-        "sourceUrl": "https://raw.githubusercontent.com/debpalash/VoiceStudio/main/docs/media/electron/voicestudio.gif",
-        "promptHash": null
-      },
-      "classification": {
-        "primaryCategoryId": "unclassified",
-        "secondaryCategoryIds": [],
-        "confidence": 0.4,
-        "method": "rules",
-        "reasons": [
-          "No taxonomy rule matched with enough confidence"
-        ],
-        "signals": []
-      },
-      "rank": {
-        "globalRank": 9,
-        "categoryRank": 9,
-        "score": 102
-      }
-    },
-    {
-      "id": "android-skills",
-      "owner": "android",
-      "name": "skills",
-      "url": "https://github.com/android/skills",
-      "avatarUrl": "https://github.com/android.png",
-      "homepageUrl": null,
-      "source": {
-        "primary": "github_trending_html",
-        "sourceRank": 10,
-        "starsGained": 381
-      },
-      "metadata": {
-        "description": "",
-        "language": "Kotlin",
-        "topics": [],
-        "stars": 8713,
-        "forks": 567,
-        "license": null,
-        "defaultBranch": null,
-        "pushedAt": null,
-        "topLanguages": [
-          "Kotlin"
-        ]
-      },
-      "readmeRef": {
-        "status": "available",
-        "path": "README.md",
-        "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/android/skills/main/README.md"
-      },
-      "readmeSignals": {
-        "title": null,
-        "summary": "Android skills are a dedicated repository of AI-optimized, modular instructions and resources, to help agents better understand and execute specific patterns that follow the best practices and guidance on Android development from https://developer.android.com. Android skills follow the https://agentskills.io/home - markdown files SKILL.md that provide a technical specification of a task, and ground LLMs with information on specialized domains and workflows. Our Android skill development focuses on use cases and workflows where evaluations show LLMs underperform. We aren't prioritizing well-established areas where LLMs are already proficient, such as basic Jetpack Compose best practices.",
-        "headings": [
-          "Android skills",
-          "Install Android skills",
-          "Install as an agent plugin",
-          "Activate skills",
-          "Disclaimer",
-          "Contributing",
-          "License",
-          "Review our community guidelines"
-        ],
-        "commands": [],
-        "keywords": [
-          "android skills",
-          "install android skills",
-          "install as an agent plugin",
-          "activate skills"
-        ],
-        "score": 100
-      },
-      "visual": {
-        "kind": "repository_open_graph",
-        "url": "https://opengraph.githubassets.com/daily-tech-radar/android/skills",
-        "thumbUrl": "https://opengraph.githubassets.com/daily-tech-radar/android/skills",
-        "alt": "android/skills",
-        "sourceUrl": "https://github.com/android/skills",
-        "promptHash": "sha256:f456b92b24ab"
-      },
-      "classification": {
-        "primaryCategoryId": "unclassified",
-        "secondaryCategoryIds": [],
-        "confidence": 0.4,
-        "method": "rules",
-        "reasons": [
-          "No taxonomy rule matched with enough confidence"
-        ],
-        "signals": []
-      },
-      "rank": {
         "globalRank": 10,
         "categoryRank": 10,
         "score": 100
       }
     },
     {
-      "id": "mlabonne-llm-course",
-      "owner": "mlabonne",
-      "name": "llm-course",
-      "url": "https://github.com/mlabonne/llm-course",
-      "avatarUrl": "https://github.com/mlabonne.png",
+      "id": "anthropics-claude-code",
+      "owner": "anthropics",
+      "name": "claude-code",
+      "url": "https://github.com/anthropics/claude-code",
+      "avatarUrl": "https://github.com/anthropics.png",
       "homepageUrl": null,
       "source": {
         "primary": "github_trending_html",
         "sourceRank": 11,
-        "starsGained": 81
+        "starsGained": 167
       },
       "metadata": {
-        "description": "Course to get into Large Language Models (LLMs) with roadmaps and Colab notebooks.",
-        "language": "",
+        "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+        "language": "TypeScript",
         "topics": [],
-        "stars": 83955,
-        "forks": 9779,
+        "stars": 152566,
+        "forks": 27131,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
-        "topLanguages": []
+        "topLanguages": [
+          "TypeScript"
+        ]
       },
       "readmeRef": {
         "status": "available",
         "path": "README.md",
         "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/mlabonne/llm-course/main/README.md"
+        "rawUrl": "https://raw.githubusercontent.com/anthropics/claude-code/main/README.md"
       },
       "readmeSignals": {
-        "title": null,
-        "summary": "𝕏 Follow me on X • 🤗 Hugging Face • 💻 Blog • 📙 LLM Engineer's Handbook The LLM course is divided into three parts: 1. 🧩 LLM Fundamentals is optional and covers fundamental knowledge about mathematics, Python, and neural networks. 2. 🧑‍🔬 The LLM Scientist focuses on building the best possible LLMs using the latest techniques. 3. 👷 The LLM Engineer focuses on creating LLM-based applications and deploying them. For a more comprehensive version of this course, check out the https://deepwiki.com/mlabonne/llm-course/. A list of notebooks and articles I wrote about LLMs.",
+        "title": "Claude Code",
+        "summary": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows -- all through natural language commands. Use it in your terminal, IDE, or tag @claude on Github. Learn more in the https://code.claude.com/docs/en/overview. Get started !NOTE Installation via npm is deprecated. Use one of the recommended methods below. For more installation options, uninstall steps, and troubleshooting, see the https://code.claude.com/docs/en/setup.",
         "headings": [
-          "📝 Notebooks",
-          "Tools",
-          "Fine-tuning",
-          "Quantization",
-          "Other",
-          "🧩 LLM Fundamentals",
-          "1. Mathematics for Machine Learning",
-          "2. Python for Machine Learning"
+          "Claude Code",
+          "Get started",
+          "Plugins",
+          "Reporting Bugs",
+          "Connect on Discord",
+          "Data collection, usage, and retention",
+          "How we use your data",
+          "Privacy safeguards"
         ],
-        "commands": [],
+        "commands": [
+          "npm install -g @anthropic-ai/claude-code"
+        ],
         "keywords": [
-          "llm",
-          "model",
-          "📝 notebooks",
-          "tools",
-          "fine-tuning",
-          "quantization"
+          "ai",
+          "agent",
+          "claude code",
+          "get started",
+          "plugins",
+          "reporting bugs"
         ],
         "score": 100
       },
       "visual": {
         "kind": "readme_image",
-        "url": "https://raw.githubusercontent.com/mlabonne/llm-course/main/img/roadmap_fundamentals.png",
-        "thumbUrl": "https://raw.githubusercontent.com/mlabonne/llm-course/main/img/roadmap_fundamentals.png",
-        "alt": "mlabonne/llm-course",
-        "sourceUrl": "https://raw.githubusercontent.com/mlabonne/llm-course/main/img/roadmap_fundamentals.png",
+        "url": "https://raw.githubusercontent.com/anthropics/claude-code/main/demo.gif",
+        "thumbUrl": "https://raw.githubusercontent.com/anthropics/claude-code/main/demo.gif",
+        "alt": "anthropics/claude-code",
+        "sourceUrl": "https://raw.githubusercontent.com/anthropics/claude-code/main/demo.gif",
         "promptHash": null
       },
       "classification": {
@@ -930,38 +967,38 @@
         "confidence": 0.8,
         "method": "rules",
         "reasons": [
-          "Matched llm",
-          "Matched model"
+          "Matched ai",
+          "Matched agent"
         ],
         "signals": [
-          "llm",
-          "model"
+          "ai",
+          "agent"
         ]
       },
       "rank": {
         "globalRank": 11,
         "categoryRank": 11,
-        "score": 86.1
+        "score": 94.7
       }
     },
     {
-      "id": "kruk2-jasna",
-      "owner": "Kruk2",
-      "name": "jasna",
-      "url": "https://github.com/Kruk2/jasna",
-      "avatarUrl": "https://github.com/Kruk2.png",
+      "id": "shiyu-coder-kronos",
+      "owner": "shiyu-coder",
+      "name": "Kronos",
+      "url": "https://github.com/shiyu-coder/Kronos",
+      "avatarUrl": "https://github.com/shiyu-coder.png",
       "homepageUrl": null,
       "source": {
         "primary": "github_trending_html",
         "sourceRank": 12,
-        "starsGained": 115
+        "starsGained": 355
       },
       "metadata": {
-        "description": "Video restoration tool",
+        "description": "Kronos: A Foundation Model for the Language of Financial Markets",
         "language": "Python",
         "topics": [],
-        "stars": 2349,
-        "forks": 183,
+        "stars": 41550,
+        "forks": 6913,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -973,124 +1010,40 @@
         "status": "available",
         "path": "README.md",
         "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/Kruk2/jasna/main/README.md"
+        "rawUrl": "https://raw.githubusercontent.com/shiyu-coder/Kronos/master/README.md"
       },
       "readmeSignals": {
-        "title": "<img width=\"32\" src=\"https://github.com/Kruk2/jasna/blob/main/assets/jasna-logo.png?raw=true\" /> Jasna",
-        "summary": "The only places to get a genuine License code for the supporter models are https://buymeacoffee.com/kruk2, https://app.unifans.io/c/kruk2, and for China the seller in the README.zh.md在闲鱼购买. 支持者模型的正版许可证码只能通过 https://buymeacoffee.com/kruk2、https://app.unifans.io/c/kruk2 或 README.zh.md在闲鱼购买 获取。 Jasna restores mosaics in videos and images. It is free, has a simple app and a command line, and runs on your GPU. what-jasna-does what-you-need quick-start help-and-community supporting-the-project supporter models how-jasna-works command-line all-guides benchmarks licensing acknowledgments",
+        "title": "Load from Hugging Face Hub",
+        "summary": "Kronos: A Foundation Model for the Language of Financial Markets Deutsch | Español | Français | 日本語 | 한국어 | Português | Русский | 中文 Kronos is the first open-source foundation model for financial candlesticks K-lines, trained on data from over 45 global exchanges. 📰 News 🚩 2025.11.10 Kronos has been accpeted by AAAI 2026. 🚩 2025.08.17 We have released the scripts for fine-tuning! Check them out to adapt Kronos to your own tasks. 🚩 2025.08.02 Our paper is now available on https://arxiv.org/abs/2508.02739! 📜 Introduction Kronos is a family of decoder-only foundation models, pre-trained specifically for the \"language\" of financial markets—K-line sequences. Unlike general-purpose TSFMs, Kro",
         "headings": [
-          "<img width=\"32\" src=\"https://github.com/Kruk2/jasna/blob/main/assets/jasna-logo.png?raw=true\" /> Jasna",
-          "Contents",
-          "What Jasna does",
-          "What you need",
-          "Quick start",
-          "Help and community",
-          "Supporting the project",
-          "Where to support"
-        ],
-        "commands": [],
-        "keywords": [
-          "tool",
-          "<img width=\"32\" src=\"https://github.com/kruk2/jasna/blob/main/assets/jasna-logo.png?raw=true\" /> jasna",
-          "contents",
-          "what jasna does",
-          "what you need"
-        ],
-        "score": 100
-      },
-      "visual": {
-        "kind": "readme_image",
-        "url": "https://github.com/user-attachments/assets/d59a914b-482d-4f37-ae72-5c59eb5dc9bb",
-        "thumbUrl": "https://github.com/user-attachments/assets/d59a914b-482d-4f37-ae72-5c59eb5dc9bb",
-        "alt": "image",
-        "sourceUrl": "https://github.com/user-attachments/assets/d59a914b-482d-4f37-ae72-5c59eb5dc9bb",
-        "promptHash": null
-      },
-      "classification": {
-        "primaryCategoryId": "tools",
-        "secondaryCategoryIds": [],
-        "confidence": 0.7,
-        "method": "rules",
-        "reasons": [
-          "Matched tool"
-        ],
-        "signals": [
-          "tool"
-        ]
-      },
-      "rank": {
-        "globalRank": 12,
-        "categoryRank": 12,
-        "score": 87.5
-      }
-    },
-    {
-      "id": "comfy-org-comfyui",
-      "owner": "Comfy-Org",
-      "name": "ComfyUI",
-      "url": "https://github.com/Comfy-Org/ComfyUI",
-      "avatarUrl": "https://github.com/Comfy-Org.png",
-      "homepageUrl": null,
-      "source": {
-        "primary": "github_trending_html",
-        "sourceRank": 13,
-        "starsGained": 155
-      },
-      "metadata": {
-        "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world.",
-        "language": "Python",
-        "topics": [],
-        "stars": 138509,
-        "forks": 16493,
-        "license": null,
-        "defaultBranch": null,
-        "pushedAt": null,
-        "topLanguages": [
-          "Python"
-        ]
-      },
-      "readmeRef": {
-        "status": "available",
-        "path": "README.md",
-        "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/Comfy-Org/ComfyUI/master/README.md"
-      },
-      "readmeSignals": {
-        "title": "ComfyUI",
-        "summary": "ComfyUI The most powerful and modular AI engine for content creation. ComfyUI is the AI creation engine for visual professionals who demand control over every model, every parameter, and every output. Its powerful and modular node graph interface empowers creatives to generate images, videos, 3D models, audio, and more... ComfyUI natively supports the latest open-source state of the art models. It is by far the most optimized inference engine for diffusion models in the world with a focus on local consumer hardware. Can run even the biggest open source models on as low as 4GB vram + 8GB ram relatively quickly saturating your GPU compute using our state of the art asynchronous weight streamin",
-        "headings": [
-          "ComfyUI",
-          "Get Started",
-          "Local",
-          "Cloud",
-          "Examples",
-          "Features",
-          "Release Process",
-          "Shortcuts"
+          "📰 News",
+          "📜 Introduction",
+          "✨ Live Demo",
+          "📦 Model Zoo",
+          "🚀 Getting Started",
+          "Installation",
+          "📈 Making Forecasts",
+          "Load from Hugging Face Hub"
         ],
         "commands": [
-          "pip install comfy-cli",
-          "pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/rocm7.2",
-          "pip install --pre torch torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/rocm7.2",
-          "pip install --index-url https://stable.repo.amd.com/rocm/whl-next/ \"torch[device-all]==2.13.0+rocm10.0.0\" \"torchvision[device-all]==0.28.0+rocm10.0.0\" \"torchaudio==2.11.0.2+rocm10.0.0\"",
-          "pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/xpu",
-          "pip install --pre torch torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/xpu"
+          "pip install -r requirements.txt",
+          "pip install pyqlib"
         ],
         "keywords": [
           "model",
-          "comfyui",
-          "get started",
-          "local",
-          "cloud"
+          "📰 news",
+          "📜 introduction",
+          "✨ live demo",
+          "📦 model zoo"
         ],
         "score": 100
       },
       "visual": {
         "kind": "readme_image",
-        "url": "https://github.com/user-attachments/assets/36e065e0-bfae-4456-8c7f-8369d5ea48a2",
-        "thumbUrl": "https://github.com/user-attachments/assets/36e065e0-bfae-4456-8c7f-8369d5ea48a2",
-        "alt": "ComfyUI Screenshot",
-        "sourceUrl": "https://github.com/user-attachments/assets/36e065e0-bfae-4456-8c7f-8369d5ea48a2",
+        "url": "https://raw.githubusercontent.com/shiyu-coder/Kronos/master/figures/overview.png",
+        "thumbUrl": "https://raw.githubusercontent.com/shiyu-coder/Kronos/master/figures/overview.png",
+        "alt": "shiyu-coder/Kronos",
+        "sourceUrl": "https://raw.githubusercontent.com/shiyu-coder/Kronos/master/figures/overview.png",
         "promptHash": null
       },
       "classification": {
@@ -1106,9 +1059,9 @@
         ]
       },
       "rank": {
-        "globalRank": 13,
-        "categoryRank": 13,
-        "score": 89.5
+        "globalRank": 12,
+        "categoryRank": 12,
+        "score": 96
       }
     }
   ],
@@ -1121,12 +1074,14 @@
       "repoIds": [
         "madslorentzen-ai-job-search",
         "anomalyco-opencode",
-        "ruvnet-ruflo",
         "akitaonrails-ai-memory",
-        "stablyai-orca",
-        "hkuds-cli-anything",
         "comfy-org-comfyui",
-        "mlabonne-llm-course"
+        "ruvnet-ruflo",
+        "stablyai-orca",
+        "headroomlabs-ai-headroom",
+        "hkuds-cli-anything",
+        "shiyu-coder-kronos",
+        "anthropics-claude-code"
       ],
       "sort": "score"
     },
@@ -1146,21 +1101,18 @@
       "label": "Needs Review",
       "categoryId": "unclassified",
       "repoIds": [
-        "anthropics-claude-plugins-official",
-        "cursor-plugins",
-        "debpalash-voicestudio",
-        "android-skills"
+        "withmarbleapp-os-taxonomy"
       ],
       "sort": "score"
     }
   ],
   "health": {
     "status": "ok",
-    "candidateCount": 13,
-    "enrichedRepoCount": 13,
-    "unclassifiedRepoCount": 4,
+    "candidateCount": 12,
+    "enrichedRepoCount": 12,
+    "unclassifiedRepoCount": 1,
     "warnings": [
-      "9 repos used README images, 0 used Agnes images, 4 fell back to repository Open Graph covers"
+      "11 repos used README images, 0 used Agnes images, 1 fell back to repository Open Graph covers"
     ]
   }
 }

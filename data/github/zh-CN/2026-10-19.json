@@ -1,0 +1,1118 @@
+{
+  "schemaVersion": "trendreader.daily.v1",
+  "packageId": "github-daily-All-2026-10-19",
+  "locale": "zh-CN",
+  "generatedAt": "2026-10-19T20:25:53.611Z",
+  "expiresAt": "2026-10-20T20:25:53.611Z",
+  "sourceWindow": {
+    "since": "daily",
+    "language": "All",
+    "spokenLanguageCode": null
+  },
+  "sources": [
+    {
+      "id": "github_trending_html",
+      "role": "candidate",
+      "status": "ok",
+      "itemCount": 12
+    }
+  ],
+  "taxonomy": {
+    "version": "2026-10-19",
+    "generatedAt": "2026-10-19T20:25:53.611Z",
+    "categories": [
+      {
+        "id": "ai",
+        "label": "AI",
+        "labelEn": "AI",
+        "icon": "bot",
+        "order": 20
+      },
+      {
+        "id": "tools",
+        "label": "工具",
+        "labelEn": "Tools",
+        "icon": "wrench",
+        "order": 100
+      },
+      {
+        "id": "frontend",
+        "label": "前端",
+        "labelEn": "Frontend",
+        "icon": "layout",
+        "order": 140
+      },
+      {
+        "id": "backend",
+        "label": "后端",
+        "labelEn": "Backend",
+        "icon": "server",
+        "order": 110
+      },
+      {
+        "id": "unclassified",
+        "label": "Needs Review",
+        "labelEn": "Needs Review",
+        "icon": "circle-help",
+        "order": 999
+      }
+    ]
+  },
+  "repos": [
+    {
+      "id": "madslorentzen-ai-job-search",
+      "owner": "MadsLorentzen",
+      "name": "ai-job-search",
+      "url": "https://github.com/MadsLorentzen/ai-job-search",
+      "avatarUrl": "https://github.com/MadsLorentzen.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 1,
+        "starsGained": 3860
+      },
+      "metadata": {
+        "description": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.",
+        "language": "Python",
+        "topics": [],
+        "stars": 56764,
+        "forks": 18081,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Python"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/MadsLorentzen/ai-job-search/master/README.md"
+      },
+      "readmeSignals": {
+        "title": "AI Job Search",
+        "summary": "The job search that runs on your machine. An AI-powered job application framework built on https://claude.com/claude-code. Fork it, fill in your profile, and let Claude evaluate job postings, tailor your CV, write cover letters, and prepare you for interviews. Note: This is an independent open-source project and is not affiliated with, endorsed by, sponsored by, or maintained by Anthropic. Anthropic and Claude Code are referenced only to describe the toolchain this workflow uses. This project has no affiliated cryptocurrency, token, or paid sponsorship program. Anything claiming otherwise is unauthorized and should be treated as a scam. The only ways to support the project are the Ko-fi link",
+        "headings": [
+          "AI Job Search",
+          "Does it actually work?",
+          "What this is",
+          "Prerequisites",
+          "Quick start",
+          "1. Fork and clone",
+          "2. Install job search tools",
+          "3. Set up your profile"
+        ],
+        "commands": [
+          "pip install pypdf"
+        ],
+        "keywords": [
+          "ai",
+          "ai job search",
+          "does it actually work?",
+          "what this is",
+          "prerequisites"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/MadsLorentzen/ai-job-search/master/assets/mascot/pip_flight_loop.gif",
+        "thumbUrl": "https://raw.githubusercontent.com/MadsLorentzen/ai-job-search/master/assets/mascot/pip_flight_loop.gif",
+        "alt": "Pip, the courier bird",
+        "sourceUrl": "https://raw.githubusercontent.com/MadsLorentzen/ai-job-search/master/assets/mascot/pip_flight_loop.gif",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.7,
+        "method": "rules",
+        "reasons": [
+          "Matched ai"
+        ],
+        "signals": [
+          "ai"
+        ]
+      },
+      "rank": {
+        "globalRank": 1,
+        "categoryRank": 1,
+        "score": 118
+      }
+    },
+    {
+      "id": "anomalyco-opencode",
+      "owner": "anomalyco",
+      "name": "opencode",
+      "url": "https://github.com/anomalyco/opencode",
+      "avatarUrl": "https://github.com/anomalyco.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 2,
+        "starsGained": 1310
+      },
+      "metadata": {
+        "description": "The open source coding agent.",
+        "language": "TypeScript",
+        "topics": [],
+        "stars": 217640,
+        "forks": 29093,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "TypeScript"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/anomalyco/opencode/master/README.md"
+      },
+      "readmeSignals": {
+        "title": "YOLO",
+        "summary": "English | 简体中文 | 繁體中文 | 한국어 | Deutsch | Español | Français | Italiano | Dansk | 日本語 | Polski | Русский | Bosanski | العربية | Norsk | Português Brasil | ไทย | Türkçe | Українська | বাংলা | Ελληνικά | Tiếng Việt OpenCode is also available as a desktop application. Download it from https://opencode.ai/download. | Platform | Download | | macOS Apple Silicon | opencode-desktop-mac-arm64.dmg | | macOS Intel | opencode-desktop-mac-x64.dmg | | Windows | opencode-desktop-win-x64.exe | | Linux | .deb, .rpm, or .AppImage | The install script respects the following priority order for the installation path:",
+        "headings": [
+          "Installation",
+          "YOLO",
+          "Package managers",
+          "Desktop App (BETA)",
+          "macOS (Homebrew)",
+          "Examples",
+          "Agents",
+          "Documentation"
+        ],
+        "commands": [],
+        "keywords": [
+          "agent",
+          "installation",
+          "yolo",
+          "package managers",
+          "desktop app (beta)"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/anomalyco/opencode/master/packages/web/src/assets/lander/screenshot.png",
+        "thumbUrl": "https://raw.githubusercontent.com/anomalyco/opencode/master/packages/web/src/assets/lander/screenshot.png",
+        "alt": "OpenCode Terminal UI",
+        "sourceUrl": "https://raw.githubusercontent.com/anomalyco/opencode/master/packages/web/src/assets/lander/screenshot.png",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.7,
+        "method": "rules",
+        "reasons": [
+          "Matched agent"
+        ],
+        "signals": [
+          "agent"
+        ]
+      },
+      "rank": {
+        "globalRank": 2,
+        "categoryRank": 2,
+        "score": 116
+      }
+    },
+    {
+      "id": "akitaonrails-ai-memory",
+      "owner": "akitaonrails",
+      "name": "ai-memory",
+      "url": "https://github.com/akitaonrails/ai-memory",
+      "avatarUrl": "https://github.com/akitaonrails.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 3,
+        "starsGained": 666
+      },
+      "metadata": {
+        "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
+        "language": "Rust",
+        "topics": [],
+        "stars": 11215,
+        "forks": 792,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Rust"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/akitaonrails/ai-memory/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "1. Install the ai-memory CLI wrapper (a small shell script that",
+        "summary": "Long-term memory for AI coding agents. Quit Claude Code mid-task, start OpenAI Codex in the same directory, continue without re-explaining the architecture, the failed approaches, or the open questions. Your coding agent probably has a memory feature already. Claude Code takes its own notes, Cursor remembers some things, and every platform is adding more. They all have the same limits: the notes live on one machine, belong to one agent, and drop out of view when you switch tools or hand the work to a teammate. It follows you across agents. More than twenty harnesses Claude Code, Codex, Cursor, Gemini CLI, OpenCode, Grok, Devin, Kimi, Kiro, and others feed one shared memory. Quit Claude Code ",
+        "headings": [
+          "Why ai-memory",
+          "How it works",
+          "Support matrix",
+          "Coming from another tool?",
+          "Quick start",
+          "Linux and macOS (two commands, no root)",
+          "Windows (two commands, no admin)",
+          "Arch Linux (AUR)"
+        ],
+        "commands": [],
+        "keywords": [
+          "ai",
+          "agent",
+          "why ai-memory",
+          "how it works",
+          "support matrix",
+          "coming from another tool?"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "repository_open_graph",
+        "url": "https://opengraph.githubassets.com/daily-tech-radar/akitaonrails/ai-memory",
+        "thumbUrl": "https://opengraph.githubassets.com/daily-tech-radar/akitaonrails/ai-memory",
+        "alt": "akitaonrails/ai-memory",
+        "sourceUrl": "https://github.com/akitaonrails/ai-memory",
+        "promptHash": "sha256:b5ea5f15a3ae"
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.8,
+        "method": "rules",
+        "reasons": [
+          "Matched ai",
+          "Matched agent"
+        ],
+        "signals": [
+          "ai",
+          "agent"
+        ]
+      },
+      "rank": {
+        "globalRank": 3,
+        "categoryRank": 3,
+        "score": 114
+      }
+    },
+    {
+      "id": "comfy-org-comfyui",
+      "owner": "Comfy-Org",
+      "name": "ComfyUI",
+      "url": "https://github.com/Comfy-Org/ComfyUI",
+      "avatarUrl": "https://github.com/Comfy-Org.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 4,
+        "starsGained": 1011
+      },
+      "metadata": {
+        "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world.",
+        "language": "Python",
+        "topics": [],
+        "stars": 139562,
+        "forks": 16570,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Python"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/Comfy-Org/ComfyUI/master/README.md"
+      },
+      "readmeSignals": {
+        "title": "ComfyUI",
+        "summary": "ComfyUI The most powerful and modular AI engine for content creation. ComfyUI is the AI creation engine for visual professionals who demand control over every model, every parameter, and every output. Its powerful and modular node graph interface empowers creatives to generate images, videos, 3D models, audio, and more... ComfyUI natively supports the latest open-source state of the art models. It is by far the most optimized inference engine for diffusion models in the world with a focus on local consumer hardware. Can run even the biggest open source models on as low as 4GB vram + 8GB ram relatively quickly saturating your GPU compute using our state of the art asynchronous weight streamin",
+        "headings": [
+          "ComfyUI",
+          "Get Started",
+          "Local",
+          "Cloud",
+          "Examples",
+          "Features",
+          "Release Process",
+          "Shortcuts"
+        ],
+        "commands": [
+          "pip install comfy-cli",
+          "pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/rocm7.2",
+          "pip install --pre torch torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/rocm7.2",
+          "pip install --index-url https://stable.repo.amd.com/rocm/whl-next/ \"torch[device-all]==2.13.0+rocm10.0.0\" \"torchvision[device-all]==0.28.0+rocm10.0.0\" \"torchaudio==2.11.0.2+rocm10.0.0\"",
+          "pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/xpu",
+          "pip install --pre torch torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/xpu"
+        ],
+        "keywords": [
+          "model",
+          "comfyui",
+          "get started",
+          "local",
+          "cloud"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://github.com/user-attachments/assets/36e065e0-bfae-4456-8c7f-8369d5ea48a2",
+        "thumbUrl": "https://github.com/user-attachments/assets/36e065e0-bfae-4456-8c7f-8369d5ea48a2",
+        "alt": "ComfyUI Screenshot",
+        "sourceUrl": "https://github.com/user-attachments/assets/36e065e0-bfae-4456-8c7f-8369d5ea48a2",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.7,
+        "method": "rules",
+        "reasons": [
+          "Matched model"
+        ],
+        "signals": [
+          "model"
+        ]
+      },
+      "rank": {
+        "globalRank": 4,
+        "categoryRank": 4,
+        "score": 112
+      }
+    },
+    {
+      "id": "ruvnet-ruflo",
+      "owner": "ruvnet",
+      "name": "ruflo",
+      "url": "https://github.com/ruvnet/ruflo",
+      "avatarUrl": "https://github.com/ruvnet.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 5,
+        "starsGained": 564
+      },
+      "metadata": {
+        "description": "🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, federation, vector RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
+        "language": "TypeScript",
+        "topics": [],
+        "stars": 77088,
+        "forks": 9094,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "TypeScript"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/ruvnet/ruflo/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "Ruflo",
+        "summary": "An agent meta-harness for Claude Code and Codex. Start in Claude Code with core tools, the visual console and runtime mods. Requires Claude Code 2.1.287 or later. Run inside Claude Code: Core provides foundation tools. Console opens the agent cockpit. Mods add routing and policy enforcement inside Claude Code. Mods run with your account's permissions; review their code before installing. Using Codex or another MCP enabled tool? Use NPX for Ruflo project setup and connect your client to the Ruflo MCP server. Run the setup wizard in your project terminal: For clients that support local stdio MCP servers, configure command npx and arguments \"-y\", \"ruflo@latest\", \"mcp\", \"start\". The equivalent s",
+        "headings": [
+          "<img src=\"docs/assets/readme/icons/terminal.svg\" width=\"32\" height=\"32\" alt=\"\"> Get started with Ruflo",
+          "Optional: ruOS Desktop",
+          "Ruflo",
+          "An origin you can inspect",
+          "One task: create a mission with Claude",
+          "Quick Start",
+          "Path A — Claude Code Plugins (lite, slash commands only)",
+          "Add the marketplace"
+        ],
+        "commands": [
+          "npm install -g ruflo@latest"
+        ],
+        "keywords": [
+          "ai",
+          "agent",
+          "<img src=\"docs/assets/readme/icons/terminal.svg\" width=\"32\" height=\"32\" alt=\"\"> get started with ruflo",
+          "optional: ruos desktop",
+          "ruflo",
+          "an origin you can inspect"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/ruvnet/ruflo/main/docs/assets/ruflo-explained/ch14.jpg",
+        "thumbUrl": "https://raw.githubusercontent.com/ruvnet/ruflo/main/docs/assets/ruflo-explained/ch14.jpg",
+        "alt": "RuFlo Explained — build an AI team that plans, remembers, tests, and improves",
+        "sourceUrl": "https://raw.githubusercontent.com/ruvnet/ruflo/main/docs/assets/ruflo-explained/ch14.jpg",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.8,
+        "method": "rules",
+        "reasons": [
+          "Matched ai",
+          "Matched agent"
+        ],
+        "signals": [
+          "ai",
+          "agent"
+        ]
+      },
+      "rank": {
+        "globalRank": 5,
+        "categoryRank": 5,
+        "score": 110
+      }
+    },
+    {
+      "id": "stablyai-orca",
+      "owner": "stablyai",
+      "name": "orca",
+      "url": "https://github.com/stablyai/orca",
+      "avatarUrl": "https://github.com/stablyai.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 6,
+        "starsGained": 1591
+      },
+      "metadata": {
+        "description": "Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
+        "language": "TypeScript",
+        "topics": [],
+        "stars": 98071,
+        "forks": 6250,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "TypeScript"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/stablyai/orca/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "macOS (Homebrew)",
+        "summary": "中文 · 日本語 · 한국어 · Español · Français · Português The AI Orchestrator for 100x builders. Run Codex, ClaudeCode, OpenCode or Pi side-by-side — each in its own worktree, tracked in one place. Monitor and steer your agents from your phone — get notified when an agent finishes and send follow-ups from anywhere. Fan one prompt across five agents, each in its own isolated git worktree — compare the results and merge the winner. Ghostty-class terminals with WebGL rendering, infinite splits, and scrollback that survives restarts. Click any UI element in a real Chromium window to send its HTML, CSS, and a cropped screenshot straight into your agent's prompt.",
+        "headings": [
+          "Features",
+          "Mobile Companion",
+          "Parallel Worktrees",
+          "Terminal Splits",
+          "Design Mode",
+          "GitHub &amp; Linear, Native",
+          "SSH Worktrees",
+          "Annotate AI Diffs"
+        ],
+        "commands": [],
+        "keywords": [
+          "ai",
+          "agent",
+          "features",
+          "mobile companion",
+          "parallel worktrees",
+          "terminal splits"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/stablyai/orca/main/resources/build/icon.png",
+        "thumbUrl": "https://raw.githubusercontent.com/stablyai/orca/main/resources/build/icon.png",
+        "alt": "Orca",
+        "sourceUrl": "https://raw.githubusercontent.com/stablyai/orca/main/resources/build/icon.png",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.8,
+        "method": "rules",
+        "reasons": [
+          "Matched ai",
+          "Matched agent"
+        ],
+        "signals": [
+          "ai",
+          "agent"
+        ]
+      },
+      "rank": {
+        "globalRank": 6,
+        "categoryRank": 6,
+        "score": 108
+      }
+    },
+    {
+      "id": "headroomlabs-ai-headroom",
+      "owner": "headroomlabs-ai",
+      "name": "headroom",
+      "url": "https://github.com/headroomlabs-ai/headroom",
+      "avatarUrl": "https://github.com/headroomlabs-ai.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 7,
+        "starsGained": 317
+      },
+      "metadata": {
+        "description": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP server.",
+        "language": "Python",
+        "topics": [],
+        "stars": 76162,
+        "forks": 5922,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Python"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/headroomlabs-ai/headroom/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "1 — Install",
+        "summary": "Quickstart · Headroom for Teams · Install · Proof · Agents · Docs · Discord · llms.txt AI agents / LLMs: read /llms.txt here, or fetch the live index · full docs blob . Headroom compresses everything your AI agent reads — tool outputs, logs, RAG chunks, files, and conversation history — before it reaches the LLM. Same answers, fraction of the tokens. Compression runs on your machine; no prompt or file content is sent anywhere to be compressed. Library — compressmessages in Python or TypeScript, inline in any app. Proxy — headroom proxy --port 8787, zero code changes, any language. Agent wrap — headroom wrap claude|codex|grok|copilot|cursor|aider|opencode|cline|continue|goose|openhands|opencl",
+        "headings": [
+          "What it does",
+          "How it works",
+          "Get started (60 seconds)",
+          "1 — Install",
+          "2 — Pick a mode",
+          "or: from headroom import compress     # inline library",
+          "3 — Check it and watch the savings",
+          "Proof"
+        ],
+        "commands": [
+          "pip install \"headroom-ai[all]\"                    # Python — ships the",
+          "npm install headroom-ai                           # TypeScript SDK only — no CLI",
+          "pip install \"headroom-ai[proxy]\"",
+          "pip install \"headroom-ai[all]\"                    # Python, everything — includes the CLI",
+          "npm install headroom-ai                           # TypeScript SDK (library only)",
+          "pip install \"headroom-ai[langchain]\""
+        ],
+        "keywords": [
+          "agent",
+          "llm",
+          "mcp",
+          "what it does",
+          "how it works",
+          "get started (60 seconds)",
+          "1 — install"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/headroomlabs-ai/headroom/main/.github/assets/hero.svg",
+        "thumbUrl": "https://raw.githubusercontent.com/headroomlabs-ai/headroom/main/.github/assets/hero.svg",
+        "alt": "Headroom — the context compression layer for AI agents. A 55,957 token agent prompt compresses to the 24,340 tokens actually sent to the model, and the FATAL line at item 67 survives byte for byte.",
+        "sourceUrl": "https://raw.githubusercontent.com/headroomlabs-ai/headroom/main/.github/assets/hero.svg",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.9,
+        "method": "rules",
+        "reasons": [
+          "Matched agent",
+          "Matched llm",
+          "Matched mcp"
+        ],
+        "signals": [
+          "agent",
+          "llm",
+          "mcp"
+        ]
+      },
+      "rank": {
+        "globalRank": 7,
+        "categoryRank": 7,
+        "score": 106
+      }
+    },
+    {
+      "id": "withmarbleapp-os-taxonomy",
+      "owner": "withmarbleapp",
+      "name": "os-taxonomy",
+      "url": "https://github.com/withmarbleapp/os-taxonomy",
+      "avatarUrl": "https://github.com/withmarbleapp.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 8,
+        "starsGained": 301
+      },
+      "metadata": {
+        "description": "",
+        "language": "JavaScript",
+        "topics": [],
+        "stars": 6053,
+        "forks": 996,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "JavaScript"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/withmarbleapp/os-taxonomy/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "Marble Skill Taxonomy",
+        "summary": "An open, structured taxonomy of what children learn across the primary/elementary years — decomposed into fine-grained \"micro-topics\", wired into a prerequisite graph, and aligned to national curriculum standards. Produced by https://withmarble.com. Version: v1 · Topics: 1,591 · Prerequisite edges: 3,225 · Subjects: 8 Every dot is a micro-topic, colored by subject; height is age; each thread is a prerequisite media/curriculum-viz.mp4. Explore it interactively at https://withmarble.com/curriculum — tap any concept to trace everything a learner must master before it.",
+        "headings": [
+          "Marble Skill Taxonomy",
+          "See it",
+          "What this is",
+          "Subjects",
+          "Files",
+          "A topic",
+          "A dependency",
+          "Teaching research"
+        ],
+        "commands": [],
+        "keywords": [
+          "marble skill taxonomy",
+          "see it",
+          "what this is",
+          "subjects"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/withmarbleapp/os-taxonomy/main/media/curriculum-viz.gif",
+        "thumbUrl": "https://raw.githubusercontent.com/withmarbleapp/os-taxonomy/main/media/curriculum-viz.gif",
+        "alt": "The taxonomy as a rotating 3D graph: every dot a micro-topic, colored by subject, wired by prerequisites",
+        "sourceUrl": "https://raw.githubusercontent.com/withmarbleapp/os-taxonomy/main/media/curriculum-viz.gif",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "unclassified",
+        "secondaryCategoryIds": [],
+        "confidence": 0.4,
+        "method": "rules",
+        "reasons": [
+          "No taxonomy rule matched with enough confidence"
+        ],
+        "signals": []
+      },
+      "rank": {
+        "globalRank": 8,
+        "categoryRank": 8,
+        "score": 104
+      }
+    },
+    {
+      "id": "kruk2-jasna",
+      "owner": "Kruk2",
+      "name": "jasna",
+      "url": "https://github.com/Kruk2/jasna",
+      "avatarUrl": "https://github.com/Kruk2.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 9,
+        "starsGained": 502
+      },
+      "metadata": {
+        "description": "Video restoration tool",
+        "language": "Python",
+        "topics": [],
+        "stars": 2844,
+        "forks": 212,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Python"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/Kruk2/jasna/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "<img width=\"32\" src=\"https://github.com/Kruk2/jasna/blob/main/assets/jasna-logo.png?raw=true\" /> Jasna",
+        "summary": "The only places to get a genuine License code for the supporter models are https://buymeacoffee.com/kruk2, https://app.unifans.io/c/kruk2, and for China the seller in the README.zh.md在闲鱼购买. 支持者模型的正版许可证码只能通过 https://buymeacoffee.com/kruk2、https://app.unifans.io/c/kruk2 或 README.zh.md在闲鱼购买 获取。 Jasna restores mosaics in videos and images. It is free, has a simple app and a command line, and runs on your GPU. what-jasna-does what-you-need quick-start help-and-community supporting-the-project supporter models how-jasna-works command-line all-guides benchmarks licensing acknowledgments",
+        "headings": [
+          "<img width=\"32\" src=\"https://github.com/Kruk2/jasna/blob/main/assets/jasna-logo.png?raw=true\" /> Jasna",
+          "Contents",
+          "What Jasna does",
+          "What you need",
+          "Quick start",
+          "Help and community",
+          "Supporting the project",
+          "Where to support"
+        ],
+        "commands": [],
+        "keywords": [
+          "tool",
+          "<img width=\"32\" src=\"https://github.com/kruk2/jasna/blob/main/assets/jasna-logo.png?raw=true\" /> jasna",
+          "contents",
+          "what jasna does",
+          "what you need"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://github.com/user-attachments/assets/d59a914b-482d-4f37-ae72-5c59eb5dc9bb",
+        "thumbUrl": "https://github.com/user-attachments/assets/d59a914b-482d-4f37-ae72-5c59eb5dc9bb",
+        "alt": "image",
+        "sourceUrl": "https://github.com/user-attachments/assets/d59a914b-482d-4f37-ae72-5c59eb5dc9bb",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "tools",
+        "secondaryCategoryIds": [],
+        "confidence": 0.7,
+        "method": "rules",
+        "reasons": [
+          "Matched tool"
+        ],
+        "signals": [
+          "tool"
+        ]
+      },
+      "rank": {
+        "globalRank": 9,
+        "categoryRank": 9,
+        "score": 102
+      }
+    },
+    {
+      "id": "hkuds-cli-anything",
+      "owner": "HKUDS",
+      "name": "CLI-Anything",
+      "url": "https://github.com/HKUDS/CLI-Anything",
+      "avatarUrl": "https://github.com/HKUDS.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 10,
+        "starsGained": 607
+      },
+      "metadata": {
+        "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+        "language": "Python",
+        "topics": [],
+        "stars": 55138,
+        "forks": 4976,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Python"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/HKUDS/CLI-Anything/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "Browse what is available",
+        "summary": "&nbsp; CLI-Anything: Making ALL Software Agent-Native Today's Software Serves Humans👨‍💻. Tomorrow's Users will be Agents🤖. CLI-Anything: Bridging the Gap Between AI Agents and the World's Software 🌐 https://hkuds.github.io/CLI-Anything/: pip install cli-anything-hub then cli-hub install — browse, install, and manage all community-built CLIs. Want to add your own? https://github.com/HKUDS/CLI-Anything/blob/main/CONTRIBUTING.md — the hub updates instantly. 🎬 -real-world-demos: Watch AI agents use generated CLIs plus preview, live preview, and trajectory loops to produce real artifacts — CAD builds, 3D scenes, diagrams, gameplay, subtitles, and more.",
+        "headings": [
+          "📰 News",
+          "🤔 Why CLI?",
+          "🚀 Quick Start",
+          "Browse what is available",
+          "Install and try a CLI immediately",
+          "Pick Your Agent Platform",
+          "Add the CLI-Anything marketplace",
+          "Install the cli-anything plugin from the marketplace"
+        ],
+        "commands": [
+          "pip install cli-anything-hub",
+          "pip install cli-anything-hub",
+          "pip install cli-anything-hub",
+          "pip install cli-anything-hub",
+          "pip install -e .",
+          "pip install -e . puts cli-anything-<software> directly on PATH. Agents discover tools via standard which commands. No setup, no wrappers."
+        ],
+        "keywords": [
+          "agent",
+          "📰 news",
+          "🤔 why cli?",
+          "🚀 quick start",
+          "browse what is available"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/HKUDS/CLI-Anything/main/assets/icon.png",
+        "thumbUrl": "https://raw.githubusercontent.com/HKUDS/CLI-Anything/main/assets/icon.png",
+        "alt": "HKUDS/CLI-Anything",
+        "sourceUrl": "https://raw.githubusercontent.com/HKUDS/CLI-Anything/main/assets/icon.png",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.7,
+        "method": "rules",
+        "reasons": [
+          "Matched agent"
+        ],
+        "signals": [
+          "agent"
+        ]
+      },
+      "rank": {
+        "globalRank": 10,
+        "categoryRank": 10,
+        "score": 100
+      }
+    },
+    {
+      "id": "anthropics-claude-code",
+      "owner": "anthropics",
+      "name": "claude-code",
+      "url": "https://github.com/anthropics/claude-code",
+      "avatarUrl": "https://github.com/anthropics.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 11,
+        "starsGained": 167
+      },
+      "metadata": {
+        "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+        "language": "TypeScript",
+        "topics": [],
+        "stars": 152566,
+        "forks": 27131,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "TypeScript"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/anthropics/claude-code/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "Claude Code",
+        "summary": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows -- all through natural language commands. Use it in your terminal, IDE, or tag @claude on Github. Learn more in the https://code.claude.com/docs/en/overview. Get started !NOTE Installation via npm is deprecated. Use one of the recommended methods below. For more installation options, uninstall steps, and troubleshooting, see the https://code.claude.com/docs/en/setup.",
+        "headings": [
+          "Claude Code",
+          "Get started",
+          "Plugins",
+          "Reporting Bugs",
+          "Connect on Discord",
+          "Data collection, usage, and retention",
+          "How we use your data",
+          "Privacy safeguards"
+        ],
+        "commands": [
+          "npm install -g @anthropic-ai/claude-code"
+        ],
+        "keywords": [
+          "ai",
+          "agent",
+          "claude code",
+          "get started",
+          "plugins",
+          "reporting bugs"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/anthropics/claude-code/main/demo.gif",
+        "thumbUrl": "https://raw.githubusercontent.com/anthropics/claude-code/main/demo.gif",
+        "alt": "anthropics/claude-code",
+        "sourceUrl": "https://raw.githubusercontent.com/anthropics/claude-code/main/demo.gif",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.8,
+        "method": "rules",
+        "reasons": [
+          "Matched ai",
+          "Matched agent"
+        ],
+        "signals": [
+          "ai",
+          "agent"
+        ]
+      },
+      "rank": {
+        "globalRank": 11,
+        "categoryRank": 11,
+        "score": 94.7
+      }
+    },
+    {
+      "id": "shiyu-coder-kronos",
+      "owner": "shiyu-coder",
+      "name": "Kronos",
+      "url": "https://github.com/shiyu-coder/Kronos",
+      "avatarUrl": "https://github.com/shiyu-coder.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 12,
+        "starsGained": 355
+      },
+      "metadata": {
+        "description": "Kronos: A Foundation Model for the Language of Financial Markets",
+        "language": "Python",
+        "topics": [],
+        "stars": 41550,
+        "forks": 6913,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Python"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/shiyu-coder/Kronos/master/README.md"
+      },
+      "readmeSignals": {
+        "title": "Load from Hugging Face Hub",
+        "summary": "Kronos: A Foundation Model for the Language of Financial Markets Deutsch | Español | Français | 日本語 | 한국어 | Português | Русский | 中文 Kronos is the first open-source foundation model for financial candlesticks K-lines, trained on data from over 45 global exchanges. 📰 News 🚩 2025.11.10 Kronos has been accpeted by AAAI 2026. 🚩 2025.08.17 We have released the scripts for fine-tuning! Check them out to adapt Kronos to your own tasks. 🚩 2025.08.02 Our paper is now available on https://arxiv.org/abs/2508.02739! 📜 Introduction Kronos is a family of decoder-only foundation models, pre-trained specifically for the \"language\" of financial markets—K-line sequences. Unlike general-purpose TSFMs, Kro",
+        "headings": [
+          "📰 News",
+          "📜 Introduction",
+          "✨ Live Demo",
+          "📦 Model Zoo",
+          "🚀 Getting Started",
+          "Installation",
+          "📈 Making Forecasts",
+          "Load from Hugging Face Hub"
+        ],
+        "commands": [
+          "pip install -r requirements.txt",
+          "pip install pyqlib"
+        ],
+        "keywords": [
+          "model",
+          "📰 news",
+          "📜 introduction",
+          "✨ live demo",
+          "📦 model zoo"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/shiyu-coder/Kronos/master/figures/overview.png",
+        "thumbUrl": "https://raw.githubusercontent.com/shiyu-coder/Kronos/master/figures/overview.png",
+        "alt": "shiyu-coder/Kronos",
+        "sourceUrl": "https://raw.githubusercontent.com/shiyu-coder/Kronos/master/figures/overview.png",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.7,
+        "method": "rules",
+        "reasons": [
+          "Matched model"
+        ],
+        "signals": [
+          "model"
+        ]
+      },
+      "rank": {
+        "globalRank": 12,
+        "categoryRank": 12,
+        "score": 96
+      }
+    }
+  ],
+  "views": [
+    {
+      "id": "ai",
+      "type": "category",
+      "label": "AI",
+      "categoryId": "ai",
+      "repoIds": [
+        "madslorentzen-ai-job-search",
+        "anomalyco-opencode",
+        "akitaonrails-ai-memory",
+        "comfy-org-comfyui",
+        "ruvnet-ruflo",
+        "stablyai-orca",
+        "headroomlabs-ai-headroom",
+        "hkuds-cli-anything",
+        "shiyu-coder-kronos",
+        "anthropics-claude-code"
+      ],
+      "sort": "score"
+    },
+    {
+      "id": "tools",
+      "type": "category",
+      "label": "工具",
+      "categoryId": "tools",
+      "repoIds": [
+        "kruk2-jasna"
+      ],
+      "sort": "score"
+    },
+    {
+      "id": "unclassified",
+      "type": "review",
+      "label": "Needs Review",
+      "categoryId": "unclassified",
+      "repoIds": [
+        "withmarbleapp-os-taxonomy"
+      ],
+      "sort": "score"
+    }
+  ],
+  "health": {
+    "status": "ok",
+    "candidateCount": 12,
+    "enrichedRepoCount": 12,
+    "unclassifiedRepoCount": 1,
+    "warnings": [
+      "11 repos used README images, 0 used Agnes images, 1 fell back to repository Open Graph covers"
+    ]
+  }
+}
