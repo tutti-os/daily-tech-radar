@@ -1,9 +1,9 @@
 {
   "schemaVersion": "trendreader.daily.v1",
-  "packageId": "github-daily-All-2026-10-21",
+  "packageId": "github-daily-All-2026-10-22",
   "locale": "en-US",
-  "generatedAt": "2026-10-21T20:24:38.305Z",
-  "expiresAt": "2026-10-22T20:24:38.305Z",
+  "generatedAt": "2026-10-22T20:24:34.635Z",
+  "expiresAt": "2026-10-23T20:24:34.635Z",
   "sourceWindow": {
     "since": "daily",
     "language": "All",
@@ -14,12 +14,12 @@
       "id": "github_trending_html",
       "role": "candidate",
       "status": "ok",
-      "itemCount": 12
+      "itemCount": 9
     }
   ],
   "taxonomy": {
-    "version": "2026-10-21",
-    "generatedAt": "2026-10-21T20:24:38.305Z",
+    "version": "2026-10-22",
+    "generatedAt": "2026-10-22T20:24:34.635Z",
     "categories": [
       {
         "id": "ai",
@@ -60,78 +60,75 @@
   },
   "repos": [
     {
-      "id": "cloudflare-security-audit-skill",
-      "owner": "cloudflare",
-      "name": "security-audit-skill",
-      "url": "https://github.com/cloudflare/security-audit-skill",
-      "avatarUrl": "https://github.com/cloudflare.png",
+      "id": "php-php-src",
+      "owner": "php",
+      "name": "php-src",
+      "url": "https://github.com/php/php-src",
+      "avatarUrl": "https://github.com/php.png",
       "homepageUrl": null,
       "source": {
         "primary": "github_trending_html",
         "sourceRank": 1,
-        "starsGained": 1997
+        "starsGained": 423
       },
       "metadata": {
-        "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
-        "language": "JavaScript",
+        "description": "The PHP Interpreter",
+        "language": "C",
         "topics": [],
-        "stars": 35799,
-        "forks": 2245,
+        "stars": 41070,
+        "forks": 8301,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
         "topLanguages": [
-          "JavaScript"
+          "C"
         ]
       },
       "readmeRef": {
         "status": "available",
         "path": "README.md",
         "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/cloudflare/security-audit-skill/main/README.md"
+        "rawUrl": "https://raw.githubusercontent.com/php/php-src/master/README.md"
       },
       "readmeSignals": {
-        "title": "security-audit",
-        "summary": "A coding-agent skill that turns your agent into a security auditor. It orchestrates isolated agents through reconnaissance, coverage-led hunting, candidate validation, structured output, independent record verification, and target-neutral reporting. This is the skill that seeded Cloudflare's vulnerability discovery harness, described in https://blog.cloudflare.com/build-your-own-vulnerability-harness. The harness grew into a multi-stage, fleet-wide system; this skill is the single-repo starting point it evolved from. The skill runs a structured audit in six phases:",
+        "title": "The PHP Interpreter",
+        "summary": "PHP is a popular general-purpose scripting language that is especially suited to web development. Fast, flexible and pragmatic, PHP powers everything from your blog to the most popular websites in the world. PHP is distributed under the LICENSE SPDX-License-Identifier: BSD-3-Clause. The PHP manual is available at https://www.php.net/docs. Prebuilt packages and binaries can be used to get up and running fast with PHP. For Windows, the PHP binaries can be obtained from https://windows.php.net. After extracting the archive the .exe files are ready to use. For other systems, see the https://www.php.net/install.",
         "headings": [
-          "security-audit",
-          "What it does",
-          "Files",
+          "The PHP Interpreter",
+          "Documentation",
           "Installation",
-          "Usage",
-          "Requirements",
-          "Design principles",
-          "Contact"
+          "Prebuilt packages and binaries",
+          "Building PHP source code",
+          "For development",
+          "For production",
+          "Testing PHP source code"
         ],
         "commands": [],
         "keywords": [
-          "agent",
-          "security-audit",
-          "what it does",
-          "files",
-          "installation"
+          "the php interpreter",
+          "documentation",
+          "installation",
+          "prebuilt packages and binaries"
         ],
         "score": 100
       },
       "visual": {
         "kind": "repository_open_graph",
-        "url": "https://opengraph.githubassets.com/daily-tech-radar/cloudflare/security-audit-skill",
-        "thumbUrl": "https://opengraph.githubassets.com/daily-tech-radar/cloudflare/security-audit-skill",
-        "alt": "cloudflare/security-audit-skill",
-        "sourceUrl": "https://github.com/cloudflare/security-audit-skill",
-        "promptHash": "sha256:e140fa3767ba"
+        "url": "https://opengraph.githubassets.com/daily-tech-radar/php/php-src",
+        "thumbUrl": "https://opengraph.githubassets.com/daily-tech-radar/php/php-src",
+        "alt": "php/php-src",
+        "sourceUrl": "https://github.com/php/php-src",
+        "promptHash": "sha256:1e2dc9030634"
       },
       "classification": {
-        "primaryCategoryId": "ai",
+        "primaryCategoryId": "unclassified",
         "secondaryCategoryIds": [],
-        "confidence": 0.7,
+        "confidence": 0.4,
         "method": "rules",
         "reasons": [
-          "Matched agent"
+          "No taxonomy rule matched with enough confidence"
         ],
-        "signals": [
-          "agent"
-        ]
+        "signals": []
       },
       "rank": {
         "globalRank": 1,
@@ -140,23 +137,23 @@
       }
     },
     {
-      "id": "vllm-project-vllm",
-      "owner": "vllm-project",
-      "name": "vllm",
-      "url": "https://github.com/vllm-project/vllm",
-      "avatarUrl": "https://github.com/vllm-project.png",
+      "id": "anthropics-knowledge-work-plugins",
+      "owner": "anthropics",
+      "name": "knowledge-work-plugins",
+      "url": "https://github.com/anthropics/knowledge-work-plugins",
+      "avatarUrl": "https://github.com/anthropics.png",
       "homepageUrl": null,
       "source": {
         "primary": "github_trending_html",
         "sourceRank": 2,
-        "starsGained": 439
+        "starsGained": 303
       },
       "metadata": {
-        "description": "A high-throughput and memory-efficient inference and serving engine for LLMs",
+        "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
         "language": "Python",
         "topics": [],
-        "stars": 94806,
-        "forks": 23736,
+        "stars": 31500,
+        "forks": 3527,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -168,231 +165,52 @@
         "status": "available",
         "path": "README.md",
         "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/vllm-project/vllm/main/README.md"
+        "rawUrl": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/README.md"
       },
       "readmeSignals": {
-        "title": null,
-        "summary": "Easy, fast, and cheap LLM serving for everyone | Documentation | Blog | Paper | Twitter/X | User Forum | Developer Slack | 🔥 We have built a vLLM website to help you get started with vLLM. Please visit https://vllm.ai to learn more. For events, please visit https://vllm.ai/events to join us. vLLM is a fast and easy-to-use library for LLM inference and serving. Originally developed in the https://sky.cs.berkeley.edu at UC Berkeley, vLLM has grown into one of the most active open-source AI projects built and maintained by a diverse community of many dozens of academic institutions and companies from over 2000 contributors.",
+        "title": "Knowledge Work Plugins",
+        "summary": "Plugins that turn Claude into a specialist for your role, team, and company. Built for https://claude.com/product/cowork, also compatible with https://claude.com/product/claude-code. Cowork lets you set the goal and Claude delivers finished, professional work. Plugins let you go further: tell Claude how you like work done, which tools and data to pull from, how to handle critical workflows, and what slash commands to expose — so your team gets better and more consistent outcomes. Each plugin bundles the skills, connectors, slash commands, and sub-agents for a specific job function. Out of the box, they give Claude a strong starting point for helping anyone in that role. The real power comes ",
         "headings": [
-          "About",
+          "Knowledge Work Plugins",
+          "Why Plugins",
+          "Plugin Marketplace",
           "Getting Started",
-          "Contributing",
-          "Citation",
-          "Contact Us",
-          "Media Kit"
+          "Cowork",
+          "Claude Code",
+          "Add the marketplace first",
+          "Then install a specific plugin"
         ],
-        "commands": [
-          "pip install vllm"
-        ],
+        "commands": [],
         "keywords": [
-          "llm",
-          "about",
-          "getting started",
-          "contributing",
-          "citation"
+          "knowledge work plugins",
+          "why plugins",
+          "plugin marketplace",
+          "getting started"
         ],
-        "score": 95
+        "score": 100
       },
       "visual": {
         "kind": "repository_open_graph",
-        "url": "https://opengraph.githubassets.com/daily-tech-radar/vllm-project/vllm",
-        "thumbUrl": "https://opengraph.githubassets.com/daily-tech-radar/vllm-project/vllm",
-        "alt": "vllm-project/vllm",
-        "sourceUrl": "https://github.com/vllm-project/vllm",
-        "promptHash": "sha256:35cfec59dd7d"
+        "url": "https://opengraph.githubassets.com/daily-tech-radar/anthropics/knowledge-work-plugins",
+        "thumbUrl": "https://opengraph.githubassets.com/daily-tech-radar/anthropics/knowledge-work-plugins",
+        "alt": "anthropics/knowledge-work-plugins",
+        "sourceUrl": "https://github.com/anthropics/knowledge-work-plugins",
+        "promptHash": "sha256:36c6e3559edc"
       },
       "classification": {
-        "primaryCategoryId": "ai",
+        "primaryCategoryId": "unclassified",
         "secondaryCategoryIds": [],
-        "confidence": 0.7,
+        "confidence": 0.4,
         "method": "rules",
         "reasons": [
-          "Matched llm"
+          "No taxonomy rule matched with enough confidence"
         ],
-        "signals": [
-          "llm"
-        ]
+        "signals": []
       },
       "rank": {
         "globalRank": 2,
         "categoryRank": 2,
         "score": 116
-      }
-    },
-    {
-      "id": "stablyai-orca",
-      "owner": "stablyai",
-      "name": "orca",
-      "url": "https://github.com/stablyai/orca",
-      "avatarUrl": "https://github.com/stablyai.png",
-      "homepageUrl": null,
-      "source": {
-        "primary": "github_trending_html",
-        "sourceRank": 3,
-        "starsGained": 1543
-      },
-      "metadata": {
-        "description": "Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
-        "language": "TypeScript",
-        "topics": [],
-        "stars": 101056,
-        "forks": 6392,
-        "license": null,
-        "defaultBranch": null,
-        "pushedAt": null,
-        "topLanguages": [
-          "TypeScript"
-        ]
-      },
-      "readmeRef": {
-        "status": "available",
-        "path": "README.md",
-        "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/stablyai/orca/main/README.md"
-      },
-      "readmeSignals": {
-        "title": "macOS (Homebrew)",
-        "summary": "中文 · 日本語 · 한국어 · Español · Français · Português The AI Orchestrator for 100x builders. Run Codex, ClaudeCode, OpenCode or Pi side-by-side — each in its own worktree, tracked in one place. Monitor and steer your agents from your phone — get notified when an agent finishes and send follow-ups from anywhere. Fan one prompt across five agents, each in its own isolated git worktree — compare the results and merge the winner. Ghostty-class terminals with WebGL rendering, infinite splits, and scrollback that survives restarts. Click any UI element in a real Chromium window to send its HTML, CSS, and a cropped screenshot straight into your agent's prompt.",
-        "headings": [
-          "Features",
-          "Mobile Companion",
-          "Parallel Worktrees",
-          "Terminal Splits",
-          "Design Mode",
-          "GitHub &amp; Linear, Native",
-          "SSH Worktrees",
-          "Annotate AI Diffs"
-        ],
-        "commands": [],
-        "keywords": [
-          "ai",
-          "agent",
-          "features",
-          "mobile companion",
-          "parallel worktrees",
-          "terminal splits"
-        ],
-        "score": 100
-      },
-      "visual": {
-        "kind": "readme_image",
-        "url": "https://raw.githubusercontent.com/stablyai/orca/main/resources/build/icon.png",
-        "thumbUrl": "https://raw.githubusercontent.com/stablyai/orca/main/resources/build/icon.png",
-        "alt": "Orca",
-        "sourceUrl": "https://raw.githubusercontent.com/stablyai/orca/main/resources/build/icon.png",
-        "promptHash": null
-      },
-      "classification": {
-        "primaryCategoryId": "ai",
-        "secondaryCategoryIds": [],
-        "confidence": 0.8,
-        "method": "rules",
-        "reasons": [
-          "Matched ai",
-          "Matched agent"
-        ],
-        "signals": [
-          "ai",
-          "agent"
-        ]
-      },
-      "rank": {
-        "globalRank": 3,
-        "categoryRank": 3,
-        "score": 114
-      }
-    },
-    {
-      "id": "headroomlabs-ai-headroom",
-      "owner": "headroomlabs-ai",
-      "name": "headroom",
-      "url": "https://github.com/headroomlabs-ai/headroom",
-      "avatarUrl": "https://github.com/headroomlabs-ai.png",
-      "homepageUrl": null,
-      "source": {
-        "primary": "github_trending_html",
-        "sourceRank": 4,
-        "starsGained": 477
-      },
-      "metadata": {
-        "description": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP server.",
-        "language": "Python",
-        "topics": [],
-        "stars": 77182,
-        "forks": 5986,
-        "license": null,
-        "defaultBranch": null,
-        "pushedAt": null,
-        "topLanguages": [
-          "Python"
-        ]
-      },
-      "readmeRef": {
-        "status": "available",
-        "path": "README.md",
-        "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/headroomlabs-ai/headroom/main/README.md"
-      },
-      "readmeSignals": {
-        "title": "1 — Install",
-        "summary": "Quickstart · Headroom for Teams · Install · Proof · Agents · Docs · Discord · llms.txt AI agents / LLMs: read /llms.txt here, or fetch the live index · full docs blob . Headroom compresses everything your AI agent reads — tool outputs, logs, RAG chunks, files, and conversation history — before it reaches the LLM. Same answers, fraction of the tokens. Compression runs on your machine; no prompt or file content is sent anywhere to be compressed. Library — compressmessages in Python or TypeScript, inline in any app. Proxy — headroom proxy --port 8787, zero code changes, any language. Agent wrap — headroom wrap claude|codex|grok|copilot|cursor|aider|opencode|cline|continue|goose|openhands|opencl",
-        "headings": [
-          "What it does",
-          "How it works",
-          "Get started (60 seconds)",
-          "1 — Install",
-          "2 — Pick a mode",
-          "or: from headroom import compress     # inline library",
-          "3 — Check it and watch the savings",
-          "Proof"
-        ],
-        "commands": [
-          "pip install \"headroom-ai[all]\"                    # Python — ships the",
-          "npm install headroom-ai                           # TypeScript SDK only — no CLI",
-          "pip install \"headroom-ai[proxy]\"",
-          "pip install \"headroom-ai[all]\"                    # Python, everything — includes the CLI",
-          "npm install headroom-ai                           # TypeScript SDK (library only)",
-          "pip install \"headroom-ai[langchain]\""
-        ],
-        "keywords": [
-          "agent",
-          "llm",
-          "mcp",
-          "what it does",
-          "how it works",
-          "get started (60 seconds)",
-          "1 — install"
-        ],
-        "score": 100
-      },
-      "visual": {
-        "kind": "readme_image",
-        "url": "https://raw.githubusercontent.com/headroomlabs-ai/headroom/main/.github/assets/hero.svg",
-        "thumbUrl": "https://raw.githubusercontent.com/headroomlabs-ai/headroom/main/.github/assets/hero.svg",
-        "alt": "Headroom — the context compression layer for AI agents. A 55,957 token agent prompt compresses to the 24,340 tokens actually sent to the model, and the FATAL line at item 67 survives byte for byte.",
-        "sourceUrl": "https://raw.githubusercontent.com/headroomlabs-ai/headroom/main/.github/assets/hero.svg",
-        "promptHash": null
-      },
-      "classification": {
-        "primaryCategoryId": "ai",
-        "secondaryCategoryIds": [],
-        "confidence": 0.9,
-        "method": "rules",
-        "reasons": [
-          "Matched agent",
-          "Matched llm",
-          "Matched mcp"
-        ],
-        "signals": [
-          "agent",
-          "llm",
-          "mcp"
-        ]
-      },
-      "rank": {
-        "globalRank": 4,
-        "categoryRank": 4,
-        "score": 112
       }
     },
     {
@@ -404,15 +222,15 @@
       "homepageUrl": null,
       "source": {
         "primary": "github_trending_html",
-        "sourceRank": 5,
-        "starsGained": 2051
+        "sourceRank": 3,
+        "starsGained": 1949
       },
       "metadata": {
         "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
         "language": "JavaScript",
         "topics": [],
-        "stars": 171346,
-        "forks": 9326,
+        "stars": 173229,
+        "forks": 9428,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -473,497 +291,89 @@
         ]
       },
       "rank": {
-        "globalRank": 5,
-        "categoryRank": 5,
-        "score": 110
+        "globalRank": 3,
+        "categoryRank": 3,
+        "score": 114
       }
     },
     {
-      "id": "comfy-org-comfyui",
-      "owner": "Comfy-Org",
-      "name": "ComfyUI",
-      "url": "https://github.com/Comfy-Org/ComfyUI",
-      "avatarUrl": "https://github.com/Comfy-Org.png",
+      "id": "cloudflare-security-audit-skill",
+      "owner": "cloudflare",
+      "name": "security-audit-skill",
+      "url": "https://github.com/cloudflare/security-audit-skill",
+      "avatarUrl": "https://github.com/cloudflare.png",
       "homepageUrl": null,
       "source": {
         "primary": "github_trending_html",
-        "sourceRank": 6,
-        "starsGained": 914
+        "sourceRank": 4,
+        "starsGained": 2979
       },
       "metadata": {
-        "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world.",
-        "language": "Python",
+        "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+        "language": "JavaScript",
         "topics": [],
-        "stars": 141418,
-        "forks": 16719,
+        "stars": 39170,
+        "forks": 2440,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
         "topLanguages": [
-          "Python"
+          "JavaScript"
         ]
       },
       "readmeRef": {
         "status": "available",
         "path": "README.md",
         "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/Comfy-Org/ComfyUI/master/README.md"
+        "rawUrl": "https://raw.githubusercontent.com/cloudflare/security-audit-skill/main/README.md"
       },
       "readmeSignals": {
-        "title": "ComfyUI",
-        "summary": "ComfyUI The most powerful and modular AI engine for content creation. ComfyUI is the AI creation engine for visual professionals who demand control over every model, every parameter, and every output. Its powerful and modular node graph interface empowers creatives to generate images, videos, 3D models, audio, and more... ComfyUI natively supports the latest open-source state of the art models. It is by far the most optimized inference engine for diffusion models in the world with a focus on local consumer hardware. Can run even the biggest open source models on as low as 4GB vram + 8GB ram relatively quickly saturating your GPU compute using our state of the art asynchronous weight streamin",
+        "title": "security-audit",
+        "summary": "A coding-agent skill that turns your agent into a security auditor. It orchestrates isolated agents through reconnaissance, coverage-led hunting, candidate validation, structured output, independent record verification, and target-neutral reporting. This is the skill that seeded Cloudflare's vulnerability discovery harness, described in https://blog.cloudflare.com/build-your-own-vulnerability-harness. The harness grew into a multi-stage, fleet-wide system; this skill is the single-repo starting point it evolved from. The skill runs a structured audit in six phases:",
         "headings": [
-          "ComfyUI",
-          "Get Started",
-          "Local",
-          "Cloud",
-          "Examples",
-          "Features",
-          "Release Process",
-          "Shortcuts"
-        ],
-        "commands": [
-          "pip install comfy-cli",
-          "pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/rocm7.2",
-          "pip install --pre torch torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/rocm7.2",
-          "pip install --index-url https://stable.repo.amd.com/rocm/whl-next/ \"torch[device-all]==2.13.0+rocm10.0.0\" \"torchvision[device-all]==0.28.0+rocm10.0.0\" \"torchaudio==2.11.0.2+rocm10.0.0\"",
-          "pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/xpu",
-          "pip install --pre torch torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/xpu"
-        ],
-        "keywords": [
-          "model",
-          "comfyui",
-          "get started",
-          "local",
-          "cloud"
-        ],
-        "score": 100
-      },
-      "visual": {
-        "kind": "readme_image",
-        "url": "https://github.com/user-attachments/assets/36e065e0-bfae-4456-8c7f-8369d5ea48a2",
-        "thumbUrl": "https://github.com/user-attachments/assets/36e065e0-bfae-4456-8c7f-8369d5ea48a2",
-        "alt": "ComfyUI Screenshot",
-        "sourceUrl": "https://github.com/user-attachments/assets/36e065e0-bfae-4456-8c7f-8369d5ea48a2",
-        "promptHash": null
-      },
-      "classification": {
-        "primaryCategoryId": "ai",
-        "secondaryCategoryIds": [],
-        "confidence": 0.7,
-        "method": "rules",
-        "reasons": [
-          "Matched model"
-        ],
-        "signals": [
-          "model"
-        ]
-      },
-      "rank": {
-        "globalRank": 6,
-        "categoryRank": 6,
-        "score": 108
-      }
-    },
-    {
-      "id": "supabase-supabase",
-      "owner": "supabase",
-      "name": "supabase",
-      "url": "https://github.com/supabase/supabase",
-      "avatarUrl": "https://github.com/supabase.png",
-      "homepageUrl": null,
-      "source": {
-        "primary": "github_trending_html",
-        "sourceRank": 7,
-        "starsGained": 509
-      },
-      "metadata": {
-        "description": "The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications.",
-        "language": "TypeScript",
-        "topics": [],
-        "stars": 112891,
-        "forks": 16894,
-        "license": null,
-        "defaultBranch": null,
-        "pushedAt": null,
-        "topLanguages": [
-          "TypeScript"
-        ]
-      },
-      "readmeRef": {
-        "status": "available",
-        "path": "README.md",
-        "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/supabase/supabase/master/README.md"
-      },
-      "readmeSignals": {
-        "title": "Supabase",
-        "summary": "x Hosted Postgres Database. https://supabase.com/docs/guides/database x Authentication and Authorization. https://supabase.com/docs/guides/auth x Auto-generated APIs. x REST. https://supabase.com/docs/guides/api x GraphQL. https://supabase.com/docs/guides/graphql x Realtime subscriptions. https://supabase.com/docs/guides/realtime x Functions. x Database Functions. https://supabase.com/docs/guides/database/functions x Edge Functions https://supabase.com/docs/guides/functions x File Storage. https://supabase.com/docs/guides/storage x AI + Vector/Embeddings Toolkit. https://supabase.com/docs/guides/ai x Dashboard",
-        "headings": [
-          "Supabase",
-          "Documentation",
-          "Community & Support",
-          "How it works",
-          "Badges",
-          "Translations"
-        ],
-        "commands": [],
-        "keywords": [
-          "ai",
-          "supabase",
-          "documentation",
-          "community & support",
-          "how it works"
-        ],
-        "score": 90
-      },
-      "visual": {
-        "kind": "readme_image",
-        "url": "https://raw.githubusercontent.com/supabase/supabase/master/apps/www/public/images/github/supabase-dashboard.png",
-        "thumbUrl": "https://raw.githubusercontent.com/supabase/supabase/master/apps/www/public/images/github/supabase-dashboard.png",
-        "alt": "Supabase Dashboard",
-        "sourceUrl": "https://raw.githubusercontent.com/supabase/supabase/master/apps/www/public/images/github/supabase-dashboard.png",
-        "promptHash": null
-      },
-      "classification": {
-        "primaryCategoryId": "ai",
-        "secondaryCategoryIds": [],
-        "confidence": 0.7,
-        "method": "rules",
-        "reasons": [
-          "Matched ai"
-        ],
-        "signals": [
-          "ai"
-        ]
-      },
-      "rank": {
-        "globalRank": 7,
-        "categoryRank": 7,
-        "score": 106
-      }
-    },
-    {
-      "id": "twentyhq-twenty",
-      "owner": "twentyhq",
-      "name": "twenty",
-      "url": "https://github.com/twentyhq/twenty",
-      "avatarUrl": "https://github.com/twentyhq.png",
-      "homepageUrl": null,
-      "source": {
-        "primary": "github_trending_html",
-        "sourceRank": 8,
-        "starsGained": 105
-      },
-      "metadata": {
-        "description": "The open alternative to Salesforce, designed for AI.",
-        "language": "TypeScript",
-        "topics": [],
-        "stars": 59054,
-        "forks": 9656,
-        "license": null,
-        "defaultBranch": null,
-        "pushedAt": null,
-        "topLanguages": [
-          "TypeScript"
-        ]
-      },
-      "readmeRef": {
-        "status": "available",
-        "path": "README.md",
-        "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/twentyhq/twenty/main/README.md"
-      },
-      "readmeSignals": {
-        "title": "Why Twenty",
-        "summary": "Website · Documentation · Roadmap · Discord · Figma Twenty gives technical teams the building blocks for a custom CRM that meets complex business needs and quickly adapts as the business evolves. Twenty is the CRM you build, ship, and version like the rest of your stack. The fastest way to get started. Sign up at https://twenty.com and spin up a workspace in under a minute, with no infrastructure to manage and always up to date. Define objects, fields, and views as code: See the https://docs.twenty.com/developers/extend/apps/getting-started for objects, views, agents, and logic functions.",
-        "headings": [
-          "Why Twenty",
+          "security-audit",
+          "What it does",
+          "Files",
           "Installation",
-          "<img src=\"./packages/twenty-website/public/images/readme/globe-icon.svg\" width=\"14\" height=\"14\"/> Cloud",
-          "<img src=\"./packages/twenty-website/public/images/readme/book-icon.svg\" width=\"14\" height=\"14\"/> Build an app",
-          "<img src=\"./packages/twenty-website/public/images/readme/rocket-icon.svg\" width=\"14\" height=\"14\"/> Self-hosting",
-          "Everything you need",
-          "Stack",
-          "Thanks"
+          "Usage",
+          "Requirements",
+          "Design principles",
+          "Contact"
         ],
         "commands": [],
         "keywords": [
-          "ai",
-          "why twenty",
-          "installation",
-          "<img src=\"./packages/twenty-website/public/images/readme/globe-icon.svg\" width=\"14\" height=\"14\"/> cloud",
-          "<img src=\"./packages/twenty-website/public/images/readme/book-icon.svg\" width=\"14\" height=\"14\"/> build an app"
-        ],
-        "score": 100
-      },
-      "visual": {
-        "kind": "readme_image",
-        "url": "https://raw.githubusercontent.com/twentyhq/twenty/main/packages/twenty-website/public/images/readme/globe-icon.svg",
-        "thumbUrl": "https://raw.githubusercontent.com/twentyhq/twenty/main/packages/twenty-website/public/images/readme/globe-icon.svg",
-        "alt": "twentyhq/twenty",
-        "sourceUrl": "https://raw.githubusercontent.com/twentyhq/twenty/main/packages/twenty-website/public/images/readme/globe-icon.svg",
-        "promptHash": null
-      },
-      "classification": {
-        "primaryCategoryId": "ai",
-        "secondaryCategoryIds": [],
-        "confidence": 0.7,
-        "method": "rules",
-        "reasons": [
-          "Matched ai"
-        ],
-        "signals": [
-          "ai"
-        ]
-      },
-      "rank": {
-        "globalRank": 8,
-        "categoryRank": 8,
-        "score": 94.5
-      }
-    },
-    {
-      "id": "shiyu-coder-kronos",
-      "owner": "shiyu-coder",
-      "name": "Kronos",
-      "url": "https://github.com/shiyu-coder/Kronos",
-      "avatarUrl": "https://github.com/shiyu-coder.png",
-      "homepageUrl": null,
-      "source": {
-        "primary": "github_trending_html",
-        "sourceRank": 9,
-        "starsGained": 570
-      },
-      "metadata": {
-        "description": "Kronos: A Foundation Model for the Language of Financial Markets",
-        "language": "Python",
-        "topics": [],
-        "stars": 42749,
-        "forks": 7063,
-        "license": null,
-        "defaultBranch": null,
-        "pushedAt": null,
-        "topLanguages": [
-          "Python"
-        ]
-      },
-      "readmeRef": {
-        "status": "available",
-        "path": "README.md",
-        "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/shiyu-coder/Kronos/master/README.md"
-      },
-      "readmeSignals": {
-        "title": "Load from Hugging Face Hub",
-        "summary": "Kronos: A Foundation Model for the Language of Financial Markets Deutsch | Español | Français | 日本語 | 한국어 | Português | Русский | 中文 Kronos is the first open-source foundation model for financial candlesticks K-lines, trained on data from over 45 global exchanges. 📰 News 🚩 2025.11.10 Kronos has been accpeted by AAAI 2026. 🚩 2025.08.17 We have released the scripts for fine-tuning! Check them out to adapt Kronos to your own tasks. 🚩 2025.08.02 Our paper is now available on https://arxiv.org/abs/2508.02739! 📜 Introduction Kronos is a family of decoder-only foundation models, pre-trained specifically for the \"language\" of financial markets—K-line sequences. Unlike general-purpose TSFMs, Kro",
-        "headings": [
-          "📰 News",
-          "📜 Introduction",
-          "✨ Live Demo",
-          "📦 Model Zoo",
-          "🚀 Getting Started",
-          "Installation",
-          "📈 Making Forecasts",
-          "Load from Hugging Face Hub"
-        ],
-        "commands": [
-          "pip install -r requirements.txt",
-          "pip install pyqlib"
-        ],
-        "keywords": [
-          "model",
-          "📰 news",
-          "📜 introduction",
-          "✨ live demo",
-          "📦 model zoo"
-        ],
-        "score": 100
-      },
-      "visual": {
-        "kind": "readme_image",
-        "url": "https://raw.githubusercontent.com/shiyu-coder/Kronos/master/figures/overview.png",
-        "thumbUrl": "https://raw.githubusercontent.com/shiyu-coder/Kronos/master/figures/overview.png",
-        "alt": "shiyu-coder/Kronos",
-        "sourceUrl": "https://raw.githubusercontent.com/shiyu-coder/Kronos/master/figures/overview.png",
-        "promptHash": null
-      },
-      "classification": {
-        "primaryCategoryId": "ai",
-        "secondaryCategoryIds": [],
-        "confidence": 0.7,
-        "method": "rules",
-        "reasons": [
-          "Matched model"
-        ],
-        "signals": [
-          "model"
-        ]
-      },
-      "rank": {
-        "globalRank": 9,
-        "categoryRank": 9,
-        "score": 102
-      }
-    },
-    {
-      "id": "strelov1-freehire",
-      "owner": "strelov1",
-      "name": "freehire",
-      "url": "https://github.com/strelov1/freehire",
-      "avatarUrl": "https://github.com/strelov1.png",
-      "homepageUrl": null,
-      "source": {
-        "primary": "github_trending_html",
-        "sourceRank": 10,
-        "starsGained": 396
-      },
-      "metadata": {
-        "description": "freehire — the open-source search engine for job seekers",
-        "language": "Go",
-        "topics": [],
-        "stars": 2295,
-        "forks": 241,
-        "license": null,
-        "defaultBranch": null,
-        "pushedAt": null,
-        "topLanguages": [
-          "Go"
-        ]
-      },
-      "readmeRef": {
-        "status": "available",
-        "path": "README.md",
-        "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/strelov1/freehire/main/README.md"
-      },
-      "readmeSignals": {
-        "title": "freehire",
-        "summary": "3.3M+ live postings pulled directly from company career pages — no recruiters, no reposts, no dead links. Fully open source. Straight from the source. Every listing is crawled directly from a company's own ATS — Workday, Greenhouse, Lever, Ashby, iCIMS and a long tail of others — and links to the original posting. No recruiter reposts, no aggregator middlemen, no dead links. One schema, deduplicated. The same role posted to three boards collapses into one entry: every posting is normalized into a single shape and deduplicated on a stable key. Search that understands jobs. Faceted full-text search over region, work mode, seniority, skills and salary — derived from curated dictionaries, never ",
-        "headings": [
-          "freehire",
-          "Every IT job, straight from the source.",
-          "Why freehire?",
-          "Beyond the catalogue",
-          "Stack",
-          "Quick start",
-          "Local development",
-          "Commands"
-        ],
-        "commands": [],
-        "keywords": [
-          "freehire",
-          "every it job, straight from the source.",
-          "why freehire?",
-          "beyond the catalogue"
-        ],
-        "score": 100
-      },
-      "visual": {
-        "kind": "readme_image",
-        "url": "https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=1196233&amp;theme=light",
-        "thumbUrl": "https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=1196233&amp;theme=light",
-        "alt": "freehire — every IT job, straight from the source | Product Hunt",
-        "sourceUrl": "https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=1196233&amp;theme=light",
-        "promptHash": null
-      },
-      "classification": {
-        "primaryCategoryId": "unclassified",
-        "secondaryCategoryIds": [],
-        "confidence": 0.4,
-        "method": "rules",
-        "reasons": [
-          "No taxonomy rule matched with enough confidence"
-        ],
-        "signals": []
-      },
-      "rank": {
-        "globalRank": 10,
-        "categoryRank": 10,
-        "score": 100
-      }
-    },
-    {
-      "id": "akitaonrails-ai-memory",
-      "owner": "akitaonrails",
-      "name": "ai-memory",
-      "url": "https://github.com/akitaonrails/ai-memory",
-      "avatarUrl": "https://github.com/akitaonrails.png",
-      "homepageUrl": null,
-      "source": {
-        "primary": "github_trending_html",
-        "sourceRank": 11,
-        "starsGained": 303
-      },
-      "metadata": {
-        "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
-        "language": "Rust",
-        "topics": [],
-        "stars": 12237,
-        "forks": 866,
-        "license": null,
-        "defaultBranch": null,
-        "pushedAt": null,
-        "topLanguages": [
-          "Rust"
-        ]
-      },
-      "readmeRef": {
-        "status": "available",
-        "path": "README.md",
-        "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/akitaonrails/ai-memory/main/README.md"
-      },
-      "readmeSignals": {
-        "title": "1. Install the ai-memory CLI wrapper (a small shell script that",
-        "summary": "Long-term memory for AI coding agents. Quit Claude Code mid-task, start OpenAI Codex in the same directory, continue without re-explaining the architecture, the failed approaches, or the open questions. Your coding agent probably has a memory feature already. Claude Code takes its own notes, Cursor remembers some things, and every platform is adding more. They all have the same limits: the notes live on one machine, belong to one agent, and drop out of view when you switch tools or hand the work to a teammate. It follows you across agents. More than twenty harnesses Claude Code, Codex, Cursor, Gemini CLI, OpenCode, Grok, Devin, Kimi, Kiro, and others feed one shared memory. Quit Claude Code ",
-        "headings": [
-          "Why ai-memory",
-          "How it works",
-          "Support matrix",
-          "Coming from another tool?",
-          "Quick start",
-          "Linux and macOS (two commands, no root)",
-          "Windows (two commands, no admin)",
-          "Arch Linux (AUR)"
-        ],
-        "commands": [],
-        "keywords": [
-          "ai",
           "agent",
-          "why ai-memory",
-          "how it works",
-          "support matrix",
-          "coming from another tool?"
+          "security-audit",
+          "what it does",
+          "files",
+          "installation"
         ],
         "score": 100
       },
       "visual": {
         "kind": "repository_open_graph",
-        "url": "https://opengraph.githubassets.com/daily-tech-radar/akitaonrails/ai-memory",
-        "thumbUrl": "https://opengraph.githubassets.com/daily-tech-radar/akitaonrails/ai-memory",
-        "alt": "akitaonrails/ai-memory",
-        "sourceUrl": "https://github.com/akitaonrails/ai-memory",
-        "promptHash": "sha256:b5ea5f15a3ae"
+        "url": "https://opengraph.githubassets.com/daily-tech-radar/cloudflare/security-audit-skill",
+        "thumbUrl": "https://opengraph.githubassets.com/daily-tech-radar/cloudflare/security-audit-skill",
+        "alt": "cloudflare/security-audit-skill",
+        "sourceUrl": "https://github.com/cloudflare/security-audit-skill",
+        "promptHash": "sha256:e140fa3767ba"
       },
       "classification": {
         "primaryCategoryId": "ai",
         "secondaryCategoryIds": [],
-        "confidence": 0.8,
+        "confidence": 0.7,
         "method": "rules",
         "reasons": [
-          "Matched ai",
           "Matched agent"
         ],
         "signals": [
-          "ai",
           "agent"
         ]
       },
       "rank": {
-        "globalRank": 11,
-        "categoryRank": 11,
-        "score": 98
+        "globalRank": 4,
+        "categoryRank": 4,
+        "score": 112
       }
     },
     {
@@ -975,15 +385,15 @@
       "homepageUrl": null,
       "source": {
         "primary": "github_trending_html",
-        "sourceRank": 12,
-        "starsGained": 1434
+        "sourceRank": 5,
+        "starsGained": 1407
       },
       "metadata": {
         "description": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.",
         "language": "Python",
         "topics": [],
-        "stars": 131435,
-        "forks": 12619,
+        "stars": 132793,
+        "forks": 12712,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -1041,9 +451,322 @@
         ]
       },
       "rank": {
-        "globalRank": 12,
-        "categoryRank": 12,
-        "score": 96
+        "globalRank": 5,
+        "categoryRank": 5,
+        "score": 110
+      }
+    },
+    {
+      "id": "supabase-supabase",
+      "owner": "supabase",
+      "name": "supabase",
+      "url": "https://github.com/supabase/supabase",
+      "avatarUrl": "https://github.com/supabase.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 6,
+        "starsGained": 683
+      },
+      "metadata": {
+        "description": "The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications.",
+        "language": "TypeScript",
+        "topics": [],
+        "stars": 113423,
+        "forks": 16993,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "TypeScript"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/supabase/supabase/master/README.md"
+      },
+      "readmeSignals": {
+        "title": "Supabase",
+        "summary": "x Hosted Postgres Database. https://supabase.com/docs/guides/database x Authentication and Authorization. https://supabase.com/docs/guides/auth x Auto-generated APIs. x REST. https://supabase.com/docs/guides/api x GraphQL. https://supabase.com/docs/guides/graphql x Realtime subscriptions. https://supabase.com/docs/guides/realtime x Functions. x Database Functions. https://supabase.com/docs/guides/database/functions x Edge Functions https://supabase.com/docs/guides/functions x File Storage. https://supabase.com/docs/guides/storage x AI + Vector/Embeddings Toolkit. https://supabase.com/docs/guides/ai x Dashboard",
+        "headings": [
+          "Supabase",
+          "Documentation",
+          "Community & Support",
+          "How it works",
+          "Badges",
+          "Translations"
+        ],
+        "commands": [],
+        "keywords": [
+          "ai",
+          "supabase",
+          "documentation",
+          "community & support",
+          "how it works"
+        ],
+        "score": 90
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/supabase/supabase/master/apps/www/public/images/github/supabase-dashboard.png",
+        "thumbUrl": "https://raw.githubusercontent.com/supabase/supabase/master/apps/www/public/images/github/supabase-dashboard.png",
+        "alt": "Supabase Dashboard",
+        "sourceUrl": "https://raw.githubusercontent.com/supabase/supabase/master/apps/www/public/images/github/supabase-dashboard.png",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.7,
+        "method": "rules",
+        "reasons": [
+          "Matched ai"
+        ],
+        "signals": [
+          "ai"
+        ]
+      },
+      "rank": {
+        "globalRank": 6,
+        "categoryRank": 6,
+        "score": 108
+      }
+    },
+    {
+      "id": "fastapi-fastapi",
+      "owner": "fastapi",
+      "name": "fastapi",
+      "url": "https://github.com/fastapi/fastapi",
+      "avatarUrl": "https://github.com/fastapi.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 7,
+        "starsGained": 96
+      },
+      "metadata": {
+        "description": "FastAPI framework, high performance, easy to learn, fast to code, ready for production",
+        "language": "Python",
+        "topics": [],
+        "stars": 103643,
+        "forks": 10084,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Python"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/fastapi/fastapi/master/README.md"
+      },
+      "readmeSignals": {
+        "title": null,
+        "summary": "FastAPI framework, high performance, easy to learn, fast to code, ready for production Documentation: https://fastapi.tiangolo.com Source Code: https://github.com/fastapi/fastapi FastAPI is a modern, fast high-performance, web framework for building APIs with Python based on standard Python type hints. Fast: Very high performance, on par with NodeJS and Go thanks to Starlette and Pydantic. performance. Fast to code: Increase the speed to develop features by about 200% to 300%. Fewer bugs: Reduce about 40% of human developer induced errors. Intuitive: Great editor support. Completion everywhere. Less time debugging. Easy: Designed to be easy to use and learn. Less time reading docs. Short: Mi",
+        "headings": [
+          "Sponsors",
+          "Keystone Sponsor",
+          "Gold Sponsors",
+          "Silver Sponsors",
+          "Opinions",
+          "FastAPI mini documentary",
+          "**Typer**, the FastAPI of CLIs",
+          "Requirements"
+        ],
+        "commands": [],
+        "keywords": [
+          "api",
+          "sponsors",
+          "keystone sponsor",
+          "gold sponsors",
+          "silver sponsors"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://fastapi.tiangolo.com/img/index/index-01-swagger-ui-simple.png",
+        "thumbUrl": "https://fastapi.tiangolo.com/img/index/index-01-swagger-ui-simple.png",
+        "alt": "Swagger UI",
+        "sourceUrl": "https://fastapi.tiangolo.com/img/index/index-01-swagger-ui-simple.png",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "backend",
+        "secondaryCategoryIds": [],
+        "confidence": 0.7,
+        "method": "rules",
+        "reasons": [
+          "Matched api"
+        ],
+        "signals": [
+          "api"
+        ]
+      },
+      "rank": {
+        "globalRank": 7,
+        "categoryRank": 7,
+        "score": 95.6
+      }
+    },
+    {
+      "id": "luongnv89-claude-howto",
+      "owner": "luongnv89",
+      "name": "claude-howto",
+      "url": "https://github.com/luongnv89/claude-howto",
+      "avatarUrl": "https://github.com/luongnv89.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 8,
+        "starsGained": 370
+      },
+      "metadata": {
+        "description": "A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value.",
+        "language": "Python",
+        "topics": [],
+        "stars": 43021,
+        "forks": 5377,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Python"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/luongnv89/claude-howto/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "Master Claude Code in a Weekend",
+        "summary": "🌐 Language / Ngôn ngữ / 语言 / Мова: README.md | vi/README.md | zh/README.md | uk/README.md | ja/README.md Go from typing claude to orchestrating agents, hooks, skills, and MCP servers — with visual tutorials, copy-paste templates, and a guided learning path. get-started-in-15-minutes | not-sure-where-to-start | CATALOG.md the-problem how-claude-how-to-fixes-this how-it-works not-sure-where-to-start get-started-in-15-minutes what-can-you-build-with-this faq contributing license You installed Claude Code. You ran a few prompts. Now what? The official docs describe features — but don't show you how to combine them. You know slash commands exist, but not how to chain them with hooks, memory, and",
+        "headings": [
+          "Master Claude Code in a Weekend",
+          "Table of Contents",
+          "The Problem",
+          "How Claude How To Fixes This",
+          "What you get:",
+          "How It Works",
+          "1. Find your level",
+          "2. Follow the guided path"
+        ],
+        "commands": [
+          "npm install -g @anthropic-ai/claude-code",
+          "pip install -r scripts/requirements-dev.txt"
+        ],
+        "keywords": [
+          "agent",
+          "master claude code in a weekend",
+          "table of contents",
+          "the problem",
+          "how claude how to fixes this"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "repository_open_graph",
+        "url": "https://opengraph.githubassets.com/daily-tech-radar/luongnv89/claude-howto",
+        "thumbUrl": "https://opengraph.githubassets.com/daily-tech-radar/luongnv89/claude-howto",
+        "alt": "luongnv89/claude-howto",
+        "sourceUrl": "https://github.com/luongnv89/claude-howto",
+        "promptHash": "sha256:d6d871dec074"
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.7,
+        "method": "rules",
+        "reasons": [
+          "Matched agent"
+        ],
+        "signals": [
+          "agent"
+        ]
+      },
+      "rank": {
+        "globalRank": 8,
+        "categoryRank": 8,
+        "score": 104
+      }
+    },
+    {
+      "id": "meloong-git-pcl",
+      "owner": "Meloong-Git",
+      "name": "PCL",
+      "url": "https://github.com/Meloong-Git/PCL",
+      "avatarUrl": "https://github.com/Meloong-Git.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 9,
+        "starsGained": 115
+      },
+      "metadata": {
+        "description": "Minecraft 启动器 Plain Craft Launcher（PCL）。",
+        "language": "Visual Basic .NET",
+        "topics": [],
+        "stars": 8653,
+        "forks": 1197,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Visual Basic .NET"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/Meloong-Git/PCL/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "Plain Craft Launcher",
+        "summary": "包含 PCL 的大部分源代码，包括 UI 库、动画模块、下载模块、Minecraft 启动模块等！ 代码并不是实时更新的，它会在每次 PCL 发布更新时同步一次。 非常感谢社区的大力支持！ 相关资源 https://meloong.com/pcl：下载可免费使用的正式版 PCL！ https://github.com/Meloong-Git/PCL/discussions/2：来参加投票吧，开发者会优先处理票数较高的项目！ https://github.com/LTCatt/PCL2Help：PCL 内置帮助文档的存储库",
+        "headings": [
+          "Plain Craft Launcher",
+          "相关资源"
+        ],
+        "commands": [],
+        "keywords": [
+          "ai",
+          "plain craft launcher",
+          "相关资源"
+        ],
+        "score": 70
+      },
+      "visual": {
+        "kind": "repository_open_graph",
+        "url": "https://opengraph.githubassets.com/daily-tech-radar/Meloong-Git/PCL",
+        "thumbUrl": "https://opengraph.githubassets.com/daily-tech-radar/Meloong-Git/PCL",
+        "alt": "Meloong-Git/PCL",
+        "sourceUrl": "https://github.com/Meloong-Git/PCL",
+        "promptHash": "sha256:722de17c3615"
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.7,
+        "method": "rules",
+        "reasons": [
+          "Matched ai"
+        ],
+        "signals": [
+          "ai"
+        ]
+      },
+      "rank": {
+        "globalRank": 9,
+        "categoryRank": 9,
+        "score": 93.5
       }
     }
   ],
@@ -1054,17 +777,22 @@
       "label": "AI",
       "categoryId": "ai",
       "repoIds": [
-        "cloudflare-security-audit-skill",
-        "vllm-project-vllm",
-        "stablyai-orca",
-        "headroomlabs-ai-headroom",
         "dietrichgebert-ponytail",
-        "comfy-org-comfyui",
-        "supabase-supabase",
-        "shiyu-coder-kronos",
-        "akitaonrails-ai-memory",
+        "cloudflare-security-audit-skill",
         "graphify-labs-graphify",
-        "twentyhq-twenty"
+        "supabase-supabase",
+        "luongnv89-claude-howto",
+        "meloong-git-pcl"
+      ],
+      "sort": "score"
+    },
+    {
+      "id": "backend",
+      "type": "category",
+      "label": "Backend",
+      "categoryId": "backend",
+      "repoIds": [
+        "fastapi-fastapi"
       ],
       "sort": "score"
     },
@@ -1074,18 +802,19 @@
       "label": "Needs Review",
       "categoryId": "unclassified",
       "repoIds": [
-        "strelov1-freehire"
+        "php-php-src",
+        "anthropics-knowledge-work-plugins"
       ],
       "sort": "score"
     }
   ],
   "health": {
     "status": "ok",
-    "candidateCount": 12,
-    "enrichedRepoCount": 12,
-    "unclassifiedRepoCount": 1,
+    "candidateCount": 9,
+    "enrichedRepoCount": 9,
+    "unclassifiedRepoCount": 2,
     "warnings": [
-      "8 repos used README images, 0 used Agnes images, 4 fell back to repository Open Graph covers"
+      "3 repos used README images, 0 used Agnes images, 6 fell back to repository Open Graph covers"
     ]
   }
 }

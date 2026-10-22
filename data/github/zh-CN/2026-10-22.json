@@ -1,0 +1,820 @@
+{
+  "schemaVersion": "trendreader.daily.v1",
+  "packageId": "github-daily-All-2026-10-22",
+  "locale": "zh-CN",
+  "generatedAt": "2026-10-22T20:24:34.635Z",
+  "expiresAt": "2026-10-23T20:24:34.635Z",
+  "sourceWindow": {
+    "since": "daily",
+    "language": "All",
+    "spokenLanguageCode": null
+  },
+  "sources": [
+    {
+      "id": "github_trending_html",
+      "role": "candidate",
+      "status": "ok",
+      "itemCount": 9
+    }
+  ],
+  "taxonomy": {
+    "version": "2026-10-22",
+    "generatedAt": "2026-10-22T20:24:34.635Z",
+    "categories": [
+      {
+        "id": "ai",
+        "label": "AI",
+        "labelEn": "AI",
+        "icon": "bot",
+        "order": 20
+      },
+      {
+        "id": "tools",
+        "label": "工具",
+        "labelEn": "Tools",
+        "icon": "wrench",
+        "order": 100
+      },
+      {
+        "id": "frontend",
+        "label": "前端",
+        "labelEn": "Frontend",
+        "icon": "layout",
+        "order": 140
+      },
+      {
+        "id": "backend",
+        "label": "后端",
+        "labelEn": "Backend",
+        "icon": "server",
+        "order": 110
+      },
+      {
+        "id": "unclassified",
+        "label": "Needs Review",
+        "labelEn": "Needs Review",
+        "icon": "circle-help",
+        "order": 999
+      }
+    ]
+  },
+  "repos": [
+    {
+      "id": "php-php-src",
+      "owner": "php",
+      "name": "php-src",
+      "url": "https://github.com/php/php-src",
+      "avatarUrl": "https://github.com/php.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 1,
+        "starsGained": 423
+      },
+      "metadata": {
+        "description": "The PHP Interpreter",
+        "language": "C",
+        "topics": [],
+        "stars": 41070,
+        "forks": 8301,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "C"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/php/php-src/master/README.md"
+      },
+      "readmeSignals": {
+        "title": "The PHP Interpreter",
+        "summary": "PHP is a popular general-purpose scripting language that is especially suited to web development. Fast, flexible and pragmatic, PHP powers everything from your blog to the most popular websites in the world. PHP is distributed under the LICENSE SPDX-License-Identifier: BSD-3-Clause. The PHP manual is available at https://www.php.net/docs. Prebuilt packages and binaries can be used to get up and running fast with PHP. For Windows, the PHP binaries can be obtained from https://windows.php.net. After extracting the archive the .exe files are ready to use. For other systems, see the https://www.php.net/install.",
+        "headings": [
+          "The PHP Interpreter",
+          "Documentation",
+          "Installation",
+          "Prebuilt packages and binaries",
+          "Building PHP source code",
+          "For development",
+          "For production",
+          "Testing PHP source code"
+        ],
+        "commands": [],
+        "keywords": [
+          "the php interpreter",
+          "documentation",
+          "installation",
+          "prebuilt packages and binaries"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "repository_open_graph",
+        "url": "https://opengraph.githubassets.com/daily-tech-radar/php/php-src",
+        "thumbUrl": "https://opengraph.githubassets.com/daily-tech-radar/php/php-src",
+        "alt": "php/php-src",
+        "sourceUrl": "https://github.com/php/php-src",
+        "promptHash": "sha256:1e2dc9030634"
+      },
+      "classification": {
+        "primaryCategoryId": "unclassified",
+        "secondaryCategoryIds": [],
+        "confidence": 0.4,
+        "method": "rules",
+        "reasons": [
+          "No taxonomy rule matched with enough confidence"
+        ],
+        "signals": []
+      },
+      "rank": {
+        "globalRank": 1,
+        "categoryRank": 1,
+        "score": 118
+      }
+    },
+    {
+      "id": "anthropics-knowledge-work-plugins",
+      "owner": "anthropics",
+      "name": "knowledge-work-plugins",
+      "url": "https://github.com/anthropics/knowledge-work-plugins",
+      "avatarUrl": "https://github.com/anthropics.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 2,
+        "starsGained": 303
+      },
+      "metadata": {
+        "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
+        "language": "Python",
+        "topics": [],
+        "stars": 31500,
+        "forks": 3527,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Python"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "Knowledge Work Plugins",
+        "summary": "Plugins that turn Claude into a specialist for your role, team, and company. Built for https://claude.com/product/cowork, also compatible with https://claude.com/product/claude-code. Cowork lets you set the goal and Claude delivers finished, professional work. Plugins let you go further: tell Claude how you like work done, which tools and data to pull from, how to handle critical workflows, and what slash commands to expose — so your team gets better and more consistent outcomes. Each plugin bundles the skills, connectors, slash commands, and sub-agents for a specific job function. Out of the box, they give Claude a strong starting point for helping anyone in that role. The real power comes ",
+        "headings": [
+          "Knowledge Work Plugins",
+          "Why Plugins",
+          "Plugin Marketplace",
+          "Getting Started",
+          "Cowork",
+          "Claude Code",
+          "Add the marketplace first",
+          "Then install a specific plugin"
+        ],
+        "commands": [],
+        "keywords": [
+          "knowledge work plugins",
+          "why plugins",
+          "plugin marketplace",
+          "getting started"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "repository_open_graph",
+        "url": "https://opengraph.githubassets.com/daily-tech-radar/anthropics/knowledge-work-plugins",
+        "thumbUrl": "https://opengraph.githubassets.com/daily-tech-radar/anthropics/knowledge-work-plugins",
+        "alt": "anthropics/knowledge-work-plugins",
+        "sourceUrl": "https://github.com/anthropics/knowledge-work-plugins",
+        "promptHash": "sha256:36c6e3559edc"
+      },
+      "classification": {
+        "primaryCategoryId": "unclassified",
+        "secondaryCategoryIds": [],
+        "confidence": 0.4,
+        "method": "rules",
+        "reasons": [
+          "No taxonomy rule matched with enough confidence"
+        ],
+        "signals": []
+      },
+      "rank": {
+        "globalRank": 2,
+        "categoryRank": 2,
+        "score": 116
+      }
+    },
+    {
+      "id": "dietrichgebert-ponytail",
+      "owner": "DietrichGebert",
+      "name": "ponytail",
+      "url": "https://github.com/DietrichGebert/ponytail",
+      "avatarUrl": "https://github.com/DietrichGebert.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 3,
+        "starsGained": 1949
+      },
+      "metadata": {
+        "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+        "language": "JavaScript",
+        "topics": [],
+        "stars": 173229,
+        "forks": 9428,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "JavaScript"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/DietrichGebert/ponytail/main/README.md"
+      },
+      "readmeSignals": {
+        "title": null,
+        "summary": "He says nothing. He writes one line. It works. Ponytail 5: rebuilt from the ground up. -53% code &middot; -41% time &middot; -26% cost &middot; -45% tokens And yet: 98% of risky logic ships with a test. Without Ponytail: 68%. Benchmarked in Claude Code, the same agent with and without the skill: 39 tasks including a real FastAPI + React repo, Opus 5.5, 5 runs each. Details . Español &middot; 한국어 &middot; 简体中文 &middot; 日本語 You know him. Long ponytail. Oval glasses. Has been at the company longer than the version control. You show him fifty lines; he looks at them, says nothing, and replaces them with one.",
+        "headings": [
+          "Already built with Ponytail",
+          "Numbers",
+          "Before / after",
+          "The review, rebuilt",
+          "The audit, rebuilt",
+          "New in 5.3: the band",
+          "How it works",
+          "The prompt"
+        ],
+        "commands": [],
+        "keywords": [
+          "ai",
+          "agent",
+          "already built with ponytail",
+          "numbers",
+          "before / after",
+          "the review, rebuilt"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/DietrichGebert/ponytail/main/assets/v5/hero.jpg",
+        "thumbUrl": "https://raw.githubusercontent.com/DietrichGebert/ponytail/main/assets/v5/hero.jpg",
+        "alt": "Ponytail 5, rebuilt from the ground up: -53% code, -41% time, -26% cost, -45% tokens. And yet 98% of risky logic ships with a test, without Ponytail 68%.",
+        "sourceUrl": "https://raw.githubusercontent.com/DietrichGebert/ponytail/main/assets/v5/hero.jpg",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.8,
+        "method": "rules",
+        "reasons": [
+          "Matched ai",
+          "Matched agent"
+        ],
+        "signals": [
+          "ai",
+          "agent"
+        ]
+      },
+      "rank": {
+        "globalRank": 3,
+        "categoryRank": 3,
+        "score": 114
+      }
+    },
+    {
+      "id": "cloudflare-security-audit-skill",
+      "owner": "cloudflare",
+      "name": "security-audit-skill",
+      "url": "https://github.com/cloudflare/security-audit-skill",
+      "avatarUrl": "https://github.com/cloudflare.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 4,
+        "starsGained": 2979
+      },
+      "metadata": {
+        "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+        "language": "JavaScript",
+        "topics": [],
+        "stars": 39170,
+        "forks": 2440,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "JavaScript"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/cloudflare/security-audit-skill/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "security-audit",
+        "summary": "A coding-agent skill that turns your agent into a security auditor. It orchestrates isolated agents through reconnaissance, coverage-led hunting, candidate validation, structured output, independent record verification, and target-neutral reporting. This is the skill that seeded Cloudflare's vulnerability discovery harness, described in https://blog.cloudflare.com/build-your-own-vulnerability-harness. The harness grew into a multi-stage, fleet-wide system; this skill is the single-repo starting point it evolved from. The skill runs a structured audit in six phases:",
+        "headings": [
+          "security-audit",
+          "What it does",
+          "Files",
+          "Installation",
+          "Usage",
+          "Requirements",
+          "Design principles",
+          "Contact"
+        ],
+        "commands": [],
+        "keywords": [
+          "agent",
+          "security-audit",
+          "what it does",
+          "files",
+          "installation"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "repository_open_graph",
+        "url": "https://opengraph.githubassets.com/daily-tech-radar/cloudflare/security-audit-skill",
+        "thumbUrl": "https://opengraph.githubassets.com/daily-tech-radar/cloudflare/security-audit-skill",
+        "alt": "cloudflare/security-audit-skill",
+        "sourceUrl": "https://github.com/cloudflare/security-audit-skill",
+        "promptHash": "sha256:e140fa3767ba"
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.7,
+        "method": "rules",
+        "reasons": [
+          "Matched agent"
+        ],
+        "signals": [
+          "agent"
+        ]
+      },
+      "rank": {
+        "globalRank": 4,
+        "categoryRank": 4,
+        "score": 112
+      }
+    },
+    {
+      "id": "graphify-labs-graphify",
+      "owner": "Graphify-Labs",
+      "name": "graphify",
+      "url": "https://github.com/Graphify-Labs/graphify",
+      "avatarUrl": "https://github.com/Graphify-Labs.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 5,
+        "starsGained": 1407
+      },
+      "metadata": {
+        "description": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.",
+        "language": "Python",
+        "topics": [],
+        "stars": 132793,
+        "forks": 12712,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Python"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/Graphify-Labs/graphify/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "graphify",
+        "summary": "A Claude Code skill. Type /graphify in Claude Code - it reads your files, builds a knowledge graph, and gives you back structure you didn't know was there. Fully multimodal. Drop in code, PDFs, markdown, screenshots, diagrams, whiteboard photos, even images in other languages - graphify uses Claude vision to extract concepts and relationships from all of it and connects them into one graph. Andrej Karpathy keeps a /raw folder where he drops papers, tweets, screenshots, and notes. graphify is the answer to that problem - 71.5x fewer tokens per query vs reading the raw files, persistent across sessions, honest about what it found vs guessed.",
+        "headings": [
+          "graphify",
+          "Install",
+          "Usage",
+          "What you get",
+          "Worked examples",
+          "Tech stack"
+        ],
+        "commands": [
+          "pip install graphifyy && graphify install"
+        ],
+        "keywords": [
+          "ai",
+          "graphify",
+          "install",
+          "usage",
+          "what you get"
+        ],
+        "score": 95
+      },
+      "visual": {
+        "kind": "repository_open_graph",
+        "url": "https://opengraph.githubassets.com/daily-tech-radar/Graphify-Labs/graphify",
+        "thumbUrl": "https://opengraph.githubassets.com/daily-tech-radar/Graphify-Labs/graphify",
+        "alt": "Graphify-Labs/graphify",
+        "sourceUrl": "https://github.com/Graphify-Labs/graphify",
+        "promptHash": "sha256:fd3df4f92330"
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.7,
+        "method": "rules",
+        "reasons": [
+          "Matched ai"
+        ],
+        "signals": [
+          "ai"
+        ]
+      },
+      "rank": {
+        "globalRank": 5,
+        "categoryRank": 5,
+        "score": 110
+      }
+    },
+    {
+      "id": "supabase-supabase",
+      "owner": "supabase",
+      "name": "supabase",
+      "url": "https://github.com/supabase/supabase",
+      "avatarUrl": "https://github.com/supabase.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 6,
+        "starsGained": 683
+      },
+      "metadata": {
+        "description": "The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications.",
+        "language": "TypeScript",
+        "topics": [],
+        "stars": 113423,
+        "forks": 16993,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "TypeScript"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/supabase/supabase/master/README.md"
+      },
+      "readmeSignals": {
+        "title": "Supabase",
+        "summary": "x Hosted Postgres Database. https://supabase.com/docs/guides/database x Authentication and Authorization. https://supabase.com/docs/guides/auth x Auto-generated APIs. x REST. https://supabase.com/docs/guides/api x GraphQL. https://supabase.com/docs/guides/graphql x Realtime subscriptions. https://supabase.com/docs/guides/realtime x Functions. x Database Functions. https://supabase.com/docs/guides/database/functions x Edge Functions https://supabase.com/docs/guides/functions x File Storage. https://supabase.com/docs/guides/storage x AI + Vector/Embeddings Toolkit. https://supabase.com/docs/guides/ai x Dashboard",
+        "headings": [
+          "Supabase",
+          "Documentation",
+          "Community & Support",
+          "How it works",
+          "Badges",
+          "Translations"
+        ],
+        "commands": [],
+        "keywords": [
+          "ai",
+          "supabase",
+          "documentation",
+          "community & support",
+          "how it works"
+        ],
+        "score": 90
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/supabase/supabase/master/apps/www/public/images/github/supabase-dashboard.png",
+        "thumbUrl": "https://raw.githubusercontent.com/supabase/supabase/master/apps/www/public/images/github/supabase-dashboard.png",
+        "alt": "Supabase Dashboard",
+        "sourceUrl": "https://raw.githubusercontent.com/supabase/supabase/master/apps/www/public/images/github/supabase-dashboard.png",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.7,
+        "method": "rules",
+        "reasons": [
+          "Matched ai"
+        ],
+        "signals": [
+          "ai"
+        ]
+      },
+      "rank": {
+        "globalRank": 6,
+        "categoryRank": 6,
+        "score": 108
+      }
+    },
+    {
+      "id": "fastapi-fastapi",
+      "owner": "fastapi",
+      "name": "fastapi",
+      "url": "https://github.com/fastapi/fastapi",
+      "avatarUrl": "https://github.com/fastapi.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 7,
+        "starsGained": 96
+      },
+      "metadata": {
+        "description": "FastAPI framework, high performance, easy to learn, fast to code, ready for production",
+        "language": "Python",
+        "topics": [],
+        "stars": 103643,
+        "forks": 10084,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Python"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/fastapi/fastapi/master/README.md"
+      },
+      "readmeSignals": {
+        "title": null,
+        "summary": "FastAPI framework, high performance, easy to learn, fast to code, ready for production Documentation: https://fastapi.tiangolo.com Source Code: https://github.com/fastapi/fastapi FastAPI is a modern, fast high-performance, web framework for building APIs with Python based on standard Python type hints. Fast: Very high performance, on par with NodeJS and Go thanks to Starlette and Pydantic. performance. Fast to code: Increase the speed to develop features by about 200% to 300%. Fewer bugs: Reduce about 40% of human developer induced errors. Intuitive: Great editor support. Completion everywhere. Less time debugging. Easy: Designed to be easy to use and learn. Less time reading docs. Short: Mi",
+        "headings": [
+          "Sponsors",
+          "Keystone Sponsor",
+          "Gold Sponsors",
+          "Silver Sponsors",
+          "Opinions",
+          "FastAPI mini documentary",
+          "**Typer**, the FastAPI of CLIs",
+          "Requirements"
+        ],
+        "commands": [],
+        "keywords": [
+          "api",
+          "sponsors",
+          "keystone sponsor",
+          "gold sponsors",
+          "silver sponsors"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://fastapi.tiangolo.com/img/index/index-01-swagger-ui-simple.png",
+        "thumbUrl": "https://fastapi.tiangolo.com/img/index/index-01-swagger-ui-simple.png",
+        "alt": "Swagger UI",
+        "sourceUrl": "https://fastapi.tiangolo.com/img/index/index-01-swagger-ui-simple.png",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "backend",
+        "secondaryCategoryIds": [],
+        "confidence": 0.7,
+        "method": "rules",
+        "reasons": [
+          "Matched api"
+        ],
+        "signals": [
+          "api"
+        ]
+      },
+      "rank": {
+        "globalRank": 7,
+        "categoryRank": 7,
+        "score": 95.6
+      }
+    },
+    {
+      "id": "luongnv89-claude-howto",
+      "owner": "luongnv89",
+      "name": "claude-howto",
+      "url": "https://github.com/luongnv89/claude-howto",
+      "avatarUrl": "https://github.com/luongnv89.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 8,
+        "starsGained": 370
+      },
+      "metadata": {
+        "description": "A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value.",
+        "language": "Python",
+        "topics": [],
+        "stars": 43021,
+        "forks": 5377,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Python"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/luongnv89/claude-howto/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "Master Claude Code in a Weekend",
+        "summary": "🌐 Language / Ngôn ngữ / 语言 / Мова: README.md | vi/README.md | zh/README.md | uk/README.md | ja/README.md Go from typing claude to orchestrating agents, hooks, skills, and MCP servers — with visual tutorials, copy-paste templates, and a guided learning path. get-started-in-15-minutes | not-sure-where-to-start | CATALOG.md the-problem how-claude-how-to-fixes-this how-it-works not-sure-where-to-start get-started-in-15-minutes what-can-you-build-with-this faq contributing license You installed Claude Code. You ran a few prompts. Now what? The official docs describe features — but don't show you how to combine them. You know slash commands exist, but not how to chain them with hooks, memory, and",
+        "headings": [
+          "Master Claude Code in a Weekend",
+          "Table of Contents",
+          "The Problem",
+          "How Claude How To Fixes This",
+          "What you get:",
+          "How It Works",
+          "1. Find your level",
+          "2. Follow the guided path"
+        ],
+        "commands": [
+          "npm install -g @anthropic-ai/claude-code",
+          "pip install -r scripts/requirements-dev.txt"
+        ],
+        "keywords": [
+          "agent",
+          "master claude code in a weekend",
+          "table of contents",
+          "the problem",
+          "how claude how to fixes this"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "repository_open_graph",
+        "url": "https://opengraph.githubassets.com/daily-tech-radar/luongnv89/claude-howto",
+        "thumbUrl": "https://opengraph.githubassets.com/daily-tech-radar/luongnv89/claude-howto",
+        "alt": "luongnv89/claude-howto",
+        "sourceUrl": "https://github.com/luongnv89/claude-howto",
+        "promptHash": "sha256:d6d871dec074"
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.7,
+        "method": "rules",
+        "reasons": [
+          "Matched agent"
+        ],
+        "signals": [
+          "agent"
+        ]
+      },
+      "rank": {
+        "globalRank": 8,
+        "categoryRank": 8,
+        "score": 104
+      }
+    },
+    {
+      "id": "meloong-git-pcl",
+      "owner": "Meloong-Git",
+      "name": "PCL",
+      "url": "https://github.com/Meloong-Git/PCL",
+      "avatarUrl": "https://github.com/Meloong-Git.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 9,
+        "starsGained": 115
+      },
+      "metadata": {
+        "description": "Minecraft 启动器 Plain Craft Launcher（PCL）。",
+        "language": "Visual Basic .NET",
+        "topics": [],
+        "stars": 8653,
+        "forks": 1197,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Visual Basic .NET"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/Meloong-Git/PCL/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "Plain Craft Launcher",
+        "summary": "包含 PCL 的大部分源代码，包括 UI 库、动画模块、下载模块、Minecraft 启动模块等！ 代码并不是实时更新的，它会在每次 PCL 发布更新时同步一次。 非常感谢社区的大力支持！ 相关资源 https://meloong.com/pcl：下载可免费使用的正式版 PCL！ https://github.com/Meloong-Git/PCL/discussions/2：来参加投票吧，开发者会优先处理票数较高的项目！ https://github.com/LTCatt/PCL2Help：PCL 内置帮助文档的存储库",
+        "headings": [
+          "Plain Craft Launcher",
+          "相关资源"
+        ],
+        "commands": [],
+        "keywords": [
+          "ai",
+          "plain craft launcher",
+          "相关资源"
+        ],
+        "score": 70
+      },
+      "visual": {
+        "kind": "repository_open_graph",
+        "url": "https://opengraph.githubassets.com/daily-tech-radar/Meloong-Git/PCL",
+        "thumbUrl": "https://opengraph.githubassets.com/daily-tech-radar/Meloong-Git/PCL",
+        "alt": "Meloong-Git/PCL",
+        "sourceUrl": "https://github.com/Meloong-Git/PCL",
+        "promptHash": "sha256:722de17c3615"
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.7,
+        "method": "rules",
+        "reasons": [
+          "Matched ai"
+        ],
+        "signals": [
+          "ai"
+        ]
+      },
+      "rank": {
+        "globalRank": 9,
+        "categoryRank": 9,
+        "score": 93.5
+      }
+    }
+  ],
+  "views": [
+    {
+      "id": "ai",
+      "type": "category",
+      "label": "AI",
+      "categoryId": "ai",
+      "repoIds": [
+        "dietrichgebert-ponytail",
+        "cloudflare-security-audit-skill",
+        "graphify-labs-graphify",
+        "supabase-supabase",
+        "luongnv89-claude-howto",
+        "meloong-git-pcl"
+      ],
+      "sort": "score"
+    },
+    {
+      "id": "backend",
+      "type": "category",
+      "label": "后端",
+      "categoryId": "backend",
+      "repoIds": [
+        "fastapi-fastapi"
+      ],
+      "sort": "score"
+    },
+    {
+      "id": "unclassified",
+      "type": "review",
+      "label": "Needs Review",
+      "categoryId": "unclassified",
+      "repoIds": [
+        "php-php-src",
+        "anthropics-knowledge-work-plugins"
+      ],
+      "sort": "score"
+    }
+  ],
+  "health": {
+    "status": "ok",
+    "candidateCount": 9,
+    "enrichedRepoCount": 9,
+    "unclassifiedRepoCount": 2,
+    "warnings": [
+      "3 repos used README images, 0 used Agnes images, 6 fell back to repository Open Graph covers"
+    ]
+  }
+}
