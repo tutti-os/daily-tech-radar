@@ -1,9 +1,9 @@
 {
   "schemaVersion": "trendreader.daily.v1",
-  "packageId": "github-daily-All-2026-10-23",
+  "packageId": "github-daily-All-2026-10-24",
   "locale": "en-US",
-  "generatedAt": "2026-10-23T20:25:07.599Z",
-  "expiresAt": "2026-10-24T20:25:07.599Z",
+  "generatedAt": "2026-10-24T20:22:17.805Z",
+  "expiresAt": "2026-10-25T20:22:17.805Z",
   "sourceWindow": {
     "since": "daily",
     "language": "All",
@@ -14,12 +14,12 @@
       "id": "github_trending_html",
       "role": "candidate",
       "status": "ok",
-      "itemCount": 8
+      "itemCount": 10
     }
   ],
   "taxonomy": {
-    "version": "2026-10-23",
-    "generatedAt": "2026-10-23T20:25:07.599Z",
+    "version": "2026-10-24",
+    "generatedAt": "2026-10-24T20:22:17.805Z",
     "categories": [
       {
         "id": "ai",
@@ -69,14 +69,14 @@
       "source": {
         "primary": "github_trending_html",
         "sourceRank": 1,
-        "starsGained": 2706
+        "starsGained": 2271
       },
       "metadata": {
         "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
         "language": "JavaScript",
         "topics": [],
-        "stars": 41826,
-        "forks": 2616,
+        "stars": 44127,
+        "forks": 2748,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -140,160 +140,6 @@
       }
     },
     {
-      "id": "php-php-src",
-      "owner": "php",
-      "name": "php-src",
-      "url": "https://github.com/php/php-src",
-      "avatarUrl": "https://github.com/php.png",
-      "homepageUrl": null,
-      "source": {
-        "primary": "github_trending_html",
-        "sourceRank": 2,
-        "starsGained": 722
-      },
-      "metadata": {
-        "description": "The PHP Interpreter",
-        "language": "C",
-        "topics": [],
-        "stars": 41530,
-        "forks": 8353,
-        "license": null,
-        "defaultBranch": null,
-        "pushedAt": null,
-        "topLanguages": [
-          "C"
-        ]
-      },
-      "readmeRef": {
-        "status": "available",
-        "path": "README.md",
-        "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/php/php-src/master/README.md"
-      },
-      "readmeSignals": {
-        "title": "The PHP Interpreter",
-        "summary": "PHP is a popular general-purpose scripting language that is especially suited to web development. Fast, flexible and pragmatic, PHP powers everything from your blog to the most popular websites in the world. PHP is distributed under the LICENSE SPDX-License-Identifier: BSD-3-Clause. The PHP manual is available at https://www.php.net/docs. Prebuilt packages and binaries can be used to get up and running fast with PHP. For Windows, the PHP binaries can be obtained from https://windows.php.net. After extracting the archive the .exe files are ready to use. For other systems, see the https://www.php.net/install.",
-        "headings": [
-          "The PHP Interpreter",
-          "Documentation",
-          "Installation",
-          "Prebuilt packages and binaries",
-          "Building PHP source code",
-          "For development",
-          "For production",
-          "Testing PHP source code"
-        ],
-        "commands": [],
-        "keywords": [
-          "the php interpreter",
-          "documentation",
-          "installation",
-          "prebuilt packages and binaries"
-        ],
-        "score": 100
-      },
-      "visual": {
-        "kind": "repository_open_graph",
-        "url": "https://opengraph.githubassets.com/daily-tech-radar/php/php-src",
-        "thumbUrl": "https://opengraph.githubassets.com/daily-tech-radar/php/php-src",
-        "alt": "php/php-src",
-        "sourceUrl": "https://github.com/php/php-src",
-        "promptHash": "sha256:1e2dc9030634"
-      },
-      "classification": {
-        "primaryCategoryId": "unclassified",
-        "secondaryCategoryIds": [],
-        "confidence": 0.4,
-        "method": "rules",
-        "reasons": [
-          "No taxonomy rule matched with enough confidence"
-        ],
-        "signals": []
-      },
-      "rank": {
-        "globalRank": 2,
-        "categoryRank": 2,
-        "score": 116
-      }
-    },
-    {
-      "id": "anthropics-knowledge-work-plugins",
-      "owner": "anthropics",
-      "name": "knowledge-work-plugins",
-      "url": "https://github.com/anthropics/knowledge-work-plugins",
-      "avatarUrl": "https://github.com/anthropics.png",
-      "homepageUrl": null,
-      "source": {
-        "primary": "github_trending_html",
-        "sourceRank": 3,
-        "starsGained": 643
-      },
-      "metadata": {
-        "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
-        "language": "Python",
-        "topics": [],
-        "stars": 32133,
-        "forks": 3566,
-        "license": null,
-        "defaultBranch": null,
-        "pushedAt": null,
-        "topLanguages": [
-          "Python"
-        ]
-      },
-      "readmeRef": {
-        "status": "available",
-        "path": "README.md",
-        "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/README.md"
-      },
-      "readmeSignals": {
-        "title": "Knowledge Work Plugins",
-        "summary": "Plugins that turn Claude into a specialist for your role, team, and company. Built for https://claude.com/product/cowork, also compatible with https://claude.com/product/claude-code. Cowork lets you set the goal and Claude delivers finished, professional work. Plugins let you go further: tell Claude how you like work done, which tools and data to pull from, how to handle critical workflows, and what slash commands to expose — so your team gets better and more consistent outcomes. Each plugin bundles the skills, connectors, slash commands, and sub-agents for a specific job function. Out of the box, they give Claude a strong starting point for helping anyone in that role. The real power comes ",
-        "headings": [
-          "Knowledge Work Plugins",
-          "Why Plugins",
-          "Plugin Marketplace",
-          "Getting Started",
-          "Cowork",
-          "Claude Code",
-          "Add the marketplace first",
-          "Then install a specific plugin"
-        ],
-        "commands": [],
-        "keywords": [
-          "knowledge work plugins",
-          "why plugins",
-          "plugin marketplace",
-          "getting started"
-        ],
-        "score": 100
-      },
-      "visual": {
-        "kind": "repository_open_graph",
-        "url": "https://opengraph.githubassets.com/daily-tech-radar/anthropics/knowledge-work-plugins",
-        "thumbUrl": "https://opengraph.githubassets.com/daily-tech-radar/anthropics/knowledge-work-plugins",
-        "alt": "anthropics/knowledge-work-plugins",
-        "sourceUrl": "https://github.com/anthropics/knowledge-work-plugins",
-        "promptHash": "sha256:36c6e3559edc"
-      },
-      "classification": {
-        "primaryCategoryId": "unclassified",
-        "secondaryCategoryIds": [],
-        "confidence": 0.4,
-        "method": "rules",
-        "reasons": [
-          "No taxonomy rule matched with enough confidence"
-        ],
-        "signals": []
-      },
-      "rank": {
-        "globalRank": 3,
-        "categoryRank": 3,
-        "score": 114
-      }
-    },
-    {
       "id": "nvidia-openshell",
       "owner": "NVIDIA",
       "name": "OpenShell",
@@ -302,15 +148,15 @@
       "homepageUrl": null,
       "source": {
         "primary": "github_trending_html",
-        "sourceRank": 4,
-        "starsGained": 1240
+        "sourceRank": 2,
+        "starsGained": 893
       },
       "metadata": {
         "description": "OpenShell is the safe, private runtime for autonomous AI agents.",
         "language": "Rust",
         "topics": [],
-        "stars": 18669,
-        "forks": 1875,
+        "stars": 19383,
+        "forks": 1926,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -373,83 +219,256 @@
         ]
       },
       "rank": {
-        "globalRank": 4,
-        "categoryRank": 4,
-        "score": 112
+        "globalRank": 2,
+        "categoryRank": 2,
+        "score": 116
       }
     },
     {
-      "id": "renhuai123-ziwei-doushu",
-      "owner": "Renhuai123",
-      "name": "ziwei-doushu",
-      "url": "https://github.com/Renhuai123/ziwei-doushu",
-      "avatarUrl": "https://github.com/Renhuai123.png",
+      "id": "aws-agent-toolkit-for-aws",
+      "owner": "aws",
+      "name": "agent-toolkit-for-aws",
+      "url": "https://github.com/aws/agent-toolkit-for-aws",
+      "avatarUrl": "https://github.com/aws.png",
       "homepageUrl": null,
       "source": {
         "primary": "github_trending_html",
-        "sourceRank": 5,
-        "starsGained": 547
+        "sourceRank": 3,
+        "starsGained": 11
       },
       "metadata": {
-        "description": "紫微斗数开源排盘引擎 — 基于倪海厦《天纪》体系，含完整排盘算法、四化系统、格局知识库、古籍原文数据",
-        "language": "TypeScript",
+        "description": "Official, AWS-supported MCP servers, skills, and plugins to help AI agents build on AWS",
+        "language": "Python",
         "topics": [],
-        "stars": 6816,
-        "forks": 1403,
+        "stars": 3082,
+        "forks": 395,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
         "topLanguages": [
-          "TypeScript"
+          "Python"
         ]
       },
       "readmeRef": {
         "status": "available",
         "path": "README.md",
         "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/Renhuai123/ziwei-doushu/main/README.md"
+        "rawUrl": "https://raw.githubusercontent.com/aws/agent-toolkit-for-aws/main/README.md"
       },
       "readmeSignals": {
-        "title": "紫微斗数 · 开源排盘引擎",
-        "summary": "基于 倪海厦《天纪》 教学体系的紫微斗数排盘系统，包含完整排盘算法、四化系统、格局知识库、古籍原文数据，以及一套完整开源的紫微斗数解读数据：v4.0 解读数据集——67.5 万张命盘 × 13 维 = 877 万段解读，正文约 204 亿字，解压后 56.6 GB（2026-10-15 发布）。 v3.0 每张盘解读字数按 2,160 张盘抽样估算，其余数字为全量统计；两版每张盘都是 13 维。 在线体验：https://metisziwei.com/?from=gh-readme，排盘、AI 解读、命盘历史全部开放。 注：关于六亲判断 紫微斗数在六亲（父母、兄弟、子女等）判断上存在一定局限。倪师在《天纪》中指出：“斗数批六亲本来就比较差一点。”（https://www.bilibili.com/video/BV1KJsLekEfA?p=3&t=1527）在传统术数中，铁板神数在核对六亲方面有其独特优势（https://www.bilibili.com/video/BV1KJsLekEfA?p=3&t=195）；倪师仍以紫微斗数为核心，是因为它能结合地理、环境与人事进行综合判断，形成“上知天文、下知地理、中知人事”的完整体系（https://www.bilibili.com/video/BV1KJsLekEfA?p=3&t=1543）。因此，与六亲相关的分析仅供参考；https://metisziwei.com/?from=gh-readme 上父母、兄弟、子女三个维度也附有同样的说明。",
+        "title": "Agent Toolkit for AWS",
+        "summary": "Help AI coding agents build, deploy, and manage applications on AWS. The Agent Toolkit for AWS gives AI coding agents the tools, knowledge, and guardrails they need to work with AWS services. It works with the coding agents developers already use — including Claude Code, Codex, Cursor, Devin, Kiro, and fx. Use the Agent Toolkit directly from your terminal with the AWS CLI: See the https://docs.aws.amazon.com/agent-toolkit/latest/userguide/aws-cli.html for setup, configuration, and usage instructions. The plugins are available on the official Anthropic marketplace claude-plugins-official which is added to your Claude Code installation by default. Use the following commands to install supporte",
         "headings": [
-          "紫微斗数 · 开源排盘引擎",
-          "目录",
-          "一、本轮更新（2026-10-15）",
-          "上一轮更新（2026-09-21）",
-          "二·新、13 维解读数据集 v4.0（2026-10-15）",
-          "规格",
-          "下载与解压",
-          "一次下全部：gh release download v4.0-13d --repo Renhuai123/ziwei-doushu -p \"ziwei-interp-v4-all.tar\""
+          "Agent Toolkit for AWS",
+          "Quick start",
+          "AWS CLI",
+          "Claude Code",
+          "Or from Claude's official marketplace:",
+          "Setup:",
+          "Codex",
+          "Cursor"
         ],
-        "commands": [
-          "npm install\n\n# 配置环境变量（只看排盘可以跳过；AI 配置仅在你自己实现了 /api/* 接口时才用得上）"
-        ],
+        "commands": [],
         "keywords": [
-          "紫微斗数 · 开源排盘引擎",
-          "目录",
-          "一、本轮更新（2026-10-15）",
-          "上一轮更新（2026-09-21）"
+          "ai",
+          "agent",
+          "mcp",
+          "agent toolkit for aws",
+          "quick start",
+          "aws cli",
+          "claude code"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "repository_open_graph",
+        "url": "https://opengraph.githubassets.com/daily-tech-radar/aws/agent-toolkit-for-aws",
+        "thumbUrl": "https://opengraph.githubassets.com/daily-tech-radar/aws/agent-toolkit-for-aws",
+        "alt": "aws/agent-toolkit-for-aws",
+        "sourceUrl": "https://github.com/aws/agent-toolkit-for-aws",
+        "promptHash": "sha256:c366176a3f8a"
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.9,
+        "method": "rules",
+        "reasons": [
+          "Matched ai",
+          "Matched agent",
+          "Matched mcp"
+        ],
+        "signals": [
+          "ai",
+          "agent",
+          "mcp"
+        ]
+      },
+      "rank": {
+        "globalRank": 3,
+        "categoryRank": 3,
+        "score": 95.1
+      }
+    },
+    {
+      "id": "nutlope-hallmark",
+      "owner": "Nutlope",
+      "name": "hallmark",
+      "url": "https://github.com/Nutlope/hallmark",
+      "avatarUrl": "https://github.com/Nutlope.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 4,
+        "starsGained": 570
+      },
+      "metadata": {
+        "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
+        "language": "CSS",
+        "topics": [],
+        "stars": 31976,
+        "forks": 1642,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "CSS"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/Nutlope/hallmark/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "Hallmark",
+        "summary": "A design skill for Claude Code, Codex, Cursor and OpenCode that refuses to look AI-generated. Hallmark holds a hard floor and then gets out of the way. It deals three themes from a catalog of forty-eight materials, builds the page around what the visitor came to do, and lints the result in a real browser against the tells that read as machine-made: the eyebrow above every heading, tracked-capital labels, one coloured word in a headline, a page of empty frames or nothing but photographs, a hero that misses its screen, an email sign-up at the end of every page, a form that says thanks without sending anything. A fresh-context reviewer gets the last word.",
+        "headings": [
+          "Hallmark",
+          "New in v2",
+          "Themes",
+          "Custom",
+          "How a build runs",
+          "Redesign",
+          "Install",
+          "Licence"
+        ],
+        "commands": [],
+        "keywords": [
+          "ai",
+          "llm",
+          "hallmark",
+          "new in v2",
+          "themes",
+          "custom"
         ],
         "score": 100
       },
       "visual": {
         "kind": "readme_image",
-        "url": "https://raw.githubusercontent.com/Renhuai123/ziwei-doushu/main/docs/update-20261015.png",
-        "thumbUrl": "https://raw.githubusercontent.com/Renhuai123/ziwei-doushu/main/docs/update-20261015.png",
-        "alt": "本轮更新总览",
-        "sourceUrl": "https://raw.githubusercontent.com/Renhuai123/ziwei-doushu/main/docs/update-20261015.png",
+        "url": "https://raw.githubusercontent.com/Nutlope/hallmark/main/site/OG-hallmark.png",
+        "thumbUrl": "https://raw.githubusercontent.com/Nutlope/hallmark/main/site/OG-hallmark.png",
+        "alt": "Hallmark, the design skill that ends AI slop",
+        "sourceUrl": "https://raw.githubusercontent.com/Nutlope/hallmark/main/site/OG-hallmark.png",
         "promptHash": null
       },
       "classification": {
-        "primaryCategoryId": "unclassified",
+        "primaryCategoryId": "ai",
         "secondaryCategoryIds": [],
-        "confidence": 0.4,
+        "confidence": 0.8,
         "method": "rules",
         "reasons": [
-          "No taxonomy rule matched with enough confidence"
+          "Matched ai",
+          "Matched llm"
         ],
-        "signals": []
+        "signals": [
+          "ai",
+          "llm"
+        ]
+      },
+      "rank": {
+        "globalRank": 4,
+        "categoryRank": 4,
+        "score": 112
+      }
+    },
+    {
+      "id": "luongnv89-claude-howto",
+      "owner": "luongnv89",
+      "name": "claude-howto",
+      "url": "https://github.com/luongnv89/claude-howto",
+      "avatarUrl": "https://github.com/luongnv89.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 5,
+        "starsGained": 442
+      },
+      "metadata": {
+        "description": "A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value.",
+        "language": "Python",
+        "topics": [],
+        "stars": 44429,
+        "forks": 5486,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Python"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/luongnv89/claude-howto/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "Master Claude Code in a Weekend",
+        "summary": "🌐 Language / Ngôn ngữ / 语言 / Мова: README.md | vi/README.md | zh/README.md | uk/README.md | ja/README.md Go from typing claude to orchestrating agents, hooks, skills, and MCP servers — with visual tutorials, copy-paste templates, and a guided learning path. get-started-in-15-minutes | not-sure-where-to-start | CATALOG.md the-problem how-claude-how-to-fixes-this how-it-works not-sure-where-to-start get-started-in-15-minutes what-can-you-build-with-this faq contributing license You installed Claude Code. You ran a few prompts. Now what? The official docs describe features — but don't show you how to combine them. You know slash commands exist, but not how to chain them with hooks, memory, and",
+        "headings": [
+          "Master Claude Code in a Weekend",
+          "Table of Contents",
+          "The Problem",
+          "How Claude How To Fixes This",
+          "What you get:",
+          "How It Works",
+          "1. Find your level",
+          "2. Follow the guided path"
+        ],
+        "commands": [
+          "npm install -g @anthropic-ai/claude-code",
+          "pip install -r scripts/requirements-dev.txt"
+        ],
+        "keywords": [
+          "agent",
+          "master claude code in a weekend",
+          "table of contents",
+          "the problem",
+          "how claude how to fixes this"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "repository_open_graph",
+        "url": "https://opengraph.githubassets.com/daily-tech-radar/luongnv89/claude-howto",
+        "thumbUrl": "https://opengraph.githubassets.com/daily-tech-radar/luongnv89/claude-howto",
+        "alt": "luongnv89/claude-howto",
+        "sourceUrl": "https://github.com/luongnv89/claude-howto",
+        "promptHash": "sha256:d6d871dec074"
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.7,
+        "method": "rules",
+        "reasons": [
+          "Matched agent"
+        ],
+        "signals": [
+          "agent"
+        ]
       },
       "rank": {
         "globalRank": 5,
@@ -458,75 +477,78 @@
       }
     },
     {
-      "id": "snailsploit-claude-red",
-      "owner": "SnailSploit",
-      "name": "Claude-Red",
-      "url": "https://github.com/SnailSploit/Claude-Red",
-      "avatarUrl": "https://github.com/SnailSploit.png",
+      "id": "pbakaus-impeccable",
+      "owner": "pbakaus",
+      "name": "impeccable",
+      "url": "https://github.com/pbakaus/impeccable",
+      "avatarUrl": "https://github.com/pbakaus.png",
       "homepageUrl": null,
       "source": {
         "primary": "github_trending_html",
         "sourceRank": 6,
-        "starsGained": 209
+        "starsGained": 733
       },
       "metadata": {
-        "description": "claude-red is a curated library of offensive security skills designed for the Claude skills system. Each skill is a structured SKILL.md file that primes Claude with expert-level methodology for a specific attack surface — from SQLi to shellcode, EDR evasion to exploit development.",
-        "language": "Python",
+        "description": "The design language that makes your AI harness better at design.",
+        "language": "Rust",
         "topics": [],
-        "stars": 8336,
-        "forks": 1089,
+        "stars": 86256,
+        "forks": 5150,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
         "topLanguages": [
-          "Python"
+          "Rust"
         ]
       },
       "readmeRef": {
         "status": "available",
         "path": "README.md",
         "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/SnailSploit/Claude-Red/main/README.md"
+        "rawUrl": "https://raw.githubusercontent.com/pbakaus/impeccable/main/README.md"
       },
       "readmeSignals": {
-        "title": "claude-red",
-        "summary": "Offensive security skills for Claude — drop-in SKILL.md files that turn Claude into a context-aware red team operator. overview &bull; quickstart &bull; categories &bull; skill-index &bull; roadmap &bull; contributing claude-red is a curated library of offensive security skills for the https://docs.claude.com. Each skill is a structured SKILL.md file that primes Claude with expert-level methodology for a specific attack surface — from SQL injection to shellcode, EDR evasion to ADCS abuse. Drop a skill into your Claude environment and it behaves like a domain specialist: it knows the techniques, the tooling, the edge cases, and the escalation paths. Skills load on demand based on conversation",
+        "title": "Impeccable",
+        "summary": "Design guidance for AI coding agents. 1 skill, 24 commands, live browser iteration, and 62 deterministic detector rules for AI-generated frontend design. Quick start: From your project root, run npx impeccable install, then run /impeccable init inside your AI coding tool. Full docs: https://impeccable.style. Anthropic's https://github.com/anthropics/skills/tree/main/skills/frontend-design was the first widely-used design skill for Claude. Impeccable started from there. Every model trained on the same SaaS templates. Skip the guidance and you get the same handful of tells on every project: Inter for everything, purple-to-blue gradients, cards nested in cards, gray text on colored backgrounds,",
         "headings": [
-          "claude-red",
-          "Overview",
-          "Quickstart",
-          "Claude Skills System (Recommended)",
-          "Claude Code",
-          "Claude.ai (Manual)",
-          "Install Script",
-          "Categories"
+          "Impeccable",
+          "Why Impeccable?",
+          "What's Included",
+          "The Skill: impeccable",
+          "24 Commands",
+          "Anti-Patterns",
+          "See It In Action",
+          "Installation"
         ],
         "commands": [],
         "keywords": [
-          "claude-red",
-          "overview",
-          "quickstart",
-          "claude skills system (recommended)"
+          "ai",
+          "impeccable",
+          "why impeccable?",
+          "what's included",
+          "the skill: impeccable"
         ],
         "score": 100
       },
       "visual": {
         "kind": "repository_open_graph",
-        "url": "https://opengraph.githubassets.com/daily-tech-radar/SnailSploit/Claude-Red",
-        "thumbUrl": "https://opengraph.githubassets.com/daily-tech-radar/SnailSploit/Claude-Red",
-        "alt": "SnailSploit/Claude-Red",
-        "sourceUrl": "https://github.com/SnailSploit/Claude-Red",
-        "promptHash": "sha256:69c602ae16d7"
+        "url": "https://opengraph.githubassets.com/daily-tech-radar/pbakaus/impeccable",
+        "thumbUrl": "https://opengraph.githubassets.com/daily-tech-radar/pbakaus/impeccable",
+        "alt": "pbakaus/impeccable",
+        "sourceUrl": "https://github.com/pbakaus/impeccable",
+        "promptHash": "sha256:bb6d458862d3"
       },
       "classification": {
-        "primaryCategoryId": "unclassified",
+        "primaryCategoryId": "ai",
         "secondaryCategoryIds": [],
-        "confidence": 0.4,
+        "confidence": 0.7,
         "method": "rules",
         "reasons": [
-          "No taxonomy rule matched with enough confidence"
+          "Matched ai"
         ],
-        "signals": []
+        "signals": [
+          "ai"
+        ]
       },
       "rank": {
         "globalRank": 6,
@@ -535,71 +557,62 @@
       }
     },
     {
-      "id": "openbmb-voxcpm",
-      "owner": "OpenBMB",
-      "name": "VoxCPM",
-      "url": "https://github.com/OpenBMB/VoxCPM",
-      "avatarUrl": "https://github.com/OpenBMB.png",
+      "id": "pollen-robotics-microduck",
+      "owner": "pollen-robotics",
+      "name": "microduck",
+      "url": "https://github.com/pollen-robotics/microduck",
+      "avatarUrl": "https://github.com/pollen-robotics.png",
       "homepageUrl": null,
       "source": {
         "primary": "github_trending_html",
         "sourceRank": 7,
-        "starsGained": 144
+        "starsGained": 381
       },
       "metadata": {
-        "description": "VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True-to-Life Cloning",
-        "language": "Python",
+        "description": "A Tiny biped duck robot 🦆",
+        "language": "Rust",
         "topics": [],
-        "stars": 40184,
-        "forks": 4567,
+        "stars": 10879,
+        "forks": 1398,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
         "topLanguages": [
-          "Python"
+          "Rust"
         ]
       },
       "readmeRef": {
         "status": "available",
         "path": "README.md",
         "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/OpenBMB/VoxCPM/main/README.md"
+        "rawUrl": "https://raw.githubusercontent.com/pollen-robotics/microduck/main/README.md"
       },
       "readmeSignals": {
-        "title": "Voice design (no reference audio needed)",
-        "summary": "VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True-to-Life Cloning 👋 Join our community for discussion and support! Feishu &nbsp;|&nbsp; Discord &nbsp;|&nbsp; 📚 MiniCPM Wiki VoxCPM is a tokenizer-free Text-to-Speech system that directly generates continuous speech representations via an end-to-end diffusion autoregressive architecture, bypassing discrete tokenization to achieve highly natural and expressive synthesis. VoxCPM2 is the latest major release — a 2B parameter model trained on over 2 million hours of multilingual speech data, now supporting 30 languages, Voice Design, Controllable Voice Cloning, and 48kHz studio-quality audio output. B",
+        "title": null,
+        "summary": "A tiny biped robot that moves using reinforcement learning policies. Get yours here · Cheat sheet · Training the policies · How it works · Contributing This repo is the duck's brain. About 25 cm and 800 g of robot, run by a handful of daemons on a Rockchip RK3566: a 50 Hz control loop driving fifteen servos from neural policies, the radios and the camera, and the update machinery that gets new software onto a robot without bricking it. Everything you need to run a Microduck is here. If you want one, https://pollen-robotics.com/microduck. The policies it runs are trained next door, in https://github.com/pollen-robotics/microduckrl — MuJoCo and PPO, the sim2real recipe, and the export to ONNX ",
         "headings": [
-          "✨ Highlights",
-          "News",
-          "Contents",
-          "🚀 Quick Start",
-          "Installation",
-          "Python API",
-          "CLI Usage",
-          "Voice design (no reference audio needed)"
+          "It does things",
+          "Where to find things",
+          "You have a duck",
+          "You are building on it",
+          "Under the hood",
+          "A note on ducks"
         ],
-        "commands": [
-          "pip install voxcpm",
-          "pip install modelscope",
-          "pip install \"voxcpm[timestamps]\"",
-          "pip install nano-vllm-voxcpm",
-          "pip install vllm==0.19.0 --torch-backend=auto",
-          "pip install -e ."
-        ],
+        "commands": [],
         "keywords": [
-          "✨ highlights",
-          "news",
-          "contents",
-          "🚀 quick start"
+          "it does things",
+          "where to find things",
+          "you have a duck",
+          "you are building on it"
         ],
-        "score": 100
+        "score": 90
       },
       "visual": {
         "kind": "readme_image",
-        "url": "https://raw.githubusercontent.com/OpenBMB/VoxCPM/main/assets/voxcpm2_model.png",
-        "thumbUrl": "https://raw.githubusercontent.com/OpenBMB/VoxCPM/main/assets/voxcpm2_model.png",
-        "alt": "VoxCPM2 Model Architecture",
-        "sourceUrl": "https://raw.githubusercontent.com/OpenBMB/VoxCPM/main/assets/voxcpm2_model.png",
+        "url": "https://github.com/user-attachments/assets/c2f7c245-8217-46a1-8d1e-e0ba967cd969",
+        "thumbUrl": "https://github.com/user-attachments/assets/c2f7c245-8217-46a1-8d1e-e0ba967cd969",
+        "alt": "microduck",
+        "sourceUrl": "https://github.com/user-attachments/assets/c2f7c245-8217-46a1-8d1e-e0ba967cd969",
         "promptHash": null
       },
       "classification": {
@@ -615,69 +628,158 @@
       "rank": {
         "globalRank": 7,
         "categoryRank": 7,
-        "score": 100.4
+        "score": 106
       }
     },
     {
-      "id": "nodejs-node",
-      "owner": "nodejs",
-      "name": "node",
-      "url": "https://github.com/nodejs/node",
-      "avatarUrl": "https://github.com/nodejs.png",
+      "id": "google-gemini-gemini-cli",
+      "owner": "google-gemini",
+      "name": "gemini-cli",
+      "url": "https://github.com/google-gemini/gemini-cli",
+      "avatarUrl": "https://github.com/google-gemini.png",
       "homepageUrl": null,
       "source": {
         "primary": "github_trending_html",
         "sourceRank": 8,
-        "starsGained": 93
+        "starsGained": 38
       },
       "metadata": {
-        "description": "Node.js JavaScript runtime ✨🐢🚀✨",
-        "language": "JavaScript",
+        "description": "An open-source AI agent that brings the power of Gemini directly into your terminal.",
+        "language": "TypeScript",
         "topics": [],
-        "stars": 122783,
-        "forks": 39884,
+        "stars": 107927,
+        "forks": 14803,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
         "topLanguages": [
-          "JavaScript"
+          "TypeScript"
         ]
       },
       "readmeRef": {
         "status": "available",
         "path": "README.md",
         "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/nodejs/node/main/README.md"
+        "rawUrl": "https://raw.githubusercontent.com/google-gemini/gemini-cli/main/README.md"
       },
       "readmeSignals": {
-        "title": "Node.js",
-        "summary": "Node.js is an open-source, cross-platform JavaScript runtime environment. For information on using Node.js, see the Node.js website. The Node.js project uses an ./GOVERNANCE.md. The OpenJS Foundation provides support for the project. support release-types download current-and-lts-releases nightly-releases api-documentation verifying-binaries building-nodejs security contributing-to-nodejs current-project-team-members tsc-technical-steering-committee collaborators triagers release-keys license Looking for help? Check out the .github/SUPPORT.md. Alpha: Under active development where semver-major changes are allowed. Each October, a new release line for example, Node.js 27 branches off main and",
+        "title": "Gemini CLI",
+        "summary": "Gemini CLI is an open-source AI agent that brings the power of Gemini directly into your terminal. It provides lightweight access to Gemini, giving you the most direct path from your prompt to our model. Learn all about Gemini CLI in our https://geminicli.com/docs/. See https://www.geminicli.com/docs/get-started/installation for recommended system specifications and a detailed installation guide. Install globally with Homebrew macOS/Linux Install with Anaconda for restricted environments See https://www.geminicli.com/docs/changelogs for more details. New preview releases will be published each week at UTC 23:59 on Tuesdays. These releases will not have been fully vetted and may contain regre",
         "headings": [
-          "Node.js",
-          "Table of contents",
-          "Support",
-          "Release types",
-          "Download",
-          "Verifying binaries",
-          "Building Node.js",
-          "Security"
+          "Gemini CLI",
+          "📦 Installation",
+          "Quick Install",
+          "Using npx (no installation required)",
+          "Create and activate a new environment",
+          "Install Gemini CLI globally via npm (inside the environment)",
+          "Release Channels",
+          "Preview"
         ],
-        "commands": [],
+        "commands": [
+          "npm install -g @google/gemini-cli",
+          "npm install -g @google/gemini-cli",
+          "npm install -g @google/gemini-cli@preview",
+          "npm install -g @google/gemini-cli@latest",
+          "npm install -g @google/gemini-cli@nightly"
+        ],
         "keywords": [
-          "node.js",
-          "table of contents",
-          "support",
-          "release types"
+          "ai",
+          "agent",
+          "gemini cli",
+          "📦 installation",
+          "quick install",
+          "using npx (no installation required)"
         ],
         "score": 100
       },
       "visual": {
         "kind": "repository_open_graph",
-        "url": "https://opengraph.githubassets.com/daily-tech-radar/nodejs/node",
-        "thumbUrl": "https://opengraph.githubassets.com/daily-tech-radar/nodejs/node",
-        "alt": "nodejs/node",
-        "sourceUrl": "https://github.com/nodejs/node",
-        "promptHash": "sha256:52b7d21bf01f"
+        "url": "https://opengraph.githubassets.com/daily-tech-radar/google-gemini/gemini-cli",
+        "thumbUrl": "https://opengraph.githubassets.com/daily-tech-radar/google-gemini/gemini-cli",
+        "alt": "google-gemini/gemini-cli",
+        "sourceUrl": "https://github.com/google-gemini/gemini-cli",
+        "promptHash": "sha256:f02fe80a78fa"
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.8,
+        "method": "rules",
+        "reasons": [
+          "Matched ai",
+          "Matched agent"
+        ],
+        "signals": [
+          "ai",
+          "agent"
+        ]
+      },
+      "rank": {
+        "globalRank": 8,
+        "categoryRank": 8,
+        "score": 87.8
+      }
+    },
+    {
+      "id": "jbiaojerry-ebook-treasure-chest",
+      "owner": "jbiaojerry",
+      "name": "ebook-treasure-chest",
+      "url": "https://github.com/jbiaojerry/ebook-treasure-chest",
+      "avatarUrl": "https://github.com/jbiaojerry.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 9,
+        "starsGained": 220
+      },
+      "metadata": {
+        "description": "欢迎来到电子书下载宝库，一个汇聚了各类电子书下载链接的地方。无论你是喜欢阅读经典文学、经管励志、终身学习、职场创业、技术手册还是其他类型的书籍，这里都能满足你的需求。 该库涵盖了帆书app(原樊登读书)、微信读书、京东读书、喜马拉雅等读书app的大部分电子书。",
+        "language": "Python",
+        "topics": [],
+        "stars": 22530,
+        "forks": 3184,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Python"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/jbiaojerry/ebook-treasure-chest/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "电子书下载宝库",
+        "summary": "🌐 https://jbiaojerry.github.io/ebook-treasure-chest/ - 体验强大的实时搜索功能和多关键字搜索，快速找到你想要的电子书！ 欢迎来到电子书下载宝库，一个汇聚了各类电子书下载链接的地方。无论你是喜欢阅读经典文学、经管励志、终身学习、职场创业、技术手册还是其他类型的书籍，这里都能满足你的需求。 该库涵盖了帆书app原樊登读书、微信读书、京东读书、喜马拉雅等读书app的大部分电子书。 我们从各个电子书网站上精心收集了各种电子书下载链接，并根据常用的标签对它们进行了简单分类。每本书都包括了三种常见格式文件：epub、mobi 和 azw3，以满足不同阅读设备和喜好的需求。 访问 https://jbiaojerry.github.io/ebook-treasure-chest/，体验强大的实时快速搜索和多关键词搜索功能： 🔎 实时搜索：输入书名、作者或分类关键词，即时显示匹配结果 💡 多关键词搜索：支持同时搜索多个关键词（用空格分隔） 💡 搜索技巧 在线搜索：访问 GitHub Pages 页面，使用实时搜索功能（推荐） Ctrl+F：在 GitHub 页面使用浏览器搜索功能 热门分类：文学、历史、科普、管理、社会、推理等 按需查找：职场、创业、技术、投资、心理学等专业领域",
+        "headings": [
+          "电子书下载宝库",
+          "简介",
+          "🔍 如何使用",
+          "🌐 实时快速搜索（推荐）",
+          "💡 搜索技巧",
+          "☕ 请我们喝咖啡",
+          "📚 索引目录",
+          "🔥 热门分类"
+        ],
+        "commands": [],
+        "keywords": [
+          "电子书下载宝库",
+          "简介",
+          "🔍 如何使用",
+          "🌐 实时快速搜索（推荐）"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/jbiaojerry/ebook-treasure-chest/main/.github/search-demo.gif%3Fv=2",
+        "thumbUrl": "https://raw.githubusercontent.com/jbiaojerry/ebook-treasure-chest/main/.github/search-demo.gif%3Fv=2",
+        "alt": "搜索功能演示",
+        "sourceUrl": "https://raw.githubusercontent.com/jbiaojerry/ebook-treasure-chest/main/.github/search-demo.gif%3Fv=2",
+        "promptHash": null
       },
       "classification": {
         "primaryCategoryId": "unclassified",
@@ -690,9 +792,92 @@
         "signals": []
       },
       "rank": {
-        "globalRank": 8,
-        "categoryRank": 8,
-        "score": 93.3
+        "globalRank": 9,
+        "categoryRank": 9,
+        "score": 102
+      }
+    },
+    {
+      "id": "makecindy-cindy",
+      "owner": "makecindy",
+      "name": "cindy",
+      "url": "https://github.com/makecindy/cindy",
+      "avatarUrl": "https://github.com/makecindy.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 10,
+        "starsGained": 471
+      },
+      "metadata": {
+        "description": "Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。",
+        "language": "TypeScript",
+        "topics": [],
+        "stars": 4007,
+        "forks": 577,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "TypeScript"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/makecindy/cindy/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "Mainland China Cindy account",
+        "summary": "Cindy is an open-source AI agent that works out of the box. She brings multiple harnesses, models and tools into one agent that finishes real work in your projects and apps. Ready from day one, yours to shape over time. Cindy runs locally on your own machine, using your real files and logged-in apps. The first supported harnesses are Claude Code and Codex — more are being added, and a native harness is in the works. Models and harnesses mix freely and can switch mid-task while your workspace, memory, skills and tools stay continuous; one task can even be planned, executed in parallel, and reviewed by agents on different harness × model combos. She can drive your browser, computer and phone, ",
+        "headings": [
+          "Yours to shape",
+          "What's in this repo",
+          "Prerequisites",
+          "Getting started",
+          "Development entry points",
+          "Mainland China Cindy account",
+          "Global Cindy account",
+          "Architecture"
+        ],
+        "commands": [],
+        "keywords": [
+          "ai",
+          "agent",
+          "yours to shape",
+          "what's in this repo",
+          "prerequisites",
+          "getting started"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/makecindy/cindy/main/.github/assets/hero-en.webp",
+        "thumbUrl": "https://raw.githubusercontent.com/makecindy/cindy/main/.github/assets/hero-en.webp",
+        "alt": "CINDY — Consider it done. The open-source AI agent that works out of the box, doing real work on your own computer.",
+        "sourceUrl": "https://raw.githubusercontent.com/makecindy/cindy/main/.github/assets/hero-en.webp",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.8,
+        "method": "rules",
+        "reasons": [
+          "Matched ai",
+          "Matched agent"
+        ],
+        "signals": [
+          "ai",
+          "agent"
+        ]
+      },
+      "rank": {
+        "globalRank": 10,
+        "categoryRank": 10,
+        "score": 100
       }
     }
   ],
@@ -704,7 +889,13 @@
       "categoryId": "ai",
       "repoIds": [
         "cloudflare-security-audit-skill",
-        "nvidia-openshell"
+        "nvidia-openshell",
+        "nutlope-hallmark",
+        "luongnv89-claude-howto",
+        "pbakaus-impeccable",
+        "makecindy-cindy",
+        "aws-agent-toolkit-for-aws",
+        "google-gemini-gemini-cli"
       ],
       "sort": "score"
     },
@@ -714,23 +905,19 @@
       "label": "Needs Review",
       "categoryId": "unclassified",
       "repoIds": [
-        "php-php-src",
-        "anthropics-knowledge-work-plugins",
-        "renhuai123-ziwei-doushu",
-        "snailsploit-claude-red",
-        "openbmb-voxcpm",
-        "nodejs-node"
+        "pollen-robotics-microduck",
+        "jbiaojerry-ebook-treasure-chest"
       ],
       "sort": "score"
     }
   ],
   "health": {
     "status": "ok",
-    "candidateCount": 8,
-    "enrichedRepoCount": 8,
-    "unclassifiedRepoCount": 6,
+    "candidateCount": 10,
+    "enrichedRepoCount": 10,
+    "unclassifiedRepoCount": 2,
     "warnings": [
-      "2 repos used README images, 0 used Agnes images, 6 fell back to repository Open Graph covers"
+      "4 repos used README images, 0 used Agnes images, 6 fell back to repository Open Graph covers"
     ]
   }
 }
