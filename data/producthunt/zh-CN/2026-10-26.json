@@ -1,0 +1,1305 @@
+{
+  "schemaVersion": "daily-tech-radar.v1",
+  "source": "producthunt",
+  "locale": "zh-CN",
+  "date": "2026-10-26",
+  "sourceTimezone": "Asia/Shanghai",
+  "generatedAt": "2026-10-26T20:25:49.510Z",
+  "items": [
+    {
+      "rank": 1,
+      "id": "1278009",
+      "name": "Strawberry 1.0",
+      "tagline": "AI Browser that saves your team >100h/week",
+      "description": "Strawberry is an AI browser that can do hours of work in minutes. Strawberry's agents, which we call \"Companions\", can research hundreds of leads in parallel, transcribe your meetings, automate follow-ups, and handle all the repetitive admin your team keeps procrastinating. Create or hire a pre-made companion, teach it your preferences and share it with your whole team. Hundreds of teams, including Lovable, Tandem Health and ElevenLabs, already use Strawberry.",
+      "keywords": [
+        "AI",
+        "Browser",
+        "that",
+        "saves"
+      ],
+      "metrics": {
+        "votes": 254,
+        "comments": 60
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/VLEJBVBONXC6FH?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/strawberry?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/c35c35a2-a69b-4705-ae4e-3611f14b13ff.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/c35c35a2-a69b-4705-ae4e-3611f14b13ff.png?auto=format",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/231213b0-bf17-454a-9377-89bb7c954260.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/c7efe950-35fe-4b5a-a1e4-6ed9600fc192.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/4fb8e612-f95b-4281-88d0-95358367d2d8.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/e1f90ff4-5f38-4776-af59-3f317bb1e743.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/fd5faaa7-4000-4a54-9034-86983beaeda3.jpeg?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "strawberry-1-0",
+        "featuredAt": "2026-10-26T07:01:00Z",
+        "createdAt": "2026-10-26T07:01:00Z"
+      }
+    },
+    {
+      "rank": 2,
+      "id": "1282225",
+      "name": "SurgePix",
+      "tagline": "AI visuals. Edit every layer. Agent-callable. ",
+      "description": "Most AI image tools stop at one-shot generation. SurgePix keeps going: edit any layer, swap text, repaint a region, and stay on-brand with your brand kit. Or skip the UI — open-source agent skills let Claude Code & Cursor generate and edit visuals for you.",
+      "keywords": [
+        "AI",
+        "visuals.",
+        "Edit",
+        "every"
+      ],
+      "metrics": {
+        "votes": 210,
+        "comments": 59
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/CS2V53OCZ2KXEH?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/surgepix?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/63c38e20-1271-4f3b-8ed2-1b7b30fed1c1.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/63c38e20-1271-4f3b-8ed2-1b7b30fed1c1.png?auto=format",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/5fd31ade-324f-4fa3-a076-afdcc6189743.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/e2fa9ceb-a051-4db3-9a2b-5d342a20edf7.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/7c68f59e-afbc-4492-bb9f-b9a583d5ee45.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/9917e2b5-44b3-405f-a62a-8456c23b9215.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/f14ba731-fdee-4966-8b1d-bbc4c2b8fe6f.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/2939b143-cc52-4e12-9cad-f835a4174ebb.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/24cb16a1-5e3e-43c4-b5e1-91c136ff4182.jpeg?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "surgepix",
+        "featuredAt": "2026-10-26T07:01:00Z",
+        "createdAt": "2026-10-26T07:01:00Z"
+      }
+    },
+    {
+      "rank": 3,
+      "id": "1285416",
+      "name": "MiniMax M3.1 Flash",
+      "tagline": "MiniMax’s Flash model, 3x faster and 70% cheaper for agents",
+      "description": "MiniMax M3.1 Flash is MiniMax’s new Flash model for agentic tasks, coding, computer use and cybersecurity. MiniMax says it is about 3x faster online and 70% cheaper for agentic tasks than its predecessor, with output at 200+ tokens per second. Pricing is $0.15 input and $0.60 output per 1M tokens. It’s on the MiniMax API, M Plan and MiniMax Code, and weights are promised later.",
+      "keywords": [
+        "MiniMax’s",
+        "Flash",
+        "model,",
+        "3x"
+      ],
+      "metrics": {
+        "votes": 162,
+        "comments": 3
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/YRN2XABOMOIRQO?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/minimax-4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/d9847daf-0cdc-4552-a2c7-b7dca2ebf1f5.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/d9847daf-0cdc-4552-a2c7-b7dca2ebf1f5.png?auto=format",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/c7765f20-2373-4e12-804e-041481d57675.webp?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/4c9e4ba6-6ab2-4822-8ef7-ceac292c35bf.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/a8561c0f-0623-4a69-b7cb-7484baa5f0d4.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/26a79604-fbe3-498e-9a31-7ed71a94e156.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/2a900fac-7a68-4058-82aa-8f3d68372097.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/26bd9562-1fd2-43cd-87aa-b37532e5aa9d.webp?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "minimax-m3-1-flash",
+        "featuredAt": "2026-10-26T07:01:00Z",
+        "createdAt": "2026-10-26T07:01:00Z"
+      }
+    },
+    {
+      "rank": 4,
+      "id": "1273287",
+      "name": "N8N Chat UI",
+      "tagline": "Beautiful, no-code, on-brand AI chat widgets for n8n",
+      "description": "N8N Chat UI is a no-code builder for branded AI chat widgets, built for n8n users, agencies, SaaS teams, and businesses. Design a mobile-friendly chat experience with live preview, then connect it to any n8n workflow and embed it anywhere. Unlike default n8n chat, it adds deep customization, streaming, voice and file uploads, flexible layouts, and a JavaScript API for advanced integrations.",
+      "keywords": [
+        "Beautiful,",
+        "no-code,",
+        "on-brand",
+        "AI"
+      ],
+      "metrics": {
+        "votes": 149,
+        "comments": 74
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/EMEWBY4KEFUXFH?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/n8n-chat-ui-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/c59eca39-ac3f-4ae1-af4b-c628da9ffdd2.x-icon?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/c59eca39-ac3f-4ae1-af4b-c628da9ffdd2.x-icon?auto=format",
+        "media": [
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/64201c63-3a36-43a4-8dca-5ce5773717c8.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/0a438722-f5ed-4478-a60a-1eb9cc8c3dcb.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/ebb0f5a3-c232-4b6a-b524-3e2ebff6bc3f.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/e3876de0-85ef-4307-8be3-a7692f637749.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/0fdc210a-4e30-4c4b-92d5-926820a71cd5.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/16e36879-c18d-45ba-af70-82718c23b77d.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/6f9108e9-5a14-4b4f-9ebe-1f9e45e63542.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/feae21fd-aada-4b32-ab87-689d7fdfbe67.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/701990bf-5a98-4ec5-b77c-b32a6a80cb65.png?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "n8n-chat-ui-3",
+        "featuredAt": "2026-10-26T07:01:00Z",
+        "createdAt": "2026-10-26T07:01:00Z"
+      }
+    },
+    {
+      "rank": 5,
+      "id": "1291654",
+      "name": "2G",
+      "tagline": "Sampler to create early 2000 Neural Synthesis",
+      "description": "2G is a sampler that looks and sounds like an early-2000s handheld devices. We imagined what Neural Synthesis would have been like back then. Describe a sound and 2G makes it. Then edit it and play it from your computer keyboard, or load your own audio instead. 2G is free for Windows and macOS, as a plugin or a standalone app, and starts you with 20 credits for generating sounds. Studio ($10/month, 7-day trial) gives you 200 credits a month.",
+      "keywords": [
+        "Sampler",
+        "to",
+        "create",
+        "early"
+      ],
+      "metrics": {
+        "votes": 129,
+        "comments": 7
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/RHMGUFOK7JLHXZ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/2g?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/437ed3f0-8a19-4783-8e2b-ddeb1d85f456.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/437ed3f0-8a19-4783-8e2b-ddeb1d85f456.png?auto=format",
+        "media": [
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/2488bdba-22cc-47a9-9b07-49f05a5d62dd.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/2fb3aad4-4114-42fa-9f3a-b2b6c0efe432.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/d7f4aa5a-cc66-40fe-8100-08a99da87254.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/c2592991-50ce-46ea-aec8-f159c44a7bcb.webp?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "2g",
+        "featuredAt": "2026-10-26T07:01:00Z",
+        "createdAt": "2026-10-26T07:01:00Z"
+      }
+    },
+    {
+      "rank": 6,
+      "id": "1288735",
+      "name": "PDF Accessibility Checker by WebYes",
+      "tagline": "Find PDF accessibility issues for free, with fix guidance",
+      "description": "Find issues that can make your PDFs difficult for people with disabilities to read or use, including missing image descriptions and problems with headings. See affected content highlighted on the page, review issues by severity, and get instructions on how to fix them. The checker also flags what needs human review. Upload PDFs up to 50 MB or paste a public link. Completely free, with no sign-up, no email required, and no files stored. Checks against WCAG 2.1 AA and PDF/UA.",
+      "keywords": [
+        "Find",
+        "PDF",
+        "accessibility",
+        "issues"
+      ],
+      "metrics": {
+        "votes": 113,
+        "comments": 17
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/RRKSSHY7IXRK4N?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/pdf-accessibility-checker?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/a78d698f-ea31-4fdb-8563-048849f96b81.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/a78d698f-ea31-4fdb-8563-048849f96b81.png?auto=format",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/f5a9178f-9c1c-4db8-9416-0868e629e092.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/5f030b83-8fd5-44a7-8822-7fbd16559317.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/76667829-0344-461d-b1ad-29d1064f38b3.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/0f7256a6-fc2e-45bc-869b-f760a2e47376.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/6a9fb7a5-cb7c-47a4-997f-11f04b4863d1.jpeg?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "pdf-accessibility-checker-by-webyes",
+        "featuredAt": "2026-10-26T07:01:00Z",
+        "createdAt": "2026-10-26T07:01:00Z"
+      }
+    },
+    {
+      "rank": 7,
+      "id": "1285083",
+      "name": "CloudKnife",
+      "tagline": "Cut your cloud bill, not your performance",
+      "description": "Cloud cost tools tell you what to cut, then leave the work to you. CloudKnife handles it from A to Z. AI agents learn what every Azure resource is, how it’s really used and what it’s allowed to become. A deterministic core checks every recommendation against hard rules, so your SAP VM only gets SAP-certified options. You approve, CloudKnife executes. Your cloud stays lean and your team gets its time back for innovation.",
+      "keywords": [
+        "Cut",
+        "your",
+        "cloud",
+        "bill,"
+      ],
+      "metrics": {
+        "votes": 106,
+        "comments": 17
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/CEFQU25AT777XQ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/cloudknife?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/0ce213ff-df8a-4801-ac74-84556e663fdb.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/0ce213ff-df8a-4801-ac74-84556e663fdb.png?auto=format",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/b67dd6c6-0634-4533-8e5f-4d923e11a884.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/210236bd-c590-44eb-aabc-d94628911472.gif?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/4272a0da-dae5-4ec4-83e5-d6082e9be51f.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/dd8e25b2-df31-4932-a6ef-c4fb3daaed3d.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/2b7ee43f-5c5d-4077-9524-c97366bc709d.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/2668987d-48de-47e0-b627-ec8cd1a3b64a.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/d53550d3-461c-4478-98dc-160f4998d27d.png?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "cloudknife",
+        "featuredAt": "2026-10-26T07:01:00Z",
+        "createdAt": "2026-10-26T07:01:00Z"
+      }
+    },
+    {
+      "rank": 8,
+      "id": "1292664",
+      "name": "WhoIsCooking",
+      "tagline": "See which AI agent is heating your Mac and cool it down.",
+      "description": "A Mac app that shows chip temperature and which AI agent (Claude Code, Codex, Cursor) is heating your Apple Silicon Mac. One click moves busy work to the efficiency cores, so everything keeps running, cooler. $5 one time.",
+      "keywords": [
+        "See",
+        "which",
+        "AI",
+        "agent"
+      ],
+      "metrics": {
+        "votes": 102,
+        "comments": 4
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/6NKDSDYTNP22PA?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/whoiscooking?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/571cca35-8db2-4467-a076-1b1b0d3c98e2.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/571cca35-8db2-4467-a076-1b1b0d3c98e2.png?auto=format",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/de597106-63be-437e-ad19-496efa9b3cc5.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/9726ebd9-b7ac-4f76-9050-1a3377ac3181.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/93d1a3cf-637d-4735-b312-d6ce96194cd9.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/72a2010c-e10f-4a46-a316-02937d38673d.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/8364cd77-9669-4f0c-ac67-3654fa577e9f.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/c10a740d-b86a-4aa5-a409-27c4cd2dc094.jpeg?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "whoiscooking",
+        "featuredAt": "2026-10-26T07:01:00Z",
+        "createdAt": "2026-10-26T07:01:00Z"
+      }
+    },
+    {
+      "rank": 9,
+      "id": "1291790",
+      "name": "Kiwi",
+      "tagline": "A proactive AI assistant that texts you before you ask",
+      "description": "Kiwi is your proactive assistant. It keeps track of what's coming up, your trips, plans, bills and the people in them, and texts you at the right moment. When something needs doing, it does it on any app or website when you say yes. Your Saturday is free: want a plan with the kids? Your flight is delayed: want a car for when you land? Your parcel needs a signature while you're at work: move it to Saturday? It all happens in iMessage or WhatsApp. Free during the pilot.",
+      "keywords": [
+        "A",
+        "proactive",
+        "AI",
+        "assistant"
+      ],
+      "metrics": {
+        "votes": 99,
+        "comments": 14
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/OUMTTWMMRX6ZMC?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/kiwi-7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/29510d41-700e-429e-bfdf-3d6161dce7c0.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/29510d41-700e-429e-bfdf-3d6161dce7c0.png?auto=format",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/0a484c68-1dfa-4513-97ec-d0b2c58be6b6.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/a6d22233-7d06-4898-9ce3-572d710ad54a.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/a5537466-7044-40da-8cf8-84a015247532.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/71a71f16-2a4a-48ee-9d61-d0315aba36be.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/d452307e-f3f9-4d56-a0ae-ab1e4d9d5c6f.jpeg?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "kiwi-a8f6558b-2889-41dd-b68d-dd02b67b42a9",
+        "featuredAt": "2026-10-26T07:01:00Z",
+        "createdAt": "2026-10-26T07:01:00Z"
+      }
+    },
+    {
+      "rank": 10,
+      "id": "1275386",
+      "name": "Flipcorder",
+      "tagline": "A 1991 camcorder for your iPhone, one tape a day",
+      "description": "Currently #3 in Top Paid Photo & Video on the US App Store 🎉 Flipcorder turns your iPhone into a 1991 camcorder. We have lost touch crafting perfect videos for social media, and Flipcorder encourages you to take shorter \"flips\" of 20 seconds each throughout your day to enjoy as a home video at the end of the day. No editing, just shoot and enjoy in VHS or DV style. Made for iPhone Duo, works on any iPhone. $4.99 once. No ads, no subscription, no watermark, no account.",
+      "keywords": [
+        "A",
+        "1991",
+        "camcorder",
+        "for"
+      ],
+      "metrics": {
+        "votes": 98,
+        "comments": 26
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/5D3YQB6LWNMKJJ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/flipcorder?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/84df58ef-162f-4367-b73e-3677c6fd8597.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/84df58ef-162f-4367-b73e-3677c6fd8597.png?auto=format",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/8bccb409-934f-4b6e-9c30-d4bace027128.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/79f4068b-41dc-4ca8-acbe-b820a18486b3.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/c360c273-5ba3-4b50-9a12-8329e4d13ca3.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/2b75fe27-387d-4714-9943-73a4b0e15963.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/448c231c-b2ee-41b5-85f1-791b84671974.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/2ad98186-a642-4d0a-bc5b-e4bf8023ab42.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/499f458d-fbd9-4a6f-bf3b-def1917ae77a.jpeg?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "flipcorder",
+        "featuredAt": "2026-10-26T07:01:00Z",
+        "createdAt": "2026-10-26T07:01:00Z"
+      }
+    },
+    {
+      "rank": 11,
+      "id": "1292572",
+      "name": "desigma",
+      "tagline": "Free Figma alternative made on Rust",
+      "description": "Free Figma alternative made on Rust. Contribute to deepfounder-ai/desigma development by creating an account on GitHub.",
+      "keywords": [
+        "Free",
+        "Figma",
+        "alternative",
+        "made"
+      ],
+      "metrics": {
+        "votes": 97,
+        "comments": 10
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/RTRI67SJCKTCAH?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/desigma?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/747e023e-ea9f-471b-8d9e-9f823cc60ea7.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/747e023e-ea9f-471b-8d9e-9f823cc60ea7.png?auto=format",
+        "media": [
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/36e2d0ca-efd9-4805-b4e1-3f2e1f2f0e01.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/eedfbe55-a0d3-4b16-85b7-557cbf47d6aa.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/6da95867-dc4d-49a1-81e9-88d7b549641d.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/0c36db1a-9787-4ae1-b059-67a9b7489625.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/e7475290-a93b-4b0d-ae04-8f6507aa9014.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/684d3f6b-296b-410b-af8f-ee051b9a6241.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/b02d1425-d2bb-4df6-a2ee-ae71bb519d36.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/b719dbb6-c917-4b73-ba5a-59e63b1cb875.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/82223f65-6082-44a2-bfa3-593b75096d6f.png?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "desigma",
+        "featuredAt": "2026-10-26T07:01:00Z",
+        "createdAt": "2026-10-26T07:01:00Z"
+      }
+    },
+    {
+      "rank": 12,
+      "id": "1292068",
+      "name": "tabsh",
+      "tagline": "Work with agents with an IDE in your browser tab",
+      "description": "Most ADEs bring the browser into the IDE. tabsh takes the opposite approach: bring coding sessions to your browser, where your work already happens. It's a small Rust daemon that puts all your sessions across projects on one Kanban board/list, with status updates via agent hooks. Use real terminals or chat panels with Claude Code, Codex, Cursor CLI, OpenCode, and more. Free, MIT-licensed, macOS/Linux.",
+      "keywords": [
+        "Work",
+        "with",
+        "agents",
+        "with"
+      ],
+      "metrics": {
+        "votes": 91,
+        "comments": 9
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/YBVO34MMRXMPK5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/tabsh?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/fa16aef9-995a-4ff3-9cac-6ac6ae21bab5.svg?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/fa16aef9-995a-4ff3-9cac-6ac6ae21bab5.svg?auto=format",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/a74d4cd0-3b70-4e7c-b2e4-d4570e068e7e.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/a96e8cff-452a-44c6-b55f-34c1ee5267ba.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/30d944db-1b60-4e26-9647-7b921fab63b0.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/48045ae4-cb08-4221-81ba-1235a304d7bd.png?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "tabsh",
+        "featuredAt": "2026-10-26T07:01:00Z",
+        "createdAt": "2026-10-26T07:01:00Z"
+      }
+    },
+    {
+      "rank": 13,
+      "id": "1292599",
+      "name": "ManyAgents",
+      "tagline": "Run a team of AI coding agents from one Mac window",
+      "description": "An orchestrator splits your work across Claude Code and Codex agents, each in its own git worktree. A reviewer checks the result, a built-in browser lets agents test their own work, and every question lands in one place. Uses the plans you already have. Free for 14 days.",
+      "keywords": [
+        "Run",
+        "a",
+        "team",
+        "of"
+      ],
+      "metrics": {
+        "votes": 90,
+        "comments": 13
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/SG6CLOEI2YFANH?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/manyagents?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/6cb241e1-edcc-4ea6-9660-745c99edebfe.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/6cb241e1-edcc-4ea6-9660-745c99edebfe.png?auto=format",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/03fe9da3-d804-4849-ac20-65b4cc574805.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/928e07b5-660c-4281-b5d0-59b0761301ad.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/b918d0ae-82d9-4dbb-8079-6f4376ab3193.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/c92c29f2-3de1-415d-b4a8-e39bfa6d113e.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/f00d2a09-23b2-4aa4-9cf1-73ecdda73f8a.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/6a2545fe-8ee3-4d76-a708-3bce5cc64b03.png?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "manyagents",
+        "featuredAt": "2026-10-26T07:01:00Z",
+        "createdAt": "2026-10-26T07:01:00Z"
+      }
+    },
+    {
+      "rank": 14,
+      "id": "1292433",
+      "name": "Mozy",
+      "tagline": "App Blocker for Android & iPhone",
+      "description": "An app blocker and step counter: walking earns screen-time minutes for the apps you pick, and those apps lock when the minutes run out.",
+      "keywords": [
+        "App",
+        "Blocker",
+        "for",
+        "Android"
+      ],
+      "metrics": {
+        "votes": 82,
+        "comments": 11
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/G67FUD2RY5IE72?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/mozy-walk-to-unlock-apps?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/8d1d6cfb-04aa-4e5d-abd2-1a495f471d21.webp?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/8d1d6cfb-04aa-4e5d-abd2-1a495f471d21.webp?auto=format",
+        "media": [
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/5bab31dd-5653-4280-8c72-e71994260966.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/57b34cfb-1797-4d2b-bc7d-6cc72d65c0ce.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/a4cd4c87-2178-45e7-8e56-e8b426ee5c3b.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/190d82fe-5b3e-4e30-a22f-07865513de4c.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/4e9e2a4d-b1a0-45ca-a9d4-bdeb9a6146a5.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/90d104f6-6307-4b69-807c-265536c2466d.png?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "mozy",
+        "featuredAt": "2026-10-26T07:01:00Z",
+        "createdAt": "2026-10-26T07:01:00Z"
+      }
+    },
+    {
+      "rank": 15,
+      "id": "1292641",
+      "name": "omerta",
+      "tagline": "Catch .env secrets leaking into git",
+      "description": "Catchenv secrets leaking into git: a pre-commit hook and CLI that fails when an API key or any value of your env files is staged, tracked or anywhere in the history. Your real values, not patterns.",
+      "keywords": [
+        "Catch",
+        ".env",
+        "secrets",
+        "leaking"
+      ],
+      "metrics": {
+        "votes": 82,
+        "comments": 6
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/YZPZ3SIPXR7Q5W?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/omerta?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/ff874912-3f36-4160-af91-1385120f0ce8.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/ff874912-3f36-4160-af91-1385120f0ce8.png?auto=format",
+        "media": [
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/55df71ae-94ac-4eff-8e6b-546a289f6758.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/b83c3c24-adda-4360-878d-a4a36cc50ea0.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/7e1d9adb-eeb1-4b00-b0b5-df5c4b82e0c2.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/f393b87b-dbf9-4ae3-9336-18e96a00bea1.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/c8e8c059-d731-48dc-adbd-29a35c493f2d.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/7300aae0-ea32-4b99-8567-762b1b7bdfb8.png?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "omerta",
+        "featuredAt": "2026-10-26T07:01:00Z",
+        "createdAt": "2026-10-26T07:01:00Z"
+      }
+    },
+    {
+      "rank": 16,
+      "id": "1292655",
+      "name": "VibeiDE",
+      "tagline": "Queue agent tasks in parallel and review each result",
+      "description": "Queue Codex and Claude Code tasks across your projects, run them in parallel and review every result. Built for developers and solo founders.",
+      "keywords": [
+        "Queue",
+        "agent",
+        "tasks",
+        "in"
+      ],
+      "metrics": {
+        "votes": 81,
+        "comments": 12
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/VOVJZS2TPHVIJN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/vibeide?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/9cdebe28-b464-4fcd-8477-93764f4819c5.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/9cdebe28-b464-4fcd-8477-93764f4819c5.png?auto=format",
+        "media": [
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/502bb069-acfe-42a9-a424-b4c014ae234a.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/b49b2a79-31fa-4e7a-9d23-fc868e0963ef.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/12d150a9-2e34-48b2-adaa-0949a08c77ac.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/35b2414d-8ccb-4a62-8bce-f274dcb510d0.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/f8b0c74b-0ed4-48f5-a61e-0f78573038bd.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/00e5eeaf-9a46-41a5-925e-9e8e9b4b22bb.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/1674fba1-3555-4998-af29-161f0d435d6a.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/254f5458-c297-4c37-a22b-6be99964d9d2.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/39502883-ab8b-465f-b32f-5c8b222dbac2.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/a9747926-0829-4ad2-9e68-0d1c3f3bc29c.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/4a7966b6-3865-4cf6-9326-ad5b2ab68d38.png?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "vibeide-2",
+        "featuredAt": "2026-10-26T07:01:00Z",
+        "createdAt": "2026-10-26T07:01:00Z"
+      }
+    },
+    {
+      "rank": 17,
+      "id": "1287693",
+      "name": "AI Bridge",
+      "tagline": "Every AI coding agent on your Mac, in its place",
+      "description": "AI Bridge runs Claude Code, Codex, Grok and OpenCode side by side on your Mac: each the real CLI in a real terminal, on your own subscription. Group your agents like a team, by department or by what each one owns. Open a Kubernetes cluster or talk to your database in plain words, right beside them. Prefer terminals? The Grid puts them all on one wall, with cluster and database chats where you need them. Open as many windows as you like, and put agents in Slack that reply when you approve.",
+      "keywords": [
+        "Every",
+        "AI",
+        "coding",
+        "agent"
+      ],
+      "metrics": {
+        "votes": 81,
+        "comments": 4
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/ZKSGYSJZDTQLGG?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/ai-bridge?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/966ab364-58f4-4d99-8754-436a286325d1.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/966ab364-58f4-4d99-8754-436a286325d1.png?auto=format",
+        "media": [
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/40ac7c8f-204a-462c-9159-99765da2ca52.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/2c9ec0cf-f578-42eb-8625-38e95309c3e3.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/a6320152-c1b0-4c08-a42b-3d61e15bd17d.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/86223c8f-204a-46ac-9d96-ee48dce97d6f.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/29c4abc5-e92a-486e-9d99-7a5d46e3162a.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/85a58632-85c2-4078-b240-9741d84d95ee.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/b33e7133-a6f8-40d1-9867-252fd7f5a2d5.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/a929297e-8434-42ec-b0f7-b3fdc6ec23c9.png?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "ai-bridge",
+        "featuredAt": "2026-10-26T07:01:00Z",
+        "createdAt": "2026-10-26T07:01:00Z"
+      }
+    },
+    {
+      "rank": 18,
+      "id": "1291345",
+      "name": "Loqui",
+      "tagline": "Turns your voice into ready-to-send text in any Mac app",
+      "description": "Loqui turns your voice into clean, ready-to-send text in any app on your Mac. Hold a shortcut, speak, and the text lands at your cursor in the tone you pick. It also transcribes meetings and writes the minutes. 90+ languages. Free plan, no card needed.",
+      "keywords": [
+        "Turns",
+        "your",
+        "voice",
+        "into"
+      ],
+      "metrics": {
+        "votes": 78,
+        "comments": 9
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/4F2XA7SPVJ2SNE?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/loqui-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/bda34716-978f-40c4-9c9c-279d3895e483.svg?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/bda34716-978f-40c4-9c9c-279d3895e483.svg?auto=format",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/5d97c2cb-f057-4aee-bb26-32a95b1bde1e.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/7afc0fcc-3c3d-445a-b0ac-4d840d331c6c.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/ae7a33bb-2853-4263-8c17-2c5d614fbe93.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/38d70beb-79e0-40ed-8979-653168f94a53.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/78b1f5ab-1e54-4724-a192-95ea16d7364b.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/9f7749d5-bf58-4501-a906-1e176d68bf96.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/b605de32-b601-4745-97e8-e40ca834f310.png?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "loqui-3",
+        "featuredAt": "2026-10-26T07:01:00Z",
+        "createdAt": "2026-10-26T07:01:00Z"
+      }
+    },
+    {
+      "rank": 19,
+      "id": "1284985",
+      "name": "Helio",
+      "tagline": "Know exactly what your rooftop solar made today",
+      "description": "Rooftop solar apps make you dig for the one number you want: units made today. Helio opens straight on it, read from your inverter's own energy counter via ShineMonitor / SmartClient. Also: live power, any past day as a 5-minute curve, 30-day, yearly and lifetime history, and savings in your own currency and tariff. Deploy your own copy to Vercel in 5 minutes. Free, MIT licensed, no database, no tracking. Your login never reaches the browser.",
+      "keywords": [
+        "Know",
+        "exactly",
+        "what",
+        "your"
+      ],
+      "metrics": {
+        "votes": 76,
+        "comments": 5
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/S22MORCIUJNDUQ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/helio-7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/973091d4-6764-46ed-8da4-feb783d0b73e.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/973091d4-6764-46ed-8da4-feb783d0b73e.png?auto=format",
+        "media": [
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/0a3fd31e-5f25-4443-b70e-d9efac58f072.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/fb14f3d1-d500-4fba-8888-f0926c730c0b.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/f5b97517-8db2-47f4-87f7-c20aefdbd554.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/7f16a345-b2e3-4018-8643-93072c67611e.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/f2d10312-6461-4987-8521-fa6eb49ee01e.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/fe1942ed-2210-4e04-8c66-3f63ce28e41e.png?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "helio-8",
+        "featuredAt": "2026-10-26T07:01:00Z",
+        "createdAt": "2026-10-26T07:01:00Z"
+      }
+    },
+    {
+      "rank": 20,
+      "id": "1292685",
+      "name": "AVP",
+      "tagline": "Open source alternative to Git for AI coding agents",
+      "description": "Worktrees isolate your agents. AVP integrates them: every change proven on the exact head of main before it lands.",
+      "keywords": [
+        "Open",
+        "source",
+        "alternative",
+        "to"
+      ],
+      "metrics": {
+        "votes": 75,
+        "comments": 2
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/BEY3K553HTXHKU?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/avp?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/93ff98a9-d514-4eca-9ec9-d25e9efc4457.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/93ff98a9-d514-4eca-9ec9-d25e9efc4457.png?auto=format",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/6660795a-eff7-4b7e-8125-ef2d99f2127d.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/662e049e-bf46-4433-99df-a333e45ccaf8.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/9a9122ed-ea51-4c76-b937-b60e7ecf2621.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/0aad0b01-1ed7-4317-a369-4686951c899a.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/a3b8ae54-fc16-4af7-a26d-8217dcf0b5a7.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/218ca2d1-1c63-4358-bb86-4b91282fab8b.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/ff260c9a-84c1-41bb-9061-2e620558e715.png?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "avp",
+        "featuredAt": "2026-10-26T07:01:00Z",
+        "createdAt": "2026-10-26T07:01:00Z"
+      }
+    }
+  ]
+}
