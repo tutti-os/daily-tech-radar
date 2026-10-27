@@ -1,0 +1,919 @@
+{
+  "schemaVersion": "trendreader.daily.v1",
+  "packageId": "github-daily-All-2026-10-27",
+  "locale": "en-US",
+  "generatedAt": "2026-10-27T20:19:45.185Z",
+  "expiresAt": "2026-10-28T20:19:45.185Z",
+  "sourceWindow": {
+    "since": "daily",
+    "language": "All",
+    "spokenLanguageCode": null
+  },
+  "sources": [
+    {
+      "id": "github_trending_html",
+      "role": "candidate",
+      "status": "ok",
+      "itemCount": 10
+    }
+  ],
+  "taxonomy": {
+    "version": "2026-10-27",
+    "generatedAt": "2026-10-27T20:19:45.185Z",
+    "categories": [
+      {
+        "id": "ai",
+        "label": "AI",
+        "labelEn": "AI",
+        "icon": "bot",
+        "order": 20
+      },
+      {
+        "id": "tools",
+        "label": "工具",
+        "labelEn": "Tools",
+        "icon": "wrench",
+        "order": 100
+      },
+      {
+        "id": "frontend",
+        "label": "前端",
+        "labelEn": "Frontend",
+        "icon": "layout",
+        "order": 140
+      },
+      {
+        "id": "backend",
+        "label": "后端",
+        "labelEn": "Backend",
+        "icon": "server",
+        "order": 110
+      },
+      {
+        "id": "unclassified",
+        "label": "Needs Review",
+        "labelEn": "Needs Review",
+        "icon": "circle-help",
+        "order": 999
+      }
+    ]
+  },
+  "repos": [
+    {
+      "id": "nutlope-hallmark",
+      "owner": "Nutlope",
+      "name": "hallmark",
+      "url": "https://github.com/Nutlope/hallmark",
+      "avatarUrl": "https://github.com/Nutlope.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 1,
+        "starsGained": 2859
+      },
+      "metadata": {
+        "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
+        "language": "CSS",
+        "topics": [],
+        "stars": 38736,
+        "forks": 2016,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "CSS"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/Nutlope/hallmark/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "Hallmark",
+        "summary": "A design skill for Claude Code, Codex, Cursor and OpenCode that refuses to look AI-generated. Hallmark holds a hard floor and then gets out of the way. It deals three themes from a catalog of fifty materials, builds the page around what the visitor came to do, and lints the result in a real browser against the tells that read as machine-made: the eyebrow above every heading, tracked-capital labels, one coloured word in a headline, a page of empty frames or nothing but photographs, a hero that misses its screen, an email sign-up at the end of every page, a form that says thanks without sending anything. A fresh-context reviewer gets the last word.",
+        "headings": [
+          "Hallmark",
+          "New in v2",
+          "Themes",
+          "Custom",
+          "How a build runs",
+          "Redesign",
+          "Install",
+          "Licence"
+        ],
+        "commands": [],
+        "keywords": [
+          "ai",
+          "llm",
+          "hallmark",
+          "new in v2",
+          "themes",
+          "custom"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/Nutlope/hallmark/main/site/OG-hallmark.png",
+        "thumbUrl": "https://raw.githubusercontent.com/Nutlope/hallmark/main/site/OG-hallmark.png",
+        "alt": "Hallmark, the design skill that ends AI slop",
+        "sourceUrl": "https://raw.githubusercontent.com/Nutlope/hallmark/main/site/OG-hallmark.png",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.8,
+        "method": "rules",
+        "reasons": [
+          "Matched ai",
+          "Matched llm"
+        ],
+        "signals": [
+          "ai",
+          "llm"
+        ]
+      },
+      "rank": {
+        "globalRank": 1,
+        "categoryRank": 1,
+        "score": 118
+      }
+    },
+    {
+      "id": "nightly-labs-openbot",
+      "owner": "nightly-labs",
+      "name": "openbot",
+      "url": "https://github.com/nightly-labs/openbot",
+      "avatarUrl": "https://github.com/nightly-labs.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 2,
+        "starsGained": 794
+      },
+      "metadata": {
+        "description": "A local-first desktop workspace for persistent AI teammates. Run Codex, Claude, and Grok with dedicated workspaces, task queues, file sharing, browser control, and agent-to-agent collaboration.",
+        "language": "TypeScript",
+        "topics": [],
+        "stars": 2288,
+        "forks": 241,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "TypeScript"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/nightly-labs/openbot/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "OpenBot",
+        "summary": "OpenBot is a local-first desktop workspace for persistent AI teammates. It supports the local https://learn.chatgpt.com/docs/app-server and https://code.claude.com/docs/en/overview, plus https://docs.x.ai/build/overview, OpenCode, Gemini, https://cursor.com/cli, and https://cline.bot/cli through ACP. It gives every agent its own workspace and conversation, and provides local queues, file transfers, an embedded browser, and agent-to-agent messaging in one desktop app. Prompt-driven agent creation and editing on desktop and mobile, with editable instructions, avatar, and section review before saving. Persistent agents backed by independent Codex, Claude, Grok, OpenCode, Gemini, Cursor, or Clin",
+        "headings": [
+          "OpenBot",
+          "What works",
+          "Install",
+          "macOS",
+          "Windows",
+          "Linux",
+          "Nix",
+          "Agent setup"
+        ],
+        "commands": [],
+        "keywords": [
+          "ai",
+          "agent",
+          "openbot",
+          "what works",
+          "install",
+          "macos"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "repository_open_graph",
+        "url": "https://opengraph.githubassets.com/daily-tech-radar/nightly-labs/openbot",
+        "thumbUrl": "https://opengraph.githubassets.com/daily-tech-radar/nightly-labs/openbot",
+        "alt": "nightly-labs/openbot",
+        "sourceUrl": "https://github.com/nightly-labs/openbot",
+        "promptHash": "sha256:c7ad7e4e46e0"
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.8,
+        "method": "rules",
+        "reasons": [
+          "Matched ai",
+          "Matched agent"
+        ],
+        "signals": [
+          "ai",
+          "agent"
+        ]
+      },
+      "rank": {
+        "globalRank": 2,
+        "categoryRank": 2,
+        "score": 116
+      }
+    },
+    {
+      "id": "obra-superpowers",
+      "owner": "obra",
+      "name": "superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "avatarUrl": "https://github.com/obra.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 3,
+        "starsGained": 608
+      },
+      "metadata": {
+        "description": "An agentic skills framework & software development methodology that works.",
+        "language": "Shell",
+        "topics": [],
+        "stars": 306303,
+        "forks": 27274,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Shell"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/obra/superpowers/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "Superpowers",
+        "summary": "Superpowers is a complete software development methodology for your coding agents, built on top of a set of composable skills and some initial instructions that make sure your agent uses them. how-it-works commercial-services installation claude-code antigravity codex-app codex-cli cursor devin-cli factory-droid gemini-cli github-copilot-cli grok-build-cli kimi-code opencode pi qwen-code hermes-agent muse the-basic-workflow when-something-goes-wrong community whats-inside philosophy contributing updating license visual-companion-telemetry It starts from the moment you fire up your coding agent. As soon as it sees that you're building something, it doesn't just jump into trying to write code.",
+        "headings": [
+          "Superpowers",
+          "Table of Contents",
+          "How it works",
+          "Commercial Services",
+          "Installation",
+          "Claude Code",
+          "Antigravity",
+          "Codex App"
+        ],
+        "commands": [],
+        "keywords": [
+          "agent",
+          "superpowers",
+          "table of contents",
+          "how it works",
+          "commercial services"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "repository_open_graph",
+        "url": "https://opengraph.githubassets.com/daily-tech-radar/obra/superpowers",
+        "thumbUrl": "https://opengraph.githubassets.com/daily-tech-radar/obra/superpowers",
+        "alt": "obra/superpowers",
+        "sourceUrl": "https://github.com/obra/superpowers",
+        "promptHash": "sha256:51b512daa18a"
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.7,
+        "method": "rules",
+        "reasons": [
+          "Matched agent"
+        ],
+        "signals": [
+          "agent"
+        ]
+      },
+      "rank": {
+        "globalRank": 3,
+        "categoryRank": 3,
+        "score": 114
+      }
+    },
+    {
+      "id": "pbakaus-impeccable",
+      "owner": "pbakaus",
+      "name": "impeccable",
+      "url": "https://github.com/pbakaus/impeccable",
+      "avatarUrl": "https://github.com/pbakaus.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 4,
+        "starsGained": 1458
+      },
+      "metadata": {
+        "description": "The design language that makes your AI harness better at design.",
+        "language": "Rust",
+        "topics": [],
+        "stars": 90331,
+        "forks": 5372,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Rust"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/pbakaus/impeccable/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "Impeccable",
+        "summary": "Design guidance for AI coding agents. 1 skill, 24 commands, live browser iteration, and 62 deterministic detector rules for AI-generated frontend design. Quick start: From your project root, run npx impeccable install, then run /impeccable init inside your AI coding tool. Full docs: https://impeccable.style. Anthropic's https://github.com/anthropics/skills/tree/main/skills/frontend-design was the first widely-used design skill for Claude. Impeccable started from there. Every model trained on the same SaaS templates. Skip the guidance and you get the same handful of tells on every project: Inter for everything, purple-to-blue gradients, cards nested in cards, gray text on colored backgrounds,",
+        "headings": [
+          "Impeccable",
+          "Why Impeccable?",
+          "What's Included",
+          "The Skill: impeccable",
+          "24 Commands",
+          "Anti-Patterns",
+          "See It In Action",
+          "Installation"
+        ],
+        "commands": [],
+        "keywords": [
+          "ai",
+          "impeccable",
+          "why impeccable?",
+          "what's included",
+          "the skill: impeccable"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "repository_open_graph",
+        "url": "https://opengraph.githubassets.com/daily-tech-radar/pbakaus/impeccable",
+        "thumbUrl": "https://opengraph.githubassets.com/daily-tech-radar/pbakaus/impeccable",
+        "alt": "pbakaus/impeccable",
+        "sourceUrl": "https://github.com/pbakaus/impeccable",
+        "promptHash": "sha256:bb6d458862d3"
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.7,
+        "method": "rules",
+        "reasons": [
+          "Matched ai"
+        ],
+        "signals": [
+          "ai"
+        ]
+      },
+      "rank": {
+        "globalRank": 4,
+        "categoryRank": 4,
+        "score": 112
+      }
+    },
+    {
+      "id": "makecindy-cindy",
+      "owner": "makecindy",
+      "name": "cindy",
+      "url": "https://github.com/makecindy/cindy",
+      "avatarUrl": "https://github.com/makecindy.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 5,
+        "starsGained": 1446
+      },
+      "metadata": {
+        "description": "Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。",
+        "language": "TypeScript",
+        "topics": [],
+        "stars": 7378,
+        "forks": 877,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "TypeScript"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/makecindy/cindy/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "Mainland China Cindy account",
+        "summary": "Download Cindy &nbsp;·&nbsp; Website &nbsp;·&nbsp; Build with us &nbsp;·&nbsp; Get help Cindy is an open-source AI agent, ready out of the box and yours to shape. Connect your computers and phone, bring the models and subscriptions you already use, and build a companion that knows how you like to work. Your work computer, home desktop, laptop and phone belong together. Pick up the same work. Open a session from another device, continue the conversation, and access its files without copying everything into a new chat. Share more than a screen. Use model providers configured on another computer — including supported subscriptions, API providers and local models. Reach your whole desktop. Built",
+        "headings": [
+          "All your devices. One Cindy.",
+          "Keep your favorite agents. Get a better way to work.",
+          "Real work, in your actual tools",
+          "Ready from day one. Yours to shape over time.",
+          "Start with what you already have",
+          "For developers",
+          "What's in this repo",
+          "Prerequisites"
+        ],
+        "commands": [],
+        "keywords": [
+          "ai",
+          "agent",
+          "all your devices. one cindy.",
+          "keep your favorite agents. get a better way to work.",
+          "real work, in your actual tools",
+          "ready from day one. yours to shape over time."
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/makecindy/cindy/main/.github/assets/hero-en.webp",
+        "thumbUrl": "https://raw.githubusercontent.com/makecindy/cindy/main/.github/assets/hero-en.webp",
+        "alt": "CINDY — Consider it done. The open-source AI agent that works out of the box, doing real work on your own computer.",
+        "sourceUrl": "https://raw.githubusercontent.com/makecindy/cindy/main/.github/assets/hero-en.webp",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.8,
+        "method": "rules",
+        "reasons": [
+          "Matched ai",
+          "Matched agent"
+        ],
+        "signals": [
+          "ai",
+          "agent"
+        ]
+      },
+      "rank": {
+        "globalRank": 5,
+        "categoryRank": 5,
+        "score": 110
+      }
+    },
+    {
+      "id": "gitroomhq-postiz-app",
+      "owner": "gitroomhq",
+      "name": "postiz-app",
+      "url": "https://github.com/gitroomhq/postiz-app",
+      "avatarUrl": "https://github.com/gitroomhq.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 6,
+        "starsGained": 953
+      },
+      "metadata": {
+        "description": "📨 The ultimate agentic social media scheduling tool 🤖",
+        "language": "TypeScript",
+        "topics": [],
+        "stars": 39210,
+        "forks": 7493,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "TypeScript"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/gitroomhq/postiz-app/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "Intro",
+        "summary": "Postiz is a social media management platform for scheduling, automating, and analyzing your content. Use Postiz Cloud for a fully managed experience, or deploy the open-source edition on your own infrastructure. Register · Join Our Discord devs only · Public API NodeJS SDK · N8N custom node · Make.com integration | Sponsor | Logo | Description | | https://www.hostinger.com/vps/docker/postiz?ref=postiz | | Hostinger is on a mission to make online success possible for anyone – from developers to aspiring bloggers and business owners | | https://dev.virlo.ai/?ref=postiz | | Virlo is the 1 social media trend spotting and all-in-one GTM tool for teams leveraging short-form video | | https://chatb",
+        "headings": [
+          "🔌 See the leading Postiz features",
+          "✨ Features",
+          "Our Sponsors",
+          "Intro",
+          "Tech Stack",
+          "Quick Start",
+          "Sponsor Postiz",
+          "Postiz Cloud vs. Open-source"
+        ],
+        "commands": [],
+        "keywords": [
+          "agent",
+          "🔌 see the leading postiz features",
+          "✨ features",
+          "our sponsors",
+          "intro"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://github.com/user-attachments/assets/a27ee220-beb7-4c7e-8c1b-2c44301f82ef",
+        "thumbUrl": "https://github.com/user-attachments/assets/a27ee220-beb7-4c7e-8c1b-2c44301f82ef",
+        "alt": "Image 1",
+        "sourceUrl": "https://github.com/user-attachments/assets/a27ee220-beb7-4c7e-8c1b-2c44301f82ef",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.7,
+        "method": "rules",
+        "reasons": [
+          "Matched agent"
+        ],
+        "signals": [
+          "agent"
+        ]
+      },
+      "rank": {
+        "globalRank": 6,
+        "categoryRank": 6,
+        "score": 108
+      }
+    },
+    {
+      "id": "affaan-m-ecc",
+      "owner": "affaan-m",
+      "name": "ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "avatarUrl": "https://github.com/affaan-m.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 7,
+        "starsGained": 1183
+      },
+      "metadata": {
+        "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+        "language": "JavaScript",
+        "topics": [],
+        "stars": 290714,
+        "forks": 43063,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "JavaScript"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/affaan-m/ECC/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "ECC",
+        "summary": "Use the install-ecc or claude-code-details. Both install the same ecc@ecc plugin. Choose one and do not stack a full manual Claude install on top. ECC Pro + GitHub App Install free · Private repos from $19/seat/mo Sponsor ECC Fund the open-source project Community Discord · Q&amp;A · Show and Tell OSS stays free. This repo is MIT-licensed forever. ECC Pro is the hosted GitHub App for private repos. Sponsors and Pro subscribers fund the work. That's why a single maintainer ships weekly across 7 harnesses. &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;",
+        "headings": [
+          "Install with Claude Code",
+          "ECC",
+          "Install ECC",
+          "Recommended: universal guided setup",
+          "Pick one path only (per harness)",
+          "Claude Code details",
+          "Codex App and CLI",
+          "Qoder CLI and IDE"
+        ],
+        "commands": [
+          "npm install\nbash scripts/sync-ecc-to-codex.sh",
+          "npm install && npm run build:opencode && ./install.sh --profile full --target opencode --enable-hooks",
+          "npm install -g ecc-universal@2.2.3",
+          "npm install && bash scripts/sync-ecc-to-codex.sh",
+          "npm install ecc-universal@2.2.3"
+        ],
+        "keywords": [
+          "agent",
+          "install with claude code",
+          "ecc",
+          "install ecc",
+          "recommended: universal guided setup"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/affaan-m/ECC/main/assets/hero.png",
+        "thumbUrl": "https://raw.githubusercontent.com/affaan-m/ECC/main/assets/hero.png",
+        "alt": "ECC - the agent harness operating system",
+        "sourceUrl": "https://raw.githubusercontent.com/affaan-m/ECC/main/assets/hero.png",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.7,
+        "method": "rules",
+        "reasons": [
+          "Matched agent"
+        ],
+        "signals": [
+          "agent"
+        ]
+      },
+      "rank": {
+        "globalRank": 7,
+        "categoryRank": 7,
+        "score": 106
+      }
+    },
+    {
+      "id": "hkuds-deeptutor",
+      "owner": "HKUDS",
+      "name": "DeepTutor",
+      "url": "https://github.com/HKUDS/DeepTutor",
+      "avatarUrl": "https://github.com/HKUDS.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 8,
+        "starsGained": 1587
+      },
+      "metadata": {
+        "description": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.",
+        "language": "Python",
+        "topics": [],
+        "stars": 45647,
+        "forks": 5736,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Python"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/HKUDS/DeepTutor/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "DeepTutor: Lifelong Personalized Tutoring",
+        "summary": "DeepTutor: Lifelong Personalized Tutoring &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; -key-features · -get-started · -explore-deeptutor · %EF%B8%8F-deeptutor-cli--agent-native-interface · -ecosystem--eduhub--the-skills-community · -community 🤝 We welcome any kinds of contributing! Vote on roadmap items or propose new ones at https://github.com/HKUDS/DeepTutor/issues/498, and see our CONTRIBUTING.md for branching strategy, coding standards, and how to get started. 2026.10.19 https://github.com/HKUDS/DeepTutor/releases/tag/v1.6.15 — Reviewed learning-path changes, grouped assessments, bounded tutoring memory, reliable chat recovery, sturdier parsing, retrieval",
+        "headings": [
+          "DeepTutor: Lifelong Personalized Tutoring",
+          "📦 Releases",
+          "📰 News",
+          "✨ Key Features",
+          "🚀 Get Started",
+          "Let Your Agent Set Up DeepTutor",
+          "One-Command Docker Trial",
+          "Content Workspace"
+        ],
+        "commands": [
+          "pip install -U deeptutor",
+          "pip install -U deeptutor",
+          "pip install --upgrade pip",
+          "pip install -e .",
+          "pip install --upgrade pip",
+          "pip install -e \".[rag-lightrag]\"    # Built-in LightRAG engine (exact supported SDK)"
+        ],
+        "keywords": [
+          "deeptutor: lifelong personalized tutoring",
+          "📦 releases",
+          "📰 news",
+          "✨ key features"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/HKUDS/DeepTutor/main/assets/figs/web-1.6.5/OVERVIEW.png",
+        "thumbUrl": "https://raw.githubusercontent.com/HKUDS/DeepTutor/main/assets/figs/web-1.6.5/OVERVIEW.png",
+        "alt": "DeepTutor home — the Chat workspace with every surface in the sidebar",
+        "sourceUrl": "https://raw.githubusercontent.com/HKUDS/DeepTutor/main/assets/figs/web-1.6.5/OVERVIEW.png",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "unclassified",
+        "secondaryCategoryIds": [],
+        "confidence": 0.4,
+        "method": "rules",
+        "reasons": [
+          "No taxonomy rule matched with enough confidence"
+        ],
+        "signals": []
+      },
+      "rank": {
+        "globalRank": 8,
+        "categoryRank": 8,
+        "score": 104
+      }
+    },
+    {
+      "id": "jetbrains-thinkrail",
+      "owner": "JetBrains",
+      "name": "thinkrail",
+      "url": "https://github.com/JetBrains/thinkrail",
+      "avatarUrl": "https://github.com/JetBrains.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 9,
+        "starsGained": 1211
+      },
+      "metadata": {
+        "description": "Vibe code with pi in a lightweight, real IDE that customises itself around the way you work — The Vibe You Need",
+        "language": "TypeScript",
+        "topics": [],
+        "stars": 3846,
+        "forks": 205,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "TypeScript"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/JetBrains/thinkrail/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "ThinkRail",
+        "summary": "ThinkRail is the agentic IDE that gets better every time you use it — learning your project through living specs today, and building its own capabilities tomorrow. We built a rich interface around the https://www.npmjs.com/package/@earendil-works/pi-coding-agent coding agent, isolated work into separate workspaces, and gave the agent durable project knowledge through living specs and reusable skills. Next, we're adding full extension support, so ThinkRail can create the tools it needs based on how you actually work. Website: https://thinkrail.ai/ · Blog: https://thinkrail.ai/blog/ · Discord: https://thinkrail.ai/discord",
+        "headings": [
+          "ThinkRail",
+          "What you get",
+          "Install",
+          "Desktop",
+          "Command line",
+          "Platform notes",
+          "Analytics & privacy",
+          "Under the hood"
+        ],
+        "commands": [],
+        "keywords": [
+          "ai",
+          "thinkrail",
+          "what you get",
+          "install",
+          "desktop"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/JetBrains/thinkrail/main/.github/readme-assets/workbench-light.png",
+        "thumbUrl": "https://raw.githubusercontent.com/JetBrains/thinkrail/main/.github/readme-assets/workbench-light.png",
+        "alt": "ThinkRail workbench: the Projects pane beside the left tool rail listing worktree workspaces and their Settled shelf, a finished pi conversation with its tool steps in the center, the resulting diff beside it, and the Specs tree above the Changes list on the right with their tools on the edge rail",
+        "sourceUrl": "https://raw.githubusercontent.com/JetBrains/thinkrail/main/.github/readme-assets/workbench-light.png",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.7,
+        "method": "rules",
+        "reasons": [
+          "Matched ai"
+        ],
+        "signals": [
+          "ai"
+        ]
+      },
+      "rank": {
+        "globalRank": 9,
+        "categoryRank": 9,
+        "score": 102
+      }
+    },
+    {
+      "id": "togg53192-cmd-jailbreaks",
+      "owner": "togg53192-cmd",
+      "name": "jailbreaks",
+      "url": "https://github.com/togg53192-cmd/jailbreaks",
+      "avatarUrl": "https://github.com/togg53192-cmd.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 10,
+        "starsGained": 890
+      },
+      "metadata": {
+        "description": "LIST OF ALL MY JAILBREAKS",
+        "language": "",
+        "topics": [],
+        "stars": 5341,
+        "forks": 808,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": []
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/togg53192-cmd/jailbreaks/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "Jailbreaks",
+        "summary": "A curated collection of system prompts, persona locks, workspace policies, and agent operating specifications for frontier, open-weight, and free stealth models. A working collection of 31 prompts targeting 25+ models, including complete system prompts, persona definitions, workspace policies, AGENTS.md files, configuration blocks, and Ollama Modelfiles. Every file is intended to be complete and paste-ready. No summaries. No partial excerpts. Free stealth models available through OpenCode Zen Open-weight families including GLM, DeepSeek, Kimi, Qwen, Gemma, and GPT-OSS Closed frontier models including Claude, Gemini, Grok, and Mistral Coding-agent and workspace instruction formats Ollama Mode",
+        "headings": [
+          "Jailbreaks",
+          "About",
+          "Collection",
+          "OpenCode Zen — Free Stealth Models",
+          "Anthropic — Claude",
+          "Zhipu — GLM / ZCode",
+          "DeepSeek",
+          "Moonshot — Kimi"
+        ],
+        "commands": [],
+        "keywords": [
+          "ai",
+          "jailbreaks",
+          "about",
+          "collection",
+          "opencode zen — free stealth models"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "repository_open_graph",
+        "url": "https://opengraph.githubassets.com/daily-tech-radar/togg53192-cmd/jailbreaks",
+        "thumbUrl": "https://opengraph.githubassets.com/daily-tech-radar/togg53192-cmd/jailbreaks",
+        "alt": "togg53192-cmd/jailbreaks",
+        "sourceUrl": "https://github.com/togg53192-cmd/jailbreaks",
+        "promptHash": "sha256:b6df6312b6d9"
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.7,
+        "method": "rules",
+        "reasons": [
+          "Matched ai"
+        ],
+        "signals": [
+          "ai"
+        ]
+      },
+      "rank": {
+        "globalRank": 10,
+        "categoryRank": 10,
+        "score": 100
+      }
+    }
+  ],
+  "views": [
+    {
+      "id": "ai",
+      "type": "category",
+      "label": "AI",
+      "categoryId": "ai",
+      "repoIds": [
+        "nutlope-hallmark",
+        "nightly-labs-openbot",
+        "obra-superpowers",
+        "pbakaus-impeccable",
+        "makecindy-cindy",
+        "gitroomhq-postiz-app",
+        "affaan-m-ecc",
+        "jetbrains-thinkrail",
+        "togg53192-cmd-jailbreaks"
+      ],
+      "sort": "score"
+    },
+    {
+      "id": "unclassified",
+      "type": "review",
+      "label": "Needs Review",
+      "categoryId": "unclassified",
+      "repoIds": [
+        "hkuds-deeptutor"
+      ],
+      "sort": "score"
+    }
+  ],
+  "health": {
+    "status": "ok",
+    "candidateCount": 10,
+    "enrichedRepoCount": 10,
+    "unclassifiedRepoCount": 1,
+    "warnings": [
+      "6 repos used README images, 0 used Agnes images, 4 fell back to repository Open Graph covers"
+    ]
+  }
+}
