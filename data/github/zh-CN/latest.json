@@ -1,9 +1,9 @@
 {
   "schemaVersion": "trendreader.daily.v1",
-  "packageId": "github-daily-All-2026-10-27",
+  "packageId": "github-daily-All-2026-10-28",
   "locale": "zh-CN",
-  "generatedAt": "2026-10-27T20:19:45.185Z",
-  "expiresAt": "2026-10-28T20:19:45.185Z",
+  "generatedAt": "2026-10-28T20:19:46.374Z",
+  "expiresAt": "2026-10-29T20:19:46.374Z",
   "sourceWindow": {
     "since": "daily",
     "language": "All",
@@ -14,12 +14,12 @@
       "id": "github_trending_html",
       "role": "candidate",
       "status": "ok",
-      "itemCount": 10
+      "itemCount": 14
     }
   ],
   "taxonomy": {
-    "version": "2026-10-27",
-    "generatedAt": "2026-10-27T20:19:45.185Z",
+    "version": "2026-10-28",
+    "generatedAt": "2026-10-28T20:19:46.374Z",
     "categories": [
       {
         "id": "ai",
@@ -60,106 +60,23 @@
   },
   "repos": [
     {
-      "id": "nutlope-hallmark",
-      "owner": "Nutlope",
-      "name": "hallmark",
-      "url": "https://github.com/Nutlope/hallmark",
-      "avatarUrl": "https://github.com/Nutlope.png",
+      "id": "jetbrains-thinkrail",
+      "owner": "JetBrains",
+      "name": "thinkrail",
+      "url": "https://github.com/JetBrains/thinkrail",
+      "avatarUrl": "https://github.com/JetBrains.png",
       "homepageUrl": null,
       "source": {
         "primary": "github_trending_html",
         "sourceRank": 1,
-        "starsGained": 2859
+        "starsGained": 1075
       },
       "metadata": {
-        "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
-        "language": "CSS",
-        "topics": [],
-        "stars": 38736,
-        "forks": 2016,
-        "license": null,
-        "defaultBranch": null,
-        "pushedAt": null,
-        "topLanguages": [
-          "CSS"
-        ]
-      },
-      "readmeRef": {
-        "status": "available",
-        "path": "README.md",
-        "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/Nutlope/hallmark/main/README.md"
-      },
-      "readmeSignals": {
-        "title": "Hallmark",
-        "summary": "A design skill for Claude Code, Codex, Cursor and OpenCode that refuses to look AI-generated. Hallmark holds a hard floor and then gets out of the way. It deals three themes from a catalog of fifty materials, builds the page around what the visitor came to do, and lints the result in a real browser against the tells that read as machine-made: the eyebrow above every heading, tracked-capital labels, one coloured word in a headline, a page of empty frames or nothing but photographs, a hero that misses its screen, an email sign-up at the end of every page, a form that says thanks without sending anything. A fresh-context reviewer gets the last word.",
-        "headings": [
-          "Hallmark",
-          "New in v2",
-          "Themes",
-          "Custom",
-          "How a build runs",
-          "Redesign",
-          "Install",
-          "Licence"
-        ],
-        "commands": [],
-        "keywords": [
-          "ai",
-          "llm",
-          "hallmark",
-          "new in v2",
-          "themes",
-          "custom"
-        ],
-        "score": 100
-      },
-      "visual": {
-        "kind": "readme_image",
-        "url": "https://raw.githubusercontent.com/Nutlope/hallmark/main/site/OG-hallmark.png",
-        "thumbUrl": "https://raw.githubusercontent.com/Nutlope/hallmark/main/site/OG-hallmark.png",
-        "alt": "Hallmark, the design skill that ends AI slop",
-        "sourceUrl": "https://raw.githubusercontent.com/Nutlope/hallmark/main/site/OG-hallmark.png",
-        "promptHash": null
-      },
-      "classification": {
-        "primaryCategoryId": "ai",
-        "secondaryCategoryIds": [],
-        "confidence": 0.8,
-        "method": "rules",
-        "reasons": [
-          "Matched ai",
-          "Matched llm"
-        ],
-        "signals": [
-          "ai",
-          "llm"
-        ]
-      },
-      "rank": {
-        "globalRank": 1,
-        "categoryRank": 1,
-        "score": 118
-      }
-    },
-    {
-      "id": "nightly-labs-openbot",
-      "owner": "nightly-labs",
-      "name": "openbot",
-      "url": "https://github.com/nightly-labs/openbot",
-      "avatarUrl": "https://github.com/nightly-labs.png",
-      "homepageUrl": null,
-      "source": {
-        "primary": "github_trending_html",
-        "sourceRank": 2,
-        "starsGained": 794
-      },
-      "metadata": {
-        "description": "A local-first desktop workspace for persistent AI teammates. Run Codex, Claude, and Grok with dedicated workspaces, task queues, file sharing, browser control, and agent-to-agent collaboration.",
+        "description": "Vibe code with pi in a lightweight, real IDE that customises itself around the way you work — The Vibe You Need",
         "language": "TypeScript",
         "topics": [],
-        "stars": 2288,
-        "forks": 241,
+        "stars": 4918,
+        "forks": 254,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -171,52 +88,125 @@
         "status": "available",
         "path": "README.md",
         "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/nightly-labs/openbot/main/README.md"
+        "rawUrl": "https://raw.githubusercontent.com/JetBrains/thinkrail/main/README.md"
       },
       "readmeSignals": {
-        "title": "OpenBot",
-        "summary": "OpenBot is a local-first desktop workspace for persistent AI teammates. It supports the local https://learn.chatgpt.com/docs/app-server and https://code.claude.com/docs/en/overview, plus https://docs.x.ai/build/overview, OpenCode, Gemini, https://cursor.com/cli, and https://cline.bot/cli through ACP. It gives every agent its own workspace and conversation, and provides local queues, file transfers, an embedded browser, and agent-to-agent messaging in one desktop app. Prompt-driven agent creation and editing on desktop and mobile, with editable instructions, avatar, and section review before saving. Persistent agents backed by independent Codex, Claude, Grok, OpenCode, Gemini, Cursor, or Clin",
+        "title": "ThinkRail",
+        "summary": "ThinkRail is the agentic IDE that gets better every time you use it — learning your project through living specs today, and building its own capabilities tomorrow. We built a rich interface around the https://www.npmjs.com/package/@earendil-works/pi-coding-agent coding agent, isolated work into separate workspaces, and gave the agent durable project knowledge through living specs and reusable skills. Next, we're adding full extension support, so ThinkRail can create the tools it needs based on how you actually work. Website: https://thinkrail.ai/ · Blog: https://thinkrail.ai/blog/ · Discord: https://thinkrail.ai/discord",
         "headings": [
-          "OpenBot",
-          "What works",
+          "ThinkRail",
+          "What you get",
           "Install",
-          "macOS",
-          "Windows",
-          "Linux",
-          "Nix",
-          "Agent setup"
+          "Desktop",
+          "Command line",
+          "Platform notes",
+          "Analytics & privacy",
+          "Under the hood"
         ],
         "commands": [],
         "keywords": [
           "ai",
-          "agent",
-          "openbot",
-          "what works",
+          "thinkrail",
+          "what you get",
           "install",
-          "macos"
+          "desktop"
         ],
         "score": 100
       },
       "visual": {
-        "kind": "repository_open_graph",
-        "url": "https://opengraph.githubassets.com/daily-tech-radar/nightly-labs/openbot",
-        "thumbUrl": "https://opengraph.githubassets.com/daily-tech-radar/nightly-labs/openbot",
-        "alt": "nightly-labs/openbot",
-        "sourceUrl": "https://github.com/nightly-labs/openbot",
-        "promptHash": "sha256:c7ad7e4e46e0"
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/JetBrains/thinkrail/main/.github/readme-assets/workbench-light.png",
+        "thumbUrl": "https://raw.githubusercontent.com/JetBrains/thinkrail/main/.github/readme-assets/workbench-light.png",
+        "alt": "ThinkRail workbench: the Projects pane beside the left tool rail listing worktree workspaces and their Settled shelf, a finished pi conversation with its tool steps in the center, the resulting diff beside it, and the Specs tree above the Changes list on the right with their tools on the edge rail",
+        "sourceUrl": "https://raw.githubusercontent.com/JetBrains/thinkrail/main/.github/readme-assets/workbench-light.png",
+        "promptHash": null
       },
       "classification": {
         "primaryCategoryId": "ai",
         "secondaryCategoryIds": [],
-        "confidence": 0.8,
+        "confidence": 0.7,
         "method": "rules",
         "reasons": [
-          "Matched ai",
-          "Matched agent"
+          "Matched ai"
         ],
         "signals": [
+          "ai"
+        ]
+      },
+      "rank": {
+        "globalRank": 1,
+        "categoryRank": 1,
+        "score": 118
+      }
+    },
+    {
+      "id": "elayadesign-ai-design-skills",
+      "owner": "elayadesign",
+      "name": "ai-design-skills",
+      "url": "https://github.com/elayadesign/ai-design-skills",
+      "avatarUrl": "https://github.com/elayadesign.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 2,
+        "starsGained": 1395
+      },
+      "metadata": {
+        "description": "",
+        "language": "",
+        "topics": [],
+        "stars": 10966,
+        "forks": 785,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": []
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/elayadesign/ai-design-skills/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "AI Design Skills",
+        "summary": "A growing collection of design skills for AI coding tools — Claude Code, Cursor, Codex, Windsurf, and anything else that reads a markdown rules file. Each skill is a self-contained folder. Install the ones you need. | Skill | What it does | | ./skills/landing-page-design/SKILL.md | Builds a landing page from scratch — intake questions, page structure, conversion copy, plus a full visual system type, spacing, radius, motion | More on the way. https://github.com/elayadesign/redesign-skill That one lives in its own repo since it predates this collection. Pick a skill from the table above, then swap below for its folder name.",
+        "headings": [
+          "AI Design Skills",
+          "Skills",
+          "Install",
+          "Make it yours",
+          "Credits",
+          "License"
+        ],
+        "commands": [],
+        "keywords": [
           "ai",
-          "agent"
+          "ai design skills",
+          "skills",
+          "install",
+          "make it yours"
+        ],
+        "score": 90
+      },
+      "visual": {
+        "kind": "repository_open_graph",
+        "url": "https://opengraph.githubassets.com/daily-tech-radar/elayadesign/ai-design-skills",
+        "thumbUrl": "https://opengraph.githubassets.com/daily-tech-radar/elayadesign/ai-design-skills",
+        "alt": "elayadesign/ai-design-skills",
+        "sourceUrl": "https://github.com/elayadesign/ai-design-skills",
+        "promptHash": "sha256:535dfe9aa041"
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.7,
+        "method": "rules",
+        "reasons": [
+          "Matched ai"
+        ],
+        "signals": [
+          "ai"
         ]
       },
       "rank": {
@@ -235,14 +225,14 @@
       "source": {
         "primary": "github_trending_html",
         "sourceRank": 3,
-        "starsGained": 608
+        "starsGained": 1096
       },
       "metadata": {
         "description": "An agentic skills framework & software development methodology that works.",
         "language": "Shell",
         "topics": [],
-        "stars": 306303,
-        "forks": 27274,
+        "stars": 307316,
+        "forks": 27344,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -306,6 +296,256 @@
       }
     },
     {
+      "id": "hkuds-deeptutor",
+      "owner": "HKUDS",
+      "name": "DeepTutor",
+      "url": "https://github.com/HKUDS/DeepTutor",
+      "avatarUrl": "https://github.com/HKUDS.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 4,
+        "starsGained": 2376
+      },
+      "metadata": {
+        "description": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.",
+        "language": "Python",
+        "topics": [],
+        "stars": 47789,
+        "forks": 5936,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Python"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/HKUDS/DeepTutor/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "Create a venv (macOS/Linux). Windows PowerShell:",
+        "summary": "DeepTutor: Lifelong Personalized Tutoring &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; -key-features · -get-started · -explore-deeptutor · %EF%B8%8F-deeptutor-cli--agent-native-interface · -ecosystem--eduhub--the-skills-community · -community 🤝 We welcome any kinds of contributing! Vote on roadmap items or propose new ones at https://github.com/HKUDS/DeepTutor/issues/498, and see our CONTRIBUTING.md for branching strategy, coding standards, and how to get started. 2026.10.28 https://github.com/HKUDS/DeepTutor/releases/tag/v1.7.0 — Modular installation, a refreshed learning workspace, block notebooks with Dito, narrated video lessons, resumable embedding check",
+        "headings": [
+          "📦 Releases",
+          "📰 News",
+          "✨ Key Features",
+          "🚀 Get Started",
+          "Let Your Agent Set Up DeepTutor",
+          "One-Command Docker Trial",
+          "Content Workspace",
+          "Create a venv (macOS/Linux). Windows PowerShell:"
+        ],
+        "commands": [
+          "pip install -U \"deeptutor[full]\"",
+          "pip install -U \"deeptutor[full]\"",
+          "pip install --upgrade \"deeptutor[full]==1.7.0\"",
+          "pip install -U deeptutor",
+          "pip install --upgrade pip",
+          "pip install -r requirements/full.txt"
+        ],
+        "keywords": [
+          "📦 releases",
+          "📰 news",
+          "✨ key features",
+          "🚀 get started"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/HKUDS/DeepTutor/main/assets/figs/web-dev/overview.png",
+        "thumbUrl": "https://raw.githubusercontent.com/HKUDS/DeepTutor/main/assets/figs/web-dev/overview.png",
+        "alt": "DeepTutor Home and workspace navigation",
+        "sourceUrl": "https://raw.githubusercontent.com/HKUDS/DeepTutor/main/assets/figs/web-dev/overview.png",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "unclassified",
+        "secondaryCategoryIds": [],
+        "confidence": 0.4,
+        "method": "rules",
+        "reasons": [
+          "No taxonomy rule matched with enough confidence"
+        ],
+        "signals": []
+      },
+      "rank": {
+        "globalRank": 4,
+        "categoryRank": 4,
+        "score": 112
+      }
+    },
+    {
+      "id": "macro-inc-macro",
+      "owner": "macro-inc",
+      "name": "macro",
+      "url": "https://github.com/macro-inc/macro",
+      "avatarUrl": "https://github.com/macro-inc.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 5,
+        "starsGained": 106
+      },
+      "metadata": {
+        "description": "Macro is a unified workspace for teams: email, chat, docs, tasks, agents, calls, and CRM — @-linked together with shared AI memory.",
+        "language": "Rust",
+        "topics": [],
+        "stars": 5339,
+        "forks": 515,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Rust"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/macro-inc/macro/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "Why Macro",
+        "summary": "Sign up · Docs · Book demo · Website · Feature requests · Contribute · Hiring Macro is the all-in-one workspace for you and your team. It unifies email + messages + docs + tasks + agents + CRM into a single fast interface with shared team-level memory. Everything in your workspace is @linked and searchable so your team and your agents never have to switch tools. We built Macro because we wanted a single operating system for our startup. There are many good software products, and we used them all — Slack, Linear, Notion, HubSpot, and Superhuman — but they don't work together as one system. As we scaled our last venture to ~20 people things started to break: every team got their own tools and ",
+        "headings": [
+          "Why Macro",
+          "Features",
+          "**Multiple email inboxes** w/ good AI tools, integrated CRM",
+          "**Team chat** for focused technical discussions",
+          "**Task management** built around chat",
+          "@linked markdown docs powered by CRDTs",
+          "CRM that keeps itself up to date",
+          "Agents and unified team-level memory"
+        ],
+        "commands": [],
+        "keywords": [
+          "ai",
+          "agent",
+          "why macro",
+          "features",
+          "**multiple email inboxes** w/ good ai tools, integrated crm",
+          "**team chat** for focused technical discussions"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/macro-inc/macro/main/.github/readme/email-thread.png",
+        "thumbUrl": "https://raw.githubusercontent.com/macro-inc/macro/main/.github/readme/email-thread.png",
+        "alt": "Macro email thread with actions, tags, and properties in the sidebar",
+        "sourceUrl": "https://raw.githubusercontent.com/macro-inc/macro/main/.github/readme/email-thread.png",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.8,
+        "method": "rules",
+        "reasons": [
+          "Matched ai",
+          "Matched agent"
+        ],
+        "signals": [
+          "ai",
+          "agent"
+        ]
+      },
+      "rank": {
+        "globalRank": 5,
+        "categoryRank": 5,
+        "score": 100.6
+      }
+    },
+    {
+      "id": "nutlope-hallmark",
+      "owner": "Nutlope",
+      "name": "hallmark",
+      "url": "https://github.com/Nutlope/hallmark",
+      "avatarUrl": "https://github.com/Nutlope.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 6,
+        "starsGained": 2109
+      },
+      "metadata": {
+        "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
+        "language": "CSS",
+        "topics": [],
+        "stars": 40526,
+        "forks": 2104,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "CSS"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/Nutlope/hallmark/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "Hallmark",
+        "summary": "A design skill for Claude Code, Codex, Cursor and OpenCode that refuses to look AI-generated. Hallmark holds a hard floor and then gets out of the way. It deals three themes from a catalog of fifty materials, builds the page around what the visitor came to do, and lints the result in a real browser against the tells that read as machine-made: the eyebrow above every heading, tracked-capital labels, one coloured word in a headline, a page of empty frames or nothing but photographs, a hero that misses its screen, an email sign-up at the end of every page, a form that says thanks without sending anything. A fresh-context reviewer gets the last word.",
+        "headings": [
+          "Hallmark",
+          "New in v2",
+          "Themes",
+          "Custom",
+          "How a build runs",
+          "Redesign",
+          "Install",
+          "Inspired by"
+        ],
+        "commands": [],
+        "keywords": [
+          "ai",
+          "llm",
+          "hallmark",
+          "new in v2",
+          "themes",
+          "custom"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/Nutlope/hallmark/main/site/OG-hallmark.png",
+        "thumbUrl": "https://raw.githubusercontent.com/Nutlope/hallmark/main/site/OG-hallmark.png",
+        "alt": "Hallmark, the design skill that ends AI slop",
+        "sourceUrl": "https://raw.githubusercontent.com/Nutlope/hallmark/main/site/OG-hallmark.png",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.8,
+        "method": "rules",
+        "reasons": [
+          "Matched ai",
+          "Matched llm"
+        ],
+        "signals": [
+          "ai",
+          "llm"
+        ]
+      },
+      "rank": {
+        "globalRank": 6,
+        "categoryRank": 6,
+        "score": 108
+      }
+    },
+    {
       "id": "pbakaus-impeccable",
       "owner": "pbakaus",
       "name": "impeccable",
@@ -314,15 +554,15 @@
       "homepageUrl": null,
       "source": {
         "primary": "github_trending_html",
-        "sourceRank": 4,
-        "starsGained": 1458
+        "sourceRank": 7,
+        "starsGained": 1471
       },
       "metadata": {
-        "description": "The design language that makes your AI harness better at design.",
+        "description": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
         "language": "Rust",
         "topics": [],
-        "stars": 90331,
-        "forks": 5372,
+        "stars": 92353,
+        "forks": 5456,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -352,6 +592,7 @@
         "commands": [],
         "keywords": [
           "ai",
+          "agent",
           "impeccable",
           "why impeccable?",
           "what's included",
@@ -365,24 +606,26 @@
         "thumbUrl": "https://opengraph.githubassets.com/daily-tech-radar/pbakaus/impeccable",
         "alt": "pbakaus/impeccable",
         "sourceUrl": "https://github.com/pbakaus/impeccable",
-        "promptHash": "sha256:bb6d458862d3"
+        "promptHash": "sha256:5d3891248d35"
       },
       "classification": {
         "primaryCategoryId": "ai",
         "secondaryCategoryIds": [],
-        "confidence": 0.7,
+        "confidence": 0.8,
         "method": "rules",
         "reasons": [
-          "Matched ai"
+          "Matched ai",
+          "Matched agent"
         ],
         "signals": [
-          "ai"
+          "ai",
+          "agent"
         ]
       },
       "rank": {
-        "globalRank": 4,
-        "categoryRank": 4,
-        "score": 112
+        "globalRank": 7,
+        "categoryRank": 7,
+        "score": 106
       }
     },
     {
@@ -394,15 +637,15 @@
       "homepageUrl": null,
       "source": {
         "primary": "github_trending_html",
-        "sourceRank": 5,
-        "starsGained": 1446
+        "sourceRank": 8,
+        "starsGained": 740
       },
       "metadata": {
         "description": "Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。",
         "language": "TypeScript",
         "topics": [],
-        "stars": 7378,
-        "forks": 877,
+        "stars": 7991,
+        "forks": 937,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -463,279 +706,29 @@
         ]
       },
       "rank": {
-        "globalRank": 5,
-        "categoryRank": 5,
-        "score": 110
-      }
-    },
-    {
-      "id": "gitroomhq-postiz-app",
-      "owner": "gitroomhq",
-      "name": "postiz-app",
-      "url": "https://github.com/gitroomhq/postiz-app",
-      "avatarUrl": "https://github.com/gitroomhq.png",
-      "homepageUrl": null,
-      "source": {
-        "primary": "github_trending_html",
-        "sourceRank": 6,
-        "starsGained": 953
-      },
-      "metadata": {
-        "description": "📨 The ultimate agentic social media scheduling tool 🤖",
-        "language": "TypeScript",
-        "topics": [],
-        "stars": 39210,
-        "forks": 7493,
-        "license": null,
-        "defaultBranch": null,
-        "pushedAt": null,
-        "topLanguages": [
-          "TypeScript"
-        ]
-      },
-      "readmeRef": {
-        "status": "available",
-        "path": "README.md",
-        "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/gitroomhq/postiz-app/main/README.md"
-      },
-      "readmeSignals": {
-        "title": "Intro",
-        "summary": "Postiz is a social media management platform for scheduling, automating, and analyzing your content. Use Postiz Cloud for a fully managed experience, or deploy the open-source edition on your own infrastructure. Register · Join Our Discord devs only · Public API NodeJS SDK · N8N custom node · Make.com integration | Sponsor | Logo | Description | | https://www.hostinger.com/vps/docker/postiz?ref=postiz | | Hostinger is on a mission to make online success possible for anyone – from developers to aspiring bloggers and business owners | | https://dev.virlo.ai/?ref=postiz | | Virlo is the 1 social media trend spotting and all-in-one GTM tool for teams leveraging short-form video | | https://chatb",
-        "headings": [
-          "🔌 See the leading Postiz features",
-          "✨ Features",
-          "Our Sponsors",
-          "Intro",
-          "Tech Stack",
-          "Quick Start",
-          "Sponsor Postiz",
-          "Postiz Cloud vs. Open-source"
-        ],
-        "commands": [],
-        "keywords": [
-          "agent",
-          "🔌 see the leading postiz features",
-          "✨ features",
-          "our sponsors",
-          "intro"
-        ],
-        "score": 100
-      },
-      "visual": {
-        "kind": "readme_image",
-        "url": "https://github.com/user-attachments/assets/a27ee220-beb7-4c7e-8c1b-2c44301f82ef",
-        "thumbUrl": "https://github.com/user-attachments/assets/a27ee220-beb7-4c7e-8c1b-2c44301f82ef",
-        "alt": "Image 1",
-        "sourceUrl": "https://github.com/user-attachments/assets/a27ee220-beb7-4c7e-8c1b-2c44301f82ef",
-        "promptHash": null
-      },
-      "classification": {
-        "primaryCategoryId": "ai",
-        "secondaryCategoryIds": [],
-        "confidence": 0.7,
-        "method": "rules",
-        "reasons": [
-          "Matched agent"
-        ],
-        "signals": [
-          "agent"
-        ]
-      },
-      "rank": {
-        "globalRank": 6,
-        "categoryRank": 6,
-        "score": 108
-      }
-    },
-    {
-      "id": "affaan-m-ecc",
-      "owner": "affaan-m",
-      "name": "ECC",
-      "url": "https://github.com/affaan-m/ECC",
-      "avatarUrl": "https://github.com/affaan-m.png",
-      "homepageUrl": null,
-      "source": {
-        "primary": "github_trending_html",
-        "sourceRank": 7,
-        "starsGained": 1183
-      },
-      "metadata": {
-        "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-        "language": "JavaScript",
-        "topics": [],
-        "stars": 290714,
-        "forks": 43063,
-        "license": null,
-        "defaultBranch": null,
-        "pushedAt": null,
-        "topLanguages": [
-          "JavaScript"
-        ]
-      },
-      "readmeRef": {
-        "status": "available",
-        "path": "README.md",
-        "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/affaan-m/ECC/main/README.md"
-      },
-      "readmeSignals": {
-        "title": "ECC",
-        "summary": "Use the install-ecc or claude-code-details. Both install the same ecc@ecc plugin. Choose one and do not stack a full manual Claude install on top. ECC Pro + GitHub App Install free · Private repos from $19/seat/mo Sponsor ECC Fund the open-source project Community Discord · Q&amp;A · Show and Tell OSS stays free. This repo is MIT-licensed forever. ECC Pro is the hosted GitHub App for private repos. Sponsors and Pro subscribers fund the work. That's why a single maintainer ships weekly across 7 harnesses. &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;",
-        "headings": [
-          "Install with Claude Code",
-          "ECC",
-          "Install ECC",
-          "Recommended: universal guided setup",
-          "Pick one path only (per harness)",
-          "Claude Code details",
-          "Codex App and CLI",
-          "Qoder CLI and IDE"
-        ],
-        "commands": [
-          "npm install\nbash scripts/sync-ecc-to-codex.sh",
-          "npm install && npm run build:opencode && ./install.sh --profile full --target opencode --enable-hooks",
-          "npm install -g ecc-universal@2.2.3",
-          "npm install && bash scripts/sync-ecc-to-codex.sh",
-          "npm install ecc-universal@2.2.3"
-        ],
-        "keywords": [
-          "agent",
-          "install with claude code",
-          "ecc",
-          "install ecc",
-          "recommended: universal guided setup"
-        ],
-        "score": 100
-      },
-      "visual": {
-        "kind": "readme_image",
-        "url": "https://raw.githubusercontent.com/affaan-m/ECC/main/assets/hero.png",
-        "thumbUrl": "https://raw.githubusercontent.com/affaan-m/ECC/main/assets/hero.png",
-        "alt": "ECC - the agent harness operating system",
-        "sourceUrl": "https://raw.githubusercontent.com/affaan-m/ECC/main/assets/hero.png",
-        "promptHash": null
-      },
-      "classification": {
-        "primaryCategoryId": "ai",
-        "secondaryCategoryIds": [],
-        "confidence": 0.7,
-        "method": "rules",
-        "reasons": [
-          "Matched agent"
-        ],
-        "signals": [
-          "agent"
-        ]
-      },
-      "rank": {
-        "globalRank": 7,
-        "categoryRank": 7,
-        "score": 106
-      }
-    },
-    {
-      "id": "hkuds-deeptutor",
-      "owner": "HKUDS",
-      "name": "DeepTutor",
-      "url": "https://github.com/HKUDS/DeepTutor",
-      "avatarUrl": "https://github.com/HKUDS.png",
-      "homepageUrl": null,
-      "source": {
-        "primary": "github_trending_html",
-        "sourceRank": 8,
-        "starsGained": 1587
-      },
-      "metadata": {
-        "description": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.",
-        "language": "Python",
-        "topics": [],
-        "stars": 45647,
-        "forks": 5736,
-        "license": null,
-        "defaultBranch": null,
-        "pushedAt": null,
-        "topLanguages": [
-          "Python"
-        ]
-      },
-      "readmeRef": {
-        "status": "available",
-        "path": "README.md",
-        "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/HKUDS/DeepTutor/main/README.md"
-      },
-      "readmeSignals": {
-        "title": "DeepTutor: Lifelong Personalized Tutoring",
-        "summary": "DeepTutor: Lifelong Personalized Tutoring &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; -key-features · -get-started · -explore-deeptutor · %EF%B8%8F-deeptutor-cli--agent-native-interface · -ecosystem--eduhub--the-skills-community · -community 🤝 We welcome any kinds of contributing! Vote on roadmap items or propose new ones at https://github.com/HKUDS/DeepTutor/issues/498, and see our CONTRIBUTING.md for branching strategy, coding standards, and how to get started. 2026.10.19 https://github.com/HKUDS/DeepTutor/releases/tag/v1.6.15 — Reviewed learning-path changes, grouped assessments, bounded tutoring memory, reliable chat recovery, sturdier parsing, retrieval",
-        "headings": [
-          "DeepTutor: Lifelong Personalized Tutoring",
-          "📦 Releases",
-          "📰 News",
-          "✨ Key Features",
-          "🚀 Get Started",
-          "Let Your Agent Set Up DeepTutor",
-          "One-Command Docker Trial",
-          "Content Workspace"
-        ],
-        "commands": [
-          "pip install -U deeptutor",
-          "pip install -U deeptutor",
-          "pip install --upgrade pip",
-          "pip install -e .",
-          "pip install --upgrade pip",
-          "pip install -e \".[rag-lightrag]\"    # Built-in LightRAG engine (exact supported SDK)"
-        ],
-        "keywords": [
-          "deeptutor: lifelong personalized tutoring",
-          "📦 releases",
-          "📰 news",
-          "✨ key features"
-        ],
-        "score": 100
-      },
-      "visual": {
-        "kind": "readme_image",
-        "url": "https://raw.githubusercontent.com/HKUDS/DeepTutor/main/assets/figs/web-1.6.5/OVERVIEW.png",
-        "thumbUrl": "https://raw.githubusercontent.com/HKUDS/DeepTutor/main/assets/figs/web-1.6.5/OVERVIEW.png",
-        "alt": "DeepTutor home — the Chat workspace with every surface in the sidebar",
-        "sourceUrl": "https://raw.githubusercontent.com/HKUDS/DeepTutor/main/assets/figs/web-1.6.5/OVERVIEW.png",
-        "promptHash": null
-      },
-      "classification": {
-        "primaryCategoryId": "unclassified",
-        "secondaryCategoryIds": [],
-        "confidence": 0.4,
-        "method": "rules",
-        "reasons": [
-          "No taxonomy rule matched with enough confidence"
-        ],
-        "signals": []
-      },
-      "rank": {
         "globalRank": 8,
         "categoryRank": 8,
         "score": 104
       }
     },
     {
-      "id": "jetbrains-thinkrail",
-      "owner": "JetBrains",
-      "name": "thinkrail",
-      "url": "https://github.com/JetBrains/thinkrail",
-      "avatarUrl": "https://github.com/JetBrains.png",
+      "id": "nightly-labs-openbot",
+      "owner": "nightly-labs",
+      "name": "openbot",
+      "url": "https://github.com/nightly-labs/openbot",
+      "avatarUrl": "https://github.com/nightly-labs.png",
       "homepageUrl": null,
       "source": {
         "primary": "github_trending_html",
         "sourceRank": 9,
-        "starsGained": 1211
+        "starsGained": 1053
       },
       "metadata": {
-        "description": "Vibe code with pi in a lightweight, real IDE that customises itself around the way you work — The Vibe You Need",
+        "description": "A local-first desktop workspace for persistent AI teammates. Run Codex, Claude, and Grok with dedicated workspaces, task queues, file sharing, browser control, and agent-to-agent collaboration.",
         "language": "TypeScript",
         "topics": [],
-        "stars": 3846,
-        "forks": 205,
+        "stars": 3137,
+        "forks": 305,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -747,49 +740,52 @@
         "status": "available",
         "path": "README.md",
         "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/JetBrains/thinkrail/main/README.md"
+        "rawUrl": "https://raw.githubusercontent.com/nightly-labs/openbot/main/README.md"
       },
       "readmeSignals": {
-        "title": "ThinkRail",
-        "summary": "ThinkRail is the agentic IDE that gets better every time you use it — learning your project through living specs today, and building its own capabilities tomorrow. We built a rich interface around the https://www.npmjs.com/package/@earendil-works/pi-coding-agent coding agent, isolated work into separate workspaces, and gave the agent durable project knowledge through living specs and reusable skills. Next, we're adding full extension support, so ThinkRail can create the tools it needs based on how you actually work. Website: https://thinkrail.ai/ · Blog: https://thinkrail.ai/blog/ · Discord: https://thinkrail.ai/discord",
+        "title": "OpenBot",
+        "summary": "OpenBot is a local-first desktop workspace for persistent AI teammates. It supports the local https://learn.chatgpt.com/docs/app-server and https://code.claude.com/docs/en/overview, plus https://docs.x.ai/build/overview, OpenCode, Gemini, https://cursor.com/cli, and https://cline.bot/cli through ACP. It gives every agent its own workspace and conversation, and provides local queues, file transfers, an embedded browser, and agent-to-agent messaging in one desktop app. Prompt-driven agent creation and editing on desktop and mobile, with editable instructions, avatar, and section review before saving. Persistent agents backed by independent Codex, Claude, Grok, OpenCode, Gemini, Cursor, or Clin",
         "headings": [
-          "ThinkRail",
-          "What you get",
+          "OpenBot",
+          "What works",
           "Install",
-          "Desktop",
-          "Command line",
-          "Platform notes",
-          "Analytics & privacy",
-          "Under the hood"
+          "macOS",
+          "Windows",
+          "Linux",
+          "Nix",
+          "Agent setup"
         ],
         "commands": [],
         "keywords": [
           "ai",
-          "thinkrail",
-          "what you get",
+          "agent",
+          "openbot",
+          "what works",
           "install",
-          "desktop"
+          "macos"
         ],
         "score": 100
       },
       "visual": {
-        "kind": "readme_image",
-        "url": "https://raw.githubusercontent.com/JetBrains/thinkrail/main/.github/readme-assets/workbench-light.png",
-        "thumbUrl": "https://raw.githubusercontent.com/JetBrains/thinkrail/main/.github/readme-assets/workbench-light.png",
-        "alt": "ThinkRail workbench: the Projects pane beside the left tool rail listing worktree workspaces and their Settled shelf, a finished pi conversation with its tool steps in the center, the resulting diff beside it, and the Specs tree above the Changes list on the right with their tools on the edge rail",
-        "sourceUrl": "https://raw.githubusercontent.com/JetBrains/thinkrail/main/.github/readme-assets/workbench-light.png",
-        "promptHash": null
+        "kind": "repository_open_graph",
+        "url": "https://opengraph.githubassets.com/daily-tech-radar/nightly-labs/openbot",
+        "thumbUrl": "https://opengraph.githubassets.com/daily-tech-radar/nightly-labs/openbot",
+        "alt": "nightly-labs/openbot",
+        "sourceUrl": "https://github.com/nightly-labs/openbot",
+        "promptHash": "sha256:c7ad7e4e46e0"
       },
       "classification": {
         "primaryCategoryId": "ai",
         "secondaryCategoryIds": [],
-        "confidence": 0.7,
+        "confidence": 0.8,
         "method": "rules",
         "reasons": [
-          "Matched ai"
+          "Matched ai",
+          "Matched agent"
         ],
         "signals": [
-          "ai"
+          "ai",
+          "agent"
         ]
       },
       "rank": {
@@ -808,14 +804,14 @@
       "source": {
         "primary": "github_trending_html",
         "sourceRank": 10,
-        "starsGained": 890
+        "starsGained": 1478
       },
       "metadata": {
         "description": "LIST OF ALL MY JAILBREAKS",
         "language": "",
         "topics": [],
-        "stars": 5341,
-        "forks": 808,
+        "stars": 6919,
+        "forks": 993,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -829,7 +825,7 @@
       },
       "readmeSignals": {
         "title": "Jailbreaks",
-        "summary": "A curated collection of system prompts, persona locks, workspace policies, and agent operating specifications for frontier, open-weight, and free stealth models. A working collection of 31 prompts targeting 25+ models, including complete system prompts, persona definitions, workspace policies, AGENTS.md files, configuration blocks, and Ollama Modelfiles. Every file is intended to be complete and paste-ready. No summaries. No partial excerpts. Free stealth models available through OpenCode Zen Open-weight families including GLM, DeepSeek, Kimi, Qwen, Gemma, and GPT-OSS Closed frontier models including Claude, Gemini, Grok, and Mistral Coding-agent and workspace instruction formats Ollama Mode",
+        "summary": "A curated collection of system prompts, persona locks, workspace policies, and agent operating specifications for frontier, open-weight, and free stealth models. A working collection of 32 prompts targeting 26+ models, including complete system prompts, persona definitions, workspace policies, AGENTS.md files, configuration blocks, and Ollama Modelfiles. Every file is intended to be complete and paste-ready. No summaries. No partial excerpts. Free stealth models available through OpenCode Zen Open-weight families including GLM, DeepSeek, Kimi, Qwen, Gemma, and GPT-OSS Closed frontier models including Claude, Gemini, Grok, and Mistral Coding-agent and workspace instruction formats Ollama Mode",
         "headings": [
           "Jailbreaks",
           "About",
@@ -875,6 +871,320 @@
         "categoryRank": 10,
         "score": 100
       }
+    },
+    {
+      "id": "hmjz100-linkswift",
+      "owner": "hmjz100",
+      "name": "LinkSwift",
+      "url": "https://github.com/hmjz100/LinkSwift",
+      "avatarUrl": "https://github.com/hmjz100.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 11,
+        "starsGained": 1380
+      },
+      "metadata": {
+        "description": "一个基于 JavaScript 的网盘文件下载地址获取工具。基于【网盘直链下载助手】修改 ，支持 百度网盘 / 阿里云盘 / 中国移动云盘 / 天翼云盘 / 迅雷云盘 / 夸克网盘 / UC网盘 / 123云盘 八大网盘",
+        "language": "JavaScript",
+        "topics": [],
+        "stars": 34297,
+        "forks": 2422,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "JavaScript"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/hmjz100/LinkSwift/main/README.md"
+      },
+      "readmeSignals": {
+        "title": null,
+        "summary": "“出淤泥而不染，濯清涟而不妖” 搭配使用，效果更佳！👋扩展脚本 123 云盘会员青春版 | 百度网盘会员青春版 | 阿里云盘会员青春版 ↓&nbsp;&nbsp;↓&nbsp;&nbsp;↓&nbsp;&nbsp;↓&nbsp;&nbsp;↓ 正式版 Github 国际: https://github.com/hmjz100/LinkSwift/raw/main/（改）网盘直链下载助手.user.js OpenUserJS 国际（更新不及时）: https://openuserjs.org/install/hmjz100/LinkSwift.user.js Gitee 国内: https://gitee.com/hmjz100/LinkSwift/raw/main/（改）网盘直链下载助手.user.js 脚本猫 国内: https://scriptcat.org/scripts/code/1604/LinkSwift.user.js Github 国际: https://github.com/hmjz100/LinkSwift/raw/dev/（改）网盘直链下载助手.user.js 基于https://www.baiduyun.wiki/install.html修改 原作者: https://www.youxiaohou.com/ 原仓库: https://github.com/syhyz1990/baiduyun 本脚本发布至脚本猫: https://scriptcat.org/script-show-page/1604 还有 OpenUserJS: https://ope",
+        "headings": [
+          "安装",
+          "LinkSwift",
+          "（改）百度网盘会员青春版",
+          "123 云盘会员青春版",
+          "说明",
+          "简介",
+          "贡献者",
+          "版本号"
+        ],
+        "commands": [],
+        "keywords": [
+          "安装",
+          "linkswift",
+          "（改）百度网盘会员青春版",
+          "123 云盘会员青春版"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://socialify.git.ci/hmjz100/LinkSwift/image?description=1&descriptionEditable=%E4%B8%80%E4%B8%AA%E5%9F%BA%E4%BA%8E%20JavaScript%20%E7%9A%84%E7%BD%91%E7%9B%98%E6%96%87%E4%BB%B6%E4%B8%8B%E8%BD%BD%E5%9C%B0%E5%9D%80%E8%8E%B7%E5%8F%96%E5%B7%A5%E5%85%B7&language=1&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjggMTI4Ij48cGF0aCBkPSJNMTAzLjYgMTA3LjRjMy41LTIuMiA4LjktNi4xIDEzLjgtMTIuNXM3LjMtMTIuNSA4LjUtMTYuNWMuNS0xLjcgMi4yLTcuNSAyLjItMTQuNyAwLTEwLjEtMy4zLTI1LjEtMTUuNC0zNi44LTE0LjUtMTQtMzIuMS0xNC4zLTM1LjctMTQuMy04IDAtMTUuNyAxLjktMjIuNiA1LjJDNDQgMjMgMzUuNyAzMS40IDMwLjggNDEuN2MtMS4zIDIuOC00IDQuNy03LjEgNS00IC4zLTcuNSA0LjQtOC45IDkuNi0uNSAxLjktMS42IDMuNS0zLjEgNC43QzQuNCA2Ni44IDAgNzUuNyAwIDg1YzAgNi44IDIuMyAxMy4xIDYuMSAxOC4yIDUuNSA3LjQgMTQuMiAxMi4yIDI0IDEyLjJoNDcuMWM0LjQgMCAxMS0uNSAxOC4zLTMuNSAzLjItMS40IDUuOS0zIDguMS00LjV6IiBmaWxsPSIjQTA5OUYwIi8%2BPHBhdGggZD0iTTExOS44IDY0LjNjLjEtMTcuMS0xMC40LTI4LTEyLjUtMzAuMUM5NSAyMi4xIDc5LjkgMjEuOCA3Ni45IDIxLjhjLTE3LjYgMC0zMy4zIDEwLjUtMzkuOSAyNi43LS42IDEuMy0xLjggMi4zLTMuNCAyLjNoLS40Yy01LjggMC0xMC42IDQuOC0xMC42IDEwLjd2LjVjMCAxLjQtLjggMi42LTEuOSAzLjNDMTMuNCA2OSA4LjggNzYuOCA4LjggODVjMCAxMi4yIDkuOSAyMi4zIDIyLjIgMjIuM2g0NS4yYzMuNi0uMSAxNy42LS45IDI5LjYtMTIgMi45LTIuOCAxMy45LTEzLjcgMTQtMzF6IiBmaWxsPSIjNTc0QUI4Ii8%2BPHBhdGggZD0iTTExMC44IDU3LjRsLjIgMy4zYzAgMS4zLTEuMSAyLjQtMi4zIDIuNC0xLjMgMC0yLjMtMS4xLTIuMy0yLjRsLS4xLTIuOHYtLjNjMC0xLjIuOS0yLjIgMi4xLTIuM2guM2MuNyAwIDEuMy4zIDEuNy43LS4yLjEuMy41LjQgMS40em0tMy4zLTEwLjNjMCAxLjItMSAyLjMtMi4yIDIuM2gtLjFjLS44IDAtMS42LS41LTItMS4yLTQuNi04LjMtMTMuMy0xMy41LTIyLjgtMTMuNS0xLjIgMC0yLjMtMS0yLjMtMi4ydi0uMWMwLTEuMiAxLTIuMyAyLjItMi4zaC4xYTMwLjM3IDMwLjM3IDAgMCAxIDE1LjggNC40YzQuNiAyLjggOC40IDYuOCAxMS4xIDExLjUuMS4zLjIuNy4yIDEuMXpNODguMyA3My44TDczLjUgOTMuMmMtMS41IDEuOS0zLjUgMy4xLTUuNyAzLjVoLS4yYy0uNC4xLS44LjEtMS4yLjEtLjYgMC0xLjEtLjEtMS42LS4yLTIuMi0uNC00LjItMS43LTUuNi0zLjVMNDQuMyA3My45Yy0yLTIuNi0yLjUtNS40LTEuNC03LjcuMS0uMS4xLS4yLjItLjIgMS4yLTIgMy41LTMuMiA2LjQtMy4yaDYuNnYtNS43YzAtNi44IDQuNy0xMiAxMC45LTEyIDQuOCAwIDguNSAyLjYgMTAuMyA3LjIuNSAxLjMtLjIgMi43LTEuNSAzLjJzLTIuOC0uMS0zLjMtMS40Yy0xLjEtMi43LTIuOS00LTUuNS00LTMuNSAwLTYgMy02IDd2OC4xYzAgLjUtLjIgMS0uNiAxLjQtLjYuNy0xLjcgMS4xLTIuNiAxLjFoLTguNGMtMS4zIDAtMiAuNC0yLjEuNy0uMi40IDAgMS4zLjkgMi40TDYzLjEgOTBjLjkgMS4yIDIuMSAxLjggMy4zIDEuOHMyLjMtLjYgMy4xLTEuN2wxNC44LTE5LjNjLjktMS4xIDEuMS0yIC45LTIuNC0uMi0uMy0uOS0uNy0yLjEtLjdoLTcuNmMtLjkgMC0xLjctLjUtMi4xLTEuMi0uMy0uNC0uNC0uOC0uNC0xLjMgMC0xLjQgMS4xLTIuNSAyLjUtMi41aDcuNmMzLjEgMCA1LjUgMS4zIDYuNiAzLjVsLjMuN2MuNyAyLjEuMSA0LjYtMS43IDYuOXoiIGZpbGw9IiNmZmYiLz48L3N2Zz4%3D&name=1&owner=1&pattern=Charlie%20Brown&theme=Auto",
+        "thumbUrl": "https://socialify.git.ci/hmjz100/LinkSwift/image?description=1&descriptionEditable=%E4%B8%80%E4%B8%AA%E5%9F%BA%E4%BA%8E%20JavaScript%20%E7%9A%84%E7%BD%91%E7%9B%98%E6%96%87%E4%BB%B6%E4%B8%8B%E8%BD%BD%E5%9C%B0%E5%9D%80%E8%8E%B7%E5%8F%96%E5%B7%A5%E5%85%B7&language=1&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjggMTI4Ij48cGF0aCBkPSJNMTAzLjYgMTA3LjRjMy41LTIuMiA4LjktNi4xIDEzLjgtMTIuNXM3LjMtMTIuNSA4LjUtMTYuNWMuNS0xLjcgMi4yLTcuNSAyLjItMTQuNyAwLTEwLjEtMy4zLTI1LjEtMTUuNC0zNi44LTE0LjUtMTQtMzIuMS0xNC4zLTM1LjctMTQuMy04IDAtMTUuNyAxLjktMjIuNiA1LjJDNDQgMjMgMzUuNyAzMS40IDMwLjggNDEuN2MtMS4zIDIuOC00IDQuNy03LjEgNS00IC4zLTcuNSA0LjQtOC45IDkuNi0uNSAxLjktMS42IDMuNS0zLjEgNC43QzQuNCA2Ni44IDAgNzUuNyAwIDg1YzAgNi44IDIuMyAxMy4xIDYuMSAxOC4yIDUuNSA3LjQgMTQuMiAxMi4yIDI0IDEyLjJoNDcuMWM0LjQgMCAxMS0uNSAxOC4zLTMuNSAzLjItMS40IDUuOS0zIDguMS00LjV6IiBmaWxsPSIjQTA5OUYwIi8%2BPHBhdGggZD0iTTExOS44IDY0LjNjLjEtMTcuMS0xMC40LTI4LTEyLjUtMzAuMUM5NSAyMi4xIDc5LjkgMjEuOCA3Ni45IDIxLjhjLTE3LjYgMC0zMy4zIDEwLjUtMzkuOSAyNi43LS42IDEuMy0xLjggMi4zLTMuNCAyLjNoLS40Yy01LjggMC0xMC42IDQuOC0xMC42IDEwLjd2LjVjMCAxLjQtLjggMi42LTEuOSAzLjNDMTMuNCA2OSA4LjggNzYuOCA4LjggODVjMCAxMi4yIDkuOSAyMi4zIDIyLjIgMjIuM2g0NS4yYzMuNi0uMSAxNy42LS45IDI5LjYtMTIgMi45LTIuOCAxMy45LTEzLjcgMTQtMzF6IiBmaWxsPSIjNTc0QUI4Ii8%2BPHBhdGggZD0iTTExMC44IDU3LjRsLjIgMy4zYzAgMS4zLTEuMSAyLjQtMi4zIDIuNC0xLjMgMC0yLjMtMS4xLTIuMy0yLjRsLS4xLTIuOHYtLjNjMC0xLjIuOS0yLjIgMi4xLTIuM2guM2MuNyAwIDEuMy4zIDEuNy43LS4yLjEuMy41LjQgMS40em0tMy4zLTEwLjNjMCAxLjItMSAyLjMtMi4yIDIuM2gtLjFjLS44IDAtMS42LS41LTItMS4yLTQuNi04LjMtMTMuMy0xMy41LTIyLjgtMTMuNS0xLjIgMC0yLjMtMS0yLjMtMi4ydi0uMWMwLTEuMiAxLTIuMyAyLjItMi4zaC4xYTMwLjM3IDMwLjM3IDAgMCAxIDE1LjggNC40YzQuNiAyLjggOC40IDYuOCAxMS4xIDExLjUuMS4zLjIuNy4yIDEuMXpNODguMyA3My44TDczLjUgOTMuMmMtMS41IDEuOS0zLjUgMy4xLTUuNyAzLjVoLS4yYy0uNC4xLS44LjEtMS4yLjEtLjYgMC0xLjEtLjEtMS42LS4yLTIuMi0uNC00LjItMS43LTUuNi0zLjVMNDQuMyA3My45Yy0yLTIuNi0yLjUtNS40LTEuNC03LjcuMS0uMS4xLS4yLjItLjIgMS4yLTIgMy41LTMuMiA2LjQtMy4yaDYuNnYtNS43YzAtNi44IDQuNy0xMiAxMC45LTEyIDQuOCAwIDguNSAyLjYgMTAuMyA3LjIuNSAxLjMtLjIgMi43LTEuNSAzLjJzLTIuOC0uMS0zLjMtMS40Yy0xLjEtMi43LTIuOS00LTUuNS00LTMuNSAwLTYgMy02IDd2OC4xYzAgLjUtLjIgMS0uNiAxLjQtLjYuNy0xLjcgMS4xLTIuNiAxLjFoLTguNGMtMS4zIDAtMiAuNC0yLjEuNy0uMi40IDAgMS4zLjkgMi40TDYzLjEgOTBjLjkgMS4yIDIuMSAxLjggMy4zIDEuOHMyLjMtLjYgMy4xLTEuN2wxNC44LTE5LjNjLjktMS4xIDEuMS0yIC45LTIuNC0uMi0uMy0uOS0uNy0yLjEtLjdoLTcuNmMtLjkgMC0xLjctLjUtMi4xLTEuMi0uMy0uNC0uNC0uOC0uNC0xLjMgMC0xLjQgMS4xLTIuNSAyLjUtMi41aDcuNmMzLjEgMCA1LjUgMS4zIDYuNiAzLjVsLjMuN2MuNyAyLjEuMSA0LjYtMS43IDYuOXoiIGZpbGw9IiNmZmYiLz48L3N2Zz4%3D&name=1&owner=1&pattern=Charlie%20Brown&theme=Auto",
+        "alt": "LinkSwift",
+        "sourceUrl": "https://socialify.git.ci/hmjz100/LinkSwift/image?description=1&descriptionEditable=%E4%B8%80%E4%B8%AA%E5%9F%BA%E4%BA%8E%20JavaScript%20%E7%9A%84%E7%BD%91%E7%9B%98%E6%96%87%E4%BB%B6%E4%B8%8B%E8%BD%BD%E5%9C%B0%E5%9D%80%E8%8E%B7%E5%8F%96%E5%B7%A5%E5%85%B7&language=1&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjggMTI4Ij48cGF0aCBkPSJNMTAzLjYgMTA3LjRjMy41LTIuMiA4LjktNi4xIDEzLjgtMTIuNXM3LjMtMTIuNSA4LjUtMTYuNWMuNS0xLjcgMi4yLTcuNSAyLjItMTQuNyAwLTEwLjEtMy4zLTI1LjEtMTUuNC0zNi44LTE0LjUtMTQtMzIuMS0xNC4zLTM1LjctMTQuMy04IDAtMTUuNyAxLjktMjIuNiA1LjJDNDQgMjMgMzUuNyAzMS40IDMwLjggNDEuN2MtMS4zIDIuOC00IDQuNy03LjEgNS00IC4zLTcuNSA0LjQtOC45IDkuNi0uNSAxLjktMS42IDMuNS0zLjEgNC43QzQuNCA2Ni44IDAgNzUuNyAwIDg1YzAgNi44IDIuMyAxMy4xIDYuMSAxOC4yIDUuNSA3LjQgMTQuMiAxMi4yIDI0IDEyLjJoNDcuMWM0LjQgMCAxMS0uNSAxOC4zLTMuNSAzLjItMS40IDUuOS0zIDguMS00LjV6IiBmaWxsPSIjQTA5OUYwIi8%2BPHBhdGggZD0iTTExOS44IDY0LjNjLjEtMTcuMS0xMC40LTI4LTEyLjUtMzAuMUM5NSAyMi4xIDc5LjkgMjEuOCA3Ni45IDIxLjhjLTE3LjYgMC0zMy4zIDEwLjUtMzkuOSAyNi43LS42IDEuMy0xLjggMi4zLTMuNCAyLjNoLS40Yy01LjggMC0xMC42IDQuOC0xMC42IDEwLjd2LjVjMCAxLjQtLjggMi42LTEuOSAzLjNDMTMuNCA2OSA4LjggNzYuOCA4LjggODVjMCAxMi4yIDkuOSAyMi4zIDIyLjIgMjIuM2g0NS4yYzMuNi0uMSAxNy42LS45IDI5LjYtMTIgMi45LTIuOCAxMy45LTEzLjcgMTQtMzF6IiBmaWxsPSIjNTc0QUI4Ii8%2BPHBhdGggZD0iTTExMC44IDU3LjRsLjIgMy4zYzAgMS4zLTEuMSAyLjQtMi4zIDIuNC0xLjMgMC0yLjMtMS4xLTIuMy0yLjRsLS4xLTIuOHYtLjNjMC0xLjIuOS0yLjIgMi4xLTIuM2guM2MuNyAwIDEuMy4zIDEuNy43LS4yLjEuMy41LjQgMS40em0tMy4zLTEwLjNjMCAxLjItMSAyLjMtMi4yIDIuM2gtLjFjLS44IDAtMS42LS41LTItMS4yLTQuNi04LjMtMTMuMy0xMy41LTIyLjgtMTMuNS0xLjIgMC0yLjMtMS0yLjMtMi4ydi0uMWMwLTEuMiAxLTIuMyAyLjItMi4zaC4xYTMwLjM3IDMwLjM3IDAgMCAxIDE1LjggNC40YzQuNiAyLjggOC40IDYuOCAxMS4xIDExLjUuMS4zLjIuNy4yIDEuMXpNODguMyA3My44TDczLjUgOTMuMmMtMS41IDEuOS0zLjUgMy4xLTUuNyAzLjVoLS4yYy0uNC4xLS44LjEtMS4yLjEtLjYgMC0xLjEtLjEtMS42LS4yLTIuMi0uNC00LjItMS43LTUuNi0zLjVMNDQuMyA3My45Yy0yLTIuNi0yLjUtNS40LTEuNC03LjcuMS0uMS4xLS4yLjItLjIgMS4yLTIgMy41LTMuMiA2LjQtMy4yaDYuNnYtNS43YzAtNi44IDQuNy0xMiAxMC45LTEyIDQuOCAwIDguNSAyLjYgMTAuMyA3LjIuNSAxLjMtLjIgMi43LTEuNSAzLjJzLTIuOC0uMS0zLjMtMS40Yy0xLjEtMi43LTIuOS00LTUuNS00LTMuNSAwLTYgMy02IDd2OC4xYzAgLjUtLjIgMS0uNiAxLjQtLjYuNy0xLjcgMS4xLTIuNiAxLjFoLTguNGMtMS4zIDAtMiAuNC0yLjEuNy0uMi40IDAgMS4zLjkgMi40TDYzLjEgOTBjLjkgMS4yIDIuMSAxLjggMy4zIDEuOHMyLjMtLjYgMy4xLTEuN2wxNC44LTE5LjNjLjktMS4xIDEuMS0yIC45LTIuNC0uMi0uMy0uOS0uNy0yLjEtLjdoLTcuNmMtLjkgMC0xLjctLjUtMi4xLTEuMi0uMy0uNC0uNC0uOC0uNC0xLjMgMC0xLjQgMS4xLTIuNSAyLjUtMi41aDcuNmMzLjEgMCA1LjUgMS4zIDYuNiAzLjVsLjMuN2MuNyAyLjEuMSA0LjYtMS43IDYuOXoiIGZpbGw9IiNmZmYiLz48L3N2Zz4%3D&name=1&owner=1&pattern=Charlie%20Brown&theme=Auto",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "unclassified",
+        "secondaryCategoryIds": [],
+        "confidence": 0.4,
+        "method": "rules",
+        "reasons": [
+          "No taxonomy rule matched with enough confidence"
+        ],
+        "signals": []
+      },
+      "rank": {
+        "globalRank": 11,
+        "categoryRank": 11,
+        "score": 98
+      }
+    },
+    {
+      "id": "expo-skills",
+      "owner": "expo",
+      "name": "skills",
+      "url": "https://github.com/expo/skills",
+      "avatarUrl": "https://github.com/expo.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 12,
+        "starsGained": 212
+      },
+      "metadata": {
+        "description": "A collection of AI agent skills for working with Expo projects and Expo Application Services",
+        "language": "Shell",
+        "topics": [],
+        "stars": 3509,
+        "forks": 221,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Shell"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/expo/skills/main/README.md"
+      },
+      "readmeSignals": {
+        "title": null,
+        "summary": "Official AI agent skills from the Expo team for building, deploying, upgrading, and debugging Expo apps. Skills give AI agents focused Expo knowledge: when to use Expo APIs, how to structure common workflows, and which Expo, EAS, React Native, iOS, and Android constraints matter. Expo documentation, Expo CLI, and EAS CLI remain the source of truth; these skills help agents apply them correctly. For Claude Code or Codex, install the plugin so updates are handled by the official plugin marketplace. For Cursor, OpenCode, and other AI coding agents, use the skills CLI.",
+        "headings": [
+          "How It Works",
+          "Installation",
+          "Skills CLI",
+          "Claude Code Plugin",
+          "Codex Plugin",
+          "Updating",
+          "Try It",
+          "Skills Included"
+        ],
+        "commands": [],
+        "keywords": [
+          "ai",
+          "agent",
+          "how it works",
+          "installation",
+          "skills cli",
+          "claude code plugin"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/expo/skills/main/assets/expo-skills.png",
+        "thumbUrl": "https://raw.githubusercontent.com/expo/skills/main/assets/expo-skills.png",
+        "alt": "Expo Skills",
+        "sourceUrl": "https://raw.githubusercontent.com/expo/skills/main/assets/expo-skills.png",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.8,
+        "method": "rules",
+        "reasons": [
+          "Matched ai",
+          "Matched agent"
+        ],
+        "signals": [
+          "ai",
+          "agent"
+        ]
+      },
+      "rank": {
+        "globalRank": 12,
+        "categoryRank": 12,
+        "score": 96
+      }
+    },
+    {
+      "id": "ruvnet-ruview",
+      "owner": "ruvnet",
+      "name": "RuView",
+      "url": "https://github.com/ruvnet/RuView",
+      "avatarUrl": "https://github.com/ruvnet.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 13,
+        "starsGained": 596
+      },
+      "metadata": {
+        "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
+        "language": "Rust",
+        "topics": [],
+        "stars": 100893,
+        "forks": 13155,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Rust"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/ruvnet/RuView/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "π RuView",
+        "summary": "Start here Hardware Models AI toolkit Smart home Cognitum Seed Turn ordinary WiFi into a spatial intelligence / sensing system. Detect people, measure breathing and heart rate, track movement, and monitor rooms — through walls, in the dark, with no cameras or wearables. Just physics. Works natively with the four major smart-home ecosystems: docs/integrations/home-assistant.md via the HA-DISCO MQTT publisher, docs/user-guide-apple-homepod.md as a discoverable HAP-1.1 bridge, docs/integrations/home-assistant.md + docs/integrations/home-assistant.md via the same HA bridge or a docs/adr/ADR-122-bfld-ruview-ha-matter-exposure.md endpoint. Siri, Google Assistant, and Alexa can voice presence and v",
+        "headings": [
+          "π RuView",
+          "**See through walls with WiFi** ##",
+          "π RuView is a WiFi sensing platform that turns radio signals into spatial intelligence.",
+          "Check the local setup and get source-cited guidance",
+          "Hardware: what is plugged in, live CSI from your nodes, a 60 GHz radar kit",
+          "Agents: MCP over stdio, or over HTTP for ChatGPT (token-protected, read tools only)",
+          "Claude Code: a live sensing pane (/ruview), shipped in the package",
+          "Run a read-only RuView agent through Codex"
+        ],
+        "commands": [
+          "pip install ruview                        # or: pip install wifi-densepose",
+          "pip install \"ruview[client]\"              # or: pip install \"wifi-densepose[client]\"",
+          "pip install huggingface_hub"
+        ],
+        "keywords": [
+          "π ruview",
+          "**see through walls with wifi** ##",
+          "π ruview is a wifi sensing platform that turns radio signals into spatial intelligence.",
+          "check the local setup and get source-cited guidance"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/ruvnet/RuView/main/assets/readme/hero-spatial-v6.svg",
+        "thumbUrl": "https://raw.githubusercontent.com/ruvnet/RuView/main/assets/readme/hero-spatial-v6.svg",
+        "alt": "RuView: spaces become signals, with an animated conceptual RF field",
+        "sourceUrl": "https://raw.githubusercontent.com/ruvnet/RuView/main/assets/readme/hero-spatial-v6.svg",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "unclassified",
+        "secondaryCategoryIds": [],
+        "confidence": 0.4,
+        "method": "rules",
+        "reasons": [
+          "No taxonomy rule matched with enough confidence"
+        ],
+        "signals": []
+      },
+      "rank": {
+        "globalRank": 13,
+        "categoryRank": 13,
+        "score": 94
+      }
+    },
+    {
+      "id": "xiaolai-the-craft-of-selfteaching",
+      "owner": "xiaolai",
+      "name": "the-craft-of-selfteaching",
+      "url": "https://github.com/xiaolai/the-craft-of-selfteaching",
+      "avatarUrl": "https://github.com/xiaolai.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 14,
+        "starsGained": 295
+      },
+      "metadata": {
+        "description": "One has no future if one couldn't teach themself.",
+        "language": "Jupyter Notebook",
+        "topics": [],
+        "stars": 18448,
+        "forks": 17882,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Jupyter Notebook"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/xiaolai/the-craft-of-selfteaching/master/README.md"
+      },
+      "readmeSignals": {
+        "title": "the-craft-of-selfteaching",
+        "summary": "One has no future if one couldn't teach themself 1 . 特别感谢霍炬（https://github.com/virushuo）、洪强宁（https://github.com/hongqn 两位良师诤友在此书写作过程中给予我的巨大帮助！ 请先行阅读 T-appendix.jupyter-installation-and-setup.ipynb 以便在本地安装 https://github.com/jupyterlab/jupyterlab 而后就能用更好的体验阅读本书。 - 01.preface.ipynb - 02.proof-of-work.ipynb - Part.1.A.better.teachyourself.ipynb - Part.1.B.why.start.from.learning.coding.ipynb - Part.1.C.must.learn.sth.only.by.reading.ipynb - Part.1.D.preparation.for.reading.ipynb - Part.1.E.1.entrance.ipynb - Part.1.E.2.values-and-their-operators.ipynb - Part.1.E.3.controlflow.ipynb - Part.1.E.4.functions.ipynb - Part.1.E.5.strings.ipynb - Part.1.E.6.containers.ipynb - Part.1.E.7.files.ipynb - P",
+        "headings": [
+          "the-craft-of-selfteaching",
+          "自学是门手艺",
+          "pseudo-code of selfteaching in Python",
+          "目录"
+        ],
+        "commands": [],
+        "keywords": [
+          "the-craft-of-selfteaching",
+          "自学是门手艺",
+          "pseudo-code of selfteaching in python",
+          "目录"
+        ],
+        "score": 80
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/xiaolai/the-craft-of-selfteaching/master/images/CC-BY-NC-ND.png%3Fraw=true",
+        "thumbUrl": "https://raw.githubusercontent.com/xiaolai/the-craft-of-selfteaching/master/images/CC-BY-NC-ND.png%3Fraw=true",
+        "alt": "CC-BY-NC-ND",
+        "sourceUrl": "https://raw.githubusercontent.com/xiaolai/the-craft-of-selfteaching/master/images/CC-BY-NC-ND.png%3Fraw=true",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "unclassified",
+        "secondaryCategoryIds": [],
+        "confidence": 0.4,
+        "method": "rules",
+        "reasons": [
+          "No taxonomy rule matched with enough confidence"
+        ],
+        "signals": []
+      },
+      "rank": {
+        "globalRank": 14,
+        "categoryRank": 14,
+        "score": 92
+      }
     }
   ],
   "views": [
@@ -884,15 +1194,16 @@
       "label": "AI",
       "categoryId": "ai",
       "repoIds": [
-        "nutlope-hallmark",
-        "nightly-labs-openbot",
+        "jetbrains-thinkrail",
+        "elayadesign-ai-design-skills",
         "obra-superpowers",
+        "nutlope-hallmark",
         "pbakaus-impeccable",
         "makecindy-cindy",
-        "gitroomhq-postiz-app",
-        "affaan-m-ecc",
-        "jetbrains-thinkrail",
-        "togg53192-cmd-jailbreaks"
+        "nightly-labs-openbot",
+        "macro-inc-macro",
+        "togg53192-cmd-jailbreaks",
+        "expo-skills"
       ],
       "sort": "score"
     },
@@ -902,18 +1213,21 @@
       "label": "Needs Review",
       "categoryId": "unclassified",
       "repoIds": [
-        "hkuds-deeptutor"
+        "hkuds-deeptutor",
+        "hmjz100-linkswift",
+        "ruvnet-ruview",
+        "xiaolai-the-craft-of-selfteaching"
       ],
       "sort": "score"
     }
   ],
   "health": {
     "status": "ok",
-    "candidateCount": 10,
-    "enrichedRepoCount": 10,
-    "unclassifiedRepoCount": 1,
+    "candidateCount": 14,
+    "enrichedRepoCount": 14,
+    "unclassifiedRepoCount": 4,
     "warnings": [
-      "6 repos used README images, 0 used Agnes images, 4 fell back to repository Open Graph covers"
+      "9 repos used README images, 0 used Agnes images, 5 fell back to repository Open Graph covers"
     ]
   }
 }
