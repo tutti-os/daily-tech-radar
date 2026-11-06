@@ -1,9 +1,9 @@
 {
   "schemaVersion": "trendreader.daily.v1",
-  "packageId": "github-daily-All-2026-11-05",
+  "packageId": "github-daily-All-2026-11-06",
   "locale": "zh-CN",
-  "generatedAt": "2026-11-05T20:17:31.359Z",
-  "expiresAt": "2026-11-06T20:17:31.359Z",
+  "generatedAt": "2026-11-06T20:16:19.856Z",
+  "expiresAt": "2026-11-07T20:16:19.856Z",
   "sourceWindow": {
     "since": "daily",
     "language": "All",
@@ -14,12 +14,12 @@
       "id": "github_trending_html",
       "role": "candidate",
       "status": "ok",
-      "itemCount": 15
+      "itemCount": 18
     }
   ],
   "taxonomy": {
-    "version": "2026-11-05",
-    "generatedAt": "2026-11-05T20:17:31.359Z",
+    "version": "2026-11-06",
+    "generatedAt": "2026-11-06T20:16:19.856Z",
     "categories": [
       {
         "id": "ai",
@@ -60,6 +60,81 @@
   },
   "repos": [
     {
+      "id": "zed-industries-zed",
+      "owner": "zed-industries",
+      "name": "zed",
+      "url": "https://github.com/zed-industries/zed",
+      "avatarUrl": "https://github.com/zed-industries.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 1,
+        "starsGained": 292
+      },
+      "metadata": {
+        "description": "Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.",
+        "language": "Rust",
+        "topics": [],
+        "stars": 93441,
+        "forks": 11486,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Rust"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/zed-industries/zed/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "Zed",
+        "summary": "Welcome to Zed, a high-performance, multiplayer code editor from the creators of https://github.com/atom/atom and https://github.com/tree-sitter/tree-sitter. On macOS, Linux, and Windows you can https://zed.dev/download or install Zed via your local package manager https://zed.dev/docs/installationmacos/https://zed.dev/docs/linuxinstalling-via-a-package-manager/https://zed.dev/docs/windowspackage-managers. Web https://github.com/zed-industries/zed/discussions/26195 ./docs/src/development/macos.md ./docs/src/development/linux.md ./docs/src/development/windows.md",
+        "headings": [
+          "Zed",
+          "Installation",
+          "Developing Zed",
+          "Contributing",
+          "Licensing",
+          "Sponsorship"
+        ],
+        "commands": [],
+        "keywords": [
+          "zed",
+          "installation",
+          "developing zed",
+          "contributing"
+        ],
+        "score": 90
+      },
+      "visual": {
+        "kind": "repository_open_graph",
+        "url": "https://opengraph.githubassets.com/daily-tech-radar/zed-industries/zed",
+        "thumbUrl": "https://opengraph.githubassets.com/daily-tech-radar/zed-industries/zed",
+        "alt": "zed-industries/zed",
+        "sourceUrl": "https://github.com/zed-industries/zed",
+        "promptHash": "sha256:375e30a12bef"
+      },
+      "classification": {
+        "primaryCategoryId": "unclassified",
+        "secondaryCategoryIds": [],
+        "confidence": 0.4,
+        "method": "rules",
+        "reasons": [
+          "No taxonomy rule matched with enough confidence"
+        ],
+        "signals": []
+      },
+      "rank": {
+        "globalRank": 1,
+        "categoryRank": 1,
+        "score": 118
+      }
+    },
+    {
       "id": "nvidia-auto-ontology",
       "owner": "NVIDIA",
       "name": "auto-ontology",
@@ -68,15 +143,15 @@
       "homepageUrl": null,
       "source": {
         "primary": "github_trending_html",
-        "sourceRank": 1,
-        "starsGained": 2707
+        "sourceRank": 2,
+        "starsGained": 2005
       },
       "metadata": {
         "description": "Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more explainable AI for LLM and agent workflows.",
         "language": "Python",
         "topics": [],
-        "stars": 7058,
-        "forks": 558,
+        "stars": 8809,
+        "forks": 707,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -140,9 +215,992 @@
         ]
       },
       "rank": {
-        "globalRank": 1,
-        "categoryRank": 1,
-        "score": 118
+        "globalRank": 2,
+        "categoryRank": 2,
+        "score": 116
+      }
+    },
+    {
+      "id": "rails-rails",
+      "owner": "rails",
+      "name": "rails",
+      "url": "https://github.com/rails/rails",
+      "avatarUrl": "https://github.com/rails.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 3,
+        "starsGained": 152
+      },
+      "metadata": {
+        "description": "Ruby on Rails",
+        "language": "Ruby",
+        "topics": [],
+        "stars": 58970,
+        "forks": 23826,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Ruby"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/rails/rails/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "Welcome to Rails",
+        "summary": "Rails is a web application framework that includes everything needed to create database-backed web applications according to the https://en.wikipedia.org/wiki/Model-view-controller pattern. Understanding the MVC pattern is key to understanding Rails. MVC divides your application into three layers: Model, View, and Controller, each with a specific responsibility. The Model layer represents the domain model such as Account, Product, Person, Post, etc. and encapsulates the business logic specific to your application. In Rails, database-backed model classes are derived from ActiveRecord::Base. activerecord/README.rdoc allows you to present the data from database rows as objects and embellish the",
+        "headings": [
+          "Welcome to Rails",
+          "What's Rails?",
+          "Model layer",
+          "View layer",
+          "Controller layer",
+          "Frameworks and libraries",
+          "Getting Started",
+          "Contributing"
+        ],
+        "commands": [],
+        "keywords": [
+          "ai",
+          "welcome to rails",
+          "what's rails?",
+          "model layer",
+          "view layer"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "repository_open_graph",
+        "url": "https://opengraph.githubassets.com/daily-tech-radar/rails/rails",
+        "thumbUrl": "https://opengraph.githubassets.com/daily-tech-radar/rails/rails",
+        "alt": "rails/rails",
+        "sourceUrl": "https://github.com/rails/rails",
+        "promptHash": "sha256:f8f0ac88a301"
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.7,
+        "method": "rules",
+        "reasons": [
+          "Matched ai"
+        ],
+        "signals": [
+          "ai"
+        ]
+      },
+      "rank": {
+        "globalRank": 3,
+        "categoryRank": 3,
+        "score": 109.2
+      }
+    },
+    {
+      "id": "mpv-player-mpv",
+      "owner": "mpv-player",
+      "name": "mpv",
+      "url": "https://github.com/mpv-player/mpv",
+      "avatarUrl": "https://github.com/mpv-player.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 4,
+        "starsGained": 36
+      },
+      "metadata": {
+        "description": "🎥 Command line media player",
+        "language": "C",
+        "topics": [],
+        "stars": 37839,
+        "forks": 3630,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "C"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/mpv-player/mpv/master/README.md"
+      },
+      "readmeSignals": {
+        "title": "mpv",
+        "summary": "external-links overview system-requirements downloads changelog compilation release-cycle bug-reports contributing license contact mpv is a free as in freedom media player for the command line. It supports a wide variety of media file formats, audio and video codecs, and subtitle types. Releases can be found on the release listreleases. A not too ancient Linux usually, only the latest releases of distributions are actively supported, Windows 10 1607 or later, or macOS 10.15 or later. A somewhat capable CPU. Hardware decoding might help if the CPU is too slow to decode video in realtime, but must be explicitly enabled with the --hwdec option. A not too crappy GPU. mpv's focus is not on power-",
+        "headings": [
+          "mpv",
+          "External links",
+          "Overview",
+          "System requirements",
+          "Downloads",
+          "Changelog",
+          "Compilation",
+          "Release cycle"
+        ],
+        "commands": [],
+        "keywords": [
+          "mpv",
+          "external links",
+          "overview",
+          "system requirements"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "repository_open_graph",
+        "url": "https://opengraph.githubassets.com/daily-tech-radar/mpv-player/mpv",
+        "thumbUrl": "https://opengraph.githubassets.com/daily-tech-radar/mpv-player/mpv",
+        "alt": "mpv-player/mpv",
+        "sourceUrl": "https://github.com/mpv-player/mpv",
+        "promptHash": "sha256:1b99f6561e2e"
+      },
+      "classification": {
+        "primaryCategoryId": "unclassified",
+        "secondaryCategoryIds": [],
+        "confidence": 0.4,
+        "method": "rules",
+        "reasons": [
+          "No taxonomy rule matched with enough confidence"
+        ],
+        "signals": []
+      },
+      "rank": {
+        "globalRank": 4,
+        "categoryRank": 4,
+        "score": 95.6
+      }
+    },
+    {
+      "id": "rust-lang-rust",
+      "owner": "rust-lang",
+      "name": "rust",
+      "url": "https://github.com/rust-lang/rust",
+      "avatarUrl": "https://github.com/rust-lang.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 5,
+        "starsGained": 186
+      },
+      "metadata": {
+        "description": "Empowering everyone to build reliable and efficient software.",
+        "language": "Rust",
+        "topics": [],
+        "stars": 121343,
+        "forks": 17361,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Rust"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/rust-lang/rust/main/README.md"
+      },
+      "readmeSignals": {
+        "title": null,
+        "summary": "WebsiteRust | Getting started | Learn | Documentation | Contributing This is the main source code repository for Rust. It contains the compiler, standard library, and documentation. Performance: Fast and memory-efficient, suitable for critical services, embedded devices, and easily integrated with other languages. Reliability: Our rich type system and ownership model ensure memory and thread safety, reducing bugs at compile-time. Productivity: Comprehensive documentation, a compiler committed to providing great diagnostics, and advanced tooling including package manager and build tool Cargo, auto-formatter rustfmt, linter Clippy and editor support rust-analyzer.",
+        "headings": [
+          "Why Rust?",
+          "Quick Start",
+          "Installing from Source",
+          "Getting Help",
+          "Contributing",
+          "License",
+          "Trademark"
+        ],
+        "commands": [],
+        "keywords": [
+          "ui",
+          "why rust?",
+          "quick start",
+          "installing from source",
+          "getting help"
+        ],
+        "score": 95
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/rust-lang/www.rust-lang.org/master/static/images/rust-social-wide-light.svg",
+        "thumbUrl": "https://raw.githubusercontent.com/rust-lang/www.rust-lang.org/master/static/images/rust-social-wide-light.svg",
+        "alt": "The Rust Programming Language: A language empowering everyone to build reliable and efficient software",
+        "sourceUrl": "https://raw.githubusercontent.com/rust-lang/www.rust-lang.org/master/static/images/rust-social-wide-light.svg",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "frontend",
+        "secondaryCategoryIds": [],
+        "confidence": 0.7,
+        "method": "rules",
+        "reasons": [
+          "Matched ui"
+        ],
+        "signals": [
+          "ui"
+        ]
+      },
+      "rank": {
+        "globalRank": 5,
+        "categoryRank": 5,
+        "score": 108.6
+      }
+    },
+    {
+      "id": "react-react",
+      "owner": "react",
+      "name": "react",
+      "url": "https://github.com/react/react",
+      "avatarUrl": "https://github.com/react.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 6,
+        "starsGained": 244
+      },
+      "metadata": {
+        "description": "The library for web and native user interfaces.",
+        "language": "JavaScript",
+        "topics": [],
+        "stars": 252189,
+        "forks": 51805,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "JavaScript"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/react/react/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "[React](https://react.dev/) &middot; [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/react/react/blob/main/LICENSE) [![npm version](https://img.shields.io/npm/v/react.svg?style=flat)](https://www.npmjs.com/package/react) [![(Runtime) Build and Test](https://github.com/react/react/actions/workflows/runtime_build_and_test.yml/badge.svg)](https://github.com/react/react/actions/workflows/runtime_build_and_test.yml) [![(Compiler) TypeScript](https://github.com/react/react/actions/workflows/compiler_typescript.yml/badge.svg?branch=main)](https://github.com/react/react/actions/workflows/compiler_typescript.yml) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://legacy.reactjs.org/docs/how-to-contribute.html#your-first-pull-request)",
+        "summary": "React is a JavaScript library for building user interfaces. Declarative: React makes it painless to create interactive UIs. Design simple views for each state in your application, and React will efficiently update and render just the right components when your data changes. Declarative views make your code more predictable, simpler to understand, and easier to debug. Component-Based: Build encapsulated components that manage their own state, then compose them to make complex UIs. Since component logic is written in JavaScript instead of templates, you can easily pass rich data through your app and keep the state out of the DOM. Learn Once, Write Anywhere: We don't make assumptions about the ",
+        "headings": [
+          "[React](https://react.dev/) &middot; [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/react/react/blob/main/LICENSE) [![npm version](https://img.shields.io/npm/v/react.svg?style=flat)](https://www.npmjs.com/package/react) [![(Runtime) Build and Test](https://github.com/react/react/actions/workflows/runtime_build_and_test.yml/badge.svg)](https://github.com/react/react/actions/workflows/runtime_build_and_test.yml) [![(Compiler) TypeScript](https://github.com/react/react/actions/workflows/compiler_typescript.yml/badge.svg?branch=main)](https://github.com/react/react/actions/workflows/compiler_typescript.yml) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://legacy.reactjs.org/docs/how-to-contribute.html#your-first-pull-request)",
+          "Installation",
+          "Documentation",
+          "Examples",
+          "Contributing",
+          "[Code of Conduct](https://code.fb.com/codeofconduct)",
+          "[Contributing Guide](https://legacy.reactjs.org/docs/how-to-contribute.html)",
+          "[Good First Issues](https://github.com/react/react/labels/good%20first%20issue)"
+        ],
+        "commands": [],
+        "keywords": [
+          "react",
+          "[react](https://react.dev/) &middot; [![github license](https://img.shields.io/badge/license-mit-blue.svg)](https://github.com/react/react/blob/main/license) [![npm version](https://img.shields.io/npm/v/react.svg?style=flat)](https://www.npmjs.com/package/react) [![(runtime) build and test](https://github.com/react/react/actions/workflows/runtime_build_and_test.yml/badge.svg)](https://github.com/react/react/actions/workflows/runtime_build_and_test.yml) [![(compiler) typescript](https://github.com/react/react/actions/workflows/compiler_typescript.yml/badge.svg?branch=main)](https://github.com/react/react/actions/workflows/compiler_typescript.yml) [![prs welcome](https://img.shields.io/badge/prs-welcome-brightgreen.svg)](https://legacy.reactjs.org/docs/how-to-contribute.html#your-first-pull-request)",
+          "installation",
+          "documentation",
+          "examples"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "repository_open_graph",
+        "url": "https://opengraph.githubassets.com/daily-tech-radar/react/react",
+        "thumbUrl": "https://opengraph.githubassets.com/daily-tech-radar/react/react",
+        "alt": "react/react",
+        "sourceUrl": "https://github.com/react/react",
+        "promptHash": "sha256:0a955d2ed73a"
+      },
+      "classification": {
+        "primaryCategoryId": "frontend",
+        "secondaryCategoryIds": [],
+        "confidence": 0.7,
+        "method": "rules",
+        "reasons": [
+          "Matched react"
+        ],
+        "signals": [
+          "react"
+        ]
+      },
+      "rank": {
+        "globalRank": 6,
+        "categoryRank": 6,
+        "score": 108
+      }
+    },
+    {
+      "id": "angular-angular",
+      "owner": "angular",
+      "name": "angular",
+      "url": "https://github.com/angular/angular",
+      "avatarUrl": "https://github.com/angular.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 7,
+        "starsGained": 128
+      },
+      "metadata": {
+        "description": "Deliver web apps with confidence 🚀",
+        "language": "TypeScript",
+        "topics": [],
+        "stars": 101264,
+        "forks": 28908,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "TypeScript"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/angular/angular/main/README.md"
+      },
+      "readmeSignals": {
+        "title": null,
+        "summary": "Angular - The modern web developer's platform Angular is a development platform for building mobile and desktop web applications using TypeScript/JavaScript and other languages. Contributing Guidelines · Submit an Issue · Blog Get started with Angular, learn the fundamentals and explore advanced topics on our documentation website. Getting Startedquickstart Architecturearchitecture Components and Templatescomponentstemplates Formsforms APIapi Angular Elementsangularelements Server Side Renderingssr Schematicsschematics Lazy Loadinglazyloading Animationsanimations",
+        "headings": [
+          "Documentation",
+          "Advanced",
+          "Local Development",
+          "Development Setup",
+          "Prerequisites",
+          "Setting Up a Project",
+          "Quickstart",
+          "Ecosystem"
+        ],
+        "commands": [
+          "npm install -g @angular/cli"
+        ],
+        "keywords": [
+          "documentation",
+          "advanced",
+          "local development",
+          "development setup"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/angular/angular/main//contributing-docs/images/angular-ecosystem-logos.png",
+        "thumbUrl": "https://raw.githubusercontent.com/angular/angular/main//contributing-docs/images/angular-ecosystem-logos.png",
+        "alt": "angular ecosystem logos",
+        "sourceUrl": "https://raw.githubusercontent.com/angular/angular/main//contributing-docs/images/angular-ecosystem-logos.png",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "unclassified",
+        "secondaryCategoryIds": [],
+        "confidence": 0.4,
+        "method": "rules",
+        "reasons": [
+          "No taxonomy rule matched with enough confidence"
+        ],
+        "signals": []
+      },
+      "rank": {
+        "globalRank": 7,
+        "categoryRank": 7,
+        "score": 98.8
+      }
+    },
+    {
+      "id": "symfony-symfony",
+      "owner": "symfony",
+      "name": "symfony",
+      "url": "https://github.com/symfony/symfony",
+      "avatarUrl": "https://github.com/symfony.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 8,
+        "starsGained": 89
+      },
+      "metadata": {
+        "description": "The Symfony PHP framework",
+        "language": "PHP",
+        "topics": [],
+        "stars": 31355,
+        "forks": 9944,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "PHP"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/symfony/symfony/master/README.md"
+      },
+      "readmeSignals": {
+        "title": null,
+        "summary": "Symfony1 is a PHP framework for web and console applications and a set of reusable PHP components. Symfony is used by thousands of web applications and most of the popular PHP projects2. Install Symfony4 with Composer see requirements details3. Symfony follows the semantic versioning5 strictly, publishes \"Long Term Support\" LTS versions and has a release process6 that is predictable and business-friendly. Help Symfony by sponsoring31 its development! Read the Getting Started guide7 if you are new to Symfony. Try the Symfony Demo application23 to learn Symfony in practice. Discover Symfony ecosystem in detail with Symfony The Fast Track26. Master Symfony with the Guides and Tutorials8, the Co",
+        "headings": [],
+        "commands": [],
+        "keywords": [],
+        "score": 60
+      },
+      "visual": {
+        "kind": "repository_open_graph",
+        "url": "https://opengraph.githubassets.com/daily-tech-radar/symfony/symfony",
+        "thumbUrl": "https://opengraph.githubassets.com/daily-tech-radar/symfony/symfony",
+        "alt": "symfony/symfony",
+        "sourceUrl": "https://github.com/symfony/symfony",
+        "promptHash": "sha256:fc1be195b1e6"
+      },
+      "classification": {
+        "primaryCategoryId": "unclassified",
+        "secondaryCategoryIds": [],
+        "confidence": 0.4,
+        "method": "rules",
+        "reasons": [
+          "No taxonomy rule matched with enough confidence"
+        ],
+        "signals": []
+      },
+      "rank": {
+        "globalRank": 8,
+        "categoryRank": 8,
+        "score": 92.9
+      }
+    },
+    {
+      "id": "prometheus-prometheus",
+      "owner": "prometheus",
+      "name": "prometheus",
+      "url": "https://github.com/prometheus/prometheus",
+      "avatarUrl": "https://github.com/prometheus.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 9,
+        "starsGained": 140
+      },
+      "metadata": {
+        "description": "The Prometheus monitoring system and time series database.",
+        "language": "Go",
+        "topics": [],
+        "stars": 67101,
+        "forks": 10981,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Go"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/prometheus/prometheus/main/README.md"
+      },
+      "readmeSignals": {
+        "title": null,
+        "summary": "Visit prometheus.io for the full documentation, examples and guides. Prometheus, a https://cncf.io/ project, is a systems and service monitoring system. It collects metrics from configured targets at given intervals, evaluates rule expressions, displays the results, and can trigger alerts when specified conditions are observed. The features that distinguish Prometheus from other metrics and monitoring systems are: A multi-dimensional data model time series defined by metric name and set of key/value dimensions PromQL, a powerful and flexible query language to leverage this dimensionality No dependency on distributed storage; single server nodes are autonomous An HTTP pull model for time seri",
+        "headings": [
+          "Architecture overview",
+          "Install",
+          "Precompiled binaries",
+          "Docker images",
+          "Building from source",
+          "Service discovery plugins",
+          "Building the Docker image",
+          "Using Prometheus as a Go Library"
+        ],
+        "commands": [],
+        "keywords": [
+          "database",
+          "architecture overview",
+          "install",
+          "precompiled binaries",
+          "docker images"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://quay.io/repository/prometheus/prometheus/status",
+        "thumbUrl": "https://quay.io/repository/prometheus/prometheus/status",
+        "alt": "Docker Repository on Quay",
+        "sourceUrl": "https://quay.io/repository/prometheus/prometheus/status",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "backend",
+        "secondaryCategoryIds": [],
+        "confidence": 0.7,
+        "method": "rules",
+        "reasons": [
+          "Matched database"
+        ],
+        "signals": [
+          "database"
+        ]
+      },
+      "rank": {
+        "globalRank": 9,
+        "categoryRank": 9,
+        "score": 96
+      }
+    },
+    {
+      "id": "google-skills",
+      "owner": "google",
+      "name": "skills",
+      "url": "https://github.com/google/skills",
+      "avatarUrl": "https://github.com/google.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 10,
+        "starsGained": 532
+      },
+      "metadata": {
+        "description": "Agent Skills for Google products and technologies",
+        "language": "Python",
+        "topics": [],
+        "stars": 22776,
+        "forks": 1918,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Python"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/google/skills/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "Agent Skills",
+        "summary": "This repository contains https://agentskills.io/home for Google products and technologies, including https://cloud.google.com. When prompted, select specific skills or all skills, the target agents to configure, and the installation scope project or global. If npx is not available in your environment, install https://nodejs.org/en/download, which includes npm and npx. To update previously installed skills to the latest versions, run the following command. This command gives you an option to also remove obsolete skills. Getting started with Google Cloud ./skills/cloud/google-cloud-recipe-auth ./skills/cloud/google-cloud-recipe-foundation-builder ./skills/cloud/google-cloud-recipe-onboarding M",
+        "headings": [
+          "Agent Skills",
+          "Installation",
+          "Updating Skills",
+          "Available Skills",
+          "Additional Google skills",
+          "Plugins",
+          "Support",
+          "Contributing"
+        ],
+        "commands": [],
+        "keywords": [
+          "agent",
+          "agent skills",
+          "installation",
+          "updating skills",
+          "available skills"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "repository_open_graph",
+        "url": "https://opengraph.githubassets.com/daily-tech-radar/google/skills",
+        "thumbUrl": "https://opengraph.githubassets.com/daily-tech-radar/google/skills",
+        "alt": "google/skills",
+        "sourceUrl": "https://github.com/google/skills",
+        "promptHash": "sha256:789e517be952"
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.7,
+        "method": "rules",
+        "reasons": [
+          "Matched agent"
+        ],
+        "signals": [
+          "agent"
+        ]
+      },
+      "rank": {
+        "globalRank": 10,
+        "categoryRank": 10,
+        "score": 100
+      }
+    },
+    {
+      "id": "microsoft-vscode",
+      "owner": "microsoft",
+      "name": "vscode",
+      "url": "https://github.com/microsoft/vscode",
+      "avatarUrl": "https://github.com/microsoft.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 11,
+        "starsGained": 295
+      },
+      "metadata": {
+        "description": "Visual Studio Code",
+        "language": "TypeScript",
+        "topics": [],
+        "stars": 194941,
+        "forks": 44412,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "TypeScript"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/microsoft/vscode/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "Visual Studio Code - Open Source (\"Code - OSS\")",
+        "summary": "Visual Studio Code - Open Source \"Code - OSS\" https://github.com/microsoft/vscode/issues?q=is%3Aopen+is%3Aissue+label%3Afeature-request+sort%3Areactions-%2B1-desc https://github.com/microsoft/vscode/issues?utf8=✓&q=is%3Aissue+is%3Aopen+label%3Abug This repository \"Code - OSS\" is where we Microsoft develop the https://code.visualstudio.com product together with the community. Not only do we work on code and issues here, but we also publish our https://github.com/microsoft/vscode/wiki/Roadmap, https://github.com/microsoft/vscode/wiki/Iteration-Plans, and our https://github.com/microsoft/vscode/wiki/Running-the-Endgame. This source code is available to everyone under the standard https://github",
+        "headings": [
+          "Visual Studio Code - Open Source (\"Code - OSS\")",
+          "The Repository",
+          "Visual Studio Code",
+          "Contributing",
+          "Feedback",
+          "Related Projects",
+          "Bundled Extensions",
+          "Development Container"
+        ],
+        "commands": [],
+        "keywords": [
+          "visual studio code - open source (\"code - oss\")",
+          "the repository",
+          "visual studio code",
+          "contributing"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://github.com/user-attachments/assets/56af271c-949d-454c-a3ea-16188c063414",
+        "thumbUrl": "https://github.com/user-attachments/assets/56af271c-949d-454c-a3ea-16188c063414",
+        "alt": "VS Code in action",
+        "sourceUrl": "https://github.com/user-attachments/assets/56af271c-949d-454c-a3ea-16188c063414",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "unclassified",
+        "secondaryCategoryIds": [],
+        "confidence": 0.4,
+        "method": "rules",
+        "reasons": [
+          "No taxonomy rule matched with enough confidence"
+        ],
+        "signals": []
+      },
+      "rank": {
+        "globalRank": 11,
+        "categoryRank": 11,
+        "score": 98
+      }
+    },
+    {
+      "id": "lz4-lz4",
+      "owner": "lz4",
+      "name": "lz4",
+      "url": "https://github.com/lz4/lz4",
+      "avatarUrl": "https://github.com/lz4.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 12,
+        "starsGained": 313
+      },
+      "metadata": {
+        "description": "Extremely Fast Compression algorithm",
+        "language": "C",
+        "topics": [],
+        "stars": 12620,
+        "forks": 1643,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "C"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/lz4/lz4/master/README.md"
+      },
+      "readmeSignals": {
+        "title": null,
+        "summary": "LZ4 is a lossless compression algorithm, providing compression speed 500 MB/s per core, scalable with multi-core CPUs. It features an extremely fast decoder, with speed in multiple GB/s per core, typically reaching RAM speed limits on multi-core systems. Compression speed can be tuned dynamically, by selecting an \"acceleration\" factor which trades compression ratio for faster speed. On the other end, a high compression derivative, LZ4HC, is also provided, trading CPU time for improved compression ratio. All versions feature the same decompression speed. LZ4 is also compatible with https://github.com/facebook/zstdthe-case-for-small-data-compression, both at lib/lz4frame.h and programs/lz4.1.m",
+        "headings": [
+          "Building LZ4 - Using vcpkg",
+          "Packaging status",
+          "Special Thanks"
+        ],
+        "commands": [],
+        "keywords": [
+          "building lz4 - using vcpkg",
+          "packaging status",
+          "special thanks"
+        ],
+        "score": 75
+      },
+      "visual": {
+        "kind": "repository_open_graph",
+        "url": "https://opengraph.githubassets.com/daily-tech-radar/lz4/lz4",
+        "thumbUrl": "https://opengraph.githubassets.com/daily-tech-radar/lz4/lz4",
+        "alt": "lz4/lz4",
+        "sourceUrl": "https://github.com/lz4/lz4",
+        "promptHash": "sha256:bdf5ca6a1740"
+      },
+      "classification": {
+        "primaryCategoryId": "unclassified",
+        "secondaryCategoryIds": [],
+        "confidence": 0.4,
+        "method": "rules",
+        "reasons": [
+          "No taxonomy rule matched with enough confidence"
+        ],
+        "signals": []
+      },
+      "rank": {
+        "globalRank": 12,
+        "categoryRank": 12,
+        "score": 96
+      }
+    },
+    {
+      "id": "nushell-nushell",
+      "owner": "nushell",
+      "name": "nushell",
+      "url": "https://github.com/nushell/nushell",
+      "avatarUrl": "https://github.com/nushell.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 13,
+        "starsGained": 88
+      },
+      "metadata": {
+        "description": "A new type of shell",
+        "language": "Rust",
+        "topics": [],
+        "stars": 40897,
+        "forks": 2339,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Rust"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/nushell/nushell/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "Nushell <!-- omit in toc -->",
+        "summary": "status learning-about-nu installation configuration philosophy pipelines opening-files plugins goals officially-supported-by contributing license This project has reached a minimum-viable-product level of quality. Many people use it as their daily driver, but it may be unstable for some commands. Nu's design is subject to change as it matures. The https://www.nushell.sh/book/ is the primary source of Nushell documentation. You can find https://www.nushell.sh/commands/, and we have many examples of using Nu in our https://www.nushell.sh/cookbook/. We're also active on https://discord.gg/NtAbbGn; come and chat with us!",
+        "headings": [
+          "Nushell <!-- omit in toc -->",
+          "Table of Contents <!-- omit in toc -->",
+          "Status",
+          "Learning About Nu",
+          "Installation",
+          "Linux and macOS",
+          "Windows",
+          "Configuration"
+        ],
+        "commands": [],
+        "keywords": [
+          "nushell <!-- omit in toc -->",
+          "table of contents <!-- omit in toc -->",
+          "status",
+          "learning about nu"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/nushell/nushell/main/assets/nushell-autocomplete6.gif",
+        "thumbUrl": "https://raw.githubusercontent.com/nushell/nushell/main/assets/nushell-autocomplete6.gif",
+        "alt": "Example of nushell",
+        "sourceUrl": "https://raw.githubusercontent.com/nushell/nushell/main/assets/nushell-autocomplete6.gif",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "unclassified",
+        "secondaryCategoryIds": [],
+        "confidence": 0.4,
+        "method": "rules",
+        "reasons": [
+          "No taxonomy rule matched with enough confidence"
+        ],
+        "signals": []
+      },
+      "rank": {
+        "globalRank": 13,
+        "categoryRank": 13,
+        "score": 82.8
+      }
+    },
+    {
+      "id": "etcd-io-etcd",
+      "owner": "etcd-io",
+      "name": "etcd",
+      "url": "https://github.com/etcd-io/etcd",
+      "avatarUrl": "https://github.com/etcd-io.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 14,
+        "starsGained": 123
+      },
+      "metadata": {
+        "description": "Distributed reliable key-value store for the most critical data of a distributed system",
+        "language": "Go",
+        "topics": [],
+        "stars": 52562,
+        "forks": 10587,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Go"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/etcd-io/etcd/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "etcd",
+        "summary": "Note: The main branch may be in an unstable or even broken state during development. For stable versions, see releasesgithub-release. etcd is a distributed reliable key-value store for the most critical data of a distributed system, with a focus on being: Simple: well-defined, user-facing API gRPC Secure: automatic TLS with optional client cert authentication Fast: benchmarked 10,000 writes/sec Reliable: properly distributed using Raft etcd is written in Go and uses the Raft consensus algorithm to manage a highly-available replicated log. etcd is used ./ADOPTERS.md, and the development team stands behind it in critical deployment scenarios, where etcd is frequently teamed with applications s",
+        "headings": [
+          "etcd",
+          "Documentation",
+          "Maintainers",
+          "Getting started",
+          "Getting etcd",
+          "Running etcd",
+          "etcd TCP ports",
+          "Running a local etcd cluster"
+        ],
+        "commands": [],
+        "keywords": [
+          "etcd",
+          "documentation",
+          "maintainers",
+          "getting started"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/etcd-io/etcd/main/logos/etcd-xkcd-2347.png",
+        "thumbUrl": "https://raw.githubusercontent.com/etcd-io/etcd/main/logos/etcd-xkcd-2347.png",
+        "alt": "etcd reliability is important",
+        "sourceUrl": "https://raw.githubusercontent.com/etcd-io/etcd/main/logos/etcd-xkcd-2347.png",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "unclassified",
+        "secondaryCategoryIds": [],
+        "confidence": 0.4,
+        "method": "rules",
+        "reasons": [
+          "No taxonomy rule matched with enough confidence"
+        ],
+        "signals": []
+      },
+      "rank": {
+        "globalRank": 14,
+        "categoryRank": 14,
+        "score": 84.3
+      }
+    },
+    {
+      "id": "openssl-openssl",
+      "owner": "openssl",
+      "name": "openssl",
+      "url": "https://github.com/openssl/openssl",
+      "avatarUrl": "https://github.com/openssl.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 15,
+        "starsGained": 24
+      },
+      "metadata": {
+        "description": "General purpose TLS and crypto library",
+        "language": "C",
+        "topics": [],
+        "stars": 31258,
+        "forks": 11580,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "C"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/openssl/openssl/master/README.md"
+      },
+      "readmeSignals": {
+        "title": null,
+        "summary": "Welcome to the OpenSSL Project ============================== OpenSSL is a robust, commercial-grade, full-featured Open Source Toolkit for the Transport Layer Security TLS, formerly SSL, Datagram TLS DTLS, and QUIC protocols. The protocol implementations are based on a full-strength general purpose cryptographic library, which can also be used stand-alone. Also included is a cryptographic module validated to conform with FIPS standards. OpenSSL is descended from the SSLeay library developed by Eric A. Young and Tim J. Hudson. The official Home Page of the OpenSSL Project is www.openssl.org.",
+        "headings": [],
+        "commands": [],
+        "keywords": [],
+        "score": 60
+      },
+      "visual": {
+        "kind": "repository_open_graph",
+        "url": "https://opengraph.githubassets.com/daily-tech-radar/openssl/openssl",
+        "thumbUrl": "https://opengraph.githubassets.com/daily-tech-radar/openssl/openssl",
+        "alt": "openssl/openssl",
+        "sourceUrl": "https://github.com/openssl/openssl",
+        "promptHash": "sha256:0f920a90adc6"
+      },
+      "classification": {
+        "primaryCategoryId": "unclassified",
+        "secondaryCategoryIds": [],
+        "confidence": 0.4,
+        "method": "rules",
+        "reasons": [
+          "No taxonomy rule matched with enough confidence"
+        ],
+        "signals": []
+      },
+      "rank": {
+        "globalRank": 15,
+        "categoryRank": 15,
+        "score": 72.4
       }
     },
     {
@@ -154,15 +1212,15 @@
       "homepageUrl": null,
       "source": {
         "primary": "github_trending_html",
-        "sourceRank": 2,
-        "starsGained": 2053
+        "sourceRank": 16,
+        "starsGained": 2058
       },
       "metadata": {
         "description": "Skills for Real Engineers. Straight from my .agents directory.",
         "language": "Shell",
         "topics": [],
-        "stars": 314955,
-        "forks": 26377,
+        "stars": 316536,
+        "forks": 26477,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -223,773 +1281,29 @@
         ]
       },
       "rank": {
-        "globalRank": 2,
-        "categoryRank": 2,
-        "score": 116
+        "globalRank": 16,
+        "categoryRank": 16,
+        "score": 88
       }
     },
     {
-      "id": "garrytan-gstack",
-      "owner": "garrytan",
-      "name": "gstack",
-      "url": "https://github.com/garrytan/gstack",
-      "avatarUrl": "https://github.com/garrytan.png",
+      "id": "cloudflare-security-audit-skill",
+      "owner": "cloudflare",
+      "name": "security-audit-skill",
+      "url": "https://github.com/cloudflare/security-audit-skill",
+      "avatarUrl": "https://github.com/cloudflare.png",
       "homepageUrl": null,
       "source": {
         "primary": "github_trending_html",
-        "sourceRank": 3,
-        "starsGained": 608
+        "sourceRank": 17,
+        "starsGained": 2524
       },
       "metadata": {
-        "description": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
-        "language": "TypeScript",
-        "topics": [],
-        "stars": 139851,
-        "forks": 20686,
-        "license": null,
-        "defaultBranch": null,
-        "pushedAt": null,
-        "topLanguages": [
-          "TypeScript"
-        ]
-      },
-      "readmeRef": {
-        "status": "available",
-        "path": "README.md",
-        "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/garrytan/gstack/main/README.md"
-      },
-      "readmeSignals": {
-        "title": "gstack",
-        "summary": "gstack turns Claude Code and other coding agents into a virtual engineering team: a CEO who rethinks the product, an eng manager who locks architecture, a designer who catches AI slop, a reviewer who finds production bugs, a QA lead who opens a real browser, a security officer who runs OWASP + STRIDE audits, and a release engineer who ships the PR. All slash commands, all Markdown, all free, MIT license. I'm https://x.com/garrytan, President & CEO of https://www.ycombinator.com/. This is the open source software factory I use every day, and I'm sharing it because these tools should be available to everyone. The story, the productivity numbers and how I run ten sprints at once are in docs/why",
-        "headings": [
-          "gstack",
-          "Quick start",
-          "Install — about 30 seconds",
-          "Step 1: Install on your machine",
-          "Step 2: Team mode — auto-update for shared repos (recommended)",
-          "Other AI Agents",
-          "See it work",
-          "The sprint"
-        ],
-        "commands": [],
-        "keywords": [
-          "tool",
-          "gstack",
-          "quick start",
-          "install — about 30 seconds",
-          "step 1: install on your machine"
-        ],
-        "score": 100
-      },
-      "visual": {
-        "kind": "repository_open_graph",
-        "url": "https://opengraph.githubassets.com/daily-tech-radar/garrytan/gstack",
-        "thumbUrl": "https://opengraph.githubassets.com/daily-tech-radar/garrytan/gstack",
-        "alt": "garrytan/gstack",
-        "sourceUrl": "https://github.com/garrytan/gstack",
-        "promptHash": "sha256:6fb8b64b1730"
-      },
-      "classification": {
-        "primaryCategoryId": "tools",
-        "secondaryCategoryIds": [],
-        "confidence": 0.7,
-        "method": "rules",
-        "reasons": [
-          "Matched tool"
-        ],
-        "signals": [
-          "tool"
-        ]
-      },
-      "rank": {
-        "globalRank": 3,
-        "categoryRank": 3,
-        "score": 114
-      }
-    },
-    {
-      "id": "usagi-org-ai-goofish-monitor",
-      "owner": "Usagi-org",
-      "name": "ai-goofish-monitor",
-      "url": "https://github.com/Usagi-org/ai-goofish-monitor",
-      "avatarUrl": "https://github.com/Usagi-org.png",
-      "homepageUrl": null,
-      "source": {
-        "primary": "github_trending_html",
-        "sourceRank": 4,
-        "starsGained": 242
-      },
-      "metadata": {
-        "description": "基于 Playwright 和AI实现的闲鱼多任务实时/定时监控与智能分析系统，配备了功能完善的后台管理UI。帮助用户从闲鱼海量商品中，找到心仪产品。",
-        "language": "Python",
-        "topics": [],
-        "stars": 17474,
-        "forks": 2938,
-        "license": null,
-        "defaultBranch": null,
-        "pushedAt": null,
-        "topLanguages": [
-          "Python"
-        ]
-      },
-      "readmeRef": {
-        "status": "available",
-        "path": "README.md",
-        "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/Usagi-org/ai-goofish-monitor/master/README.md"
-      },
-      "readmeSignals": {
-        "title": "闲鱼智能监控系统",
-        "summary": "基于 Playwright 和 AI 的闲鱼多任务实时监控，提供完整的 Web 管理界面。 Web 可视化管理: 任务管理、账号管理、AI 标准编辑、运行日志、结果浏览 AI 驱动: 自然语言创建任务，多模态模型深度分析商品 多任务并发: 独立配置关键词、价格、筛选条件和 AI Prompt 高级筛选: 包邮、新发布时间范围、省/市/区三级区域筛选 即时通知: 支持 ntfy.sh、企业微信、Bark、Telegram、Webhook等多渠道 定时调度: 支持 Cron 配置周期性任务 账号与代理轮换: 多账号管理、任务绑定账号、代理池轮换与失败重试 Docker 部署: 一键容器化部署 默认 Web UI 地址：http://127.0.0.1:8000 Docker 镜像已内置 Chromium，无需宿主机额外安装浏览器。 官方镜像地址：ghcr.io/usagi-org/ai-goofish:latest 更新镜像：docker compose pull && docker compose up -d 如果你修改了 .env 中的 SERVERPORT，请同步更新 docker-compose.yaml 里的端口映射。 docker-compose.yaml 默认会把 SQLite 主库挂载到 ./data:/app/data，数据库文件默认为 data/app.sqlite3 目前默认持久化这些目录： data/ SQLite 主存储（任务、结果、价格历史） state/ 登录状态 cookie 文件 prompts/ 任务提示词 logs/ 运行日志 images/ ",
-        "headings": [
-          "闲鱼智能监控系统",
-          "核心特性",
-          "截图",
-          "🐳 Docker 部署（推荐）",
-          "数据存储与迁移",
-          "最少配置",
-          "第一次使用",
-          "创建第一个任务"
-        ],
-        "commands": [
-          "pip install playwright && python3 -m playwright install chromium",
-          "npm install\nnpm run dev"
-        ],
-        "keywords": [
-          "ai",
-          "闲鱼智能监控系统",
-          "核心特性",
-          "截图",
-          "🐳 docker 部署（推荐）"
-        ],
-        "score": 100
-      },
-      "visual": {
-        "kind": "readme_image",
-        "url": "https://raw.githubusercontent.com/Usagi-org/ai-goofish-monitor/master/static/img.png",
-        "thumbUrl": "https://raw.githubusercontent.com/Usagi-org/ai-goofish-monitor/master/static/img.png",
-        "alt": "监控概览",
-        "sourceUrl": "https://raw.githubusercontent.com/Usagi-org/ai-goofish-monitor/master/static/img.png",
-        "promptHash": null
-      },
-      "classification": {
-        "primaryCategoryId": "ai",
-        "secondaryCategoryIds": [],
-        "confidence": 0.7,
-        "method": "rules",
-        "reasons": [
-          "Matched ai"
-        ],
-        "signals": [
-          "ai"
-        ]
-      },
-      "rank": {
-        "globalRank": 4,
-        "categoryRank": 4,
-        "score": 112
-      }
-    },
-    {
-      "id": "d4vinci-scrapling",
-      "owner": "D4Vinci",
-      "name": "Scrapling",
-      "url": "https://github.com/D4Vinci/Scrapling",
-      "avatarUrl": "https://github.com/D4Vinci.png",
-      "homepageUrl": null,
-      "source": {
-        "primary": "github_trending_html",
-        "sourceRank": 5,
-        "starsGained": 1661
-      },
-      "metadata": {
-        "description": "🕷️ The BEST Web Scraping framework that handles everything from a single request to a full-scale crawl! Don't be shy, join here: https://discord.gg/EMgGbDceNQ and follow here for daily tips and tricks: https://x.com/Scrapling_dev",
-        "language": "Python",
-        "topics": [],
-        "stars": 97803,
-        "forks": 10248,
-        "license": null,
-        "defaultBranch": null,
-        "pushedAt": null,
-        "topLanguages": [
-          "Python"
-        ]
-      },
-      "readmeRef": {
-        "status": "available",
-        "path": "README.md",
-        "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/D4Vinci/Scrapling/main/README.md"
-      },
-      "readmeSignals": {
-        "title": "Platinum Sponsors",
-        "summary": "Effortless Web Scraping for the Modern Web Selection methods &middot; Fetchers &middot; Spiders &middot; Proxy Rotation &middot; CLI &middot; MCP Scrapling is a Python Web Scraping framework that brings fast HTTP requests, stealth browsers, powerful parsing, and concurrent crawling into one library. Scrape static pages, render JavaScript, interact with websites, and extract data from the API calls behind them. Build crawlers with reusable sessions, proxy rotation, automatic retries, pause/resume, and built-in data exports. Use it from Python, the terminal, or your AI agent through its MCP server and Agent Skill. From extracting a few fields to collecting a whole website as clean Markdown, Sc",
-        "headings": [
-          "What you can do with Scrapling",
-          "Platinum Sponsors",
-          "Sponsors",
-          "Key Features",
-          "Spiders - A Full Crawling Framework",
-          "Advanced Websites Fetching with Session Support",
-          "Parsing and Data Extraction",
-          "AI Features"
-        ],
-        "commands": [
-          "pip install \"scrapling[shell]\"",
-          "pip install scrapling",
-          "pip install \"scrapling[fetchers]\"",
-          "pip install \"scrapling[ai]\"",
-          "pip install \"scrapling[rag]\"",
-          "pip install \"scrapling[shell]\""
-        ],
-        "keywords": [
-          "ai",
-          "what you can do with scrapling",
-          "platinum sponsors",
-          "sponsors",
-          "key features"
-        ],
-        "score": 100
-      },
-      "visual": {
-        "kind": "readme_image",
-        "url": "https://asciinema.org/a/736339.svg",
-        "thumbUrl": "https://asciinema.org/a/736339.svg",
-        "alt": "asciicast",
-        "sourceUrl": "https://asciinema.org/a/736339.svg",
-        "promptHash": null
-      },
-      "classification": {
-        "primaryCategoryId": "ai",
-        "secondaryCategoryIds": [],
-        "confidence": 0.7,
-        "method": "rules",
-        "reasons": [
-          "Matched ai"
-        ],
-        "signals": [
-          "ai"
-        ]
-      },
-      "rank": {
-        "globalRank": 5,
-        "categoryRank": 5,
-        "score": 110
-      }
-    },
-    {
-      "id": "vercel-labs-agent-desktop",
-      "owner": "vercel-labs",
-      "name": "agent-desktop",
-      "url": "https://github.com/vercel-labs/agent-desktop",
-      "avatarUrl": "https://github.com/vercel-labs.png",
-      "homepageUrl": null,
-      "source": {
-        "primary": "github_trending_html",
-        "sourceRank": 6,
-        "starsGained": 2173
-      },
-      "metadata": {
-        "description": "Computer use CLI for AI agents",
-        "language": "Rust",
-        "topics": [],
-        "stars": 16646,
-        "forks": 1164,
-        "license": null,
-        "defaultBranch": null,
-        "pushedAt": null,
-        "topLanguages": [
-          "Rust"
-        ]
-      },
-      "readmeRef": {
-        "status": "available",
-        "path": "README.md",
-        "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/vercel-labs/agent-desktop/main/README.md"
-      },
-      "readmeSignals": {
-        "title": "agent-desktop",
-        "summary": "Computer use for AI agents: see and operate desktop apps on macOS, Windows, and Linux through the OS accessibility tree. agent-desktop gives an AI agent computer use without screenshots or pixel matching. It reads the accessibility tree of a desktop app and returns it as JSON, with a ref for every element the agent can act on. The agent clicks or types on a ref, reads the UI again to check the result, and repeats. The loop lives in your agent; agent-desktop has no model inside. It ships as a CLI and a C library. Snapshots, clipboard reads, screenshots, command output, and debug artifacts can contain private desktop content. Keep them out of public logs and uploads.",
-        "headings": [
-          "agent-desktop",
-          "Install",
-          "Quick start",
-          "How it works",
-          "For AI agents",
-          "MCP",
-          "Commands",
-          "Platform support"
-        ],
-        "commands": [
-          "npm install -g agent-desktop"
-        ],
-        "keywords": [
-          "ai",
-          "agent",
-          "agent-desktop",
-          "install",
-          "quick start",
-          "how it works"
-        ],
-        "score": 100
-      },
-      "visual": {
-        "kind": "readme_image",
-        "url": "https://raw.githubusercontent.com/vercel-labs/agent-desktop/main/assets/architecture-light.png",
-        "thumbUrl": "https://raw.githubusercontent.com/vercel-labs/agent-desktop/main/assets/architecture-light.png",
-        "alt": "The calling agent runs the agent-desktop CLI or the C library. Both go through agent-desktop-core and the PlatformAdapter trait to one platform crate, chosen at compile time, which reads the target app through the AX API on macOS, UI Automation on Windows, or AT-SPI on Linux.",
-        "sourceUrl": "https://raw.githubusercontent.com/vercel-labs/agent-desktop/main/assets/architecture-light.png",
-        "promptHash": null
-      },
-      "classification": {
-        "primaryCategoryId": "ai",
-        "secondaryCategoryIds": [],
-        "confidence": 0.8,
-        "method": "rules",
-        "reasons": [
-          "Matched ai",
-          "Matched agent"
-        ],
-        "signals": [
-          "ai",
-          "agent"
-        ]
-      },
-      "rank": {
-        "globalRank": 6,
-        "categoryRank": 6,
-        "score": 108
-      }
-    },
-    {
-      "id": "max-sixty-worktrunk",
-      "owner": "max-sixty",
-      "name": "worktrunk",
-      "url": "https://github.com/max-sixty/worktrunk",
-      "avatarUrl": "https://github.com/max-sixty.png",
-      "homepageUrl": null,
-      "source": {
-        "primary": "github_trending_html",
-        "sourceRank": 7,
-        "starsGained": 546
-      },
-      "metadata": {
-        "description": "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows",
-        "language": "Rust",
-        "topics": [],
-        "stars": 11442,
-        "forks": 432,
-        "license": null,
-        "defaultBranch": null,
-        "pushedAt": null,
-        "topLanguages": [
-          "Rust"
-        ]
-      },
-      "readmeRef": {
-        "status": "available",
-        "path": "README.md",
-        "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/max-sixty/worktrunk/main/README.md"
-      },
-      "readmeSignals": {
-        "title": null,
-        "summary": "November 2026: Worktrunk was https://x.com/maxsixty/status/2006077845391724739?s=20 at the start of the year, and has quickly become the most popular git worktree manager. It's built with love there's no slop!. Please let me know any frictions at all; I'm intensely focused on continuing to make Worktrunk excellent, and the biggest help is folks posting problems they perceive. Worktrunk is a CLI for git worktree management, designed for running AI agents in parallel. Worktrunk's three core commands make worktrees as easy as branches. Plus, Worktrunk has a bunch of quality-of-life features to simplify working with many parallel changes, including hooks to automate local workflows & copy-on-wri",
-        "headings": [
-          "Context: git worktrees",
-          "Worktrunk makes git worktrees as easy as branches",
-          "Install",
-          "Quick start",
-          "Next steps",
-          "Contributing",
-          "Star history"
-        ],
-        "commands": [
-          "cargo install worktrunk && wt config shell install"
-        ],
-        "keywords": [
-          "ai",
-          "agent",
-          "context: git worktrees",
-          "worktrunk makes git worktrees as easy as branches",
-          "install",
-          "quick start"
-        ],
-        "score": 100
-      },
-      "visual": {
-        "kind": "readme_image",
-        "url": "https://cdn.jsdelivr.net/gh/max-sixty/worktrunk-assets@main/assets/docs/light/wt-core.gif",
-        "thumbUrl": "https://cdn.jsdelivr.net/gh/max-sixty/worktrunk-assets@main/assets/docs/light/wt-core.gif",
-        "alt": "Worktrunk Demo",
-        "sourceUrl": "https://cdn.jsdelivr.net/gh/max-sixty/worktrunk-assets@main/assets/docs/light/wt-core.gif",
-        "promptHash": null
-      },
-      "classification": {
-        "primaryCategoryId": "ai",
-        "secondaryCategoryIds": [],
-        "confidence": 0.8,
-        "method": "rules",
-        "reasons": [
-          "Matched ai",
-          "Matched agent"
-        ],
-        "signals": [
-          "ai",
-          "agent"
-        ]
-      },
-      "rank": {
-        "globalRank": 7,
-        "categoryRank": 7,
-        "score": 106
-      }
-    },
-    {
-      "id": "lz4-lz4",
-      "owner": "lz4",
-      "name": "lz4",
-      "url": "https://github.com/lz4/lz4",
-      "avatarUrl": "https://github.com/lz4.png",
-      "homepageUrl": null,
-      "source": {
-        "primary": "github_trending_html",
-        "sourceRank": 8,
-        "starsGained": 16
-      },
-      "metadata": {
-        "description": "Extremely Fast Compression algorithm",
-        "language": "C",
-        "topics": [],
-        "stars": 12333,
-        "forks": 1632,
-        "license": null,
-        "defaultBranch": null,
-        "pushedAt": null,
-        "topLanguages": [
-          "C"
-        ]
-      },
-      "readmeRef": {
-        "status": "available",
-        "path": "README.md",
-        "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/lz4/lz4/master/README.md"
-      },
-      "readmeSignals": {
-        "title": null,
-        "summary": "LZ4 is a lossless compression algorithm, providing compression speed 500 MB/s per core, scalable with multi-core CPUs. It features an extremely fast decoder, with speed in multiple GB/s per core, typically reaching RAM speed limits on multi-core systems. Compression speed can be tuned dynamically, by selecting an \"acceleration\" factor which trades compression ratio for faster speed. On the other end, a high compression derivative, LZ4HC, is also provided, trading CPU time for improved compression ratio. All versions feature the same decompression speed. LZ4 is also compatible with https://github.com/facebook/zstdthe-case-for-small-data-compression, both at lib/lz4frame.h and programs/lz4.1.m",
-        "headings": [
-          "Building LZ4 - Using vcpkg",
-          "Packaging status",
-          "Special Thanks"
-        ],
-        "commands": [],
-        "keywords": [
-          "building lz4 - using vcpkg",
-          "packaging status",
-          "special thanks"
-        ],
-        "score": 75
-      },
-      "visual": {
-        "kind": "repository_open_graph",
-        "url": "https://opengraph.githubassets.com/daily-tech-radar/lz4/lz4",
-        "thumbUrl": "https://opengraph.githubassets.com/daily-tech-radar/lz4/lz4",
-        "alt": "lz4/lz4",
-        "sourceUrl": "https://github.com/lz4/lz4",
-        "promptHash": "sha256:bdf5ca6a1740"
-      },
-      "classification": {
-        "primaryCategoryId": "unclassified",
-        "secondaryCategoryIds": [],
-        "confidence": 0.4,
-        "method": "rules",
-        "reasons": [
-          "No taxonomy rule matched with enough confidence"
-        ],
-        "signals": []
-      },
-      "rank": {
-        "globalRank": 8,
-        "categoryRank": 8,
-        "score": 85.6
-      }
-    },
-    {
-      "id": "google-skills",
-      "owner": "google",
-      "name": "skills",
-      "url": "https://github.com/google/skills",
-      "avatarUrl": "https://github.com/google.png",
-      "homepageUrl": null,
-      "source": {
-        "primary": "github_trending_html",
-        "sourceRank": 9,
-        "starsGained": 199
-      },
-      "metadata": {
-        "description": "Agent Skills for Google products and technologies",
-        "language": "Python",
-        "topics": [],
-        "stars": 22288,
-        "forks": 1887,
-        "license": null,
-        "defaultBranch": null,
-        "pushedAt": null,
-        "topLanguages": [
-          "Python"
-        ]
-      },
-      "readmeRef": {
-        "status": "available",
-        "path": "README.md",
-        "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/google/skills/main/README.md"
-      },
-      "readmeSignals": {
-        "title": "Agent Skills",
-        "summary": "This repository contains https://agentskills.io/home for Google products and technologies, including https://cloud.google.com. When prompted, select specific skills or all skills, the target agents to configure, and the installation scope project or global. If npx is not available in your environment, install https://nodejs.org/en/download, which includes npm and npx. To update previously installed skills to the latest versions, run the following command. This command gives you an option to also remove obsolete skills. Getting started with Google Cloud ./skills/cloud/google-cloud-recipe-auth ./skills/cloud/google-cloud-recipe-foundation-builder ./skills/cloud/google-cloud-recipe-onboarding M",
-        "headings": [
-          "Agent Skills",
-          "Installation",
-          "Updating Skills",
-          "Available Skills",
-          "Additional Google skills",
-          "Plugins",
-          "Support",
-          "Contributing"
-        ],
-        "commands": [],
-        "keywords": [
-          "agent",
-          "agent skills",
-          "installation",
-          "updating skills",
-          "available skills"
-        ],
-        "score": 100
-      },
-      "visual": {
-        "kind": "repository_open_graph",
-        "url": "https://opengraph.githubassets.com/daily-tech-radar/google/skills",
-        "thumbUrl": "https://opengraph.githubassets.com/daily-tech-radar/google/skills",
-        "alt": "google/skills",
-        "sourceUrl": "https://github.com/google/skills",
-        "promptHash": "sha256:789e517be952"
-      },
-      "classification": {
-        "primaryCategoryId": "ai",
-        "secondaryCategoryIds": [],
-        "confidence": 0.7,
-        "method": "rules",
-        "reasons": [
-          "Matched agent"
-        ],
-        "signals": [
-          "agent"
-        ]
-      },
-      "rank": {
-        "globalRank": 9,
-        "categoryRank": 9,
-        "score": 101.9
-      }
-    },
-    {
-      "id": "vercel-labs-agent-browser",
-      "owner": "vercel-labs",
-      "name": "agent-browser",
-      "url": "https://github.com/vercel-labs/agent-browser",
-      "avatarUrl": "https://github.com/vercel-labs.png",
-      "homepageUrl": null,
-      "source": {
-        "primary": "github_trending_html",
-        "sourceRank": 10,
-        "starsGained": 181
-      },
-      "metadata": {
-        "description": "Browser automation CLI for AI agents",
-        "language": "Rust",
-        "topics": [],
-        "stars": 45793,
-        "forks": 3143,
-        "license": null,
-        "defaultBranch": null,
-        "pushedAt": null,
-        "topLanguages": [
-          "Rust"
-        ]
-      },
-      "readmeRef": {
-        "status": "available",
-        "path": "README.md",
-        "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/vercel-labs/agent-browser/main/README.md"
-      },
-      "readmeSignals": {
-        "title": "agent-browser",
-        "summary": "Browser automation for AI agents: open pages, read them as an accessibility tree, and act on elements from the shell. agent-browser is a native Rust CLI that gives an AI agent a browser it can drive one command at a time. snapshot returns the page as compact text with a ref such as @e1 for each element. The agent acts on a ref, reads the page again to check the result, and repeats. The browser stays open between commands, so each step is one short shell call. Homebrew: brew install agent-browser, then agent-browser install. Linux: agent-browser install --with-deps also installs the browser's system libraries. No install: npx agent-browser open example.com.",
-        "headings": [
-          "agent-browser",
-          "Install",
-          "Quick start",
-          "How it works",
-          "For AI agents",
-          "Commands",
-          "Platforms",
-          "Development"
-        ],
-        "commands": [
-          "npm install -g agent-browser"
-        ],
-        "keywords": [
-          "ai",
-          "agent",
-          "agent-browser",
-          "install",
-          "quick start",
-          "how it works"
-        ],
-        "score": 100
-      },
-      "visual": {
-        "kind": "repository_open_graph",
-        "url": "https://opengraph.githubassets.com/daily-tech-radar/vercel-labs/agent-browser",
-        "thumbUrl": "https://opengraph.githubassets.com/daily-tech-radar/vercel-labs/agent-browser",
-        "alt": "vercel-labs/agent-browser",
-        "sourceUrl": "https://github.com/vercel-labs/agent-browser",
-        "promptHash": "sha256:579dd6894545"
-      },
-      "classification": {
-        "primaryCategoryId": "ai",
-        "secondaryCategoryIds": [],
-        "confidence": 0.8,
-        "method": "rules",
-        "reasons": [
-          "Matched ai",
-          "Matched agent"
-        ],
-        "signals": [
-          "ai",
-          "agent"
-        ]
-      },
-      "rank": {
-        "globalRank": 10,
-        "categoryRank": 10,
-        "score": 98.1
-      }
-    },
-    {
-      "id": "scenario-labs-skills",
-      "owner": "scenario-labs",
-      "name": "skills",
-      "url": "https://github.com/scenario-labs/skills",
-      "avatarUrl": "https://github.com/scenario-labs.png",
-      "homepageUrl": null,
-      "source": {
-        "primary": "github_trending_html",
-        "sourceRank": 11,
-        "starsGained": 674
-      },
-      "metadata": {
-        "description": "Get production-ready images, video, audio, and 3D from any AI agent: skills that pick the right model, price before spending, and keep characters and brands consistent through the Scenario MCP, plus expert teams that drive Blender, Maya, ZBrush, Unreal, and Unity.",
-        "language": "Python",
-        "topics": [],
-        "stars": 2955,
-        "forks": 264,
-        "license": null,
-        "defaultBranch": null,
-        "pushedAt": null,
-        "topLanguages": [
-          "Python"
-        ]
-      },
-      "readmeRef": {
-        "status": "available",
-        "path": "README.md",
-        "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/scenario-labs/skills/main/README.md"
-      },
-      "readmeSignals": {
-        "title": "Every Scenario skill, without the expert tools",
-        "summary": "Agent Skills that teach AI coding agents Claude Code, Cursor, Codex, Copilot, and 70+ others how to create production-ready content with https://scenario.com through the https://mcp.scenario.com: images, video, audio, textures, skyboxes, 3D assets, and custom-trained models, for games, entertainment, and any creative vertical. The expert tools at the bottom of the list work differently: teams of skills that drive DCC digital content creation software and game engines installed on your machine ZBrush, Blender, Maya, Unreal Engine, Unity, Godot, Roblox Studio, distilled from expert tutorials, conference talks, and official documentation. They need the application, not the Scenario MCP server, ",
-        "headings": [
-          "Install",
-          "Every Scenario skill, without the expert tools",
-          "Pick from the installer menu, grouped by topic (it opens with nothing preselected: select before pressing enter)",
-          "A single skill",
-          "Staying up to date",
-          "Skills",
-          "Getting started",
-          "Finding a direction"
-        ],
-        "commands": [],
-        "keywords": [
-          "ai",
-          "agent",
-          "mcp",
-          "model",
-          "install",
-          "every scenario skill, without the expert tools",
-          "pick from the installer menu, grouped by topic (it opens with nothing preselected: select before pressing enter)",
-          "a single skill"
-        ],
-        "score": 100
-      },
-      "visual": {
-        "kind": "readme_image",
-        "url": "https://skills.sh/b/scenario-labs/skills",
-        "thumbUrl": "https://skills.sh/b/scenario-labs/skills",
-        "alt": "skills.sh",
-        "sourceUrl": "https://skills.sh/b/scenario-labs/skills",
-        "promptHash": null
-      },
-      "classification": {
-        "primaryCategoryId": "ai",
-        "secondaryCategoryIds": [],
-        "confidence": 0.9,
-        "method": "rules",
-        "reasons": [
-          "Matched ai",
-          "Matched agent",
-          "Matched mcp",
-          "Matched model"
-        ],
-        "signals": [
-          "ai",
-          "agent",
-          "mcp",
-          "model"
-        ]
-      },
-      "rank": {
-        "globalRank": 11,
-        "categoryRank": 11,
-        "score": 98
-      }
-    },
-    {
-      "id": "conardli-garden-skills",
-      "owner": "ConardLi",
-      "name": "garden-skills",
-      "url": "https://github.com/ConardLi/garden-skills",
-      "avatarUrl": "https://github.com/ConardLi.png",
-      "homepageUrl": null,
-      "source": {
-        "primary": "github_trending_html",
-        "sourceRank": 12,
-        "starsGained": 241
-      },
-      "metadata": {
-        "description": "ConardLi's open-source Skills collection, featuring web design, knowledge retrieval, image generation, and more.",
+        "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
         "language": "JavaScript",
         "topics": [],
-        "stars": 14070,
-        "forks": 1643,
+        "stars": 63641,
+        "forks": 4127,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -1001,115 +1315,38 @@
         "status": "available",
         "path": "README.md",
         "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/ConardLi/garden-skills/main/README.md"
+        "rawUrl": "https://raw.githubusercontent.com/cloudflare/security-audit-skill/main/README.md"
       },
       "readmeSignals": {
-        "title": "Garden Skills",
-        "summary": "A curated collection of production-ready https://support.claude.com/en/articles/12512176-what-are-skills for Claude Code, Cursor, Codex, and other AI coding agents. motion-showreel Code-rendered short video web-video-presentation Web video / presentation web-design-engineer Design / frontend gpt-image-2 Image generation / prompting beautiful-article Any source → beautiful article kb-retriever Local knowledge retrieval ./LICENSE https://github.com/ConardLi/garden-skills/stargazers contributing skills-gallery https://agentskills.io ./README.md · ./README.zh-CN.md · ./README.ja-JP.md",
+        "title": "security-audit",
+        "summary": "A coding-agent skill that turns your agent into a security auditor. It orchestrates isolated agents through reconnaissance, coverage-led hunting, candidate validation, structured output, independent record verification, and target-neutral reporting. This is the skill that seeded Cloudflare's vulnerability discovery harness, described in https://blog.cloudflare.com/build-your-own-vulnerability-harness. The harness grew into a multi-stage, fleet-wide system; this skill is the single-repo starting point it evolved from. The skill runs a structured audit in six phases:",
         "headings": [
-          "Garden Skills",
-          "Table of contents",
-          "[`motion-showreel`](./skills/motion-showreel)",
-          "[`web-video-presentation`](./skills/web-video-presentation)",
-          "[`web-design-engineer`](./skills/web-design-engineer)",
-          "[`gpt-image-2`](./skills/gpt-image-2)",
-          "[`beautiful-article`](./skills/beautiful-article)",
-          "[`kb-retriever`](./skills/kb-retriever)"
+          "security-audit",
+          "What it does",
+          "Files",
+          "Installation",
+          "Usage",
+          "Requirements",
+          "Design principles",
+          "Contact"
         ],
         "commands": [],
         "keywords": [
-          "garden skills",
-          "table of contents",
-          "[`motion-showreel`](./skills/motion-showreel)",
-          "[`web-video-presentation`](./skills/web-video-presentation)"
+          "agent",
+          "security-audit",
+          "what it does",
+          "files",
+          "installation"
         ],
         "score": 100
       },
       "visual": {
-        "kind": "readme_image",
-        "url": "https://raw.githubusercontent.com/ConardLi/garden-skills/main/dist/imgs/covers/motion-showreel.webp",
-        "thumbUrl": "https://raw.githubusercontent.com/ConardLi/garden-skills/main/dist/imgs/covers/motion-showreel.webp",
-        "alt": "Motion Showreel Skill",
-        "sourceUrl": "https://raw.githubusercontent.com/ConardLi/garden-skills/main/dist/imgs/covers/motion-showreel.webp",
-        "promptHash": null
-      },
-      "classification": {
-        "primaryCategoryId": "unclassified",
-        "secondaryCategoryIds": [],
-        "confidence": 0.4,
-        "method": "rules",
-        "reasons": [
-          "No taxonomy rule matched with enough confidence"
-        ],
-        "signals": []
-      },
-      "rank": {
-        "globalRank": 12,
-        "categoryRank": 12,
-        "score": 96
-      }
-    },
-    {
-      "id": "microsoft-vibevoice",
-      "owner": "microsoft",
-      "name": "VibeVoice",
-      "url": "https://github.com/microsoft/VibeVoice",
-      "avatarUrl": "https://github.com/microsoft.png",
-      "homepageUrl": null,
-      "source": {
-        "primary": "github_trending_html",
-        "sourceRank": 13,
-        "starsGained": 214
-      },
-      "metadata": {
-        "description": "Open-Source Frontier Voice AI",
-        "language": "Python",
-        "topics": [],
-        "stars": 55742,
-        "forks": 6271,
-        "license": null,
-        "defaultBranch": null,
-        "pushedAt": null,
-        "topLanguages": [
-          "Python"
-        ]
-      },
-      "readmeRef": {
-        "status": "available",
-        "path": "README.md",
-        "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/microsoft/VibeVoice/main/README.md"
-      },
-      "readmeSignals": {
-        "title": null,
-        "summary": "🎙️ VibeVoice: Open-Source Frontier Voice AI https://microsoft.github.io/VibeVoice https://huggingface.co/collections/microsoft/vibevoice-68a2ef24a875c44be47b034f https://openreview.net/pdf?id=FihSkzyxdv https://arxiv.org/pdf/2601.18184 https://colab.research.google.com/github/microsoft/VibeVoice/blob/main/demo/VibeVoicecolab.ipynb https://aka.ms/vibevoice-asr 2026-09-03: 🚀 We released VibeVoice-ASR-Streaming , a unified streaming ASR model that continuously transcribes ''who said what'' as speech arrives, with support for customized hotwords and 10 languages. Demo Models Report",
-        "headings": [
-          "🎙️ VibeVoice: Open-Source Frontier Voice AI",
-          "Overview",
-          "Models",
-          "1. 📖 [VibeVoice-ASR](docs/vibevoice-asr.md) - Long-form Speech Recognition",
-          "2. 🎙️ [VibeVoice-TTS](docs/vibevoice-tts.md) - Long-form Multi-speaker TTS",
-          "3. ⚡ [VibeVoice-Streaming](docs/vibevoice-realtime-0.5b.md) - Real-time Streaming TTS",
-          "Contributing",
-          "⚠️ Risks and Limitations"
-        ],
-        "commands": [],
-        "keywords": [
-          "ai",
-          "🎙️ vibevoice: open-source frontier voice ai",
-          "overview",
-          "models",
-          "1. 📖 [vibevoice-asr](docs/vibevoice-asr.md) - long-form speech recognition"
-        ],
-        "score": 100
-      },
-      "visual": {
-        "kind": "readme_image",
-        "url": "https://raw.githubusercontent.com/microsoft/VibeVoice/main/Figures/DER.jpg",
-        "thumbUrl": "https://raw.githubusercontent.com/microsoft/VibeVoice/main/Figures/DER.jpg",
-        "alt": "DER",
-        "sourceUrl": "https://raw.githubusercontent.com/microsoft/VibeVoice/main/Figures/DER.jpg",
-        "promptHash": null
+        "kind": "repository_open_graph",
+        "url": "https://opengraph.githubassets.com/daily-tech-radar/cloudflare/security-audit-skill",
+        "thumbUrl": "https://opengraph.githubassets.com/daily-tech-radar/cloudflare/security-audit-skill",
+        "alt": "cloudflare/security-audit-skill",
+        "sourceUrl": "https://github.com/cloudflare/security-audit-skill",
+        "promptHash": "sha256:e140fa3767ba"
       },
       "classification": {
         "primaryCategoryId": "ai",
@@ -1117,80 +1354,79 @@
         "confidence": 0.7,
         "method": "rules",
         "reasons": [
-          "Matched ai"
+          "Matched agent"
         ],
         "signals": [
-          "ai"
+          "agent"
         ]
       },
       "rank": {
-        "globalRank": 13,
-        "categoryRank": 13,
-        "score": 94
+        "globalRank": 17,
+        "categoryRank": 17,
+        "score": 86
       }
     },
     {
-      "id": "floci-io-floci",
-      "owner": "floci-io",
-      "name": "floci",
-      "url": "https://github.com/floci-io/floci",
-      "avatarUrl": "https://github.com/floci-io.png",
+      "id": "astral-sh-ruff",
+      "owner": "astral-sh",
+      "name": "ruff",
+      "url": "https://github.com/astral-sh/ruff",
+      "avatarUrl": "https://github.com/astral-sh.png",
       "homepageUrl": null,
       "source": {
         "primary": "github_trending_html",
-        "sourceRank": 14,
-        "starsGained": 784
+        "sourceRank": 18,
+        "starsGained": 107
       },
       "metadata": {
-        "description": "Light, fluffy, and always free - The AWS Local Emulator alternative",
-        "language": "Java",
+        "description": "An extremely fast Python linter and code formatter, written in Rust.",
+        "language": "Rust",
         "topics": [],
-        "stars": 30295,
-        "forks": 3325,
+        "stars": 50596,
+        "forks": 2602,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
         "topLanguages": [
-          "Java"
+          "Rust"
         ]
       },
       "readmeRef": {
         "status": "available",
         "path": "README.md",
         "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/floci-io/floci/main/README.md"
+        "rawUrl": "https://raw.githubusercontent.com/astral-sh/ruff/main/README.md"
       },
       "readmeSignals": {
-        "title": "Before",
-        "summary": "Any Cloud. Locally. Light, fluffy, and always free No account. No auth token. No feature gates. Just docker compose up . Quick Start · Features · Services · SDKs · Testcontainers · Migration · Docs Floci is a free, open-source local AWS emulator for development, testing, and CI. It gives you AWS-shaped services on your machine without requiring a cloud account, an auth token, or paid feature gates. Point your AWS SDK, CLI, Terraform, CDK, OpenTofu, or test suite at http://localhost:4566 and keep your existing workflows. Already using LocalStack? Floci is a drop-in replacement: swap the image and keep going. See migrating-from-localstack.",
+        "title": "Ruff",
+        "summary": "An extremely fast Python linter and code formatter, written in Rust. Linting the CPython codebase from scratch. ⚡️ 10-100x faster than existing linters like Flake8 and formatters like Black 🐍 Installable via pip 🛠️ pyproject.toml support 🤝 Python 3.15 compatibility ⚖️ Drop-in parity with https://docs.astral.sh/ruff/faq/how-does-ruffs-linter-compare-to-flake8, https://docs.astral.sh/ruff/faq/how-does-ruffs-import-sorting-compare-to-isort, and https://docs.astral.sh/ruff/faq/how-does-ruffs-formatter-compare-to-black 📦 Built-in caching, to avoid re-analyzing unchanged files 🔧 Fix support, for automatic error correction e.g., automatically remove unused imports 📏 Over https://docs.astral.s",
         "headings": [
-          "What is Floci?",
-          "Quick Start",
-          "Watch it run",
-          "Before",
-          "After",
-          "Web Console",
-          "Running a different console",
-          "Features"
+          "Ruff",
+          "Testimonials",
+          "Table of Contents",
+          "Getting Started<a id=\"getting-started\"></a>",
+          "Installation",
+          "With uv.",
+          "With pip.",
+          "With pipx."
         ],
         "commands": [
-          "npm install --save-dev @floci/testcontainers",
-          "pip install testcontainers-floci"
+          "pip install ruff"
         ],
         "keywords": [
-          "what is floci?",
-          "quick start",
-          "watch it run",
-          "before"
+          "ruff",
+          "testimonials",
+          "table of contents",
+          "getting started<a id=\"getting-started\"></a>"
         ],
         "score": 100
       },
       "visual": {
         "kind": "readme_image",
-        "url": "https://raw.githubusercontent.com/floci-io/floci/main/docs/assets/floci-black.svg%23gh-light-mode-only",
-        "thumbUrl": "https://raw.githubusercontent.com/floci-io/floci/main/docs/assets/floci-black.svg%23gh-light-mode-only",
-        "alt": "Floci",
-        "sourceUrl": "https://raw.githubusercontent.com/floci-io/floci/main/docs/assets/floci-black.svg%23gh-light-mode-only",
+        "url": "https://user-images.githubusercontent.com/1309177/232603516-4fb4892d-585c-4b20-b810-3db9161831e4.svg",
+        "thumbUrl": "https://user-images.githubusercontent.com/1309177/232603516-4fb4892d-585c-4b20-b810-3db9161831e4.svg",
+        "alt": "Shows a bar chart with benchmark results.",
+        "sourceUrl": "https://user-images.githubusercontent.com/1309177/232603516-4fb4892d-585c-4b20-b810-3db9161831e4.svg",
         "promptHash": null
       },
       "classification": {
@@ -1204,86 +1440,9 @@
         "signals": []
       },
       "rank": {
-        "globalRank": 14,
-        "categoryRank": 14,
-        "score": 92
-      }
-    },
-    {
-      "id": "jiafeimiao-k-cat-discimagestudio",
-      "owner": "JiaFeiMiao-K-Cat",
-      "name": "DiscImageStudio",
-      "url": "https://github.com/JiaFeiMiao-K-Cat/DiscImageStudio",
-      "avatarUrl": "https://github.com/JiaFeiMiao-K-Cat.png",
-      "homepageUrl": null,
-      "source": {
-        "primary": "github_trending_html",
-        "sourceRank": 15,
-        "starsGained": 977
-      },
-      "metadata": {
-        "description": "",
-        "language": "C#",
-        "topics": [],
-        "stars": 7190,
-        "forks": 258,
-        "license": null,
-        "defaultBranch": null,
-        "pushedAt": null,
-        "topLanguages": [
-          "C#"
-        ]
-      },
-      "readmeRef": {
-        "status": "available",
-        "path": "README.md",
-        "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/JiaFeiMiao-K-Cat/DiscImageStudio/main/README.md"
-      },
-      "readmeSignals": {
-        "title": null,
-        "summary": "简体中文 | README.zh-TW.md | README.en.md | README.ja.md | README.tr.md | README.es.md | README.cs.md Disc Image Studio 是一个多平台的光盘盘面图像生成与刻录工具，帮助您使用任何刻录光驱在任何 DVD / CD / 单层蓝光 光盘上刻蚀出肉眼可见的图像。 Disc Image Studio 可将一张图片转换成符合 CD、DVD 与单层 BD-R 光盘物理层约束的数据，刻录后将使光盘盘面呈现肉眼可见的图案。 Windows 下载 win-x64.exe 后可直接运行。Linux 或 macOS 请下载与 CPU 匹配的实验性 CLI 压缩包，解压后运行 ./disc-image-studio --help。这些发布包均自带 .NET 运行时。 https://github.com/JiaFeiMiao-K-Cat/DiscImageStudio/releases 在设计页导入图片，用图层完成排版，并在右栏「影调」模块调整抖动、伽马、亮度与灰阶档位。 在预览页核对盘面投影，在导出页生成 ISO / RAW / WAV+CUE，或使用即时刻录功能直接写入空白盘片。 CD 支持：支持任何 CD 。您可导出带格式头的 WAV 音轨及配套 CUE，兼容 cdrecord, ImgBurn等刻录软件；也允许导出 RAW 音轨。详见 docs/CDAUDIOCOMPATIBILITY.md。 DVD 支持：支持任何 DVD。您可导出 ISO 镜像。 蓝光支持：支持任何单层 BD-R 2",
-        "headings": [
-          "效果预览",
-          "概述",
-          "界面预览",
-          "快速开始",
-          "1. 新建工程",
-          "2. 设计盘面",
-          "3. 预览与导出",
-          "功能"
-        ],
-        "commands": [],
-        "keywords": [
-          "效果预览",
-          "概述",
-          "界面预览",
-          "快速开始"
-        ],
-        "score": 100
-      },
-      "visual": {
-        "kind": "readme_image",
-        "url": "https://raw.githubusercontent.com/JiaFeiMiao-K-Cat/DiscImageStudio/main/docs/images/case1.jpg",
-        "thumbUrl": "https://raw.githubusercontent.com/JiaFeiMiao-K-Cat/DiscImageStudio/main/docs/images/case1.jpg",
-        "alt": "JiaFeiMiao-K-Cat/DiscImageStudio",
-        "sourceUrl": "https://raw.githubusercontent.com/JiaFeiMiao-K-Cat/DiscImageStudio/main/docs/images/case1.jpg",
-        "promptHash": null
-      },
-      "classification": {
-        "primaryCategoryId": "unclassified",
-        "secondaryCategoryIds": [],
-        "confidence": 0.4,
-        "method": "rules",
-        "reasons": [
-          "No taxonomy rule matched with enough confidence"
-        ],
-        "signals": []
-      },
-      "rank": {
-        "globalRank": 15,
-        "categoryRank": 15,
-        "score": 90
+        "globalRank": 18,
+        "categoryRank": 18,
+        "score": 74.7
       }
     }
   ],
@@ -1295,25 +1454,31 @@
       "categoryId": "ai",
       "repoIds": [
         "nvidia-auto-ontology",
-        "mattpocock-skills",
-        "usagi-org-ai-goofish-monitor",
-        "d4vinci-scrapling",
-        "vercel-labs-agent-desktop",
-        "max-sixty-worktrunk",
+        "rails-rails",
         "google-skills",
-        "vercel-labs-agent-browser",
-        "scenario-labs-skills",
-        "microsoft-vibevoice"
+        "mattpocock-skills",
+        "cloudflare-security-audit-skill"
       ],
       "sort": "score"
     },
     {
-      "id": "tools",
+      "id": "frontend",
       "type": "category",
-      "label": "工具",
-      "categoryId": "tools",
+      "label": "前端",
+      "categoryId": "frontend",
       "repoIds": [
-        "garrytan-gstack"
+        "rust-lang-rust",
+        "react-react"
+      ],
+      "sort": "score"
+    },
+    {
+      "id": "backend",
+      "type": "category",
+      "label": "后端",
+      "categoryId": "backend",
+      "repoIds": [
+        "prometheus-prometheus"
       ],
       "sort": "score"
     },
@@ -1323,21 +1488,27 @@
       "label": "Needs Review",
       "categoryId": "unclassified",
       "repoIds": [
-        "conardli-garden-skills",
-        "floci-io-floci",
-        "jiafeimiao-k-cat-discimagestudio",
-        "lz4-lz4"
+        "zed-industries-zed",
+        "angular-angular",
+        "microsoft-vscode",
+        "lz4-lz4",
+        "mpv-player-mpv",
+        "symfony-symfony",
+        "etcd-io-etcd",
+        "nushell-nushell",
+        "astral-sh-ruff",
+        "openssl-openssl"
       ],
       "sort": "score"
     }
   ],
   "health": {
     "status": "ok",
-    "candidateCount": 15,
-    "enrichedRepoCount": 15,
-    "unclassifiedRepoCount": 4,
+    "candidateCount": 18,
+    "enrichedRepoCount": 18,
+    "unclassifiedRepoCount": 10,
     "warnings": [
-      "11 repos used README images, 0 used Agnes images, 4 fell back to repository Open Graph covers"
+      "9 repos used README images, 0 used Agnes images, 9 fell back to repository Open Graph covers"
     ]
   }
 }
