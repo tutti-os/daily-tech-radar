@@ -1,9 +1,9 @@
 {
   "schemaVersion": "trendreader.daily.v1",
-  "packageId": "github-daily-All-2026-11-07",
+  "packageId": "github-daily-All-2026-11-08",
   "locale": "en-US",
-  "generatedAt": "2026-11-07T20:16:41.296Z",
-  "expiresAt": "2026-11-08T20:16:41.296Z",
+  "generatedAt": "2026-11-08T20:16:25.410Z",
+  "expiresAt": "2026-11-09T20:16:25.410Z",
   "sourceWindow": {
     "since": "daily",
     "language": "All",
@@ -14,12 +14,12 @@
       "id": "github_trending_html",
       "role": "candidate",
       "status": "ok",
-      "itemCount": 15
+      "itemCount": 9
     }
   ],
   "taxonomy": {
-    "version": "2026-11-07",
-    "generatedAt": "2026-11-07T20:16:41.296Z",
+    "version": "2026-11-08",
+    "generatedAt": "2026-11-08T20:16:25.410Z",
     "categories": [
       {
         "id": "ai",
@@ -60,6 +60,305 @@
   },
   "repos": [
     {
+      "id": "sherlock-project-sherlock",
+      "owner": "sherlock-project",
+      "name": "sherlock",
+      "url": "https://github.com/sherlock-project/sherlock",
+      "avatarUrl": "https://github.com/sherlock-project.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 1,
+        "starsGained": 2372
+      },
+      "metadata": {
+        "description": "Hunt down social media accounts by username across social networks",
+        "language": "Python",
+        "topics": [],
+        "stars": 103052,
+        "forks": 12098,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Python"
+        ]
+      },
+      "readmeRef": {
+        "status": "missing",
+        "path": null,
+        "sha": null,
+        "rawUrl": null
+      },
+      "readmeSignals": {
+        "title": "sherlock",
+        "summary": "Hunt down social media accounts by username across social networks",
+        "headings": [],
+        "commands": [],
+        "keywords": [],
+        "score": 40
+      },
+      "visual": {
+        "kind": "repository_open_graph",
+        "url": "https://opengraph.githubassets.com/daily-tech-radar/sherlock-project/sherlock",
+        "thumbUrl": "https://opengraph.githubassets.com/daily-tech-radar/sherlock-project/sherlock",
+        "alt": "sherlock-project/sherlock",
+        "sourceUrl": "https://github.com/sherlock-project/sherlock",
+        "promptHash": "sha256:af4e514b70e4"
+      },
+      "classification": {
+        "primaryCategoryId": "unclassified",
+        "secondaryCategoryIds": [],
+        "confidence": 0.4,
+        "method": "rules",
+        "reasons": [
+          "No taxonomy rule matched with enough confidence"
+        ],
+        "signals": []
+      },
+      "rank": {
+        "globalRank": 1,
+        "categoryRank": 1,
+        "score": 118
+      }
+    },
+    {
+      "id": "dsx-ai-factory-nvke",
+      "owner": "dsx-ai-factory",
+      "name": "nvke",
+      "url": "https://github.com/dsx-ai-factory/nvke",
+      "avatarUrl": "https://github.com/dsx-ai-factory.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 2,
+        "starsGained": 345
+      },
+      "metadata": {
+        "description": "NVIDIA Kubernetes Engine (NVKE). A management plane for GPU Kubernetes on bare metal.",
+        "language": "Go",
+        "topics": [],
+        "stars": 790,
+        "forks": 108,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Go"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/dsx-ai-factory/nvke/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "NVIDIA Kubernetes Engine (NVKE)",
+        "summary": "Run a managed Kubernetes service on your own NVIDIA GPU infrastructure. NVIDIA Kubernetes® Engine NVKE provides the management plane that platform teams install to create and operate Kubernetes clusters for their customers. Each workload cluster has its own Kubernetes control plane, etcd and node pools. You operate the NVKE management plane; your customers use their clusters through the Kubernetes API and kubectl. Preview: NVKE is available as a preview. APIs, configuration and behavior can change between releases, and we do not recommend NVKE for production workloads. See docs/overview/preview-status.md.",
+        "headings": [
+          "NVIDIA Kubernetes Engine (NVKE)",
+          "Getting started",
+          "What NVKE does",
+          "Overview",
+          "Build from source",
+          "Documentation",
+          "Contributing and support",
+          "Trademarks"
+        ],
+        "commands": [],
+        "keywords": [
+          "nvidia kubernetes engine (nvke)",
+          "getting started",
+          "what nvke does",
+          "overview"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/dsx-ai-factory/nvke/main/docs/assets/diagrams/product-family.svg",
+        "thumbUrl": "https://raw.githubusercontent.com/dsx-ai-factory/nvke/main/docs/assets/diagrams/product-family.svg",
+        "alt": "NVKE product family. NVKR builds and signs artifacts and publishes them to a registry. The operator installs the management cluster's components, the NVKE management plane, CAPNICo and NVKE observability, from the charts and images in the registry. The management plane requests machines through CAPNICo, which calls NICo, and drives each workload cluster. NICo provisions NVIDIA GPU machines from the node OS image, and those machines become the workload cluster's Kubernetes nodes, each running nvke-agent, under the cluster's Kubernetes control plane. The accelerated runtime produced by AICR and NVKE observability are optional in the workload cluster. The customer uses kubectl against the control plane.",
+        "sourceUrl": "https://raw.githubusercontent.com/dsx-ai-factory/nvke/main/docs/assets/diagrams/product-family.svg",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "unclassified",
+        "secondaryCategoryIds": [],
+        "confidence": 0.4,
+        "method": "rules",
+        "reasons": [
+          "No taxonomy rule matched with enough confidence"
+        ],
+        "signals": []
+      },
+      "rank": {
+        "globalRank": 2,
+        "categoryRank": 2,
+        "score": 116
+      }
+    },
+    {
+      "id": "milind-soni-openmausbot",
+      "owner": "milind-soni",
+      "name": "OpenMausBot",
+      "url": "https://github.com/milind-soni/OpenMausBot",
+      "avatarUrl": "https://github.com/milind-soni.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 3,
+        "starsGained": 1437
+      },
+      "metadata": {
+        "description": "Open-source Grok Bot alternative with a virtual machine that bots can use",
+        "language": "TypeScript",
+        "topics": [],
+        "stars": 18078,
+        "forks": 2525,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "TypeScript"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/milind-soni/OpenMausBot/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "OpenMausBot",
+        "summary": "The open-source Grok Bot alternative: your own team of AI bots, in a chat app. OpenMausBot is an open-source Grok Bot alternative: an independent project inspired by Grok Bot, and the open-source alternative to Meta Muse, OpenAI dots and Cue by Manus — bring-your-own-agent, local-first, on the models you already have. Also known as MausBot; formerly OpenGrokBot. Not affiliated with xAI, Meta, OpenAI or Manus. Every bot in the sidebar is a real agent — Claude or Codex running locally under the hood — with its own personality, its own model, its own cloud computer, and its own connected apps. Talk to them like contacts. Watch them work. Approve what matters.",
+        "headings": [
+          "OpenMausBot",
+          "Why",
+          "The open-source alternative to Grok Bot, Muse, dots and Cue",
+          "Features",
+          "🧠 Pick a brain per bot",
+          "🖥️ Every bot gets a computer",
+          "🙋 Bots ask before they act",
+          "🔌 Connected apps"
+        ],
+        "commands": [
+          "npm install -g openmausbot"
+        ],
+        "keywords": [
+          "openmausbot",
+          "why",
+          "the open-source alternative to grok bot, muse, dots and cue",
+          "features"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/milind-soni/OpenMausBot/main/docs/screenshots/hero.png",
+        "thumbUrl": "https://raw.githubusercontent.com/milind-soni/OpenMausBot/main/docs/screenshots/hero.png",
+        "alt": "OpenMausBot — a Telegram-style chat app where every chat is a real AI agent",
+        "sourceUrl": "https://raw.githubusercontent.com/milind-soni/OpenMausBot/main/docs/screenshots/hero.png",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "unclassified",
+        "secondaryCategoryIds": [],
+        "confidence": 0.4,
+        "method": "rules",
+        "reasons": [
+          "No taxonomy rule matched with enough confidence"
+        ],
+        "signals": []
+      },
+      "rank": {
+        "globalRank": 3,
+        "categoryRank": 3,
+        "score": 114
+      }
+    },
+    {
+      "id": "anthropics-claude-quickstarts",
+      "owner": "anthropics",
+      "name": "claude-quickstarts",
+      "url": "https://github.com/anthropics/claude-quickstarts",
+      "avatarUrl": "https://github.com/anthropics.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 4,
+        "starsGained": 28
+      },
+      "metadata": {
+        "description": "A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API",
+        "language": "Python",
+        "topics": [],
+        "stars": 19344,
+        "forks": 3277,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Python"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/anthropics/claude-quickstarts/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "Claude Quickstarts",
+        "summary": "Claude Quickstarts is a collection of projects designed to help developers quickly get started with building applications using the Claude API. Each quickstart provides a foundation that you can easily build upon and customize for your specific needs. To use these quickstarts, you'll need an Claude API key. If you don't have one yet, you can sign up for free at https://console.anthropic.com. A customer support agent powered by Claude. This project demonstrates how to leverage Claude's natural language understanding and generation capabilities to create an AI-assisted customer support system with access to a knowledge base.",
+        "headings": [
+          "Claude Quickstarts",
+          "Getting Started",
+          "Available Quickstarts",
+          "Customer Support Agent",
+          "Financial Data Analyst",
+          "Computer Use Demo",
+          "Computer Use Best Practices",
+          "Browser Use Demo"
+        ],
+        "commands": [],
+        "keywords": [
+          "ui",
+          "claude quickstarts",
+          "getting started",
+          "available quickstarts",
+          "customer support agent"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "repository_open_graph",
+        "url": "https://opengraph.githubassets.com/daily-tech-radar/anthropics/claude-quickstarts",
+        "thumbUrl": "https://opengraph.githubassets.com/daily-tech-radar/anthropics/claude-quickstarts",
+        "alt": "anthropics/claude-quickstarts",
+        "sourceUrl": "https://github.com/anthropics/claude-quickstarts",
+        "promptHash": "sha256:e1aed73a2e8f"
+      },
+      "classification": {
+        "primaryCategoryId": "frontend",
+        "secondaryCategoryIds": [],
+        "confidence": 0.7,
+        "method": "rules",
+        "reasons": [
+          "Matched ui"
+        ],
+        "signals": [
+          "ui"
+        ]
+      },
+      "rank": {
+        "globalRank": 4,
+        "categoryRank": 4,
+        "score": 94.8
+      }
+    },
+    {
       "id": "vercel-labs-agent-browser",
       "owner": "vercel-labs",
       "name": "agent-browser",
@@ -68,15 +367,15 @@
       "homepageUrl": null,
       "source": {
         "primary": "github_trending_html",
-        "sourceRank": 1,
-        "starsGained": 180
+        "sourceRank": 5,
+        "starsGained": 812
       },
       "metadata": {
         "description": "Browser automation CLI for AI agents",
         "language": "Rust",
         "topics": [],
-        "stars": 46709,
-        "forks": 3203,
+        "stars": 47479,
+        "forks": 3253,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -139,329 +438,6 @@
         ]
       },
       "rank": {
-        "globalRank": 1,
-        "categoryRank": 1,
-        "score": 116
-      }
-    },
-    {
-      "id": "cloudflare-security-audit-skill",
-      "owner": "cloudflare",
-      "name": "security-audit-skill",
-      "url": "https://github.com/cloudflare/security-audit-skill",
-      "avatarUrl": "https://github.com/cloudflare.png",
-      "homepageUrl": null,
-      "source": {
-        "primary": "github_trending_html",
-        "sourceRank": 2,
-        "starsGained": 2088
-      },
-      "metadata": {
-        "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
-        "language": "JavaScript",
-        "topics": [],
-        "stars": 65449,
-        "forks": 4255,
-        "license": null,
-        "defaultBranch": null,
-        "pushedAt": null,
-        "topLanguages": [
-          "JavaScript"
-        ]
-      },
-      "readmeRef": {
-        "status": "available",
-        "path": "README.md",
-        "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/cloudflare/security-audit-skill/main/README.md"
-      },
-      "readmeSignals": {
-        "title": "security-audit",
-        "summary": "A coding-agent skill that turns your agent into a security auditor. It orchestrates isolated agents through reconnaissance, coverage-led hunting, candidate validation, structured output, independent record verification, and target-neutral reporting. This is the skill that seeded Cloudflare's vulnerability discovery harness, described in https://blog.cloudflare.com/build-your-own-vulnerability-harness. The harness grew into a multi-stage, fleet-wide system; this skill is the single-repo starting point it evolved from. The skill runs a structured audit in six phases:",
-        "headings": [
-          "security-audit",
-          "What it does",
-          "Files",
-          "Installation",
-          "Usage",
-          "Requirements",
-          "Design principles",
-          "Contact"
-        ],
-        "commands": [],
-        "keywords": [
-          "agent",
-          "security-audit",
-          "what it does",
-          "files",
-          "installation"
-        ],
-        "score": 100
-      },
-      "visual": {
-        "kind": "repository_open_graph",
-        "url": "https://opengraph.githubassets.com/daily-tech-radar/cloudflare/security-audit-skill",
-        "thumbUrl": "https://opengraph.githubassets.com/daily-tech-radar/cloudflare/security-audit-skill",
-        "alt": "cloudflare/security-audit-skill",
-        "sourceUrl": "https://github.com/cloudflare/security-audit-skill",
-        "promptHash": "sha256:e140fa3767ba"
-      },
-      "classification": {
-        "primaryCategoryId": "ai",
-        "secondaryCategoryIds": [],
-        "confidence": 0.7,
-        "method": "rules",
-        "reasons": [
-          "Matched agent"
-        ],
-        "signals": [
-          "agent"
-        ]
-      },
-      "rank": {
-        "globalRank": 2,
-        "categoryRank": 2,
-        "score": 116
-      }
-    },
-    {
-      "id": "google-skills",
-      "owner": "google",
-      "name": "skills",
-      "url": "https://github.com/google/skills",
-      "avatarUrl": "https://github.com/google.png",
-      "homepageUrl": null,
-      "source": {
-        "primary": "github_trending_html",
-        "sourceRank": 3,
-        "starsGained": 449
-      },
-      "metadata": {
-        "description": "Agent Skills for Google products and technologies",
-        "language": "Python",
-        "topics": [],
-        "stars": 23284,
-        "forks": 1948,
-        "license": null,
-        "defaultBranch": null,
-        "pushedAt": null,
-        "topLanguages": [
-          "Python"
-        ]
-      },
-      "readmeRef": {
-        "status": "available",
-        "path": "README.md",
-        "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/google/skills/main/README.md"
-      },
-      "readmeSignals": {
-        "title": "Agent Skills",
-        "summary": "This repository contains https://agentskills.io/home for Google products and technologies, including https://cloud.google.com. When prompted, select specific skills or all skills, the target agents to configure, and the installation scope project or global. If npx is not available in your environment, install https://nodejs.org/en/download, which includes npm and npx. To update previously installed skills to the latest versions, run the following command. This command gives you an option to also remove obsolete skills. Getting started with Google Cloud ./skills/cloud/google-cloud-recipe-auth ./skills/cloud/google-cloud-recipe-foundation-builder ./skills/cloud/google-cloud-recipe-onboarding M",
-        "headings": [
-          "Agent Skills",
-          "Installation",
-          "Updating Skills",
-          "Available Skills",
-          "Additional Google skills",
-          "Plugins",
-          "Support",
-          "Contributing"
-        ],
-        "commands": [],
-        "keywords": [
-          "agent",
-          "agent skills",
-          "installation",
-          "updating skills",
-          "available skills"
-        ],
-        "score": 100
-      },
-      "visual": {
-        "kind": "repository_open_graph",
-        "url": "https://opengraph.githubassets.com/daily-tech-radar/google/skills",
-        "thumbUrl": "https://opengraph.githubassets.com/daily-tech-radar/google/skills",
-        "alt": "google/skills",
-        "sourceUrl": "https://github.com/google/skills",
-        "promptHash": "sha256:789e517be952"
-      },
-      "classification": {
-        "primaryCategoryId": "ai",
-        "secondaryCategoryIds": [],
-        "confidence": 0.7,
-        "method": "rules",
-        "reasons": [
-          "Matched agent"
-        ],
-        "signals": [
-          "agent"
-        ]
-      },
-      "rank": {
-        "globalRank": 3,
-        "categoryRank": 3,
-        "score": 114
-      }
-    },
-    {
-      "id": "mattpocock-skills",
-      "owner": "mattpocock",
-      "name": "skills",
-      "url": "https://github.com/mattpocock/skills",
-      "avatarUrl": "https://github.com/mattpocock.png",
-      "homepageUrl": null,
-      "source": {
-        "primary": "github_trending_html",
-        "sourceRank": 4,
-        "starsGained": 1111
-      },
-      "metadata": {
-        "description": "Skills for Real Engineers. Straight from my .agents directory.",
-        "language": "Shell",
-        "topics": [],
-        "stars": 317544,
-        "forks": 26568,
-        "license": null,
-        "defaultBranch": null,
-        "pushedAt": null,
-        "topLanguages": [
-          "Shell"
-        ]
-      },
-      "readmeRef": {
-        "status": "available",
-        "path": "README.md",
-        "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/mattpocock/skills/main/README.md"
-      },
-      "readmeSignals": {
-        "title": "Skills For Real Engineers",
-        "summary": "My agent skills that I use every day to do real engineering - not vibe coding. Developing real applications is hard. Approaches like GSD, BMAD, and Spec-Kit try to help by owning the process. But while doing so, they take away your control and make bugs in the process hard to resolve. These skills are designed to be small, easy to adapt, and composable. They work with any model. They're based on decades of engineering experience. Hack around with them. Make them your own. Enjoy. If you want to keep up with changes to these skills, and any new ones I create, you can join ~60,000 other devs on my newsletter:",
-        "headings": [
-          "Skills For Real Engineers",
-          "Installation (30-second setup)",
-          "1. Get the skills",
-          "2. Run `/setup-matt-pocock-skills`",
-          "3. Bam - you're ready to go.",
-          "Why These Skills Exist",
-          "#1: The Agent Didn't Do What I Want",
-          "#2: The Agent Is Way Too Verbose"
-        ],
-        "commands": [],
-        "keywords": [
-          "ai",
-          "agent",
-          "skills for real engineers",
-          "installation (30-second setup)",
-          "1. get the skills",
-          "2. run `/setup-matt-pocock-skills`"
-        ],
-        "score": 100
-      },
-      "visual": {
-        "kind": "readme_image",
-        "url": "https://skills.sh/b/mattpocock/skills",
-        "thumbUrl": "https://skills.sh/b/mattpocock/skills",
-        "alt": "skills.sh",
-        "sourceUrl": "https://skills.sh/b/mattpocock/skills",
-        "promptHash": null
-      },
-      "classification": {
-        "primaryCategoryId": "ai",
-        "secondaryCategoryIds": [],
-        "confidence": 0.8,
-        "method": "rules",
-        "reasons": [
-          "Matched ai",
-          "Matched agent"
-        ],
-        "signals": [
-          "ai",
-          "agent"
-        ]
-      },
-      "rank": {
-        "globalRank": 4,
-        "categoryRank": 4,
-        "score": 112
-      }
-    },
-    {
-      "id": "anthropics-skills",
-      "owner": "anthropics",
-      "name": "skills",
-      "url": "https://github.com/anthropics/skills",
-      "avatarUrl": "https://github.com/anthropics.png",
-      "homepageUrl": null,
-      "source": {
-        "primary": "github_trending_html",
-        "sourceRank": 5,
-        "starsGained": 386
-      },
-      "metadata": {
-        "description": "Public repository for Agent Skills",
-        "language": "Python",
-        "topics": [],
-        "stars": 188642,
-        "forks": 22240,
-        "license": null,
-        "defaultBranch": null,
-        "pushedAt": null,
-        "topLanguages": [
-          "Python"
-        ]
-      },
-      "readmeRef": {
-        "status": "available",
-        "path": "README.md",
-        "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/anthropics/skills/main/README.md"
-      },
-      "readmeSignals": {
-        "title": "Skills",
-        "summary": "Note: This repository contains Anthropic's implementation of skills for Claude. For information about the Agent Skills standard, see http://agentskills.io. Skills Skills are folders of instructions, scripts, and resources that Claude loads dynamically to improve performance on specialized tasks. Skills teach Claude how to complete specific tasks in a repeatable way, whether that's creating documents with your company's brand guidelines, analyzing data using your organization's specific workflows, or automating personal tasks. For more information, check out: https://support.claude.com/en/articles/12512176-what-are-skills https://support.claude.com/en/articles/12512180-using-skills-in-claude ",
-        "headings": [
-          "Skills",
-          "About This Repository",
-          "Disclaimer",
-          "Skill Sets",
-          "Try in Claude Code, Claude.ai, and the API",
-          "Claude Code",
-          "Claude.ai",
-          "Claude API"
-        ],
-        "commands": [],
-        "keywords": [
-          "agent",
-          "skills",
-          "about this repository",
-          "disclaimer",
-          "skill sets"
-        ],
-        "score": 100
-      },
-      "visual": {
-        "kind": "readme_image",
-        "url": "https://skills.sh/b/anthropics/skills",
-        "thumbUrl": "https://skills.sh/b/anthropics/skills",
-        "alt": "skills.sh",
-        "sourceUrl": "https://skills.sh/b/anthropics/skills",
-        "promptHash": null
-      },
-      "classification": {
-        "primaryCategoryId": "ai",
-        "secondaryCategoryIds": [],
-        "confidence": 0.7,
-        "method": "rules",
-        "reasons": [
-          "Matched agent"
-        ],
-        "signals": [
-          "agent"
-        ]
-      },
-      "rank": {
         "globalRank": 5,
         "categoryRank": 5,
         "score": 110
@@ -477,14 +453,14 @@
       "source": {
         "primary": "github_trending_html",
         "sourceRank": 6,
-        "starsGained": 185
+        "starsGained": 863
       },
       "metadata": {
         "description": "An open source design system that's fully customizable and agent ready",
         "language": "TypeScript",
         "topics": [],
-        "stars": 14362,
-        "forks": 1179,
+        "stars": 16266,
+        "forks": 1297,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -551,81 +527,81 @@
       "rank": {
         "globalRank": 6,
         "categoryRank": 6,
-        "score": 106.5
+        "score": 108
       }
     },
     {
-      "id": "prometheus-prometheus",
-      "owner": "prometheus",
-      "name": "prometheus",
-      "url": "https://github.com/prometheus/prometheus",
-      "avatarUrl": "https://github.com/prometheus.png",
+      "id": "anthropics-skills",
+      "owner": "anthropics",
+      "name": "skills",
+      "url": "https://github.com/anthropics/skills",
+      "avatarUrl": "https://github.com/anthropics.png",
       "homepageUrl": null,
       "source": {
         "primary": "github_trending_html",
         "sourceRank": 7,
-        "starsGained": 325
+        "starsGained": 793
       },
       "metadata": {
-        "description": "The Prometheus monitoring system and time series database.",
-        "language": "Go",
+        "description": "Public repository for Agent Skills",
+        "language": "Python",
         "topics": [],
-        "stars": 67394,
-        "forks": 11000,
+        "stars": 189471,
+        "forks": 22336,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
         "topLanguages": [
-          "Go"
+          "Python"
         ]
       },
       "readmeRef": {
         "status": "available",
         "path": "README.md",
         "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/prometheus/prometheus/main/README.md"
+        "rawUrl": "https://raw.githubusercontent.com/anthropics/skills/main/README.md"
       },
       "readmeSignals": {
-        "title": null,
-        "summary": "Visit prometheus.io for the full documentation, examples and guides. Prometheus, a https://cncf.io/ project, is a systems and service monitoring system. It collects metrics from configured targets at given intervals, evaluates rule expressions, displays the results, and can trigger alerts when specified conditions are observed. The features that distinguish Prometheus from other metrics and monitoring systems are: A multi-dimensional data model time series defined by metric name and set of key/value dimensions PromQL, a powerful and flexible query language to leverage this dimensionality No dependency on distributed storage; single server nodes are autonomous An HTTP pull model for time seri",
+        "title": "Skills",
+        "summary": "Note: This repository contains Anthropic's implementation of skills for Claude. For information about the Agent Skills standard, see http://agentskills.io. Skills Skills are folders of instructions, scripts, and resources that Claude loads dynamically to improve performance on specialized tasks. Skills teach Claude how to complete specific tasks in a repeatable way, whether that's creating documents with your company's brand guidelines, analyzing data using your organization's specific workflows, or automating personal tasks. For more information, check out: https://support.claude.com/en/articles/12512176-what-are-skills https://support.claude.com/en/articles/12512180-using-skills-in-claude ",
         "headings": [
-          "Architecture overview",
-          "Install",
-          "Precompiled binaries",
-          "Docker images",
-          "Building from source",
-          "Service discovery plugins",
-          "Building the Docker image",
-          "Using Prometheus as a Go Library"
+          "Skills",
+          "About This Repository",
+          "Disclaimer",
+          "Skill Sets",
+          "Try in Claude Code, Claude.ai, and the API",
+          "Claude Code",
+          "Claude.ai",
+          "Claude API"
         ],
         "commands": [],
         "keywords": [
-          "database",
-          "architecture overview",
-          "install",
-          "precompiled binaries",
-          "docker images"
+          "agent",
+          "skills",
+          "about this repository",
+          "disclaimer",
+          "skill sets"
         ],
         "score": 100
       },
       "visual": {
         "kind": "readme_image",
-        "url": "https://quay.io/repository/prometheus/prometheus/status",
-        "thumbUrl": "https://quay.io/repository/prometheus/prometheus/status",
-        "alt": "Docker Repository on Quay",
-        "sourceUrl": "https://quay.io/repository/prometheus/prometheus/status",
+        "url": "https://skills.sh/b/anthropics/skills",
+        "thumbUrl": "https://skills.sh/b/anthropics/skills",
+        "alt": "skills.sh",
+        "sourceUrl": "https://skills.sh/b/anthropics/skills",
         "promptHash": null
       },
       "classification": {
-        "primaryCategoryId": "backend",
+        "primaryCategoryId": "ai",
         "secondaryCategoryIds": [],
         "confidence": 0.7,
         "method": "rules",
         "reasons": [
-          "Matched database"
+          "Matched agent"
         ],
         "signals": [
-          "database"
+          "agent"
         ]
       },
       "rank": {
@@ -635,51 +611,67 @@
       }
     },
     {
-      "id": "sherlock-project-sherlock",
-      "owner": "sherlock-project",
-      "name": "sherlock",
-      "url": "https://github.com/sherlock-project/sherlock",
-      "avatarUrl": "https://github.com/sherlock-project.png",
+      "id": "google-deepmind-mujoco",
+      "owner": "google-deepmind",
+      "name": "mujoco",
+      "url": "https://github.com/google-deepmind/mujoco",
+      "avatarUrl": "https://github.com/google-deepmind.png",
       "homepageUrl": null,
       "source": {
         "primary": "github_trending_html",
         "sourceRank": 8,
-        "starsGained": 1819
+        "starsGained": 26
       },
       "metadata": {
-        "description": "Hunt down social media accounts by username across social networks",
-        "language": "Python",
+        "description": "Multi-Joint dynamics with Contact. A general purpose physics simulator.",
+        "language": "C++",
         "topics": [],
-        "stars": 100221,
-        "forks": 11849,
+        "stars": 16324,
+        "forks": 1950,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
         "topLanguages": [
-          "Python"
+          "C++"
         ]
       },
       "readmeRef": {
-        "status": "missing",
-        "path": null,
+        "status": "available",
+        "path": "README.md",
         "sha": null,
-        "rawUrl": null
+        "rawUrl": "https://raw.githubusercontent.com/google-deepmind/mujoco/main/README.md"
       },
       "readmeSignals": {
-        "title": "sherlock",
-        "summary": "Hunt down social media accounts by username across social networks",
-        "headings": [],
-        "commands": [],
-        "keywords": [],
-        "score": 40
+        "title": null,
+        "summary": "MuJoCo stands for Multi-Joint dynamics with Contact. It is a general purpose physics engine that aims to facilitate research and development in robotics, biomechanics, graphics and animation, machine learning, and other areas which demand fast and accurate simulation of articulated structures interacting with their environment. This repository is maintained by https://www.deepmind.com/. MuJoCo has a C API and is intended for researchers and developers. The runtime simulation module is tuned to maximize performance and operates on low-level data structures that are preallocated by the built-in XML compiler. The library includes interactive visualization in native desktop windows and web brows",
+        "headings": [
+          "Documentation",
+          "Getting Started",
+          "Installation",
+          "Prebuilt binaries",
+          "Building from source",
+          "Python (>= 3.11)",
+          "Versioning",
+          "Contributing"
+        ],
+        "commands": [
+          "pip install mujoco"
+        ],
+        "keywords": [
+          "documentation",
+          "getting started",
+          "installation",
+          "prebuilt binaries"
+        ],
+        "score": 100
       },
       "visual": {
         "kind": "repository_open_graph",
-        "url": "https://opengraph.githubassets.com/daily-tech-radar/sherlock-project/sherlock",
-        "thumbUrl": "https://opengraph.githubassets.com/daily-tech-radar/sherlock-project/sherlock",
-        "alt": "sherlock-project/sherlock",
-        "sourceUrl": "https://github.com/sherlock-project/sherlock",
-        "promptHash": "sha256:af4e514b70e4"
+        "url": "https://opengraph.githubassets.com/daily-tech-radar/google-deepmind/mujoco",
+        "thumbUrl": "https://opengraph.githubassets.com/daily-tech-radar/google-deepmind/mujoco",
+        "alt": "google-deepmind/mujoco",
+        "sourceUrl": "https://github.com/google-deepmind/mujoco",
+        "promptHash": "sha256:40bcefd69c6d"
       },
       "classification": {
         "primaryCategoryId": "unclassified",
@@ -694,391 +686,7 @@
       "rank": {
         "globalRank": 8,
         "categoryRank": 8,
-        "score": 104
-      }
-    },
-    {
-      "id": "milind-soni-openmausbot",
-      "owner": "milind-soni",
-      "name": "OpenMausBot",
-      "url": "https://github.com/milind-soni/OpenMausBot",
-      "avatarUrl": "https://github.com/milind-soni.png",
-      "homepageUrl": null,
-      "source": {
-        "primary": "github_trending_html",
-        "sourceRank": 9,
-        "starsGained": 1986
-      },
-      "metadata": {
-        "description": "Open-source Grok Bot alternative with a virtual machine that bots can use",
-        "language": "TypeScript",
-        "topics": [],
-        "stars": 16816,
-        "forks": 2384,
-        "license": null,
-        "defaultBranch": null,
-        "pushedAt": null,
-        "topLanguages": [
-          "TypeScript"
-        ]
-      },
-      "readmeRef": {
-        "status": "available",
-        "path": "README.md",
-        "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/milind-soni/OpenMausBot/main/README.md"
-      },
-      "readmeSignals": {
-        "title": "OpenMausBot",
-        "summary": "The open-source Grok Bot alternative: your own team of AI bots, in a chat app. OpenMausBot is an open-source Grok Bot alternative: an independent project inspired by Grok Bot, and the open-source alternative to Meta Muse, OpenAI dots and Cue by Manus — bring-your-own-agent, local-first, on the models you already have. Also known as MausBot; formerly OpenGrokBot. Not affiliated with xAI, Meta, OpenAI or Manus. Every bot in the sidebar is a real agent — Claude or Codex running locally under the hood — with its own personality, its own model, its own cloud computer, and its own connected apps. Talk to them like contacts. Watch them work. Approve what matters.",
-        "headings": [
-          "OpenMausBot",
-          "Why",
-          "The open-source alternative to Grok Bot, Muse, dots and Cue",
-          "Features",
-          "🧠 Pick a brain per bot",
-          "🖥️ Every bot gets a computer",
-          "🙋 Bots ask before they act",
-          "🔌 Connected apps"
-        ],
-        "commands": [
-          "npm install -g openmausbot"
-        ],
-        "keywords": [
-          "openmausbot",
-          "why",
-          "the open-source alternative to grok bot, muse, dots and cue",
-          "features"
-        ],
-        "score": 100
-      },
-      "visual": {
-        "kind": "readme_image",
-        "url": "https://raw.githubusercontent.com/milind-soni/OpenMausBot/main/docs/screenshots/hero.png",
-        "thumbUrl": "https://raw.githubusercontent.com/milind-soni/OpenMausBot/main/docs/screenshots/hero.png",
-        "alt": "OpenMausBot — a Telegram-style chat app where every chat is a real AI agent",
-        "sourceUrl": "https://raw.githubusercontent.com/milind-soni/OpenMausBot/main/docs/screenshots/hero.png",
-        "promptHash": null
-      },
-      "classification": {
-        "primaryCategoryId": "unclassified",
-        "secondaryCategoryIds": [],
-        "confidence": 0.4,
-        "method": "rules",
-        "reasons": [
-          "No taxonomy rule matched with enough confidence"
-        ],
-        "signals": []
-      },
-      "rank": {
-        "globalRank": 9,
-        "categoryRank": 9,
-        "score": 102
-      }
-    },
-    {
-      "id": "astral-sh-ruff",
-      "owner": "astral-sh",
-      "name": "ruff",
-      "url": "https://github.com/astral-sh/ruff",
-      "avatarUrl": "https://github.com/astral-sh.png",
-      "homepageUrl": null,
-      "source": {
-        "primary": "github_trending_html",
-        "sourceRank": 10,
-        "starsGained": 350
-      },
-      "metadata": {
-        "description": "An extremely fast Python linter and code formatter, written in Rust.",
-        "language": "Rust",
-        "topics": [],
-        "stars": 50932,
-        "forks": 2629,
-        "license": null,
-        "defaultBranch": null,
-        "pushedAt": null,
-        "topLanguages": [
-          "Rust"
-        ]
-      },
-      "readmeRef": {
-        "status": "available",
-        "path": "README.md",
-        "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/astral-sh/ruff/main/README.md"
-      },
-      "readmeSignals": {
-        "title": "Ruff",
-        "summary": "An extremely fast Python linter and code formatter, written in Rust. Linting the CPython codebase from scratch. ⚡️ 10-100x faster than existing linters like Flake8 and formatters like Black 🐍 Installable via pip 🛠️ pyproject.toml support 🤝 Python 3.15 compatibility ⚖️ Drop-in parity with https://docs.astral.sh/ruff/faq/how-does-ruffs-linter-compare-to-flake8, https://docs.astral.sh/ruff/faq/how-does-ruffs-import-sorting-compare-to-isort, and https://docs.astral.sh/ruff/faq/how-does-ruffs-formatter-compare-to-black 📦 Built-in caching, to avoid re-analyzing unchanged files 🔧 Fix support, for automatic error correction e.g., automatically remove unused imports 📏 Over https://docs.astral.s",
-        "headings": [
-          "Ruff",
-          "Testimonials",
-          "Table of Contents",
-          "Getting Started<a id=\"getting-started\"></a>",
-          "Installation",
-          "With uv.",
-          "With pip.",
-          "With pipx."
-        ],
-        "commands": [
-          "pip install ruff"
-        ],
-        "keywords": [
-          "ruff",
-          "testimonials",
-          "table of contents",
-          "getting started<a id=\"getting-started\"></a>"
-        ],
-        "score": 100
-      },
-      "visual": {
-        "kind": "readme_image",
-        "url": "https://user-images.githubusercontent.com/1309177/232603516-4fb4892d-585c-4b20-b810-3db9161831e4.svg",
-        "thumbUrl": "https://user-images.githubusercontent.com/1309177/232603516-4fb4892d-585c-4b20-b810-3db9161831e4.svg",
-        "alt": "Shows a bar chart with benchmark results.",
-        "sourceUrl": "https://user-images.githubusercontent.com/1309177/232603516-4fb4892d-585c-4b20-b810-3db9161831e4.svg",
-        "promptHash": null
-      },
-      "classification": {
-        "primaryCategoryId": "unclassified",
-        "secondaryCategoryIds": [],
-        "confidence": 0.4,
-        "method": "rules",
-        "reasons": [
-          "No taxonomy rule matched with enough confidence"
-        ],
-        "signals": []
-      },
-      "rank": {
-        "globalRank": 10,
-        "categoryRank": 10,
-        "score": 100
-      }
-    },
-    {
-      "id": "tailwindlabs-tailwindcss",
-      "owner": "tailwindlabs",
-      "name": "tailwindcss",
-      "url": "https://github.com/tailwindlabs/tailwindcss",
-      "avatarUrl": "https://github.com/tailwindlabs.png",
-      "homepageUrl": null,
-      "source": {
-        "primary": "github_trending_html",
-        "sourceRank": 11,
-        "starsGained": 181
-      },
-      "metadata": {
-        "description": "A utility-first CSS framework for rapid UI development.",
-        "language": "TypeScript",
-        "topics": [],
-        "stars": 98387,
-        "forks": 7102,
-        "license": null,
-        "defaultBranch": null,
-        "pushedAt": null,
-        "topLanguages": [
-          "TypeScript"
-        ]
-      },
-      "readmeRef": {
-        "status": "available",
-        "path": "README.md",
-        "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/tailwindlabs/tailwindcss/main/README.md"
-      },
-      "readmeSignals": {
-        "title": null,
-        "summary": "A utility-first CSS framework for rapidly building custom user interfaces. For full documentation, visit https://tailwindcss.com. For help, discussion about best practices, or feature ideas: If you're interested in contributing to Tailwind CSS, please read our https://github.com/tailwindlabs/tailwindcss/blob/main/.github/CONTRIBUTING.md before submitting a pull request.",
-        "headings": [
-          "Documentation",
-          "Community",
-          "Contributing"
-        ],
-        "commands": [],
-        "keywords": [
-          "ai",
-          "documentation",
-          "community",
-          "contributing"
-        ],
-        "score": 75
-      },
-      "visual": {
-        "kind": "repository_open_graph",
-        "url": "https://opengraph.githubassets.com/daily-tech-radar/tailwindlabs/tailwindcss",
-        "thumbUrl": "https://opengraph.githubassets.com/daily-tech-radar/tailwindlabs/tailwindcss",
-        "alt": "tailwindlabs/tailwindcss",
-        "sourceUrl": "https://github.com/tailwindlabs/tailwindcss",
-        "promptHash": "sha256:6c076bfed420"
-      },
-      "classification": {
-        "primaryCategoryId": "ai",
-        "secondaryCategoryIds": [],
-        "confidence": 0.7,
-        "method": "rules",
-        "reasons": [
-          "Matched ai"
-        ],
-        "signals": [
-          "ai"
-        ]
-      },
-      "rank": {
-        "globalRank": 11,
-        "categoryRank": 11,
-        "score": 96.1
-      }
-    },
-    {
-      "id": "mbillow-localthings",
-      "owner": "mbillow",
-      "name": "localthings",
-      "url": "https://github.com/mbillow/localthings",
-      "avatarUrl": "https://github.com/mbillow.png",
-      "homepageUrl": null,
-      "source": {
-        "primary": "github_trending_html",
-        "sourceRank": 12,
-        "starsGained": 184
-      },
-      "metadata": {
-        "description": "Control your Samsung appliances from Home Assistant over your home network, with no cloud account.",
-        "language": "Python",
-        "topics": [],
-        "stars": 1017,
-        "forks": 109,
-        "license": null,
-        "defaultBranch": null,
-        "pushedAt": null,
-        "topLanguages": [
-          "Python"
-        ]
-      },
-      "readmeRef": {
-        "status": "available",
-        "path": "README.md",
-        "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/mbillow/localthings/main/README.md"
-      },
-      "readmeSignals": {
-        "title": "LocalThings",
-        "summary": "Control your Samsung appliances from Home Assistant over your home network, with no cloud account. LocalThings connects Home Assistant to Samsung washers, dryers, refrigerators, air conditioners, ovens and other appliances that work with the SmartThings app. It talks to each appliance on your local network. Updates are fast. Appliances that support push send changes as they happen. LocalThings checks the rest every 30 seconds. It works without the internet. After setup, LocalThings never contacts Samsung's servers. Your data stays home. LocalThings sends nothing to Samsung. The appliance itself still keeps its own connection to Samsung, and LocalThings doesn't change that. Setup needs an IP ",
-        "headings": [
-          "LocalThings",
-          "What it supports",
-          "Built on open standards",
-          "Install",
-          "Add an appliance",
-          "Per-device settings",
-          "Known device behavior",
-          "Restarting while an appliance is powered off"
-        ],
-        "commands": [],
-        "keywords": [
-          "localthings",
-          "what it supports",
-          "built on open standards",
-          "install"
-        ],
-        "score": 100
-      },
-      "visual": {
-        "kind": "repository_open_graph",
-        "url": "https://opengraph.githubassets.com/daily-tech-radar/mbillow/localthings",
-        "thumbUrl": "https://opengraph.githubassets.com/daily-tech-radar/mbillow/localthings",
-        "alt": "mbillow/localthings",
-        "sourceUrl": "https://github.com/mbillow/localthings",
-        "promptHash": "sha256:c648cd88646a"
-      },
-      "classification": {
-        "primaryCategoryId": "unclassified",
-        "secondaryCategoryIds": [],
-        "confidence": 0.4,
-        "method": "rules",
-        "reasons": [
-          "No taxonomy rule matched with enough confidence"
-        ],
-        "signals": []
-      },
-      "rank": {
-        "globalRank": 12,
-        "categoryRank": 12,
-        "score": 94.4
-      }
-    },
-    {
-      "id": "zed-industries-zed",
-      "owner": "zed-industries",
-      "name": "zed",
-      "url": "https://github.com/zed-industries/zed",
-      "avatarUrl": "https://github.com/zed-industries.png",
-      "homepageUrl": null,
-      "source": {
-        "primary": "github_trending_html",
-        "sourceRank": 13,
-        "starsGained": 1119
-      },
-      "metadata": {
-        "description": "Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.",
-        "language": "Rust",
-        "topics": [],
-        "stars": 94211,
-        "forks": 11548,
-        "license": null,
-        "defaultBranch": null,
-        "pushedAt": null,
-        "topLanguages": [
-          "Rust"
-        ]
-      },
-      "readmeRef": {
-        "status": "available",
-        "path": "README.md",
-        "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/zed-industries/zed/main/README.md"
-      },
-      "readmeSignals": {
-        "title": "Zed",
-        "summary": "Welcome to Zed, a high-performance, multiplayer code editor from the creators of https://github.com/atom/atom and https://github.com/tree-sitter/tree-sitter. On macOS, Linux, and Windows you can https://zed.dev/download or install Zed via your local package manager https://zed.dev/docs/installationmacos/https://zed.dev/docs/linuxinstalling-via-a-package-manager/https://zed.dev/docs/windowspackage-managers. Web https://github.com/zed-industries/zed/discussions/26195 ./docs/src/development/macos.md ./docs/src/development/linux.md ./docs/src/development/windows.md",
-        "headings": [
-          "Zed",
-          "Installation",
-          "Developing Zed",
-          "Contributing",
-          "Licensing",
-          "Sponsorship"
-        ],
-        "commands": [],
-        "keywords": [
-          "zed",
-          "installation",
-          "developing zed",
-          "contributing"
-        ],
-        "score": 90
-      },
-      "visual": {
-        "kind": "repository_open_graph",
-        "url": "https://opengraph.githubassets.com/daily-tech-radar/zed-industries/zed",
-        "thumbUrl": "https://opengraph.githubassets.com/daily-tech-radar/zed-industries/zed",
-        "alt": "zed-industries/zed",
-        "sourceUrl": "https://github.com/zed-industries/zed",
-        "promptHash": "sha256:375e30a12bef"
-      },
-      "classification": {
-        "primaryCategoryId": "unclassified",
-        "secondaryCategoryIds": [],
-        "confidence": 0.4,
-        "method": "rules",
-        "reasons": [
-          "No taxonomy rule matched with enough confidence"
-        ],
-        "signals": []
-      },
-      "rank": {
-        "globalRank": 13,
-        "categoryRank": 13,
-        "score": 94
+        "score": 86.6
       }
     },
     {
@@ -1090,15 +698,15 @@
       "homepageUrl": null,
       "source": {
         "primary": "github_trending_html",
-        "sourceRank": 14,
-        "starsGained": 185
+        "sourceRank": 9,
+        "starsGained": 460
       },
       "metadata": {
         "description": "A context-compression plugin for month-long single sessions (billions of tokens) ,small context windows (a 100K context is enough) and token savings (5x fewer tokens) .上下文压缩插件，月级长会话会话， 兼顾小窗口(100k上下文足矣)省token(省5倍token) . billion-context is all you need",
         "language": "TypeScript",
         "topics": [],
-        "stars": 4555,
-        "forks": 365,
+        "stars": 5053,
+        "forks": 402,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -1141,10 +749,10 @@
       },
       "visual": {
         "kind": "readme_image",
-        "url": "https://raw.githubusercontent.com/ranxianglei/billion-context/master/docs/cache-web-session.en.png",
-        "thumbUrl": "https://raw.githubusercontent.com/ranxianglei/billion-context/master/docs/cache-web-session.en.png",
-        "alt": "web session page: cache hit-rate chart + attribution",
-        "sourceUrl": "https://raw.githubusercontent.com/ranxianglei/billion-context/master/docs/cache-web-session.en.png",
+        "url": "https://raw.githubusercontent.com/ranxianglei/billion-context/master/docs/how-it-works.en.svg",
+        "thumbUrl": "https://raw.githubusercontent.com/ranxianglei/billion-context/master/docs/how-it-works.en.svg",
+        "alt": "How it works",
+        "sourceUrl": "https://raw.githubusercontent.com/ranxianglei/billion-context/master/docs/how-it-works.en.svg",
         "promptHash": null
       },
       "classification": {
@@ -1158,86 +766,9 @@
         "signals": []
       },
       "rank": {
-        "globalRank": 14,
-        "categoryRank": 14,
-        "score": 90.5
-      }
-    },
-    {
-      "id": "dsx-ai-factory-nvke",
-      "owner": "dsx-ai-factory",
-      "name": "nvke",
-      "url": "https://github.com/dsx-ai-factory/nvke",
-      "avatarUrl": "https://github.com/dsx-ai-factory.png",
-      "homepageUrl": null,
-      "source": {
-        "primary": "github_trending_html",
-        "sourceRank": 15,
-        "starsGained": 125
-      },
-      "metadata": {
-        "description": "NVIDIA Kubernetes Engine (NVKE). A management plane for GPU Kubernetes on bare metal.",
-        "language": "Go",
-        "topics": [],
-        "stars": 504,
-        "forks": 85,
-        "license": null,
-        "defaultBranch": null,
-        "pushedAt": null,
-        "topLanguages": [
-          "Go"
-        ]
-      },
-      "readmeRef": {
-        "status": "available",
-        "path": "README.md",
-        "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/dsx-ai-factory/nvke/main/README.md"
-      },
-      "readmeSignals": {
-        "title": "NVIDIA Kubernetes Engine (NVKE)",
-        "summary": "Run a managed Kubernetes service on your own NVIDIA GPU infrastructure. NVIDIA Kubernetes® Engine NVKE provides the management plane that platform teams install to create and operate Kubernetes clusters for their customers. Each workload cluster has its own Kubernetes control plane, etcd and node pools. You operate the NVKE management plane; your customers use their clusters through the Kubernetes API and kubectl. Preview: NVKE is available as a preview. APIs, configuration and behavior can change between releases, and we do not recommend NVKE for production workloads. See docs/overview/preview-status.md.",
-        "headings": [
-          "NVIDIA Kubernetes Engine (NVKE)",
-          "Getting started",
-          "What NVKE does",
-          "Overview",
-          "Build from source",
-          "Documentation",
-          "Contributing and support",
-          "Trademarks"
-        ],
-        "commands": [],
-        "keywords": [
-          "nvidia kubernetes engine (nvke)",
-          "getting started",
-          "what nvke does",
-          "overview"
-        ],
-        "score": 100
-      },
-      "visual": {
-        "kind": "readme_image",
-        "url": "https://raw.githubusercontent.com/dsx-ai-factory/nvke/main/docs/assets/diagrams/product-family.svg",
-        "thumbUrl": "https://raw.githubusercontent.com/dsx-ai-factory/nvke/main/docs/assets/diagrams/product-family.svg",
-        "alt": "NVKE product family. NVKR builds and signs artifacts and publishes them to a registry. The operator installs the management cluster's components, the NVKE management plane, CAPNICo and NVKE observability, from the charts and images in the registry. The management plane requests machines through CAPNICo, which calls NICo, and drives each workload cluster. NICo provisions NVIDIA GPU machines from the node OS image, and those machines become the workload cluster's Kubernetes nodes, each running nvke-agent, under the cluster's Kubernetes control plane. The accelerated runtime produced by AICR and NVKE observability are optional in the workload cluster. The customer uses kubectl against the control plane.",
-        "sourceUrl": "https://raw.githubusercontent.com/dsx-ai-factory/nvke/main/docs/assets/diagrams/product-family.svg",
-        "promptHash": null
-      },
-      "classification": {
-        "primaryCategoryId": "unclassified",
-        "secondaryCategoryIds": [],
-        "confidence": 0.4,
-        "method": "rules",
-        "reasons": [
-          "No taxonomy rule matched with enough confidence"
-        ],
-        "signals": []
-      },
-      "rank": {
-        "globalRank": 15,
-        "categoryRank": 15,
-        "score": 82.5
+        "globalRank": 9,
+        "categoryRank": 9,
+        "score": 102
       }
     }
   ],
@@ -1249,22 +780,18 @@
       "categoryId": "ai",
       "repoIds": [
         "vercel-labs-agent-browser",
-        "cloudflare-security-audit-skill",
-        "google-skills",
-        "mattpocock-skills",
-        "anthropics-skills",
         "meta-astryx",
-        "tailwindlabs-tailwindcss"
+        "anthropics-skills"
       ],
       "sort": "score"
     },
     {
-      "id": "backend",
+      "id": "frontend",
       "type": "category",
-      "label": "Backend",
-      "categoryId": "backend",
+      "label": "Frontend",
+      "categoryId": "frontend",
       "repoIds": [
-        "prometheus-prometheus"
+        "anthropics-claude-quickstarts"
       ],
       "sort": "score"
     },
@@ -1275,23 +802,21 @@
       "categoryId": "unclassified",
       "repoIds": [
         "sherlock-project-sherlock",
+        "dsx-ai-factory-nvke",
         "milind-soni-openmausbot",
-        "astral-sh-ruff",
-        "mbillow-localthings",
-        "zed-industries-zed",
         "ranxianglei-billion-context",
-        "dsx-ai-factory-nvke"
+        "google-deepmind-mujoco"
       ],
       "sort": "score"
     }
   ],
   "health": {
     "status": "ok",
-    "candidateCount": 15,
-    "enrichedRepoCount": 14,
-    "unclassifiedRepoCount": 7,
+    "candidateCount": 9,
+    "enrichedRepoCount": 8,
+    "unclassifiedRepoCount": 5,
     "warnings": [
-      "7 repos used README images, 0 used Agnes images, 8 fell back to repository Open Graph covers"
+      "4 repos used README images, 0 used Agnes images, 5 fell back to repository Open Graph covers"
     ]
   }
 }
