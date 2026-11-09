@@ -1,0 +1,999 @@
+{
+  "schemaVersion": "trendreader.daily.v1",
+  "packageId": "github-daily-All-2026-11-09",
+  "locale": "zh-CN",
+  "generatedAt": "2026-11-09T20:16:39.606Z",
+  "expiresAt": "2026-11-10T20:16:39.606Z",
+  "sourceWindow": {
+    "since": "daily",
+    "language": "All",
+    "spokenLanguageCode": null
+  },
+  "sources": [
+    {
+      "id": "github_trending_html",
+      "role": "candidate",
+      "status": "ok",
+      "itemCount": 11
+    }
+  ],
+  "taxonomy": {
+    "version": "2026-11-09",
+    "generatedAt": "2026-11-09T20:16:39.606Z",
+    "categories": [
+      {
+        "id": "ai",
+        "label": "AI",
+        "labelEn": "AI",
+        "icon": "bot",
+        "order": 20
+      },
+      {
+        "id": "tools",
+        "label": "工具",
+        "labelEn": "Tools",
+        "icon": "wrench",
+        "order": 100
+      },
+      {
+        "id": "frontend",
+        "label": "前端",
+        "labelEn": "Frontend",
+        "icon": "layout",
+        "order": 140
+      },
+      {
+        "id": "backend",
+        "label": "后端",
+        "labelEn": "Backend",
+        "icon": "server",
+        "order": 110
+      },
+      {
+        "id": "unclassified",
+        "label": "Needs Review",
+        "labelEn": "Needs Review",
+        "icon": "circle-help",
+        "order": 999
+      }
+    ]
+  },
+  "repos": [
+    {
+      "id": "anthropics-skills",
+      "owner": "anthropics",
+      "name": "skills",
+      "url": "https://github.com/anthropics/skills",
+      "avatarUrl": "https://github.com/anthropics.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 1,
+        "starsGained": 1052
+      },
+      "metadata": {
+        "description": "Public repository for Agent Skills",
+        "language": "Python",
+        "topics": [],
+        "stars": 190744,
+        "forks": 22431,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Python"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/anthropics/skills/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "Skills",
+        "summary": "Note: This repository contains Anthropic's implementation of skills for Claude. For information about the Agent Skills standard, see http://agentskills.io. Skills Skills are folders of instructions, scripts, and resources that Claude loads dynamically to improve performance on specialized tasks. Skills teach Claude how to complete specific tasks in a repeatable way, whether that's creating documents with your company's brand guidelines, analyzing data using your organization's specific workflows, or automating personal tasks. For more information, check out: https://support.claude.com/en/articles/12512176-what-are-skills https://support.claude.com/en/articles/12512180-using-skills-in-claude ",
+        "headings": [
+          "Skills",
+          "About This Repository",
+          "Disclaimer",
+          "Skill Sets",
+          "Try in Claude Code, Claude.ai, and the API",
+          "Claude Code",
+          "Claude.ai",
+          "Claude API"
+        ],
+        "commands": [],
+        "keywords": [
+          "agent",
+          "skills",
+          "about this repository",
+          "disclaimer",
+          "skill sets"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://skills.sh/b/anthropics/skills",
+        "thumbUrl": "https://skills.sh/b/anthropics/skills",
+        "alt": "skills.sh",
+        "sourceUrl": "https://skills.sh/b/anthropics/skills",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.7,
+        "method": "rules",
+        "reasons": [
+          "Matched agent"
+        ],
+        "signals": [
+          "agent"
+        ]
+      },
+      "rank": {
+        "globalRank": 1,
+        "categoryRank": 1,
+        "score": 118
+      }
+    },
+    {
+      "id": "meta-astryx",
+      "owner": "meta",
+      "name": "astryx",
+      "url": "https://github.com/meta/astryx",
+      "avatarUrl": "https://github.com/meta.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 2,
+        "starsGained": 3324
+      },
+      "metadata": {
+        "description": "An open source design system that's fully customizable and agent ready",
+        "language": "TypeScript",
+        "topics": [],
+        "stars": 19550,
+        "forks": 1492,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "TypeScript"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/meta/astryx/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "Astryx",
+        "summary": "An open source design system that's fully customizable and built for how we build now: by people and the agents working alongside them. Currently in Beta · Built on https://react.dev and https://stylexjs.com Astryx is an open source design system that grew inside Meta over the last eight years, where it became the most-used and largest design system in the company — powering 13,000+ apps and shaped by the engineers, designers, and product teams who depend on it every day. It ships 150+ accessible components, brand-level theming, dark mode, ready-to-ship templates, and a CLI as one cohesive system. You import pre-built CSS and use typed React components — no build plugin, no styling library t",
+        "headings": [
+          "Astryx",
+          "Overview",
+          "Getting Started",
+          "npm",
+          "pnpm",
+          "yarn",
+          "Packages",
+          "Principles"
+        ],
+        "commands": [
+          "npm install @astryxdesign/core @astryxdesign/theme-neutral @stylexjs/stylex",
+          "npm install -D @astryxdesign/cli",
+          "pnpm add @astryxdesign/core @astryxdesign/theme-neutral @stylexjs/stylex",
+          "pnpm add -D @astryxdesign/cli",
+          "yarn add @astryxdesign/core @astryxdesign/theme-neutral @stylexjs/stylex",
+          "yarn add -D @astryxdesign/cli"
+        ],
+        "keywords": [
+          "agent",
+          "astryx",
+          "overview",
+          "getting started",
+          "npm"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "repository_open_graph",
+        "url": "https://opengraph.githubassets.com/daily-tech-radar/meta/astryx",
+        "thumbUrl": "https://opengraph.githubassets.com/daily-tech-radar/meta/astryx",
+        "alt": "meta/astryx",
+        "sourceUrl": "https://github.com/meta/astryx",
+        "promptHash": "sha256:e678df3e4f77"
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.7,
+        "method": "rules",
+        "reasons": [
+          "Matched agent"
+        ],
+        "signals": [
+          "agent"
+        ]
+      },
+      "rank": {
+        "globalRank": 2,
+        "categoryRank": 2,
+        "score": 116
+      }
+    },
+    {
+      "id": "sherlock-project-sherlock",
+      "owner": "sherlock-project",
+      "name": "sherlock",
+      "url": "https://github.com/sherlock-project/sherlock",
+      "avatarUrl": "https://github.com/sherlock-project.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 3,
+        "starsGained": 4294
+      },
+      "metadata": {
+        "description": "Hunt down social media accounts by username across social networks",
+        "language": "Python",
+        "topics": [],
+        "stars": 106757,
+        "forks": 12366,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Python"
+        ]
+      },
+      "readmeRef": {
+        "status": "missing",
+        "path": null,
+        "sha": null,
+        "rawUrl": null
+      },
+      "readmeSignals": {
+        "title": "sherlock",
+        "summary": "Hunt down social media accounts by username across social networks",
+        "headings": [],
+        "commands": [],
+        "keywords": [],
+        "score": 40
+      },
+      "visual": {
+        "kind": "repository_open_graph",
+        "url": "https://opengraph.githubassets.com/daily-tech-radar/sherlock-project/sherlock",
+        "thumbUrl": "https://opengraph.githubassets.com/daily-tech-radar/sherlock-project/sherlock",
+        "alt": "sherlock-project/sherlock",
+        "sourceUrl": "https://github.com/sherlock-project/sherlock",
+        "promptHash": "sha256:af4e514b70e4"
+      },
+      "classification": {
+        "primaryCategoryId": "unclassified",
+        "secondaryCategoryIds": [],
+        "confidence": 0.4,
+        "method": "rules",
+        "reasons": [
+          "No taxonomy rule matched with enough confidence"
+        ],
+        "signals": []
+      },
+      "rank": {
+        "globalRank": 3,
+        "categoryRank": 3,
+        "score": 114
+      }
+    },
+    {
+      "id": "google-deepmind-mujoco",
+      "owner": "google-deepmind",
+      "name": "mujoco",
+      "url": "https://github.com/google-deepmind/mujoco",
+      "avatarUrl": "https://github.com/google-deepmind.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 4,
+        "starsGained": 579
+      },
+      "metadata": {
+        "description": "Multi-Joint dynamics with Contact. A general purpose physics simulator.",
+        "language": "C++",
+        "topics": [],
+        "stars": 16854,
+        "forks": 1986,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "C++"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/google-deepmind/mujoco/main/README.md"
+      },
+      "readmeSignals": {
+        "title": null,
+        "summary": "MuJoCo stands for Multi-Joint dynamics with Contact. It is a general purpose physics engine that aims to facilitate research and development in robotics, biomechanics, graphics and animation, machine learning, and other areas which demand fast and accurate simulation of articulated structures interacting with their environment. This repository is maintained by https://www.deepmind.com/. MuJoCo has a C API and is intended for researchers and developers. The runtime simulation module is tuned to maximize performance and operates on low-level data structures that are preallocated by the built-in XML compiler. The library includes interactive visualization in native desktop windows and web brows",
+        "headings": [
+          "Documentation",
+          "Getting Started",
+          "Installation",
+          "Prebuilt binaries",
+          "Building from source",
+          "Python (>= 3.11)",
+          "Versioning",
+          "Contributing"
+        ],
+        "commands": [
+          "pip install mujoco"
+        ],
+        "keywords": [
+          "documentation",
+          "getting started",
+          "installation",
+          "prebuilt binaries"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "repository_open_graph",
+        "url": "https://opengraph.githubassets.com/daily-tech-radar/google-deepmind/mujoco",
+        "thumbUrl": "https://opengraph.githubassets.com/daily-tech-radar/google-deepmind/mujoco",
+        "alt": "google-deepmind/mujoco",
+        "sourceUrl": "https://github.com/google-deepmind/mujoco",
+        "promptHash": "sha256:40bcefd69c6d"
+      },
+      "classification": {
+        "primaryCategoryId": "unclassified",
+        "secondaryCategoryIds": [],
+        "confidence": 0.4,
+        "method": "rules",
+        "reasons": [
+          "No taxonomy rule matched with enough confidence"
+        ],
+        "signals": []
+      },
+      "rank": {
+        "globalRank": 4,
+        "categoryRank": 4,
+        "score": 112
+      }
+    },
+    {
+      "id": "anthropics-claude-quickstarts",
+      "owner": "anthropics",
+      "name": "claude-quickstarts",
+      "url": "https://github.com/anthropics/claude-quickstarts",
+      "avatarUrl": "https://github.com/anthropics.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 5,
+        "starsGained": 560
+      },
+      "metadata": {
+        "description": "A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API",
+        "language": "Python",
+        "topics": [],
+        "stars": 19933,
+        "forks": 3304,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Python"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/anthropics/claude-quickstarts/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "Claude Quickstarts",
+        "summary": "Claude Quickstarts is a collection of projects designed to help developers quickly get started with building applications using the Claude API. Each quickstart provides a foundation that you can easily build upon and customize for your specific needs. To use these quickstarts, you'll need an Claude API key. If you don't have one yet, you can sign up for free at https://console.anthropic.com. A customer support agent powered by Claude. This project demonstrates how to leverage Claude's natural language understanding and generation capabilities to create an AI-assisted customer support system with access to a knowledge base.",
+        "headings": [
+          "Claude Quickstarts",
+          "Getting Started",
+          "Available Quickstarts",
+          "Customer Support Agent",
+          "Financial Data Analyst",
+          "Computer Use Demo",
+          "Computer Use Best Practices",
+          "Browser Use Demo"
+        ],
+        "commands": [],
+        "keywords": [
+          "ui",
+          "claude quickstarts",
+          "getting started",
+          "available quickstarts",
+          "customer support agent"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "repository_open_graph",
+        "url": "https://opengraph.githubassets.com/daily-tech-radar/anthropics/claude-quickstarts",
+        "thumbUrl": "https://opengraph.githubassets.com/daily-tech-radar/anthropics/claude-quickstarts",
+        "alt": "anthropics/claude-quickstarts",
+        "sourceUrl": "https://github.com/anthropics/claude-quickstarts",
+        "promptHash": "sha256:e1aed73a2e8f"
+      },
+      "classification": {
+        "primaryCategoryId": "frontend",
+        "secondaryCategoryIds": [],
+        "confidence": 0.7,
+        "method": "rules",
+        "reasons": [
+          "Matched ui"
+        ],
+        "signals": [
+          "ui"
+        ]
+      },
+      "rank": {
+        "globalRank": 5,
+        "categoryRank": 5,
+        "score": 110
+      }
+    },
+    {
+      "id": "garrytan-gbrain",
+      "owner": "garrytan",
+      "name": "gbrain",
+      "url": "https://github.com/garrytan/gbrain",
+      "avatarUrl": "https://github.com/garrytan.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 6,
+        "starsGained": 215
+      },
+      "metadata": {
+        "description": "Garry's Opinionated OpenClaw/Hermes Agent Brain",
+        "language": "TypeScript",
+        "topics": [],
+        "stars": 32066,
+        "forks": 4761,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "TypeScript"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/garrytan/gbrain/master/README.md"
+      },
+      "readmeSignals": {
+        "title": "raw retrieval: top pages by hybrid score, no answer-generation call",
+        "summary": "Give the agent you already use a memory you control. GBrain stores explicit facts with their sources, supports corrections and withdrawal, and makes the same memory available across your agents. Start with keyless memory and keyword retrieval; add semantic search, synthesis, and background enrichment when you need them. GBrain is MIT-licensed and free to self-host; gbrain.io is optional paid hosting. Keep skills beside knowledge. New local brains include memory skills in their content root. Agents can join an authorized catalog; only approved editors can publish. Managed coding-agent installs add an owned native router; restart and real-use verification are separate steps. Staged migration p",
+        "headings": [
+          "Choose your setup",
+          "What this looks like",
+          "Install",
+          "Here's how to self-host it",
+          "CLI standalone (no agent)",
+          "Optional: a new personal agent",
+          "Connect GBrain to your AI client (MCP)",
+          "Two ways to query your brain"
+        ],
+        "commands": [
+          "npm install -g gbrain"
+        ],
+        "keywords": [
+          "ai",
+          "agent",
+          "choose your setup",
+          "what this looks like",
+          "install",
+          "here's how to self-host it"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "repository_open_graph",
+        "url": "https://opengraph.githubassets.com/daily-tech-radar/garrytan/gbrain",
+        "thumbUrl": "https://opengraph.githubassets.com/daily-tech-radar/garrytan/gbrain",
+        "alt": "garrytan/gbrain",
+        "sourceUrl": "https://github.com/garrytan/gbrain",
+        "promptHash": "sha256:a79df1778490"
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.8,
+        "method": "rules",
+        "reasons": [
+          "Matched ai",
+          "Matched agent"
+        ],
+        "signals": [
+          "ai",
+          "agent"
+        ]
+      },
+      "rank": {
+        "globalRank": 6,
+        "categoryRank": 6,
+        "score": 108
+      }
+    },
+    {
+      "id": "vercel-labs-agent-browser",
+      "owner": "vercel-labs",
+      "name": "agent-browser",
+      "url": "https://github.com/vercel-labs/agent-browser",
+      "avatarUrl": "https://github.com/vercel-labs.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 7,
+        "starsGained": 914
+      },
+      "metadata": {
+        "description": "Browser automation CLI for AI agents",
+        "language": "Rust",
+        "topics": [],
+        "stars": 48360,
+        "forks": 3296,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Rust"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/vercel-labs/agent-browser/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "agent-browser",
+        "summary": "Browser automation for AI agents: open pages, read them as an accessibility tree, and act on elements from the shell. agent-browser is a native Rust CLI that gives an AI agent a browser it can drive one command at a time. snapshot returns the page as compact text with a ref such as @e1 for each element. The agent acts on a ref, reads the page again to check the result, and repeats. The browser stays open between commands, so each step is one short shell call. Homebrew: brew install agent-browser, then agent-browser install. Linux: agent-browser install --with-deps also installs the browser's system libraries. No install: npx agent-browser open example.com.",
+        "headings": [
+          "agent-browser",
+          "Install",
+          "Quick start",
+          "How it works",
+          "For AI agents",
+          "Commands",
+          "Platforms",
+          "Development"
+        ],
+        "commands": [
+          "npm install -g agent-browser"
+        ],
+        "keywords": [
+          "ai",
+          "agent",
+          "agent-browser",
+          "install",
+          "quick start",
+          "how it works"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "repository_open_graph",
+        "url": "https://opengraph.githubassets.com/daily-tech-radar/vercel-labs/agent-browser",
+        "thumbUrl": "https://opengraph.githubassets.com/daily-tech-radar/vercel-labs/agent-browser",
+        "alt": "vercel-labs/agent-browser",
+        "sourceUrl": "https://github.com/vercel-labs/agent-browser",
+        "promptHash": "sha256:579dd6894545"
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.8,
+        "method": "rules",
+        "reasons": [
+          "Matched ai",
+          "Matched agent"
+        ],
+        "signals": [
+          "ai",
+          "agent"
+        ]
+      },
+      "rank": {
+        "globalRank": 7,
+        "categoryRank": 7,
+        "score": 106
+      }
+    },
+    {
+      "id": "ruvnet-ruview",
+      "owner": "ruvnet",
+      "name": "RuView",
+      "url": "https://github.com/ruvnet/RuView",
+      "avatarUrl": "https://github.com/ruvnet.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 8,
+        "starsGained": 245
+      },
+      "metadata": {
+        "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
+        "language": "Rust",
+        "topics": [],
+        "stars": 103354,
+        "forks": 13397,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Rust"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/ruvnet/RuView/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "π RuView",
+        "summary": "Start here Hardware Models AI toolkit Smart home Cognitum Seed Turn ordinary WiFi into a spatial intelligence / sensing system. Detect people, measure breathing and heart rate, track movement, and monitor rooms — through walls, in the dark, with no cameras or wearables. Just physics. Works natively with the four major smart-home ecosystems: docs/integrations/home-assistant.md via the HA-DISCO MQTT publisher, docs/user-guide-apple-homepod.md as a discoverable HAP-1.1 bridge, docs/integrations/home-assistant.md + docs/integrations/home-assistant.md via the same HA bridge or a docs/adr/ADR-122-bfld-ruview-ha-matter-exposure.md endpoint. Siri, Google Assistant, and Alexa can voice presence and v",
+        "headings": [
+          "π RuView",
+          "**See through walls with WiFi** ##",
+          "π RuView is a WiFi sensing platform that turns radio signals into spatial intelligence.",
+          "Check the local setup and get source-cited guidance",
+          "Hardware: what is plugged in, live CSI from your nodes, a 60 GHz radar kit",
+          "Agents: MCP over stdio, or over HTTP for ChatGPT (token-protected, read tools only)",
+          "Claude Code: a live sensing pane (/ruview), shipped in the package",
+          "Run a read-only RuView agent through Codex"
+        ],
+        "commands": [
+          "pip install ruview                        # or: pip install wifi-densepose",
+          "pip install \"ruview[client]\"              # or: pip install \"wifi-densepose[client]\"",
+          "pip install huggingface_hub"
+        ],
+        "keywords": [
+          "π ruview",
+          "**see through walls with wifi** ##",
+          "π ruview is a wifi sensing platform that turns radio signals into spatial intelligence.",
+          "check the local setup and get source-cited guidance"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/ruvnet/RuView/main/assets/readme/hero-spatial-v6.svg",
+        "thumbUrl": "https://raw.githubusercontent.com/ruvnet/RuView/main/assets/readme/hero-spatial-v6.svg",
+        "alt": "RuView: spaces become signals, with an animated conceptual RF field",
+        "sourceUrl": "https://raw.githubusercontent.com/ruvnet/RuView/main/assets/readme/hero-spatial-v6.svg",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "unclassified",
+        "secondaryCategoryIds": [],
+        "confidence": 0.4,
+        "method": "rules",
+        "reasons": [
+          "No taxonomy rule matched with enough confidence"
+        ],
+        "signals": []
+      },
+      "rank": {
+        "globalRank": 8,
+        "categoryRank": 8,
+        "score": 104
+      }
+    },
+    {
+      "id": "zhulinsen-daily-stock-analysis",
+      "owner": "ZhuLinsen",
+      "name": "daily_stock_analysis",
+      "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+      "avatarUrl": "https://github.com/ZhuLinsen.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 9,
+        "starsGained": 505
+      },
+      "metadata": {
+        "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
+        "language": "Python",
+        "topics": [],
+        "stars": 68727,
+        "forks": 56369,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Python"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/ZhuLinsen/daily_stock_analysis/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "📈 股票智能分析系统",
+        "summary": "🤖 基于 AI 大模型的 A股/港股/美股/日股/韩股/台股自选股智能分析系统，每日自动分析并推送「决策仪表盘」到企业微信/飞书/Telegram/Discord/Slack/邮箱 -产品预览 · -功能特性 · -快速开始 · -推送效果 · docs/INDEX.md · docs/full-guide.md 简体中文 | docs/READMEEN.md | docs/READMECHT.md 💖 赞助商 Sponsors 感谢 Modelflare 赞助本项目！由美国 Havenbyte LLC 运营，满血稳定不掺水，低成本接入 GPT、Claude、Gemini、Grok 及 40+ 图片/视频模型。指定 OpenAI 分组提供 65% / 75% / 85% 每日缓存命中率保障 ；单笔充值 US$20 解锁 GPT 0.015x ， US$50 解锁 Claude 0.03x 。 专属链接注册 | 能力 | 覆盖内容 | | AI 决策报告 | 核心结论、评分、趋势、买卖点位、风险警报、催化因素、操作检查清单 | | 多市场数据聚合 | 覆盖 A股、港股、美股、日股、韩股、台股和 ETF，支持行情、K 线、技术指标、新闻、公告、基本面与报告辅助数据；不同市场的数据源和能力边界见 docs/market-support.md | | Web / 桌面工作台 | 手动分析、任务进度、历史报告、完整 Markdown、回测、持仓、配置管理、浅色 / 深色主题 | | Agent 策略问股 | 多轮追问，支持均线、缠论、波浪、趋势、热点、事件、成长、预期等 15 种内置",
+        "headings": [
+          "📈 股票智能分析系统",
+          "🖥️ 产品预览",
+          "✨ 功能特性",
+          "技术栈与数据来源",
+          "🚀 快速开始",
+          "方式一：[GitHub Actions（推荐）](https://www.bilibili.com/video/BV11FEb66EXG/)",
+          "方式二：[客户端配置教程](https://www.bilibili.com/video/BV11FEb66Eyr/) / 本地运行 / Docker 部署",
+          "克隆项目"
+        ],
+        "commands": [
+          "pip install -r requirements.txt"
+        ],
+        "keywords": [
+          "ai",
+          "llm",
+          "📈 股票智能分析系统",
+          "🖥️ 产品预览",
+          "✨ 功能特性",
+          "技术栈与数据来源"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://api.hellogithub.com/v1/widgets/recommend.svg?rid=6daa16e405ce46ed97b4a57706aeb29f&claim_uid=pfiJMqhR9uvDGlT&theme=neutral",
+        "thumbUrl": "https://api.hellogithub.com/v1/widgets/recommend.svg?rid=6daa16e405ce46ed97b4a57706aeb29f&claim_uid=pfiJMqhR9uvDGlT&theme=neutral",
+        "alt": "Featured｜HelloGitHub",
+        "sourceUrl": "https://api.hellogithub.com/v1/widgets/recommend.svg?rid=6daa16e405ce46ed97b4a57706aeb29f&claim_uid=pfiJMqhR9uvDGlT&theme=neutral",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.8,
+        "method": "rules",
+        "reasons": [
+          "Matched ai",
+          "Matched llm"
+        ],
+        "signals": [
+          "ai",
+          "llm"
+        ]
+      },
+      "rank": {
+        "globalRank": 9,
+        "categoryRank": 9,
+        "score": 102
+      }
+    },
+    {
+      "id": "homeassistant-ai-ha-mcp",
+      "owner": "homeassistant-ai",
+      "name": "ha-mcp",
+      "url": "https://github.com/homeassistant-ai/ha-mcp",
+      "avatarUrl": "https://github.com/homeassistant-ai.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 10,
+        "starsGained": 31
+      },
+      "metadata": {
+        "description": "Configure and automate Home Assistant with Claude, ChatGPT, and other AI assistants.",
+        "language": "Python",
+        "topics": [],
+        "stars": 5830,
+        "forks": 286,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Python"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/homeassistant-ai/ha-mcp/master/README.md"
+      },
+      "readmeSignals": {
+        "title": null,
+        "summary": "Breaking change v7.3.0: haconfigsetyaml has been moved to docs/beta.md. Configure and automate Home Assistant with Claude, ChatGPT, and other AI assistants. The recommended way to run ha-mcp is the HA-MCP integration. It installs into Home Assistant through HACS the built-in Marketplace on Home Assistant 2026.11+, runs the full server in-process, and works on every Home Assistant installation type — Home Assistant OS, Supervised, Container, and Core — with full feature parity. It is the easiest setup in every case: setup asks for an administrator access token and how clients may connect.",
+        "headings": [
+          "🚀 Get Started",
+          "🏠 Home Assistant app (add-on)",
+          "Other install methods",
+          "🧪 Demo server (Windows / macOS / Linux)",
+          "🧙 Setup Wizard for 15+ clients",
+          "💬 What Can You Do With It?",
+          "✨ Features",
+          "🆚 ha-mcp vs. Home Assistant's built-in MCP Server"
+        ],
+        "commands": [],
+        "keywords": [
+          "ai",
+          "mcp",
+          "🚀 get started",
+          "🏠 home assistant app (add-on)",
+          "other install methods",
+          "🧪 demo server (windows / macos / linux)"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/homeassistant-ai/ha-mcp/master/docs/img/demo.webp",
+        "thumbUrl": "https://raw.githubusercontent.com/homeassistant-ai/ha-mcp/master/docs/img/demo.webp",
+        "alt": "Demo with Claude Desktop",
+        "sourceUrl": "https://raw.githubusercontent.com/homeassistant-ai/ha-mcp/master/docs/img/demo.webp",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.8,
+        "method": "rules",
+        "reasons": [
+          "Matched ai",
+          "Matched mcp"
+        ],
+        "signals": [
+          "ai",
+          "mcp"
+        ]
+      },
+      "rank": {
+        "globalRank": 10,
+        "categoryRank": 10,
+        "score": 83.1
+      }
+    },
+    {
+      "id": "milind-soni-openmausbot",
+      "owner": "milind-soni",
+      "name": "OpenMausBot",
+      "url": "https://github.com/milind-soni/OpenMausBot",
+      "avatarUrl": "https://github.com/milind-soni.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 11,
+        "starsGained": 1589
+      },
+      "metadata": {
+        "description": "Open-source Grok Bot alternative with a virtual machine that bots can use",
+        "language": "TypeScript",
+        "topics": [],
+        "stars": 19546,
+        "forks": 2680,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "TypeScript"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/milind-soni/OpenMausBot/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "OpenMausBot",
+        "summary": "The open-source Grok Bot alternative: your own team of AI bots, in a chat app. OpenMausBot is an open-source Grok Bot alternative: an independent project inspired by Grok Bot, and the open-source alternative to Meta Muse, OpenAI dots and Cue by Manus — bring-your-own-agent, local-first, on the models you already have. Also known as MausBot; formerly OpenGrokBot. Not affiliated with xAI, Meta, OpenAI or Manus. Every bot in the sidebar is a real agent — Claude or Codex running locally under the hood — with its own personality, its own model, its own cloud computer, and its own connected apps. Talk to them like contacts. Watch them work. Approve what matters.",
+        "headings": [
+          "OpenMausBot",
+          "Why",
+          "The open-source alternative to Grok Bot, Muse, dots and Cue",
+          "Features",
+          "🧠 Pick a brain per bot",
+          "🖥️ Every bot gets a computer",
+          "🙋 Bots ask before they act",
+          "🔌 Connected apps"
+        ],
+        "commands": [
+          "npm install -g openmausbot"
+        ],
+        "keywords": [
+          "openmausbot",
+          "why",
+          "the open-source alternative to grok bot, muse, dots and cue",
+          "features"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/milind-soni/OpenMausBot/main/docs/screenshots/hero.png",
+        "thumbUrl": "https://raw.githubusercontent.com/milind-soni/OpenMausBot/main/docs/screenshots/hero.png",
+        "alt": "OpenMausBot — a Telegram-style chat app where every chat is a real AI agent",
+        "sourceUrl": "https://raw.githubusercontent.com/milind-soni/OpenMausBot/main/docs/screenshots/hero.png",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "unclassified",
+        "secondaryCategoryIds": [],
+        "confidence": 0.4,
+        "method": "rules",
+        "reasons": [
+          "No taxonomy rule matched with enough confidence"
+        ],
+        "signals": []
+      },
+      "rank": {
+        "globalRank": 11,
+        "categoryRank": 11,
+        "score": 98
+      }
+    }
+  ],
+  "views": [
+    {
+      "id": "ai",
+      "type": "category",
+      "label": "AI",
+      "categoryId": "ai",
+      "repoIds": [
+        "anthropics-skills",
+        "meta-astryx",
+        "garrytan-gbrain",
+        "vercel-labs-agent-browser",
+        "zhulinsen-daily-stock-analysis",
+        "homeassistant-ai-ha-mcp"
+      ],
+      "sort": "score"
+    },
+    {
+      "id": "frontend",
+      "type": "category",
+      "label": "前端",
+      "categoryId": "frontend",
+      "repoIds": [
+        "anthropics-claude-quickstarts"
+      ],
+      "sort": "score"
+    },
+    {
+      "id": "unclassified",
+      "type": "review",
+      "label": "Needs Review",
+      "categoryId": "unclassified",
+      "repoIds": [
+        "sherlock-project-sherlock",
+        "google-deepmind-mujoco",
+        "ruvnet-ruview",
+        "milind-soni-openmausbot"
+      ],
+      "sort": "score"
+    }
+  ],
+  "health": {
+    "status": "ok",
+    "candidateCount": 11,
+    "enrichedRepoCount": 10,
+    "unclassifiedRepoCount": 4,
+    "warnings": [
+      "5 repos used README images, 0 used Agnes images, 6 fell back to repository Open Graph covers"
+    ]
+  }
+}
