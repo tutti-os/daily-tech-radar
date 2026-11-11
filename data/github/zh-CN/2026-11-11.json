@@ -1,0 +1,925 @@
+{
+  "schemaVersion": "trendreader.daily.v1",
+  "packageId": "github-daily-All-2026-11-11",
+  "locale": "zh-CN",
+  "generatedAt": "2026-11-11T20:16:34.303Z",
+  "expiresAt": "2026-11-12T20:16:34.303Z",
+  "sourceWindow": {
+    "since": "daily",
+    "language": "All",
+    "spokenLanguageCode": null
+  },
+  "sources": [
+    {
+      "id": "github_trending_html",
+      "role": "candidate",
+      "status": "ok",
+      "itemCount": 10
+    }
+  ],
+  "taxonomy": {
+    "version": "2026-11-11",
+    "generatedAt": "2026-11-11T20:16:34.303Z",
+    "categories": [
+      {
+        "id": "ai",
+        "label": "AI",
+        "labelEn": "AI",
+        "icon": "bot",
+        "order": 20
+      },
+      {
+        "id": "tools",
+        "label": "工具",
+        "labelEn": "Tools",
+        "icon": "wrench",
+        "order": 100
+      },
+      {
+        "id": "frontend",
+        "label": "前端",
+        "labelEn": "Frontend",
+        "icon": "layout",
+        "order": 140
+      },
+      {
+        "id": "backend",
+        "label": "后端",
+        "labelEn": "Backend",
+        "icon": "server",
+        "order": 110
+      },
+      {
+        "id": "unclassified",
+        "label": "Needs Review",
+        "labelEn": "Needs Review",
+        "icon": "circle-help",
+        "order": 999
+      }
+    ]
+  },
+  "repos": [
+    {
+      "id": "meta-astryx",
+      "owner": "meta",
+      "name": "astryx",
+      "url": "https://github.com/meta/astryx",
+      "avatarUrl": "https://github.com/meta.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 1,
+        "starsGained": 2842
+      },
+      "metadata": {
+        "description": "An open source design system that's fully customizable and agent ready",
+        "language": "TypeScript",
+        "topics": [],
+        "stars": 24714,
+        "forks": 1929,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "TypeScript"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/meta/astryx/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "Astryx",
+        "summary": "An open source design system that's fully customizable and built for how we build now: by people and the agents working alongside them. Currently in Beta · Built on https://react.dev and https://stylexjs.com Astryx is an open source design system that grew inside Meta over the last eight years, where it became the most-used and largest design system in the company — powering 13,000+ apps and shaped by the engineers, designers, and product teams who depend on it every day. It ships 150+ accessible components, brand-level theming, dark mode, ready-to-ship templates, and a CLI as one cohesive system. You import pre-built CSS and use typed React components — no build plugin, no styling library t",
+        "headings": [
+          "Astryx",
+          "Overview",
+          "Getting Started",
+          "npm",
+          "pnpm",
+          "yarn",
+          "Packages",
+          "Principles"
+        ],
+        "commands": [
+          "npm install @astryxdesign/core @astryxdesign/theme-neutral @stylexjs/stylex",
+          "npm install -D @astryxdesign/cli",
+          "pnpm add @astryxdesign/core @astryxdesign/theme-neutral @stylexjs/stylex",
+          "pnpm add -D @astryxdesign/cli",
+          "yarn add @astryxdesign/core @astryxdesign/theme-neutral @stylexjs/stylex",
+          "yarn add -D @astryxdesign/cli"
+        ],
+        "keywords": [
+          "agent",
+          "astryx",
+          "overview",
+          "getting started",
+          "npm"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "repository_open_graph",
+        "url": "https://opengraph.githubassets.com/daily-tech-radar/meta/astryx",
+        "thumbUrl": "https://opengraph.githubassets.com/daily-tech-radar/meta/astryx",
+        "alt": "meta/astryx",
+        "sourceUrl": "https://github.com/meta/astryx",
+        "promptHash": "sha256:e678df3e4f77"
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.7,
+        "method": "rules",
+        "reasons": [
+          "Matched agent"
+        ],
+        "signals": [
+          "agent"
+        ]
+      },
+      "rank": {
+        "globalRank": 1,
+        "categoryRank": 1,
+        "score": 118
+      }
+    },
+    {
+      "id": "zhulinsen-daily-stock-analysis",
+      "owner": "ZhuLinsen",
+      "name": "daily_stock_analysis",
+      "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+      "avatarUrl": "https://github.com/ZhuLinsen.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 2,
+        "starsGained": 429
+      },
+      "metadata": {
+        "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
+        "language": "Python",
+        "topics": [],
+        "stars": 70080,
+        "forks": 56815,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Python"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/ZhuLinsen/daily_stock_analysis/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "📈 股票智能分析系统",
+        "summary": "🤖 基于 AI 大模型的 A股/港股/美股/日股/韩股/台股自选股智能分析系统，每日自动分析并推送「决策仪表盘」到企业微信/飞书/Telegram/Discord/Slack/邮箱 -产品预览 · -功能特性 · -快速开始 · -推送效果 · docs/INDEX.md · docs/full-guide.md 简体中文 | docs/READMEEN.md | docs/READMECHT.md 💖 赞助商 Sponsors 感谢 Modelflare 赞助本项目！由美国 Havenbyte LLC 运营，满血稳定不掺水，低成本接入 GPT、Claude、Gemini、Grok 及 40+ 图片/视频模型。指定 OpenAI 分组提供 65% / 75% / 85% 每日缓存命中率保障 ；单笔充值 US$20 解锁 GPT 0.015x ， US$50 解锁 Claude 0.03x 。 专属链接注册 | 能力 | 覆盖内容 | | AI 决策报告 | 核心结论、评分、趋势、买卖点位、风险警报、催化因素、操作检查清单 | | 多市场数据聚合 | 覆盖 A股、港股、美股、日股、韩股、台股和 ETF，支持行情、K 线、技术指标、新闻、公告、基本面与报告辅助数据；不同市场的数据源和能力边界见 docs/market-support.md | | Web / 桌面工作台 | 手动分析、任务进度、历史报告、完整 Markdown、回测、持仓、配置管理、浅色 / 深色主题 | | Agent 策略问股 | 多轮追问，支持均线、缠论、波浪、趋势、热点、事件、成长、预期等 15 种内置",
+        "headings": [
+          "📈 股票智能分析系统",
+          "🖥️ 产品预览",
+          "✨ 功能特性",
+          "技术栈与数据来源",
+          "🚀 快速开始",
+          "方式一：[GitHub Actions（推荐）](https://www.bilibili.com/video/BV11FEb66EXG/)",
+          "方式二：[客户端配置教程](https://www.bilibili.com/video/BV11FEb66Eyr/) / 本地运行 / Docker 部署",
+          "克隆项目"
+        ],
+        "commands": [
+          "pip install -r requirements.txt"
+        ],
+        "keywords": [
+          "ai",
+          "llm",
+          "📈 股票智能分析系统",
+          "🖥️ 产品预览",
+          "✨ 功能特性",
+          "技术栈与数据来源"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://api.hellogithub.com/v1/widgets/recommend.svg?rid=6daa16e405ce46ed97b4a57706aeb29f&claim_uid=pfiJMqhR9uvDGlT&theme=neutral",
+        "thumbUrl": "https://api.hellogithub.com/v1/widgets/recommend.svg?rid=6daa16e405ce46ed97b4a57706aeb29f&claim_uid=pfiJMqhR9uvDGlT&theme=neutral",
+        "alt": "Featured｜HelloGitHub",
+        "sourceUrl": "https://api.hellogithub.com/v1/widgets/recommend.svg?rid=6daa16e405ce46ed97b4a57706aeb29f&claim_uid=pfiJMqhR9uvDGlT&theme=neutral",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.8,
+        "method": "rules",
+        "reasons": [
+          "Matched ai",
+          "Matched llm"
+        ],
+        "signals": [
+          "ai",
+          "llm"
+        ]
+      },
+      "rank": {
+        "globalRank": 2,
+        "categoryRank": 2,
+        "score": 116
+      }
+    },
+    {
+      "id": "googlechrome-modern-web-guidance-src",
+      "owner": "GoogleChrome",
+      "name": "modern-web-guidance-src",
+      "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
+      "avatarUrl": "https://github.com/GoogleChrome.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 3,
+        "starsGained": 133
+      },
+      "metadata": {
+        "description": "",
+        "language": "TypeScript",
+        "topics": [],
+        "stars": 1643,
+        "forks": 136,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "TypeScript"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/GoogleChrome/modern-web-guidance-src/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "<img src=\"./.github/img/modern-web-guidance.svg\" alt=\"Modern Web Guidance\" width=\"30\" height=\"30\"> Modern Web Guidance (Source)",
+        "summary": "This repo is the source repository for https://github.com/GoogleChrome/modern-web-guidance and includes the code and documentation for authoring, calibrating, and evaluating its contents. See ./CONTRIBUTING.md and ./GOVERNANCE.md for how we work on the project and orientation of the codebase. Stewarded by the Google Chrome, Microsoft Edge, Mozilla Firefox, and MDN teams, alongside the web development community. This command runs an interactive wizard to install Modern Web Guidance. See -alternative-installation-methods below. Coding agents often default to older patterns because LLM training data contains vast amounts of legacy code. This often leads them to generate bloated JavaScript for t",
+        "headings": [
+          "<img src=\"./.github/img/modern-web-guidance.svg\" alt=\"Modern Web Guidance\" width=\"30\" height=\"30\"> Modern Web Guidance (Source)",
+          "<img src=\"https://github.com/GoogleChrome/modern-web-guidance/raw/main/.github/img/terminal.svg\" width=\"24\" height=\"24\" style=\"vertical-align: middle; margin-right: 4px;\"> Quickstart",
+          "Search for relevant guides",
+          "Retrieve a guide by ID",
+          "Scan a codebase for legacy patterns to modernize",
+          "<img src=\"https://github.com/GoogleChrome/modern-web-guidance/raw/main/.github/img/lightbulb.svg\" width=\"24\" height=\"24\" style=\"vertical-align: middle; margin-right: 4px;\"> Why?",
+          "<img src=\"https://github.com/GoogleChrome/modern-web-guidance/raw/main/.github/img/package.svg\" width=\"24\" height=\"24\" style=\"vertical-align: middle; margin-right: 4px;\"> What's Included?",
+          "Core Disciplines"
+        ],
+        "commands": [],
+        "keywords": [
+          "ui",
+          "<img src=\"./.github/img/modern-web-guidance.svg\" alt=\"modern web guidance\" width=\"30\" height=\"30\"> modern web guidance (source)",
+          "<img src=\"https://github.com/googlechrome/modern-web-guidance/raw/main/.github/img/terminal.svg\" width=\"24\" height=\"24\" style=\"vertical-align: middle; margin-right: 4px;\"> quickstart",
+          "search for relevant guides",
+          "retrieve a guide by id"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/GoogleChrome/modern-web-guidance-src/main/.github/img/modern-web-guidance.svg",
+        "thumbUrl": "https://raw.githubusercontent.com/GoogleChrome/modern-web-guidance-src/main/.github/img/modern-web-guidance.svg",
+        "alt": "Modern Web Guidance",
+        "sourceUrl": "https://raw.githubusercontent.com/GoogleChrome/modern-web-guidance-src/main/.github/img/modern-web-guidance.svg",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "frontend",
+        "secondaryCategoryIds": [],
+        "confidence": 0.7,
+        "method": "rules",
+        "reasons": [
+          "Matched ui"
+        ],
+        "signals": [
+          "ui"
+        ]
+      },
+      "rank": {
+        "globalRank": 3,
+        "categoryRank": 3,
+        "score": 107.3
+      }
+    },
+    {
+      "id": "shadcn-improve",
+      "owner": "shadcn",
+      "name": "improve",
+      "url": "https://github.com/shadcn/improve",
+      "avatarUrl": "https://github.com/shadcn.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 4,
+        "starsGained": 333
+      },
+      "metadata": {
+        "description": "Use your most capable model to audit your codebase and write plans for cheaper models to execute.",
+        "language": "",
+        "topics": [],
+        "stars": 10726,
+        "forks": 437,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": []
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/shadcn/improve/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "improve",
+        "summary": "An agent skill that audits any codebase and writes implementation plans for other agents to execute. The idea: use your most capable model for the part where intelligence compounds — understanding the codebase, judging what's worth doing, writing the spec — and hand execution to cheaper models. The skill never implements anything itself. The plan is the product. Works in any agent that supports https://agentskills.io format. The plans it writes are plain markdown, so any agent or human can pick them up. 1. Open your agent in the repo and run /improve or /improve quick to keep it cheap. 2. It maps the repo, audits it, and comes back with a findings table. Reply with the ones you want planned ",
+        "headings": [
+          "improve",
+          "Install",
+          "Usage",
+          "How to use",
+          "Example",
+          "How it works",
+          "What makes the plans executable",
+          "Closing the loop"
+        ],
+        "commands": [],
+        "keywords": [
+          "model",
+          "improve",
+          "install",
+          "usage",
+          "how to use"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "repository_open_graph",
+        "url": "https://opengraph.githubassets.com/daily-tech-radar/shadcn/improve",
+        "thumbUrl": "https://opengraph.githubassets.com/daily-tech-radar/shadcn/improve",
+        "alt": "shadcn/improve",
+        "sourceUrl": "https://github.com/shadcn/improve",
+        "promptHash": "sha256:9eb768fc034e"
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.7,
+        "method": "rules",
+        "reasons": [
+          "Matched model"
+        ],
+        "signals": [
+          "model"
+        ]
+      },
+      "rank": {
+        "globalRank": 4,
+        "categoryRank": 4,
+        "score": 112
+      }
+    },
+    {
+      "id": "addyosmani-agent-skills",
+      "owner": "addyosmani",
+      "name": "agent-skills",
+      "url": "https://github.com/addyosmani/agent-skills",
+      "avatarUrl": "https://github.com/addyosmani.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 5,
+        "starsGained": 788
+      },
+      "metadata": {
+        "description": "Production-grade engineering skills for AI coding agents.",
+        "language": "JavaScript",
+        "topics": [],
+        "stars": 115813,
+        "forks": 12147,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "JavaScript"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/addyosmani/agent-skills/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "Agent Skills",
+        "summary": "Production-grade engineering skills for AI coding agents. Skills encode the workflows, quality gates, and best practices that senior engineers use when building software. These ones are packaged so AI agents follow them consistently across every phase of development. 9 slash commands that map to the development lifecycle. Each one activates the right skills automatically. | What you're doing | Command | Key principle | | Define what to build | /spec | Spec before code | | Plan how to build it | /plan | Small, atomic tasks | | Build incrementally | /build | One slice at a time | | Prove it works | /test | Tests are proof | | Set the quality bar | /constraints | Decide it once, enforce it ever",
+        "headings": [
+          "Agent Skills",
+          "Commands",
+          "Quick Start",
+          "Adoption",
+          "All 25 Skills",
+          "Meta - Discover which skill applies",
+          "Define - Clarify what to build",
+          "Plan - Break it down"
+        ],
+        "commands": [],
+        "keywords": [
+          "ai",
+          "agent",
+          "agent skills",
+          "commands",
+          "quick start",
+          "adoption"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://addyosmani.com/assets/images/addys-agent-skills.jpg",
+        "thumbUrl": "https://addyosmani.com/assets/images/addys-agent-skills.jpg",
+        "alt": "Addy's Agent Skills",
+        "sourceUrl": "https://addyosmani.com/assets/images/addys-agent-skills.jpg",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.8,
+        "method": "rules",
+        "reasons": [
+          "Matched ai",
+          "Matched agent"
+        ],
+        "signals": [
+          "ai",
+          "agent"
+        ]
+      },
+      "rank": {
+        "globalRank": 5,
+        "categoryRank": 5,
+        "score": 110
+      }
+    },
+    {
+      "id": "vercel-labs-agent-browser",
+      "owner": "vercel-labs",
+      "name": "agent-browser",
+      "url": "https://github.com/vercel-labs/agent-browser",
+      "avatarUrl": "https://github.com/vercel-labs.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 6,
+        "starsGained": 712
+      },
+      "metadata": {
+        "description": "Browser automation CLI for AI agents",
+        "language": "Rust",
+        "topics": [],
+        "stars": 49781,
+        "forks": 3481,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Rust"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/vercel-labs/agent-browser/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "agent-browser",
+        "summary": "Browser automation for AI agents: open pages, read them as an accessibility tree, and act on elements from the shell. agent-browser is a native Rust CLI that gives an AI agent a browser it can drive one command at a time. snapshot returns the page as compact text with a ref such as @e1 for each element. The agent acts on a ref, reads the page again to check the result, and repeats. The browser stays open between commands, so each step is one short shell call. Homebrew: brew install agent-browser, then agent-browser install. Linux: agent-browser install --with-deps also installs the browser's system libraries. No install: npx agent-browser open example.com.",
+        "headings": [
+          "agent-browser",
+          "Install",
+          "Quick start",
+          "How it works",
+          "For AI agents",
+          "Commands",
+          "Platforms",
+          "Development"
+        ],
+        "commands": [
+          "npm install -g agent-browser"
+        ],
+        "keywords": [
+          "ai",
+          "agent",
+          "agent-browser",
+          "install",
+          "quick start",
+          "how it works"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "repository_open_graph",
+        "url": "https://opengraph.githubassets.com/daily-tech-radar/vercel-labs/agent-browser",
+        "thumbUrl": "https://opengraph.githubassets.com/daily-tech-radar/vercel-labs/agent-browser",
+        "alt": "vercel-labs/agent-browser",
+        "sourceUrl": "https://github.com/vercel-labs/agent-browser",
+        "promptHash": "sha256:579dd6894545"
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.8,
+        "method": "rules",
+        "reasons": [
+          "Matched ai",
+          "Matched agent"
+        ],
+        "signals": [
+          "ai",
+          "agent"
+        ]
+      },
+      "rank": {
+        "globalRank": 6,
+        "categoryRank": 6,
+        "score": 108
+      }
+    },
+    {
+      "id": "we-promise-sure",
+      "owner": "we-promise",
+      "name": "sure",
+      "url": "https://github.com/we-promise/sure",
+      "avatarUrl": "https://github.com/we-promise.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 7,
+        "starsGained": 1079
+      },
+      "metadata": {
+        "description": "The personal finance app for everyone (by everyone)",
+        "language": "Ruby",
+        "topics": [],
+        "stars": 12801,
+        "forks": 949,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Ruby"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/we-promise/sure/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "Sure: The personal finance app for everyone",
+        "summary": "Deutsch | Español | Français | 日本語 | 한국어 | Português | Русский | 中文 Sure: The personal finance app for everyone Get involved: https://discord.gg/36ZGBsxYEK • https://sure.am • https://github.com/we-promise/sure/issues The https://github.com/maybe-finance/maybe archived/abandoned repo team spent most of 2021–2022 building a full-featured personal finance and wealth management app. It even included an “Ask an Advisor” feature that connected users with a real CFP/CFA — all included with your subscription. The business end of things didn't work out, and so they stopped developing the app in mid-2023.",
+        "headings": [
+          "Sure: The personal finance app for everyone",
+          "Backstory",
+          "Hosting Sure",
+          "Forking and Attribution",
+          "Performance Issues",
+          "Local Development Setup",
+          "Requirements",
+          "Getting Started"
+        ],
+        "commands": [],
+        "keywords": [
+          "sure: the personal finance app for everyone",
+          "backstory",
+          "hosting sure",
+          "forking and attribution"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://render.com/images/deploy-to-render-button.svg",
+        "thumbUrl": "https://render.com/images/deploy-to-render-button.svg",
+        "alt": "Deploy to Render",
+        "sourceUrl": "https://render.com/images/deploy-to-render-button.svg",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "unclassified",
+        "secondaryCategoryIds": [],
+        "confidence": 0.4,
+        "method": "rules",
+        "reasons": [
+          "No taxonomy rule matched with enough confidence"
+        ],
+        "signals": []
+      },
+      "rank": {
+        "globalRank": 7,
+        "categoryRank": 7,
+        "score": 106
+      }
+    },
+    {
+      "id": "homeassistant-ai-ha-mcp",
+      "owner": "homeassistant-ai",
+      "name": "ha-mcp",
+      "url": "https://github.com/homeassistant-ai/ha-mcp",
+      "avatarUrl": "https://github.com/homeassistant-ai.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 8,
+        "starsGained": 640
+      },
+      "metadata": {
+        "description": "Configure and automate Home Assistant with Claude, ChatGPT, and other AI assistants.",
+        "language": "Python",
+        "topics": [],
+        "stars": 7219,
+        "forks": 448,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Python"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/homeassistant-ai/ha-mcp/master/README.md"
+      },
+      "readmeSignals": {
+        "title": null,
+        "summary": "Breaking change v7.3.0: haconfigsetyaml has been moved to docs/beta.md. Configure and automate Home Assistant with Claude, ChatGPT, and other AI assistants. The recommended way to run ha-mcp is the HA-MCP integration. It installs into Home Assistant through HACS the built-in Marketplace on Home Assistant 2026.11+, runs the full server in-process, and works on every Home Assistant installation type — Home Assistant OS, Supervised, Container, and Core — with full feature parity. It is the easiest setup in every case: setup asks for an administrator access token and how clients may connect.",
+        "headings": [
+          "🚀 Get Started",
+          "🏠 Home Assistant app (add-on)",
+          "Other install methods",
+          "🧪 Demo server (Windows / macOS / Linux)",
+          "🧙 Setup Wizard for 15+ clients",
+          "💬 What Can You Do With It?",
+          "✨ Features",
+          "🆚 ha-mcp vs. Home Assistant's built-in MCP Server"
+        ],
+        "commands": [],
+        "keywords": [
+          "ai",
+          "mcp",
+          "🚀 get started",
+          "🏠 home assistant app (add-on)",
+          "other install methods",
+          "🧪 demo server (windows / macos / linux)"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/homeassistant-ai/ha-mcp/master/docs/img/demo.webp",
+        "thumbUrl": "https://raw.githubusercontent.com/homeassistant-ai/ha-mcp/master/docs/img/demo.webp",
+        "alt": "Demo with Claude Desktop",
+        "sourceUrl": "https://raw.githubusercontent.com/homeassistant-ai/ha-mcp/master/docs/img/demo.webp",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.8,
+        "method": "rules",
+        "reasons": [
+          "Matched ai",
+          "Matched mcp"
+        ],
+        "signals": [
+          "ai",
+          "mcp"
+        ]
+      },
+      "rank": {
+        "globalRank": 8,
+        "categoryRank": 8,
+        "score": 104
+      }
+    },
+    {
+      "id": "openai-codex-security",
+      "owner": "openai",
+      "name": "codex-security",
+      "url": "https://github.com/openai/codex-security",
+      "avatarUrl": "https://github.com/openai.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 9,
+        "starsGained": 20
+      },
+      "metadata": {
+        "description": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security",
+        "language": "TypeScript",
+        "topics": [],
+        "stars": 11615,
+        "forks": 922,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "TypeScript"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/openai/codex-security/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "Codex Security",
+        "summary": "Codex Security helps you find, investigate, and fix vulnerabilities in your code. Use its security workflows in Codex, or automate them with the @openai/codex-security CLI and TypeScript SDK. In Codex: docs/agent-workflows.md. In a terminal: quick-start. In automation: use the typescript-sdk or github-actions. Scan repositories, selected paths, or Git changes. Deep scans repeat Standard scans and return their deduplicated findings. Validate candidate findings, generate patches, and verify existing fixes. Draft SECURITY.md policies and save threat models for later review. Browse saved scans and findings, identify duplicates, assess severity against your own rubric, and suggest owners from sou",
+        "headings": [
+          "Codex Security",
+          "Features",
+          "Use in Codex",
+          "Quick start",
+          "Scan options",
+          "Scan selected paths.",
+          "Scan committed changes from a base revision to HEAD.",
+          "Run a deep scan of the repository."
+        ],
+        "commands": [
+          "npm install --global @openai/codex-security",
+          "npm install @openai/codex-security"
+        ],
+        "keywords": [
+          "ai",
+          "codex security",
+          "features",
+          "use in codex",
+          "quick start"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "repository_open_graph",
+        "url": "https://opengraph.githubassets.com/daily-tech-radar/openai/codex-security",
+        "thumbUrl": "https://opengraph.githubassets.com/daily-tech-radar/openai/codex-security",
+        "alt": "openai/codex-security",
+        "sourceUrl": "https://github.com/openai/codex-security",
+        "promptHash": "sha256:2c1795102186"
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.7,
+        "method": "rules",
+        "reasons": [
+          "Matched ai"
+        ],
+        "signals": [
+          "ai"
+        ]
+      },
+      "rank": {
+        "globalRank": 9,
+        "categoryRank": 9,
+        "score": 84
+      }
+    },
+    {
+      "id": "thealgorithms-java",
+      "owner": "TheAlgorithms",
+      "name": "Java",
+      "url": "https://github.com/TheAlgorithms/Java",
+      "avatarUrl": "https://github.com/TheAlgorithms.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 10,
+        "starsGained": 108
+      },
+      "metadata": {
+        "description": "All Algorithms implemented in Java",
+        "language": "Java",
+        "topics": [],
+        "stars": 66957,
+        "forks": 21499,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Java"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/TheAlgorithms/Java/master/README.md"
+      },
+      "readmeSignals": {
+        "title": "The Algorithms - Java",
+        "summary": "You can run and edit the algorithms, or contribute to them using Gitpod.io a free online development environment with a single click. All algorithms are implemented in Java for educational purposes These implementations are intended for learning purposes. As such, they may be less efficient than the Java standard library. Contribution Guidelines Please read our CONTRIBUTING.md before you contribute to this project. Algorithms Our DIRECTORY.md contains the full list of algorithms implemented in Java.",
+        "headings": [
+          "The Algorithms - Java",
+          "All algorithms are implemented in Java (for educational purposes)",
+          "Contribution Guidelines",
+          "Algorithms"
+        ],
+        "commands": [],
+        "keywords": [
+          "the algorithms - java",
+          "all algorithms are implemented in java (for educational purposes)",
+          "contribution guidelines",
+          "algorithms"
+        ],
+        "score": 80
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://gitpod.io/button/open-in-gitpod.svg",
+        "thumbUrl": "https://gitpod.io/button/open-in-gitpod.svg",
+        "alt": "Open in Gitpod",
+        "sourceUrl": "https://gitpod.io/button/open-in-gitpod.svg",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "unclassified",
+        "secondaryCategoryIds": [],
+        "confidence": 0.4,
+        "method": "rules",
+        "reasons": [
+          "No taxonomy rule matched with enough confidence"
+        ],
+        "signals": []
+      },
+      "rank": {
+        "globalRank": 10,
+        "categoryRank": 10,
+        "score": 90.8
+      }
+    }
+  ],
+  "views": [
+    {
+      "id": "ai",
+      "type": "category",
+      "label": "AI",
+      "categoryId": "ai",
+      "repoIds": [
+        "meta-astryx",
+        "zhulinsen-daily-stock-analysis",
+        "shadcn-improve",
+        "addyosmani-agent-skills",
+        "vercel-labs-agent-browser",
+        "homeassistant-ai-ha-mcp",
+        "openai-codex-security"
+      ],
+      "sort": "score"
+    },
+    {
+      "id": "frontend",
+      "type": "category",
+      "label": "前端",
+      "categoryId": "frontend",
+      "repoIds": [
+        "googlechrome-modern-web-guidance-src"
+      ],
+      "sort": "score"
+    },
+    {
+      "id": "unclassified",
+      "type": "review",
+      "label": "Needs Review",
+      "categoryId": "unclassified",
+      "repoIds": [
+        "we-promise-sure",
+        "thealgorithms-java"
+      ],
+      "sort": "score"
+    }
+  ],
+  "health": {
+    "status": "ok",
+    "candidateCount": 10,
+    "enrichedRepoCount": 10,
+    "unclassifiedRepoCount": 2,
+    "warnings": [
+      "6 repos used README images, 0 used Agnes images, 4 fell back to repository Open Graph covers"
+    ]
+  }
+}

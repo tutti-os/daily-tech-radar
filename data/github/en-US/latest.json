@@ -1,9 +1,9 @@
 {
   "schemaVersion": "trendreader.daily.v1",
-  "packageId": "github-daily-All-2026-11-10",
+  "packageId": "github-daily-All-2026-11-11",
   "locale": "en-US",
-  "generatedAt": "2026-11-10T20:17:00.292Z",
-  "expiresAt": "2026-11-11T20:17:00.292Z",
+  "generatedAt": "2026-11-11T20:16:34.303Z",
+  "expiresAt": "2026-11-12T20:16:34.303Z",
   "sourceWindow": {
     "since": "daily",
     "language": "All",
@@ -14,12 +14,12 @@
       "id": "github_trending_html",
       "role": "candidate",
       "status": "ok",
-      "itemCount": 12
+      "itemCount": 10
     }
   ],
   "taxonomy": {
-    "version": "2026-11-10",
-    "generatedAt": "2026-11-10T20:17:00.292Z",
+    "version": "2026-11-11",
+    "generatedAt": "2026-11-11T20:16:34.303Z",
     "categories": [
       {
         "id": "ai",
@@ -69,14 +69,14 @@
       "source": {
         "primary": "github_trending_html",
         "sourceRank": 1,
-        "starsGained": 3111
+        "starsGained": 2842
       },
       "metadata": {
         "description": "An open source design system that's fully customizable and agent ready",
         "language": "TypeScript",
         "topics": [],
-        "stars": 22442,
-        "forks": 1797,
+        "stars": 24714,
+        "forks": 1929,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -147,23 +147,23 @@
       }
     },
     {
-      "id": "anthropics-skills",
-      "owner": "anthropics",
-      "name": "skills",
-      "url": "https://github.com/anthropics/skills",
-      "avatarUrl": "https://github.com/anthropics.png",
+      "id": "zhulinsen-daily-stock-analysis",
+      "owner": "ZhuLinsen",
+      "name": "daily_stock_analysis",
+      "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+      "avatarUrl": "https://github.com/ZhuLinsen.png",
       "homepageUrl": null,
       "source": {
         "primary": "github_trending_html",
         "sourceRank": 2,
-        "starsGained": 1676
+        "starsGained": 429
       },
       "metadata": {
-        "description": "Public repository for Agent Skills",
+        "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
         "language": "Python",
         "topics": [],
-        "stars": 192150,
-        "forks": 22625,
+        "stars": 70080,
+        "forks": 56815,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -175,38 +175,201 @@
         "status": "available",
         "path": "README.md",
         "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/anthropics/skills/main/README.md"
+        "rawUrl": "https://raw.githubusercontent.com/ZhuLinsen/daily_stock_analysis/main/README.md"
       },
       "readmeSignals": {
-        "title": "Skills",
-        "summary": "Note: This repository contains Anthropic's implementation of skills for Claude. For information about the Agent Skills standard, see http://agentskills.io. Skills Skills are folders of instructions, scripts, and resources that Claude loads dynamically to improve performance on specialized tasks. Skills teach Claude how to complete specific tasks in a repeatable way, whether that's creating documents with your company's brand guidelines, analyzing data using your organization's specific workflows, or automating personal tasks. For more information, check out: https://support.claude.com/en/articles/12512176-what-are-skills https://support.claude.com/en/articles/12512180-using-skills-in-claude ",
+        "title": "📈 股票智能分析系统",
+        "summary": "🤖 基于 AI 大模型的 A股/港股/美股/日股/韩股/台股自选股智能分析系统，每日自动分析并推送「决策仪表盘」到企业微信/飞书/Telegram/Discord/Slack/邮箱 -产品预览 · -功能特性 · -快速开始 · -推送效果 · docs/INDEX.md · docs/full-guide.md 简体中文 | docs/READMEEN.md | docs/READMECHT.md 💖 赞助商 Sponsors 感谢 Modelflare 赞助本项目！由美国 Havenbyte LLC 运营，满血稳定不掺水，低成本接入 GPT、Claude、Gemini、Grok 及 40+ 图片/视频模型。指定 OpenAI 分组提供 65% / 75% / 85% 每日缓存命中率保障 ；单笔充值 US$20 解锁 GPT 0.015x ， US$50 解锁 Claude 0.03x 。 专属链接注册 | 能力 | 覆盖内容 | | AI 决策报告 | 核心结论、评分、趋势、买卖点位、风险警报、催化因素、操作检查清单 | | 多市场数据聚合 | 覆盖 A股、港股、美股、日股、韩股、台股和 ETF，支持行情、K 线、技术指标、新闻、公告、基本面与报告辅助数据；不同市场的数据源和能力边界见 docs/market-support.md | | Web / 桌面工作台 | 手动分析、任务进度、历史报告、完整 Markdown、回测、持仓、配置管理、浅色 / 深色主题 | | Agent 策略问股 | 多轮追问，支持均线、缠论、波浪、趋势、热点、事件、成长、预期等 15 种内置",
         "headings": [
-          "Skills",
-          "About This Repository",
-          "Disclaimer",
-          "Skill Sets",
-          "Try in Claude Code, Claude.ai, and the API",
-          "Claude Code",
-          "Claude.ai",
-          "Claude API"
+          "📈 股票智能分析系统",
+          "🖥️ 产品预览",
+          "✨ 功能特性",
+          "技术栈与数据来源",
+          "🚀 快速开始",
+          "方式一：[GitHub Actions（推荐）](https://www.bilibili.com/video/BV11FEb66EXG/)",
+          "方式二：[客户端配置教程](https://www.bilibili.com/video/BV11FEb66Eyr/) / 本地运行 / Docker 部署",
+          "克隆项目"
         ],
-        "commands": [],
+        "commands": [
+          "pip install -r requirements.txt"
+        ],
         "keywords": [
-          "agent",
-          "skills",
-          "about this repository",
-          "disclaimer",
-          "skill sets"
+          "ai",
+          "llm",
+          "📈 股票智能分析系统",
+          "🖥️ 产品预览",
+          "✨ 功能特性",
+          "技术栈与数据来源"
         ],
         "score": 100
       },
       "visual": {
         "kind": "readme_image",
-        "url": "https://skills.sh/b/anthropics/skills",
-        "thumbUrl": "https://skills.sh/b/anthropics/skills",
-        "alt": "skills.sh",
-        "sourceUrl": "https://skills.sh/b/anthropics/skills",
+        "url": "https://api.hellogithub.com/v1/widgets/recommend.svg?rid=6daa16e405ce46ed97b4a57706aeb29f&claim_uid=pfiJMqhR9uvDGlT&theme=neutral",
+        "thumbUrl": "https://api.hellogithub.com/v1/widgets/recommend.svg?rid=6daa16e405ce46ed97b4a57706aeb29f&claim_uid=pfiJMqhR9uvDGlT&theme=neutral",
+        "alt": "Featured｜HelloGitHub",
+        "sourceUrl": "https://api.hellogithub.com/v1/widgets/recommend.svg?rid=6daa16e405ce46ed97b4a57706aeb29f&claim_uid=pfiJMqhR9uvDGlT&theme=neutral",
         "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.8,
+        "method": "rules",
+        "reasons": [
+          "Matched ai",
+          "Matched llm"
+        ],
+        "signals": [
+          "ai",
+          "llm"
+        ]
+      },
+      "rank": {
+        "globalRank": 2,
+        "categoryRank": 2,
+        "score": 116
+      }
+    },
+    {
+      "id": "googlechrome-modern-web-guidance-src",
+      "owner": "GoogleChrome",
+      "name": "modern-web-guidance-src",
+      "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
+      "avatarUrl": "https://github.com/GoogleChrome.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 3,
+        "starsGained": 133
+      },
+      "metadata": {
+        "description": "",
+        "language": "TypeScript",
+        "topics": [],
+        "stars": 1643,
+        "forks": 136,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "TypeScript"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/GoogleChrome/modern-web-guidance-src/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "<img src=\"./.github/img/modern-web-guidance.svg\" alt=\"Modern Web Guidance\" width=\"30\" height=\"30\"> Modern Web Guidance (Source)",
+        "summary": "This repo is the source repository for https://github.com/GoogleChrome/modern-web-guidance and includes the code and documentation for authoring, calibrating, and evaluating its contents. See ./CONTRIBUTING.md and ./GOVERNANCE.md for how we work on the project and orientation of the codebase. Stewarded by the Google Chrome, Microsoft Edge, Mozilla Firefox, and MDN teams, alongside the web development community. This command runs an interactive wizard to install Modern Web Guidance. See -alternative-installation-methods below. Coding agents often default to older patterns because LLM training data contains vast amounts of legacy code. This often leads them to generate bloated JavaScript for t",
+        "headings": [
+          "<img src=\"./.github/img/modern-web-guidance.svg\" alt=\"Modern Web Guidance\" width=\"30\" height=\"30\"> Modern Web Guidance (Source)",
+          "<img src=\"https://github.com/GoogleChrome/modern-web-guidance/raw/main/.github/img/terminal.svg\" width=\"24\" height=\"24\" style=\"vertical-align: middle; margin-right: 4px;\"> Quickstart",
+          "Search for relevant guides",
+          "Retrieve a guide by ID",
+          "Scan a codebase for legacy patterns to modernize",
+          "<img src=\"https://github.com/GoogleChrome/modern-web-guidance/raw/main/.github/img/lightbulb.svg\" width=\"24\" height=\"24\" style=\"vertical-align: middle; margin-right: 4px;\"> Why?",
+          "<img src=\"https://github.com/GoogleChrome/modern-web-guidance/raw/main/.github/img/package.svg\" width=\"24\" height=\"24\" style=\"vertical-align: middle; margin-right: 4px;\"> What's Included?",
+          "Core Disciplines"
+        ],
+        "commands": [],
+        "keywords": [
+          "ui",
+          "<img src=\"./.github/img/modern-web-guidance.svg\" alt=\"modern web guidance\" width=\"30\" height=\"30\"> modern web guidance (source)",
+          "<img src=\"https://github.com/googlechrome/modern-web-guidance/raw/main/.github/img/terminal.svg\" width=\"24\" height=\"24\" style=\"vertical-align: middle; margin-right: 4px;\"> quickstart",
+          "search for relevant guides",
+          "retrieve a guide by id"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/GoogleChrome/modern-web-guidance-src/main/.github/img/modern-web-guidance.svg",
+        "thumbUrl": "https://raw.githubusercontent.com/GoogleChrome/modern-web-guidance-src/main/.github/img/modern-web-guidance.svg",
+        "alt": "Modern Web Guidance",
+        "sourceUrl": "https://raw.githubusercontent.com/GoogleChrome/modern-web-guidance-src/main/.github/img/modern-web-guidance.svg",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "frontend",
+        "secondaryCategoryIds": [],
+        "confidence": 0.7,
+        "method": "rules",
+        "reasons": [
+          "Matched ui"
+        ],
+        "signals": [
+          "ui"
+        ]
+      },
+      "rank": {
+        "globalRank": 3,
+        "categoryRank": 3,
+        "score": 107.3
+      }
+    },
+    {
+      "id": "shadcn-improve",
+      "owner": "shadcn",
+      "name": "improve",
+      "url": "https://github.com/shadcn/improve",
+      "avatarUrl": "https://github.com/shadcn.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 4,
+        "starsGained": 333
+      },
+      "metadata": {
+        "description": "Use your most capable model to audit your codebase and write plans for cheaper models to execute.",
+        "language": "",
+        "topics": [],
+        "stars": 10726,
+        "forks": 437,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": []
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/shadcn/improve/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "improve",
+        "summary": "An agent skill that audits any codebase and writes implementation plans for other agents to execute. The idea: use your most capable model for the part where intelligence compounds — understanding the codebase, judging what's worth doing, writing the spec — and hand execution to cheaper models. The skill never implements anything itself. The plan is the product. Works in any agent that supports https://agentskills.io format. The plans it writes are plain markdown, so any agent or human can pick them up. 1. Open your agent in the repo and run /improve or /improve quick to keep it cheap. 2. It maps the repo, audits it, and comes back with a findings table. Reply with the ones you want planned ",
+        "headings": [
+          "improve",
+          "Install",
+          "Usage",
+          "How to use",
+          "Example",
+          "How it works",
+          "What makes the plans executable",
+          "Closing the loop"
+        ],
+        "commands": [],
+        "keywords": [
+          "model",
+          "improve",
+          "install",
+          "usage",
+          "how to use"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "repository_open_graph",
+        "url": "https://opengraph.githubassets.com/daily-tech-radar/shadcn/improve",
+        "thumbUrl": "https://opengraph.githubassets.com/daily-tech-radar/shadcn/improve",
+        "alt": "shadcn/improve",
+        "sourceUrl": "https://github.com/shadcn/improve",
+        "promptHash": "sha256:9eb768fc034e"
       },
       "classification": {
         "primaryCategoryId": "ai",
@@ -214,16 +377,16 @@
         "confidence": 0.7,
         "method": "rules",
         "reasons": [
-          "Matched agent"
+          "Matched model"
         ],
         "signals": [
-          "agent"
+          "model"
         ]
       },
       "rank": {
-        "globalRank": 2,
-        "categoryRank": 2,
-        "score": 116
+        "globalRank": 4,
+        "categoryRank": 4,
+        "score": 112
       }
     },
     {
@@ -235,15 +398,15 @@
       "homepageUrl": null,
       "source": {
         "primary": "github_trending_html",
-        "sourceRank": 3,
-        "starsGained": 465
+        "sourceRank": 5,
+        "starsGained": 788
       },
       "metadata": {
         "description": "Production-grade engineering skills for AI coding agents.",
         "language": "JavaScript",
         "topics": [],
-        "stars": 115041,
-        "forks": 12091,
+        "stars": 115813,
+        "forks": 12147,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -304,328 +467,9 @@
         ]
       },
       "rank": {
-        "globalRank": 3,
-        "categoryRank": 3,
-        "score": 114
-      }
-    },
-    {
-      "id": "anthropics-claude-quickstarts",
-      "owner": "anthropics",
-      "name": "claude-quickstarts",
-      "url": "https://github.com/anthropics/claude-quickstarts",
-      "avatarUrl": "https://github.com/anthropics.png",
-      "homepageUrl": null,
-      "source": {
-        "primary": "github_trending_html",
-        "sourceRank": 4,
-        "starsGained": 530
-      },
-      "metadata": {
-        "description": "A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API",
-        "language": "Python",
-        "topics": [],
-        "stars": 20412,
-        "forks": 3464,
-        "license": null,
-        "defaultBranch": null,
-        "pushedAt": null,
-        "topLanguages": [
-          "Python"
-        ]
-      },
-      "readmeRef": {
-        "status": "available",
-        "path": "README.md",
-        "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/anthropics/claude-quickstarts/main/README.md"
-      },
-      "readmeSignals": {
-        "title": "Claude Quickstarts",
-        "summary": "Claude Quickstarts is a collection of projects designed to help developers quickly get started with building applications using the Claude API. Each quickstart provides a foundation that you can easily build upon and customize for your specific needs. To use these quickstarts, you'll need an Claude API key. If you don't have one yet, you can sign up for free at https://console.anthropic.com. A customer support agent powered by Claude. This project demonstrates how to leverage Claude's natural language understanding and generation capabilities to create an AI-assisted customer support system with access to a knowledge base.",
-        "headings": [
-          "Claude Quickstarts",
-          "Getting Started",
-          "Available Quickstarts",
-          "Customer Support Agent",
-          "Financial Data Analyst",
-          "Computer Use Demo",
-          "Computer Use Best Practices",
-          "Browser Use Demo"
-        ],
-        "commands": [],
-        "keywords": [
-          "ui",
-          "claude quickstarts",
-          "getting started",
-          "available quickstarts",
-          "customer support agent"
-        ],
-        "score": 100
-      },
-      "visual": {
-        "kind": "repository_open_graph",
-        "url": "https://opengraph.githubassets.com/daily-tech-radar/anthropics/claude-quickstarts",
-        "thumbUrl": "https://opengraph.githubassets.com/daily-tech-radar/anthropics/claude-quickstarts",
-        "alt": "anthropics/claude-quickstarts",
-        "sourceUrl": "https://github.com/anthropics/claude-quickstarts",
-        "promptHash": "sha256:e1aed73a2e8f"
-      },
-      "classification": {
-        "primaryCategoryId": "frontend",
-        "secondaryCategoryIds": [],
-        "confidence": 0.7,
-        "method": "rules",
-        "reasons": [
-          "Matched ui"
-        ],
-        "signals": [
-          "ui"
-        ]
-      },
-      "rank": {
-        "globalRank": 4,
-        "categoryRank": 4,
-        "score": 112
-      }
-    },
-    {
-      "id": "google-deepmind-mujoco",
-      "owner": "google-deepmind",
-      "name": "mujoco",
-      "url": "https://github.com/google-deepmind/mujoco",
-      "avatarUrl": "https://github.com/google-deepmind.png",
-      "homepageUrl": null,
-      "source": {
-        "primary": "github_trending_html",
-        "sourceRank": 5,
-        "starsGained": 453
-      },
-      "metadata": {
-        "description": "Multi-Joint dynamics with Contact. A general purpose physics simulator.",
-        "language": "C++",
-        "topics": [],
-        "stars": 17289,
-        "forks": 2141,
-        "license": null,
-        "defaultBranch": null,
-        "pushedAt": null,
-        "topLanguages": [
-          "C++"
-        ]
-      },
-      "readmeRef": {
-        "status": "available",
-        "path": "README.md",
-        "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/google-deepmind/mujoco/main/README.md"
-      },
-      "readmeSignals": {
-        "title": null,
-        "summary": "MuJoCo stands for Multi-Joint dynamics with Contact. It is a general purpose physics engine that aims to facilitate research and development in robotics, biomechanics, graphics and animation, machine learning, and other areas which demand fast and accurate simulation of articulated structures interacting with their environment. This repository is maintained by https://www.deepmind.com/. MuJoCo has a C API and is intended for researchers and developers. The runtime simulation module is tuned to maximize performance and operates on low-level data structures that are preallocated by the built-in XML compiler. The library includes interactive visualization in native desktop windows and web brows",
-        "headings": [
-          "Documentation",
-          "Getting Started",
-          "Installation",
-          "Prebuilt binaries",
-          "Building from source",
-          "Python (>= 3.11)",
-          "Versioning",
-          "Contributing"
-        ],
-        "commands": [
-          "pip install mujoco"
-        ],
-        "keywords": [
-          "documentation",
-          "getting started",
-          "installation",
-          "prebuilt binaries"
-        ],
-        "score": 100
-      },
-      "visual": {
-        "kind": "repository_open_graph",
-        "url": "https://opengraph.githubassets.com/daily-tech-radar/google-deepmind/mujoco",
-        "thumbUrl": "https://opengraph.githubassets.com/daily-tech-radar/google-deepmind/mujoco",
-        "alt": "google-deepmind/mujoco",
-        "sourceUrl": "https://github.com/google-deepmind/mujoco",
-        "promptHash": "sha256:40bcefd69c6d"
-      },
-      "classification": {
-        "primaryCategoryId": "unclassified",
-        "secondaryCategoryIds": [],
-        "confidence": 0.4,
-        "method": "rules",
-        "reasons": [
-          "No taxonomy rule matched with enough confidence"
-        ],
-        "signals": []
-      },
-      "rank": {
         "globalRank": 5,
         "categoryRank": 5,
         "score": 110
-      }
-    },
-    {
-      "id": "we-promise-sure",
-      "owner": "we-promise",
-      "name": "sure",
-      "url": "https://github.com/we-promise/sure",
-      "avatarUrl": "https://github.com/we-promise.png",
-      "homepageUrl": null,
-      "source": {
-        "primary": "github_trending_html",
-        "sourceRank": 6,
-        "starsGained": 184
-      },
-      "metadata": {
-        "description": "The personal finance app for everyone (by everyone)",
-        "language": "Ruby",
-        "topics": [],
-        "stars": 11784,
-        "forks": 881,
-        "license": null,
-        "defaultBranch": null,
-        "pushedAt": null,
-        "topLanguages": [
-          "Ruby"
-        ]
-      },
-      "readmeRef": {
-        "status": "available",
-        "path": "README.md",
-        "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/we-promise/sure/main/README.md"
-      },
-      "readmeSignals": {
-        "title": "Sure: The personal finance app for everyone",
-        "summary": "Deutsch | Español | Français | 日本語 | 한국어 | Português | Русский | 中文 Sure: The personal finance app for everyone Get involved: https://discord.gg/36ZGBsxYEK • https://sure.am • https://github.com/we-promise/sure/issues The https://github.com/maybe-finance/maybe archived/abandoned repo team spent most of 2021–2022 building a full-featured personal finance and wealth management app. It even included an “Ask an Advisor” feature that connected users with a real CFP/CFA — all included with your subscription. The business end of things didn't work out, and so they stopped developing the app in mid-2023.",
-        "headings": [
-          "Sure: The personal finance app for everyone",
-          "Backstory",
-          "Hosting Sure",
-          "Forking and Attribution",
-          "Performance Issues",
-          "Local Development Setup",
-          "Requirements",
-          "Getting Started"
-        ],
-        "commands": [],
-        "keywords": [
-          "sure: the personal finance app for everyone",
-          "backstory",
-          "hosting sure",
-          "forking and attribution"
-        ],
-        "score": 100
-      },
-      "visual": {
-        "kind": "readme_image",
-        "url": "https://render.com/images/deploy-to-render-button.svg",
-        "thumbUrl": "https://render.com/images/deploy-to-render-button.svg",
-        "alt": "Deploy to Render",
-        "sourceUrl": "https://render.com/images/deploy-to-render-button.svg",
-        "promptHash": null
-      },
-      "classification": {
-        "primaryCategoryId": "unclassified",
-        "secondaryCategoryIds": [],
-        "confidence": 0.4,
-        "method": "rules",
-        "reasons": [
-          "No taxonomy rule matched with enough confidence"
-        ],
-        "signals": []
-      },
-      "rank": {
-        "globalRank": 6,
-        "categoryRank": 6,
-        "score": 106.4
-      }
-    },
-    {
-      "id": "homeassistant-ai-ha-mcp",
-      "owner": "homeassistant-ai",
-      "name": "ha-mcp",
-      "url": "https://github.com/homeassistant-ai/ha-mcp",
-      "avatarUrl": "https://github.com/homeassistant-ai.png",
-      "homepageUrl": null,
-      "source": {
-        "primary": "github_trending_html",
-        "sourceRank": 7,
-        "starsGained": 792
-      },
-      "metadata": {
-        "description": "Configure and automate Home Assistant with Claude, ChatGPT, and other AI assistants.",
-        "language": "Python",
-        "topics": [],
-        "stars": 6535,
-        "forks": 427,
-        "license": null,
-        "defaultBranch": null,
-        "pushedAt": null,
-        "topLanguages": [
-          "Python"
-        ]
-      },
-      "readmeRef": {
-        "status": "available",
-        "path": "README.md",
-        "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/homeassistant-ai/ha-mcp/master/README.md"
-      },
-      "readmeSignals": {
-        "title": null,
-        "summary": "Breaking change v7.3.0: haconfigsetyaml has been moved to docs/beta.md. Configure and automate Home Assistant with Claude, ChatGPT, and other AI assistants. The recommended way to run ha-mcp is the HA-MCP integration. It installs into Home Assistant through HACS the built-in Marketplace on Home Assistant 2026.11+, runs the full server in-process, and works on every Home Assistant installation type — Home Assistant OS, Supervised, Container, and Core — with full feature parity. It is the easiest setup in every case: setup asks for an administrator access token and how clients may connect.",
-        "headings": [
-          "🚀 Get Started",
-          "🏠 Home Assistant app (add-on)",
-          "Other install methods",
-          "🧪 Demo server (Windows / macOS / Linux)",
-          "🧙 Setup Wizard for 15+ clients",
-          "💬 What Can You Do With It?",
-          "✨ Features",
-          "🆚 ha-mcp vs. Home Assistant's built-in MCP Server"
-        ],
-        "commands": [],
-        "keywords": [
-          "ai",
-          "mcp",
-          "🚀 get started",
-          "🏠 home assistant app (add-on)",
-          "other install methods",
-          "🧪 demo server (windows / macos / linux)"
-        ],
-        "score": 100
-      },
-      "visual": {
-        "kind": "readme_image",
-        "url": "https://raw.githubusercontent.com/homeassistant-ai/ha-mcp/master/docs/img/demo.webp",
-        "thumbUrl": "https://raw.githubusercontent.com/homeassistant-ai/ha-mcp/master/docs/img/demo.webp",
-        "alt": "Demo with Claude Desktop",
-        "sourceUrl": "https://raw.githubusercontent.com/homeassistant-ai/ha-mcp/master/docs/img/demo.webp",
-        "promptHash": null
-      },
-      "classification": {
-        "primaryCategoryId": "ai",
-        "secondaryCategoryIds": [],
-        "confidence": 0.8,
-        "method": "rules",
-        "reasons": [
-          "Matched ai",
-          "Matched mcp"
-        ],
-        "signals": [
-          "ai",
-          "mcp"
-        ]
-      },
-      "rank": {
-        "globalRank": 7,
-        "categoryRank": 7,
-        "score": 106
       }
     },
     {
@@ -637,15 +481,15 @@
       "homepageUrl": null,
       "source": {
         "primary": "github_trending_html",
-        "sourceRank": 8,
-        "starsGained": 775
+        "sourceRank": 6,
+        "starsGained": 712
       },
       "metadata": {
         "description": "Browser automation CLI for AI agents",
         "language": "Rust",
         "topics": [],
-        "stars": 49111,
-        "forks": 3444,
+        "stars": 49781,
+        "forks": 3481,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -708,57 +552,71 @@
         ]
       },
       "rank": {
-        "globalRank": 8,
-        "categoryRank": 8,
-        "score": 104
+        "globalRank": 6,
+        "categoryRank": 6,
+        "score": 108
       }
     },
     {
-      "id": "sherlock-project-sherlock",
-      "owner": "sherlock-project",
-      "name": "sherlock",
-      "url": "https://github.com/sherlock-project/sherlock",
-      "avatarUrl": "https://github.com/sherlock-project.png",
+      "id": "we-promise-sure",
+      "owner": "we-promise",
+      "name": "sure",
+      "url": "https://github.com/we-promise/sure",
+      "avatarUrl": "https://github.com/we-promise.png",
       "homepageUrl": null,
       "source": {
         "primary": "github_trending_html",
-        "sourceRank": 9,
-        "starsGained": 2387
+        "sourceRank": 7,
+        "starsGained": 1079
       },
       "metadata": {
-        "description": "Hunt down social media accounts by username across social networks",
-        "language": "Python",
+        "description": "The personal finance app for everyone (by everyone)",
+        "language": "Ruby",
         "topics": [],
-        "stars": 108768,
-        "forks": 12645,
+        "stars": 12801,
+        "forks": 949,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
         "topLanguages": [
-          "Python"
+          "Ruby"
         ]
       },
       "readmeRef": {
-        "status": "missing",
-        "path": null,
+        "status": "available",
+        "path": "README.md",
         "sha": null,
-        "rawUrl": null
+        "rawUrl": "https://raw.githubusercontent.com/we-promise/sure/main/README.md"
       },
       "readmeSignals": {
-        "title": "sherlock",
-        "summary": "Hunt down social media accounts by username across social networks",
-        "headings": [],
+        "title": "Sure: The personal finance app for everyone",
+        "summary": "Deutsch | Español | Français | 日本語 | 한국어 | Português | Русский | 中文 Sure: The personal finance app for everyone Get involved: https://discord.gg/36ZGBsxYEK • https://sure.am • https://github.com/we-promise/sure/issues The https://github.com/maybe-finance/maybe archived/abandoned repo team spent most of 2021–2022 building a full-featured personal finance and wealth management app. It even included an “Ask an Advisor” feature that connected users with a real CFP/CFA — all included with your subscription. The business end of things didn't work out, and so they stopped developing the app in mid-2023.",
+        "headings": [
+          "Sure: The personal finance app for everyone",
+          "Backstory",
+          "Hosting Sure",
+          "Forking and Attribution",
+          "Performance Issues",
+          "Local Development Setup",
+          "Requirements",
+          "Getting Started"
+        ],
         "commands": [],
-        "keywords": [],
-        "score": 40
+        "keywords": [
+          "sure: the personal finance app for everyone",
+          "backstory",
+          "hosting sure",
+          "forking and attribution"
+        ],
+        "score": 100
       },
       "visual": {
-        "kind": "repository_open_graph",
-        "url": "https://opengraph.githubassets.com/daily-tech-radar/sherlock-project/sherlock",
-        "thumbUrl": "https://opengraph.githubassets.com/daily-tech-radar/sherlock-project/sherlock",
-        "alt": "sherlock-project/sherlock",
-        "sourceUrl": "https://github.com/sherlock-project/sherlock",
-        "promptHash": "sha256:af4e514b70e4"
+        "kind": "readme_image",
+        "url": "https://render.com/images/deploy-to-render-button.svg",
+        "thumbUrl": "https://render.com/images/deploy-to-render-button.svg",
+        "alt": "Deploy to Render",
+        "sourceUrl": "https://render.com/images/deploy-to-render-button.svg",
+        "promptHash": null
       },
       "classification": {
         "primaryCategoryId": "unclassified",
@@ -771,109 +629,112 @@
         "signals": []
       },
       "rank": {
-        "globalRank": 9,
-        "categoryRank": 9,
-        "score": 102
+        "globalRank": 7,
+        "categoryRank": 7,
+        "score": 106
       }
     },
     {
-      "id": "tokio-rs-topcoat",
-      "owner": "tokio-rs",
-      "name": "topcoat",
-      "url": "https://github.com/tokio-rs/topcoat",
-      "avatarUrl": "https://github.com/tokio-rs.png",
+      "id": "homeassistant-ai-ha-mcp",
+      "owner": "homeassistant-ai",
+      "name": "ha-mcp",
+      "url": "https://github.com/homeassistant-ai/ha-mcp",
+      "avatarUrl": "https://github.com/homeassistant-ai.png",
       "homepageUrl": null,
       "source": {
         "primary": "github_trending_html",
-        "sourceRank": 10,
-        "starsGained": 192
+        "sourceRank": 8,
+        "starsGained": 640
       },
       "metadata": {
-        "description": "A batteries-included framework for building web apps",
-        "language": "Rust",
+        "description": "Configure and automate Home Assistant with Claude, ChatGPT, and other AI assistants.",
+        "language": "Python",
         "topics": [],
-        "stars": 6725,
-        "forks": 297,
+        "stars": 7219,
+        "forks": 448,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
         "topLanguages": [
-          "Rust"
+          "Python"
         ]
       },
       "readmeRef": {
         "status": "available",
         "path": "README.md",
         "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/tokio-rs/topcoat/main/README.md"
+        "rawUrl": "https://raw.githubusercontent.com/homeassistant-ai/ha-mcp/master/README.md"
       },
       "readmeSignals": {
         "title": null,
-        "summary": "Topcoat is a modular, batteries-included Rust framework for building full-stack apps. It prioritizes simplicity and productivity. See learn-topcoat to get started, or the roadmap for what's coming next. Early-stage and experimental. Expect breaking changes. Client reactivity without the boilerplate Topcoat renders all markup on the server: components can be async and query the database directly, eliminating all the traditional boilerplate needed for a separate API layer. Interactivity does not have to cost a round-trip, though. A $... expression is ordinary type-checked Rust that Topcoat evaluates on the server for the initial render and also translates to JavaScript, so it re-runs instantly",
+        "summary": "Breaking change v7.3.0: haconfigsetyaml has been moved to docs/beta.md. Configure and automate Home Assistant with Claude, ChatGPT, and other AI assistants. The recommended way to run ha-mcp is the HA-MCP integration. It installs into Home Assistant through HACS the built-in Marketplace on Home Assistant 2026.11+, runs the full server in-process, and works on every Home Assistant installation type — Home Assistant OS, Supervised, Container, and Core — with full feature parity. It is the easiest setup in every case: setup asks for an administrator access token and how clients may connect.",
         "headings": [
-          "What makes Topcoat different",
-          "Client reactivity without the boilerplate",
-          "Powerful, unsurprising HTML templates",
-          "Module-based routing",
-          "Premade components you can edit",
-          "Asset bundling",
-          "Built-in Tailwind support",
-          "Learn Topcoat"
+          "🚀 Get Started",
+          "🏠 Home Assistant app (add-on)",
+          "Other install methods",
+          "🧪 Demo server (Windows / macOS / Linux)",
+          "🧙 Setup Wizard for 15+ clients",
+          "💬 What Can You Do With It?",
+          "✨ Features",
+          "🆚 ha-mcp vs. Home Assistant's built-in MCP Server"
         ],
         "commands": [],
         "keywords": [
-          "ui",
-          "what makes topcoat different",
-          "client reactivity without the boilerplate",
-          "powerful, unsurprising html templates",
-          "module-based routing"
+          "ai",
+          "mcp",
+          "🚀 get started",
+          "🏠 home assistant app (add-on)",
+          "other install methods",
+          "🧪 demo server (windows / macos / linux)"
         ],
         "score": 100
       },
       "visual": {
-        "kind": "repository_open_graph",
-        "url": "https://opengraph.githubassets.com/daily-tech-radar/tokio-rs/topcoat",
-        "thumbUrl": "https://opengraph.githubassets.com/daily-tech-radar/tokio-rs/topcoat",
-        "alt": "tokio-rs/topcoat",
-        "sourceUrl": "https://github.com/tokio-rs/topcoat",
-        "promptHash": "sha256:49d21a8adebb"
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/homeassistant-ai/ha-mcp/master/docs/img/demo.webp",
+        "thumbUrl": "https://raw.githubusercontent.com/homeassistant-ai/ha-mcp/master/docs/img/demo.webp",
+        "alt": "Demo with Claude Desktop",
+        "sourceUrl": "https://raw.githubusercontent.com/homeassistant-ai/ha-mcp/master/docs/img/demo.webp",
+        "promptHash": null
       },
       "classification": {
-        "primaryCategoryId": "frontend",
+        "primaryCategoryId": "ai",
         "secondaryCategoryIds": [],
-        "confidence": 0.7,
+        "confidence": 0.8,
         "method": "rules",
         "reasons": [
-          "Matched ui"
+          "Matched ai",
+          "Matched mcp"
         ],
         "signals": [
-          "ui"
+          "ai",
+          "mcp"
         ]
       },
       "rank": {
-        "globalRank": 10,
-        "categoryRank": 10,
-        "score": 99.2
+        "globalRank": 8,
+        "categoryRank": 8,
+        "score": 104
       }
     },
     {
-      "id": "ranxianglei-billion-context",
-      "owner": "ranxianglei",
-      "name": "billion-context",
-      "url": "https://github.com/ranxianglei/billion-context",
-      "avatarUrl": "https://github.com/ranxianglei.png",
+      "id": "openai-codex-security",
+      "owner": "openai",
+      "name": "codex-security",
+      "url": "https://github.com/openai/codex-security",
+      "avatarUrl": "https://github.com/openai.png",
       "homepageUrl": null,
       "source": {
         "primary": "github_trending_html",
-        "sourceRank": 11,
-        "starsGained": 374
+        "sourceRank": 9,
+        "starsGained": 20
       },
       "metadata": {
-        "description": "A context-compression plugin for month-long single sessions (billions of tokens) ,small context windows (a 100K context is enough) and token savings (5x fewer tokens) .上下文压缩插件，月级长会话会话， 兼顾小窗口(100k上下文足矣)省token(省5倍token) . billion-context is all you need",
+        "description": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security",
         "language": "TypeScript",
         "topics": [],
-        "stars": 6209,
-        "forks": 525,
+        "stars": 11615,
+        "forks": 922,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -885,41 +746,115 @@
         "status": "available",
         "path": "README.md",
         "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/ranxianglei/billion-context/master/README.md"
+        "rawUrl": "https://raw.githubusercontent.com/openai/codex-security/main/README.md"
       },
       "readmeSignals": {
-        "title": "billion-context",
-        "summary": "Context-compression plugin — billion-context is all you need. small context windows 100K is enough · 5× fewer tokens · month-long single sessions billions of tokens · high compression quality npm install -g billion-context --prefix=~/.local &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Cache health at a glance: a healthy session keeps a 95–97% prefix-cache hit rate — compression itself costs ≤2%. Sustained lower? Check attribution with /acp or /acp-cache see faq; usual causes, in order: upstream cache TTL expiry · model switch · a bili bug please report · other/unknown.",
+        "title": "Codex Security",
+        "summary": "Codex Security helps you find, investigate, and fix vulnerabilities in your code. Use its security workflows in Codex, or automate them with the @openai/codex-security CLI and TypeScript SDK. In Codex: docs/agent-workflows.md. In a terminal: quick-start. In automation: use the typescript-sdk or github-actions. Scan repositories, selected paths, or Git changes. Deep scans repeat Standard scans and return their deduplicated findings. Validate candidate findings, generate patches, and verify existing fixes. Draft SECURITY.md policies and save threat models for later review. Browse saved scans and findings, identify duplicates, assess severity against your own rubric, and suggest owners from sou",
         "headings": [
-          "billion-context",
-          "Community",
-          "📄 Paper / Preprint",
-          "📊 Independent Third-Party Benchmarks",
-          "Why",
-          "How it works",
-          "Context-management tools",
-          "Which do I need?"
+          "Codex Security",
+          "Features",
+          "Use in Codex",
+          "Quick start",
+          "Scan options",
+          "Scan selected paths.",
+          "Scan committed changes from a base revision to HEAD.",
+          "Run a deep scan of the repository."
         ],
         "commands": [
-          "npm install -g billion-context --prefix=~/.local</code>",
-          "npm install -g billion-context --prefix=~/.local",
-          "npm install -g billion-context",
-          "npm install -g billion-context"
+          "npm install --global @openai/codex-security",
+          "npm install @openai/codex-security"
         ],
         "keywords": [
-          "billion-context",
-          "community",
-          "📄 paper / preprint",
-          "📊 independent third-party benchmarks"
+          "ai",
+          "codex security",
+          "features",
+          "use in codex",
+          "quick start"
         ],
         "score": 100
       },
       "visual": {
+        "kind": "repository_open_graph",
+        "url": "https://opengraph.githubassets.com/daily-tech-radar/openai/codex-security",
+        "thumbUrl": "https://opengraph.githubassets.com/daily-tech-radar/openai/codex-security",
+        "alt": "openai/codex-security",
+        "sourceUrl": "https://github.com/openai/codex-security",
+        "promptHash": "sha256:2c1795102186"
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.7,
+        "method": "rules",
+        "reasons": [
+          "Matched ai"
+        ],
+        "signals": [
+          "ai"
+        ]
+      },
+      "rank": {
+        "globalRank": 9,
+        "categoryRank": 9,
+        "score": 84
+      }
+    },
+    {
+      "id": "thealgorithms-java",
+      "owner": "TheAlgorithms",
+      "name": "Java",
+      "url": "https://github.com/TheAlgorithms/Java",
+      "avatarUrl": "https://github.com/TheAlgorithms.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 10,
+        "starsGained": 108
+      },
+      "metadata": {
+        "description": "All Algorithms implemented in Java",
+        "language": "Java",
+        "topics": [],
+        "stars": 66957,
+        "forks": 21499,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Java"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/TheAlgorithms/Java/master/README.md"
+      },
+      "readmeSignals": {
+        "title": "The Algorithms - Java",
+        "summary": "You can run and edit the algorithms, or contribute to them using Gitpod.io a free online development environment with a single click. All algorithms are implemented in Java for educational purposes These implementations are intended for learning purposes. As such, they may be less efficient than the Java standard library. Contribution Guidelines Please read our CONTRIBUTING.md before you contribute to this project. Algorithms Our DIRECTORY.md contains the full list of algorithms implemented in Java.",
+        "headings": [
+          "The Algorithms - Java",
+          "All algorithms are implemented in Java (for educational purposes)",
+          "Contribution Guidelines",
+          "Algorithms"
+        ],
+        "commands": [],
+        "keywords": [
+          "the algorithms - java",
+          "all algorithms are implemented in java (for educational purposes)",
+          "contribution guidelines",
+          "algorithms"
+        ],
+        "score": 80
+      },
+      "visual": {
         "kind": "readme_image",
-        "url": "https://raw.githubusercontent.com/ranxianglei/billion-context/master/docs/how-it-works.en.svg",
-        "thumbUrl": "https://raw.githubusercontent.com/ranxianglei/billion-context/master/docs/how-it-works.en.svg",
-        "alt": "How it works",
-        "sourceUrl": "https://raw.githubusercontent.com/ranxianglei/billion-context/master/docs/how-it-works.en.svg",
+        "url": "https://gitpod.io/button/open-in-gitpod.svg",
+        "thumbUrl": "https://gitpod.io/button/open-in-gitpod.svg",
+        "alt": "Open in Gitpod",
+        "sourceUrl": "https://gitpod.io/button/open-in-gitpod.svg",
         "promptHash": null
       },
       "classification": {
@@ -933,92 +868,9 @@
         "signals": []
       },
       "rank": {
-        "globalRank": 11,
-        "categoryRank": 11,
-        "score": 98
-      }
-    },
-    {
-      "id": "mattpocock-skills",
-      "owner": "mattpocock",
-      "name": "skills",
-      "url": "https://github.com/mattpocock/skills",
-      "avatarUrl": "https://github.com/mattpocock.png",
-      "homepageUrl": null,
-      "source": {
-        "primary": "github_trending_html",
-        "sourceRank": 12,
-        "starsGained": 1223
-      },
-      "metadata": {
-        "description": "Skills for Real Engineers. Straight from my .agents directory.",
-        "language": "Shell",
-        "topics": [],
-        "stars": 320758,
-        "forks": 26899,
-        "license": null,
-        "defaultBranch": null,
-        "pushedAt": null,
-        "topLanguages": [
-          "Shell"
-        ]
-      },
-      "readmeRef": {
-        "status": "available",
-        "path": "README.md",
-        "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/mattpocock/skills/main/README.md"
-      },
-      "readmeSignals": {
-        "title": "Skills For Real Engineers",
-        "summary": "My agent skills that I use every day to do real engineering - not vibe coding. Developing real applications is hard. Approaches like GSD, BMAD, and Spec-Kit try to help by owning the process. But while doing so, they take away your control and make bugs in the process hard to resolve. These skills are designed to be small, easy to adapt, and composable. They work with any model. They're based on decades of engineering experience. Hack around with them. Make them your own. Enjoy. If you want to keep up with changes to these skills, and any new ones I create, you can join ~60,000 other devs on my newsletter:",
-        "headings": [
-          "Skills For Real Engineers",
-          "Installation (30-second setup)",
-          "1. Get the skills",
-          "2. Run `/setup-matt-pocock-skills`",
-          "3. Bam - you're ready to go.",
-          "Why These Skills Exist",
-          "#1: The Agent Didn't Do What I Want",
-          "#2: The Agent Is Way Too Verbose"
-        ],
-        "commands": [],
-        "keywords": [
-          "ai",
-          "agent",
-          "skills for real engineers",
-          "installation (30-second setup)",
-          "1. get the skills",
-          "2. run `/setup-matt-pocock-skills`"
-        ],
-        "score": 100
-      },
-      "visual": {
-        "kind": "readme_image",
-        "url": "https://skills.sh/b/mattpocock/skills",
-        "thumbUrl": "https://skills.sh/b/mattpocock/skills",
-        "alt": "skills.sh",
-        "sourceUrl": "https://skills.sh/b/mattpocock/skills",
-        "promptHash": null
-      },
-      "classification": {
-        "primaryCategoryId": "ai",
-        "secondaryCategoryIds": [],
-        "confidence": 0.8,
-        "method": "rules",
-        "reasons": [
-          "Matched ai",
-          "Matched agent"
-        ],
-        "signals": [
-          "ai",
-          "agent"
-        ]
-      },
-      "rank": {
-        "globalRank": 12,
-        "categoryRank": 12,
-        "score": 96
+        "globalRank": 10,
+        "categoryRank": 10,
+        "score": 90.8
       }
     }
   ],
@@ -1030,11 +882,12 @@
       "categoryId": "ai",
       "repoIds": [
         "meta-astryx",
-        "anthropics-skills",
+        "zhulinsen-daily-stock-analysis",
+        "shadcn-improve",
         "addyosmani-agent-skills",
-        "homeassistant-ai-ha-mcp",
         "vercel-labs-agent-browser",
-        "mattpocock-skills"
+        "homeassistant-ai-ha-mcp",
+        "openai-codex-security"
       ],
       "sort": "score"
     },
@@ -1044,8 +897,7 @@
       "label": "Frontend",
       "categoryId": "frontend",
       "repoIds": [
-        "anthropics-claude-quickstarts",
-        "tokio-rs-topcoat"
+        "googlechrome-modern-web-guidance-src"
       ],
       "sort": "score"
     },
@@ -1055,21 +907,19 @@
       "label": "Needs Review",
       "categoryId": "unclassified",
       "repoIds": [
-        "google-deepmind-mujoco",
         "we-promise-sure",
-        "sherlock-project-sherlock",
-        "ranxianglei-billion-context"
+        "thealgorithms-java"
       ],
       "sort": "score"
     }
   ],
   "health": {
     "status": "ok",
-    "candidateCount": 12,
-    "enrichedRepoCount": 11,
-    "unclassifiedRepoCount": 4,
+    "candidateCount": 10,
+    "enrichedRepoCount": 10,
+    "unclassifiedRepoCount": 2,
     "warnings": [
-      "6 repos used README images, 0 used Agnes images, 6 fell back to repository Open Graph covers"
+      "6 repos used README images, 0 used Agnes images, 4 fell back to repository Open Graph covers"
     ]
   }
 }
