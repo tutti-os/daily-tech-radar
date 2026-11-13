@@ -1,0 +1,1097 @@
+{
+  "schemaVersion": "trendreader.daily.v1",
+  "packageId": "github-daily-All-2026-11-13",
+  "locale": "zh-CN",
+  "generatedAt": "2026-11-13T20:17:30.818Z",
+  "expiresAt": "2026-11-14T20:17:30.818Z",
+  "sourceWindow": {
+    "since": "daily",
+    "language": "All",
+    "spokenLanguageCode": null
+  },
+  "sources": [
+    {
+      "id": "github_trending_html",
+      "role": "candidate",
+      "status": "ok",
+      "itemCount": 12
+    }
+  ],
+  "taxonomy": {
+    "version": "2026-11-13",
+    "generatedAt": "2026-11-13T20:17:30.818Z",
+    "categories": [
+      {
+        "id": "ai",
+        "label": "AI",
+        "labelEn": "AI",
+        "icon": "bot",
+        "order": 20
+      },
+      {
+        "id": "tools",
+        "label": "工具",
+        "labelEn": "Tools",
+        "icon": "wrench",
+        "order": 100
+      },
+      {
+        "id": "frontend",
+        "label": "前端",
+        "labelEn": "Frontend",
+        "icon": "layout",
+        "order": 140
+      },
+      {
+        "id": "backend",
+        "label": "后端",
+        "labelEn": "Backend",
+        "icon": "server",
+        "order": 110
+      },
+      {
+        "id": "unclassified",
+        "label": "Needs Review",
+        "labelEn": "Needs Review",
+        "icon": "circle-help",
+        "order": 999
+      }
+    ]
+  },
+  "repos": [
+    {
+      "id": "alibaba-open-code-review",
+      "owner": "alibaba",
+      "name": "open-code-review",
+      "url": "https://github.com/alibaba/open-code-review",
+      "avatarUrl": "https://github.com/alibaba.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 1,
+        "starsGained": 206
+      },
+      "metadata": {
+        "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+        "language": "Go",
+        "topics": [],
+        "stars": 50484,
+        "forks": 3747,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Go"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/alibaba/open-code-review/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "Workspace mode — review all staged, unstaged, and untracked changes",
+        "summary": "Open Code Review is an AI-powered code review CLI tool. It originated as Alibaba Group's internal official AI code review assistant — over the past two years, it has served tens of thousands of developers and identified millions of code defects. After thorough validation at massive scale, we incubated it into an open source project for the community. Simply configure a model endpoint to get started. It reads Git diffs, sends changed files to a configurable LLM via an agent with tool-use capabilities, and generates structured review comments with line-level precision. The agent can read full file contents, search the codebase, inspect other changed files for context, and produce deep reviews ",
+        "headings": [
+          "What is Open Code Review?",
+          "Benchmark",
+          "Why Open Code Review?",
+          "The Problem with General-Purpose Agents",
+          "Core Design: Deterministic Engineering × Agent Hybrid",
+          "How to Use",
+          "Prerequisites",
+          "CLI"
+        ],
+        "commands": [
+          "npm install -g @alibaba-group/open-code-review"
+        ],
+        "keywords": [
+          "ai",
+          "agent",
+          "llm",
+          "what is open code review?",
+          "benchmark",
+          "why open code review?",
+          "the problem with general-purpose agents"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/alibaba/open-code-review/main/imgs/highlights-en.png",
+        "thumbUrl": "https://raw.githubusercontent.com/alibaba/open-code-review/main/imgs/highlights-en.png",
+        "alt": "Highlights",
+        "sourceUrl": "https://raw.githubusercontent.com/alibaba/open-code-review/main/imgs/highlights-en.png",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.9,
+        "method": "rules",
+        "reasons": [
+          "Matched ai",
+          "Matched agent",
+          "Matched llm"
+        ],
+        "signals": [
+          "ai",
+          "agent",
+          "llm"
+        ]
+      },
+      "rank": {
+        "globalRank": 1,
+        "categoryRank": 1,
+        "score": 118
+      }
+    },
+    {
+      "id": "googlechrome-modern-web-guidance-src",
+      "owner": "GoogleChrome",
+      "name": "modern-web-guidance-src",
+      "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
+      "avatarUrl": "https://github.com/GoogleChrome.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 2,
+        "starsGained": 1875
+      },
+      "metadata": {
+        "description": "Keep your coding agent up to date with the latest web best practices",
+        "language": "TypeScript",
+        "topics": [],
+        "stars": 4648,
+        "forks": 263,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "TypeScript"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/GoogleChrome/modern-web-guidance-src/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "<img src=\"./.github/img/modern-web-guidance.svg\" alt=\"Modern Web Guidance\" width=\"30\" height=\"30\"> Modern Web Guidance (Source)",
+        "summary": "This repo is the source repository for https://github.com/GoogleChrome/modern-web-guidance and includes the code and documentation for authoring, calibrating, and evaluating its contents. See ./CONTRIBUTING.md and ./GOVERNANCE.md for how we work on the project and orientation of the codebase. Stewarded by the Google Chrome, Microsoft Edge, Mozilla Firefox, and MDN teams, alongside the web development community. This command runs an interactive wizard to install Modern Web Guidance. See -alternative-installation-methods below. Coding agents often default to older patterns because LLM training data contains vast amounts of legacy code. This often leads them to generate bloated JavaScript for t",
+        "headings": [
+          "<img src=\"./.github/img/modern-web-guidance.svg\" alt=\"Modern Web Guidance\" width=\"30\" height=\"30\"> Modern Web Guidance (Source)",
+          "<img src=\"https://github.com/GoogleChrome/modern-web-guidance/raw/main/.github/img/terminal.svg\" width=\"24\" height=\"24\" style=\"vertical-align: middle; margin-right: 4px;\"> Quickstart",
+          "Search for relevant guides",
+          "Retrieve a guide by ID",
+          "Scan a codebase for legacy patterns to modernize",
+          "<img src=\"https://github.com/GoogleChrome/modern-web-guidance/raw/main/.github/img/lightbulb.svg\" width=\"24\" height=\"24\" style=\"vertical-align: middle; margin-right: 4px;\"> Why?",
+          "<img src=\"https://github.com/GoogleChrome/modern-web-guidance/raw/main/.github/img/package.svg\" width=\"24\" height=\"24\" style=\"vertical-align: middle; margin-right: 4px;\"> What's Included?",
+          "Core Disciplines"
+        ],
+        "commands": [],
+        "keywords": [
+          "agent",
+          "<img src=\"./.github/img/modern-web-guidance.svg\" alt=\"modern web guidance\" width=\"30\" height=\"30\"> modern web guidance (source)",
+          "<img src=\"https://github.com/googlechrome/modern-web-guidance/raw/main/.github/img/terminal.svg\" width=\"24\" height=\"24\" style=\"vertical-align: middle; margin-right: 4px;\"> quickstart",
+          "search for relevant guides",
+          "retrieve a guide by id"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/GoogleChrome/modern-web-guidance-src/main/.github/img/modern-web-guidance.svg",
+        "thumbUrl": "https://raw.githubusercontent.com/GoogleChrome/modern-web-guidance-src/main/.github/img/modern-web-guidance.svg",
+        "alt": "Modern Web Guidance",
+        "sourceUrl": "https://raw.githubusercontent.com/GoogleChrome/modern-web-guidance-src/main/.github/img/modern-web-guidance.svg",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.7,
+        "method": "rules",
+        "reasons": [
+          "Matched agent"
+        ],
+        "signals": [
+          "agent"
+        ]
+      },
+      "rank": {
+        "globalRank": 2,
+        "categoryRank": 2,
+        "score": 116
+      }
+    },
+    {
+      "id": "openai-codex-security",
+      "owner": "openai",
+      "name": "codex-security",
+      "url": "https://github.com/openai/codex-security",
+      "avatarUrl": "https://github.com/openai.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 3,
+        "starsGained": 754
+      },
+      "metadata": {
+        "description": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security",
+        "language": "TypeScript",
+        "topics": [],
+        "stars": 13036,
+        "forks": 1020,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "TypeScript"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/openai/codex-security/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "Codex Security",
+        "summary": "Codex Security helps you find, investigate, and fix vulnerabilities in your code. Use its security workflows in Codex, or automate them with the @openai/codex-security CLI and TypeScript SDK. In Codex: docs/agent-workflows.md. In a terminal: quick-start. In automation: use the typescript-sdk or github-actions. Scan repositories, selected paths, or Git changes. Deep scans repeat Standard scans and return their deduplicated findings. Validate candidate findings, generate patches, and verify existing fixes. Draft SECURITY.md policies and save threat models for later review. Browse saved scans and findings, identify duplicates, assess severity against your own rubric, and suggest owners from sou",
+        "headings": [
+          "Codex Security",
+          "Features",
+          "Use in Codex",
+          "Quick start",
+          "Scan options",
+          "Scan selected paths.",
+          "Scan committed changes from a base revision to HEAD.",
+          "Run a deep scan of the repository."
+        ],
+        "commands": [
+          "npm install --global @openai/codex-security",
+          "npm install @openai/codex-security"
+        ],
+        "keywords": [
+          "ai",
+          "codex security",
+          "features",
+          "use in codex",
+          "quick start"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "repository_open_graph",
+        "url": "https://opengraph.githubassets.com/daily-tech-radar/openai/codex-security",
+        "thumbUrl": "https://opengraph.githubassets.com/daily-tech-radar/openai/codex-security",
+        "alt": "openai/codex-security",
+        "sourceUrl": "https://github.com/openai/codex-security",
+        "promptHash": "sha256:2c1795102186"
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.7,
+        "method": "rules",
+        "reasons": [
+          "Matched ai"
+        ],
+        "signals": [
+          "ai"
+        ]
+      },
+      "rank": {
+        "globalRank": 3,
+        "categoryRank": 3,
+        "score": 114
+      }
+    },
+    {
+      "id": "zhulinsen-daily-stock-analysis",
+      "owner": "ZhuLinsen",
+      "name": "daily_stock_analysis",
+      "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+      "avatarUrl": "https://github.com/ZhuLinsen.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 4,
+        "starsGained": 272
+      },
+      "metadata": {
+        "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
+        "language": "Python",
+        "topics": [],
+        "stars": 71498,
+        "forks": 57264,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Python"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/ZhuLinsen/daily_stock_analysis/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "📈 股票智能分析系统",
+        "summary": "🤖 基于 AI 大模型的 A股/港股/美股/日股/韩股/台股自选股智能分析系统，每日自动分析并推送「决策仪表盘」到企业微信/飞书/Telegram/Discord/Slack/邮箱 -产品预览 · -功能特性 · -快速开始 · -推送效果 · docs/INDEX.md · docs/full-guide.md 简体中文 | docs/READMEEN.md | docs/READMECHT.md 💖 赞助商 Sponsors 感谢 Modelflare 赞助本项目！由美国 Havenbyte LLC 运营，满血稳定不掺水，低成本接入 GPT、Claude、Gemini、Grok 及 40+ 图片/视频模型。指定 OpenAI 分组提供 65% / 75% / 85% 每日缓存命中率保障 ；单笔充值 US$20 解锁 GPT 0.015x ， US$50 解锁 Claude 0.03x 。 专属链接注册 | 能力 | 覆盖内容 | | AI 决策报告 | 核心结论、评分、趋势、买卖点位、风险警报、催化因素、操作检查清单 | | 多市场数据聚合 | 覆盖 A股、港股、美股、日股、韩股、台股和 ETF，支持行情、K 线、技术指标、新闻、公告、基本面与报告辅助数据；不同市场的数据源和能力边界见 docs/market-support.md | | Web / 桌面工作台 | 手动分析、任务进度、历史报告、完整 Markdown、回测、持仓、配置管理、浅色 / 深色主题 | | Agent 策略问股 | 多轮追问，支持均线、缠论、波浪、趋势、热点、事件、成长、预期等 15 种内置",
+        "headings": [
+          "📈 股票智能分析系统",
+          "🖥️ 产品预览",
+          "✨ 功能特性",
+          "技术栈与数据来源",
+          "🚀 快速开始",
+          "方式一：[GitHub Actions（推荐）](https://www.bilibili.com/video/BV11FEb66EXG/)",
+          "方式二：[客户端配置教程](https://www.bilibili.com/video/BV11FEb66Eyr/) / 本地运行 / Docker 部署",
+          "克隆项目"
+        ],
+        "commands": [
+          "pip install -r requirements.txt"
+        ],
+        "keywords": [
+          "ai",
+          "llm",
+          "📈 股票智能分析系统",
+          "🖥️ 产品预览",
+          "✨ 功能特性",
+          "技术栈与数据来源"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://api.hellogithub.com/v1/widgets/recommend.svg?rid=6daa16e405ce46ed97b4a57706aeb29f&claim_uid=pfiJMqhR9uvDGlT&theme=neutral",
+        "thumbUrl": "https://api.hellogithub.com/v1/widgets/recommend.svg?rid=6daa16e405ce46ed97b4a57706aeb29f&claim_uid=pfiJMqhR9uvDGlT&theme=neutral",
+        "alt": "Featured｜HelloGitHub",
+        "sourceUrl": "https://api.hellogithub.com/v1/widgets/recommend.svg?rid=6daa16e405ce46ed97b4a57706aeb29f&claim_uid=pfiJMqhR9uvDGlT&theme=neutral",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.8,
+        "method": "rules",
+        "reasons": [
+          "Matched ai",
+          "Matched llm"
+        ],
+        "signals": [
+          "ai",
+          "llm"
+        ]
+      },
+      "rank": {
+        "globalRank": 4,
+        "categoryRank": 4,
+        "score": 112
+      }
+    },
+    {
+      "id": "we-promise-sure",
+      "owner": "we-promise",
+      "name": "sure",
+      "url": "https://github.com/we-promise/sure",
+      "avatarUrl": "https://github.com/we-promise.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 5,
+        "starsGained": 944
+      },
+      "metadata": {
+        "description": "The personal finance app for everyone (by everyone)",
+        "language": "Ruby",
+        "topics": [],
+        "stars": 14625,
+        "forks": 1105,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Ruby"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/we-promise/sure/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "Sure: The personal finance app for everyone",
+        "summary": "Deutsch | Español | Français | 日本語 | 한국어 | Português | Русский | 中文 Sure: The personal finance app for everyone Get involved: https://discord.gg/36ZGBsxYEK • https://sure.am • https://github.com/we-promise/sure/issues The https://github.com/maybe-finance/maybe archived/abandoned repo team spent most of 2021–2022 building a full-featured personal finance and wealth management app. It even included an “Ask an Advisor” feature that connected users with a real CFP/CFA — all included with your subscription. The business end of things didn't work out, and so they stopped developing the app in mid-2023.",
+        "headings": [
+          "Sure: The personal finance app for everyone",
+          "Backstory",
+          "Hosting Sure",
+          "Forking and Attribution",
+          "Performance Issues",
+          "Local Development Setup",
+          "Requirements",
+          "Getting Started"
+        ],
+        "commands": [],
+        "keywords": [
+          "sure: the personal finance app for everyone",
+          "backstory",
+          "hosting sure",
+          "forking and attribution"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://render.com/images/deploy-to-render-button.svg",
+        "thumbUrl": "https://render.com/images/deploy-to-render-button.svg",
+        "alt": "Deploy to Render",
+        "sourceUrl": "https://render.com/images/deploy-to-render-button.svg",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "unclassified",
+        "secondaryCategoryIds": [],
+        "confidence": 0.4,
+        "method": "rules",
+        "reasons": [
+          "No taxonomy rule matched with enough confidence"
+        ],
+        "signals": []
+      },
+      "rank": {
+        "globalRank": 5,
+        "categoryRank": 5,
+        "score": 110
+      }
+    },
+    {
+      "id": "backnotprop-plannotator",
+      "owner": "backnotprop",
+      "name": "plannotator",
+      "url": "https://github.com/backnotprop/plannotator",
+      "avatarUrl": "https://github.com/backnotprop.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 6,
+        "starsGained": 100
+      },
+      "metadata": {
+        "description": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
+        "language": "TypeScript",
+        "topics": [],
+        "stars": 10384,
+        "forks": 782,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "TypeScript"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/backnotprop/plannotator/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "Plannotator",
+        "summary": "Everything you need to annotate and stay in the loop with your agents Inbox Surface • Artifacts • Code Review Annotate plans, specs, markdown, HTML, and other interactive artifacts. Review diffs and PRs. Send feedback to your agent. &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; Plannotator Inbox · Official site · Code Review · Visual HTML Skills · Herdr Annotate · Legacy Plan Mode ⭐️ NEW: https://plannotator.ai/inbox/ is the missing review layer between you and multi-agent work. It surfaces decisions, prototypes, variations, plans, and everything you need to stay in the loop. Works with all coding agents and personal assistants.",
+        "headings": [
+          "Plannotator",
+          "Review documents, plans, and agent messages",
+          "Code Review",
+          "Annotate HTML Artifacts",
+          "Plannotator Inbox",
+          "Herdr Annotate: Plannotator in the Terminal",
+          "Commands",
+          "Annotate"
+        ],
+        "commands": [],
+        "keywords": [
+          "agent",
+          "plannotator",
+          "review documents, plans, and agent messages",
+          "code review",
+          "annotate html artifacts"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/backnotprop/plannotator/main/.github/assets/icons/amp.svg",
+        "thumbUrl": "https://raw.githubusercontent.com/backnotprop/plannotator/main/.github/assets/icons/amp.svg",
+        "alt": "Amp",
+        "sourceUrl": "https://raw.githubusercontent.com/backnotprop/plannotator/main/.github/assets/icons/amp.svg",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.7,
+        "method": "rules",
+        "reasons": [
+          "Matched agent"
+        ],
+        "signals": [
+          "agent"
+        ]
+      },
+      "rank": {
+        "globalRank": 6,
+        "categoryRank": 6,
+        "score": 98
+      }
+    },
+    {
+      "id": "louislam-uptime-kuma",
+      "owner": "louislam",
+      "name": "uptime-kuma",
+      "url": "https://github.com/louislam/uptime-kuma",
+      "avatarUrl": "https://github.com/louislam.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 7,
+        "starsGained": 61
+      },
+      "metadata": {
+        "description": "A fancy self-hosted monitoring tool",
+        "language": "JavaScript",
+        "topics": [],
+        "stars": 93789,
+        "forks": 8718,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "JavaScript"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/louislam/uptime-kuma/master/README.md"
+      },
+      "readmeSignals": {
+        "title": "Uptime Kuma",
+        "summary": "Uptime Kuma is an easy-to-use self-hosted monitoring tool. Demo Server Location: Frankfurt - Germany: It is a temporary live demo, all data will be deleted after 10 minutes. Sponsored by https://github.com/louislam/uptime-kuma%EF%B8%8F-sponsors. Monitoring uptime for HTTPs / TCP / HTTPs Keyword / HTTPs Json Query / Websocket / Ping / DNS Record / Push / Steam Game Server / Docker Containers Fancy, Reactive, Fast UI/UX Notifications via Telegram, Discord, Gotify, Slack, Pushover, Email SMTP, and https://github.com/louislam/uptime-kuma/tree/master/src/components/notifications 20-second intervals https://github.com/louislam/uptime-kuma/tree/master/src/lang Multiple status pages Map status pages",
+        "headings": [
+          "Uptime Kuma",
+          "🥔 Live Demo",
+          "⭐ Features",
+          "🔧 How to Install",
+          "🐳 Docker Compose",
+          "🐳 Docker Command",
+          "💪🏻 Non-Docker",
+          "Option 1. Try it"
+        ],
+        "commands": [
+          "npm install pm2 -g && pm2 install pm2-logrotate"
+        ],
+        "keywords": [
+          "tool",
+          "uptime kuma",
+          "🥔 live demo",
+          "⭐ features",
+          "🔧 how to install"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://www.atlascloud.ai/oss-program/powered-by-atlas-cloud.svg",
+        "thumbUrl": "https://www.atlascloud.ai/oss-program/powered-by-atlas-cloud.svg",
+        "alt": "Powered by Atlas Cloud",
+        "sourceUrl": "https://www.atlascloud.ai/oss-program/powered-by-atlas-cloud.svg",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "tools",
+        "secondaryCategoryIds": [],
+        "confidence": 0.7,
+        "method": "rules",
+        "reasons": [
+          "Matched tool"
+        ],
+        "signals": [
+          "tool"
+        ]
+      },
+      "rank": {
+        "globalRank": 7,
+        "categoryRank": 7,
+        "score": 92.1
+      }
+    },
+    {
+      "id": "block-buzz",
+      "owner": "block",
+      "name": "buzz",
+      "url": "https://github.com/block/buzz",
+      "avatarUrl": "https://github.com/block.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 8,
+        "starsGained": 95
+      },
+      "metadata": {
+        "description": "A hive mind communication platform",
+        "language": "Rust",
+        "topics": [],
+        "stars": 37262,
+        "forks": 4940,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Rust"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/block/buzz/main/README.md"
+      },
+      "readmeSignals": {
+        "title": null,
+        "summary": "A workspace where humans and agents build together, on a relay you own. Vision · Sovereign · Forge · Agents · Architecture · Releasing · Apache 2.0 People and agents building together in the same room. Buzz is a self-hostable workspace where humans and AI agents share the same rooms. A Buzz community is the workspace a user reaches by URL. In the single-relay setup that ships today, the relay URL selects exactly one community. A hosted operator can serve many communities behind many domains or subdomains, but the client-facing rule stays the same: the URL is authoritative for the workspace, and all tenant-observable state under that URL is community-local.",
+        "headings": [
+          "What is this, really?",
+          "Stuff you do in Buzz",
+          "A look inside",
+          "Why Buzz is better",
+          "Three little stories",
+          "Works today · Being wired up · Strong opinions, pending code",
+          "Getting started",
+          "I just want to try the app"
+        ],
+        "commands": [],
+        "keywords": [
+          "what is this, really?",
+          "stuff you do in buzz",
+          "a look inside",
+          "why buzz is better"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://railway.com/button.svg",
+        "thumbUrl": "https://railway.com/button.svg",
+        "alt": "Deploy on Railway",
+        "sourceUrl": "https://railway.com/button.svg",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "unclassified",
+        "secondaryCategoryIds": [],
+        "confidence": 0.4,
+        "method": "rules",
+        "reasons": [
+          "No taxonomy rule matched with enough confidence"
+        ],
+        "signals": []
+      },
+      "rank": {
+        "globalRank": 8,
+        "categoryRank": 8,
+        "score": 93.5
+      }
+    },
+    {
+      "id": "tradermonty-claude-trading-skills",
+      "owner": "tradermonty",
+      "name": "claude-trading-skills",
+      "url": "https://github.com/tradermonty/claude-trading-skills",
+      "avatarUrl": "https://github.com/tradermonty.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 9,
+        "starsGained": 60
+      },
+      "metadata": {
+        "description": "Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development.",
+        "language": "Python",
+        "topics": [],
+        "stars": 4080,
+        "forks": 858,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Python"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/tradermonty/claude-trading-skills/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "Claude Trading Skills",
+        "summary": "Claude Trading Skills started as a personal project to use AI to improve my own trading process. Claude Trading Skills is a Claude Skills-based trading workflow toolkit for time-constrained individual investors. It is designed for investors who use long-term investing, ETFs, and dividend stocks as their core, while using disciplined swing trading as a satellite strategy when market conditions are favorable. The goal is not to outsource buy/sell decisions to AI. The goal is to structure market review, risk management, trade planning, journaling, and continuous improvement. It is open source because the workflows, checklists, and review habits behind better trading decisions can improve throug",
+        "headings": [
+          "Claude Trading Skills",
+          "Disclaimer",
+          "Who This Is For",
+          "Recommended Starting Path",
+          "See Example Outputs",
+          "What This Actually Costs",
+          "No API Key Starter Path",
+          "Repository Layout"
+        ],
+        "commands": [],
+        "keywords": [
+          "ui",
+          "claude trading skills",
+          "disclaimer",
+          "who this is for",
+          "recommended starting path"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/tradermonty/claude-trading-skills/main/docs/assets/previews/navigator-recommendation.svg",
+        "thumbUrl": "https://raw.githubusercontent.com/tradermonty/claude-trading-skills/main/docs/assets/previews/navigator-recommendation.svg",
+        "alt": "Illustrative Navigator recommendation for a 15-minute daily market check, listing three required skills and a no-paid-API path",
+        "sourceUrl": "https://raw.githubusercontent.com/tradermonty/claude-trading-skills/main/docs/assets/previews/navigator-recommendation.svg",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "frontend",
+        "secondaryCategoryIds": [],
+        "confidence": 0.7,
+        "method": "rules",
+        "reasons": [
+          "Matched ui"
+        ],
+        "signals": [
+          "ui"
+        ]
+      },
+      "rank": {
+        "globalRank": 9,
+        "categoryRank": 9,
+        "score": 88
+      }
+    },
+    {
+      "id": "tailscale-tailcat",
+      "owner": "tailscale",
+      "name": "tailcat",
+      "url": "https://github.com/tailscale/tailcat",
+      "avatarUrl": "https://github.com/tailscale.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 10,
+        "starsGained": 324
+      },
+      "metadata": {
+        "description": "like netcat, but over Tailscale's data plane, without Tailscale's control plane",
+        "language": "Go",
+        "topics": [],
+        "stars": 9374,
+        "forks": 428,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Go"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/tailscale/tailcat/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "Tailcat",
+        "summary": "\"Tailscale without Tailscale, by Tailscale\" Tailcat is a remix of Tailscale open source pieces to act like https://en.wikipedia.org/wiki/Netcat, but over Tailscale's data plane, without Tailscale's control plane. Tailscale's data plane magicsock, internally gives you point-to-point WireGuard®-encrypted tunnels between two machines with DERP as the NAT-hole-punching communication side channel and the ultimate relay-of-last-resort if NAT traversal fails. Instead of using the Tailscale control plane, all tailcat connection metadata is exchanged out of band, however you want.",
+        "headings": [
+          "Tailcat",
+          "Install",
+          "Usage",
+          "Pipe stdin/stdout between two machines",
+          "Selected bootstrap relay region 302, San Francisco",
+          "🐈 Server listening with new address: tcomFwWCCcjS5nKNqAod034nWoJZW0LZqDhhC8U_dKdnDRYQ8uNGFpGQEu",
+          "Selected bootstrap relay region 302, San Francisco",
+          "🐈 Server listening with new address: tcomFwWCCcjS5nKNqAod034nWoJZW0LZqDhhC8U_dKdnDRYQ8uNGFpGQEu"
+        ],
+        "commands": [],
+        "keywords": [
+          "ai",
+          "tailcat",
+          "install",
+          "usage",
+          "pipe stdin/stdout between two machines"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/tailscale/tailcat/main/tailcat.png",
+        "thumbUrl": "https://raw.githubusercontent.com/tailscale/tailcat/main/tailcat.png",
+        "alt": "Tailcat",
+        "sourceUrl": "https://raw.githubusercontent.com/tailscale/tailcat/main/tailcat.png",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.7,
+        "method": "rules",
+        "reasons": [
+          "Matched ai"
+        ],
+        "signals": [
+          "ai"
+        ]
+      },
+      "rank": {
+        "globalRank": 10,
+        "categoryRank": 10,
+        "score": 100
+      }
+    },
+    {
+      "id": "likely7-veyra-nrvideo",
+      "owner": "Likely7",
+      "name": "Veyra-NRVideo",
+      "url": "https://github.com/Likely7/Veyra-NRVideo",
+      "avatarUrl": "https://github.com/Likely7.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 11,
+        "starsGained": 245
+      },
+      "metadata": {
+        "description": "Bring PS5 GTA6 to 120FPS with DLSS 5. An advanced Windows video player and capture enhancement tool featuring real-time preview for videos, images, and capture card sources. Combine AI-powered Super Resolution, DLSS5 image enhancement, and Frame Generation to deliver a next-generation visual experience.",
+        "language": "C++",
+        "topics": [],
+        "stars": 1565,
+        "forks": 71,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "C++"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/Likely7/Veyra-NRVideo/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "Veyra",
+        "summary": "Real-time GPU Video Enhancement for Windows Super Resolution · Denoising · HDR · Frame Generation · Capture · PS5 / Xbox / PC Streaming Turn local video, capture cards and game streaming into one real-time GPU enhancement pipeline. 79K+ cumulative Veyra portable-package downloads 79,332 as of 2026-11-08 · 103K+ downloads across all GitHub Release assets 103,337 including source archives, checksums and images. https://github.com/Likely7/Veyra-NRVideo/releases · Counts are download events, not unique users. One engine. Any source. Real-time enhancement. Open source · GPL-3.0 · Windows 11 · C++ · DirectX 12 · NVIDIA & AMD",
+        "headings": [
+          "Veyra",
+          "Real-time GPU Video Enhancement for Windows",
+          "Highlights",
+          "New in 2.1.2",
+          "New in 2.1.1",
+          "New in 2.1.0",
+          "Install and upgrade",
+          "Using 2.0"
+        ],
+        "commands": [],
+        "keywords": [
+          "ai",
+          "veyra",
+          "real-time gpu video enhancement for windows",
+          "highlights",
+          "new in 2.1.2"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/Likely7/Veyra-NRVideo/main/assets/veyra-app-icon.png",
+        "thumbUrl": "https://raw.githubusercontent.com/Likely7/Veyra-NRVideo/main/assets/veyra-app-icon.png",
+        "alt": "Veyra",
+        "sourceUrl": "https://raw.githubusercontent.com/Likely7/Veyra-NRVideo/main/assets/veyra-app-icon.png",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.7,
+        "method": "rules",
+        "reasons": [
+          "Matched ai"
+        ],
+        "signals": [
+          "ai"
+        ]
+      },
+      "rank": {
+        "globalRank": 11,
+        "categoryRank": 11,
+        "score": 98
+      }
+    },
+    {
+      "id": "chromedevtools-chrome-devtools-mcp",
+      "owner": "ChromeDevTools",
+      "name": "chrome-devtools-mcp",
+      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+      "avatarUrl": "https://github.com/ChromeDevTools.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 12,
+        "starsGained": 145
+      },
+      "metadata": {
+        "description": "Chrome DevTools for coding agents",
+        "language": "TypeScript",
+        "topics": [],
+        "stars": 55382,
+        "forks": 4604,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "TypeScript"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/ChromeDevTools/chrome-devtools-mcp/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "Chrome DevTools for agents",
+        "summary": "Chrome DevTools for agents chrome-devtools-mcp lets your coding agent such as Antigravity, Claude, Cursor or Copilot control and inspect a live Chrome browser. It is available as a Model-Context-Protocol MCP server and as a CLIcli. Both give your AI coding assistant access to the full power of Chrome DevTools for reliable automation, in-depth debugging, and performance analysis. Tool referencetool-reference | CLIcli | Skillsskills | Changelogchangelog | Contributingcontributing | Troubleshootingtroubleshooting | Design Principlesdesign-principles Get performance insights: Uses https://github.com/ChromeDevTools/devtools-frontend to record traces and extract actionable performance insights. Ad",
+        "headings": [
+          "Chrome DevTools for agents",
+          "Key features",
+          "Disclaimers",
+          "**Usage statistics**",
+          "Update checks",
+          "Requirements",
+          "Getting started",
+          "MCP Client configuration"
+        ],
+        "commands": [],
+        "keywords": [
+          "agent",
+          "mcp",
+          "chrome devtools for agents",
+          "key features",
+          "disclaimers",
+          "**usage statistics**"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "repository_open_graph",
+        "url": "https://opengraph.githubassets.com/daily-tech-radar/ChromeDevTools/chrome-devtools-mcp",
+        "thumbUrl": "https://opengraph.githubassets.com/daily-tech-radar/ChromeDevTools/chrome-devtools-mcp",
+        "alt": "ChromeDevTools/chrome-devtools-mcp",
+        "sourceUrl": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+        "promptHash": "sha256:335d39c52fa7"
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.8,
+        "method": "rules",
+        "reasons": [
+          "Matched agent",
+          "Matched mcp"
+        ],
+        "signals": [
+          "agent",
+          "mcp"
+        ]
+      },
+      "rank": {
+        "globalRank": 12,
+        "categoryRank": 12,
+        "score": 90.5
+      }
+    }
+  ],
+  "views": [
+    {
+      "id": "ai",
+      "type": "category",
+      "label": "AI",
+      "categoryId": "ai",
+      "repoIds": [
+        "alibaba-open-code-review",
+        "googlechrome-modern-web-guidance-src",
+        "openai-codex-security",
+        "zhulinsen-daily-stock-analysis",
+        "tailscale-tailcat",
+        "backnotprop-plannotator",
+        "likely7-veyra-nrvideo",
+        "chromedevtools-chrome-devtools-mcp"
+      ],
+      "sort": "score"
+    },
+    {
+      "id": "tools",
+      "type": "category",
+      "label": "工具",
+      "categoryId": "tools",
+      "repoIds": [
+        "louislam-uptime-kuma"
+      ],
+      "sort": "score"
+    },
+    {
+      "id": "frontend",
+      "type": "category",
+      "label": "前端",
+      "categoryId": "frontend",
+      "repoIds": [
+        "tradermonty-claude-trading-skills"
+      ],
+      "sort": "score"
+    },
+    {
+      "id": "unclassified",
+      "type": "review",
+      "label": "Needs Review",
+      "categoryId": "unclassified",
+      "repoIds": [
+        "we-promise-sure",
+        "block-buzz"
+      ],
+      "sort": "score"
+    }
+  ],
+  "health": {
+    "status": "ok",
+    "candidateCount": 12,
+    "enrichedRepoCount": 12,
+    "unclassifiedRepoCount": 2,
+    "warnings": [
+      "10 repos used README images, 0 used Agnes images, 2 fell back to repository Open Graph covers"
+    ]
+  }
+}

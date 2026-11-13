@@ -1,9 +1,9 @@
 {
   "schemaVersion": "trendreader.daily.v1",
-  "packageId": "github-daily-All-2026-11-12",
+  "packageId": "github-daily-All-2026-11-13",
   "locale": "en-US",
-  "generatedAt": "2026-11-12T20:16:32.295Z",
-  "expiresAt": "2026-11-13T20:16:32.295Z",
+  "generatedAt": "2026-11-13T20:17:30.818Z",
+  "expiresAt": "2026-11-14T20:17:30.818Z",
   "sourceWindow": {
     "since": "daily",
     "language": "All",
@@ -14,12 +14,12 @@
       "id": "github_trending_html",
       "role": "candidate",
       "status": "ok",
-      "itemCount": 13
+      "itemCount": 12
     }
   ],
   "taxonomy": {
-    "version": "2026-11-12",
-    "generatedAt": "2026-11-12T20:16:32.295Z",
+    "version": "2026-11-13",
+    "generatedAt": "2026-11-13T20:17:30.818Z",
     "categories": [
       {
         "id": "ai",
@@ -60,6 +60,94 @@
   },
   "repos": [
     {
+      "id": "alibaba-open-code-review",
+      "owner": "alibaba",
+      "name": "open-code-review",
+      "url": "https://github.com/alibaba/open-code-review",
+      "avatarUrl": "https://github.com/alibaba.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 1,
+        "starsGained": 206
+      },
+      "metadata": {
+        "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+        "language": "Go",
+        "topics": [],
+        "stars": 50484,
+        "forks": 3747,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Go"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/alibaba/open-code-review/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "Workspace mode — review all staged, unstaged, and untracked changes",
+        "summary": "Open Code Review is an AI-powered code review CLI tool. It originated as Alibaba Group's internal official AI code review assistant — over the past two years, it has served tens of thousands of developers and identified millions of code defects. After thorough validation at massive scale, we incubated it into an open source project for the community. Simply configure a model endpoint to get started. It reads Git diffs, sends changed files to a configurable LLM via an agent with tool-use capabilities, and generates structured review comments with line-level precision. The agent can read full file contents, search the codebase, inspect other changed files for context, and produce deep reviews ",
+        "headings": [
+          "What is Open Code Review?",
+          "Benchmark",
+          "Why Open Code Review?",
+          "The Problem with General-Purpose Agents",
+          "Core Design: Deterministic Engineering × Agent Hybrid",
+          "How to Use",
+          "Prerequisites",
+          "CLI"
+        ],
+        "commands": [
+          "npm install -g @alibaba-group/open-code-review"
+        ],
+        "keywords": [
+          "ai",
+          "agent",
+          "llm",
+          "what is open code review?",
+          "benchmark",
+          "why open code review?",
+          "the problem with general-purpose agents"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/alibaba/open-code-review/main/imgs/highlights-en.png",
+        "thumbUrl": "https://raw.githubusercontent.com/alibaba/open-code-review/main/imgs/highlights-en.png",
+        "alt": "Highlights",
+        "sourceUrl": "https://raw.githubusercontent.com/alibaba/open-code-review/main/imgs/highlights-en.png",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.9,
+        "method": "rules",
+        "reasons": [
+          "Matched ai",
+          "Matched agent",
+          "Matched llm"
+        ],
+        "signals": [
+          "ai",
+          "agent",
+          "llm"
+        ]
+      },
+      "rank": {
+        "globalRank": 1,
+        "categoryRank": 1,
+        "score": 118
+      }
+    },
+    {
       "id": "googlechrome-modern-web-guidance-src",
       "owner": "GoogleChrome",
       "name": "modern-web-guidance-src",
@@ -68,15 +156,15 @@
       "homepageUrl": null,
       "source": {
         "primary": "github_trending_html",
-        "sourceRank": 1,
-        "starsGained": 799
+        "sourceRank": 2,
+        "starsGained": 1875
       },
       "metadata": {
         "description": "Keep your coding agent up to date with the latest web best practices",
         "language": "TypeScript",
         "topics": [],
-        "stars": 2691,
-        "forks": 187,
+        "stars": 4648,
+        "forks": 263,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -134,9 +222,9 @@
         ]
       },
       "rank": {
-        "globalRank": 1,
-        "categoryRank": 1,
-        "score": 118
+        "globalRank": 2,
+        "categoryRank": 2,
+        "score": 116
       }
     },
     {
@@ -148,15 +236,15 @@
       "homepageUrl": null,
       "source": {
         "primary": "github_trending_html",
-        "sourceRank": 2,
-        "starsGained": 663
+        "sourceRank": 3,
+        "starsGained": 754
       },
       "metadata": {
         "description": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security",
         "language": "TypeScript",
         "topics": [],
-        "stars": 12302,
-        "forks": 972,
+        "stars": 13036,
+        "forks": 1020,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -217,160 +305,89 @@
         ]
       },
       "rank": {
-        "globalRank": 2,
-        "categoryRank": 2,
-        "score": 116
-      }
-    },
-    {
-      "id": "nvm-sh-nvm",
-      "owner": "nvm-sh",
-      "name": "nvm",
-      "url": "https://github.com/nvm-sh/nvm",
-      "avatarUrl": "https://github.com/nvm-sh.png",
-      "homepageUrl": null,
-      "source": {
-        "primary": "github_trending_html",
-        "sourceRank": 3,
-        "starsGained": 107
-      },
-      "metadata": {
-        "description": "Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions.",
-        "language": "Shell",
-        "topics": [],
-        "stars": 95983,
-        "forks": 10756,
-        "license": null,
-        "defaultBranch": null,
-        "pushedAt": null,
-        "topLanguages": [
-          "Shell"
-        ]
-      },
-      "readmeRef": {
-        "status": "available",
-        "path": "README.md",
-        "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/nvm-sh/nvm/master/README.md"
-      },
-      "readmeSignals": {
-        "title": "Node Version Manager [![Tests](https://github.com/nvm-sh/nvm/actions/workflows/tests-fast.yml/badge.svg?branch=master)][3] [![nvm version](https://img.shields.io/badge/version-v0.41.0-yellow.svg)][4] [![CII Best Practices](https://bestpractices.dev/projects/684/badge)](https://bestpractices.dev/projects/684)",
-        "summary": "Node Version Manager 3 4 https://bestpractices.dev/projects/684 intro about installing-and-updating install--update-script additional-notes installing-in-docker installing-in-docker-for-cicd-jobs troubleshooting-on-linux troubleshooting-on-macos ansible verify-installation important-notes git-install manual-install manual-upgrade usage long-term-support version-categories migrating-global-packages-while-installing migrating-global-packages-between-installed-versions offline-install default-global-packages-from-file-while-installing iojs system-version-of-node listing-versions setting-custom-colors persisting-custom-colors suppressing-colorized-output restoring-path set-default-node-version u",
-        "headings": [
-          "Node Version Manager [![Tests](https://github.com/nvm-sh/nvm/actions/workflows/tests-fast.yml/badge.svg?branch=master)][3] [![nvm version](https://img.shields.io/badge/version-v0.41.0-yellow.svg)][4] [![CII Best Practices](https://bestpractices.dev/projects/684/badge)](https://bestpractices.dev/projects/684)",
-          "Table of Contents",
-          "Intro",
-          "About",
-          "Installing and Updating",
-          "Install & Update Script",
-          "Use bash for the shell",
-          "Create a script file sourced by both interactive and non-interactive bash shells"
-        ],
-        "commands": [
-          "npm install -g grunt",
-          "npm install -g grunt",
-          "npm install\n\nThere are slow tests and fast tests. The slow tests do things like install node"
-        ],
-        "keywords": [
-          "node version manager [![tests](https://github.com/nvm-sh/nvm/actions/workflows/tests-fast.yml/badge.svg?branch=master)][3] [![nvm version](https://img.shields.io/badge/version-v0.41.0-yellow.svg)][4] [![cii best practices](https://bestpractices.dev/projects/684/badge)](https://bestpractices.dev/projects/684)",
-          "table of contents",
-          "intro",
-          "about"
-        ],
-        "score": 100
-      },
-      "visual": {
-        "kind": "repository_open_graph",
-        "url": "https://opengraph.githubassets.com/daily-tech-radar/nvm-sh/nvm",
-        "thumbUrl": "https://opengraph.githubassets.com/daily-tech-radar/nvm-sh/nvm",
-        "alt": "nvm-sh/nvm",
-        "sourceUrl": "https://github.com/nvm-sh/nvm",
-        "promptHash": "sha256:70a7c7b4f24b"
-      },
-      "classification": {
-        "primaryCategoryId": "unclassified",
-        "secondaryCategoryIds": [],
-        "confidence": 0.4,
-        "method": "rules",
-        "reasons": [
-          "No taxonomy rule matched with enough confidence"
-        ],
-        "signals": []
-      },
-      "rank": {
         "globalRank": 3,
         "categoryRank": 3,
-        "score": 104.7
+        "score": 114
       }
     },
     {
-      "id": "pookjw-hermesenabler",
-      "owner": "pookjw",
-      "name": "HermesEnabler",
-      "url": "https://github.com/pookjw/HermesEnabler",
-      "avatarUrl": "https://github.com/pookjw.png",
+      "id": "zhulinsen-daily-stock-analysis",
+      "owner": "ZhuLinsen",
+      "name": "daily_stock_analysis",
+      "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+      "avatarUrl": "https://github.com/ZhuLinsen.png",
       "homepageUrl": null,
       "source": {
         "primary": "github_trending_html",
         "sourceRank": 4,
-        "starsGained": 300
+        "starsGained": 272
       },
       "metadata": {
-        "description": "Enable Hermès Watch Faces on any Apple Watch devices",
-        "language": "Objective-C",
+        "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
+        "language": "Python",
         "topics": [],
-        "stars": 1481,
-        "forks": 138,
+        "stars": 71498,
+        "forks": 57264,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
         "topLanguages": [
-          "Objective-C"
+          "Python"
         ]
       },
       "readmeRef": {
         "status": "available",
         "path": "README.md",
         "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/pookjw/HermesEnabler/main/README.md"
+        "rawUrl": "https://raw.githubusercontent.com/ZhuLinsen/daily_stock_analysis/main/README.md"
       },
       "readmeSignals": {
-        "title": "HermesEnabler 2",
-        "summary": "README.md · README.ko.md · README.zh-CN.md · README.zh-TW.md · README.ja.md · README.es.md · README.fr.md · README.de.md · README.pt.md Supported only on watchOS 27.0 through 27.3 beta 1. 1. Download the IPA from https://github.com/pookjw/HermesEnabler/releases. 2. Install it with https://sideloadly.io. 3. On your iPhone, open the Watch app and install HermesEnabler2 from My Watch → Apps. 4. Open HermesEnabler2 on your Apple Watch and follow the steps in the app. 1. Open HermesEnabler2.xcodeproj in Xcode. 2. Select your Apple Watch as the run destination and click Run. 3. Open HermesEnabler2 on your Apple Watch and follow the steps in the app.",
+        "title": "📈 股票智能分析系统",
+        "summary": "🤖 基于 AI 大模型的 A股/港股/美股/日股/韩股/台股自选股智能分析系统，每日自动分析并推送「决策仪表盘」到企业微信/飞书/Telegram/Discord/Slack/邮箱 -产品预览 · -功能特性 · -快速开始 · -推送效果 · docs/INDEX.md · docs/full-guide.md 简体中文 | docs/READMEEN.md | docs/READMECHT.md 💖 赞助商 Sponsors 感谢 Modelflare 赞助本项目！由美国 Havenbyte LLC 运营，满血稳定不掺水，低成本接入 GPT、Claude、Gemini、Grok 及 40+ 图片/视频模型。指定 OpenAI 分组提供 65% / 75% / 85% 每日缓存命中率保障 ；单笔充值 US$20 解锁 GPT 0.015x ， US$50 解锁 Claude 0.03x 。 专属链接注册 | 能力 | 覆盖内容 | | AI 决策报告 | 核心结论、评分、趋势、买卖点位、风险警报、催化因素、操作检查清单 | | 多市场数据聚合 | 覆盖 A股、港股、美股、日股、韩股、台股和 ETF，支持行情、K 线、技术指标、新闻、公告、基本面与报告辅助数据；不同市场的数据源和能力边界见 docs/market-support.md | | Web / 桌面工作台 | 手动分析、任务进度、历史报告、完整 Markdown、回测、持仓、配置管理、浅色 / 深色主题 | | Agent 策略问股 | 多轮追问，支持均线、缠论、波浪、趋势、热点、事件、成长、预期等 15 种内置",
         "headings": [
-          "HermesEnabler 2",
-          "Installation",
-          "Install the IPA",
-          "Build with Xcode",
-          "Cautions",
-          "Credits"
+          "📈 股票智能分析系统",
+          "🖥️ 产品预览",
+          "✨ 功能特性",
+          "技术栈与数据来源",
+          "🚀 快速开始",
+          "方式一：[GitHub Actions（推荐）](https://www.bilibili.com/video/BV11FEb66EXG/)",
+          "方式二：[客户端配置教程](https://www.bilibili.com/video/BV11FEb66Eyr/) / 本地运行 / Docker 部署",
+          "克隆项目"
         ],
-        "commands": [],
+        "commands": [
+          "pip install -r requirements.txt"
+        ],
         "keywords": [
-          "hermesenabler 2",
-          "installation",
-          "install the ipa",
-          "build with xcode"
+          "ai",
+          "llm",
+          "📈 股票智能分析系统",
+          "🖥️ 产品预览",
+          "✨ 功能特性",
+          "技术栈与数据来源"
         ],
-        "score": 90
+        "score": 100
       },
       "visual": {
         "kind": "readme_image",
-        "url": "https://raw.githubusercontent.com/pookjw/HermesEnabler/main/image.png",
-        "thumbUrl": "https://raw.githubusercontent.com/pookjw/HermesEnabler/main/image.png",
-        "alt": "pookjw/HermesEnabler",
-        "sourceUrl": "https://raw.githubusercontent.com/pookjw/HermesEnabler/main/image.png",
+        "url": "https://api.hellogithub.com/v1/widgets/recommend.svg?rid=6daa16e405ce46ed97b4a57706aeb29f&claim_uid=pfiJMqhR9uvDGlT&theme=neutral",
+        "thumbUrl": "https://api.hellogithub.com/v1/widgets/recommend.svg?rid=6daa16e405ce46ed97b4a57706aeb29f&claim_uid=pfiJMqhR9uvDGlT&theme=neutral",
+        "alt": "Featured｜HelloGitHub",
+        "sourceUrl": "https://api.hellogithub.com/v1/widgets/recommend.svg?rid=6daa16e405ce46ed97b4a57706aeb29f&claim_uid=pfiJMqhR9uvDGlT&theme=neutral",
         "promptHash": null
       },
       "classification": {
-        "primaryCategoryId": "unclassified",
+        "primaryCategoryId": "ai",
         "secondaryCategoryIds": [],
-        "confidence": 0.4,
+        "confidence": 0.8,
         "method": "rules",
         "reasons": [
-          "No taxonomy rule matched with enough confidence"
+          "Matched ai",
+          "Matched llm"
         ],
-        "signals": []
+        "signals": [
+          "ai",
+          "llm"
+        ]
       },
       "rank": {
         "globalRank": 4,
@@ -388,14 +405,14 @@
       "source": {
         "primary": "github_trending_html",
         "sourceRank": 5,
-        "starsGained": 974
+        "starsGained": 944
       },
       "metadata": {
         "description": "The personal finance app for everyone (by everyone)",
         "language": "Ruby",
         "topics": [],
-        "stars": 13779,
-        "forks": 1025,
+        "stars": 14625,
+        "forks": 1105,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -456,23 +473,23 @@
       }
     },
     {
-      "id": "qwenlm-qwen-code",
-      "owner": "QwenLM",
-      "name": "qwen-code",
-      "url": "https://github.com/QwenLM/qwen-code",
-      "avatarUrl": "https://github.com/QwenLM.png",
+      "id": "backnotprop-plannotator",
+      "owner": "backnotprop",
+      "name": "plannotator",
+      "url": "https://github.com/backnotprop/plannotator",
+      "avatarUrl": "https://github.com/backnotprop.png",
       "homepageUrl": null,
       "source": {
         "primary": "github_trending_html",
         "sourceRank": 6,
-        "starsGained": 151
+        "starsGained": 100
       },
       "metadata": {
-        "description": "An open-source AI coding agent that lives in your terminal.",
+        "description": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
         "language": "TypeScript",
         "topics": [],
-        "stars": 29724,
-        "forks": 3389,
+        "stars": 10384,
+        "forks": 782,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -484,125 +501,38 @@
         "status": "available",
         "path": "README.md",
         "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/QwenLM/qwen-code/main/README.md"
+        "rawUrl": "https://raw.githubusercontent.com/backnotprop/plannotator/main/README.md"
       },
       "readmeSignals": {
-        "title": null,
-        "summary": "The open-source AI coding agent for your terminal, editor, desktop, browser, and chat. 中文 | Deutsch | français | 日本語 | Русский | Português Brasil | 한국어 | Qwen Code 1.0 Preview | | Qwen Code 1.0 Preview brings together the agent harness capabilities of https://qoder.com/ and Qwen Code in an open-source release. https://github.com/QwenLM/qwen-code/tree/v1.0.0-preview · https://qwenlm.github.io/qwen-code-docs/1.x/ · https://qwenlm.github.io/qwen-code-docs/1.x/zh/users/overview/. | Agentic out of the box — Auto-Memory, Auto-Skills, SubAgents, Agent Teams, and MCP. Dynamic workflows, zero setup. Open-source, inside and out — The framework and the Qwen models are open-source. They evolve together.",
+        "title": "Plannotator",
+        "summary": "Everything you need to annotate and stay in the loop with your agents Inbox Surface • Artifacts • Code Review Annotate plans, specs, markdown, HTML, and other interactive artifacts. Review diffs and PRs. Send feedback to your agent. &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; Plannotator Inbox · Official site · Code Review · Visual HTML Skills · Herdr Annotate · Legacy Plan Mode ⭐️ NEW: https://plannotator.ai/inbox/ is the missing review layer between you and multi-agent work. It surfaces decisions, prototypes, variations, plans, and everything you need to stay in the loop. Works with all coding agents and personal assistants.",
         "headings": [
-          "Why Qwen Code?",
-          "Installation",
-          "Quick Start",
-          "How to Use Qwen Code",
-          "Daemon Mode",
-          "Capabilities",
-          "Qwen Code Evaluation",
-          "Ecosystem"
+          "Plannotator",
+          "Review documents, plans, and agent messages",
+          "Code Review",
+          "Annotate HTML Artifacts",
+          "Plannotator Inbox",
+          "Herdr Annotate: Plannotator in the Terminal",
+          "Commands",
+          "Annotate"
         ],
-        "commands": [
-          "npm install -g @qwen-code/qwen-code@latest"
-        ],
+        "commands": [],
         "keywords": [
-          "ai",
           "agent",
-          "why qwen code?",
-          "installation",
-          "quick start",
-          "how to use qwen code"
+          "plannotator",
+          "review documents, plans, and agent messages",
+          "code review",
+          "annotate html artifacts"
         ],
         "score": 100
       },
       "visual": {
         "kind": "readme_image",
-        "url": "https://img.alicdn.com/imgextra/i1/O1CN01DXWdF8BDUdD3XPhl_!!6000000001721-2-tps-1743-902.png",
-        "thumbUrl": "https://img.alicdn.com/imgextra/i1/O1CN01DXWdF8BDUdD3XPhl_!!6000000001721-2-tps-1743-902.png",
-        "alt": "Qwen Code in the terminal, desktop app, browser, editor, and chat, with VS Code, Zed, JetBrains, Telegram, DingTalk, WeChat, and Feishu integrations",
-        "sourceUrl": "https://img.alicdn.com/imgextra/i1/O1CN01DXWdF8BDUdD3XPhl_!!6000000001721-2-tps-1743-902.png",
+        "url": "https://raw.githubusercontent.com/backnotprop/plannotator/main/.github/assets/icons/amp.svg",
+        "thumbUrl": "https://raw.githubusercontent.com/backnotprop/plannotator/main/.github/assets/icons/amp.svg",
+        "alt": "Amp",
+        "sourceUrl": "https://raw.githubusercontent.com/backnotprop/plannotator/main/.github/assets/icons/amp.svg",
         "promptHash": null
-      },
-      "classification": {
-        "primaryCategoryId": "ai",
-        "secondaryCategoryIds": [],
-        "confidence": 0.8,
-        "method": "rules",
-        "reasons": [
-          "Matched ai",
-          "Matched agent"
-        ],
-        "signals": [
-          "ai",
-          "agent"
-        ]
-      },
-      "rank": {
-        "globalRank": 6,
-        "categoryRank": 6,
-        "score": 103.1
-      }
-    },
-    {
-      "id": "ashhart-tensorfold",
-      "owner": "ashhart",
-      "name": "TensorFold",
-      "url": "https://github.com/ashhart/TensorFold",
-      "avatarUrl": "https://github.com/ashhart.png",
-      "homepageUrl": null,
-      "source": {
-        "primary": "github_trending_html",
-        "sourceRank": 7,
-        "starsGained": 94
-      },
-      "metadata": {
-        "description": "LLM Inference Engine for Metal, CUDA and Vulkan.",
-        "language": "Zig",
-        "topics": [],
-        "stars": 1904,
-        "forks": 391,
-        "license": null,
-        "defaultBranch": null,
-        "pushedAt": null,
-        "topLanguages": [
-          "Zig"
-        ]
-      },
-      "readmeRef": {
-        "status": "available",
-        "path": "README.md",
-        "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/ashhart/TensorFold/main/README.md"
-      },
-      "readmeSignals": {
-        "title": "TensorFold",
-        "summary": "TensorFold serves language models from a Zig binary on Apple Silicon and NVIDIA GPUs. The engine reads checkpoints, tokenizes requests and runs Metal or CUDA kernels directly. Serving needs no Python or MLX installation. Building with a coding agent? Have it load the docs/recipes/SKILL.md before it writes any code. Please use https://github.com/ashhart/ATC before editing TensorFold so contributors and agents can avoid duplicate work and conflicting changes. Check the https://tensorfold.dev/atc before choosing an issue and follow CONTRIBUTING.md and the docs/atc/SKILL.md.",
-        "headings": [
-          "TensorFold",
-          "Contributing with agents",
-          "Quick start",
-          "Mac with Apple Silicon",
-          "Linux with an NVIDIA GPU",
-          "Send a request",
-          "Mac app",
-          "TensorFold Starlight (enterprise)"
-        ],
-        "commands": [
-          "npm install -g github:ashhart/ATC"
-        ],
-        "keywords": [
-          "llm",
-          "tensorfold",
-          "contributing with agents",
-          "quick start",
-          "mac with apple silicon"
-        ],
-        "score": 100
-      },
-      "visual": {
-        "kind": "repository_open_graph",
-        "url": "https://opengraph.githubassets.com/daily-tech-radar/ashhart/TensorFold",
-        "thumbUrl": "https://opengraph.githubassets.com/daily-tech-radar/ashhart/TensorFold",
-        "alt": "ashhart/TensorFold",
-        "sourceUrl": "https://github.com/ashhart/TensorFold",
-        "promptHash": "sha256:e818dc8987b8"
       },
       "classification": {
         "primaryCategoryId": "ai",
@@ -610,36 +540,36 @@
         "confidence": 0.7,
         "method": "rules",
         "reasons": [
-          "Matched llm"
+          "Matched agent"
         ],
         "signals": [
-          "llm"
+          "agent"
         ]
       },
       "rank": {
-        "globalRank": 7,
-        "categoryRank": 7,
-        "score": 95.4
+        "globalRank": 6,
+        "categoryRank": 6,
+        "score": 98
       }
     },
     {
-      "id": "nodejs-node",
-      "owner": "nodejs",
-      "name": "node",
-      "url": "https://github.com/nodejs/node",
-      "avatarUrl": "https://github.com/nodejs.png",
+      "id": "louislam-uptime-kuma",
+      "owner": "louislam",
+      "name": "uptime-kuma",
+      "url": "https://github.com/louislam/uptime-kuma",
+      "avatarUrl": "https://github.com/louislam.png",
       "homepageUrl": null,
       "source": {
         "primary": "github_trending_html",
-        "sourceRank": 8,
-        "starsGained": 133
+        "sourceRank": 7,
+        "starsGained": 61
       },
       "metadata": {
-        "description": "Node.js JavaScript runtime ✨🐢🚀✨",
+        "description": "A fancy self-hosted monitoring tool",
         "language": "JavaScript",
         "topics": [],
-        "stars": 123563,
-        "forks": 38053,
+        "stars": 93789,
+        "forks": 8718,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -651,37 +581,119 @@
         "status": "available",
         "path": "README.md",
         "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/nodejs/node/main/README.md"
+        "rawUrl": "https://raw.githubusercontent.com/louislam/uptime-kuma/master/README.md"
       },
       "readmeSignals": {
-        "title": "Node.js",
-        "summary": "Node.js is an open-source, cross-platform JavaScript runtime environment. For information on using Node.js, see the Node.js website. The Node.js project uses an ./GOVERNANCE.md. The OpenJS Foundation provides support for the project. support release-types download current-and-lts-releases nightly-releases api-documentation verifying-binaries building-nodejs security contributing-to-nodejs current-project-team-members tsc-technical-steering-committee collaborators triagers release-keys license Looking for help? Check out the .github/SUPPORT.md. Alpha: Under active development where semver-major changes are allowed. Each October, a new release line for example, Node.js 27 branches off main and",
+        "title": "Uptime Kuma",
+        "summary": "Uptime Kuma is an easy-to-use self-hosted monitoring tool. Demo Server Location: Frankfurt - Germany: It is a temporary live demo, all data will be deleted after 10 minutes. Sponsored by https://github.com/louislam/uptime-kuma%EF%B8%8F-sponsors. Monitoring uptime for HTTPs / TCP / HTTPs Keyword / HTTPs Json Query / Websocket / Ping / DNS Record / Push / Steam Game Server / Docker Containers Fancy, Reactive, Fast UI/UX Notifications via Telegram, Discord, Gotify, Slack, Pushover, Email SMTP, and https://github.com/louislam/uptime-kuma/tree/master/src/components/notifications 20-second intervals https://github.com/louislam/uptime-kuma/tree/master/src/lang Multiple status pages Map status pages",
         "headings": [
-          "Node.js",
-          "Table of contents",
-          "Support",
-          "Release types",
-          "Download",
-          "Verifying binaries",
-          "Building Node.js",
-          "Security"
+          "Uptime Kuma",
+          "🥔 Live Demo",
+          "⭐ Features",
+          "🔧 How to Install",
+          "🐳 Docker Compose",
+          "🐳 Docker Command",
+          "💪🏻 Non-Docker",
+          "Option 1. Try it"
         ],
-        "commands": [],
+        "commands": [
+          "npm install pm2 -g && pm2 install pm2-logrotate"
+        ],
         "keywords": [
-          "node.js",
-          "table of contents",
-          "support",
-          "release types"
+          "tool",
+          "uptime kuma",
+          "🥔 live demo",
+          "⭐ features",
+          "🔧 how to install"
         ],
         "score": 100
       },
       "visual": {
-        "kind": "repository_open_graph",
-        "url": "https://opengraph.githubassets.com/daily-tech-radar/nodejs/node",
-        "thumbUrl": "https://opengraph.githubassets.com/daily-tech-radar/nodejs/node",
-        "alt": "nodejs/node",
-        "sourceUrl": "https://github.com/nodejs/node",
-        "promptHash": "sha256:52b7d21bf01f"
+        "kind": "readme_image",
+        "url": "https://www.atlascloud.ai/oss-program/powered-by-atlas-cloud.svg",
+        "thumbUrl": "https://www.atlascloud.ai/oss-program/powered-by-atlas-cloud.svg",
+        "alt": "Powered by Atlas Cloud",
+        "sourceUrl": "https://www.atlascloud.ai/oss-program/powered-by-atlas-cloud.svg",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "tools",
+        "secondaryCategoryIds": [],
+        "confidence": 0.7,
+        "method": "rules",
+        "reasons": [
+          "Matched tool"
+        ],
+        "signals": [
+          "tool"
+        ]
+      },
+      "rank": {
+        "globalRank": 7,
+        "categoryRank": 7,
+        "score": 92.1
+      }
+    },
+    {
+      "id": "block-buzz",
+      "owner": "block",
+      "name": "buzz",
+      "url": "https://github.com/block/buzz",
+      "avatarUrl": "https://github.com/block.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 8,
+        "starsGained": 95
+      },
+      "metadata": {
+        "description": "A hive mind communication platform",
+        "language": "Rust",
+        "topics": [],
+        "stars": 37262,
+        "forks": 4940,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Rust"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/block/buzz/main/README.md"
+      },
+      "readmeSignals": {
+        "title": null,
+        "summary": "A workspace where humans and agents build together, on a relay you own. Vision · Sovereign · Forge · Agents · Architecture · Releasing · Apache 2.0 People and agents building together in the same room. Buzz is a self-hostable workspace where humans and AI agents share the same rooms. A Buzz community is the workspace a user reaches by URL. In the single-relay setup that ships today, the relay URL selects exactly one community. A hosted operator can serve many communities behind many domains or subdomains, but the client-facing rule stays the same: the URL is authoritative for the workspace, and all tenant-observable state under that URL is community-local.",
+        "headings": [
+          "What is this, really?",
+          "Stuff you do in Buzz",
+          "A look inside",
+          "Why Buzz is better",
+          "Three little stories",
+          "Works today · Being wired up · Strong opinions, pending code",
+          "Getting started",
+          "I just want to try the app"
+        ],
+        "commands": [],
+        "keywords": [
+          "what is this, really?",
+          "stuff you do in buzz",
+          "a look inside",
+          "why buzz is better"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://railway.com/button.svg",
+        "thumbUrl": "https://railway.com/button.svg",
+        "alt": "Deploy on Railway",
+        "sourceUrl": "https://railway.com/button.svg",
+        "promptHash": null
       },
       "classification": {
         "primaryCategoryId": "unclassified",
@@ -696,280 +708,27 @@
       "rank": {
         "globalRank": 8,
         "categoryRank": 8,
-        "score": 97.3
+        "score": 93.5
       }
     },
     {
-      "id": "addyosmani-agent-skills",
-      "owner": "addyosmani",
-      "name": "agent-skills",
-      "url": "https://github.com/addyosmani/agent-skills",
-      "avatarUrl": "https://github.com/addyosmani.png",
+      "id": "tradermonty-claude-trading-skills",
+      "owner": "tradermonty",
+      "name": "claude-trading-skills",
+      "url": "https://github.com/tradermonty/claude-trading-skills",
+      "avatarUrl": "https://github.com/tradermonty.png",
       "homepageUrl": null,
       "source": {
         "primary": "github_trending_html",
         "sourceRank": 9,
-        "starsGained": 812
+        "starsGained": 60
       },
       "metadata": {
-        "description": "Production-grade engineering skills for AI coding agents.",
-        "language": "JavaScript",
-        "topics": [],
-        "stars": 116583,
-        "forks": 12204,
-        "license": null,
-        "defaultBranch": null,
-        "pushedAt": null,
-        "topLanguages": [
-          "JavaScript"
-        ]
-      },
-      "readmeRef": {
-        "status": "available",
-        "path": "README.md",
-        "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/addyosmani/agent-skills/main/README.md"
-      },
-      "readmeSignals": {
-        "title": "Agent Skills",
-        "summary": "Production-grade engineering skills for AI coding agents. Skills encode the workflows, quality gates, and best practices that senior engineers use when building software. These ones are packaged so AI agents follow them consistently across every phase of development. 9 slash commands that map to the development lifecycle. Each one activates the right skills automatically. | What you're doing | Command | Key principle | | Define what to build | /spec | Spec before code | | Plan how to build it | /plan | Small, atomic tasks | | Build incrementally | /build | One slice at a time | | Prove it works | /test | Tests are proof | | Set the quality bar | /constraints | Decide it once, enforce it ever",
-        "headings": [
-          "Agent Skills",
-          "Commands",
-          "Quick Start",
-          "Adoption",
-          "All 25 Skills",
-          "Meta - Discover which skill applies",
-          "Define - Clarify what to build",
-          "Plan - Break it down"
-        ],
-        "commands": [],
-        "keywords": [
-          "ai",
-          "agent",
-          "agent skills",
-          "commands",
-          "quick start",
-          "adoption"
-        ],
-        "score": 100
-      },
-      "visual": {
-        "kind": "readme_image",
-        "url": "https://addyosmani.com/assets/images/addys-agent-skills.jpg",
-        "thumbUrl": "https://addyosmani.com/assets/images/addys-agent-skills.jpg",
-        "alt": "Addy's Agent Skills",
-        "sourceUrl": "https://addyosmani.com/assets/images/addys-agent-skills.jpg",
-        "promptHash": null
-      },
-      "classification": {
-        "primaryCategoryId": "ai",
-        "secondaryCategoryIds": [],
-        "confidence": 0.8,
-        "method": "rules",
-        "reasons": [
-          "Matched ai",
-          "Matched agent"
-        ],
-        "signals": [
-          "ai",
-          "agent"
-        ]
-      },
-      "rank": {
-        "globalRank": 9,
-        "categoryRank": 9,
-        "score": 102
-      }
-    },
-    {
-      "id": "meta-astryx",
-      "owner": "meta",
-      "name": "astryx",
-      "url": "https://github.com/meta/astryx",
-      "avatarUrl": "https://github.com/meta.png",
-      "homepageUrl": null,
-      "source": {
-        "primary": "github_trending_html",
-        "sourceRank": 10,
-        "starsGained": 1789
-      },
-      "metadata": {
-        "description": "An open source design system that's fully customizable and agent ready",
-        "language": "TypeScript",
-        "topics": [],
-        "stars": 26356,
-        "forks": 2041,
-        "license": null,
-        "defaultBranch": null,
-        "pushedAt": null,
-        "topLanguages": [
-          "TypeScript"
-        ]
-      },
-      "readmeRef": {
-        "status": "available",
-        "path": "README.md",
-        "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/meta/astryx/main/README.md"
-      },
-      "readmeSignals": {
-        "title": "Astryx",
-        "summary": "An open source design system that's fully customizable and built for how we build now: by people and the agents working alongside them. Currently in Beta · Built on https://react.dev and https://stylexjs.com Astryx is an open source design system that grew inside Meta over the last eight years, where it became the most-used and largest design system in the company — powering 13,000+ apps and shaped by the engineers, designers, and product teams who depend on it every day. It ships 150+ accessible components, brand-level theming, dark mode, ready-to-ship templates, and a CLI as one cohesive system. You import pre-built CSS and use typed React components — no build plugin, no styling library t",
-        "headings": [
-          "Astryx",
-          "Overview",
-          "Getting Started",
-          "npm",
-          "pnpm",
-          "yarn",
-          "Packages",
-          "Principles"
-        ],
-        "commands": [
-          "npm install @astryxdesign/core @astryxdesign/theme-neutral @stylexjs/stylex",
-          "npm install -D @astryxdesign/cli",
-          "pnpm add @astryxdesign/core @astryxdesign/theme-neutral @stylexjs/stylex",
-          "pnpm add -D @astryxdesign/cli",
-          "yarn add @astryxdesign/core @astryxdesign/theme-neutral @stylexjs/stylex",
-          "yarn add -D @astryxdesign/cli"
-        ],
-        "keywords": [
-          "agent",
-          "astryx",
-          "overview",
-          "getting started",
-          "npm"
-        ],
-        "score": 100
-      },
-      "visual": {
-        "kind": "repository_open_graph",
-        "url": "https://opengraph.githubassets.com/daily-tech-radar/meta/astryx",
-        "thumbUrl": "https://opengraph.githubassets.com/daily-tech-radar/meta/astryx",
-        "alt": "meta/astryx",
-        "sourceUrl": "https://github.com/meta/astryx",
-        "promptHash": "sha256:e678df3e4f77"
-      },
-      "classification": {
-        "primaryCategoryId": "ai",
-        "secondaryCategoryIds": [],
-        "confidence": 0.7,
-        "method": "rules",
-        "reasons": [
-          "Matched agent"
-        ],
-        "signals": [
-          "agent"
-        ]
-      },
-      "rank": {
-        "globalRank": 10,
-        "categoryRank": 10,
-        "score": 100
-      }
-    },
-    {
-      "id": "copilotkit-openbot",
-      "owner": "CopilotKit",
-      "name": "OpenBot",
-      "url": "https://github.com/CopilotKit/OpenBot",
-      "avatarUrl": "https://github.com/CopilotKit.png",
-      "homepageUrl": null,
-      "source": {
-        "primary": "github_trending_html",
-        "sourceRank": 11,
-        "starsGained": 291
-      },
-      "metadata": {
-        "description": "Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent.",
-        "language": "TypeScript",
-        "topics": [],
-        "stars": 11485,
-        "forks": 1425,
-        "license": null,
-        "defaultBranch": null,
-        "pushedAt": null,
-        "topLanguages": [
-          "TypeScript"
-        ]
-      },
-      "readmeRef": {
-        "status": "available",
-        "path": "README.md",
-        "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/CopilotKit/OpenBot/main/README.md"
-      },
-      "readmeSignals": {
-        "title": "OpenBot",
-        "summary": "A modular, self-hostable workspace for AI coworkers. Choose your models. Bring your agents. Own your infrastructure. Notarized .dmg for Apple silicon and Intel Macs · signed installer for Windows x64 · no terminal or developer tools needed · https://github.com/CopilotKit/OpenBot/releases/latest From https://www.copilotkit.ai, creators of https://github.com/ag-ui-protocol/ag-ui. Watch a Bot use its browser and tools, answer with interactive results, and wait for your approval before it sends. Take over when it needs you, and connect the agents you already run.",
-        "headings": [
-          "OpenBot",
-          "AI coworkers. Ready for the enterprise.",
-          "Getting started",
-          "On your laptop",
-          "For your team",
-          "Web, mobile, and chat",
-          "Your workspace. Your stack.",
-          "Built on CopilotKit and AG-UI"
-        ],
-        "commands": [],
-        "keywords": [
-          "ai",
-          "agent",
-          "openbot",
-          "ai coworkers. ready for the enterprise.",
-          "getting started",
-          "on your laptop"
-        ],
-        "score": 100
-      },
-      "visual": {
-        "kind": "readme_image",
-        "url": "https://raw.githubusercontent.com/CopilotKit/OpenBot/main/docs/assets/openbot-stack-light.svg",
-        "thumbUrl": "https://raw.githubusercontent.com/CopilotKit/OpenBot/main/docs/assets/openbot-stack-light.svg",
-        "alt": "OpenBot",
-        "sourceUrl": "https://raw.githubusercontent.com/CopilotKit/OpenBot/main/docs/assets/openbot-stack-light.svg",
-        "promptHash": null
-      },
-      "classification": {
-        "primaryCategoryId": "ai",
-        "secondaryCategoryIds": [],
-        "confidence": 0.8,
-        "method": "rules",
-        "reasons": [
-          "Matched ai",
-          "Matched agent"
-        ],
-        "signals": [
-          "ai",
-          "agent"
-        ]
-      },
-      "rank": {
-        "globalRank": 11,
-        "categoryRank": 11,
-        "score": 98
-      }
-    },
-    {
-      "id": "alishahryar1-free-claude-code",
-      "owner": "Alishahryar1",
-      "name": "free-claude-code",
-      "url": "https://github.com/Alishahryar1/free-claude-code",
-      "avatarUrl": "https://github.com/Alishahryar1.png",
-      "homepageUrl": null,
-      "source": {
-        "primary": "github_trending_html",
-        "sourceRank": 12,
-        "starsGained": 461
-      },
-      "metadata": {
-        "description": "Use Claude Code, Codex, Antigravity, VSCode, Pi, and OpenCode (and 6 other harnesses) for free (1.3B+ free tokens) from your terminal, app, IDE, or phone, and now from the browser with native browser sessions (multi-harness + multi-model) like OpenClaw (voice supported + ToS friendly)",
+        "description": "Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development.",
         "language": "Python",
         "topics": [],
-        "stars": 69155,
-        "forks": 10743,
+        "stars": 4080,
+        "forks": 858,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -981,37 +740,117 @@
         "status": "available",
         "path": "README.md",
         "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/Alishahryar1/free-claude-code/main/README.md"
+        "rawUrl": "https://raw.githubusercontent.com/tradermonty/claude-trading-skills/main/README.md"
       },
       "readmeSignals": {
-        "title": null,
-        "summary": "quick-start · choose-a-provider · connect-your-client · optional-integrations · manage-your-installation Independent open-source project. Not affiliated with or endorsed by Anthropic. Claude and Claude Code are trademarks of Anthropic. Route any supported harness to models from any supported provider. 12 supported harnesses: https://code.claude.com/docs/en/overview, https://github.com/openai/codex, https://github.com/earendil-works/pi, https://github.com/anomalyco/opencode, https://github.com/cline/cline, https://github.com/NousResearch/hermes-agent, https://github.com/deepseek-ai/deepseek-harness, https://github.com/xai-org/grok-build, https://research.meta.ai/blog/introducing-muse-code-and",
+        "title": "Claude Trading Skills",
+        "summary": "Claude Trading Skills started as a personal project to use AI to improve my own trading process. Claude Trading Skills is a Claude Skills-based trading workflow toolkit for time-constrained individual investors. It is designed for investors who use long-term investing, ETFs, and dividend stocks as their core, while using disciplined swing trading as a satellite strategy when market conditions are favorable. The goal is not to outsource buy/sell decisions to AI. The goal is to structure market review, risk management, trade planning, journaling, and continuous improvement. It is open source because the workflows, checklists, and review habits behind better trading decisions can improve throug",
         "headings": [
-          "Features",
-          "Quick Start",
-          "1. Install",
-          "2. Start FCC",
-          "3. Configure NVIDIA NIM",
-          "4. Run Your Coding Agent",
-          "Choose A Provider",
-          "LM Studio"
+          "Claude Trading Skills",
+          "Disclaimer",
+          "Who This Is For",
+          "Recommended Starting Path",
+          "See Example Outputs",
+          "What This Actually Costs",
+          "No API Key Starter Path",
+          "Repository Layout"
         ],
         "commands": [],
         "keywords": [
-          "model",
-          "features",
-          "quick start",
-          "1. install",
-          "2. start fcc"
+          "ui",
+          "claude trading skills",
+          "disclaimer",
+          "who this is for",
+          "recommended starting path"
         ],
         "score": 100
       },
       "visual": {
         "kind": "readme_image",
-        "url": "https://raw.githubusercontent.com/Alishahryar1/free-claude-code/main/assets/package-manager-uv.svg",
-        "thumbUrl": "https://raw.githubusercontent.com/Alishahryar1/free-claude-code/main/assets/package-manager-uv.svg",
-        "alt": "Package Manager: uv",
-        "sourceUrl": "https://raw.githubusercontent.com/Alishahryar1/free-claude-code/main/assets/package-manager-uv.svg",
+        "url": "https://raw.githubusercontent.com/tradermonty/claude-trading-skills/main/docs/assets/previews/navigator-recommendation.svg",
+        "thumbUrl": "https://raw.githubusercontent.com/tradermonty/claude-trading-skills/main/docs/assets/previews/navigator-recommendation.svg",
+        "alt": "Illustrative Navigator recommendation for a 15-minute daily market check, listing three required skills and a no-paid-API path",
+        "sourceUrl": "https://raw.githubusercontent.com/tradermonty/claude-trading-skills/main/docs/assets/previews/navigator-recommendation.svg",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "frontend",
+        "secondaryCategoryIds": [],
+        "confidence": 0.7,
+        "method": "rules",
+        "reasons": [
+          "Matched ui"
+        ],
+        "signals": [
+          "ui"
+        ]
+      },
+      "rank": {
+        "globalRank": 9,
+        "categoryRank": 9,
+        "score": 88
+      }
+    },
+    {
+      "id": "tailscale-tailcat",
+      "owner": "tailscale",
+      "name": "tailcat",
+      "url": "https://github.com/tailscale/tailcat",
+      "avatarUrl": "https://github.com/tailscale.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 10,
+        "starsGained": 324
+      },
+      "metadata": {
+        "description": "like netcat, but over Tailscale's data plane, without Tailscale's control plane",
+        "language": "Go",
+        "topics": [],
+        "stars": 9374,
+        "forks": 428,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Go"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/tailscale/tailcat/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "Tailcat",
+        "summary": "\"Tailscale without Tailscale, by Tailscale\" Tailcat is a remix of Tailscale open source pieces to act like https://en.wikipedia.org/wiki/Netcat, but over Tailscale's data plane, without Tailscale's control plane. Tailscale's data plane magicsock, internally gives you point-to-point WireGuard®-encrypted tunnels between two machines with DERP as the NAT-hole-punching communication side channel and the ultimate relay-of-last-resort if NAT traversal fails. Instead of using the Tailscale control plane, all tailcat connection metadata is exchanged out of band, however you want.",
+        "headings": [
+          "Tailcat",
+          "Install",
+          "Usage",
+          "Pipe stdin/stdout between two machines",
+          "Selected bootstrap relay region 302, San Francisco",
+          "🐈 Server listening with new address: tcomFwWCCcjS5nKNqAod034nWoJZW0LZqDhhC8U_dKdnDRYQ8uNGFpGQEu",
+          "Selected bootstrap relay region 302, San Francisco",
+          "🐈 Server listening with new address: tcomFwWCCcjS5nKNqAod034nWoJZW0LZqDhhC8U_dKdnDRYQ8uNGFpGQEu"
+        ],
+        "commands": [],
+        "keywords": [
+          "ai",
+          "tailcat",
+          "install",
+          "usage",
+          "pipe stdin/stdout between two machines"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/tailscale/tailcat/main/tailcat.png",
+        "thumbUrl": "https://raw.githubusercontent.com/tailscale/tailcat/main/tailcat.png",
+        "alt": "Tailcat",
+        "sourceUrl": "https://raw.githubusercontent.com/tailscale/tailcat/main/tailcat.png",
         "promptHash": null
       },
       "classification": {
@@ -1020,36 +859,36 @@
         "confidence": 0.7,
         "method": "rules",
         "reasons": [
-          "Matched model"
+          "Matched ai"
         ],
         "signals": [
-          "model"
+          "ai"
         ]
       },
       "rank": {
-        "globalRank": 12,
-        "categoryRank": 12,
-        "score": 96
+        "globalRank": 10,
+        "categoryRank": 10,
+        "score": 100
       }
     },
     {
-      "id": "ggml-org-llama-cpp",
-      "owner": "ggml-org",
-      "name": "llama.cpp",
-      "url": "https://github.com/ggml-org/llama.cpp",
-      "avatarUrl": "https://github.com/ggml-org.png",
+      "id": "likely7-veyra-nrvideo",
+      "owner": "Likely7",
+      "name": "Veyra-NRVideo",
+      "url": "https://github.com/Likely7/Veyra-NRVideo",
+      "avatarUrl": "https://github.com/Likely7.png",
       "homepageUrl": null,
       "source": {
         "primary": "github_trending_html",
-        "sourceRank": 13,
-        "starsGained": 287
+        "sourceRank": 11,
+        "starsGained": 245
       },
       "metadata": {
-        "description": "LLM inference in C/C++",
+        "description": "Bring PS5 GTA6 to 120FPS with DLSS 5. An advanced Windows video player and capture enhancement tool featuring real-time preview for videos, images, and capture card sources. Combine AI-powered Super Resolution, DLSS5 image enhancement, and Frame Generation to deliver a next-generation visual experience.",
         "language": "C++",
         "topics": [],
-        "stars": 134461,
-        "forks": 25497,
+        "stars": 1565,
+        "forks": 71,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -1061,37 +900,37 @@
         "status": "available",
         "path": "README.md",
         "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/ggml-org/llama.cpp/master/README.md"
+        "rawUrl": "https://raw.githubusercontent.com/Likely7/Veyra-NRVideo/main/README.md"
       },
       "readmeSignals": {
-        "title": "llama.cpp",
-        "summary": "A few options to get llama.cpp installed on your machine: Visit https://llama.app and follow the instructions Run with Docker - see our docs/docker.md Download pre-built binaries from the https://github.com/ggml-org/llama.cpp/releases Build from source by cloning this repository - check out docs/build.md The main goal of llama.cpp is to enable LLM and VLM inference with minimal setup and state-of-the-art performance on a wide range of hardware - locally and in the cloud. Plain C/C++ implementation without any dependencies Apple silicon is a first-class citizen - optimized via ARM NEON, Accelerate and Metal frameworks AVX, AVX2, AVX512 and AMX support for x86 architectures RVV, ZVFH, ZFH, ZIC",
+        "title": "Veyra",
+        "summary": "Real-time GPU Video Enhancement for Windows Super Resolution · Denoising · HDR · Frame Generation · Capture · PS5 / Xbox / PC Streaming Turn local video, capture cards and game streaming into one real-time GPU enhancement pipeline. 79K+ cumulative Veyra portable-package downloads 79,332 as of 2026-11-08 · 103K+ downloads across all GitHub Release assets 103,337 including source archives, checksums and images. https://github.com/Likely7/Veyra-NRVideo/releases · Counts are download events, not unique users. One engine. Any source. Real-time enhancement. Open source · GPL-3.0 · Windows 11 · C++ · DirectX 12 · NVIDIA & AMD",
         "headings": [
-          "llama.cpp",
-          "Quick start",
-          "curl",
-          "powershell",
-          "Download and run a model directly from Hugging Face",
-          "Launch OpenAI-compatible API server",
-          "Description",
-          "Supported backends"
+          "Veyra",
+          "Real-time GPU Video Enhancement for Windows",
+          "Highlights",
+          "New in 2.1.2",
+          "New in 2.1.1",
+          "New in 2.1.0",
+          "Install and upgrade",
+          "Using 2.0"
         ],
         "commands": [],
         "keywords": [
-          "llm",
-          "llama.cpp",
-          "quick start",
-          "curl",
-          "powershell"
+          "ai",
+          "veyra",
+          "real-time gpu video enhancement for windows",
+          "highlights",
+          "new in 2.1.2"
         ],
         "score": 100
       },
       "visual": {
         "kind": "readme_image",
-        "url": "https://github.com/user-attachments/assets/88726b48-1713-48aa-a525-95a02e78afc4",
-        "thumbUrl": "https://github.com/user-attachments/assets/88726b48-1713-48aa-a525-95a02e78afc4",
-        "alt": "VLM session with `llama cli`",
-        "sourceUrl": "https://github.com/user-attachments/assets/88726b48-1713-48aa-a525-95a02e78afc4",
+        "url": "https://raw.githubusercontent.com/Likely7/Veyra-NRVideo/main/assets/veyra-app-icon.png",
+        "thumbUrl": "https://raw.githubusercontent.com/Likely7/Veyra-NRVideo/main/assets/veyra-app-icon.png",
+        "alt": "Veyra",
+        "sourceUrl": "https://raw.githubusercontent.com/Likely7/Veyra-NRVideo/main/assets/veyra-app-icon.png",
         "promptHash": null
       },
       "classification": {
@@ -1100,16 +939,99 @@
         "confidence": 0.7,
         "method": "rules",
         "reasons": [
-          "Matched llm"
+          "Matched ai"
         ],
         "signals": [
-          "llm"
+          "ai"
         ]
       },
       "rank": {
-        "globalRank": 13,
-        "categoryRank": 13,
-        "score": 94
+        "globalRank": 11,
+        "categoryRank": 11,
+        "score": 98
+      }
+    },
+    {
+      "id": "chromedevtools-chrome-devtools-mcp",
+      "owner": "ChromeDevTools",
+      "name": "chrome-devtools-mcp",
+      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+      "avatarUrl": "https://github.com/ChromeDevTools.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 12,
+        "starsGained": 145
+      },
+      "metadata": {
+        "description": "Chrome DevTools for coding agents",
+        "language": "TypeScript",
+        "topics": [],
+        "stars": 55382,
+        "forks": 4604,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "TypeScript"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/ChromeDevTools/chrome-devtools-mcp/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "Chrome DevTools for agents",
+        "summary": "Chrome DevTools for agents chrome-devtools-mcp lets your coding agent such as Antigravity, Claude, Cursor or Copilot control and inspect a live Chrome browser. It is available as a Model-Context-Protocol MCP server and as a CLIcli. Both give your AI coding assistant access to the full power of Chrome DevTools for reliable automation, in-depth debugging, and performance analysis. Tool referencetool-reference | CLIcli | Skillsskills | Changelogchangelog | Contributingcontributing | Troubleshootingtroubleshooting | Design Principlesdesign-principles Get performance insights: Uses https://github.com/ChromeDevTools/devtools-frontend to record traces and extract actionable performance insights. Ad",
+        "headings": [
+          "Chrome DevTools for agents",
+          "Key features",
+          "Disclaimers",
+          "**Usage statistics**",
+          "Update checks",
+          "Requirements",
+          "Getting started",
+          "MCP Client configuration"
+        ],
+        "commands": [],
+        "keywords": [
+          "agent",
+          "mcp",
+          "chrome devtools for agents",
+          "key features",
+          "disclaimers",
+          "**usage statistics**"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "repository_open_graph",
+        "url": "https://opengraph.githubassets.com/daily-tech-radar/ChromeDevTools/chrome-devtools-mcp",
+        "thumbUrl": "https://opengraph.githubassets.com/daily-tech-radar/ChromeDevTools/chrome-devtools-mcp",
+        "alt": "ChromeDevTools/chrome-devtools-mcp",
+        "sourceUrl": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+        "promptHash": "sha256:335d39c52fa7"
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.8,
+        "method": "rules",
+        "reasons": [
+          "Matched agent",
+          "Matched mcp"
+        ],
+        "signals": [
+          "agent",
+          "mcp"
+        ]
+      },
+      "rank": {
+        "globalRank": 12,
+        "categoryRank": 12,
+        "score": 90.5
       }
     }
   ],
@@ -1120,15 +1042,34 @@
       "label": "AI",
       "categoryId": "ai",
       "repoIds": [
+        "alibaba-open-code-review",
         "googlechrome-modern-web-guidance-src",
         "openai-codex-security",
-        "qwenlm-qwen-code",
-        "addyosmani-agent-skills",
-        "meta-astryx",
-        "copilotkit-openbot",
-        "alishahryar1-free-claude-code",
-        "ashhart-tensorfold",
-        "ggml-org-llama-cpp"
+        "zhulinsen-daily-stock-analysis",
+        "tailscale-tailcat",
+        "backnotprop-plannotator",
+        "likely7-veyra-nrvideo",
+        "chromedevtools-chrome-devtools-mcp"
+      ],
+      "sort": "score"
+    },
+    {
+      "id": "tools",
+      "type": "category",
+      "label": "Tools",
+      "categoryId": "tools",
+      "repoIds": [
+        "louislam-uptime-kuma"
+      ],
+      "sort": "score"
+    },
+    {
+      "id": "frontend",
+      "type": "category",
+      "label": "Frontend",
+      "categoryId": "frontend",
+      "repoIds": [
+        "tradermonty-claude-trading-skills"
       ],
       "sort": "score"
     },
@@ -1138,21 +1079,19 @@
       "label": "Needs Review",
       "categoryId": "unclassified",
       "repoIds": [
-        "pookjw-hermesenabler",
         "we-promise-sure",
-        "nvm-sh-nvm",
-        "nodejs-node"
+        "block-buzz"
       ],
       "sort": "score"
     }
   ],
   "health": {
     "status": "ok",
-    "candidateCount": 13,
-    "enrichedRepoCount": 13,
-    "unclassifiedRepoCount": 4,
+    "candidateCount": 12,
+    "enrichedRepoCount": 12,
+    "unclassifiedRepoCount": 2,
     "warnings": [
-      "8 repos used README images, 0 used Agnes images, 5 fell back to repository Open Graph covers"
+      "10 repos used README images, 0 used Agnes images, 2 fell back to repository Open Graph covers"
     ]
   }
 }
