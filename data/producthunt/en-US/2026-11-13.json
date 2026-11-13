@@ -1,0 +1,1305 @@
+{
+  "schemaVersion": "daily-tech-radar.v1",
+  "source": "producthunt",
+  "locale": "en-US",
+  "date": "2026-11-13",
+  "sourceTimezone": "Asia/Shanghai",
+  "generatedAt": "2026-11-13T20:17:15.064Z",
+  "items": [
+    {
+      "rank": 1,
+      "id": "1293281",
+      "name": "Templify AI",
+      "tagline": "Powerful content editor for people who aren’t editors",
+      "description": "Templify is an all-in-one video, photo, and carousel editor for iPhone. With 1,200+ designer templates, it turns clips and photos into Reels, TikToks, YouTube Shorts, and collages in minutes, no timeline needed. Features include AI video editing, beat-synced transitions, auto captions, background removal, filters, and an AI Studio. Free to use, with an optional Pro subscription.",
+      "keywords": [
+        "Powerful",
+        "content",
+        "editor",
+        "for"
+      ],
+      "metrics": {
+        "votes": 322,
+        "comments": 92
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/T53GXHFXDGAANJ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/templify?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/f7f2b7ba-fb0c-470e-a340-ceb4a7cb593e.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/f7f2b7ba-fb0c-470e-a340-ceb4a7cb593e.png?auto=format",
+        "media": [
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/979dcb91-d000-4fdd-9fbc-48f2b5cb35af.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/f80293c1-6a81-4582-b9be-209f30c49399.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/990885d6-e992-47ea-a1e5-c7735599cfb9.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/e4194cb8-1c70-4aad-87af-0f7669f83927.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/52c4ddbb-d0c5-4ab4-9eaa-90bba47f787d.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/2bc52a5d-668e-4d0a-9190-c6e498721cd3.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/76bd69a6-c0ca-495c-967a-ceff3eb12bf9.png?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "templify-ai-2",
+        "featuredAt": "2026-11-13T08:01:00Z",
+        "createdAt": "2026-11-13T08:01:00Z"
+      }
+    },
+    {
+      "rank": 2,
+      "id": "1282575",
+      "name": "Filament by Galaxy",
+      "tagline": "Move data using your terminal or agent. Fast & open source.",
+      "description": "Filament is a data replication engine written in Go. It supports full loads, incremental replication, and change data capture (CDC). As data moves through the engine, Filament verifies Arrow batches at the sink handoff and, where the sink supports it, checks the exact serialized payload. You can run Filament as a standalone binary or embed it in a Go application.",
+      "keywords": [
+        "Move",
+        "data",
+        "using",
+        "your"
+      ],
+      "metrics": {
+        "votes": 231,
+        "comments": 50
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/2VIY3N6BRL2YSZ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/galaxy?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/fa064ab0-4f4c-44cf-80c2-ff0612e20dd0.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/fa064ab0-4f4c-44cf-80c2-ff0612e20dd0.png?auto=format",
+        "media": [
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/6da2e77d-d224-4021-ac72-2c7bbe251ae0.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/2c0f370a-fa3b-4fae-a052-6b5bfe6504dd.gif?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/e4cd8cc6-5c83-488f-8af4-2bf0d8505f3a.gif?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/74d8f437-955c-411d-a1cc-097eb76abddf.gif?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/63b3df8d-2e4c-40f6-b50c-0e0a171b28f8.gif?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/d056ade1-cb5c-4047-860b-d24b7e6b8e21.gif?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "filament-by-galaxy",
+        "featuredAt": "2026-11-13T08:01:00Z",
+        "createdAt": "2026-11-13T08:01:00Z"
+      }
+    },
+    {
+      "rank": 3,
+      "id": "1314781",
+      "name": "Claude Meetings",
+      "tagline": "Add Claude to your call and get work started as you talk",
+      "description": "Claude Meetings lets you add Claude to a Google Meet call as a visible participant. The team can ask questions out loud or in chat, and Claude writes the notes and action items so no one on the call has to. It builds docs, whiteboards, and other artifacts during the call, and teammates on the invite can edit them as you talk. After the call, the notes, transcript, and anything Claude made are on the meeting page in Claude. It is in beta on Team and Enterprise plans, starting with Google Meet.",
+      "keywords": [
+        "Add",
+        "Claude",
+        "to",
+        "your"
+      ],
+      "metrics": {
+        "votes": 219,
+        "comments": 12
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/BBCWQILYWRBAP6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/claude?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/0a72e438-9a48-407c-a3a1-7e74832e7ea4.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/0a72e438-9a48-407c-a3a1-7e74832e7ea4.png?auto=format",
+        "media": [
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/mcp-draft-media/acc3f375-c32e-43e0-a7a1-bdb355801bda.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/launch-image-uploads/77aaab11-a6a2-4522-a035-503cacbde4c0/b68231de4b983adb593591d7645560f354f0522bd861c76952f64ce7d7ffae4f.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/launch-image-uploads/bd32e17a-b332-41fd-8369-92df208082b3/ca8754cba3bc346cee6af49c1049e9f7085d3c7eaea1fe29c4a95be05f51fcde.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/launch-image-uploads/54f2a438-adb6-42a9-a3a7-e7fd837bb374/99d81d7ea50cbb71759b504e2256ec607c80cb1a0afa8c05d54df19b501b6ef8.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/launch-image-uploads/982d5e66-4995-4970-a8f3-dd9f7a1390c4/f31f801c5f85744085ffea7d81bb25e969f1c4690cb0b6a36ba80f9b9451c470.png?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "claude-meetings",
+        "featuredAt": "2026-11-13T08:00:00Z",
+        "createdAt": "2026-11-13T08:00:00Z"
+      }
+    },
+    {
+      "rank": 4,
+      "id": "1314761",
+      "name": "Replicate",
+      "tagline": "Turn Webflow/Framer app into a Claude/Codex project for free",
+      "description": "Replicate a Webflow, Framer, or any website-builder project into a NextJS app with 1:1 parity. Migrating off of website builders is difficult due to image CDNs, CMS parity, and minified JS code. Replicate handles all of these problems and commits your code to a GitHub repository. The best part? It's entirely free.",
+      "keywords": [
+        "Turn",
+        "Webflow/Framer",
+        "app",
+        "into"
+      ],
+      "metrics": {
+        "votes": 173,
+        "comments": 11
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/RENYHO4NIPEVIS?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/replicate-10?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/654cf3ce-3462-4b4b-a4ef-4a4e95434470.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/654cf3ce-3462-4b4b-a4ef-4a4e95434470.png?auto=format",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/a584c2af-337f-410a-aa8d-8b227274ef65.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/b3aad702-145b-4079-837d-c36e71101c05.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/912d310c-1bdb-4426-bdd3-cef4b61e8e4b.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/5ba081c6-46a7-4ad2-be5a-31e8d3c7ce24.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/71c68c01-fc2b-4b8c-8594-905247eb038c.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/41bd595f-1c28-40f5-9481-06b472eb73c4.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/8b4a3a27-23e0-4cb4-99e0-f1bf85821830.jpeg?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "replicate-3",
+        "featuredAt": "2026-11-13T08:01:00Z",
+        "createdAt": "2026-11-13T08:01:00Z"
+      }
+    },
+    {
+      "rank": 5,
+      "id": "1313622",
+      "name": "Trainn MCP",
+      "tagline": "Create product videos and courses from any AI chat",
+      "description": "Give your AI tools the power to create training content, not just plan it. Connect Trainn MCP to Claude, ChatGPT, or any AI agent to turn recordings into product videos, write help articles and build courses through chat. When your product changes, update content through the same conversation. Nothing ships, without your permission.",
+      "keywords": [
+        "Create",
+        "product",
+        "videos",
+        "and"
+      ],
+      "metrics": {
+        "votes": 162,
+        "comments": 42
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/BYPQ26JPIEII6M?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/trainn?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/f2b17f47-f349-4bfd-b316-2ca50ecb5a12.jpeg?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/f2b17f47-f349-4bfd-b316-2ca50ecb5a12.jpeg?auto=format",
+        "media": [
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/1877a948-9e09-4a84-8fe2-d66cd305fe4c.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/d41db12c-4503-409e-ad38-03354b229160.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/53b6a49b-f132-4908-b26b-26a1bdd24f6d.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/032a4d24-b94b-45a2-b42d-6972a9c73196.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/b5b14f37-8d69-4b2f-b180-b3d3e21be0ce.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/333f6589-4551-403a-8daf-b9f44a5ab951.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/eef91913-c3c4-4d9d-aa5f-7ca4d4634fa4.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/1f010405-a4ef-4874-b9db-baab54b3df56.jpeg?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "trainn-mcp",
+        "featuredAt": "2026-11-13T08:01:00Z",
+        "createdAt": "2026-11-13T08:01:00Z"
+      }
+    },
+    {
+      "rank": 6,
+      "id": "1314458",
+      "name": "Gemini 4 Hydrogen",
+      "tagline": "Fast agentic development for coders",
+      "description": "Build faster with Gemini 4 Hydrogen, Google’s new model for cost-efficient agentic coding and debugging. Start building in Google AI Studio today.",
+      "keywords": [
+        "Fast",
+        "agentic",
+        "development",
+        "for"
+      ],
+      "metrics": {
+        "votes": 114,
+        "comments": 2
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/A2CQHZMKSW455X?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/gemini-6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/9c2999f5-e417-4dba-b956-944222af1026.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/9c2999f5-e417-4dba-b956-944222af1026.png?auto=format",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/377d9ccd-b71e-49d2-96d4-7c21045f1e11.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/c96cb12c-5df7-44e0-8613-fa0b34165eb1.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/b3bbb02a-a05e-4bc5-b1d1-7ec08e234c60.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/60e0222b-0593-424f-9c34-9c4b2ebb957f.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/34007b1c-99f1-44ab-9763-1e8f54d0afc1.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/dff8d1fd-c7f2-4f28-a06a-5beca3847fb0.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/5a21a58c-97f1-44d9-b547-2150b3053015.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/3f6ae290-e25b-41a9-96d6-e5ece05e35e3.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/0d77e7cf-e130-4cc1-9595-903b6ea1c8d6.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/9639c019-22f6-4293-91a6-b3f4b3d57768.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/84b1599a-0f54-4a7e-9c66-6467ebf7c010.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/97911233-2824-437f-b41d-5f4cdaf58201.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/a92e4c72-8d78-46a4-b7e2-563c96b131ff.jpeg?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "gemini-4-hydrogen",
+        "featuredAt": "2026-11-13T08:01:00Z",
+        "createdAt": "2026-11-13T08:01:00Z"
+      }
+    },
+    {
+      "rank": 7,
+      "id": "1312991",
+      "name": "Ganella",
+      "tagline": "Your Mac Dock, with live widgets for the apps you use",
+      "description": "Ganella replaces the macOS Dock with a native one where the apps you choose become live widgets: Spotify and Music controls, your calendar, open browser tabs, Xcode builds, terminals and AI agents like Claude, Codex and ChatGPT. Plus clipboard history, app folders, a position per display and four styles including Liquid Glass. 7-day free trial, no signup. $9.99 once.",
+      "keywords": [
+        "Your",
+        "Mac",
+        "Dock,",
+        "with"
+      ],
+      "metrics": {
+        "votes": 103,
+        "comments": 11
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/723AUCMMDVZ3TU?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/ganella?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/515feb4e-9596-4da9-9aac-caf1f4bfbaad.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/515feb4e-9596-4da9-9aac-caf1f4bfbaad.png?auto=format",
+        "media": [
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/238d5afd-9bb7-473a-96a4-ae0db0cf6a97.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/launch-image-uploads/18a1deb1-9815-46f4-aa4c-30f9b6ed61dc/c05f5022847c98b8c525fe2569d9144278c91a30f2dcbee82ce4ffc9cfeb0668.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/launch-image-uploads/776f355b-8591-41c8-a161-db1a46b6e392/0258431a622a051d4fd23116ba06748758621f4fb99485f42e408903e01f4056.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/launch-image-uploads/121d3f56-8fb7-4391-8405-176a15a0f63e/b49291a2dd806bf277ca7a0ef7e4605b48a28f8c9e0c8a4a2c5dd87bbc1a556a.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/launch-image-uploads/188b21f0-bce0-4717-b5e0-967d07dd0d69/ac7f36ba85ce415f62a346868e96fc0c2833634cee4347854a4297ffce6ec21e.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/launch-image-uploads/64d0dd71-3be7-4a12-b16b-45f1f4df7f6f/accaf69d67a3324f2fa7381e8dfa8466e46b27a088cc042facf85a5a9e69170c.png?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "ganella",
+        "featuredAt": "2026-11-13T08:00:00Z",
+        "createdAt": "2026-11-13T08:00:00Z"
+      }
+    },
+    {
+      "rank": 8,
+      "id": "1314567",
+      "name": "Paxper",
+      "tagline": "Create cloud infrastructure visually and review every change",
+      "description": "Visual infrastructure as code: design cloud resources on a diagram, review every change, and apply it in your own AWS account.",
+      "keywords": [
+        "Create",
+        "cloud",
+        "infrastructure",
+        "visually"
+      ],
+      "metrics": {
+        "votes": 101,
+        "comments": 19
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/AHT6BFH3RQ27QR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/paxper?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/dbeb7ec5-b198-48c3-98d4-1ec1b1171ed6.svg?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/dbeb7ec5-b198-48c3-98d4-1ec1b1171ed6.svg?auto=format",
+        "media": [
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/172a6f0f-dd73-45c6-876a-a794eba4ecff.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/684f4adc-4202-4a5c-aaa7-da620d9bfb4b.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/7c678da2-9494-416b-a628-a241f7201da2.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/ce3b2aa7-1b91-4dff-b0bf-09006594794e.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/fa891167-9365-49dc-adc3-00846fb74de9.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/55c573a6-19c9-4af7-83d4-20313d92abfb.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/cb156a87-28a2-4c9e-af0b-6cedc7229982.png?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "paxper",
+        "featuredAt": "2026-11-13T08:01:00Z",
+        "createdAt": "2026-11-13T08:01:00Z"
+      }
+    },
+    {
+      "rank": 9,
+      "id": "1284660",
+      "name": "qorqbot",
+      "tagline": "Proactive agent for business work",
+      "description": "qorqbot is proactive qorqbot runs on subscriptions you already pay for - Claude, Codex, and more. It is provider-agnostic and built for business workflows and complex, long-running tasks qorqbot manages your attention, and gets work done in the background. it learns from you, without you actively teaching it, and synthesizes your preferences, workflows, and context naturally qorqbot is not a harness - it sits around your harness, providing operational, context, UX, and self-adjustment layers",
+      "keywords": [
+        "Proactive",
+        "agent",
+        "for",
+        "business"
+      ],
+      "metrics": {
+        "votes": 101,
+        "comments": 9
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/NYNNNLD7RHSCVR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/qorqbot?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/326fb1cd-38d4-49c4-bef6-eeca5c7c84ab.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/326fb1cd-38d4-49c4-bef6-eeca5c7c84ab.png?auto=format",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/08745b39-aaba-47ea-a62f-9d10a6a40fc8.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/06763132-e349-415b-a8f3-b6c4f14db863.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/a93292ca-9015-4f12-9d77-57e93bf33424.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/574c6891-6536-4658-ad66-58000aa8cd74.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/4cfad368-77f0-4775-be76-bb16bb7596ad.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/cc3aaa32-f4ee-44d6-88a9-9ce9d12f473d.jpeg?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "qorqbot",
+        "featuredAt": "2026-11-13T08:01:00Z",
+        "createdAt": "2026-11-13T08:01:00Z"
+      }
+    },
+    {
+      "rank": 10,
+      "id": "1312154",
+      "name": "Google Pixel Tag",
+      "tagline": "Google’s $30 Android-ready tracking tag",
+      "description": "Google Pixel Tag is a $29.99 item tracker built for Android. Attach it to your keys, wallet, or luggage and find your belongings through Google's Find Hub network of over 1 billion Android devices. Get precise directions with a compatible phone, ring nearby items, or double-press the tag to find your phone, even on silent. Its slim, water-resistant design includes a replaceable battery lasting over a year. Works with Android 9 and newer.",
+      "keywords": [
+        "Google’s",
+        "$30",
+        "Android-ready",
+        "tracking"
+      ],
+      "metrics": {
+        "votes": 100,
+        "comments": 3
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/SOWQ42MOQPLT26?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/google?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/2d33031d-cdab-4bd0-b061-50872e25421d.jpeg?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/2d33031d-cdab-4bd0-b061-50872e25421d.jpeg?auto=format",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/3ad08987-b08d-4f4d-9478-8b7408a448b7.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/49ecf724-839f-4377-b4d9-f83ff714c4e6.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/00c5190d-7b41-41a6-ae7c-4757e07e277e.webp?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/5f97c498-bac1-4648-8b58-e6c569c4a02a.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/18dd46e7-5e04-41b5-8d1d-8f5cd1eae212.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/8163cd41-4750-4aa6-ac1a-a61c6d1216ea.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/453954bb-8268-4f25-baa8-27825fce1287.png?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "google-pixel-tag",
+        "featuredAt": "2026-11-13T08:01:00Z",
+        "createdAt": "2026-11-13T08:01:00Z"
+      }
+    },
+    {
+      "rank": 11,
+      "id": "1314471",
+      "name": "GAtrends",
+      "tagline": "Spike alerts for your keywords in Telegram, Claude, ChatGPT",
+      "description": "GAtrends is a trend radar for your own keywords. It watches 7 sources (Google News, Hacker News, Wikipedia, Steam, Google Trends, GitHub, Product Hunt), learns the usual level of each keyword and alerts you the moment one spikes. Alerts land in Telegram on every plan. Connect Claude or ChatGPT and ask what is rising. Dashboard with charts, signal history, CSV export, webhook and API. Free plan: 3 keywords, no card.",
+      "keywords": [
+        "Spike",
+        "alerts",
+        "for",
+        "your"
+      ],
+      "metrics": {
+        "votes": 96,
+        "comments": 13
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/KGFXAXOXP52YCO?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/gatrends?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/d0c0144e-9443-4ea6-9e74-144eb594aa94.gif?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/d0c0144e-9443-4ea6-9e74-144eb594aa94.gif?auto=format",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/e485ad19-bb2f-4720-9daa-d2d349e42550.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/7c30d404-4870-4b84-b13b-ce237156dbe0.gif?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/c6baf8e9-aacb-4ab9-8481-3c88ec7a78c8.gif?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/ff3bb5d1-b9b5-4931-95b3-3c6485835916.gif?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/72f362e6-2716-41c5-831d-34fa29f42d60.gif?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/ca8863c2-3618-457f-a5e4-44577a86c3a8.gif?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/e469c62a-3577-4f73-b99c-5e2bcd07c645.gif?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/718bd5e2-bed0-4eb3-a8ab-8213ecb18dc9.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/2de54eb4-a699-4c3a-9e66-fb30592fa667.png?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "gatrends",
+        "featuredAt": "2026-11-13T08:01:00Z",
+        "createdAt": "2026-11-13T08:01:00Z"
+      }
+    },
+    {
+      "rank": 12,
+      "id": "1313374",
+      "name": "Aven App Agent",
+      "tagline": "AI that guides users through your app",
+      "description": "Add AI guidance to your app. Users can ask how to do a task and get a walkthrough that highlights the right controls. Your team defines what Aven can guide, and your app handles navigation.",
+      "keywords": [
+        "AI",
+        "that",
+        "guides",
+        "users"
+      ],
+      "metrics": {
+        "votes": 88,
+        "comments": 15
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/MGLYXUMWD5BQTH?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/aven-app-agent?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/launch-image-uploads/fca560fb-c3b0-401d-8776-2051dd5523d7/6251ebcff55348680d3c1e92ae69d708961bee17ad3e1078818e916b1fda24f0.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/launch-image-uploads/fca560fb-c3b0-401d-8776-2051dd5523d7/6251ebcff55348680d3c1e92ae69d708961bee17ad3e1078818e916b1fda24f0.png?auto=format",
+        "media": [
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/mcp-draft-media/87df59d1-f28e-43bf-9615-9fa48ac1c7ae.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/launch-image-uploads/703281ca-689c-4b82-98b5-a43cad14140d/eef8ec0c4c424c7e8e8782d25d667957499ddcbd82a9849a9b620cf657fa48f8.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/launch-image-uploads/a55054f0-893c-4ea0-a362-6095d77c4153/0ae344036b6b27ea7e86de830fa488266d91617e18f732da0ad95599285b2714.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/launch-image-uploads/91ea4393-0e4b-4b39-a25b-f64ad1f51259/a50840d8dc7d0fc522705554e97dbc843b6f8ebcda0ce6eb0131f48287aa2273.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/launch-image-uploads/1a253361-fe23-42a4-8946-661121fa0398/8bd99c316442672f1f14573fa5d8b2423187f614c1f3d0834a24005429572dde.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/launch-image-uploads/221343e9-4bcc-4e9c-8800-0f8ea41c516e/32fda51b40b5a90826ac6c7df4b6c60f783fb3020cf5ec1ae97ca027973d8d0f.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/launch-image-uploads/fa22354e-43a0-4488-bf64-915f28e1d14b/be57a3994281f11e7315b627d76be98d26095c0721ce64681addb1817fb21b8d.png?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "aven-app-agent",
+        "featuredAt": "2026-11-13T08:01:00Z",
+        "createdAt": "2026-11-13T08:01:00Z"
+      }
+    },
+    {
+      "rank": 13,
+      "id": "1314743",
+      "name": "WHOOP Humans",
+      "tagline": "WHOOP's social network built around real health data",
+      "description": "WHOOP Humans brings a new social experience to the WHOOP app, built around real health and performance data. Follow friends and family, see the Sleep, Recovery, Strain, and activities they choose to share, and encourage each other's progress. Capture meaningful moments with photos, notes, and the data behind them. Unlike traditional social feeds, WHOOP Humans connects people through their real-world experiences, with granular privacy controls.",
+      "keywords": [
+        "WHOOP's",
+        "social",
+        "network",
+        "built"
+      ],
+      "metrics": {
+        "votes": 88,
+        "comments": 5
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/BNYTYX3PFROSIA?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/whoop?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/326e9717-9ca4-4b13-83c2-2e2d3d207b62.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/326e9717-9ca4-4b13-83c2-2e2d3d207b62.png?auto=format",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/52ba3182-5bb2-4fb3-8d8e-25c4f9069f1c.webp?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/001f6414-cb40-43e8-89c8-8beb2f515d96.webp?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/194eeb35-de4c-4b9d-a87a-ce600ac80d30.webp?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "whoop-humans",
+        "featuredAt": "2026-11-13T08:01:00Z",
+        "createdAt": "2026-11-13T08:01:00Z"
+      }
+    },
+    {
+      "rank": 14,
+      "id": "1311191",
+      "name": "Burnstate",
+      "tagline": "Claude Code, Codex & Cursor limits, paced in your menu bar",
+      "description": "Burnstate is a native Mac menu bar app for people who code with AI. It shows your Claude Code, Codex, Cursor and Vercel AI Gateway limits, marks how much of each window has passed, and tells you when you'd run out at your current pace. Answer Claude Code permission prompts and questions from a card, see every session's tokens and cost, take breaks that count only time away, and share a year of usage as a link. No account, no analytics.",
+      "keywords": [
+        "Claude",
+        "Code,",
+        "Codex",
+        "&"
+      ],
+      "metrics": {
+        "votes": 87,
+        "comments": 17
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/H2T26HYRCIEWMM?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/burnstate?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/9f61f3d6-f6e5-476d-8e89-46dd06795831.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/9f61f3d6-f6e5-476d-8e89-46dd06795831.png?auto=format",
+        "media": [
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/3a42f4d5-975e-4754-8231-fd367d054b60.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/5538ab90-6f7c-4a19-ae1b-418dcd5d06ae.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/ad221e7b-1d60-4eb2-ba98-7608ad96cbbc.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/9459eddd-cdc3-44ac-83e4-6550f484622f.png?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "burnstate",
+        "featuredAt": "2026-11-13T08:01:00Z",
+        "createdAt": "2026-11-13T08:01:00Z"
+      }
+    },
+    {
+      "rank": 15,
+      "id": "1314943",
+      "name": "de:volt",
+      "tagline": "A breadboard simulator with real physics, in your browser",
+      "description": "de:volt is a breadboard simulator that runs real circuit physics in your browser. Wire up 105 parts on a 400 or 830-point board and the circuit runs as you build. Probe it with a 4-channel scope and multimeter, program an Arduino Uno or Nano, micro:bit or RP2040, learn with guided lessons that pass on real measurements, or run a whole class with assignments, marking and live lessons.",
+      "keywords": [
+        "A",
+        "breadboard",
+        "simulator",
+        "with"
+      ],
+      "metrics": {
+        "votes": 82,
+        "comments": 6
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/LKBWY3GBG5GTN3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/de-volt?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/launch-image-uploads/37cf6400-46c2-48c8-bf91-453be5f53346/674dc54007887558cfa77ebd5555c7ee5c9cb96f457124513a7703778ebddc2b.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/launch-image-uploads/37cf6400-46c2-48c8-bf91-453be5f53346/674dc54007887558cfa77ebd5555c7ee5c9cb96f457124513a7703778ebddc2b.png?auto=format",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/94cf59b8-3dc0-419b-8b2b-75d6886176e1.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/b98a3b03-4f2e-44fc-8282-b7079ae627ac.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/af8d0b66-a3e7-43ef-a242-0a35cca65b17.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/9a149bf1-3aae-40fd-97df-ea005af76743.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/05e1e45e-a1b2-4c9d-9683-bfd01424658a.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/launch-image-uploads/0a7e2ba9-58ab-4e37-b728-6fc1f855e8da/dc053488bdbf27604da60cc14add06b3f31b70a7da4f889dfe7fb98c3de69287.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/launch-image-uploads/e7cbb745-ec84-49a9-bd6c-4756592f40e6/e63198684333a977ddb1cf0640acee1cfd511fbfebb0598dbc3fe84eb26f7dd5.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/48d4aba0-deef-465c-bdeb-68f2dedc91e8.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/4fc4ee9f-d021-493d-a5a1-6d799d6a3191.png?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "de-volt",
+        "featuredAt": "2026-11-13T08:00:00Z",
+        "createdAt": "2026-11-13T08:00:00Z"
+      }
+    },
+    {
+      "rank": 16,
+      "id": "1311043",
+      "name": "Willo",
+      "tagline": "A companion you talk to while you play WoW",
+      "description": "A little wisp who rides along while you play World of Warcraft. Ask her anything out loud and hear the answer in her own voice.",
+      "keywords": [
+        "A",
+        "companion",
+        "you",
+        "talk"
+      ],
+      "metrics": {
+        "votes": 78,
+        "comments": 2
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/UG5FNIOMDTTKLG?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/willo-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/035f31a9-8362-4534-89cc-cbb040be76d8.svg?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/035f31a9-8362-4534-89cc-cbb040be76d8.svg?auto=format",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/7f927754-a29a-445a-b7cc-7d78ae0c471a.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/5c95c45b-d417-4d46-a212-8459375bcdbe.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/8c303a65-1497-45b3-888a-8c62689549fa.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/e244055f-5a9a-4f33-b3d1-71e2fac36e42.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/f00d1436-852a-411a-a765-ee9d53c8a0bd.jpeg?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "willo-4",
+        "featuredAt": "2026-11-13T08:01:00Z",
+        "createdAt": "2026-11-13T08:01:00Z"
+      }
+    },
+    {
+      "rank": 17,
+      "id": "1314456",
+      "name": "Expo Simulators",
+      "tagline": "Cloud simulators built for agents",
+      "description": "Expo Simulators are platform agnostic cloud simulators that allow agents to install a build, drive it, and verify their own work, running as many in parallel as you need.",
+      "keywords": [
+        "Cloud",
+        "simulators",
+        "built",
+        "for"
+      ],
+      "metrics": {
+        "votes": 77,
+        "comments": 2
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/W7P7G4FGP7TWVB?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/expo?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/d3043376-dd79-452b-ae88-965d24a45865.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/d3043376-dd79-452b-ae88-965d24a45865.png?auto=format",
+        "media": [
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/e2ee8389-d06b-4498-beaf-ce5ab1eaa15e.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/4013e002-def1-4499-bc07-9fba16ee23ba.webp?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "expo-simulators",
+        "featuredAt": "2026-11-13T08:01:00Z",
+        "createdAt": "2026-11-13T08:01:00Z"
+      }
+    },
+    {
+      "rank": 18,
+      "id": "1314493",
+      "name": "Hoverine",
+      "tagline": "Rive animation templates you can drop into your app",
+      "description": "Interactive Rive animation templates: buttons, loaders, toggles, forms and more, each with a working state machine. Start free, upgrade for the full catalogue and a commercial license. Includes Riv Eye, a free in-browser \".riv\" inspector.",
+      "keywords": [
+        "Rive",
+        "animation",
+        "templates",
+        "you"
+      ],
+      "metrics": {
+        "votes": 76,
+        "comments": 9
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/KDWCVXYLB42SPA?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/hoverine?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/ff193838-aaa1-487e-9484-d8b900bb0155.gif?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/ff193838-aaa1-487e-9484-d8b900bb0155.gif?auto=format",
+        "media": [
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/c447df9b-4ad1-48a7-9a3a-f9e553713097.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/85616cfd-0d54-49ab-9408-dbd7ea922ca9.gif?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/1dc03271-a0a5-4d5b-a554-e741dbccf135.webp?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/1009981b-5624-435e-bbb8-b425b6d18be8.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/68dfd4da-abd5-40ad-b297-adff6cb6eb91.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/d86e43d0-5db8-4872-96d8-f8ed2fbb2627.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/995091a2-3bb5-4711-9e65-6fcf7f2bc121.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/b7109877-cddd-473b-a80a-442783a0d961.png?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "hoverine",
+        "featuredAt": "2026-11-13T08:01:00Z",
+        "createdAt": "2026-11-13T08:01:00Z"
+      }
+    },
+    {
+      "rank": 19,
+      "id": "1314746",
+      "name": "Pocket Studio for Supabase",
+      "tagline": "Supabase dashboard & SQL editor for Android",
+      "description": "Pocket DB is a private Supabase dashboard for Android: browse tables, run SQL on Postgres, check storage, logs and usage, and get alerts when a project needs you. Free plan, no ads, no tracking.",
+      "keywords": [
+        "Supabase",
+        "dashboard",
+        "&",
+        "SQL"
+      ],
+      "metrics": {
+        "votes": 73,
+        "comments": 8
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/S5L2WBS7IOFAYK?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/pocket-studio-for-supabase?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/c60bdb0d-2530-49aa-80a3-c6181308012b.svg?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/c60bdb0d-2530-49aa-80a3-c6181308012b.svg?auto=format",
+        "media": [
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/b71694cc-07fa-4dcd-a80b-e480302dec9e.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/f5ac97c5-482a-4b12-971f-ae473816dee2.webp?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/dbda6349-52f8-47ed-9c1d-05dd1f955a97.webp?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/1b772d94-d09d-4886-8bee-83b835e895b9.webp?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/784fface-b983-45cc-926b-9bfdf2477e97.webp?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "pocket-studio-for-supabase",
+        "featuredAt": "2026-11-13T08:01:00Z",
+        "createdAt": "2026-11-13T08:01:00Z"
+      }
+    },
+    {
+      "rank": 20,
+      "id": "1307926",
+      "name": "Kairos",
+      "tagline": "Personal analytics engine across health, finances, & social",
+      "description": "Kairos connects every stream—health vitals, bank transactions, calendar, music, messages—and surfaces the patterns in your own data, never cross-user comparisons. Rate your energy, mood, and focus each morning to see what actually drives how you feel. The system describes, you decide.",
+      "keywords": [
+        "Personal",
+        "analytics",
+        "engine",
+        "across"
+      ],
+      "metrics": {
+        "votes": 71,
+        "comments": 7
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/UA2NN23ZVWYAVY?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/kairos-18?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/8b5b3640-7e5f-4e68-95b2-d8b33b8e499a.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/8b5b3640-7e5f-4e68-95b2-d8b33b8e499a.png?auto=format",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/f29a4339-1d88-4e75-a7ef-4a7e739f3402.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/b29b28b7-2c6b-48bc-96ba-a63e7b1a9fcf.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/aca7f81d-5571-4d54-a28a-da39fbcd8f44.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/894e4959-9d07-4aba-85f7-456d7cd03a54.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/74658798-e430-43ac-a82f-0221bfe77f54.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/78aa5535-a409-429b-89a3-5ab421452d92.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/600464c4-d93f-44f8-9b85-9bb3d472d116.jpeg?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "kairos-20",
+        "featuredAt": "2026-11-13T08:01:00Z",
+        "createdAt": "2026-11-13T08:01:00Z"
+      }
+    }
+  ]
+}
