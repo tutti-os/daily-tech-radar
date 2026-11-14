@@ -1,0 +1,1320 @@
+{
+  "schemaVersion": "daily-tech-radar.v1",
+  "source": "producthunt",
+  "locale": "en-US",
+  "date": "2026-11-14",
+  "sourceTimezone": "Asia/Shanghai",
+  "generatedAt": "2026-11-14T20:16:06.395Z",
+  "items": [
+    {
+      "rank": 1,
+      "id": "1301510",
+      "name": "HiringNow",
+      "tagline": "AI job agent that finds & apply for jobs before anyone else.",
+      "description": "HiringNow checks 247,000+ company career sites every 5 minutes, so you see new jobs before they hit the big boards. It matches each job to your profile, tailors your resume and cover letter, and applies on the employer's own site, only with your approval. Every application gets a receipt in your job tracker. Also: resume builder and mock interviews. Free plan with 10 auto-applies.",
+      "keywords": [
+        "AI",
+        "job",
+        "agent",
+        "that"
+      ],
+      "metrics": {
+        "votes": 203,
+        "comments": 19
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/WSO7S2YHKPGAXY?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/hiringnow?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/d7ed14d3-866f-467d-9320-b0a96855b181.svg?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/d7ed14d3-866f-467d-9320-b0a96855b181.svg?auto=format",
+        "media": [
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/aa83ec4d-5bc0-4759-a87f-545a100040f0.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/786f9aa5-bb67-417a-a44e-2cce5b5c021c.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/488924c4-c390-47a6-abd7-2b785477d077.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/4cbd3e9c-3074-4fc6-815e-ca3c02807c7e.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/1395834b-3055-4633-b9e2-720ef2742c1c.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/2a8fc403-1a11-491b-b67e-18de4d131830.png?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "hiringnow-3",
+        "featuredAt": "2026-11-14T08:01:00Z",
+        "createdAt": "2026-11-14T08:01:00Z"
+      }
+    },
+    {
+      "rank": 2,
+      "id": "1313358",
+      "name": "Dex Semantics",
+      "tagline": "Let your agent build analytics with 25% fewer errors",
+      "description": "Dex Semantics adds declarations to your analytical models, which capture row meaning, join nature, how numbers add up, and decisional assumptions. Thanks to this, Dex scores 80% on ADE-bench with Claude Sonnet 5.5, compared to 73.3% without Dex (25% fewer tasks failed). Declarations live in your models as code, not a third-party tool. Dex then helps your agent convert declarations into your Semantic Layer of choice.",
+      "keywords": [
+        "Let",
+        "your",
+        "agent",
+        "build"
+      ],
+      "metrics": {
+        "votes": 151,
+        "comments": 23
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/RZIMECXI6OYCNP?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/dex-by-exmergo?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/55ff92fa-d689-4108-9767-0590e91892b0.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/55ff92fa-d689-4108-9767-0590e91892b0.png?auto=format",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/ba87a49e-64a9-4972-9c1a-e9f933738dfc.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/12884e12-01bf-4f5e-b7fa-8e646314a962.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/a8e55ca3-8753-458d-ab20-23d1f1765ec9.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/c111525a-755a-450d-a744-ef5553743622.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/36738795-6250-43b4-a6fe-c7d2b7628c7d.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/c834a4ff-3183-4dda-a8b9-3cc080ea1f44.jpeg?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "dex-semantics",
+        "featuredAt": "2026-11-14T08:01:00Z",
+        "createdAt": "2026-11-14T08:01:00Z"
+      }
+    },
+    {
+      "rank": 3,
+      "id": "1315068",
+      "name": "Businesses in ChatGPT",
+      "tagline": "Help customers discover your business through ChatGPT",
+      "description": "Discover how customers find your business in ChatGPT. Claim your business profile, manage information, explore insights, and create a Business Agent if eligible",
+      "keywords": [
+        "Help",
+        "customers",
+        "discover",
+        "your"
+      ],
+      "metrics": {
+        "votes": 144,
+        "comments": 6
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/4GOWHK6UYKH5KX?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/openai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/0b57a8d9-319e-4e3f-83fa-b8141a299c60.svg?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/0b57a8d9-319e-4e3f-83fa-b8141a299c60.svg?auto=format",
+        "media": [
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/ad567e77-ea81-4c18-80fe-4314d6516cae.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/e36a2bd0-b98b-4e67-86dd-343879e6f30a.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/5d4d3289-bbd8-436e-816e-074911225a03.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/ad3030c7-d16d-4d56-b6f7-60a5e50d8edc.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/1a576fc1-9104-4bbe-8b9a-b5988ddf76ca.png?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "businesses-in-chatgpt",
+        "featuredAt": "2026-11-14T08:01:00Z",
+        "createdAt": "2026-11-14T08:01:00Z"
+      }
+    },
+    {
+      "rank": 4,
+      "id": "1314543",
+      "name": "Gemini Robotics 2.5",
+      "tagline": "Gemini Robotics 2.5: Google’s most capable robot model",
+      "description": "Gemini Robotics 2.5 is Google DeepMind’s most capable vision-language-action model, turning what a robot sees and is told into hand and arm movements. Per DeepMind, it has a 30% to 100% higher success rate than the previous baseline, finishes tasks 20% to 30% faster, and reached 96% success in a Mercedes-Benz parts-kitting pilot with Apptronik’s Apollo 2 humanoid. Works across robot types. Rolling out to robotics partners.",
+      "keywords": [
+        "Gemini",
+        "Robotics",
+        "2.5:",
+        "Google’s"
+      ],
+      "metrics": {
+        "votes": 131,
+        "comments": 2
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/7TJIY2TFO3PDX3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/gemini-robotics-2-5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/ae509a62-bee3-4ed5-85cd-ee309c8f1e3b.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/ae509a62-bee3-4ed5-85cd-ee309c8f1e3b.png?auto=format",
+        "media": [
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/8c32c238-91e5-4f44-9dcc-9b4a1aa7cc02.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/8ea83902-d7e1-4cf6-b620-1c90ad2b28f1.webp?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/1c4b5b30-0ac9-4a15-b52a-1ce5ceccd3a2.webp?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/6fc52fb7-92cc-4b7f-a2e3-84c1dd0776bb.webp?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/8e152fa8-3ca6-4a27-abec-e02a603afedf.webp?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/30dd7b70-abf7-4c92-8e7e-3c776cad1e90.webp?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "gemini-robotics-2-5-7",
+        "featuredAt": "2026-11-14T08:01:00Z",
+        "createdAt": "2026-11-14T08:01:00Z"
+      }
+    },
+    {
+      "rank": 5,
+      "id": "1314882",
+      "name": "Blender 5.3",
+      "tagline": "3D Gaussian splats, now native to Blender",
+      "description": "Blender 5.3 adds native 3D Gaussian Splats across Geometry Nodes, Workbench, EEVEE, and Cycles, alongside DLSS 4.5 viewport denoising, optional Project setups, Compositor scene effects, Material Lighting nodes, and ripple video editing.",
+      "keywords": [
+        "3D",
+        "Gaussian",
+        "splats,",
+        "now"
+      ],
+      "metrics": {
+        "votes": 114,
+        "comments": 4
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/AXLLXTVWQ7BDDM?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/blender?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/1f54a614-315b-42b4-9a27-1c6bef1d2016.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/1f54a614-315b-42b4-9a27-1c6bef1d2016.png?auto=format",
+        "media": [
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/e92c3a1a-37a9-4422-8379-c61228a76abe.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/16f5e683-fb03-4974-8665-da8d9502be1e.webp?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/329cd65e-84b7-454b-ba31-059773cac0a2.webp?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/98da9a3e-69dd-459f-9427-c5f2de15fdce.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/d4323210-e339-4ec6-91ab-9b65ddb7b711.webp?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/0feb25e4-b34a-4cb7-9be5-527bf3e4b499.webp?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/046703d8-3d23-417d-abec-95d315cd717d.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/4d8f22a2-a8de-478d-9e2e-cb90f36d69a9.webp?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/124f4a15-ca40-43b2-9083-df8e429f21c6.webp?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/03e285f9-9b5f-4016-86db-404a657bacee.webp?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/238eea1f-8847-4561-8b2a-8d7221c63eb1.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/6f7e9606-3a58-4f7a-834f-ce7827813375.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/7d9ebdef-df8d-4e7f-9695-0e37453abdf1.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/de94e963-198f-4ec8-9c48-afea1000af79.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/1bbf81a6-0320-4e18-83bf-1b0e3b97f8af.webp?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "blender-5-3",
+        "featuredAt": "2026-11-14T08:01:00Z",
+        "createdAt": "2026-11-14T08:01:00Z"
+      }
+    },
+    {
+      "rank": 6,
+      "id": "1310337",
+      "name": "Uber Parking",
+      "tagline": "Find, compare and reserve parking inside the Uber app",
+      "description": "Uber Parking lets you find, compare and reserve parking right in the Uber app. Unlike circling the block or juggling a separate parking app, you enter a destination and time, see lots and garages on a map with upfront prices, filter by valet, self-park or amenities, and pay with Uber Wallet. Scan a QR code or drive in with plate recognition, extend from your phone if you run late. 13,000+ garages, lots and valets in 400 US and Canadian cities. Uber One members get 10% back.",
+      "keywords": [
+        "Find,",
+        "compare",
+        "and",
+        "reserve"
+      ],
+      "metrics": {
+        "votes": 91,
+        "comments": 2
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/KFS3PL2NO44MH4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/uber?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/9569af37-10ce-4bc6-a414-94269060cfce.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/9569af37-10ce-4bc6-a414-94269060cfce.png?auto=format",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/e09a2fb9-02fe-4742-bea1-3b876e7d8288.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/5c598678-6eda-4cd7-831a-bfeb64763683.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/5be8fe28-7909-43d6-84ba-c732bd6df02b.png?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "uber-parking",
+        "featuredAt": "2026-11-14T08:01:00Z",
+        "createdAt": "2026-11-14T08:01:00Z"
+      }
+    },
+    {
+      "rank": 7,
+      "id": "1300330",
+      "name": "Kokonut UI",
+      "tagline": "Open-source UI components for your AI agent",
+      "description": "Kokonut UI is a free, MIT-licensed library of 100+ React components made for coding agents. Connect through MCP in Claude Code, Cursor, VS Code or Codex, ask for \"a tool approval card in my chat\", and your agent finds the component, installs it and edits it in your repo. Every docs page is also served as Markdown for agents. This release adds 65 components and rebuilds 34, led by AI chat parts: tool calls, tool approval, diff review, citations and more.",
+      "keywords": [
+        "Open-source",
+        "UI",
+        "components",
+        "for"
+      ],
+      "metrics": {
+        "votes": 87,
+        "comments": 2
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/WBXQ3VO2K7G57E?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/kokonutui?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/0327dacb-2b04-46e6-af7b-9949c415b8b9.svg?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/0327dacb-2b04-46e6-af7b-9949c415b8b9.svg?auto=format",
+        "media": [
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/aa81eeee-9f53-4fde-9186-32072606d66b.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/3620dc92-ec90-4d22-84db-c7d9802e2045.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/ecd56b3a-80c5-4062-82f4-282fd066dea5.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/54ea1dfb-7c29-4a8d-83f9-1e918471aa47.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/6d9e9f2c-2da0-43fe-9e6b-c76b837f6486.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/f40a1abc-b9c0-40ba-bb19-9f0dfa2eef92.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/3a50750a-3716-412f-b76e-e521d1d407f5.png?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "kokonut-ui-2",
+        "featuredAt": "2026-11-14T08:01:00Z",
+        "createdAt": "2026-11-14T08:01:00Z"
+      }
+    },
+    {
+      "rank": 8,
+      "id": "1310689",
+      "name": "Drops",
+      "tagline": "Discover new music through moments your friends love",
+      "description": "Drops is a social music discovery app from HARMAN, the company behind JBL. Explore 10–30-second moments from songs, handpicked by people who love them. Discover new artists, follow people whose taste you trust, react to their picks, and save your favorites to Droplists. Every Drop combines music, lyrics, artwork, and a personal story about why that moment matters. Find your next favorite song through people, not just playlists.",
+      "keywords": [
+        "Discover",
+        "new",
+        "music",
+        "through"
+      ],
+      "metrics": {
+        "votes": 85,
+        "comments": 1
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/HAGR37UI7QV57T?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/drops-4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/b9c3d2ea-6502-493a-81de-1a4a0c46dccf.webp?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/b9c3d2ea-6502-493a-81de-1a4a0c46dccf.webp?auto=format",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/b87acdcd-43ca-47f5-9a8f-ac6fe883b02b.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/03ba4d51-d3ba-4ab5-b03d-8f63c0e4eae5.webp?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/d5c837c7-2d74-4a91-9594-d7a4099e19c3.webp?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/c021ee6f-22bd-48e1-a1b8-9ec5c22c881e.webp?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/60ace0f3-ae05-4e51-b647-0be08ef860fd.webp?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/8ce639a2-13b9-4548-850e-8e39d3ef84e8.webp?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "drops-5",
+        "featuredAt": "2026-11-14T08:01:00Z",
+        "createdAt": "2026-11-14T08:01:00Z"
+      }
+    },
+    {
+      "rank": 9,
+      "id": "1288376",
+      "name": "MAP & GO!",
+      "tagline": "See your day on the map",
+      "description": "MAP & GO! puts your day on the map: tasks and events land on a place, weather sits on the pin, and AI is one tap away, so you can find a place, look around, and navigate without leaving the app, with Apple and Google connected.",
+      "keywords": [
+        "See",
+        "your",
+        "day",
+        "on"
+      ],
+      "metrics": {
+        "votes": 83,
+        "comments": 4
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/UDCD6MOMOZEVIL?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/expert-chase-deleted-1107920?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/e6757863-ed53-4c4b-a2cb-077a95d9941f.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/e6757863-ed53-4c4b-a2cb-077a95d9941f.png?auto=format",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/55d191ce-5231-412a-a2d6-d80bc6d508f9.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/17e2e226-7324-4bea-89c2-8113c74e5e84.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/4660bdea-a80c-4e64-811f-fd36d5d735b8.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/ed10a772-7029-48f5-bc83-39ed2d4b2729.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/05952a29-07d4-47a4-ad9a-f616934f5676.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/3841a92e-3529-4c4c-804a-c5f2de7ca997.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/b9eb25ac-3b72-48c5-9945-6cd35c880175.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/5cfe8d57-3e14-438e-8a60-2ebfad08e790.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/904965b2-b8bb-4696-a9b8-ca8ff4c0c1d1.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/618618c6-03ae-4a9f-a4d1-a438e31602b8.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/735d4418-0d7a-4bbb-92cc-0662b8002be2.jpeg?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "map-go",
+        "featuredAt": "2026-11-14T08:01:00Z",
+        "createdAt": "2026-11-14T08:01:00Z"
+      }
+    },
+    {
+      "rank": 10,
+      "id": "1310969",
+      "name": "Antelog",
+      "tagline": "Stops AI coding agents from leaking or destroying your data",
+      "description": "AI coding agents are amazing. Until one deletes your database, or leaks your secrets. Antelog stops the disasters before they happen, and shows you everything your AI did: every command, every website, every bit of data it sent. Works with Claude Code, Cursor and Codex. Free.",
+      "keywords": [
+        "Stops",
+        "AI",
+        "coding",
+        "agents"
+      ],
+      "metrics": {
+        "votes": 82,
+        "comments": 15
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/ZSOONCTWBQPHUV?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/antelog?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/0a9b530b-41d8-4dc5-8e27-7ea4bf7e41a7.svg?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/0a9b530b-41d8-4dc5-8e27-7ea4bf7e41a7.svg?auto=format",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/f42fe818-ba57-4db5-a21c-46e837d6d665.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/dfa394e4-f16d-4fcd-bd89-bcba569a1c9f.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/d267afcd-c72a-41b5-b6ad-98f30c09b77f.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/326c45f5-ebea-4916-a673-74dfa6b77612.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/8e8fa01f-c6d5-48ca-82f5-8dfda35b40ca.jpeg?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "antelog",
+        "featuredAt": "2026-11-14T08:01:00Z",
+        "createdAt": "2026-11-14T08:01:00Z"
+      }
+    },
+    {
+      "rank": 11,
+      "id": "1305856",
+      "name": "Valutorio",
+      "tagline": "Your Markdown notes, native on Mac and iPhone",
+      "description": "Free Mac and iPhone app that opens the Markdown vault you already keep, nothing to import. Wikilinks, backlinks, search, daily notes, a graph on the Mac. Sync ($5.99/mo) keeps Mac and iPhone the same and lets your AI read and write your notes over MCP.",
+      "keywords": [
+        "Your",
+        "Markdown",
+        "notes,",
+        "native"
+      ],
+      "metrics": {
+        "votes": 81,
+        "comments": 9
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/IQ4NPALBQ2LXXJ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/valutorio?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/9b1fe6d3-8b52-49e7-abe0-3562545fa96f.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/9b1fe6d3-8b52-49e7-abe0-3562545fa96f.png?auto=format",
+        "media": [
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/d648977a-21b3-4f4e-87c6-66c4e44dc2b8.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/0e2f1b35-ae94-44f5-a47b-3ac55fa85a5d.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/d5f34250-e424-424d-b606-e051be9e2265.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/9970f6b0-5e89-4807-a92b-6ce9dc88ed36.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/e6626b85-2266-44dc-b905-06972d1fe742.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/76253722-1cbd-4e1d-a37b-82669229232f.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/7108a5ae-8d9d-4719-b07e-59815f1d3f35.jpeg?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "valutorio",
+        "featuredAt": "2026-11-14T08:01:00Z",
+        "createdAt": "2026-11-14T08:01:00Z"
+      }
+    },
+    {
+      "rank": 12,
+      "id": "1281561",
+      "name": "CaptureFlow",
+      "tagline": "Open-source screen recorder with instant share links",
+      "description": "Record your screen with the Chrome extension and share a link with your team or customers. Your AI agents can record too, through the MCP server: demos, how-tos and bug reports.",
+      "keywords": [
+        "Open-source",
+        "screen",
+        "recorder",
+        "with"
+      ],
+      "metrics": {
+        "votes": 80,
+        "comments": 8
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/STO327RY5SWEKS?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/captureflow?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/1e55612f-e74f-46ec-a234-f48ac7004033.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/1e55612f-e74f-46ec-a234-f48ac7004033.png?auto=format",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/e961708c-c0bc-4870-a760-735ac6f22cbf.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/721333e5-503f-43e1-8ffa-214035172848.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/3e9b388c-fbd3-4104-9193-1c521924a4c8.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/e801bae5-0cd7-4ee0-bdb9-ecde04cae460.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/72554cd3-3c7e-4a56-9b4b-58a44be4f8db.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/e222f78e-6e8b-4811-b2db-90adf94a2b18.jpeg?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "captureflow",
+        "featuredAt": "2026-11-14T08:01:00Z",
+        "createdAt": "2026-11-14T08:01:00Z"
+      }
+    },
+    {
+      "rank": 13,
+      "id": "1306959",
+      "name": "Replay",
+      "tagline": "Mac meeting recorder with no bot. Pay once, no subscription",
+      "description": "Replay records your Google Meet, Zoom and Teams calls right from your Mac, so no notetaker bot joins the call and nobody has to let one in. Your voice and theirs land on separate tracks, and the transcript, summary and action items are made on your Mac. Recordings stay local in ordinary files, and you can search every past meeting. Pay once, activate two Macs, no subscription. Needs Apple silicon and macOS 26 or later.",
+      "keywords": [
+        "Mac",
+        "meeting",
+        "recorder",
+        "with"
+      ],
+      "metrics": {
+        "votes": 80,
+        "comments": 6
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/XVCCQCYSG5JOED?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/replay-11?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/bf163e53-a6e5-4f4b-a89e-ac6ef2d77f9d.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/bf163e53-a6e5-4f4b-a89e-ac6ef2d77f9d.png?auto=format",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/76884383-efd0-4e7b-bcc4-546968eb7b06.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/8d5d75cc-991b-4f97-aad9-8771d833ec5f.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/c84fadcc-f62a-41ed-b1d7-6223e160845b.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/3f529d7b-2b57-4bda-adfc-a0dc18cf0f72.jpeg?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "replay-11",
+        "featuredAt": "2026-11-14T08:01:00Z",
+        "createdAt": "2026-11-14T08:01:00Z"
+      }
+    },
+    {
+      "rank": 14,
+      "id": "1314364",
+      "name": "inread.app",
+      "tagline": "your newsletters, outside your inbox",
+      "description": "inread gives you a private @inread.app address just for newsletters. They land in a clean, tracker-free reader instead of your inbox. Highlight what matters and take it to Obsidian, Readwise or any notes app in Markdown.",
+      "keywords": [
+        "your",
+        "newsletters,",
+        "outside",
+        "your"
+      ],
+      "metrics": {
+        "votes": 78,
+        "comments": 4
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/MMR3S2IRYUGZS6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/inread-app?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/93944060-8afe-4259-af4e-435f65bbbd03.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/93944060-8afe-4259-af4e-435f65bbbd03.png?auto=format",
+        "media": [
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/660f6c4c-16d4-4bd5-b8bd-579a94baad71.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/8f693961-51a4-497d-80af-005eb8245d38.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/144be7ab-d657-4131-a8d1-26e65849ee59.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/b846011c-e01f-45b9-a5a7-cbc62ecf390c.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/bcef0395-3357-41c3-bdce-4397e803a32c.png?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "inread-app",
+        "featuredAt": "2026-11-14T08:01:00Z",
+        "createdAt": "2026-11-14T08:01:00Z"
+      }
+    },
+    {
+      "rank": 15,
+      "id": "1315230",
+      "name": "Tabletop by Google Labs",
+      "tagline": "Build interactive group experiences with AI.",
+      "description": "Create custom interactive tools for trips, games, events, and group activities with AI. Plan, collaborate, and make decisions together in real time.",
+      "keywords": [
+        "Build",
+        "interactive",
+        "group",
+        "experiences"
+      ],
+      "metrics": {
+        "votes": 76,
+        "comments": 2
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/SSPQTPIPJUEZC7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/google-labs?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/400e7e72-60e9-488b-9ddd-d45ae1334b02.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/400e7e72-60e9-488b-9ddd-d45ae1334b02.png?auto=format",
+        "media": [
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/3a872f9e-acdc-4851-935c-6f045a37c562.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/37e872a7-ae1c-4c5a-b7d8-1c2ea016d2b5.png?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "tabletop-by-google-labs",
+        "featuredAt": "2026-11-14T08:01:00Z",
+        "createdAt": "2026-11-14T08:01:00Z"
+      }
+    },
+    {
+      "rank": 16,
+      "id": "1305977",
+      "name": "Aboard Sign",
+      "tagline": "Email a contract, CC sign@aboard.com and collect signatures",
+      "description": "Get a contract signed with no account or app: email it to everyone who signs, CC sign@aboard.com, and each person gets a link to read and sign it in the browser. Everyone is mailed the signed PDF, every page cryptographically signed. The document isn't kept.",
+      "keywords": [
+        "Email",
+        "a",
+        "contract,",
+        "CC"
+      ],
+      "metrics": {
+        "votes": 75,
+        "comments": 6
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/ITFSITVQNKJBVC?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/aboard-sign?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/aefcfd2e-a78d-4ee9-9018-f0ebaba92989.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/aefcfd2e-a78d-4ee9-9018-f0ebaba92989.png?auto=format",
+        "media": [
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/79db2f9e-c927-4b0b-9736-3bc5df516e8e.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/99829f76-bafc-4d95-8218-8ffba37c7408.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/3fdcd930-b240-4999-baa3-72e9bcefbafe.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/421c3b2d-5070-401f-bbfe-4168af44febb.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/405692cc-ccc5-42bd-94da-66707e2a6a15.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/943bb496-3421-4f20-821c-a6206270f0a2.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/90cfaa93-9df2-4bbf-a4fc-2d1c6c58e5b3.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/f55298b2-17fd-48cc-a383-8b250758423f.png?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "aboard-sign",
+        "featuredAt": "2026-11-14T08:01:00Z",
+        "createdAt": "2026-11-14T08:01:00Z"
+      }
+    },
+    {
+      "rank": 17,
+      "id": "1315082",
+      "name": "CodeMesh",
+      "tagline": "Cut AI coding costs by 90%",
+      "description": "CodeMesh helps AI coding tools like Claude Code, Cursor, and Windsurf understand your code faster. Instead of reading the same files again and again, CodeMesh gives them only the code they need. This can reduce token usage and AI costs by over 90%, while making coding agents faster and more efficient. You keep using your favorite coding tool CodeMesh simply makes it smarter and cheaper.",
+      "keywords": [
+        "Cut",
+        "AI",
+        "coding",
+        "costs"
+      ],
+      "metrics": {
+        "votes": 71,
+        "comments": 4
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/THPHLVDAF75EJY?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/codemesh-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/c8c1b900-c6d0-4f16-9f35-52cb5c12f1f2.svg?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/c8c1b900-c6d0-4f16-9f35-52cb5c12f1f2.svg?auto=format",
+        "media": [
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/01e29e9f-e196-41d9-a835-118811f37217.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/ecbf908c-b748-4123-8e4c-439eb4435fb4.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/dc3af443-4f6e-498b-8ab5-7986ad2ea15e.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/40e49fe1-4b28-4b4b-9015-f42532628aca.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/d10b2e88-23a1-4be0-853b-5ca3c8e3317c.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/38da4ce4-4821-4948-8e87-718a3afddaf0.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/fff1471c-3686-4880-a255-c6e57c414889.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/fcb5e4e2-9c54-488d-ba4d-fb9eb0fec9d2.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/fcc28d82-1f54-4bfc-865a-ef0fdfb0b6fd.jpeg?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "codemesh-2",
+        "featuredAt": "2026-11-14T08:01:00Z",
+        "createdAt": "2026-11-14T08:01:00Z"
+      }
+    },
+    {
+      "rank": 18,
+      "id": "1305491",
+      "name": "VB Notes",
+      "tagline": "Markdown notes in your own folder, searched by meaning",
+      "description": "A free, open-source notes app for iPhone, Android, Mac, Windows and Linux. Every note is a plainmd file in a folder you choose, edited in a Bear-style editor with nested tags. Search by meaning runs on the device, offline. No account.",
+      "keywords": [
+        "Markdown",
+        "notes",
+        "in",
+        "your"
+      ],
+      "metrics": {
+        "votes": 71,
+        "comments": 3
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/VRB2LJO36PMRR6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/vb-notes?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/019f9766-f38d-476c-89d3-621ebb8de75f.webp?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/019f9766-f38d-476c-89d3-621ebb8de75f.webp?auto=format",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/c2e987c9-a23d-40a0-b8c3-4715e2c29923.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/d9a7302f-6a53-46f4-906a-cb9f86db5550.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/a6815731-26b7-4bb2-a67c-01e58146305b.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/87c1be54-c0ef-40e1-a6c8-5e29edf88b0f.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/c86b9d4c-35b1-4a81-bb62-274d7bbaa185.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/e182e32e-ddb3-46e7-8c42-f4cc2446d01f.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/a4d09010-050f-4148-bed7-c9be79885f39.jpeg?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "vb-notes",
+        "featuredAt": "2026-11-14T08:01:00Z",
+        "createdAt": "2026-11-14T08:01:00Z"
+      }
+    },
+    {
+      "rank": 19,
+      "id": "1310240",
+      "name": "ScreenGo",
+      "tagline": "screen recorder for Mac with auto zooms and virtual webcam",
+      "description": "A Mac screen recorder with a camera bubble, teleprompter and an editor that does the polish for you: zooms, cursor, captions and clean sound. No account, nothing leaves your Mac.",
+      "keywords": [
+        "screen",
+        "recorder",
+        "for",
+        "Mac"
+      ],
+      "metrics": {
+        "votes": 70,
+        "comments": 1
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/6GZYM55YOAET53?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/screengo?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/launch-image-uploads/28a3d7c2-cd0b-4fdb-8389-0710ddf8b429/bab738bed8fbb66e5f632d1d702ddf6778db7220820a087a5c6378747d92d199.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/launch-image-uploads/28a3d7c2-cd0b-4fdb-8389-0710ddf8b429/bab738bed8fbb66e5f632d1d702ddf6778db7220820a087a5c6378747d92d199.png?auto=format",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/launch-image-uploads/ad762eae-9590-4600-b266-827af9bf8f15/63e48f14f33d95b4faff9be9c8895e3acacd1aa3b30409b159fad767c77e5b8d.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/launch-image-uploads/6feb1fea-855e-4d7d-8b68-67fb1d0d1301/03982fe9fe15c9816acd46fe4aa1ab16f6e9d783638b9a1b08d3e002f1bf13c8.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/launch-image-uploads/5a677fc5-784e-4e23-bfcc-eb7f8528ea09/b9d9e53ced39aa78fefc5542ed6500ba5316e3b5626bb67d67ad21b1ce4f6079.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/launch-image-uploads/55074577-f3d5-4603-b8eb-a72bf36ef23f/e40e12f4d1c19938a457b791b56c9c64be8f6b34ed1c4f92a998628b8b98990a.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/launch-image-uploads/8e466fa8-db79-4f67-8c0b-5d8459864f79/9f3fde8cffea6c1d3eed196c19759e6788cd447f0f45fe39a7c65563205f5fdb.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/launch-image-uploads/0569d62a-3217-487c-9d93-4b4ffa3b637c/5e1d30b5df0e04c0b940346eb127eedb02845cf0f49858df795da645f6e765c3.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/launch-image-uploads/445e26eb-b2f5-436e-943b-214f73f5e23c/c72c595744a00dab001f62efb56436611d392a4c0500bf4d5a26035c951a65b3.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/launch-image-uploads/24fb0974-d75c-4c29-a970-7ccbb238a7e0/bd4bc297ce93edd8dc7a77a9f9467a1466810ed1b211ec09148efb70a4f8fd5c.png?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "screengo",
+        "featuredAt": "2026-11-14T08:01:00Z",
+        "createdAt": "2026-11-14T08:01:00Z"
+      }
+    },
+    {
+      "rank": 20,
+      "id": "1312711",
+      "name": "Dynamic Edge",
+      "tagline": "The Dynamic Island for Windows",
+      "description": "Dynamic Edge brings a Dynamic Island-style experience to Windows 10 and 11. It combines media controls, clipboard history, app and folder launching, timers, volume controls, and more into a lightweight floating interface. Built with native WinUI 3 and Windows App SDK, it is designed to feel at home on Windows without the overhead of Electron. You can dock it to the top, left, or right of your screen, use it across multiple monitors, and quickly summon it with a global hotkey or Magic Shake.",
+      "keywords": [
+        "The",
+        "Dynamic",
+        "Island",
+        "for"
+      ],
+      "metrics": {
+        "votes": 69,
+        "comments": 4
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/GXVJAX7FCOUUCN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/dynamic-edge?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/aa7edfa4-a872-4bff-8054-48c634a28c8c.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/aa7edfa4-a872-4bff-8054-48c634a28c8c.png?auto=format",
+        "media": [
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/0dae6f4f-f781-4706-a98f-8d46c7494518.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/40b75aac-3e9c-4caf-ab0b-f8f673085bd6.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/86cba990-9bba-4205-8081-a9c6faeaeb14.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/b687911f-b2f1-4eb5-91db-8ba72416e730.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/30691ad9-7e43-410b-83f9-4a4a50b1f3f3.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/cd34491a-10f9-488a-b5fe-b6986d5431e4.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/c76bdc6e-03ab-43c3-b4e1-f41fc2f9f378.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/c7bafb4b-1840-4ddb-b659-967b36721439.png?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "dynamic-edge-2",
+        "featuredAt": "2026-11-14T08:01:00Z",
+        "createdAt": "2026-11-14T08:01:00Z"
+      }
+    }
+  ]
+}
