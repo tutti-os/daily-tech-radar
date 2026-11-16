@@ -1,0 +1,1341 @@
+{
+  "schemaVersion": "trendreader.daily.v1",
+  "packageId": "github-daily-All-2026-11-16",
+  "locale": "zh-CN",
+  "generatedAt": "2026-11-16T20:17:40.923Z",
+  "expiresAt": "2026-11-17T20:17:40.923Z",
+  "sourceWindow": {
+    "since": "daily",
+    "language": "All",
+    "spokenLanguageCode": null
+  },
+  "sources": [
+    {
+      "id": "github_trending_html",
+      "role": "candidate",
+      "status": "ok",
+      "itemCount": 15
+    }
+  ],
+  "taxonomy": {
+    "version": "2026-11-16",
+    "generatedAt": "2026-11-16T20:17:40.923Z",
+    "categories": [
+      {
+        "id": "ai",
+        "label": "AI",
+        "labelEn": "AI",
+        "icon": "bot",
+        "order": 20
+      },
+      {
+        "id": "tools",
+        "label": "工具",
+        "labelEn": "Tools",
+        "icon": "wrench",
+        "order": 100
+      },
+      {
+        "id": "frontend",
+        "label": "前端",
+        "labelEn": "Frontend",
+        "icon": "layout",
+        "order": 140
+      },
+      {
+        "id": "backend",
+        "label": "后端",
+        "labelEn": "Backend",
+        "icon": "server",
+        "order": 110
+      },
+      {
+        "id": "unclassified",
+        "label": "Needs Review",
+        "labelEn": "Needs Review",
+        "icon": "circle-help",
+        "order": 999
+      }
+    ]
+  },
+  "repos": [
+    {
+      "id": "ag-ui-protocol-ag-ui",
+      "owner": "ag-ui-protocol",
+      "name": "ag-ui",
+      "url": "https://github.com/ag-ui-protocol/ag-ui",
+      "avatarUrl": "https://github.com/ag-ui-protocol.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 1,
+        "starsGained": 790
+      },
+      "metadata": {
+        "description": "AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications.",
+        "language": "TypeScript",
+        "topics": [],
+        "stars": 18803,
+        "forks": 1952,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "TypeScript"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/ag-ui-protocol/ag-ui/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "server.py",
+        "summary": "The open protocol that connects any agent to any app. AG-UI is an open, lightweight, event-based protocol that standardizes how AI agents connect to user-facing applications. Agents don't fit the request/response model. They stream tokens, call tools mid-response, update shared state, pause for a human, and spawn subagents, and every framework does it differently. AG-UI replaces that custom wiring with one bi-directional event stream: the agent emits typed events, and any client can render them, no matter which framework built the agent. The same agent can power a web app, a mobile app, a terminal, or Slack.",
+        "headings": [
+          "The open protocol that connects any agent to any app.",
+          "Quick start",
+          "server.py",
+          "Where AG-UI fits",
+          "Integrations",
+          "Full list of integrations",
+          "SDKs",
+          "Features: what you can build"
+        ],
+        "commands": [
+          "pip install ag-ui-protocol fastapi uvicorn",
+          "npm install @ag-ui/client tsx",
+          "npm install @ag-ui/client",
+          "pip install ag-ui-protocol"
+        ],
+        "keywords": [
+          "agent",
+          "the open protocol that connects any agent to any app.",
+          "quick start",
+          "server.py",
+          "where ag-ui fits"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/ag-ui-protocol/ag-ui/main/.github/readme/protocol-stack.svg",
+        "thumbUrl": "https://raw.githubusercontent.com/ag-ui-protocol/ag-ui/main/.github/readme/protocol-stack.svg",
+        "alt": "Diagram showing where AG-UI fits: a user works in your app, which connects to your agent through AG-UI (agent to user), while the agent reaches tools and data through MCP and other agents through A2A; a single agent often uses all three.",
+        "sourceUrl": "https://raw.githubusercontent.com/ag-ui-protocol/ag-ui/main/.github/readme/protocol-stack.svg",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.7,
+        "method": "rules",
+        "reasons": [
+          "Matched agent"
+        ],
+        "signals": [
+          "agent"
+        ]
+      },
+      "rank": {
+        "globalRank": 1,
+        "categoryRank": 1,
+        "score": 118
+      }
+    },
+    {
+      "id": "backnotprop-plannotator",
+      "owner": "backnotprop",
+      "name": "plannotator",
+      "url": "https://github.com/backnotprop/plannotator",
+      "avatarUrl": "https://github.com/backnotprop.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 2,
+        "starsGained": 689
+      },
+      "metadata": {
+        "description": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
+        "language": "TypeScript",
+        "topics": [],
+        "stars": 12455,
+        "forks": 1212,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "TypeScript"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/backnotprop/plannotator/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "Plannotator",
+        "summary": "Everything you need to annotate and stay in the loop with your agents Inbox Surface • Artifacts • Code Review Annotate plans, specs, markdown, HTML, and other interactive artifacts. Review diffs and PRs. Send feedback to your agent. &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; Plannotator Inbox · Official site · Code Review · Visual HTML Skills · Herdr Annotate · Legacy Plan Mode ⭐️ NEW: https://plannotator.ai/inbox/ is the missing review layer between you and multi-agent work. It surfaces decisions, prototypes, variations, plans, and everything you need to stay in the loop. Works with all coding agents and personal assistants.",
+        "headings": [
+          "Plannotator",
+          "Review documents, plans, and agent messages",
+          "Code Review",
+          "Plannotator Inbox",
+          "Herdr Annotate: Plannotator in the Terminal",
+          "HTML artifacts, live sites, and guided reviews",
+          "Annotate HTML artifacts and live sites",
+          "Guided reviews"
+        ],
+        "commands": [],
+        "keywords": [
+          "agent",
+          "plannotator",
+          "review documents, plans, and agent messages",
+          "code review",
+          "plannotator inbox"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/backnotprop/plannotator/main/.github/assets/icons/amp.svg",
+        "thumbUrl": "https://raw.githubusercontent.com/backnotprop/plannotator/main/.github/assets/icons/amp.svg",
+        "alt": "Amp",
+        "sourceUrl": "https://raw.githubusercontent.com/backnotprop/plannotator/main/.github/assets/icons/amp.svg",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.7,
+        "method": "rules",
+        "reasons": [
+          "Matched agent"
+        ],
+        "signals": [
+          "agent"
+        ]
+      },
+      "rank": {
+        "globalRank": 2,
+        "categoryRank": 2,
+        "score": 116
+      }
+    },
+    {
+      "id": "dream-num-univer",
+      "owner": "dream-num",
+      "name": "univer",
+      "url": "https://github.com/dream-num/univer",
+      "avatarUrl": "https://github.com/dream-num.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 3,
+        "starsGained": 1878
+      },
+      "metadata": {
+        "description": "Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core.",
+        "language": "TypeScript",
+        "topics": [],
+        "stars": 27695,
+        "forks": 2521,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "TypeScript"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/dream-num/univer/main/README.md"
+      },
+      "readmeSignals": {
+        "title": null,
+        "summary": "Start with open-source Sheets and Docs, then connect your own application or agent. 🚀 Quick start · 📚 Documentation · ⚖️ Feature comparison · 🌐 Website · 🎮 Showcase · 🔧 API Reference · 📝 Blog English · Français · Deutsch · Español · 简体中文 · 繁體中文 · 日本語 · 한국어 what-is-univer open-source-capabilities what-you-can-build quick-start connect-your-application-to-editable-content open-source-architecture give-custom-features-clear-boundaries compose-cross-feature-edits-and-undoredo connect-applications-and-agents-through-facade-apis-and-events open-source-and-commercial-extensions scope-and-licensing application-patterns-and-ecosystem univer-workspace-an-office-sdk-reference-application cli-agen",
+        "headings": [
+          "💡 What is Univer?",
+          "Open-source capabilities",
+          "🚀 Build on the open-source foundation",
+          "Quick start: an open-source spreadsheet editor",
+          "Connect your application to editable content",
+          "🏗️ Explore the open-source architecture",
+          "Give custom features clear boundaries",
+          "Compose cross-feature edits and undo/redo"
+        ],
+        "commands": [
+          "pnpm add @univerjs/presets @univerjs/preset-sheets-core",
+          "pnpm add @univerjs/core @univerjs/design @univerjs/docs @univerjs/docs-ui \\"
+        ],
+        "keywords": [
+          "ai",
+          "agent",
+          "💡 what is univer?",
+          "open-source capabilities",
+          "🚀 build on the open-source foundation",
+          "quick start: an open-source spreadsheet editor"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/dream-num/univer/main/docs/img/readme/cards/sheets.webp",
+        "thumbUrl": "https://raw.githubusercontent.com/dream-num/univer/main/docs/img/readme/cards/sheets.webp",
+        "alt": "Sheets — Editing and layout · Data and calculation — Open demo",
+        "sourceUrl": "https://raw.githubusercontent.com/dream-num/univer/main/docs/img/readme/cards/sheets.webp",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.8,
+        "method": "rules",
+        "reasons": [
+          "Matched ai",
+          "Matched agent"
+        ],
+        "signals": [
+          "ai",
+          "agent"
+        ]
+      },
+      "rank": {
+        "globalRank": 3,
+        "categoryRank": 3,
+        "score": 114
+      }
+    },
+    {
+      "id": "tradermonty-claude-trading-skills",
+      "owner": "tradermonty",
+      "name": "claude-trading-skills",
+      "url": "https://github.com/tradermonty/claude-trading-skills",
+      "avatarUrl": "https://github.com/tradermonty.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 4,
+        "starsGained": 841
+      },
+      "metadata": {
+        "description": "Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development.",
+        "language": "Python",
+        "topics": [],
+        "stars": 6205,
+        "forks": 1316,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Python"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/tradermonty/claude-trading-skills/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "Claude Trading Skills",
+        "summary": "Data handling: docs/en/privacy.md · SECURITY.md Claude Trading Skills started as a personal project to use AI to improve my own trading process. Claude Trading Skills is a Claude Skills-based trading workflow toolkit for time-constrained individual investors. It is designed for investors who use long-term investing, ETFs, and dividend stocks as their core, while using disciplined swing trading as a satellite strategy when market conditions are favorable. The goal is not to outsource buy/sell decisions to AI. The goal is to structure market review, risk management, trade planning, journaling, and continuous improvement. It is open source because the workflows, checklists, and review habits be",
+        "headings": [
+          "Claude Trading Skills",
+          "Disclaimer",
+          "Who This Is For",
+          "Recommended Starting Path",
+          "See Example Outputs",
+          "What This Actually Costs",
+          "No API Key Starter Path",
+          "Repository Layout"
+        ],
+        "commands": [],
+        "keywords": [
+          "ui",
+          "claude trading skills",
+          "disclaimer",
+          "who this is for",
+          "recommended starting path"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/tradermonty/claude-trading-skills/main/docs/assets/previews/navigator-recommendation.svg",
+        "thumbUrl": "https://raw.githubusercontent.com/tradermonty/claude-trading-skills/main/docs/assets/previews/navigator-recommendation.svg",
+        "alt": "Illustrative Navigator recommendation for a 15-minute daily market check, listing three required skills and a no-paid-API path",
+        "sourceUrl": "https://raw.githubusercontent.com/tradermonty/claude-trading-skills/main/docs/assets/previews/navigator-recommendation.svg",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "frontend",
+        "secondaryCategoryIds": [],
+        "confidence": 0.7,
+        "method": "rules",
+        "reasons": [
+          "Matched ui"
+        ],
+        "signals": [
+          "ui"
+        ]
+      },
+      "rank": {
+        "globalRank": 4,
+        "categoryRank": 4,
+        "score": 112
+      }
+    },
+    {
+      "id": "elementalsouls-claude-bughunter",
+      "owner": "elementalsouls",
+      "name": "Claude-BugHunter",
+      "url": "https://github.com/elementalsouls/Claude-BugHunter",
+      "avatarUrl": "https://github.com/elementalsouls.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 5,
+        "starsGained": 1057
+      },
+      "metadata": {
+        "description": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
+        "language": "Python",
+        "topics": [],
+        "stars": 7278,
+        "forks": 1123,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Python"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/elementalsouls/Claude-BugHunter/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "claude-bughunter",
+        "summary": "A self-contained Claude skill bundle for bug hunting and external red-team work · 83 skills · 15 slash commands · 681 disclosed-report patterns 433 now individually cited & auditable across 24 core vulnerability classes · enterprise identity + infrastructure attack matrices · engagement-folder scaffolding · Burp MCP integration · battle-tested across authorized red-team and bug-hunting engagements, plus public training platforms DVWA, OWASP Juice Shop, Hacker101, testphp.vulnweb.com. Built by https://www.linkedin.com/in/sachinsharma8080/ — Bug Hunting & GenAI Security Research.",
+        "headings": [
+          "claude-bughunter",
+          "What is this?",
+          "Quickstart",
+          "macOS / Linux",
+          "Windows (PowerShell)",
+          "Runs on multiple agent harnesses",
+          "macOS / Linux",
+          "Windows (PowerShell)"
+        ],
+        "commands": [],
+        "keywords": [
+          "claude-bughunter",
+          "what is this?",
+          "quickstart",
+          "macos / linux"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/elementalsouls/Claude-BugHunter/main/assets/harness-routing.svg",
+        "thumbUrl": "https://raw.githubusercontent.com/elementalsouls/Claude-BugHunter/main/assets/harness-routing.svg",
+        "alt": "One install, agent harnesses — Claude Code, OpenCode, Codex CLI, Hermes Agent, Google AntiGravity",
+        "sourceUrl": "https://raw.githubusercontent.com/elementalsouls/Claude-BugHunter/main/assets/harness-routing.svg",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "unclassified",
+        "secondaryCategoryIds": [],
+        "confidence": 0.4,
+        "method": "rules",
+        "reasons": [
+          "No taxonomy rule matched with enough confidence"
+        ],
+        "signals": []
+      },
+      "rank": {
+        "globalRank": 5,
+        "categoryRank": 5,
+        "score": 110
+      }
+    },
+    {
+      "id": "getarcaneapp-arcane",
+      "owner": "getarcaneapp",
+      "name": "arcane",
+      "url": "https://github.com/getarcaneapp/arcane",
+      "avatarUrl": "https://github.com/getarcaneapp.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 6,
+        "starsGained": 31
+      },
+      "metadata": {
+        "description": "Modern Docker Management, Designed for Everyone",
+        "language": "Go",
+        "topics": [],
+        "stars": 8619,
+        "forks": 394,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Go"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/getarcaneapp/arcane/main/README.md"
+      },
+      "readmeSignals": {
+        "title": null,
+        "summary": "Modern Docker Management, Designed for Everyone. For setup instructions, configuration details, and development guides, visit the https://getarcane.app. This project is supported by the following amazing people: View the Software Bill of Materials SBOM for Arcane at https://getarcane.app/sbom. Help translate Arcane on Crowdin: https://crowdin.com/project/arcane-docker-management Thank you for checking out Arcane! Your feedback and contributions are always welcome.",
+        "headings": [
+          "Documentation",
+          "Sponsors",
+          "Security & Transparency",
+          "Translating"
+        ],
+        "commands": [],
+        "keywords": [
+          "documentation",
+          "sponsors",
+          "security & transparency",
+          "translating"
+        ],
+        "score": 80
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/getarcaneapp/arcane/main/.github/assets/arcane-dash-v3-dark.jpg",
+        "thumbUrl": "https://raw.githubusercontent.com/getarcaneapp/arcane/main/.github/assets/arcane-dash-v3-dark.jpg",
+        "alt": "Arcane v3 dashboard",
+        "sourceUrl": "https://raw.githubusercontent.com/getarcaneapp/arcane/main/.github/assets/arcane-dash-v3-dark.jpg",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "unclassified",
+        "secondaryCategoryIds": [],
+        "confidence": 0.4,
+        "method": "rules",
+        "reasons": [
+          "No taxonomy rule matched with enough confidence"
+        ],
+        "signals": []
+      },
+      "rank": {
+        "globalRank": 6,
+        "categoryRank": 6,
+        "score": 91.1
+      }
+    },
+    {
+      "id": "deanchensj-jiangshan-map",
+      "owner": "DeanChensj",
+      "name": "jiangshan-map",
+      "url": "https://github.com/DeanChensj/jiangshan-map",
+      "avatarUrl": "https://github.com/DeanChensj.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 7,
+        "starsGained": 285
+      },
+      "metadata": {
+        "description": "江山时序 · 中国历史交互地图时间轴 (403 BCE – Present) | Interactive Historical Atlas of China across 18 dynasties, 198 territory snapshots, ancient-to-modern place genealogy & classical poetry routes",
+        "language": "JavaScript",
+        "topics": [],
+        "stars": 6648,
+        "forks": 781,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "JavaScript"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/DeanChensj/jiangshan-map/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "Chronicles of the Realm · 江山时序",
+        "summary": "English · 简体中文 Chinese · 繁體中文 Traditional Chinese · 日本語 Japanese An Interactive Historical Atlas of China from the Warring States 403 BCE to the Present — Scrub Through Time, Trace Ancient Cities, and Walk in the Footsteps of History The story behind it in Chinese: https://deanchen.me/history/atlas/2026/10/25/jiangshan-map-story.html Have you ever wondered while reading Chinese history or classical poetry: \"Where exactly on today's map are Jiankang the Six Dynasties capital, Huangzhou where Su Dongpo composed the Red Cliffs Rhapsody in exile, Languan Pass in the Qinling Mountains where Han Yu halted his horse in the snow, or Zhuxianzhen Yue Fei's northern campaign frontier?\" \"How many names ",
+        "headings": [
+          "Chronicles of the Realm · 江山时序",
+          "Why It's Fun to Explore",
+          "Feature 1: Scrub the Timeline to Watch Realms Rise & Fall, Track Monarchs, and Compare Ancient & Modern Borders",
+          "Feature 2: Click Any Ancient City or Strategic Pass to Uncover 2,400 Years of History (`Trace Place`)",
+          "Feature 3: Person Chronicles — Trace Any Historical Figure Across Time & Space",
+          "Feature 4: Easter Egg · Map Pinpoint Challenge — What Imperial Court Rank Would You Earn?",
+          "Keyboard Shortcuts & Shareable Deep Links",
+          "Keyboard Shortcuts"
+        ],
+        "commands": [],
+        "keywords": [
+          "chronicles of the realm · 江山时序",
+          "why it's fun to explore",
+          "feature 1: scrub the timeline to watch realms rise & fall, track monarchs, and compare ancient & modern borders",
+          "feature 2: click any ancient city or strategic pass to uncover 2,400 years of history (`trace place`)"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/DeanChensj/jiangshan-map/main/assets/preview_1415_ming_yingtian_en.webp",
+        "thumbUrl": "https://raw.githubusercontent.com/DeanChensj/jiangshan-map/main/assets/preview_1415_ming_yingtian_en.webp",
+        "alt": "Ming Dynasty 1415 CE · Yingtian Prefecture Hover Preview",
+        "sourceUrl": "https://raw.githubusercontent.com/DeanChensj/jiangshan-map/main/assets/preview_1415_ming_yingtian_en.webp",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "unclassified",
+        "secondaryCategoryIds": [],
+        "confidence": 0.4,
+        "method": "rules",
+        "reasons": [
+          "No taxonomy rule matched with enough confidence"
+        ],
+        "signals": []
+      },
+      "rank": {
+        "globalRank": 7,
+        "categoryRank": 7,
+        "score": 106
+      }
+    },
+    {
+      "id": "google-labs-code-stitch-skills",
+      "owner": "google-labs-code",
+      "name": "stitch-skills",
+      "url": "https://github.com/google-labs-code/stitch-skills",
+      "avatarUrl": "https://github.com/google-labs-code.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 8,
+        "starsGained": 540
+      },
+      "metadata": {
+        "description": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
+        "language": "TypeScript",
+        "topics": [],
+        "stars": 9685,
+        "forks": 1234,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "TypeScript"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/google-labs-code/stitch-skills/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "Stitch Design Skills",
+        "summary": "A collection of agent skills and plugins for https://stitch.withgoogle.com, following the https://agentskills.io open standard. Compatible with coding agents such as Codex, Antigravity, Gemini CLI, Claude Code, Cursor, and OpenCode manual install. 1. Install Plugins Recommended The fastest way to set up the full Stitch plugin suite globally. Add the Stitch Skills marketplace, then install the plugins you need. Navigate to Settings → Plugin Marketplaces → Add and fill in: | Field | Value | | Source | https://github.com/google-labs-code/stitch-skills | | Git ref | main | | Sparse paths | optional .agents/plugins, plugins/stitch-design, plugins/stitch-build, plugins/stitch-utilities |",
+        "headings": [
+          "Stitch Design Skills",
+          "Quick Start",
+          "1. Install Plugins (Recommended)",
+          "Claude Code — installs into the current project",
+          "Cursor — installs into the current workspace",
+          "Project-local (recommended)",
+          "repeat for other skills under plugins/*/skills/",
+          "2. Install Skills Selectively"
+        ],
+        "commands": [],
+        "keywords": [
+          "agent",
+          "mcp",
+          "stitch design skills",
+          "quick start",
+          "1. install plugins (recommended)",
+          "claude code — installs into the current project"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "repository_open_graph",
+        "url": "https://opengraph.githubassets.com/daily-tech-radar/google-labs-code/stitch-skills",
+        "thumbUrl": "https://opengraph.githubassets.com/daily-tech-radar/google-labs-code/stitch-skills",
+        "alt": "google-labs-code/stitch-skills",
+        "sourceUrl": "https://github.com/google-labs-code/stitch-skills",
+        "promptHash": "sha256:c951a9925d2d"
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.8,
+        "method": "rules",
+        "reasons": [
+          "Matched agent",
+          "Matched mcp"
+        ],
+        "signals": [
+          "agent",
+          "mcp"
+        ]
+      },
+      "rank": {
+        "globalRank": 8,
+        "categoryRank": 8,
+        "score": 104
+      }
+    },
+    {
+      "id": "mvanhorn-last30days-skill",
+      "owner": "mvanhorn",
+      "name": "last30days-skill",
+      "url": "https://github.com/mvanhorn/last30days-skill",
+      "avatarUrl": "https://github.com/mvanhorn.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 9,
+        "starsGained": 122
+      },
+      "metadata": {
+        "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+        "language": "Python",
+        "topics": [],
+        "stars": 68033,
+        "forks": 6020,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Python"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/mvanhorn/last30days-skill/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "/last30days",
+        "summary": "English | README.fr.md | README.de.md | README.es.md | README.pt-BR.md | README.ja.md | README.zh-CN.md | README.ar.md An AI agent-led search engine scored by upvotes, likes, and real money - not editors. This README tracks the current v4 pipeline. The runtime skill spec lives in skills/last30days/SKILL.md, which is the source of truth for the latest command and setup behavior. Claude Code recommended — auto-updates via marketplace: Codex, Cursor, Copilot, Gemini CLI, or any of 50+ https://agentskills.io hosts: -g installs globally for your user, available across all projects. Drop it to scope per-project.",
+        "headings": [
+          "/last30days",
+          "Why this exists",
+          "Sources, scored by the people",
+          "What people actually use it for",
+          "What's new",
+          "Install",
+          "Claude Code (recommended)",
+          "Quick Try-Link"
+        ],
+        "commands": [],
+        "keywords": [
+          "ai",
+          "agent",
+          "/last30days",
+          "why this exists",
+          "sources, scored by the people",
+          "what people actually use it for"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/mvanhorn/last30days-skill/main/media/pr-assets/last30days-ad.gif",
+        "thumbUrl": "https://raw.githubusercontent.com/mvanhorn/last30days-skill/main/media/pr-assets/last30days-ad.gif",
+        "alt": "last30days - an AI agent-led search engine that searches people, not editors",
+        "sourceUrl": "https://raw.githubusercontent.com/mvanhorn/last30days-skill/main/media/pr-assets/last30days-ad.gif",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.8,
+        "method": "rules",
+        "reasons": [
+          "Matched ai",
+          "Matched agent"
+        ],
+        "signals": [
+          "ai",
+          "agent"
+        ]
+      },
+      "rank": {
+        "globalRank": 9,
+        "categoryRank": 9,
+        "score": 94.2
+      }
+    },
+    {
+      "id": "nvidia-skillevaluator",
+      "owner": "NVIDIA",
+      "name": "SkillEvaluator",
+      "url": "https://github.com/NVIDIA/SkillEvaluator",
+      "avatarUrl": "https://github.com/NVIDIA.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 10,
+        "starsGained": 953
+      },
+      "metadata": {
+        "description": "Multi-tier framework for evaluating AI agent skills and plugins with quality gates, semantic overlap detection, synthetic evaluation dataset generation, and live agent evaluation that measures how skills affect agent behavior.",
+        "language": "Python",
+        "topics": [],
+        "stars": 2533,
+        "forks": 343,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Python"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/NVIDIA/SkillEvaluator/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "SkillEvaluator",
+        "summary": "📺 Livestream: https://www.youtube.com/watch?v=4rI0zATFxYI SkillEvaluator checks AI agent skills and measures their effect on task results: start with quality checks, then compare runs with and without a skill. Agent skills are folders of instructions and supporting files defined by the https://agentskills.io/. SkillEvaluator is part of the https://github.com/NVIDIA/skills. 1. Run the CLI directly 2. Add it to your repo via CI 3. Wire it to your agent Other tiers: https://docs.nvidia.com/skills/skillevaluator/installation. Our CI template checks every skill change. No evaluation code to maintain.",
+        "headings": [
+          "SkillEvaluator",
+          "Get started",
+          "Quickstart",
+          "Run without an LLM",
+          "Use NVIDIA Build",
+          "Three-tier overview",
+          "Run the combined pipeline",
+          "Run from a source checkout"
+        ],
+        "commands": [
+          "pip install skillevaluator"
+        ],
+        "keywords": [
+          "ai",
+          "agent",
+          "skillevaluator",
+          "get started",
+          "quickstart",
+          "run without an llm"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/NVIDIA/SkillEvaluator/ad2815fe78c045db91d230681d32863698da08cf/docs/assets/three-tier-overview.svg",
+        "thumbUrl": "https://raw.githubusercontent.com/NVIDIA/SkillEvaluator/ad2815fe78c045db91d230681d32863698da08cf/docs/assets/three-tier-overview.svg",
+        "alt": "SkillEvaluator three-tier pipeline: Skill → Tier 1 Validation → Tier 2 Deduplication → Tier 3 Live Evaluation → Reports",
+        "sourceUrl": "https://raw.githubusercontent.com/NVIDIA/SkillEvaluator/ad2815fe78c045db91d230681d32863698da08cf/docs/assets/three-tier-overview.svg",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.8,
+        "method": "rules",
+        "reasons": [
+          "Matched ai",
+          "Matched agent"
+        ],
+        "signals": [
+          "ai",
+          "agent"
+        ]
+      },
+      "rank": {
+        "globalRank": 10,
+        "categoryRank": 10,
+        "score": 100
+      }
+    },
+    {
+      "id": "alibaba-open-code-review",
+      "owner": "alibaba",
+      "name": "open-code-review",
+      "url": "https://github.com/alibaba/open-code-review",
+      "avatarUrl": "https://github.com/alibaba.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 11,
+        "starsGained": 946
+      },
+      "metadata": {
+        "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+        "language": "Go",
+        "topics": [],
+        "stars": 52862,
+        "forks": 4287,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Go"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/alibaba/open-code-review/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "Workspace mode — review all staged, unstaged, and untracked changes",
+        "summary": "Open Code Review is an AI-powered code review CLI tool. It originated as Alibaba Group's internal official AI code review assistant — over the past two years, it has served tens of thousands of developers and identified millions of code defects. After thorough validation at massive scale, we incubated it into an open source project for the community. Simply configure a model endpoint to get started. It reads Git diffs, sends changed files to a configurable LLM via an agent with tool-use capabilities, and generates structured review comments with line-level precision. The agent can read full file contents, search the codebase, inspect other changed files for context, and produce deep reviews ",
+        "headings": [
+          "What is Open Code Review?",
+          "Benchmark",
+          "Why Open Code Review?",
+          "The Problem with General-Purpose Agents",
+          "Core Design: Deterministic Engineering × Agent Hybrid",
+          "How to Use",
+          "Prerequisites",
+          "CLI"
+        ],
+        "commands": [
+          "npm install -g @alibaba-group/open-code-review"
+        ],
+        "keywords": [
+          "ai",
+          "agent",
+          "llm",
+          "what is open code review?",
+          "benchmark",
+          "why open code review?",
+          "the problem with general-purpose agents"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/alibaba/open-code-review/main/imgs/highlights-en.png",
+        "thumbUrl": "https://raw.githubusercontent.com/alibaba/open-code-review/main/imgs/highlights-en.png",
+        "alt": "Highlights",
+        "sourceUrl": "https://raw.githubusercontent.com/alibaba/open-code-review/main/imgs/highlights-en.png",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.9,
+        "method": "rules",
+        "reasons": [
+          "Matched ai",
+          "Matched agent",
+          "Matched llm"
+        ],
+        "signals": [
+          "ai",
+          "agent",
+          "llm"
+        ]
+      },
+      "rank": {
+        "globalRank": 11,
+        "categoryRank": 11,
+        "score": 98
+      }
+    },
+    {
+      "id": "google-research-paper-orchestra",
+      "owner": "google-research",
+      "name": "paper-orchestra",
+      "url": "https://github.com/google-research/paper-orchestra",
+      "avatarUrl": "https://github.com/google-research.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 12,
+        "starsGained": 306
+      },
+      "metadata": {
+        "description": "PaperOrchestra is a multi-agent framework for automated AI research paper writing.",
+        "language": "Python",
+        "topics": [],
+        "stars": 1352,
+        "forks": 228,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Python"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/google-research/paper-orchestra/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "<div align=\"center\">🎻 PaperOrchestra: A Multi-Agent Framework for Automated AI Research Paper Writing</div>",
+        "summary": "🎻 PaperOrchestra: A Multi-Agent Framework for Automated AI Research Paper Writing Yiwen Song 1 , Yale Song 1 , Tomas Pfister 1 , and Jinsung Yoon 1 1 Google Cloud AI Research PaperOrchestra is a multi-agent framework for automated AI research paper writing. It flexibly transforms unconstrained pre-writing materials ideas and experimental logs into submission-ready LaTeX manuscripts, including comprehensive literature synthesis and generated visuals, such as plots and conceptual diagrams. Acting like an orchestrated team of specialized agents, it handles outline generation, literature review, section writing, content refinement, and plotting to close the gap between raw research materials an",
+        "headings": [
+          "<div align=\"center\">🎻 PaperOrchestra: A Multi-Agent Framework for Automated AI Research Paper Writing</div>",
+          "Key Features",
+          "Installation",
+          "Dataset",
+          "Usage",
+          "Using the Bash Script",
+          "Using the Python CLI directly",
+          "Key Arguments"
+        ],
+        "commands": [
+          "pip install -r requirements.txt"
+        ],
+        "keywords": [
+          "ai",
+          "agent",
+          "<div align=\"center\">🎻 paperorchestra: a multi-agent framework for automated ai research paper writing</div>",
+          "key features",
+          "installation",
+          "dataset"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/google-research/paper-orchestra/main/assets/overview.png",
+        "thumbUrl": "https://raw.githubusercontent.com/google-research/paper-orchestra/main/assets/overview.png",
+        "alt": "PaperOrchestra Overview",
+        "sourceUrl": "https://raw.githubusercontent.com/google-research/paper-orchestra/main/assets/overview.png",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.8,
+        "method": "rules",
+        "reasons": [
+          "Matched ai",
+          "Matched agent"
+        ],
+        "signals": [
+          "ai",
+          "agent"
+        ]
+      },
+      "rank": {
+        "globalRank": 12,
+        "categoryRank": 12,
+        "score": 96
+      }
+    },
+    {
+      "id": "chromedevtools-chrome-devtools-mcp",
+      "owner": "ChromeDevTools",
+      "name": "chrome-devtools-mcp",
+      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+      "avatarUrl": "https://github.com/ChromeDevTools.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 13,
+        "starsGained": 837
+      },
+      "metadata": {
+        "description": "Chrome DevTools for coding agents",
+        "language": "TypeScript",
+        "topics": [],
+        "stars": 57612,
+        "forks": 4846,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "TypeScript"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/ChromeDevTools/chrome-devtools-mcp/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "Chrome DevTools for agents",
+        "summary": "Chrome DevTools for agents chrome-devtools-mcp lets your coding agent such as Antigravity, Claude, Cursor or Copilot control and inspect a live Chrome browser. It is available as a Model-Context-Protocol MCP server and as a CLIcli. Both give your AI coding assistant access to the full power of Chrome DevTools for reliable automation, in-depth debugging, and performance analysis. Tool referencetool-reference | CLIcli | Skillsskills | Changelogchangelog | Contributingcontributing | Troubleshootingtroubleshooting | Design Principlesdesign-principles Get performance insights: Uses https://github.com/ChromeDevTools/devtools-frontend to record traces and extract actionable performance insights. Ad",
+        "headings": [
+          "Chrome DevTools for agents",
+          "Key features",
+          "Disclaimers",
+          "**Usage statistics**",
+          "Update checks",
+          "Requirements",
+          "Getting started",
+          "MCP Client configuration"
+        ],
+        "commands": [],
+        "keywords": [
+          "agent",
+          "mcp",
+          "chrome devtools for agents",
+          "key features",
+          "disclaimers",
+          "**usage statistics**"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "repository_open_graph",
+        "url": "https://opengraph.githubassets.com/daily-tech-radar/ChromeDevTools/chrome-devtools-mcp",
+        "thumbUrl": "https://opengraph.githubassets.com/daily-tech-radar/ChromeDevTools/chrome-devtools-mcp",
+        "alt": "ChromeDevTools/chrome-devtools-mcp",
+        "sourceUrl": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+        "promptHash": "sha256:335d39c52fa7"
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.8,
+        "method": "rules",
+        "reasons": [
+          "Matched agent",
+          "Matched mcp"
+        ],
+        "signals": [
+          "agent",
+          "mcp"
+        ]
+      },
+      "rank": {
+        "globalRank": 13,
+        "categoryRank": 13,
+        "score": 94
+      }
+    },
+    {
+      "id": "sveltejs-svelte",
+      "owner": "sveltejs",
+      "name": "svelte",
+      "url": "https://github.com/sveltejs/svelte",
+      "avatarUrl": "https://github.com/sveltejs.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 14,
+        "starsGained": 58
+      },
+      "metadata": {
+        "description": "web development for the rest of us",
+        "language": "JavaScript",
+        "topics": [],
+        "stars": 88900,
+        "forks": 6078,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "JavaScript"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/sveltejs/svelte/main/README.md"
+      },
+      "readmeSignals": {
+        "title": null,
+        "summary": "Svelte is a new way to build web applications. It's a compiler that takes your declarative components and converts them into efficient JavaScript that surgically updates the DOM. Learn more at the https://svelte.dev, or stop by the https://svelte.dev/chat. Svelte is an MIT-licensed open source project with its ongoing development made possible entirely by fantastic volunteers. If you'd like to support their efforts, please consider: Funds donated via Open Collective will be used for compensating expenses related to Svelte's development such as hosting costs. If sufficient donations are received, funds may also be used to support Svelte's development more directly.",
+        "headings": [
+          "What is Svelte?",
+          "Supporting Svelte",
+          "Roadmap",
+          "Contributing",
+          "Is svelte.dev down?",
+          "License"
+        ],
+        "commands": [],
+        "keywords": [
+          "what is svelte?",
+          "supporting svelte",
+          "roadmap",
+          "contributing"
+        ],
+        "score": 90
+      },
+      "visual": {
+        "kind": "repository_open_graph",
+        "url": "https://opengraph.githubassets.com/daily-tech-radar/sveltejs/svelte",
+        "thumbUrl": "https://opengraph.githubassets.com/daily-tech-radar/sveltejs/svelte",
+        "alt": "sveltejs/svelte",
+        "sourceUrl": "https://github.com/sveltejs/svelte",
+        "promptHash": "sha256:a9a563eed8f5"
+      },
+      "classification": {
+        "primaryCategoryId": "unclassified",
+        "secondaryCategoryIds": [],
+        "confidence": 0.4,
+        "method": "rules",
+        "reasons": [
+          "No taxonomy rule matched with enough confidence"
+        ],
+        "signals": []
+      },
+      "rank": {
+        "globalRank": 14,
+        "categoryRank": 14,
+        "score": 77.8
+      }
+    },
+    {
+      "id": "kajisho5-ffmpeg-skill",
+      "owner": "kajisho5",
+      "name": "ffmpeg-skill",
+      "url": "https://github.com/kajisho5/ffmpeg-skill",
+      "avatarUrl": "https://github.com/kajisho5.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 15,
+        "starsGained": 475
+      },
+      "metadata": {
+        "description": "Local video editor for coding agents: 42 FFmpeg tools with a machine-readable contract and an MCP server, for Claude Code, Cursor and Codex. Cut, captions, reframe, loudness, platform exports. No cloud, no API keys.",
+        "language": "Python",
+        "topics": [],
+        "stars": 6535,
+        "forks": 589,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Python"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/kajisho5/ffmpeg-skill/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "0. FFmpeg itself, once (Ubuntu/Debian shown; macOS and Windows are in the Install table below)",
+        "summary": "Give your coding agent a video editor. Claude Code, Cursor, Codex or any MCP client edits your footage with local FFmpeg, then checks its own output. No cloud · No API keys · Python standard library Website · Quick start · Demos · Tools · MCP · npm caption.py --animate pop --karaoke fit.py --aspect 9:16 --fit crop silence.py --threshold -35 loudness.py -I -14 --tp -1 Left half is the input, right half is what the command produced. docs/demos.md — all of it built by python3 demos/build.py, so you can rebuild every frame of it yourself. The footage is synthetic FFmpeg's own test sources except in three demos, reframetalk, filleren and pausesen, which use two AI-generated clips of people who do",
+        "headings": [
+          "Standalone, and in an ecosystem",
+          "Why",
+          "Paper",
+          "Quick start",
+          "0. FFmpeg itself, once (Ubuntu/Debian shown; macOS and Windows are in the Install table below)",
+          "1. install the skill for Claude Code (Cursor: --cursor, Codex: --codex, all three: --all)",
+          "2. check the machine: ffmpeg, ffprobe and every FFmpeg component the tools need",
+          "3. (for agent frameworks) read the machine-readable contract"
+        ],
+        "commands": [
+          "pip install faster-whisper"
+        ],
+        "keywords": [
+          "agent",
+          "mcp",
+          "standalone, and in an ecosystem",
+          "why",
+          "paper",
+          "quick start"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/kajisho5/ffmpeg-skill/main/brand/og.png",
+        "thumbUrl": "https://raw.githubusercontent.com/kajisho5/ffmpeg-skill/main/brand/og.png",
+        "alt": "ffmpeg-skill v3: give your coding agent a video editor. An agent runs probe, cut, fit, export and check, and the final file is measured: 59.98 s, 1080x1920, 30 fps.",
+        "sourceUrl": "https://raw.githubusercontent.com/kajisho5/ffmpeg-skill/main/brand/og.png",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.8,
+        "method": "rules",
+        "reasons": [
+          "Matched agent",
+          "Matched mcp"
+        ],
+        "signals": [
+          "agent",
+          "mcp"
+        ]
+      },
+      "rank": {
+        "globalRank": 15,
+        "categoryRank": 15,
+        "score": 90
+      }
+    }
+  ],
+  "views": [
+    {
+      "id": "ai",
+      "type": "category",
+      "label": "AI",
+      "categoryId": "ai",
+      "repoIds": [
+        "ag-ui-protocol-ag-ui",
+        "backnotprop-plannotator",
+        "dream-num-univer",
+        "google-labs-code-stitch-skills",
+        "nvidia-skillevaluator",
+        "alibaba-open-code-review",
+        "google-research-paper-orchestra",
+        "mvanhorn-last30days-skill",
+        "chromedevtools-chrome-devtools-mcp",
+        "kajisho5-ffmpeg-skill"
+      ],
+      "sort": "score"
+    },
+    {
+      "id": "frontend",
+      "type": "category",
+      "label": "前端",
+      "categoryId": "frontend",
+      "repoIds": [
+        "tradermonty-claude-trading-skills"
+      ],
+      "sort": "score"
+    },
+    {
+      "id": "unclassified",
+      "type": "review",
+      "label": "Needs Review",
+      "categoryId": "unclassified",
+      "repoIds": [
+        "elementalsouls-claude-bughunter",
+        "deanchensj-jiangshan-map",
+        "getarcaneapp-arcane",
+        "sveltejs-svelte"
+      ],
+      "sort": "score"
+    }
+  ],
+  "health": {
+    "status": "ok",
+    "candidateCount": 15,
+    "enrichedRepoCount": 15,
+    "unclassifiedRepoCount": 4,
+    "warnings": [
+      "12 repos used README images, 0 used Agnes images, 3 fell back to repository Open Graph covers"
+    ]
+  }
+}
