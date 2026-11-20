@@ -1,0 +1,1320 @@
+{
+  "schemaVersion": "daily-tech-radar.v1",
+  "source": "producthunt",
+  "locale": "en-US",
+  "date": "2026-11-20",
+  "sourceTimezone": "Asia/Shanghai",
+  "generatedAt": "2026-11-20T20:16:53.323Z",
+  "items": [
+    {
+      "rank": 1,
+      "id": "1322672",
+      "name": "Saparo",
+      "tagline": "Muse for shopping with deals stacks",
+      "description": "Saparo is a personal shopping agent that stacks every deal. Tell it what you want, and it searches U.S. stores for the same item in your size, combining promo codes, cash back, and eligible card offers that work together. It ranks options by estimated total cost, including shipping and tax, so you skip the legwork. With your approval, Saparo applies selected offers and gets checkout ready. You review the order and make the final payment yourself.",
+      "keywords": [
+        "Muse",
+        "for",
+        "shopping",
+        "with"
+      ],
+      "metrics": {
+        "votes": 246,
+        "comments": 61
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/CGUN3ORBJWPLHU?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/saparo?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/f286c44e-6081-4be4-b4c6-2575392cd1b7.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/f286c44e-6081-4be4-b4c6-2575392cd1b7.png?auto=format",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/cb4f4249-89e3-49d3-b59c-27a94e079519.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/0925e1c6-3422-4677-ae15-83e5df4db037.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/2ca74df3-eab2-442a-99f0-0ce25758324c.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/ff0ec21f-6ff5-43d7-82d6-4f6a1ecb6532.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/a0e9065b-fb4b-402f-9a78-e1a4297a1d12.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/76273881-538b-4292-937c-98d16e404ed4.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/97c72071-622b-4fa0-90b7-f02c9145f2fc.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/97408e28-2f6c-487c-8462-32929030c22f.jpeg?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "saparo-2",
+        "featuredAt": "2026-11-20T08:01:00Z",
+        "createdAt": "2026-11-20T08:01:00Z"
+      }
+    },
+    {
+      "rank": 2,
+      "id": "1318366",
+      "name": "Tripmojo",
+      "tagline": "Agentic travel app that helps plan, book and run your trip",
+      "description": "Tripmojo syncs your booking emails into one shared trip, then Mojo, your AI travel agent, helps run it. Plan in a group chat where Mojo answers, runs polls and finds places. On travel day Mojo tries to check you in, saves your boarding pass, flags delays and gate changes, and tells you when to leave. On the trip it keeps today's plan current and splits expenses. Free on iOS and Android.",
+      "keywords": [
+        "Agentic",
+        "travel",
+        "app",
+        "that"
+      ],
+      "metrics": {
+        "votes": 212,
+        "comments": 91
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/MGYYGRQ2OTZNMZ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/tripmojo?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/launch-image-uploads/8a624bfb-f6c8-4b12-8587-8eaff2451e94/63a72628f9a36b034e1430233822a19af6ca8df90e2db500df3effdba2d727cf.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/launch-image-uploads/8a624bfb-f6c8-4b12-8587-8eaff2451e94/63a72628f9a36b034e1430233822a19af6ca8df90e2db500df3effdba2d727cf.png?auto=format",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/4f22488c-25e9-4997-89a4-ea0f004f9130.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/b186c1d4-4c21-4e5d-bb34-29c53db9363f.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/f23f8410-800a-402b-8c43-ae76c98dfc62.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/d152b435-26ad-4170-bec5-cdc72f1c365e.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/c707c852-730e-4920-98ea-cdd651c23379.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/2e5bccf7-5d0d-4e80-9462-e5668685146d.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/1c6cadb0-7e72-4fd2-a07f-e47048a9bda1.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/aaf75cde-f6aa-4892-a32a-c3f6a6f5627b.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/4cfddbc9-896f-439f-8e4d-5b6e228e1bc8.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/95eca560-4ca4-49f4-bf98-8dd78f2b6c90.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/de69ed9d-6b0b-4100-8532-6c55117315a6.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/59c5317b-c49c-41e5-aa74-4872181fd2ea.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/42b8781a-98a1-4e61-a97d-0ba4974ba83a.jpeg?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "tripmojo-3",
+        "featuredAt": "2026-11-20T08:00:00Z",
+        "createdAt": "2026-11-20T08:00:00Z"
+      }
+    },
+    {
+      "rank": 3,
+      "id": "1323572",
+      "name": "Docker",
+      "tagline": "Built to run on trust, for the agentic era",
+      "description": "Docker is evolving for the agentic era. Containers isolate workloads, but agents aren't workloads: they're actors that need isolation, security and governance. The new Docker brings a trusted supply chain for agents to build from, a trusted runtime to isolate them (Docker Sandboxes), and governance for agents across every team (Docker AI Governance), alongside a redesigned brand and Moby whale.",
+      "keywords": [
+        "Built",
+        "to",
+        "run",
+        "on"
+      ],
+      "metrics": {
+        "votes": 178,
+        "comments": 2
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/4IV63EDN4UZ3NO?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/docker?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/6be36375-d756-4f7b-b908-1e76bddc3ebc.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/6be36375-d756-4f7b-b908-1e76bddc3ebc.png?auto=format",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/launch-image-uploads/f9c26226-386c-4f90-a572-1ae0bd5f37d5/8b2f103eaf81b2fb3b30665b49f415a8a92d8c2ac52873f02d4c0c4099df5da5.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/launch-image-uploads/6c1c16e8-8b36-4012-bfe0-f47887d08344/90597fe4e224805f67b91d591b0ea7fdbc3e4b7bd404b2c54a406377d10d0323.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/launch-image-uploads/0264ca7a-93a5-4d3c-8929-f4b90d1392f7/9ae4eb743eacc1a633a8074fc99899b4b47237ccb202de611095b94be03c2926.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/launch-image-uploads/7869f890-6738-4b50-8aca-ab22e0b0cd51/f20c9d0520bab28162e6fac5b2699a37b660bb66eb5bd791644ded240330ca9e.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/launch-image-uploads/f9e6b7b6-a467-4211-8ef8-405f41eb44c6/1ea397888c4be2d6a1ebde418c8bb0e26e6907837c49aa002b4d1bd84b866640.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/launch-image-uploads/f071ee8a-09c5-479a-8300-0501a8453445/834fd2b88b59e8b7d7f376c2f5c11aaab25d9a77342e2d4c84bf76d82f7a90bc.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/launch-image-uploads/cde2a54b-19d6-45ab-993f-f937a1aac31d/d01f3629ab42d9bcfdcae480741dff678487054f3fcd8b2fc7c80d871155733c.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/9219384a-4695-467d-9789-e430d6917257.jpeg?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "docker",
+        "featuredAt": "2026-11-20T08:00:00Z",
+        "createdAt": "2026-11-20T08:00:00Z"
+      }
+    },
+    {
+      "rank": 4,
+      "id": "1320093",
+      "name": "Bookella",
+      "tagline": "A reading tracker that helps you read more",
+      "description": "Bookella is a reading tracker and home library for iPhone, iPad and Android. Add books in seconds: search 122 million titles in 28 languages, pick from reading lists, scan a whole shelf of barcodes at once, or let AI pick your next book. Set yearly and daily reading goals, time your sessions, and track your reading pace. Keep notes and quotes, and see when and how much you read. You can also import from Goodreads, StoryGraph or CSV. No ads.",
+      "keywords": [
+        "A",
+        "reading",
+        "tracker",
+        "that"
+      ],
+      "metrics": {
+        "votes": 145,
+        "comments": 13
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/XLV3656TB6CLUY?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/bookella?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/launch-image-uploads/946196d0-8ea1-4a14-8e2f-3dc18455d7fb/1132b988430641476f4a3aed531767465de3983993ef983c115c0022ed6d1c65.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/launch-image-uploads/946196d0-8ea1-4a14-8e2f-3dc18455d7fb/1132b988430641476f4a3aed531767465de3983993ef983c115c0022ed6d1c65.png?auto=format",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/launch-image-uploads/8a6681f8-4500-455c-bf0b-5bd53e0b594a/0e7cd379dd6c378e1cc0984c133784beabffd174b92300832541e19e65e52213.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/launch-image-uploads/88fc092d-28d3-420e-83d8-333d0ff54729/bb468ca0415fcbf027c6c32091ba1f1ec36f57854089594faf74fbadcf566f77.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/launch-image-uploads/a656584a-14dd-496d-b691-97fcd62fb2f5/b9d1c678f8ed5fd9c3fdf936832d41eaa6ea8d9b6be9fc3dabb7b09de28036a5.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/launch-image-uploads/edef2779-a3b7-4818-afae-5c57db40a413/3a6b5cdba30ca49089fc9d08245a687305603d8cfdc418dc6bae9069cc7328b8.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/launch-image-uploads/bd2e2814-3280-4316-a904-f309aec1ab5a/5cd460cf3723633b79598a3bede2b55b0164efb291978d46b6dac4160084cb4f.png?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "bookella",
+        "featuredAt": "2026-11-20T08:00:00Z",
+        "createdAt": "2026-11-20T08:00:00Z"
+      }
+    },
+    {
+      "rank": 5,
+      "id": "1323083",
+      "name": "Currents",
+      "tagline": "Currents for Claude & Codex to see all your tests",
+      "description": "Currents records every Playwright test run in CI. Now Claude and Codex can read it. Connect from the Claude or ChatGPT/Codex plugin directory, sign in, and ask why CI failed. Your agent gets the failure, its history and the trace. Automatically.",
+      "keywords": [
+        "Currents",
+        "for",
+        "Claude",
+        "&"
+      ],
+      "metrics": {
+        "votes": 136,
+        "comments": 20
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/5CEHDWRBU3OWTX?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/currents-4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/17338c09-0ac7-487b-a730-78efc47e4c74.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/17338c09-0ac7-487b-a730-78efc47e4c74.png?auto=format",
+        "media": [
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/cfe7571d-2738-4181-87f7-cac376074238.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/fa9d6c0c-3873-4acb-99e2-9dc3978de360.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/f9d567f0-a736-4ede-bb5d-c63c6ef8ab80.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/f9a4e902-6f21-4937-9dee-6bd474b0de38.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/4e3a8f23-db09-4fcc-8a91-69f4880f86ae.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/a0fa6e23-4fef-4554-857f-4421d5f4e005.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/c182c0c0-580f-49fa-b538-1b23e8922599.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/b79598d8-ac09-49ec-a2ea-0ed38ad54ec5.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/a817f0f1-f9be-4432-ac7a-e08507abe3f1.png?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "currents-c25ab8bd-364c-40e8-bb1b-2df87aa9cc68",
+        "featuredAt": "2026-11-20T08:01:00Z",
+        "createdAt": "2026-11-20T08:01:00Z"
+      }
+    },
+    {
+      "rank": 6,
+      "id": "1315726",
+      "name": "Kuc-kuc",
+      "tagline": "A knock on the door when dangerous weather comes",
+      "description": "When dangerous weather is forecast, Kuc-kuc phones an older person who lives alone and asks if they are okay. No answer, or “I’m not well”? It phones a neighbour to go and knock. The family sees every step. Works on a landline. Runs on Cloud Run.",
+      "keywords": [
+        "A",
+        "knock",
+        "on",
+        "the"
+      ],
+      "metrics": {
+        "votes": 111,
+        "comments": 5
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/LKBGU35INMLRUR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/kuc-kuc?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/042b7985-078c-42bb-a329-9de45c071b58.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/042b7985-078c-42bb-a329-9de45c071b58.png?auto=format",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/e0ade2f1-cea4-4d9f-9449-8c1abf84dfce.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/f85a61b1-6c43-4132-9247-3dbc5bd01f0b.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/94df18d1-2658-4602-92c1-ad7feb5dda52.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/97201d3e-25ed-4471-af5a-ebcac3030a6d.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/886501f9-bfa9-414d-bb06-7d8833c3e2c0.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/f464bd7b-c23c-4c12-8ee3-a8735fb78be8.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/fb64e1db-8c49-4eb4-bd60-3ea1289f35d9.png?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "kuc-kuc",
+        "featuredAt": "2026-11-20T08:01:00Z",
+        "createdAt": "2026-11-20T08:01:00Z"
+      }
+    },
+    {
+      "rank": 7,
+      "id": "1322934",
+      "name": "Tamekoshi",
+      "tagline": "A Tamagotchi-style AI companion that does real work",
+      "description": "Tame is an AI companion that does real work from the top of your screen: one message with three asks becomes three subagents in parallel, it runs tasks on its own computer, answers clients on WhatsApp and Telegram and writes meeting notes speaker by speaker. Nothing acts without your OK. Think Tamagotchi, all grown up. Free beta; a mobile app, multiplayer and open source are on the roadmap.",
+      "keywords": [
+        "A",
+        "Tamagotchi-style",
+        "AI",
+        "companion"
+      ],
+      "metrics": {
+        "votes": 100,
+        "comments": 5
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/D7S6JA3X5PKAUF?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/tamekoshi?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/e2ee370f-50fe-4c77-a7c6-b68166387f7e.svg?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/e2ee370f-50fe-4c77-a7c6-b68166387f7e.svg?auto=format",
+        "media": [
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/bca1bbcf-7d7f-496e-925c-02d78cab4190.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/0acb4f69-63e4-4f4d-a97b-850460a7de06.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/2663038e-d7a0-4a40-9fa3-194e8902880d.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/1e2fe7ce-3c6f-46b3-8746-6b3af686f126.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/f404f3c8-f242-4b46-bc25-5f2d1abb04ca.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/5d8071ca-02f5-4bc5-aec6-b13c519401f6.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/3cf02f63-04d5-4c97-9027-38317bfbdc5c.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/5c93727b-0af2-4ef1-b4fe-ccad436f6e68.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/1ed4048d-0a16-4ab2-9c98-ad1fa22f4dd5.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/697123b9-fab6-43da-ab3f-76cd9fbe145a.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/83bdd1d0-02f5-44e1-8fda-399678347626.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/8d291ca8-876d-40f9-acb1-974ca12bb750.png?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "tamekoshi",
+        "featuredAt": "2026-11-20T08:01:00Z",
+        "createdAt": "2026-11-20T08:01:00Z"
+      }
+    },
+    {
+      "rank": 8,
+      "id": "1322506",
+      "name": "Volcano",
+      "tagline": "The self-healing agent cloud by Kong",
+      "description": "Volcano is one place to build, host and run agents and apps. Deploy from the coding agent you already use (Claude Code, Codex, Cursor, OpenCode, Pi) or the AI Builder. You get year-long durable functions, human-in-the-loop approvals, resumable sandboxes, distributed locks, branchable Postgres, auth, storage, realtime, and backend and Next.js hosting. LavaFlow finds and fixes bugs on its own, so your apps and agents keep getting better over time.",
+      "keywords": [
+        "The",
+        "self-healing",
+        "agent",
+        "cloud"
+      ],
+      "metrics": {
+        "votes": 97,
+        "comments": 4
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/M2PZAL4CR53OAW?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/volcano-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/launch-image-uploads/f881608f-6834-4062-8e19-a4217a0d106b/e8eb9452a9cca65bff9fe074da287801504628281d83b8d6759281992ae36e74.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/launch-image-uploads/f881608f-6834-4062-8e19-a4217a0d106b/e8eb9452a9cca65bff9fe074da287801504628281d83b8d6759281992ae36e74.png?auto=format",
+        "media": [
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/8ddb1683-785e-4310-bebf-a6a1dcfb2081.gif?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/launch-image-uploads/e81df45f-76bd-4142-ba8d-b2ee3ea15682/1380704f3821c007d58ffdd995b5baf419c6fd72e870a8c9d300f292b02d9617.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/launch-image-uploads/e8f88956-ef09-4cff-aff4-d6db0be0e200/74522d7cc91edf8657e103f396cd38f5e4cc60659cda0f201aabbae468594547.gif?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/launch-image-uploads/2305471f-170c-42c9-be66-ccdf6070e4af/37aa16755f39fb47e370714802fb5bf09d28183017945c49e56b84f88c9c9450.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/launch-image-uploads/daed5ddb-c893-4e8f-9e2e-8cc169a8eba1/92077f0808e09ceb8a6dea10e8fde8918917923d34c00d12c7834e05bc11605a.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/launch-image-uploads/0d4ea395-06b8-47d6-ac14-7aa43976692c/d3b00abc5fcf3a1307fef3ef38b4fde74f54fa023d47aba4c8bf07fffec2dbd6.png?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "volcano-2",
+        "featuredAt": "2026-11-20T08:01:00Z",
+        "createdAt": "2026-11-20T08:01:00Z"
+      }
+    },
+    {
+      "rank": 9,
+      "id": "1322498",
+      "name": "Direct by Instagram",
+      "tagline": "Instagram DMs, without the feed or Instagram account",
+      "description": "Direct is Meta's new standalone messaging app from Instagram. Chat with friends without opening the Instagram feed, Reels, or Stories. Sign in with Instagram to sync your existing conversations, or join using just an email address or phone number. Make chats more personal with drawings, custom stickers, voice effects, Notes, and themes. Currently testing on iOS and Android in Türkiye and Thailand, with additional restrictions for users without Instagram accounts.",
+      "keywords": [
+        "Instagram",
+        "DMs,",
+        "without",
+        "the"
+      ],
+      "metrics": {
+        "votes": 93,
+        "comments": 5
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/WTPU56RQWCD2XV?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/instagram?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/1aa28a89-623d-41f1-9e9d-d4654b1bf51f.jpeg?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/1aa28a89-623d-41f1-9e9d-d4654b1bf51f.jpeg?auto=format",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/f44725c4-81ea-4820-b96c-6e01f73be38e.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/d4fca2bb-d4fd-405b-9d02-47687c01e178.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/49b8ab91-e422-4a4f-9adf-a00cc15be679.jpeg?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "direct-by-instagram-2",
+        "featuredAt": "2026-11-20T08:01:00Z",
+        "createdAt": "2026-11-20T08:01:00Z"
+      }
+    },
+    {
+      "rank": 10,
+      "id": "1314593",
+      "name": "tensorViz",
+      "tagline": "Let your coding agent see inside your PyTorch model",
+      "description": "Coding agents can read your PyTorch code, but they never see what actually flows through the model. tensorViz runs one real forward pass and turns it into an interactive graph with every module and tensor shape. Claude Code, Codex and Cursor can search that graph and read the measured shapes, so they fix model code from evidence instead of guesses. Or skip the install: the Model Explorer has graphs of 560+ models from recent papers to browse and discuss. Free and open source (MIT).",
+      "keywords": [
+        "Let",
+        "your",
+        "coding",
+        "agent"
+      ],
+      "metrics": {
+        "votes": 87,
+        "comments": 6
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/GGVBUX3ATW7EJK?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/tensorviz?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/launch-image-uploads/30889c3a-a661-404e-a3cb-ff8775c4cbca/f9f2f288f9e42d2131d757f33fc16f71eedfb23d75b88a6d82a5615898e34561.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/launch-image-uploads/30889c3a-a661-404e-a3cb-ff8775c4cbca/f9f2f288f9e42d2131d757f33fc16f71eedfb23d75b88a6d82a5615898e34561.png?auto=format",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/launch-image-uploads/19185f4a-d0ca-48b4-8c84-e6e3266c127c/f6d797e5e851a1f4256432606c76fc51481dc00c146523e082d3680bd781efc5.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/launch-image-uploads/2d7571ba-665d-4ebb-895f-e996a753d743/93830f380dd9be187486e7dbab062b48833f1c488b2a64aed7a6da3b54b1da81.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/launch-image-uploads/b60c6539-eeb3-499b-b8dd-265664f814b4/d926f390c842ff29bb91d5cae2e9257a82edb6249dc021a0c04b16f5725f9b07.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/launch-image-uploads/597b432d-875a-475e-a7e1-3c668b41c726/b530c3b2f6ebba3d5db911e4b46d8729bffc674e91702477ab1ee0540e7f8563.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/launch-image-uploads/825ad7f3-84fe-4432-ac3b-4df009ebf0fb/ca433fdf3db15ef8f8068fade7d337593a22cc428d435e864386355f4508fde5.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/launch-image-uploads/be20944c-4dfb-4c15-8bcc-71105325d856/f74ff13783ad99b509dad54567292de4947ca94fcfe56f1b104c09b36c6c66c6.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/1d49a82d-0b58-4bab-a396-57a2e113c741.jpeg?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "tensorviz",
+        "featuredAt": "2026-11-20T08:01:00Z",
+        "createdAt": "2026-11-20T08:01:00Z"
+      }
+    },
+    {
+      "rank": 11,
+      "id": "1296743",
+      "name": "Compass OS",
+      "tagline": "Your career, ready before you need it",
+      "description": "Compass OS is your career's chief of staff, built for senior leaders. It finds Director, VP and Head-of roles across job boards and 90+ hiring systems, scores each against your experience, and tailors your resume with only what's true: every claim is checked against your profile. Compass Apply fills applications in Chrome; you press submit. Between searches it keeps your resume and LinkedIn current and helps you practice interviews. Free plan, no card.",
+      "keywords": [
+        "Your",
+        "career,",
+        "ready",
+        "before"
+      ],
+      "metrics": {
+        "votes": 85,
+        "comments": 14
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/YZO4X6632LA7NO?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/compassos-dev?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/5249eb23-6500-40de-ad66-5b88c92fae1d.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/5249eb23-6500-40de-ad66-5b88c92fae1d.png?auto=format",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/launch-image-uploads/73ca39cc-165e-4592-8780-8910bf678846/6b405051ff51ada962ade708b8f20b8a95d60086895dc414094be65d74f167b5.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/launch-image-uploads/f861859a-c9c6-44df-8517-7cf526646c6f/66603e193a323bfb40f671aafd232a702a71a1ee9cfaf22e3dd129472fa4ee82.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/launch-image-uploads/1f5a6d0e-dab8-42a1-a646-ff0fa4d1b14d/7b44bf53c158afb12090a6d619e9d1ccd5873e658cf844070b0548169bdf9085.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/launch-image-uploads/80b1ed03-4e20-4cae-9410-13bbaebe07f3/fdd7ef345bd380d9066153ad288ebd70e0f0a9d45840e099f6f89ed4ac256ae5.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/launch-image-uploads/b1b3f8b7-d016-4f75-acde-68491681ee7a/09a141844740675fc0c8a72b15d8d56469938beca988643e44a005e3fe5148b1.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/launch-image-uploads/2d1726bf-8d54-408f-91b7-3a85e7c92e1a/16edc5c41ece566667dac18d59b65d72e273989e94ae6e34186b1af30669a1c6.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/launch-image-uploads/c82c177c-02cb-41df-8838-1d50b19d5d19/1b38a9bfe166abf1a45fbf8625c7cdbc496c47c30f00943e1ad109eadeaaa304.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/fa728f4f-60bb-4092-9753-883d3caae8a2.jpeg?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "compass-os-2",
+        "featuredAt": "2026-11-20T08:01:00Z",
+        "createdAt": "2026-11-20T08:01:00Z"
+      }
+    },
+    {
+      "rank": 12,
+      "id": "1322788",
+      "name": "MakePixel",
+      "tagline": "Pixel art editor for game sprites, tilesets and maps",
+      "description": "MakePixel is a pixel art editor for game assets that runs in your browser, iPad included. Animate sprites with the keys you know from Aseprite, draw a few tiles to get a full autotile set, paint levels, and export to Godot, Unity or Tiled. Free to start.",
+      "keywords": [
+        "Pixel",
+        "art",
+        "editor",
+        "for"
+      ],
+      "metrics": {
+        "votes": 81,
+        "comments": 2
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/NJCEPA4Y4KCKSX?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/makepixel?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/launch-image-uploads/a31481e5-01bf-4fbd-a198-8f69b8cd5d4a/fb69569bee877554bee9ad1174683b7637326c735be7fb1e982bc4e92f5d25e0.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/launch-image-uploads/a31481e5-01bf-4fbd-a198-8f69b8cd5d4a/fb69569bee877554bee9ad1174683b7637326c735be7fb1e982bc4e92f5d25e0.png?auto=format",
+        "media": [
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/mcp-draft-media/c730516d-17b5-4e01-8935-35526934fa06.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/launch-image-uploads/3e5edd57-5441-4493-ad9d-ae9755816bc4/abbbafaf54d7adf152c2c533ae8bbe4428169f0c60f463ae251111ba666e0925.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/launch-image-uploads/77f5ed9d-d240-4b76-8841-9a6e6040a877/183123a6fba788106792e3fbd697b25f7d7a8a348cb35041bd773fc9276fe367.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/launch-image-uploads/69278f93-0b40-455d-be91-9a5be2c9c8a5/54f1b029dc7bc95786c50e8e3d84efb1de5c3502dc2c2a2441ce03233c355c08.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/launch-image-uploads/646d6379-7259-4664-b1f4-5648e9e8dab2/1af9bda8a9e12f1f053867cef902bb4f530a98269173de0b2732716fd5f1e7f4.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/launch-image-uploads/4deabc6c-ad74-4959-a561-e5f4473b2b1d/a42198edfc05e51311d3583f0bd8fa171fe0c9d4a63a087312cd712c09d49c86.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/launch-image-uploads/0db0c160-c51b-4e8f-b6dd-5b7b5a024bae/ccb386dd77cef009a391fdea5669e7ffe380ace366fb1b8cd0bcf07d20b3b66a.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/launch-image-uploads/b5366573-6f14-470f-866a-4e341e6c20b8/4118d77e4e66efd200f211e9088267bae3fd5ed95b5d8dc43b7a991f14a3022e.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/launch-image-uploads/e6bc16b3-0438-4f6e-86df-a1d02d31cbd3/c6976e38ff31045020d50f40fc0298a23a01a2b216271de41f161a83bcba3b03.png?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "makepixel",
+        "featuredAt": "2026-11-20T08:00:00Z",
+        "createdAt": "2026-11-20T08:00:00Z"
+      }
+    },
+    {
+      "rank": 13,
+      "id": "1323277",
+      "name": "HelpCard",
+      "tagline": "a free emergency QR card",
+      "description": "Make a free emergency card with a QR code: blood group, allergies, medicines and who to call. Nothing is stored. Fun themes for kids.",
+      "keywords": [
+        "a",
+        "free",
+        "emergency",
+        "QR"
+      ],
+      "metrics": {
+        "votes": 80,
+        "comments": 0
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/LDLMMYRUGGE5NY?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/helpcard?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/launch-image-uploads/42ef7d71-595d-4965-b6c5-008f91dfcbf5/a3489d5459f0918096439b89e24b436f8e34c03c8c3a920e372083a88307e185.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/launch-image-uploads/42ef7d71-595d-4965-b6c5-008f91dfcbf5/a3489d5459f0918096439b89e24b436f8e34c03c8c3a920e372083a88307e185.png?auto=format",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/launch-image-uploads/fafab3c4-5d91-431f-b382-694b00dabe65/e04bcce78a580f1e215d3ab455a77740f6aa8d2820258a752a502e38931c6e8c.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/launch-image-uploads/0974081b-ffb5-4e60-94b8-faa79f1d27b7/a7d76e0ad9c7d5e8667ca48c6398f596a9c1281b81a5fe17a0da5c695377e8ae.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/launch-image-uploads/796315e1-87c3-43f6-a1f7-799664b8f4fe/523511a9a089fa09c70862b7a2cfdc874aa45e93ce33efd4dd3e3e6c1b934b53.png?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "helpcard",
+        "featuredAt": "2026-11-20T08:01:00Z",
+        "createdAt": "2026-11-20T08:01:00Z"
+      }
+    },
+    {
+      "rank": 14,
+      "id": "1323665",
+      "name": "ThreadLore",
+      "tagline": "Turn fabric photos into editable loom drafts",
+      "description": "When a textile’s weaving instructions are lost, a photograph still holds clues. ThreadLore helps handweavers inspect a fabric photo, check a suggested weave against the yarn crossings, and turn the pattern they approve into a printable loom card or WIF file.",
+      "keywords": [
+        "Turn",
+        "fabric",
+        "photos",
+        "into"
+      ],
+      "metrics": {
+        "votes": 79,
+        "comments": 4
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/IM4QGOTXXMUZFG?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/threadlore?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/9d4f54ac-4262-4d86-88f9-ab8f773ccb28.svg?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/9d4f54ac-4262-4d86-88f9-ab8f773ccb28.svg?auto=format",
+        "media": [
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/mcp-draft-media/3706c763-49d4-418d-a440-246fc64ab820.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/5d2ecf00-6167-4fba-b77a-32fa170d9c5d.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/b6cf5d80-c1cb-4f28-b9ef-d1babc0483d5.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/ddbd59b7-181f-4707-9246-79ae86c0d6ea.png?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "threadlore",
+        "featuredAt": "2026-11-20T08:01:00Z",
+        "createdAt": "2026-11-20T08:01:00Z"
+      }
+    },
+    {
+      "rank": 15,
+      "id": "1315337",
+      "name": "Scam Link Check",
+      "tagline": "Paste a suspicious text or link, get a plain-English verdict",
+      "description": "Scam Link Check helps older relatives and anyone who isn't tech-savvy decide if a text or link is safe to tap. Paste a link or the whole message: it finds every web address, checks each with Google Web Risk, follows short links to see where they really go, and flags scam signs like brand look-alike names, brand-new domains, raw IP addresses and missing https. You get Dangerous / Suspicious / No known risk in plain words, plus what to do next. English & Chinese. Free, no sign-up, nothing stored.",
+      "keywords": [
+        "Paste",
+        "a",
+        "suspicious",
+        "text"
+      ],
+      "metrics": {
+        "votes": 79,
+        "comments": 2
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/ZEFS6PVRQ5SLD6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/scam-link-check?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/b4ac84dd-c1ab-40a9-9259-7a714607a307.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/b4ac84dd-c1ab-40a9-9259-7a714607a307.png?auto=format",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/2803aa2c-b613-4532-b809-ab6cce70ea8e.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/5dab10b9-8814-423b-bf31-cc4304cacb1c.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/3aa4f27a-6ce5-4aea-9fe9-cd903fbe25b0.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/5f3dd86e-493d-40d7-88c2-eb796afe1506.png?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "scam-link-check",
+        "featuredAt": "2026-11-20T08:01:00Z",
+        "createdAt": "2026-11-20T08:01:00Z"
+      }
+    },
+    {
+      "rank": 16,
+      "id": "1322959",
+      "name": "Rox",
+      "tagline": "Your AI companion for living with chronic illness",
+      "description": "Rox is an AI health companion for people living with chronic illness, including POTS, fibromyalgia, ME/CFS, MS, and long COVID. Track symptoms and medications, connect wearable health data, spot patterns, and prepare for doctor appointments in one place. Rox remembers your health context over time, so you can spend less energy explaining your story and more time managing everyday life.",
+      "keywords": [
+        "Your",
+        "AI",
+        "companion",
+        "for"
+      ],
+      "metrics": {
+        "votes": 77,
+        "comments": 7
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/VNRODUBHN7RRUP?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/rox-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/8610b039-659d-4ec7-9621-aa24732619cd.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/8610b039-659d-4ec7-9621-aa24732619cd.png?auto=format",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/8d842569-51e7-43fa-b5e8-209e60e3fe3b.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/c4b60d8f-36be-4c14-b5f5-d99c5add4a0c.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/b965b9ae-f182-4bbc-9edf-299bf89ebc75.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/ef348dd2-3f6b-4df5-a906-0acdf590338a.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/7c09fc87-323c-4f18-98ff-306a960c7e2b.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/17f5a9d2-93a9-4511-aa38-0a8b185ba110.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/d37157ec-c1eb-41fa-9b57-05d691005357.png?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "rox-2",
+        "featuredAt": "2026-11-20T08:01:00Z",
+        "createdAt": "2026-11-20T08:01:00Z"
+      }
+    },
+    {
+      "rank": 17,
+      "id": "1323668",
+      "name": "Fack’d",
+      "tagline": "Fact checks right on YouTube as it plays, with sources",
+      "description": "Open Fack’d beside a YouTube interview or debate to see which claims hold up as you watch. Each check pairs the speaker’s words with a timestamp, a rating, and sources you can read. Watch previously checked videos for free, or sign in for 10 free checks of your own.",
+      "keywords": [
+        "Fact",
+        "checks",
+        "right",
+        "on"
+      ],
+      "metrics": {
+        "votes": 75,
+        "comments": 6
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/BPUZPJG5G3SBU6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/fack-d?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/28ae0004-e8cb-49f2-86e0-8a9c2233bf23.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/28ae0004-e8cb-49f2-86e0-8a9c2233bf23.png?auto=format",
+        "media": [
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/de1361e9-c1cd-4491-93bc-6bfa4c21f552.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/bf5bc64a-01b4-4ad6-987a-e7362ef85a83.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/fbf0a3e2-5aad-4131-991a-718946e62c72.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/1ea0b6e4-a226-43cd-9457-2c8ab7cb0809.png?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "fack-d",
+        "featuredAt": "2026-11-20T08:01:00Z",
+        "createdAt": "2026-11-20T08:01:00Z"
+      }
+    },
+    {
+      "rank": 18,
+      "id": "1187496",
+      "name": "EarthSort",
+      "tagline": "Ask how to recycle anything and get your city's answer",
+      "description": "Recycling rules change at every city line, so the same cup is recycling at home and trash at work. Most sites only give generic guidance that's often wrong for your city. Ask EarthSort gives you your city's answer: type any item or upload a photo at earthsort.com/ask. No app needed. Local rules for 750+ US cities, with more added every day. Want it on the go? The free EarthSort app does the same with your camera.",
+      "keywords": [
+        "Ask",
+        "how",
+        "to",
+        "recycle"
+      ],
+      "metrics": {
+        "votes": 74,
+        "comments": 8
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/MNWAUU6Y5MXT3E?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/earthsort?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/41ea569e-42d8-48e9-8a75-9813f1ab95f4.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/41ea569e-42d8-48e9-8a75-9813f1ab95f4.png?auto=format",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/3f5a1351-a276-460d-af77-d5f07b61d628.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/1e61aaaa-e91e-4c5e-8ffb-60581b82e054.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/1172f0e8-cff2-40ad-8ff7-38f59810a460.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/d901d64d-04b3-4d8b-8fd2-ca0e7907c5c8.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/bfebb2dc-ad98-4100-9028-6c345c0d49e0.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/eee3a2e3-b7d2-4128-be8b-c67fd1c6283e.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/afffa5b9-ba81-4ada-bbd1-48d9bb9a47a7.png?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "earthsort",
+        "featuredAt": "2026-11-20T08:00:00Z",
+        "createdAt": "2026-11-20T08:00:00Z"
+      }
+    },
+    {
+      "rank": 19,
+      "id": "1322700",
+      "name": "Baby's Day In",
+      "tagline": "Turn two phones into a baby monitor",
+      "description": "Not another baby cam. An AI baby monitor that works on any spare phone: it hears the cry, tells you, and starts the lullaby itself. No hardware to buy. Free on iPhone and Android.",
+      "keywords": [
+        "Turn",
+        "two",
+        "phones",
+        "into"
+      ],
+      "metrics": {
+        "votes": 74,
+        "comments": 5
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/2RAMITKDUNOPCD?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/baby-s-day-in?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/2c0f7534-cf58-4267-82a8-7a2c7843ab79.webp?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/2c0f7534-cf58-4267-82a8-7a2c7843ab79.webp?auto=format",
+        "media": [
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/711294ed-905a-47c1-84ff-605eb1d85fe0.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/419652a3-f50c-482e-8dcc-bf08c309a8e5.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/0b5f585a-065d-454e-bddf-8e6735c27705.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/4e9ed608-32c3-4247-b07a-fd6d6e852fc9.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/683a73d2-a0a1-4ba7-90f4-b1cdb83171e6.png?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "baby-s-day-in",
+        "featuredAt": "2026-11-20T08:01:00Z",
+        "createdAt": "2026-11-20T08:01:00Z"
+      }
+    },
+    {
+      "rank": 20,
+      "id": "1312059",
+      "name": "aiteam.space",
+      "tagline": "An AI team where every agent has its own computer",
+      "description": "aiteam.space gives each AI teammate, a Son, its own computer. It runs real Claude Code sessions on your own subscription, builds and deploys websites, makes videos, joins your Google Meet calls and handles daily posts. You manage the whole team on a visual org chart, from Claude, ChatGPT, Telegram or Discord. Your first Son is free forever.",
+      "keywords": [
+        "An",
+        "AI",
+        "team",
+        "where"
+      ],
+      "metrics": {
+        "votes": 73,
+        "comments": 5
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/RF2OKIMTLSTKGS?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/aiteam-space?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/dfe4cae0-736a-4567-a6c3-42397071b9dc.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/dfe4cae0-736a-4567-a6c3-42397071b9dc.png?auto=format",
+        "media": [
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/c3238c82-bcde-4329-ac5c-4b1a1f3d0bbb.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/launch-image-uploads/6c9426d8-e9ef-45de-9132-592e2774488c/60b0afaade0c99f1d93f7646ef910d7957a2024741270ca4d4cb2dd410f0dc45.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/a7cf872b-7dfa-4d1b-ab54-16fa931a8117.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/0bc87cda-2206-4f8d-83cd-d7891c19e14b.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/4f01f69f-09b0-4103-8c00-8f7ee91a71de.jpeg?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "aiteam-space",
+        "featuredAt": "2026-11-20T08:01:00Z",
+        "createdAt": "2026-11-20T08:01:00Z"
+      }
+    }
+  ]
+}
