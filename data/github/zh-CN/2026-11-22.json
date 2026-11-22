@@ -1,0 +1,1408 @@
+{
+  "schemaVersion": "trendreader.daily.v1",
+  "packageId": "github-daily-All-2026-11-22",
+  "locale": "zh-CN",
+  "generatedAt": "2026-11-22T20:16:44.952Z",
+  "expiresAt": "2026-11-23T20:16:44.952Z",
+  "sourceWindow": {
+    "since": "daily",
+    "language": "All",
+    "spokenLanguageCode": null
+  },
+  "sources": [
+    {
+      "id": "github_trending_html",
+      "role": "candidate",
+      "status": "ok",
+      "itemCount": 16
+    }
+  ],
+  "taxonomy": {
+    "version": "2026-11-22",
+    "generatedAt": "2026-11-22T20:16:44.952Z",
+    "categories": [
+      {
+        "id": "ai",
+        "label": "AI",
+        "labelEn": "AI",
+        "icon": "bot",
+        "order": 20
+      },
+      {
+        "id": "tools",
+        "label": "工具",
+        "labelEn": "Tools",
+        "icon": "wrench",
+        "order": 100
+      },
+      {
+        "id": "frontend",
+        "label": "前端",
+        "labelEn": "Frontend",
+        "icon": "layout",
+        "order": 140
+      },
+      {
+        "id": "backend",
+        "label": "后端",
+        "labelEn": "Backend",
+        "icon": "server",
+        "order": 110
+      },
+      {
+        "id": "unclassified",
+        "label": "Needs Review",
+        "labelEn": "Needs Review",
+        "icon": "circle-help",
+        "order": 999
+      }
+    ]
+  },
+  "repos": [
+    {
+      "id": "elementalsouls-claude-bughunter",
+      "owner": "elementalsouls",
+      "name": "Claude-BugHunter",
+      "url": "https://github.com/elementalsouls/Claude-BugHunter",
+      "avatarUrl": "https://github.com/elementalsouls.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 1,
+        "starsGained": 1721
+      },
+      "metadata": {
+        "description": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
+        "language": "Python",
+        "topics": [],
+        "stars": 17488,
+        "forks": 1945,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Python"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/elementalsouls/Claude-BugHunter/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "claude-bughunter",
+        "summary": "A self-contained Claude skill bundle for bug hunting and external red-team work · 83 skills · 15 slash commands · 681 disclosed-report patterns 433 now individually cited & auditable across 24 core vulnerability classes · enterprise identity + infrastructure attack matrices · engagement-folder scaffolding · Burp MCP integration · battle-tested across authorized red-team and bug-hunting engagements, plus public training platforms DVWA, OWASP Juice Shop, Hacker101, testphp.vulnweb.com. Built by https://www.linkedin.com/in/sachinsharma8080/ — Bug Hunting & GenAI Security Research.",
+        "headings": [
+          "claude-bughunter",
+          "What is this?",
+          "Quickstart",
+          "macOS / Linux",
+          "Windows (PowerShell)",
+          "Runs on multiple agent harnesses",
+          "macOS / Linux",
+          "Windows (PowerShell)"
+        ],
+        "commands": [],
+        "keywords": [
+          "claude-bughunter",
+          "what is this?",
+          "quickstart",
+          "macos / linux"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/elementalsouls/Claude-BugHunter/main/assets/harness-routing.svg",
+        "thumbUrl": "https://raw.githubusercontent.com/elementalsouls/Claude-BugHunter/main/assets/harness-routing.svg",
+        "alt": "One install, agent harnesses — Claude Code, OpenCode, Codex CLI, Hermes Agent, Google AntiGravity",
+        "sourceUrl": "https://raw.githubusercontent.com/elementalsouls/Claude-BugHunter/main/assets/harness-routing.svg",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "unclassified",
+        "secondaryCategoryIds": [],
+        "confidence": 0.4,
+        "method": "rules",
+        "reasons": [
+          "No taxonomy rule matched with enough confidence"
+        ],
+        "signals": []
+      },
+      "rank": {
+        "globalRank": 1,
+        "categoryRank": 1,
+        "score": 118
+      }
+    },
+    {
+      "id": "obra-superpowers",
+      "owner": "obra",
+      "name": "superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "avatarUrl": "https://github.com/obra.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 2,
+        "starsGained": 785
+      },
+      "metadata": {
+        "description": "An agentic skills framework & software development methodology that works.",
+        "language": "Shell",
+        "topics": [],
+        "stars": 324052,
+        "forks": 28755,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Shell"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/obra/superpowers/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "Superpowers",
+        "summary": "Superpowers is a complete software development methodology for your coding agents, built on top of a set of composable skills and some initial instructions that make sure your agent uses them. how-it-works commercial-services installation claude-code antigravity codex-app codex-cli cursor devin-cli factory-droid gemini-cli github-copilot-cli grok-build-cli kimi-code opencode pi qwen-code hermes-agent muse the-basic-workflow when-something-goes-wrong community whats-inside philosophy contributing updating license visual-companion-telemetry It starts from the moment you fire up your coding agent. As soon as it sees that you're building something, it doesn't just jump into trying to write code.",
+        "headings": [
+          "Superpowers",
+          "Table of Contents",
+          "How it works",
+          "Commercial Services",
+          "Installation",
+          "Claude Code",
+          "Antigravity",
+          "Codex App"
+        ],
+        "commands": [],
+        "keywords": [
+          "agent",
+          "superpowers",
+          "table of contents",
+          "how it works",
+          "commercial services"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "repository_open_graph",
+        "url": "https://opengraph.githubassets.com/daily-tech-radar/obra/superpowers",
+        "thumbUrl": "https://opengraph.githubassets.com/daily-tech-radar/obra/superpowers",
+        "alt": "obra/superpowers",
+        "sourceUrl": "https://github.com/obra/superpowers",
+        "promptHash": "sha256:51b512daa18a"
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.7,
+        "method": "rules",
+        "reasons": [
+          "Matched agent"
+        ],
+        "signals": [
+          "agent"
+        ]
+      },
+      "rank": {
+        "globalRank": 2,
+        "categoryRank": 2,
+        "score": 116
+      }
+    },
+    {
+      "id": "hkuds-cli-anything",
+      "owner": "HKUDS",
+      "name": "CLI-Anything",
+      "url": "https://github.com/HKUDS/CLI-Anything",
+      "avatarUrl": "https://github.com/HKUDS.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 3,
+        "starsGained": 687
+      },
+      "metadata": {
+        "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+        "language": "Python",
+        "topics": [],
+        "stars": 62675,
+        "forks": 5684,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Python"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/HKUDS/CLI-Anything/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "Browse what is available",
+        "summary": "&nbsp; CLI-Anything: Making ALL Software Agent-Native Today's Software Serves Humans👨‍💻. Tomorrow's Users will be Agents🤖. CLI-Anything: Bridging the Gap Between AI Agents and the World's Software 🌐 https://hkuds.github.io/CLI-Anything/: pip install cli-anything-hub then cli-hub install — browse, install, and manage all community-built CLIs. Want to add your own? https://github.com/HKUDS/CLI-Anything/blob/main/CONTRIBUTING.md — the hub updates instantly. 🎬 -real-world-demos: Watch AI agents use generated CLIs plus preview, live preview, and trajectory loops to produce real artifacts — CAD builds, 3D scenes, diagrams, gameplay, subtitles, and more.",
+        "headings": [
+          "📰 News",
+          "🤔 Why CLI?",
+          "🚀 Quick Start",
+          "Browse what is available",
+          "Install and try a CLI immediately",
+          "Pick Your Agent Platform",
+          "Add the CLI-Anything marketplace",
+          "Install the cli-anything plugin from the marketplace"
+        ],
+        "commands": [
+          "pip install cli-anything-hub",
+          "pip install cli-anything-hub",
+          "pip install cli-anything-hub",
+          "pip install cli-anything-hub",
+          "pip install -e .",
+          "pip install -e . puts cli-anything-<software> directly on PATH. Agents discover tools via standard which commands. No setup, no wrappers."
+        ],
+        "keywords": [
+          "agent",
+          "📰 news",
+          "🤔 why cli?",
+          "🚀 quick start",
+          "browse what is available"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/HKUDS/CLI-Anything/main/assets/icon.png",
+        "thumbUrl": "https://raw.githubusercontent.com/HKUDS/CLI-Anything/main/assets/icon.png",
+        "alt": "HKUDS/CLI-Anything",
+        "sourceUrl": "https://raw.githubusercontent.com/HKUDS/CLI-Anything/main/assets/icon.png",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.7,
+        "method": "rules",
+        "reasons": [
+          "Matched agent"
+        ],
+        "signals": [
+          "agent"
+        ]
+      },
+      "rank": {
+        "globalRank": 3,
+        "categoryRank": 3,
+        "score": 114
+      }
+    },
+    {
+      "id": "jingyaogong-minimind",
+      "owner": "jingyaogong",
+      "name": "minimind",
+      "url": "https://github.com/jingyaogong/minimind",
+      "avatarUrl": "https://github.com/jingyaogong.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 4,
+        "starsGained": 473
+      },
+      "metadata": {
+        "description": "🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours.",
+        "language": "Python",
+        "topics": [],
+        "stars": 68576,
+        "forks": 8971,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Python"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/jingyaogong/minimind/master/README.md"
+      },
+      "readmeSignals": {
+        "title": "📌 项目介绍",
+        "summary": "此开源项目旨在完全从 0 开始，仅用 3 块钱成本与 2 小时训练时间，即可训练出规模约为 64M 的超小语言模型 MiniMind。 MiniMind 系列极其轻量，主线最小版本体积约为 GPT-3 的 $\\frac{1}{2700}$，力求让普通个人 GPU 也能快速完成训练与复现。 项目同时开源了大模型的极简结构与完整训练链路，覆盖 MoE、数据清洗、预训练（Pretrain）、监督微调（SFT）、LoRA、RLHF（DPO）、RLAIF（PPO / GRPO / CISPO）、Tool Use、Agentic RL、自适应思考与模型蒸馏等全过程代码。 MiniMind 同时拓展了视觉模态模型 https://github.com/jingyaogong/minimind-v、多模态 Omni 模型 https://github.com/jingyaogong/minimind-o、扩散语言模型（MiniMind-dLM）、线性模型（MiniMind-Linear），详见 https://github.com/jingyaogong/minimind/discussions。 项目所有核心算法代码均从 0 使用 PyTorch 原生实现，不依赖第三方库提供的高层抽象接口。 这不仅是一个大语言模型全阶段开源复现项目，也是一套面向 LLM 入门与实践的教程。 希望此项目能为更多人提供一个可复现、可理解、可扩展的起点，一起感受创造的乐趣，并推动更广泛 AI 社区的进步。",
+        "headings": [
+          "❤️ 赞助",
+          "📌 项目介绍",
+          "📌 快速开始",
+          "第0步",
+          "克隆仓库、安装依赖",
+          "Ⅰ 🚀 模型推理",
+          "1' 下载模型",
+          "方式1"
+        ],
+        "commands": [
+          "pip install -r requirements.txt -i https://mirrors.aliyun.com/pypi/simple",
+          "pip install streamlit",
+          "pip install -e ."
+        ],
+        "keywords": [
+          "ai",
+          "llm",
+          "❤️ 赞助",
+          "📌 项目介绍",
+          "📌 快速开始",
+          "第0步"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/jingyaogong/minimind/master/images/minimind-3.gif",
+        "thumbUrl": "https://raw.githubusercontent.com/jingyaogong/minimind/master/images/minimind-3.gif",
+        "alt": "minimind-3",
+        "sourceUrl": "https://raw.githubusercontent.com/jingyaogong/minimind/master/images/minimind-3.gif",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.8,
+        "method": "rules",
+        "reasons": [
+          "Matched ai",
+          "Matched llm"
+        ],
+        "signals": [
+          "ai",
+          "llm"
+        ]
+      },
+      "rank": {
+        "globalRank": 4,
+        "categoryRank": 4,
+        "score": 112
+      }
+    },
+    {
+      "id": "cursor-plugins",
+      "owner": "cursor",
+      "name": "plugins",
+      "url": "https://github.com/cursor/plugins",
+      "avatarUrl": "https://github.com/cursor.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 5,
+        "starsGained": 301
+      },
+      "metadata": {
+        "description": "Cursor plugin specification and official plugins",
+        "language": "TypeScript",
+        "topics": [],
+        "stars": 18395,
+        "forks": 1999,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "TypeScript"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/cursor/plugins/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "Cursor plugins",
+        "summary": "Official Cursor plugins for popular developer tools, frameworks, and SaaS products. Each plugin is a standalone directory at the repository root with its own .cursor-plugin/plugin.json manifest. | name | Plugin | Author | Category | description from marketplace | | teaching | teaching/ | Cursor | Utilities | Skill mapping, practice plans, and learning retrospectives. | | continual-learning | continual-learning/ | Eric Zakariasson | Developer Tools | Incremental transcript-driven memory updates for AGENTS.md using high-signal bullet points only. | | cursor-team-kit | cursor-team-kit/ | Eric Zakariasson | Developer Tools | Internal team workflows for CI, code review, shipping, local automation",
+        "headings": [
+          "Cursor plugins",
+          "Plugins",
+          "Repository structure",
+          "License"
+        ],
+        "commands": [],
+        "keywords": [
+          "cursor plugins",
+          "plugins",
+          "repository structure",
+          "license"
+        ],
+        "score": 80
+      },
+      "visual": {
+        "kind": "repository_open_graph",
+        "url": "https://opengraph.githubassets.com/daily-tech-radar/cursor/plugins",
+        "thumbUrl": "https://opengraph.githubassets.com/daily-tech-radar/cursor/plugins",
+        "alt": "cursor/plugins",
+        "sourceUrl": "https://github.com/cursor/plugins",
+        "promptHash": "sha256:4b8206bfeced"
+      },
+      "classification": {
+        "primaryCategoryId": "unclassified",
+        "secondaryCategoryIds": [],
+        "confidence": 0.4,
+        "method": "rules",
+        "reasons": [
+          "No taxonomy rule matched with enough confidence"
+        ],
+        "signals": []
+      },
+      "rank": {
+        "globalRank": 5,
+        "categoryRank": 5,
+        "score": 110
+      }
+    },
+    {
+      "id": "firecrawl-firecrawl",
+      "owner": "firecrawl",
+      "name": "firecrawl",
+      "url": "https://github.com/firecrawl/firecrawl",
+      "avatarUrl": "https://github.com/firecrawl.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 6,
+        "starsGained": 910
+      },
+      "metadata": {
+        "description": "Knowledge infrastructure to make your agents smarter. Search, scrape and access 550+ data providers through one API.",
+        "language": "TypeScript",
+        "topics": [],
+        "stars": 206887,
+        "forks": 10811,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "TypeScript"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/firecrawl/firecrawl/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "**🔥 Firecrawl**",
+        "summary": "Knowledge infrastructure to make your agents smarter. 🔥 You can use Firecrawl three ways. This repo holds the code for Firecrawl Local and the self-hosted server, along with SDKs that work with all three. firecrawl-local. Run Firecrawl on your own machine as one binary that turns websites into clean markdown, plugs into your AI agent as an MCP server and serves the Firecrawl API on localhost. firecrawl-cloud. Use the hosted service at https://firecrawl.dev/?ref=github for everything Local does at scale with nothing to run, plus search and the 550+ data providers in https://alexandria.firecrawl.dev for far more knowledge than scraping alone. self-hosting. Deploy the full Firecrawl server fro",
+        "headings": [
+          "**🔥 Firecrawl**",
+          "Firecrawl Local",
+          "Add it to your AI agent",
+          "Run the Firecrawl API on localhost",
+          "What runs where",
+          "Firecrawl Cloud",
+          "Search",
+          "Scrape"
+        ],
+        "commands": [
+          "cargo install firecrawl-local",
+          "pip install firecrawl",
+          "npm install firecrawl"
+        ],
+        "keywords": [
+          "agent",
+          "**🔥 firecrawl**",
+          "firecrawl local",
+          "add it to your ai agent",
+          "run the firecrawl api on localhost"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/firecrawl/firecrawl/main/img/open-source-cloud.png",
+        "thumbUrl": "https://raw.githubusercontent.com/firecrawl/firecrawl/main/img/open-source-cloud.png",
+        "alt": "Open Source vs Cloud",
+        "sourceUrl": "https://raw.githubusercontent.com/firecrawl/firecrawl/main/img/open-source-cloud.png",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.7,
+        "method": "rules",
+        "reasons": [
+          "Matched agent"
+        ],
+        "signals": [
+          "agent"
+        ]
+      },
+      "rank": {
+        "globalRank": 6,
+        "categoryRank": 6,
+        "score": 108
+      }
+    },
+    {
+      "id": "nginx-nginx",
+      "owner": "nginx",
+      "name": "nginx",
+      "url": "https://github.com/nginx/nginx",
+      "avatarUrl": "https://github.com/nginx.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 7,
+        "starsGained": 168
+      },
+      "metadata": {
+        "description": "The official NGINX Open Source repository.",
+        "language": "C",
+        "topics": [],
+        "stars": 32859,
+        "forks": 8381,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "C"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/nginx/nginx/master/README.md"
+      },
+      "readmeSignals": {
+        "title": "Table of contents",
+        "summary": "NGINX pronounced \"engine x\" or \"en-jin-eks\" is the world's most popular Web Server, high performance Load Balancer, Reverse Proxy, API Gateway and Content Cache. NGINX is free and open source software, distributed under the terms of a simplified LICENSE. Enterprise distributions, commercial support and training are available from https://www.f5.com/products/nginx. Table of contents how-it-works modules configurations runtime downloading-and-installing stable-and-mainline-binaries linux-binary-installation-process freebsd-installation-process windows-executables dynamic-modules getting-started-with-nginx installing-ssl-certificates-and-enabling-tls-encryption load-balancing rate-limiting cont",
+        "headings": [
+          "Table of contents",
+          "How it works",
+          "Modules",
+          "Configurations",
+          "Runtime",
+          "Downloading and installing",
+          "Stable and Mainline binaries",
+          "Linux binary installation process"
+        ],
+        "commands": [],
+        "keywords": [
+          "table of contents",
+          "how it works",
+          "modules",
+          "configurations"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "repository_open_graph",
+        "url": "https://opengraph.githubassets.com/daily-tech-radar/nginx/nginx",
+        "thumbUrl": "https://opengraph.githubassets.com/daily-tech-radar/nginx/nginx",
+        "alt": "nginx/nginx",
+        "sourceUrl": "https://github.com/nginx/nginx",
+        "promptHash": "sha256:eddad1b4d31c"
+      },
+      "classification": {
+        "primaryCategoryId": "unclassified",
+        "secondaryCategoryIds": [],
+        "confidence": 0.4,
+        "method": "rules",
+        "reasons": [
+          "No taxonomy rule matched with enough confidence"
+        ],
+        "signals": []
+      },
+      "rank": {
+        "globalRank": 7,
+        "categoryRank": 7,
+        "score": 102.8
+      }
+    },
+    {
+      "id": "openvinotoolkit-openvino",
+      "owner": "openvinotoolkit",
+      "name": "openvino",
+      "url": "https://github.com/openvinotoolkit/openvino",
+      "avatarUrl": "https://github.com/openvinotoolkit.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 8,
+        "starsGained": 155
+      },
+      "metadata": {
+        "description": "OpenVINO™ is an open source toolkit for optimizing and deploying AI inference",
+        "language": "C++",
+        "topics": [],
+        "stars": 12068,
+        "forks": 3656,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "C++"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/openvinotoolkit/openvino/master/README.md"
+      },
+      "readmeSignals": {
+        "title": "load PyTorch model into memory",
+        "summary": "Open-source software toolkit for optimizing and deploying deep learning models. Documentation • Blog • Key Features • Tutorials • Integrations • Benchmarks • Generative AI Inference Optimization: Boost deep learning performance in computer vision, automatic speech recognition, generative AI, natural language processing with large and small language models, and many other common tasks. Flexible Model Support: Use models trained with popular frameworks such as PyTorch, TensorFlow, ONNX, Keras, PaddlePaddle, and JAX/Flax. Directly integrate models built with transformers and diffusers from the Hugging Face Hub using Optimum Intel. Convert and deploy models without original frameworks. Broad Pla",
+        "headings": [
+          "Installation",
+          "Verify Installation",
+          "Tutorials and Examples",
+          "load PyTorch model into memory",
+          "convert the model into OpenVINO model",
+          "compile the model for CPU device",
+          "infer the model on random data",
+          "load TensorFlow model into memory"
+        ],
+        "commands": [
+          "pip install -U openvino"
+        ],
+        "keywords": [
+          "ai",
+          "installation",
+          "verify installation",
+          "tutorials and examples",
+          "load pytorch model into memory"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "repository_open_graph",
+        "url": "https://opengraph.githubassets.com/daily-tech-radar/openvinotoolkit/openvino",
+        "thumbUrl": "https://opengraph.githubassets.com/daily-tech-radar/openvinotoolkit/openvino",
+        "alt": "openvinotoolkit/openvino",
+        "sourceUrl": "https://github.com/openvinotoolkit/openvino",
+        "promptHash": "sha256:5a5d565cdac2"
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.7,
+        "method": "rules",
+        "reasons": [
+          "Matched ai"
+        ],
+        "signals": [
+          "ai"
+        ]
+      },
+      "rank": {
+        "globalRank": 8,
+        "categoryRank": 8,
+        "score": 99.5
+      }
+    },
+    {
+      "id": "cathrynlavery-diagram-design",
+      "owner": "cathrynlavery",
+      "name": "diagram-design",
+      "url": "https://github.com/cathrynlavery/diagram-design",
+      "avatarUrl": "https://github.com/cathrynlavery.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 9,
+        "starsGained": 513
+      },
+      "metadata": {
+        "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 45 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+        "language": "HTML",
+        "topics": [],
+        "stars": 70218,
+        "forks": 4712,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "HTML"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/cathrynlavery/diagram-design/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "Pi: register the checkout as a local package",
+        "summary": "An agent skill that draws diagrams as one self-contained HTML + SVG file, in your brand. 51 diagram types. No shadows. No Mermaid slop. install · what-it-makes · quickstart · onboarding-make-it-look-like-your-brand · import-from-drawio-mermaid-excalidraw-or-plantuml · export-to-png--svg · contributing npx skills add cathrynlavery/diagram-design \"Make me an architecture diagram of my app: frontend, backend, database, Redis cache.\" \"I need a quadrant showing Q2 projects by impact vs effort.\" \"Give me a sequence of a bearer call with token refresh on 401.\" \"Onboard diagram-design to https://yoursite.com\" pulls your palette and fonts so every diagram after this one matches your site",
+        "headings": [
+          "Install",
+          "Pi: register the checkout as a local package",
+          "Claude Code: symlink the inner skill",
+          "Other Agent Skills hosts: create only the roots you use",
+          "How it compares",
+          "Why I built it",
+          "What it makes",
+          "Onboarding: make it look like *your* brand"
+        ],
+        "commands": [
+          "pip install playwright && playwright install chromium"
+        ],
+        "keywords": [
+          "ai",
+          "install",
+          "pi: register the checkout as a local package",
+          "claude code: symlink the inner skill",
+          "other agent skills hosts: create only the roots you use"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://skills.sh/b/cathrynlavery/diagram-design?style=flat-square",
+        "thumbUrl": "https://skills.sh/b/cathrynlavery/diagram-design?style=flat-square",
+        "alt": "skills.sh installs",
+        "sourceUrl": "https://skills.sh/b/cathrynlavery/diagram-design?style=flat-square",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.7,
+        "method": "rules",
+        "reasons": [
+          "Matched ai"
+        ],
+        "signals": [
+          "ai"
+        ]
+      },
+      "rank": {
+        "globalRank": 9,
+        "categoryRank": 9,
+        "score": 102
+      }
+    },
+    {
+      "id": "mvanhorn-last30days-skill",
+      "owner": "mvanhorn",
+      "name": "last30days-skill",
+      "url": "https://github.com/mvanhorn/last30days-skill",
+      "avatarUrl": "https://github.com/mvanhorn.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 10,
+        "starsGained": 673
+      },
+      "metadata": {
+        "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+        "language": "Python",
+        "topics": [],
+        "stars": 72602,
+        "forks": 6419,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Python"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/mvanhorn/last30days-skill/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "/last30days",
+        "summary": "English | README.fr.md | README.de.md | README.es.md | README.pt-BR.md | README.ja.md | README.zh-CN.md | README.ar.md | README.fa.md | README.tr.md An AI agent-led search engine scored by upvotes, likes, and real money - not editors. This README tracks the current v4 pipeline. The runtime skill spec lives in skills/last30days/SKILL.md, which is the source of truth for the latest command and setup behavior. Claude Code recommended — auto-updates via marketplace: Codex, Cursor, Copilot, Gemini CLI, or any of 50+ https://agentskills.io hosts: -g installs globally for your user, available across all projects. Drop it to scope per-project.",
+        "headings": [
+          "/last30days",
+          "Why this exists",
+          "Sources, scored by the people",
+          "What people actually use it for",
+          "What's new",
+          "Install",
+          "Claude Code (recommended)",
+          "Quick Try-Link"
+        ],
+        "commands": [],
+        "keywords": [
+          "ai",
+          "agent",
+          "/last30days",
+          "why this exists",
+          "sources, scored by the people",
+          "what people actually use it for"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/mvanhorn/last30days-skill/main/media/pr-assets/last30days-ad.gif",
+        "thumbUrl": "https://raw.githubusercontent.com/mvanhorn/last30days-skill/main/media/pr-assets/last30days-ad.gif",
+        "alt": "last30days - an AI agent-led search engine that searches people, not editors",
+        "sourceUrl": "https://raw.githubusercontent.com/mvanhorn/last30days-skill/main/media/pr-assets/last30days-ad.gif",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.8,
+        "method": "rules",
+        "reasons": [
+          "Matched ai",
+          "Matched agent"
+        ],
+        "signals": [
+          "ai",
+          "agent"
+        ]
+      },
+      "rank": {
+        "globalRank": 10,
+        "categoryRank": 10,
+        "score": 100
+      }
+    },
+    {
+      "id": "google-labs-code-stitch-skills",
+      "owner": "google-labs-code",
+      "name": "stitch-skills",
+      "url": "https://github.com/google-labs-code/stitch-skills",
+      "avatarUrl": "https://github.com/google-labs-code.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 11,
+        "starsGained": 516
+      },
+      "metadata": {
+        "description": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
+        "language": "TypeScript",
+        "topics": [],
+        "stars": 11853,
+        "forks": 1472,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "TypeScript"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/google-labs-code/stitch-skills/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "Stitch Design Skills",
+        "summary": "A collection of agent skills and plugins for https://stitch.withgoogle.com, following the https://agentskills.io open standard. Compatible with coding agents such as Codex, Antigravity, Gemini CLI, Claude Code, Cursor, and OpenCode manual install. 1. Install Plugins Recommended The fastest way to set up the full Stitch plugin suite globally. Add the Stitch Skills marketplace, then install the plugins you need. Navigate to Settings → Plugin Marketplaces → Add and fill in: | Field | Value | | Source | https://github.com/google-labs-code/stitch-skills | | Git ref | main | | Sparse paths | optional .agents/plugins, plugins/stitch-design, plugins/stitch-build, plugins/stitch-utilities |",
+        "headings": [
+          "Stitch Design Skills",
+          "Quick Start",
+          "1. Install Plugins (Recommended)",
+          "Claude Code — installs into the current project",
+          "Cursor — installs into the current workspace",
+          "Project-local (recommended)",
+          "repeat for other skills under plugins/*/skills/",
+          "2. Install Skills Selectively"
+        ],
+        "commands": [],
+        "keywords": [
+          "agent",
+          "mcp",
+          "stitch design skills",
+          "quick start",
+          "1. install plugins (recommended)",
+          "claude code — installs into the current project"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "repository_open_graph",
+        "url": "https://opengraph.githubassets.com/daily-tech-radar/google-labs-code/stitch-skills",
+        "thumbUrl": "https://opengraph.githubassets.com/daily-tech-radar/google-labs-code/stitch-skills",
+        "alt": "google-labs-code/stitch-skills",
+        "sourceUrl": "https://github.com/google-labs-code/stitch-skills",
+        "promptHash": "sha256:c951a9925d2d"
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.8,
+        "method": "rules",
+        "reasons": [
+          "Matched agent",
+          "Matched mcp"
+        ],
+        "signals": [
+          "agent",
+          "mcp"
+        ]
+      },
+      "rank": {
+        "globalRank": 11,
+        "categoryRank": 11,
+        "score": 98
+      }
+    },
+    {
+      "id": "mjmirza-app-store-compliance",
+      "owner": "mjmirza",
+      "name": "app-store-compliance",
+      "url": "https://github.com/mjmirza/app-store-compliance",
+      "avatarUrl": "https://github.com/mjmirza.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 12,
+        "starsGained": 617
+      },
+      "metadata": {
+        "description": "Avoid common App Store and Google Play rejections. Open playbook and pre-submission guard with 124 documented rejection patterns and fixes, privacy manifest and Data safety checks, 112 tracked deadlines (EU AI Act, DSA, COPPA, age laws), and a skill for AI coding agents.",
+        "language": "Shell",
+        "topics": [],
+        "stars": 3880,
+        "forks": 234,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Shell"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/mjmirza/app-store-compliance/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "App Store Compliance Playbook",
+        "summary": "Catch App Store and Google Play rejection causes before the reviewer does. A reference and a pre-submission guard for iOS and Android apps that is plain about what a scan can prove and what still needs a person. It does not guarantee approval. Read it as a website at https://mjmirza.github.io/app-store-compliance/. If this saves you even one rejection, leave a star, fork it, and follow along. That is the whole ask. Pick one row. The time shown is for that first step. | You are | Do this first | Time | | About to submit, and you can open a terminal | Run the two commands below | 2 minutes | | Already rejected | Open docs/MISTAKE-PATTERNS.mdthe-appeal-playbook | 10 minutes | | Not a developer ",
+        "headings": [
+          "App Store Compliance Playbook",
+          "Start here",
+          "What you get",
+          "Install it into your AI coding tool",
+          "Or let your agent do it",
+          "Check, update, or remove it",
+          "It works. Approved on the first try",
+          "Found this useful? Three taps that help a lot"
+        ],
+        "commands": [],
+        "keywords": [
+          "ai",
+          "agent",
+          "app store compliance playbook",
+          "start here",
+          "what you get",
+          "install it into your ai coding tool"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/mjmirza/app-store-compliance/main/assets/apple.png",
+        "thumbUrl": "https://raw.githubusercontent.com/mjmirza/app-store-compliance/main/assets/apple.png",
+        "alt": "Apple",
+        "sourceUrl": "https://raw.githubusercontent.com/mjmirza/app-store-compliance/main/assets/apple.png",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.8,
+        "method": "rules",
+        "reasons": [
+          "Matched ai",
+          "Matched agent"
+        ],
+        "signals": [
+          "ai",
+          "agent"
+        ]
+      },
+      "rank": {
+        "globalRank": 12,
+        "categoryRank": 12,
+        "score": 96
+      }
+    },
+    {
+      "id": "tracer-cloud-opensre",
+      "owner": "Tracer-Cloud",
+      "name": "opensre",
+      "url": "https://github.com/Tracer-Cloud/opensre",
+      "avatarUrl": "https://github.com/Tracer-Cloud.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 13,
+        "starsGained": 395
+      },
+      "metadata": {
+        "description": "The open-source agent for CI/CD reliability.",
+        "language": "Python",
+        "topics": [],
+        "stars": 14339,
+        "forks": 1961,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Python"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/Tracer-Cloud/opensre/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "``answered`` is true for any reply text, including a failed model call.",
+        "summary": "OpenSRE: The open-source agent for CI/CD reliability Your CI tells you it broke, but not why or how to fix it. OpenSRE is a CLI agent that reads the failed run, traces the cause and pushes a fix for you to review. Self-hosted, with your own models. 🚧 Public Alpha: Core workflows are usable for early exploration, though not yet fully stable. The project is in active development, and APIs and integrations may evolve. A terminal open in a code project A Git repository recommended for the full workflow demonstration Windows details: docs/install/windows-local.mdx.",
+        "headings": [
+          "Before you begin",
+          "Step 1: Install and start opensre",
+          "Table of Contents",
+          "Why OpenSRE?",
+          "Quick Start",
+          "``answered`` is true for any reply text, including a failed model call.",
+          "That failure sets accounting_status to \"not_run\" and stop_reason to \"error\".",
+          "Deployment"
+        ],
+        "commands": [],
+        "keywords": [
+          "agent",
+          "before you begin",
+          "step 1: install and start opensre",
+          "table of contents",
+          "why opensre?"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/Tracer-Cloud/opensre/main/docs/images/opensre-welcome.png",
+        "thumbUrl": "https://raw.githubusercontent.com/Tracer-Cloud/opensre/main/docs/images/opensre-welcome.png",
+        "alt": "OpenSRE CLI welcome screen with the sign-in prompt",
+        "sourceUrl": "https://raw.githubusercontent.com/Tracer-Cloud/opensre/main/docs/images/opensre-welcome.png",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.7,
+        "method": "rules",
+        "reasons": [
+          "Matched agent"
+        ],
+        "signals": [
+          "agent"
+        ]
+      },
+      "rank": {
+        "globalRank": 13,
+        "categoryRank": 13,
+        "score": 94
+      }
+    },
+    {
+      "id": "toeverything-affine",
+      "owner": "toeverything",
+      "name": "AFFiNE",
+      "url": "https://github.com/toeverything/AFFiNE",
+      "avatarUrl": "https://github.com/toeverything.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 14,
+        "starsGained": 537
+      },
+      "metadata": {
+        "description": "There can be more than Notion and Miro. AFFiNE(pronounced [ə‘fain]) is a next-gen knowledge base that brings planning, sorting and creating all together. Privacy first, open-source, customizable and ready to use.",
+        "language": "TypeScript",
+        "topics": [],
+        "stars": 76735,
+        "forks": 5613,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "TypeScript"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/toeverything/AFFiNE/master/README.md"
+      },
+      "readmeSignals": {
+        "title": null,
+        "summary": "AFFiNE.Pro Write, Draw and Plan All at Once A privacy-focused, local-first, open-source, and ready-to-use alternative for Notion & Miro. One hyper-fused platform for wildly creative minds. Home Page | Discord | Live Demo | Blog | Documentation Docs, canvas and tables are hyper-merged with AFFiNE - just like the word affine əˈfʌɪn | a-fine. Getting started & staying tuned with us. A true canvas for blocks in any form. Docs and whiteboard are now fully merged. Many editor apps claim to be a canvas for productivity, but AFFiNE is one of the very few which allows you to put any building block on an edgeless canvas -- rich text, sticky notes, any embedded web pages, multi-view databases, linked p",
+        "headings": [
+          "Getting started & staying tuned with us.",
+          "What is AFFiNE",
+          "Features",
+          "Acknowledgement",
+          "Contributing",
+          "Templates",
+          "Blog",
+          "Ecosystem"
+        ],
+        "commands": [],
+        "keywords": [
+          "ai",
+          "getting started & staying tuned with us.",
+          "what is affine",
+          "features",
+          "acknowledgement"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://render.com/images/deploy-to-render-button.svg",
+        "thumbUrl": "https://render.com/images/deploy-to-render-button.svg",
+        "alt": "Deploy to Render",
+        "sourceUrl": "https://render.com/images/deploy-to-render-button.svg",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.7,
+        "method": "rules",
+        "reasons": [
+          "Matched ai"
+        ],
+        "signals": [
+          "ai"
+        ]
+      },
+      "rank": {
+        "globalRank": 14,
+        "categoryRank": 14,
+        "score": 92
+      }
+    },
+    {
+      "id": "xiaoyouchr-ghost-downloader-3",
+      "owner": "XiaoYouChR",
+      "name": "Ghost-Downloader-3",
+      "url": "https://github.com/XiaoYouChR/Ghost-Downloader-3",
+      "avatarUrl": "https://github.com/XiaoYouChR.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 15,
+        "starsGained": 690
+      },
+      "metadata": {
+        "description": "The only downloader you need. 下载器的集大成者。",
+        "language": "Python",
+        "topics": [],
+        "stars": 15028,
+        "forks": 902,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Python"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/XiaoYouChR/Ghost-Downloader-3/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "see which files the torrent contains",
+        "summary": "Fast where it matters. Every downloader is fast on a good connection. The real test is a bad one. Smart chunking without file merging. Auto-detects bandwidth. Real-browser TLS fingerprints, invisible to anti-bot checks. One app instead of five. Everything in one place, nothing watered down. HTTP, Magnet/BT, FTP, M3U8, MPEG-DASH, eD2k. YouTube and Bilibili with clip selection, any quality and subtitles, playlists and multi-part episodes. GitHub and HuggingFace with mirror acceleration. See it. Sniff it. Download it. A download button follows the video, any quality you want. The extension popup lists every medium on the page. Click it there, or just download as you normally would, the desktop ",
+        "headings": [
+          "The only downloader you need",
+          "Features",
+          "About The Project",
+          "Screenshots",
+          "Translation",
+          "Command Line",
+          "see which files the torrent contains",
+          "download only files 0 and 3 into ./downloads"
+        ],
+        "commands": [],
+        "keywords": [
+          "the only downloader you need",
+          "features",
+          "about the project",
+          "screenshots"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://github.com/user-attachments/assets/6763c9e0-cd5d-450e-80f5-1e22adcff36e",
+        "thumbUrl": "https://github.com/user-attachments/assets/6763c9e0-cd5d-450e-80f5-1e22adcff36e",
+        "alt": "Demo",
+        "sourceUrl": "https://github.com/user-attachments/assets/6763c9e0-cd5d-450e-80f5-1e22adcff36e",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "unclassified",
+        "secondaryCategoryIds": [],
+        "confidence": 0.4,
+        "method": "rules",
+        "reasons": [
+          "No taxonomy rule matched with enough confidence"
+        ],
+        "signals": []
+      },
+      "rank": {
+        "globalRank": 15,
+        "categoryRank": 15,
+        "score": 90
+      }
+    },
+    {
+      "id": "zhouxiaoka-autoclip",
+      "owner": "zhouxiaoka",
+      "name": "autoclip",
+      "url": "https://github.com/zhouxiaoka/autoclip",
+      "avatarUrl": "https://github.com/zhouxiaoka.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 16,
+        "starsGained": 640
+      },
+      "metadata": {
+        "description": "AutoClip｜一个链接，一键出片。开源 AI 视频剪辑桌面工具，将播客、访谈、课程等长视频自动剪成短视频，生成字幕、封面和发布文案，适配抖音、小红书、TikTok、Reels 与 YouTube Shorts。Open-source AI video clipping & content repurposing.",
+        "language": "Python",
+        "topics": [],
+        "stars": 13358,
+        "forks": 2116,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Python"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/zhouxiaoka/autoclip/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "AutoClip",
+        "summary": "开源，在你的电脑上剪辑与渲染。贴一个链接，选好平台，生成 视频、封面和发布文案 ， 适配抖音、小红书、TikTok、Reels、YouTube Shorts、B 站与 YouTube。 软件免费，云端模型按量计费；需要调整时可进入编辑器。 简体中文 · README-EN.md · README-JA.md · README-KO.md · README-ES.md · README-PT.md · README-RU.md · README-FR.md 点击截图或「播放」直接观看完整成片；下方语言指成片字幕语言。这里精选 6 条，展开可看另外 10 条。 Bill Gates 访谈式 · 抖音 · 中文 ▶ 播放 1:01 · 原片 AI Experts Debate 访谈式 · Shorts · 英文 ▶ 播放 1:25 · 原片 Tony Robbins 满屏播客 · 抖音 · 中文 ▶ 播放 1:45 · 原片 Andrew Garfield × Amy Poehler 满屏播客 · Shorts · 英文 ▶ 播放 1:01 · 原片 佟丽娅 × 鲁豫 原画幅 · B 站 · 中文 ▶ 播放 1:41 · 原片 Sam Altman 原画幅 · B 站 · 中文 ▶ 播放 2:02 · 原片 Adam Neumann 满屏播客 · TikTok · 英文 ▶ 播放 0:59 · 原片 小奇 × 鲁豫 访谈式 · 抖音 · 中文 ▶ 播放 0:50 · 原片 郭柯宇 × 鲁豫 访谈式 · 抖音 · 中文 ▶ 播放 1:11 · 原片 Willem Dafoe 满屏播客 ",
+        "headings": [
+          "AutoClip",
+          "一个链接，一键出片",
+          "真实成片",
+          "竖版 · 访谈式与满屏播客式",
+          "横版 · 保留原画幅",
+          "能做什么",
+          "贴链接就出片",
+          "成片自己会包装"
+        ],
+        "commands": [
+          "pip install -r requirements.txt",
+          "pip install --force-reinstall --no-deps autoclip_mcp-*-py3-none-any.whl",
+          "pip install -r requirements.txt",
+          "pip install --no-deps ."
+        ],
+        "keywords": [
+          "ai",
+          "autoclip",
+          "一个链接，一键出片",
+          "真实成片",
+          "竖版 · 访谈式与满屏播客式"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/zhouxiaoka/autoclip/main/src-tauri/icons/128x128.png",
+        "thumbUrl": "https://raw.githubusercontent.com/zhouxiaoka/autoclip/main/src-tauri/icons/128x128.png",
+        "alt": "AutoClip",
+        "sourceUrl": "https://raw.githubusercontent.com/zhouxiaoka/autoclip/main/src-tauri/icons/128x128.png",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.7,
+        "method": "rules",
+        "reasons": [
+          "Matched ai"
+        ],
+        "signals": [
+          "ai"
+        ]
+      },
+      "rank": {
+        "globalRank": 16,
+        "categoryRank": 16,
+        "score": 88
+      }
+    }
+  ],
+  "views": [
+    {
+      "id": "ai",
+      "type": "category",
+      "label": "AI",
+      "categoryId": "ai",
+      "repoIds": [
+        "obra-superpowers",
+        "hkuds-cli-anything",
+        "jingyaogong-minimind",
+        "firecrawl-firecrawl",
+        "cathrynlavery-diagram-design",
+        "mvanhorn-last30days-skill",
+        "openvinotoolkit-openvino",
+        "google-labs-code-stitch-skills",
+        "mjmirza-app-store-compliance",
+        "tracer-cloud-opensre",
+        "toeverything-affine",
+        "zhouxiaoka-autoclip"
+      ],
+      "sort": "score"
+    },
+    {
+      "id": "unclassified",
+      "type": "review",
+      "label": "Needs Review",
+      "categoryId": "unclassified",
+      "repoIds": [
+        "elementalsouls-claude-bughunter",
+        "cursor-plugins",
+        "nginx-nginx",
+        "xiaoyouchr-ghost-downloader-3"
+      ],
+      "sort": "score"
+    }
+  ],
+  "health": {
+    "status": "ok",
+    "candidateCount": 16,
+    "enrichedRepoCount": 16,
+    "unclassifiedRepoCount": 4,
+    "warnings": [
+      "11 repos used README images, 0 used Agnes images, 5 fell back to repository Open Graph covers"
+    ]
+  }
+}

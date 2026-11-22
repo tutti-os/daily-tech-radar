@@ -1,9 +1,9 @@
 {
   "schemaVersion": "trendreader.daily.v1",
-  "packageId": "github-daily-All-2026-11-21",
+  "packageId": "github-daily-All-2026-11-22",
   "locale": "zh-CN",
-  "generatedAt": "2026-11-21T20:16:14.076Z",
-  "expiresAt": "2026-11-22T20:16:14.076Z",
+  "generatedAt": "2026-11-22T20:16:44.952Z",
+  "expiresAt": "2026-11-23T20:16:44.952Z",
   "sourceWindow": {
     "since": "daily",
     "language": "All",
@@ -18,8 +18,8 @@
     }
   ],
   "taxonomy": {
-    "version": "2026-11-21",
-    "generatedAt": "2026-11-21T20:16:14.076Z",
+    "version": "2026-11-22",
+    "generatedAt": "2026-11-22T20:16:44.952Z",
     "categories": [
       {
         "id": "ai",
@@ -69,14 +69,14 @@
       "source": {
         "primary": "github_trending_html",
         "sourceRank": 1,
-        "starsGained": 1794
+        "starsGained": 1721
       },
       "metadata": {
         "description": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
         "language": "Python",
         "topics": [],
-        "stars": 15769,
-        "forks": 1810,
+        "stars": 17488,
+        "forks": 1945,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -146,14 +146,14 @@
       "source": {
         "primary": "github_trending_html",
         "sourceRank": 2,
-        "starsGained": 884
+        "starsGained": 785
       },
       "metadata": {
         "description": "An agentic skills framework & software development methodology that works.",
         "language": "Shell",
         "topics": [],
-        "stars": 323610,
-        "forks": 28708,
+        "stars": 324052,
+        "forks": 28755,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -226,14 +226,14 @@
       "source": {
         "primary": "github_trending_html",
         "sourceRank": 3,
-        "starsGained": 767
+        "starsGained": 687
       },
       "metadata": {
         "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
         "language": "Python",
         "topics": [],
-        "stars": 61969,
-        "forks": 5611,
+        "stars": 62675,
+        "forks": 5684,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -313,14 +313,14 @@
       "source": {
         "primary": "github_trending_html",
         "sourceRank": 4,
-        "starsGained": 488
+        "starsGained": 473
       },
       "metadata": {
         "description": "🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours.",
         "language": "Python",
         "topics": [],
-        "stars": 68088,
-        "forks": 8902,
+        "stars": 68576,
+        "forks": 8971,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -338,14 +338,14 @@
         "title": "📌 项目介绍",
         "summary": "此开源项目旨在完全从 0 开始，仅用 3 块钱成本与 2 小时训练时间，即可训练出规模约为 64M 的超小语言模型 MiniMind。 MiniMind 系列极其轻量，主线最小版本体积约为 GPT-3 的 $\\frac{1}{2700}$，力求让普通个人 GPU 也能快速完成训练与复现。 项目同时开源了大模型的极简结构与完整训练链路，覆盖 MoE、数据清洗、预训练（Pretrain）、监督微调（SFT）、LoRA、RLHF（DPO）、RLAIF（PPO / GRPO / CISPO）、Tool Use、Agentic RL、自适应思考与模型蒸馏等全过程代码。 MiniMind 同时拓展了视觉模态模型 https://github.com/jingyaogong/minimind-v、多模态 Omni 模型 https://github.com/jingyaogong/minimind-o、扩散语言模型（MiniMind-dLM）、线性模型（MiniMind-Linear），详见 https://github.com/jingyaogong/minimind/discussions。 项目所有核心算法代码均从 0 使用 PyTorch 原生实现，不依赖第三方库提供的高层抽象接口。 这不仅是一个大语言模型全阶段开源复现项目，也是一套面向 LLM 入门与实践的教程。 希望此项目能为更多人提供一个可复现、可理解、可扩展的起点，一起感受创造的乐趣，并推动更广泛 AI 社区的进步。",
         "headings": [
+          "❤️ 赞助",
           "📌 项目介绍",
           "📌 快速开始",
           "第0步",
           "克隆仓库、安装依赖",
           "Ⅰ 🚀 模型推理",
           "1' 下载模型",
-          "方式1",
-          "方式2"
+          "方式1"
         ],
         "commands": [
           "pip install -r requirements.txt -i https://mirrors.aliyun.com/pypi/simple",
@@ -355,10 +355,10 @@
         "keywords": [
           "ai",
           "llm",
+          "❤️ 赞助",
           "📌 项目介绍",
           "📌 快速开始",
-          "第0步",
-          "克隆仓库、安装依赖"
+          "第0步"
         ],
         "score": 100
       },
@@ -400,14 +400,14 @@
       "source": {
         "primary": "github_trending_html",
         "sourceRank": 5,
-        "starsGained": 261
+        "starsGained": 301
       },
       "metadata": {
         "description": "Cursor plugin specification and official plugins",
         "language": "TypeScript",
         "topics": [],
-        "stars": 18062,
-        "forks": 1972,
+        "stars": 18395,
+        "forks": 1999,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -423,7 +423,7 @@
       },
       "readmeSignals": {
         "title": "Cursor plugins",
-        "summary": "Cursor plugin specification and official plugins",
+        "summary": "Official Cursor plugins for popular developer tools, frameworks, and SaaS products. Each plugin is a standalone directory at the repository root with its own .cursor-plugin/plugin.json manifest. | name | Plugin | Author | Category | description from marketplace | | teaching | teaching/ | Cursor | Utilities | Skill mapping, practice plans, and learning retrospectives. | | continual-learning | continual-learning/ | Eric Zakariasson | Developer Tools | Incremental transcript-driven memory updates for AGENTS.md using high-signal bullet points only. | | cursor-team-kit | cursor-team-kit/ | Eric Zakariasson | Developer Tools | Internal team workflows for CI, code review, shipping, local automation",
         "headings": [
           "Cursor plugins",
           "Plugins",
@@ -431,7 +431,12 @@
           "License"
         ],
         "commands": [],
-        "keywords": [],
+        "keywords": [
+          "cursor plugins",
+          "plugins",
+          "repository structure",
+          "license"
+        ],
         "score": 80
       },
       "visual": {
@@ -468,14 +473,14 @@
       "source": {
         "primary": "github_trending_html",
         "sourceRank": 6,
-        "starsGained": 999
+        "starsGained": 910
       },
       "metadata": {
         "description": "Knowledge infrastructure to make your agents smarter. Search, scrape and access 550+ data providers through one API.",
         "language": "TypeScript",
         "topics": [],
-        "stars": 206038,
-        "forks": 10771,
+        "stars": 206887,
+        "forks": 10811,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -552,14 +557,14 @@
       "source": {
         "primary": "github_trending_html",
         "sourceRank": 7,
-        "starsGained": 195
+        "starsGained": 168
       },
       "metadata": {
         "description": "The official NGINX Open Source repository.",
         "language": "C",
         "topics": [],
-        "stars": 32706,
-        "forks": 8373,
+        "stars": 32859,
+        "forks": 8381,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -616,7 +621,7 @@
       "rank": {
         "globalRank": 7,
         "categoryRank": 7,
-        "score": 105.5
+        "score": 102.8
       }
     },
     {
@@ -629,14 +634,14 @@
       "source": {
         "primary": "github_trending_html",
         "sourceRank": 8,
-        "starsGained": 202
+        "starsGained": 155
       },
       "metadata": {
         "description": "OpenVINO™ is an open source toolkit for optimizing and deploying AI inference",
         "language": "C++",
         "topics": [],
-        "stars": 11902,
-        "forks": 3648,
+        "stars": 12068,
+        "forks": 3656,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -698,7 +703,7 @@
       "rank": {
         "globalRank": 8,
         "categoryRank": 8,
-        "score": 104
+        "score": 99.5
       }
     },
     {
@@ -711,14 +716,14 @@
       "source": {
         "primary": "github_trending_html",
         "sourceRank": 9,
-        "starsGained": 582
+        "starsGained": 513
       },
       "metadata": {
         "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 45 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
         "language": "HTML",
         "topics": [],
-        "stars": 69741,
-        "forks": 4685,
+        "stars": 70218,
+        "forks": 4712,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -793,14 +798,14 @@
       "source": {
         "primary": "github_trending_html",
         "sourceRank": 10,
-        "starsGained": 566
+        "starsGained": 673
       },
       "metadata": {
         "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
         "language": "Python",
         "topics": [],
-        "stars": 71897,
-        "forks": 6371,
+        "stars": 72602,
+        "forks": 6419,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -876,14 +881,14 @@
       "source": {
         "primary": "github_trending_html",
         "sourceRank": 11,
-        "starsGained": 324
+        "starsGained": 516
       },
       "metadata": {
         "description": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
         "language": "TypeScript",
         "topics": [],
-        "stars": 11354,
-        "forks": 1431,
+        "stars": 11853,
+        "forks": 1472,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -959,14 +964,14 @@
       "source": {
         "primary": "github_trending_html",
         "sourceRank": 12,
-        "starsGained": 724
+        "starsGained": 617
       },
       "metadata": {
-        "description": "Avoid common App Store and Google Play rejections. Open playbook and pre-submission guard with 117 documented rejection patterns and fixes, privacy manifest and Data safety checks, 95 tracked deadlines (EU AI Act, DSA, COPPA, age laws), and a skill for AI coding agents.",
+        "description": "Avoid common App Store and Google Play rejections. Open playbook and pre-submission guard with 124 documented rejection patterns and fixes, privacy manifest and Data safety checks, 112 tracked deadlines (EU AI Act, DSA, COPPA, age laws), and a skill for AI coding agents.",
         "language": "Shell",
         "topics": [],
-        "stars": 3293,
-        "forks": 204,
+        "stars": 3880,
+        "forks": 234,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -982,7 +987,7 @@
       },
       "readmeSignals": {
         "title": "App Store Compliance Playbook",
-        "summary": "Stop getting your iOS and Android apps rejected. The enterprise reference and automated guard that turns App Store and Google Play rejection into a designed out failure mode. Read it as a website at https://mjmirza.github.io/app-store-compliance/. If this saves you even one rejection, leave a star, fork it, and follow along. That is the whole ask. Pick one row. The time shown is for that first step. | You are | Do this first | Time | | About to submit, and you can open a terminal | Run the two commands below | 2 minutes | | Already rejected | Open docs/MISTAKE-PATTERNS.mdthe-appeal-playbook | 10 minutes | | Not a developer | Open docs/PRE-SUBMISSION-CHECKLIST.md and do its first two checks |",
+        "summary": "Catch App Store and Google Play rejection causes before the reviewer does. A reference and a pre-submission guard for iOS and Android apps that is plain about what a scan can prove and what still needs a person. It does not guarantee approval. Read it as a website at https://mjmirza.github.io/app-store-compliance/. If this saves you even one rejection, leave a star, fork it, and follow along. That is the whole ask. Pick one row. The time shown is for that first step. | You are | Do this first | Time | | About to submit, and you can open a terminal | Run the two commands below | 2 minutes | | Already rejected | Open docs/MISTAKE-PATTERNS.mdthe-appeal-playbook | 10 minutes | | Not a developer ",
         "headings": [
           "App Store Compliance Playbook",
           "Start here",
@@ -1042,14 +1047,14 @@
       "source": {
         "primary": "github_trending_html",
         "sourceRank": 13,
-        "starsGained": 450
+        "starsGained": 395
       },
       "metadata": {
         "description": "The open-source agent for CI/CD reliability.",
         "language": "Python",
         "topics": [],
-        "stars": 13922,
-        "forks": 1942,
+        "stars": 14339,
+        "forks": 1961,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -1122,14 +1127,14 @@
       "source": {
         "primary": "github_trending_html",
         "sourceRank": 14,
-        "starsGained": 577
+        "starsGained": 537
       },
       "metadata": {
         "description": "There can be more than Notion and Miro. AFFiNE(pronounced [ə‘fain]) is a next-gen knowledge base that brings planning, sorting and creating all together. Privacy first, open-source, customizable and ready to use.",
         "language": "TypeScript",
         "topics": [],
-        "stars": 76195,
-        "forks": 5592,
+        "stars": 76735,
+        "forks": 5613,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -1202,14 +1207,14 @@
       "source": {
         "primary": "github_trending_html",
         "sourceRank": 15,
-        "starsGained": 774
+        "starsGained": 690
       },
       "metadata": {
         "description": "The only downloader you need. 下载器的集大成者。",
         "language": "Python",
         "topics": [],
-        "stars": 14354,
-        "forks": 874,
+        "stars": 15028,
+        "forks": 902,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -1279,14 +1284,14 @@
       "source": {
         "primary": "github_trending_html",
         "sourceRank": 16,
-        "starsGained": 689
+        "starsGained": 640
       },
       "metadata": {
         "description": "AutoClip｜一个链接，一键出片。开源 AI 视频剪辑桌面工具，将播客、访谈、课程等长视频自动剪成短视频，生成字幕、封面和发布文案，适配抖音、小红书、TikTok、Reels 与 YouTube Shorts。Open-source AI video clipping & content repurposing.",
         "language": "Python",
         "topics": [],
-        "stars": 12761,
-        "forks": 2069,
+        "stars": 13358,
+        "forks": 2116,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -1366,9 +1371,9 @@
         "hkuds-cli-anything",
         "jingyaogong-minimind",
         "firecrawl-firecrawl",
-        "openvinotoolkit-openvino",
         "cathrynlavery-diagram-design",
         "mvanhorn-last30days-skill",
+        "openvinotoolkit-openvino",
         "google-labs-code-stitch-skills",
         "mjmirza-app-store-compliance",
         "tracer-cloud-opensre",
