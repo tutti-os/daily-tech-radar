@@ -1,9 +1,9 @@
 {
   "schemaVersion": "trendreader.daily.v1",
-  "packageId": "github-daily-All-2026-11-25",
+  "packageId": "github-daily-All-2026-11-26",
   "locale": "zh-CN",
-  "generatedAt": "2026-11-25T20:16:44.907Z",
-  "expiresAt": "2026-11-26T20:16:44.907Z",
+  "generatedAt": "2026-11-26T20:17:03.981Z",
+  "expiresAt": "2026-11-27T20:17:03.981Z",
   "sourceWindow": {
     "since": "daily",
     "language": "All",
@@ -18,8 +18,8 @@
     }
   ],
   "taxonomy": {
-    "version": "2026-11-25",
-    "generatedAt": "2026-11-25T20:16:44.907Z",
+    "version": "2026-11-26",
+    "generatedAt": "2026-11-26T20:17:03.981Z",
     "categories": [
       {
         "id": "ai",
@@ -69,14 +69,14 @@
       "source": {
         "primary": "github_trending_html",
         "sourceRank": 1,
-        "starsGained": 1644
+        "starsGained": 1600
       },
       "metadata": {
-        "description": "A Claude Code skill bundle for bug hunting and external red-team work - 84 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
+        "description": "A Claude Code skill bundle for bug hunting and external red-team work - 85 skills, 16 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
         "language": "Python",
         "topics": [],
-        "stars": 22769,
-        "forks": 2337,
+        "stars": 24331,
+        "forks": 2475,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -92,7 +92,7 @@
       },
       "readmeSignals": {
         "title": "claude-bughunter",
-        "summary": "A self-contained Claude skill bundle for bug hunting and external red-team work · 84 skills · 15 slash commands · 681 disclosed-report patterns 433 now individually cited & auditable across 24 core vulnerability classes · enterprise identity + infrastructure attack matrices · engagement-folder scaffolding · Burp MCP integration · battle-tested across authorized red-team and bug-hunting engagements, plus public training platforms DVWA, OWASP Juice Shop, Hacker101, testphp.vulnweb.com. Built by https://www.linkedin.com/in/sachinsharma8080/ — Bug Hunting & GenAI Security Research.",
+        "summary": "A self-contained Claude skill bundle for bug hunting and external red-team work · 85 skills · 16 slash commands · 681 disclosed-report patterns 433 now individually cited & auditable across 24 core vulnerability classes · enterprise identity + infrastructure attack matrices · engagement-folder scaffolding · Burp MCP integration · battle-tested across authorized red-team and bug-hunting engagements, plus public training platforms DVWA, OWASP Juice Shop, Hacker101, testphp.vulnweb.com. Built by https://www.linkedin.com/in/sachinsharma8080/ — Bug Hunting & GenAI Security Research.",
         "headings": [
           "claude-bughunter",
           "What is this?",
@@ -146,14 +146,14 @@
       "source": {
         "primary": "github_trending_html",
         "sourceRank": 2,
-        "starsGained": 902
+        "starsGained": 853
       },
       "metadata": {
         "description": "An agentic skills framework & software development methodology that works.",
         "language": "Shell",
         "topics": [],
-        "stars": 326503,
-        "forks": 28969,
+        "stars": 327351,
+        "forks": 29029,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -226,14 +226,14 @@
       "source": {
         "primary": "github_trending_html",
         "sourceRank": 3,
-        "starsGained": 1094
+        "starsGained": 744
       },
       "metadata": {
         "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
         "language": "Python",
         "topics": [],
-        "stars": 65575,
-        "forks": 5959,
+        "stars": 66256,
+        "forks": 6022,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -313,14 +313,14 @@
       "source": {
         "primary": "github_trending_html",
         "sourceRank": 4,
-        "starsGained": 828
+        "starsGained": 701
       },
       "metadata": {
         "description": "🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours.",
         "language": "Python",
         "topics": [],
-        "stars": 70880,
-        "forks": 9212,
+        "stars": 71571,
+        "forks": 9291,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -400,14 +400,14 @@
       "source": {
         "primary": "github_trending_html",
         "sourceRank": 5,
-        "starsGained": 408
+        "starsGained": 268
       },
       "metadata": {
         "description": "Cursor plugin specification and official plugins",
         "language": "TypeScript",
         "topics": [],
-        "stars": 19498,
-        "forks": 2103,
+        "stars": 19755,
+        "forks": 2136,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -473,14 +473,14 @@
       "source": {
         "primary": "github_trending_html",
         "sourceRank": 6,
-        "starsGained": 1131
+        "starsGained": 1042
       },
       "metadata": {
         "description": "Knowledge infrastructure to make your agents smarter. Search, scrape and access 550+ data providers through one API.",
         "language": "TypeScript",
         "topics": [],
-        "stars": 209888,
-        "forks": 10976,
+        "stars": 210816,
+        "forks": 11045,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -557,14 +557,14 @@
       "source": {
         "primary": "github_trending_html",
         "sourceRank": 7,
-        "starsGained": 174
+        "starsGained": 150
       },
       "metadata": {
         "description": "The official NGINX Open Source repository.",
         "language": "C",
         "topics": [],
-        "stars": 33338,
-        "forks": 8405,
+        "stars": 33501,
+        "forks": 8417,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -621,7 +621,7 @@
       "rank": {
         "globalRank": 7,
         "categoryRank": 7,
-        "score": 103.4
+        "score": 101
       }
     },
     {
@@ -634,14 +634,14 @@
       "source": {
         "primary": "github_trending_html",
         "sourceRank": 8,
-        "starsGained": 188
+        "starsGained": 176
       },
       "metadata": {
         "description": "OpenVINO™ is an open source toolkit for optimizing and deploying AI inference",
         "language": "C++",
         "topics": [],
-        "stars": 12625,
-        "forks": 3707,
+        "stars": 12793,
+        "forks": 3729,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -703,7 +703,7 @@
       "rank": {
         "globalRank": 8,
         "categoryRank": 8,
-        "score": 102.8
+        "score": 101.6
       }
     },
     {
@@ -716,14 +716,14 @@
       "source": {
         "primary": "github_trending_html",
         "sourceRank": 9,
-        "starsGained": 1133
+        "starsGained": 951
       },
       "metadata": {
         "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 52 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
         "language": "HTML",
         "topics": [],
-        "stars": 72889,
-        "forks": 4849,
+        "stars": 73749,
+        "forks": 4919,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -798,14 +798,14 @@
       "source": {
         "primary": "github_trending_html",
         "sourceRank": 10,
-        "starsGained": 950
+        "starsGained": 755
       },
       "metadata": {
         "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
         "language": "Python",
         "topics": [],
-        "stars": 75002,
-        "forks": 6607,
+        "stars": 75647,
+        "forks": 6671,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -881,14 +881,14 @@
       "source": {
         "primary": "github_trending_html",
         "sourceRank": 11,
-        "starsGained": 352
+        "starsGained": 308
       },
       "metadata": {
         "description": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
         "language": "TypeScript",
         "topics": [],
-        "stars": 12932,
-        "forks": 1535,
+        "stars": 13240,
+        "forks": 1560,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -964,14 +964,14 @@
       "source": {
         "primary": "github_trending_html",
         "sourceRank": 12,
-        "starsGained": 853
+        "starsGained": 561
       },
       "metadata": {
-        "description": "Avoid common App Store and Google Play rejections. Open playbook and pre-submission guard with 124 documented rejection patterns and fixes, privacy manifest and Data safety checks, 114 tracked deadlines (EU AI Act, DSA, COPPA, age laws), and a skill for AI coding agents.",
+        "description": "Avoid common App Store and Google Play rejections. Open playbook and pre-submission guard with 125 documented rejection patterns and fixes, privacy manifest and Data safety checks, 117 tracked deadlines (EU AI Act, DSA, COPPA, age laws), and a skill for AI coding agents.",
         "language": "Shell",
         "topics": [],
-        "stars": 6402,
-        "forks": 411,
+        "stars": 6942,
+        "forks": 461,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -1047,14 +1047,14 @@
       "source": {
         "primary": "github_trending_html",
         "sourceRank": 13,
-        "starsGained": 343
+        "starsGained": 325
       },
       "metadata": {
         "description": "The open-source agent for CI/CD reliability.",
         "language": "Python",
         "topics": [],
-        "stars": 15472,
-        "forks": 2027,
+        "stars": 15762,
+        "forks": 2053,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -1127,14 +1127,14 @@
       "source": {
         "primary": "github_trending_html",
         "sourceRank": 14,
-        "starsGained": 578
+        "starsGained": 521
       },
       "metadata": {
         "description": "There can be more than Notion and Miro. AFFiNE(pronounced [ə‘fain]) is a next-gen knowledge base that brings planning, sorting and creating all together. Privacy first, open-source, customizable and ready to use.",
         "language": "TypeScript",
         "topics": [],
-        "stars": 78400,
-        "forks": 5717,
+        "stars": 78891,
+        "forks": 5744,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -1207,14 +1207,14 @@
       "source": {
         "primary": "github_trending_html",
         "sourceRank": 15,
-        "starsGained": 950
+        "starsGained": 887
       },
       "metadata": {
         "description": "The only downloader you need. 下载器的集大成者。",
         "language": "Python",
         "topics": [],
-        "stars": 18139,
-        "forks": 1081,
+        "stars": 19009,
+        "forks": 1144,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -1230,7 +1230,7 @@
       },
       "readmeSignals": {
         "title": "see which files the torrent contains",
-        "summary": "Fast where it matters. Every downloader is fast on a good connection. The real test is a bad one. Smart chunking without file merging. Auto-detects bandwidth. Real-browser TLS fingerprints, invisible to anti-bot checks. One app instead of five. Everything in one place, nothing watered down. HTTP, Magnet/BT, FTP, M3U8, MPEG-DASH, eD2k. YouTube and Bilibili with clip selection, any quality and subtitles, playlists and multi-part episodes. GitHub and HuggingFace with mirror acceleration. See it. Sniff it. Download it. A download button follows the video, any quality you want. The extension popup lists every medium on the page. Click it there, or just download as you normally would, the desktop ",
+        "summary": "Sponsor Swiftproxy – Premium Global Residential Proxy Network Swiftproxy provides 90M+ real residential IPs across 220+ locations worldwide, helping users access global content and manage location-specific network connections. With rotating and static residential proxies, flexible geo-targeting, and HTTPS/SOCKS5 support, Swiftproxy is ideal for cross-region downloads, network testing, and browser automation. Free testing available, with 10% off using code PROXY90 . IPStar is a professional provider of global residential IP proxy solutions. We own legally sourced, clean residential IP resources across more than 190 countries and regions worldwide, with a total pool of over 90 million IPs that",
         "headings": [
           "The only downloader you need",
           "Features",
@@ -1284,14 +1284,14 @@
       "source": {
         "primary": "github_trending_html",
         "sourceRank": 16,
-        "starsGained": 868
+        "starsGained": 770
       },
       "metadata": {
-        "description": "AutoClip｜一个链接，一键出片。开源 AI 视频剪辑桌面工具，将播客、访谈、课程等长视频自动剪成短视频，生成字幕、封面和发布文案，适配抖音、小红书、TikTok、Reels 与 YouTube Shorts。Open-source AI video clipping & content repurposing.",
+        "description": "AutoClip｜The open-source OpusClip alternative — local-first AI clipping & MCP server, zero subscriptions. 一个链接，一键出片。开源 AI 视频剪辑桌面工具，将播客、访谈、课程等长视频自动剪成短视频，生成字幕、封面和发布文案，适配抖音、小红书、TikTok、Reels 与 YouTube Shorts。",
         "language": "Python",
         "topics": [],
-        "stars": 16083,
-        "forks": 2322,
+        "stars": 16850,
+        "forks": 2376,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -1307,7 +1307,7 @@
       },
       "readmeSignals": {
         "title": "AutoClip",
-        "summary": "Turn any video, link, or live stream into ready-to-post clips. Open-source, local-first AI clipping for podcasts, interviews, and gaming streams — with smart reframing, captions, covers, and titles built in. Website &nbsp;&middot;&nbsp; Download &nbsp;&middot;&nbsp; Live Replays v1.6 &nbsp;&middot;&nbsp; Showcase &nbsp;&middot;&nbsp; Quick Start &nbsp;&middot;&nbsp; Docs &nbsp;&middot;&nbsp; Issues English · 简体中文 · 繁體中文 · 日本語 · 한국어 · Español · Português · Русский · Français · Bahasa Indonesia · Türkçe · Tiếng Việt · Deutsch ⭐ Free, MIT-licensed, zero subscriptions — everything cuts and renders on your machine. Star the repo if you find it useful!",
+        "summary": "Turn any video, link, or live stream into ready-to-post clips. The open-source OpusClip alternative — local-first AI clipping for podcasts, interviews, and gaming streams with smart reframing, captions, covers, titles, and built-in MCP for AI agents. Zero subscriptions, no paywall. Website &nbsp;&middot;&nbsp; Download &nbsp;&middot;&nbsp; Live Replays v1.6 &nbsp;&middot;&nbsp; Showcase &nbsp;&middot;&nbsp; Quick Start &nbsp;&middot;&nbsp; Docs &nbsp;&middot;&nbsp; Issues English · 简体中文 · 繁體中文 · 日本語 · 한국어 · Español · Português · Русский · Français · Bahasa Indonesia · Türkçe · Tiếng Việt · Deutsch",
         "headings": [
           "AutoClip",
           "Turn any video, link, or live stream into ready-to-post clips.",
@@ -1325,6 +1325,7 @@
         ],
         "keywords": [
           "ai",
+          "mcp",
           "autoclip",
           "turn any video, link, or live stream into ready-to-post clips.",
           "overview",
@@ -1343,13 +1344,15 @@
       "classification": {
         "primaryCategoryId": "ai",
         "secondaryCategoryIds": [],
-        "confidence": 0.7,
+        "confidence": 0.8,
         "method": "rules",
         "reasons": [
-          "Matched ai"
+          "Matched ai",
+          "Matched mcp"
         ],
         "signals": [
-          "ai"
+          "ai",
+          "mcp"
         ]
       },
       "rank": {
@@ -1370,8 +1373,8 @@
         "hkuds-cli-anything",
         "jingyaogong-minimind",
         "firecrawl-firecrawl",
-        "openvinotoolkit-openvino",
         "cathrynlavery-diagram-design",
+        "openvinotoolkit-openvino",
         "mvanhorn-last30days-skill",
         "google-labs-code-stitch-skills",
         "mjmirza-app-store-compliance",
